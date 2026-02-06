@@ -1,0 +1,1921 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EDToYjERJwmJwCx8YVHpX4+gZSQ</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=250&amp;max_results=50</title>
+  <updated>2026-02-06T21:42:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=250&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>250</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.05013v1</id>
+    <title>Machine Learning for Glacier Monitoring in the Hindu Kush Himalaya</title>
+    <updated>2020-12-09T12:48:06Z</updated>
+    <link href="https://arxiv.org/abs/2012.05013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.05013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Glacier mapping is key to ecological monitoring in the hkh region. Climate change poses a risk to individuals whose livelihoods depend on the health of glacier ecosystems. In this work, we present a machine learning based approach to support ecological monitoring, with a focus on glaciers. Our approach is based on semi-automated mapping from satellite images. We utilize readily available remote sensing data to create a model to identify and outline both clean ice and debris-covered glaciers from satellite imagery. We also release data and develop a web tool that allows experts to visualize and correct model predictions, with the ultimate aim of accelerating the glacier mapping process.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-09T12:48:06Z</published>
+    <arxiv:comment>Accepted for a spotlight talk and a poster at the Tackling Climate Change with Machine Learning workshop at NeurIPS 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shimaa Baraka</name>
+    </author>
+    <author>
+      <name>Benjamin Akera</name>
+    </author>
+    <author>
+      <name>Bibek Aryal</name>
+    </author>
+    <author>
+      <name>Tenzing Sherpa</name>
+    </author>
+    <author>
+      <name>Finu Shresta</name>
+    </author>
+    <author>
+      <name>Anthony Ortiz</name>
+    </author>
+    <author>
+      <name>Kris Sankaran</name>
+    </author>
+    <author>
+      <name>Juan Lavista Ferres</name>
+    </author>
+    <author>
+      <name>Mir Matin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.15091v4</id>
+    <title>Inductive Biases for Deep Learning of Higher-Level Cognition</title>
+    <updated>2022-08-01T13:58:56Z</updated>
+    <link href="https://arxiv.org/abs/2011.15091v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.15091v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fascinating hypothesis is that human and animal intelligence could be explained by a few principles (rather than an encyclopedic list of heuristics). If that hypothesis was correct, we could more easily both understand our own intelligence and build intelligent machines. Just like in physics, the principles themselves would not be sufficient to predict the behavior of complex systems like brains, and substantial computation might be needed to simulate human-like intelligence. This hypothesis would suggest that studying the kind of inductive biases that humans and animals exploit could help both clarify these principles and provide inspiration for AI research and neuroscience theories. Deep learning already exploits several key inductive biases, and this work considers a larger list, focusing on those which concern mostly higher-level and sequential conscious processing. The objective of clarifying these particular principles is that they could potentially help us build AI systems benefiting from humans' abilities in terms of flexible out-of-distribution and systematic generalization, which is currently an area where a large gap exists between state-of-the-art machine learning and human intelligence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-30T18:29:25Z</published>
+    <arxiv:comment>This document contains a review of authors research as part of the requirement of AG's predoctoral exam, an overview of the main contributions of the authors few recent papers (co-authored with several other co-authors) as well as a vision of proposed future research</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.13042v1</id>
+    <title>RetroGNN: Approximating Retrosynthesis by Graph Neural Networks for De Novo Drug Design</title>
+    <updated>2020-11-25T22:04:16Z</updated>
+    <link href="https://arxiv.org/abs/2011.13042v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.13042v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>De novo molecule generation often results in chemically unfeasible molecules. A natural idea to mitigate this problem is to bias the search process towards more easily synthesizable molecules using a proxy for synthetic accessibility. However, using currently available proxies still results in highly unrealistic compounds. We investigate the feasibility of training deep graph neural networks to approximate the outputs of a retrosynthesis planning software, and their use to bias the search process. We evaluate our method on a benchmark involving searching for drug-like molecules with antibiotic properties. Compared to enumerating over five million existing molecules from the ZINC database, our approach finds molecules predicted to be more likely to be antibiotics while maintaining good drug-like properties and being easily synthesizable. Importantly, our deep neural network can successfully filter out hard to synthesize molecules while achieving a $10^5$ times speed-up over using the retrosynthesis planning software.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-25T22:04:16Z</published>
+    <arxiv:comment>Machine Learning for Molecules Workshop at NeurIPS 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cheng-Hao Liu</name>
+    </author>
+    <author>
+      <name>Maksym Korablyov</name>
+    </author>
+    <author>
+      <name>Stanisław Jastrzębski</name>
+    </author>
+    <author>
+      <name>Paweł Włodarczyk-Pruszyński</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Marwin H. S. Segler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.09468v4</id>
+    <title>Gradient Starvation: A Learning Proclivity in Neural Networks</title>
+    <updated>2021-11-24T18:24:37Z</updated>
+    <link href="https://arxiv.org/abs/2011.09468v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.09468v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We identify and formalize a fundamental gradient descent phenomenon resulting in a learning proclivity in over-parameterized neural networks. Gradient Starvation arises when cross-entropy loss is minimized by capturing only a subset of features relevant for the task, despite the presence of other predictive features that fail to be discovered. This work provides a theoretical explanation for the emergence of such feature imbalance in neural networks. Using tools from Dynamical Systems theory, we identify simple properties of learning dynamics during gradient descent that lead to this imbalance, and prove that such a situation can be expected given certain statistical structure in training data. Based on our proposed formalism, we develop guarantees for a novel regularization method aimed at decoupling feature learning dynamics, improving accuracy and robustness in cases hindered by gradient starvation. We illustrate our findings with simple and real-world out-of-distribution (OOD) generalization experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-18T18:52:08Z</published>
+    <arxiv:comment>Proceeding of NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohammad Pezeshki</name>
+    </author>
+    <author>
+      <name>Sékou-Oumar Kaba</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.16004v1</id>
+    <title>COVI-AgentSim: an Agent-based Model for Evaluating Methods of Digital Contact Tracing</title>
+    <updated>2020-10-30T00:47:01Z</updated>
+    <link href="https://arxiv.org/abs/2010.16004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.16004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid global spread of COVID-19 has led to an unprecedented demand for effective methods to mitigate the spread of the disease, and various digital contact tracing (DCT) methods have emerged as a component of the solution. In order to make informed public health choices, there is a need for tools which allow evaluation and comparison of DCT methods. We introduce an agent-based compartmental simulator we call COVI-AgentSim, integrating detailed consideration of virology, disease progression, social contact networks, and mobility patterns, based on parameters derived from empirical research. We verify by comparing to real data that COVI-AgentSim is able to reproduce realistic COVID-19 spread dynamics, and perform a sensitivity analysis to verify that the relative performance of contact tracing methods are consistent across a range of settings. We use COVI-AgentSim to perform cost-benefit analyses comparing no DCT to: 1) standard binary contact tracing (BCT) that assigns binary recommendations based on binary test results; and 2) a rule-based method for feature-based contact tracing (FCT) that assigns a graded level of recommendation based on diverse individual features. We find all DCT methods consistently reduce the spread of the disease, and that the advantage of FCT over BCT is maintained over a wide range of adoption rates. Feature-based methods of contact tracing avert more disability-adjusted life years (DALYs) per socioeconomic cost (measured by productive hours lost). Our results suggest any DCT method can help save lives, support re-opening of economies, and prevent second-wave outbreaks, and that FCT methods are a promising direction for enriching BCT using self-reported symptoms, yielding earlier warning signals and a significantly reduced spread of the virus per socioeconomic cost.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-30T00:47:01Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Prateek Gupta</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Martin Weiss</name>
+    </author>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Hannah Alsdurf</name>
+    </author>
+    <author>
+      <name>Abhinav Sharma</name>
+    </author>
+    <author>
+      <name>Nanor Minoyan</name>
+    </author>
+    <author>
+      <name>Soren Harnois-Leblanc</name>
+    </author>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Pierre-Luc St. Charles</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Andrew Williams</name>
+    </author>
+    <author>
+      <name>Akshay Patel</name>
+    </author>
+    <author>
+      <name>Meng Qu</name>
+    </author>
+    <author>
+      <name>Olexa Bilaniuk</name>
+    </author>
+    <author>
+      <name>Gaétan Marceau Caron</name>
+    </author>
+    <author>
+      <name>Pierre Luc Carrier</name>
+    </author>
+    <author>
+      <name>Satya Ortiz-Gagné</name>
+    </author>
+    <author>
+      <name>Marc-Andre Rousseau</name>
+    </author>
+    <author>
+      <name>David Buckeridge</name>
+    </author>
+    <author>
+      <name>Joumana Ghosn</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+    <author>
+      <name>Joanna Merckx</name>
+    </author>
+    <author>
+      <name>Eilif B. Muller</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.12536v1</id>
+    <title>Predicting Infectiousness for Proactive Contact Tracing</title>
+    <updated>2020-10-23T17:06:07Z</updated>
+    <link href="https://arxiv.org/abs/2010.12536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.12536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The COVID-19 pandemic has spread rapidly worldwide, overwhelming manual contact tracing in many countries and resulting in widespread lockdowns for emergency containment. Large-scale digital contact tracing (DCT) has emerged as a potential solution to resume economic and social activity while minimizing spread of the virus. Various DCT methods have been proposed, each making trade-offs between privacy, mobility restrictions, and public health. The most common approach, binary contact tracing (BCT), models infection as a binary event, informed only by an individual's test results, with corresponding binary recommendations that either all or none of the individual's contacts quarantine. BCT ignores the inherent uncertainty in contacts and the infection process, which could be used to tailor messaging to high-risk individuals, and prompt proactive testing or earlier warnings. It also does not make use of observations such as symptoms or pre-existing medical conditions, which could be used to make more accurate infectiousness predictions. In this paper, we use a recently-proposed COVID-19 epidemiological simulator to develop and test methods that can be deployed to a smartphone to locally and proactively predict an individual's infectiousness (risk of infecting others) based on their contact history and other information, while respecting strong privacy constraints. Predictions are used to provide personalized recommendations to the individual via an app, as well as to send anonymized messages to the individual's contacts, who use this information to better predict their own infectiousness, an approach we call proactive contact tracing (PCT). We find a deep-learning based PCT method which improves over BCT for equivalent average mobility, suggesting PCT could help in safe re-opening and second-wave prevention.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-23T17:06:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Prateek Gupta</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Martin Weiss</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Eilif Muller</name>
+    </author>
+    <author>
+      <name>Meng Qu</name>
+    </author>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Pierre-Luc St-Charles</name>
+    </author>
+    <author>
+      <name>Hannah Alsdurf</name>
+    </author>
+    <author>
+      <name>Olexa Bilanuik</name>
+    </author>
+    <author>
+      <name>David Buckeridge</name>
+    </author>
+    <author>
+      <name>Gáetan Marceau Caron</name>
+    </author>
+    <author>
+      <name>Pierre-Luc Carrier</name>
+    </author>
+    <author>
+      <name>Joumana Ghosn</name>
+    </author>
+    <author>
+      <name>Satya Ortiz-Gagne</name>
+    </author>
+    <author>
+      <name>Chris Pal</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Abhinav Sharma</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Andrew Williams</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.11362v1</id>
+    <title>NU-GAN: High resolution neural upsampling with GAN</title>
+    <updated>2020-10-22T01:00:23Z</updated>
+    <link href="https://arxiv.org/abs/2010.11362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.11362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose NU-GAN, a new method for resampling audio from lower to higher sampling rates (upsampling). Audio upsampling is an important problem since productionizing generative speech technology requires operating at high sampling rates. Such applications use audio at a resolution of 44.1 kHz or 48 kHz, whereas current speech synthesis methods are equipped to handle a maximum of 24 kHz resolution. NU-GAN takes a leap towards solving audio upsampling as a separate component in the text-to-speech (TTS) pipeline by leveraging techniques for audio generation using GANs. ABX preference tests indicate that our NU-GAN resampler is capable of resampling 22 kHz to 44.1 kHz audio that is distinguishable from original audio only 7.4% higher than random chance for single speaker dataset, and 10.8% higher than chance for multi-speaker dataset.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-22T01:00:23Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Rithesh Kumar</name>
+    </author>
+    <author>
+      <name>Kundan Kumar</name>
+    </author>
+    <author>
+      <name>Vicki Anand</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.10593v3</id>
+    <title>Cross-Modal Information Maximization for Medical Imaging: CMIM</title>
+    <updated>2021-02-01T21:10:37Z</updated>
+    <link href="https://arxiv.org/abs/2010.10593v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.10593v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In hospitals, data are siloed to specific information systems that make the same information available under different modalities such as the different medical imaging exams the patient undergoes (CT scans, MRI, PET, Ultrasound, etc.) and their associated radiology reports. This offers unique opportunities to obtain and use at train-time those multiple views of the same information that might not always be available at test-time.
+  In this paper, we propose an innovative framework that makes the most of available data by learning good representations of a multi-modal input that are resilient to modality dropping at test-time, using recent advances in mutual information maximization. By maximizing cross-modal information at train time, we are able to outperform several state-of-the-art baselines in two different settings, medical image classification, and segmentation. In particular, our method is shown to have a strong impact on the inference-time performance of weaker modalities.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-20T20:05:35Z</published>
+    <arxiv:comment>ICASSP 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tristan Sylvain</name>
+    </author>
+    <author>
+      <name>Francis Dutil</name>
+    </author>
+    <author>
+      <name>Tess Berthier</name>
+    </author>
+    <author>
+      <name>Lisa Di Jorio</name>
+    </author>
+    <author>
+      <name>Margaux Luck</name>
+    </author>
+    <author>
+      <name>Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.08012v1</id>
+    <title>Neural Function Modules with Sparse Arguments: A Dynamic Approach to Integrating Information across Layers</title>
+    <updated>2020-10-15T20:43:17Z</updated>
+    <link href="https://arxiv.org/abs/2010.08012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.08012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feed-forward neural networks consist of a sequence of layers, in which each layer performs some processing on the information from the previous layer. A downside to this approach is that each layer (or module, as multiple modules can operate in parallel) is tasked with processing the entire hidden state, rather than a particular part of the state which is most relevant for that module. Methods which only operate on a small number of input variables are an essential part of most programming languages, and they allow for improved modularity and code re-usability. Our proposed method, Neural Function Modules (NFM), aims to introduce the same structural capability into deep learning. Most of the work in the context of feed-forward networks combining top-down and bottom-up feedback is limited to classification problems. The key contribution of our work is to combine attention, sparsity, top-down and bottom-up feedback, in a flexible algorithm which, as we show, improves the results in standard classification, out-of-domain generalization, generative modeling, and learning representations in the context of reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-15T20:43:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Agnieszka Słowik</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Philippe Beaudoin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.04296v2</id>
+    <title>CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning</title>
+    <updated>2020-11-24T16:05:50Z</updated>
+    <link href="https://arxiv.org/abs/2010.04296v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.04296v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent successes of reinforcement learning (RL), it remains a challenge for agents to transfer learned skills to related environments. To facilitate research addressing this problem, we propose CausalWorld, a benchmark for causal structure and transfer learning in a robotic manipulation environment. The environment is a simulation of an open-source robotic platform, hence offering the possibility of sim-to-real transfer. Tasks consist of constructing 3D shapes from a given set of blocks - inspired by how children learn to build complex structures. The key strength of CausalWorld is that it provides a combinatorial family of such tasks with common causal structure and underlying factors (including, e.g., robot and object masses, colors, sizes). The user (or the agent) may intervene on all causal variables, which allows for fine-grained control over how similar different tasks (or task distributions) are. One can thus easily define training and evaluation distributions of a desired difficulty level, targeting a specific form of generalization (e.g., only changes in appearance or object mass). Further, this common parametrization facilitates defining curricula by interpolating between an initial and a target task. While users may define their own task distributions, we present eight meaningful distributions as concrete benchmarks, ranging from simple to very challenging, all of which require long-horizon planning as well as precise low-level motor control. Finally, we provide baseline results for a subset of these tasks on distinct training curricula and corresponding evaluation protocols, verifying the feasibility of the tasks in this benchmark.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-08T23:01:13Z</published>
+    <arxiv:comment>The first two authors contributed equally, the last two authors avised jointly</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ossama Ahmed</name>
+    </author>
+    <author>
+      <name>Frederik Träuble</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Alexander Neitz</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Manuel Wüthrich</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.04029v2</id>
+    <title>RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs</title>
+    <updated>2021-07-16T02:52:53Z</updated>
+    <link href="https://arxiv.org/abs/2010.04029v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.04029v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies learning logic rules for reasoning on knowledge graphs. Logic rules provide interpretable explanations when used for prediction as well as being able to generalize to other tasks, and hence are critical to learn. Existing methods either suffer from the problem of searching in a large search space (e.g., neural logic programming) or ineffective optimization due to sparse rewards (e.g., techniques based on reinforcement learning). To address these limitations, this paper proposes a probabilistic model called RNNLogic. RNNLogic treats logic rules as a latent variable, and simultaneously trains a rule generator as well as a reasoning predictor with logic rules. We develop an EM-based algorithm for optimization. In each iteration, the reasoning predictor is first updated to explore some generated logic rules for reasoning. Then in the E-step, we select a set of high-quality rules from all generated rules with both the rule generator and reasoning predictor via posterior inference; and in the M-step, the rule generator is updated with the rules selected in the E-step. Experiments on four datasets prove the effectiveness of RNNLogic.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-08T14:47:02Z</published>
+    <arxiv:comment>iclr 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Meng Qu</name>
+    </author>
+    <author>
+      <name>Junkun Chen</name>
+    </author>
+    <author>
+      <name>Louis-Pascal Xhonneux</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11783v1</id>
+    <title>Visual Concept Reasoning Networks</title>
+    <updated>2020-08-26T20:02:40Z</updated>
+    <link href="https://arxiv.org/abs/2008.11783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A split-transform-merge strategy has been broadly used as an architectural constraint in convolutional neural networks for visual recognition tasks. It approximates sparsely connected networks by explicitly defining multiple branches to simultaneously learn representations with different visual concepts or properties. Dependencies or interactions between these representations are typically defined by dense and local operations, however, without any adaptiveness or high-level reasoning. In this work, we propose to exploit this strategy and combine it with our Visual Concept Reasoning Networks (VCRNet) to enable reasoning between high-level visual concepts. We associate each branch with a visual concept and derive a compact concept state by selecting a few local descriptors through an attention module. These concept states are then updated by graph-based interaction and used to adaptively modulate the local descriptors. We describe our proposed model by split-transform-attend-interact-modulate-merge stages, which are implemented by opting for a highly modularized architecture. Extensive experiments on visual recognition tasks such as image classification, semantic segmentation, object detection, scene recognition, and action recognition show that our proposed model, VCRNet, consistently improves the performance by increasing the number of parameters by less than 1%.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-26T20:02:40Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Taesup Kim</name>
+    </author>
+    <author>
+      <name>Sungwoong Kim</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.06456v1</id>
+    <title>Mastering Rate based Curriculum Learning</title>
+    <updated>2020-08-14T16:34:01Z</updated>
+    <link href="https://arxiv.org/abs/2008.06456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.06456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent automatic curriculum learning algorithms, and in particular Teacher-Student algorithms, rely on the notion of learning progress, making the assumption that the good next tasks are the ones on which the learner is making the fastest progress or digress. In this work, we first propose a simpler and improved version of these algorithms. We then argue that the notion of learning progress itself has several shortcomings that lead to a low sample efficiency for the learner. We finally propose a new algorithm, based on the notion of mastering rate, that significantly outperforms learning progress-based algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-14T16:34:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lucas Willems</name>
+    </author>
+    <author>
+      <name>Salem Lahlou</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.15139v2</id>
+    <title>Deriving Differential Target Propagation from Iterating Approximate Inverses</title>
+    <updated>2020-08-17T19:09:41Z</updated>
+    <link href="https://arxiv.org/abs/2007.15139v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.15139v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that a particular form of target propagation, i.e., relying on learned inverses of each layer, which is differential, i.e., where the target is a small perturbation of the forward propagation, gives rise to an update rule which corresponds to an approximate Gauss-Newton gradient-based optimization, without requiring the manipulation or inversion of large matrices. What is interesting is that this is more biologically plausible than back-propagation yet may turn out to implicitly provide a stronger optimization procedure. Extending difference target propagation, we consider several iterative calculations based on local auto-encoders at each layer in order to achieve more precise inversions for more accurate target propagation and we show that these iterative procedures converge exponentially fast if the auto-encoding function minus the identity function has a Lipschitz constant smaller than one, i.e., the auto-encoder is coarsely succeeding at performing an inversion. We also propose a way to normalize the changes at each layer to take into account the relative influence of each layer on the output, so that larger weight changes are done on more influential layers, like would happen in ordinary back-propagation with gradient descent.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-29T22:34:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.12770v1</id>
+    <title>BabyAI 1.1</title>
+    <updated>2020-07-24T21:19:49Z</updated>
+    <link href="https://arxiv.org/abs/2007.12770v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.12770v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The BabyAI platform is designed to measure the sample efficiency of training an agent to follow grounded-language instructions. BabyAI 1.0 presents baseline results of an agent trained by deep imitation or reinforcement learning. BabyAI 1.1 improves the agent's architecture in three minor ways. This increases reinforcement learning sample efficiency by up to 3 times and improves imitation learning performance on the hardest level from 77 % to 90.4 %. We hope that these improvements increase the computational efficiency of BabyAI experiments and help users design better agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-24T21:19:49Z</published>
+    <arxiv:comment>9 pages, 1 figure, technical report</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>David Yu-Tung Hui</name>
+    </author>
+    <author>
+      <name>Maxime Chevalier-Boisvert</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.06700v1</id>
+    <title>Revisiting Fundamentals of Experience Replay</title>
+    <updated>2020-07-13T21:22:17Z</updated>
+    <link href="https://arxiv.org/abs/2007.06700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.06700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experience replay is central to off-policy algorithms in deep reinforcement learning (RL), but there remain significant gaps in our understanding. We therefore present a systematic and extensive analysis of experience replay in Q-learning methods, focusing on two fundamental properties: the replay capacity and the ratio of learning updates to experience collected (replay ratio). Our additive and ablative studies upend conventional wisdom around experience replay -- greater capacity is found to substantially increase the performance of certain algorithms, while leaving others unaffected. Counterintuitively we show that theoretically ungrounded, uncorrected n-step returns are uniquely beneficial while other techniques confer limited benefit for sifting through larger memory. Separately, by directly controlling the replay ratio we contextualize previous observations in the literature and empirically measure its importance across a variety of deep RL algorithms. Finally, we conclude by testing a set of hypotheses on the nature of these performance benefits.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-13T21:22:17Z</published>
+    <arxiv:comment>Published at ICML 2020. First two authors contributed equally and code available at https://github.com/google-research/google-research/tree/master/experience_replay</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Prajit Ramachandran</name>
+    </author>
+    <author>
+      <name>Rishabh Agarwal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Mark Rowland</name>
+    </author>
+    <author>
+      <name>Will Dabney</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.06533v1</id>
+    <title>S2RMs: Spatially Structured Recurrent Modules</title>
+    <updated>2020-07-13T17:44:30Z</updated>
+    <link href="https://arxiv.org/abs/2007.06533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.06533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Capturing the structure of a data-generating process by means of appropriate inductive biases can help in learning models that generalize well and are robust to changes in the input distribution. While methods that harness spatial and temporal structures find broad application, recent work has demonstrated the potential of models that leverage sparse and modular structure using an ensemble of sparingly interacting modules. In this work, we take a step towards dynamic models that are capable of simultaneously exploiting both modular and spatiotemporal structures. We accomplish this by abstracting the modeled dynamical system as a collection of autonomous but sparsely interacting sub-systems. The sub-systems interact according to a topology that is learned, but also informed by the spatial structure of the underlying real-world system. This results in a class of models that are well suited for modeling the dynamics of systems that only offer local views into their state, along with corresponding spatial locations of those views. On the tasks of video prediction from cropped frames and multi-agent world modeling from partial observations in the challenging Starcraft2 domain, we find our models to be more robust to the number of available views and better capable of generalization to novel tasks without additional training, even when compared against strong baselines that perform equally well or better on the training distribution.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-13T17:44:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Muhammad Waleed Gondal</name>
+    </author>
+    <author>
+      <name>Manuel Wuthrich</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Yash Sharma</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.16981v3</id>
+    <title>Learning to Combine Top-Down and Bottom-Up Signals in Recurrent Neural Networks with Attention over Modules</title>
+    <updated>2020-11-15T18:34:53Z</updated>
+    <link href="https://arxiv.org/abs/2006.16981v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.16981v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust perception relies on both bottom-up and top-down signals. Bottom-up signals consist of what's directly observed through sensation. Top-down signals consist of beliefs and expectations based on past experience and short-term memory, such as how the phrase `peanut butter and~...' will be completed. The optimal combination of bottom-up and top-down information remains an open question, but the manner of combination must be dynamic and both context and task dependent. To effectively utilize the wealth of potential top-down information available, and to prevent the cacophony of intermixed signals in a bidirectional architecture, mechanisms are needed to restrict information flow. We explore deep recurrent neural net architectures in which bottom-up and top-down signals are dynamically combined using attention. Modularity of the architecture further restricts the sharing and communication of information. Together, attention and modularity direct information flow, which leads to reliable performance improvements in perceptual and language tasks, and in particular improves robustness to distractions and noisy data. We demonstrate on a variety of benchmarks in language modeling, sequential image classification, video prediction and reinforcement learning that the \emph{bidirectional} information flow can improve results over strong baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-30T17:26:19Z</published>
+    <arxiv:comment>ICML 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Vikram Voleti</name>
+    </author>
+    <author>
+      <name>Murray Shanahan</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.16225v5</id>
+    <title>Object Files and Schemata: Factorizing Declarative and Procedural Knowledge in Dynamical Systems</title>
+    <updated>2020-11-13T01:47:12Z</updated>
+    <link href="https://arxiv.org/abs/2006.16225v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.16225v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modeling a structured, dynamic environment like a video game requires keeping track of the objects and their states declarative knowledge) as well as predicting how objects behave (procedural knowledge). Black-box models with a monolithic hidden state often fail to apply procedural knowledge consistently and uniformly, i.e., they lack systematicity. For example, in a video game, correct prediction of one enemy's trajectory does not ensure correct prediction of another's. We address this issue via an architecture that factorizes declarative and procedural knowledge and that imposes modularity within each form of knowledge. The architecture consists of active modules called object files that maintain the state of a single object and invoke passive external knowledge sources called schemata that prescribe state updates. To use a video game as an illustration, two enemies of the same type will share schemata but will have separate object files to encode their distinct state (e.g., health, position). We propose to use attention to determine which object files to update, the selection of schemata, and the propagation of information between object files. The resulting architecture is a drop-in replacement conforming to the same input-output interface as normal recurrent networks (e.g., LSTM, GRU) yet achieves substantially better generalization on environments that have multiple object tokens of the same type, including a challenging intuitive physics benchmark.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-29T17:45:03Z</published>
+    <arxiv:comment>Type/Token Distinction in Deep learning Framework</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Phanideep Gampa</name>
+    </author>
+    <author>
+      <name>Philippe Beaudoin</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Charles Blundell</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.15212v3</id>
+    <title>Hybrid Models for Learning to Branch</title>
+    <updated>2020-10-23T14:01:14Z</updated>
+    <link href="https://arxiv.org/abs/2006.15212v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.15212v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A recent Graph Neural Network (GNN) approach for learning to branch has been shown to successfully reduce the running time of branch-and-bound algorithms for Mixed Integer Linear Programming (MILP). While the GNN relies on a GPU for inference, MILP solvers are purely CPU-based. This severely limits its application as many practitioners may not have access to high-end GPUs. In this work, we ask two key questions. First, in a more realistic setting where only a CPU is available, is the GNN model still competitive? Second, can we devise an alternate computationally inexpensive model that retains the predictive power of the GNN architecture? We answer the first question in the negative, and address the second question by proposing a new hybrid architecture for efficient branching on CPU machines. The proposed architecture combines the expressive power of GNNs with computationally inexpensive multi-layer perceptrons (MLP) for branching. We evaluate our methods on four classes of MILP problems, and show that they lead to up to 26% reduction in solver running time compared to state-of-the-art methods without a GPU, while extrapolating to harder problems than it was trained on. The code for this project is publicly available at https://github.com/pg2455/Hybrid-learn2branch.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-26T21:03:45Z</published>
+    <arxiv:comment>34th Conference on Neural Information Processing Systems (NeurIPS 2020), Vancouver, Canada</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Prateek Gupta</name>
+    </author>
+    <author>
+      <name>Maxime Gasse</name>
+    </author>
+    <author>
+      <name>Elias B. Khalil</name>
+    </author>
+    <author>
+      <name>M. Pawan Kumar</name>
+    </author>
+    <author>
+      <name>Andrea Lodi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13352v2</id>
+    <title>Rethinking Distributional Matching Based Domain Adaptation</title>
+    <updated>2020-07-03T07:00:54Z</updated>
+    <link href="https://arxiv.org/abs/2006.13352v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13352v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Domain adaptation (DA) is a technique that transfers predictive models trained on a labeled source domain to an unlabeled target domain, with the core difficulty of resolving distributional shift between domains. Currently, most popular DA algorithms are based on distributional matching (DM). However in practice, realistic domain shifts (RDS) may violate their basic assumptions and as a result these methods will fail. In this paper, in order to devise robust DA algorithms, we first systematically analyze the limitations of DM based methods, and then build new benchmarks with more realistic domain shifts to evaluate the well-accepted DM methods. We further propose InstaPBM, a novel Instance-based Predictive Behavior Matching method for robust DA. Extensive experiments on both conventional and RDS benchmarks demonstrate both the limitations of DM methods and the efficacy of InstaPBM: Compared with the best baselines, InstaPBM improves the classification accuracy respectively by $4.5\%$, $3.9\%$ on Digits5, VisDA2017, and $2.2\%$, $2.9\%$, $3.6\%$ on DomainNet-LDS, DomainNet-ILDS, ID-TwO. We hope our intuitive yet effective method will serve as a useful new direction and increase the robustness of DA in real scenarios. Code will be available at anonymous link: https://github.com/pikachusocute/InstaPBM-RobustDA.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-23T21:55:14Z</published>
+    <arxiv:comment>Preprint version</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>Yezhen Wang</name>
+    </author>
+    <author>
+      <name>Tong Che</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+    <author>
+      <name>Sicheng Zhao</name>
+    </author>
+    <author>
+      <name>Pengfei Xu</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Kurt Keutzer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13291v1</id>
+    <title>Image-to-image Mapping with Many Domains by Sparse Attribute Transfer</title>
+    <updated>2020-06-23T19:52:23Z</updated>
+    <link href="https://arxiv.org/abs/2006.13291v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13291v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised image-to-image translation consists of learning a pair of mappings between two domains without known pairwise correspondences between points. The current convention is to approach this task with cycle-consistent GANs: using a discriminator to encourage the generator to change the image to match the target domain, while training the generator to be inverted with another mapping. While ending up with paired inverse functions may be a good end result, enforcing this restriction at all times during training can be a hindrance to effective modeling. We propose an alternate approach that directly restricts the generator to performing a simple sparse transformation in a latent layer, motivated by recent work from cognitive neuroscience suggesting an architectural prior on representations corresponding to consciousness. Our biologically motivated approach leads to representations more amenable to transformation by disentangling high-level abstract concepts in the latent space. We demonstrate that image-to-image domain translation with many different domains can be learned more effectively with our architecturally constrained, simple transformation than with previous unconstrained architectures that rely on a cycle-consistency loss.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-23T19:52:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Matthew Amodio</name>
+    </author>
+    <author>
+      <name>Rim Assouel</name>
+    </author>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Tristan Sylvain</name>
+    </author>
+    <author>
+      <name>Smita Krishnaswamy</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.12278v1</id>
+    <title>HNHN: Hypergraph Networks with Hyperedge Neurons</title>
+    <updated>2020-06-22T14:08:32Z</updated>
+    <link href="https://arxiv.org/abs/2006.12278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.12278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hypergraphs provide a natural representation for many real world datasets. We propose a novel framework, HNHN, for hypergraph representation learning. HNHN is a hypergraph convolution network with nonlinear activation functions applied to both hypernodes and hyperedges, combined with a normalization scheme that can flexibly adjust the importance of high-cardinality hyperedges and high-degree vertices depending on the dataset. We demonstrate improved performance of HNHN in both classification accuracy and speed on real world datasets when compared to state of the art methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-22T14:08:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Graph Representation Learning and Beyond Workshop at ICML 2020</arxiv:journal_ref>
+    <author>
+      <name>Yihe Dong</name>
+    </author>
+    <author>
+      <name>Will Sawin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.09471v2</id>
+    <title>Untangling tradeoffs between recurrence and self-attention in neural networks</title>
+    <updated>2020-12-10T09:58:29Z</updated>
+    <link href="https://arxiv.org/abs/2006.09471v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.09471v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Attention and self-attention mechanisms, are now central to state-of-the-art deep learning on sequential tasks. However, most recent progress hinges on heuristic approaches with limited understanding of attention's role in model optimization and computation, and rely on considerable memory and computational resources that scale poorly. In this work, we present a formal analysis of how self-attention affects gradient propagation in recurrent networks, and prove that it mitigates the problem of vanishing gradients when trying to capture long-term dependencies by establishing concrete bounds for gradient norms. Building on these results, we propose a relevancy screening mechanism, inspired by the cognitive process of memory consolidation, that allows for a scalable use of sparse self-attention with recurrence. While providing guarantees to avoid vanishing gradients, we use simple numerical experiments to demonstrate the tradeoffs in performance and computational resources by efficiently balancing attention and recurrence. Based on our results, we propose a concrete direction of research to improve scalability of attentive networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-16T19:24:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Giancarlo Kerg</name>
+    </author>
+    <author>
+      <name>Bhargav Kanuparthi</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Kyle Goyette</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.07461v1</id>
+    <title>Learning Causal Models Online</title>
+    <updated>2020-06-12T20:49:20Z</updated>
+    <link href="https://arxiv.org/abs/2006.07461v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.07461v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predictive models -- learned from observational data not covering the complete data distribution -- can rely on spurious correlations in the data for making predictions. These correlations make the models brittle and hinder generalization. One solution for achieving strong generalization is to incorporate causal structures in the models; such structures constrain learning by ignoring correlations that contradict them. However, learning these structures is a hard problem in itself. Moreover, it's not clear how to incorporate the machinery of causality with online continual learning. In this work, we take an indirect approach to discovering causal models. Instead of searching for the true causal model directly, we propose an online algorithm that continually detects and removes spurious features. Our algorithm works on the idea that the correlation of a spurious feature with a target is not constant over-time. As a result, the weight associated with that feature is constantly changing. We show that by continually removing such features, our method converges to solutions that have strong generalization. Moreover, our method combined with random search can also discover non-spurious features from raw sensory data. Finally, our work highlights that the information present in the temporal structure of the problem -- destroyed by shuffling the data -- is essential for detecting spurious features online.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-12T20:49:20Z</published>
+    <arxiv:comment>Spurious features, causal models, online learning, random search, non-iid</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Khurram Javed</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.03824v1</id>
+    <title>Scaling Equilibrium Propagation to Deep ConvNets by Drastically Reducing its Gradient Estimator Bias</title>
+    <updated>2020-06-06T09:36:07Z</updated>
+    <link href="https://arxiv.org/abs/2006.03824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.03824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equilibrium Propagation (EP) is a biologically-inspired algorithm for convergent RNNs with a local learning rule that comes with strong theoretical guarantees. The parameter updates of the neural network during the credit assignment phase have been shown mathematically to approach the gradients provided by Backpropagation Through Time (BPTT) when the network is infinitesimally nudged toward its target. In practice, however, training a network with the gradient estimates provided by EP does not scale to visual tasks harder than MNIST. In this work, we show that a bias in the gradient estimate of EP, inherent in the use of finite nudging, is responsible for this phenomenon and that cancelling it allows training deep ConvNets by EP. We show that this bias can be greatly reduced by using symmetric nudging (a positive nudging and a negative one). We also generalize previous EP equations to the case of cross-entropy loss (by opposition to squared error). As a result of these advances, we are able to achieve a test error of 11.7% on CIFAR-10 by EP, which approaches the one achieved by BPTT and provides a major improvement with respect to the standard EP approach with same-sign nudging that gives 86% test error. We also apply these techniques to train an architecture with asymmetric forward and backward connections, yielding a 13.2% test error. These results highlight EP as a compelling biologically-plausible approach to compute error gradients in deep neural networks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-06T09:36:07Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Axel Laborieux</name>
+    </author>
+    <author>
+      <name>Maxence Ernoult</name>
+    </author>
+    <author>
+      <name>Benjamin Scellier</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Julie Grollier</name>
+    </author>
+    <author>
+      <name>Damien Querlioz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.01981v2</id>
+    <title>Training End-to-End Analog Neural Networks with Equilibrium Propagation</title>
+    <updated>2020-06-09T22:26:05Z</updated>
+    <link href="https://arxiv.org/abs/2006.01981v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.01981v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a principled method to train end-to-end analog neural networks by stochastic gradient descent. In these analog neural networks, the weights to be adjusted are implemented by the conductances of programmable resistive devices such as memristors [Chua, 1971], and the nonlinear transfer functions (or `activation functions') are implemented by nonlinear components such as diodes. We show mathematically that a class of analog neural networks (called nonlinear resistive networks) are energy-based models: they possess an energy function as a consequence of Kirchhoff's laws governing electrical circuits. This property enables us to train them using the Equilibrium Propagation framework [Scellier and Bengio, 2017]. Our update rule for each conductance, which is local and relies solely on the voltage drop across the corresponding resistor, is shown to compute the gradient of the loss function. Our numerical simulations, which use the SPICE-based Spectre simulation framework to simulate the dynamics of electrical circuits, demonstrate training on the MNIST classification task, performing comparably or better than equivalent-size software-based neural networks. Our work can guide the development of a new generation of ultra-fast, compact and low-power neural networks supporting on-chip learning.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-02T23:38:35Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Jack Kendall</name>
+    </author>
+    <author>
+      <name>Ross Pantone</name>
+    </author>
+    <author>
+      <name>Kalpana Manickavasagam</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Benjamin Scellier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.11856v3</id>
+    <title>Predicting COVID-19 Pneumonia Severity on Chest X-ray with Deep Learning</title>
+    <updated>2020-06-30T17:09:53Z</updated>
+    <link href="https://arxiv.org/abs/2005.11856v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.11856v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Purpose: The need to streamline patient management for COVID-19 has become more pressing than ever. Chest X-rays provide a non-invasive (potentially bedside) tool to monitor the progression of the disease. In this study, we present a severity score prediction model for COVID-19 pneumonia for frontal chest X-ray images. Such a tool can gauge severity of COVID-19 lung infections (and pneumonia in general) that can be used for escalation or de-escalation of care as well as monitoring treatment efficacy, especially in the ICU.
+  Methods: Images from a public COVID-19 database were scored retrospectively by three blinded experts in terms of the extent of lung involvement as well as the degree of opacity. A neural network model that was pre-trained on large (non-COVID-19) chest X-ray datasets is used to construct features for COVID-19 images which are predictive for our task.
+  Results: This study finds that training a regression model on a subset of the outputs from an this pre-trained chest X-ray model predicts our geographic extent score (range 0-8) with 1.14 mean absolute error (MAE) and our lung opacity score (range 0-6) with 0.78 MAE.
+  Conclusions: These results indicate that our model's ability to gauge severity of COVID-19 lung infections could be used for escalation or de-escalation of care as well as monitoring treatment efficacy, especially in the intensive care unit (ICU). A proper clinical trial is needed to evaluate efficacy. To enable this we make our code, labels, and data available online at https://github.com/mlmed/torchxrayvision/tree/master/scripts/covid-severity and https://github.com/ieee8023/covid-chestxray-dataset</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-24T23:13:16Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Joseph Paul Cohen</name>
+    </author>
+    <author>
+      <name>Lan Dao</name>
+    </author>
+    <author>
+      <name>Paul Morrison</name>
+    </author>
+    <author>
+      <name>Karsten Roth</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Beiyi Shen</name>
+    </author>
+    <author>
+      <name>Almas Abbasi</name>
+    </author>
+    <author>
+      <name>Mahsa Hoshmand-Kochi</name>
+    </author>
+    <author>
+      <name>Marzyeh Ghassemi</name>
+    </author>
+    <author>
+      <name>Haifang Li</name>
+    </author>
+    <author>
+      <name>Tim Q Duong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.09136v2</id>
+    <title>An Analysis of the Adaptation Speed of Causal Models</title>
+    <updated>2021-02-25T11:48:05Z</updated>
+    <link href="https://arxiv.org/abs/2005.09136v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.09136v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider a collection of datasets generated by unknown interventions on an unknown structural causal model $G$. Recently, Bengio et al. (2020) conjectured that among all candidate models, $G$ is the fastest to adapt from one dataset to another, along with promising experiments. Indeed, intuitively $G$ has less mechanisms to adapt, but this justification is incomplete. Our contribution is a more thorough analysis of this hypothesis. We investigate the adaptation speed of cause-effect SCMs. Using convergence rates from stochastic optimization, we justify that a relevant proxy for adaptation speed is distance in parameter space after intervention. Applying this proxy to categorical and normal cause-effect models, we show two results. When the intervention is on the cause variable, the SCM with the correct causal direction is advantaged by a large factor. When the intervention is on the effect variable, we characterize the relative adaptation speed. Surprisingly, we find situations where the anticausal model is advantaged, falsifying the initial hypothesis. Code to reproduce experiments is available at https://github.com/remilepriol/causal-adaptation-speed</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-18T23:48:56Z</published>
+    <arxiv:comment>Published at AISTATS 2021. 10 pages main articles, 19 pages supplement, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Rémi Le Priol</name>
+    </author>
+    <author>
+      <name>Reza Babanezhad Harikandeh</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Simon Lacoste-Julien</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.08502v2</id>
+    <title>COVI White Paper</title>
+    <updated>2020-07-27T15:41:17Z</updated>
+    <link href="https://arxiv.org/abs/2005.08502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.08502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The SARS-CoV-2 (Covid-19) pandemic has caused significant strain on public health institutions around the world. Contact tracing is an essential tool to change the course of the Covid-19 pandemic. Manual contact tracing of Covid-19 cases has significant challenges that limit the ability of public health authorities to minimize community infections. Personalized peer-to-peer contact tracing through the use of mobile apps has the potential to shift the paradigm. Some countries have deployed centralized tracking systems, but more privacy-protecting decentralized systems offer much of the same benefit without concentrating data in the hands of a state authority or for-profit corporations. Machine learning methods can circumvent some of the limitations of standard digital tracing by incorporating many clues and their uncertainty into a more graded and precise estimation of infection risk. The estimated risk can provide early risk awareness, personalized recommendations and relevant information to the user. Finally, non-identifying risk data can inform epidemiological models trained jointly with the machine learning predictor. These models can provide statistical evidence for the importance of factors involved in disease transmission. They can also be used to monitor, evaluate and optimize health policy and (de)confinement scenarios according to medical and economic productivity indicators. However, such a strategy based on mobile apps and machine learning should proactively mitigate potential ethical and privacy risks, which could have substantial impacts on society (not only impacts on health but also impacts such as stigmatization and abuse of personal data). Here, we present an overview of the rationale, design, ethical considerations and privacy strategy of `COVI,' a Covid-19 public peer-to-peer contact tracing and risk awareness mobile application developed in Canada.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-18T07:40:49Z</published>
+    <arxiv:comment>64 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hannah Alsdurf</name>
+    </author>
+    <author>
+      <name>Edmond Belliveau</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Prateek Gupta</name>
+    </author>
+    <author>
+      <name>Daphne Ippolito</name>
+    </author>
+    <author>
+      <name>Richard Janda</name>
+    </author>
+    <author>
+      <name>Max Jarvie</name>
+    </author>
+    <author>
+      <name>Tyler Kolody</name>
+    </author>
+    <author>
+      <name>Sekoul Krastev</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Robert Obryk</name>
+    </author>
+    <author>
+      <name>Dan Pilat</name>
+    </author>
+    <author>
+      <name>Valerie Pisano</name>
+    </author>
+    <author>
+      <name>Benjamin Prud'homme</name>
+    </author>
+    <author>
+      <name>Meng Qu</name>
+    </author>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Jean-Francois Rousseau</name>
+    </author>
+    <author>
+      <name>Abhinav Sharma</name>
+    </author>
+    <author>
+      <name>Brooke Struck</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Martin Weiss</name>
+    </author>
+    <author>
+      <name>Yun William Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05864v1</id>
+    <title>Exploiting Syntactic Structure for Better Language Modeling: A Syntactic Distance Approach</title>
+    <updated>2020-05-12T15:35:00Z</updated>
+    <link href="https://arxiv.org/abs/2005.05864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is commonly believed that knowledge of syntactic structure should improve language modeling. However, effectively and computationally efficiently incorporating syntactic structure into neural language models has been a challenging topic. In this paper, we make use of a multi-task objective, i.e., the models simultaneously predict words as well as ground truth parse trees in a form called "syntactic distances", where information between these two separate objectives shares the same intermediate representation. Experimental results on the Penn Treebank and Chinese Treebank datasets show that when ground truth parse trees are provided as additional training signals, the model is able to achieve lower perplexity and induce trees with better quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-12T15:35:00Z</published>
+    <arxiv:comment>ACL20</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenyu Du</name>
+    </author>
+    <author>
+      <name>Zhouhan Lin</name>
+    </author>
+    <author>
+      <name>Yikang Shen</name>
+    </author>
+    <author>
+      <name>Timothy J. O'Donnell</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Yue Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.06616v1</id>
+    <title>A Large-Scale, Open-Domain, Mixed-Interface Dialogue-Based ITS for STEM</title>
+    <updated>2020-05-06T02:45:43Z</updated>
+    <link href="https://arxiv.org/abs/2005.06616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.06616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Korbit, a large-scale, open-domain, mixed-interface, dialogue-based intelligent tutoring system (ITS). Korbit uses machine learning, natural language processing and reinforcement learning to provide interactive, personalized learning online. Korbit has been designed to easily scale to thousands of subjects, by automating, standardizing and simplifying the content creation process. Unlike other ITS, a teacher can develop new learning modules for Korbit in a matter of hours. To facilitate learning across a widerange of STEM subjects, Korbit uses a mixed-interface, which includes videos, interactive dialogue-based exercises, question-answering, conceptual diagrams, mathematical exercises and gamification elements. Korbit has been built to scale to millions of students, by utilizing a state-of-the-art cloud-based micro-service architecture. Korbit launched its first course in 2019 on machine learning, and since then over 7,000 students have enrolled. Although Korbit was designed to be open-domain and highly scalable, A/B testing experiments with real-world students demonstrate that both student learning outcomes and student motivation are substantially improved compared to typical online courses.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-06T02:45:43Z</published>
+    <arxiv:comment>6 pages, 1 figure, 1 table, accepted for publication in the 21st International Conference on Artificial Intelligence in Education (AIED 2020)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Iulian Vlad Serban</name>
+    </author>
+    <author>
+      <name>Varun Gupta</name>
+    </author>
+    <author>
+      <name>Ekaterina Kochmar</name>
+    </author>
+    <author>
+      <name>Dung D. Vu</name>
+    </author>
+    <author>
+      <name>Robert Belfer</name>
+    </author>
+    <author>
+      <name>Joelle Pineau</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04168v1</id>
+    <title>Equilibrium Propagation with Continual Weight Updates</title>
+    <updated>2020-04-29T14:54:30Z</updated>
+    <link href="https://arxiv.org/abs/2005.04168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.04168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equilibrium Propagation (EP) is a learning algorithm that bridges Machine Learning and Neuroscience, by computing gradients closely matching those of Backpropagation Through Time (BPTT), but with a learning rule local in space. Given an input $x$ and associated target $y$, EP proceeds in two phases: in the first phase neurons evolve freely towards a first steady state; in the second phase output neurons are nudged towards $y$ until they reach a second steady state. However, in existing implementations of EP, the learning rule is not local in time: the weight update is performed after the dynamics of the second phase have converged and requires information of the first phase that is no longer available physically. In this work, we propose a version of EP named Continual Equilibrium Propagation (C-EP) where neuron and synapse dynamics occur simultaneously throughout the second phase, so that the weight update becomes local in time. Such a learning rule local both in space and time opens the possibility of an extremely energy efficient hardware implementation of EP. We prove theoretically that, provided the learning rates are sufficiently small, at each time step of the second phase the dynamics of neurons and synapses follow the gradients of the loss given by BPTT (Theorem 1). We demonstrate training with C-EP on MNIST and generalize C-EP to neural networks where neurons are connected by asymmetric connections. We show through experiments that the more the network updates follows the gradients of BPTT, the best it performs in terms of training. These results bring EP a step closer to biology by better complying with hardware constraints while maintaining its intimate link with backpropagation.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-29T14:54:30Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Maxence Ernoult</name>
+    </author>
+    <author>
+      <name>Julie Grollier</name>
+    </author>
+    <author>
+      <name>Damien Querlioz</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Benjamin Scellier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04169v1</id>
+    <title>Continual Weight Updates and Convolutional Architectures for Equilibrium Propagation</title>
+    <updated>2020-04-29T12:14:06Z</updated>
+    <link href="https://arxiv.org/abs/2005.04169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.04169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equilibrium Propagation (EP) is a biologically inspired alternative algorithm to backpropagation (BP) for training neural networks. It applies to RNNs fed by a static input x that settle to a steady state, such as Hopfield networks. EP is similar to BP in that in the second phase of training, an error signal propagates backwards in the layers of the network, but contrary to BP, the learning rule of EP is spatially local. Nonetheless, EP suffers from two major limitations. On the one hand, due to its formulation in terms of real-time dynamics, EP entails long simulation times, which limits its applicability to practical tasks. On the other hand, the biological plausibility of EP is limited by the fact that its learning rule is not local in time: the synapse update is performed after the dynamics of the second phase have converged and requires information of the first phase that is no longer available physically. Our work addresses these two issues and aims at widening the spectrum of EP from standard machine learning models to more bio-realistic neural networks. First, we propose a discrete-time formulation of EP which enables to simplify equations, speed up training and extend EP to CNNs. Our CNN model achieves the best performance ever reported on MNIST with EP. Using the same discrete-time formulation, we introduce Continual Equilibrium Propagation (C-EP): the weights of the network are adjusted continually in the second phase of training using local information in space and time. We show that in the limit of slow changes of synaptic strengths and small nudging, C-EP is equivalent to BPTT (Theorem 1). We numerically demonstrate Theorem 1 and C-EP training on MNIST and generalize it to the bio-realistic situation of a neural network with asymmetric connections between neurons.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-29T12:14:06Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Maxence Ernoult</name>
+    </author>
+    <author>
+      <name>Julie Grollier</name>
+    </author>
+    <author>
+      <name>Damien Querlioz</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Benjamin Scellier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.13458v4</id>
+    <title>DiVA: Diverse Visual Feature Aggregation for Deep Metric Learning</title>
+    <updated>2020-09-10T16:19:05Z</updated>
+    <link href="https://arxiv.org/abs/2004.13458v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.13458v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual Similarity plays an important role in many computer vision applications. Deep metric learning (DML) is a powerful framework for learning such similarities which not only generalize from training data to identically distributed test distributions, but in particular also translate to unknown test classes. However, its prevailing learning paradigm is class-discriminative supervised training, which typically results in representations specialized in separating training classes. For effective generalization, however, such an image representation needs to capture a diverse range of data characteristics. To this end, we propose and study multiple complementary learning tasks, targeting conceptually different data relationships by only resorting to the available training samples and labels of a standard DML setting. Through simultaneous optimization of our tasks we learn a single model to aggregate their training signals, resulting in strong generalization and state-of-the-art performance on multiple established DML benchmark datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-28T12:26:50Z</published>
+    <arxiv:comment>published at ECCV 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Timo Milbich</name>
+    </author>
+    <author>
+      <name>Karsten Roth</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Samarth Sinha</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Björn Ommer</name>
+    </author>
+    <author>
+      <name>Joseph Paul Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.12485v2</id>
+    <title>Learning To Navigate The Synthetically Accessible Chemical Space Using Reinforcement Learning</title>
+    <updated>2020-05-20T03:28:15Z</updated>
+    <link href="https://arxiv.org/abs/2004.12485v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.12485v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Over the last decade, there has been significant progress in the field of machine learning for de novo drug design, particularly in deep generative models. However, current generative approaches exhibit a significant challenge as they do not ensure that the proposed molecular structures can be feasibly synthesized nor do they provide the synthesis routes of the proposed small molecules, thereby seriously limiting their practical applicability. In this work, we propose a novel forward synthesis framework powered by reinforcement learning (RL) for de novo drug design, Policy Gradient for Forward Synthesis (PGFS), that addresses this challenge by embedding the concept of synthetic accessibility directly into the de novo drug design system. In this setup, the agent learns to navigate through the immense synthetically accessible chemical space by subjecting commercially available small molecule building blocks to valid chemical reactions at every time step of the iterative virtual multi-step synthesis process. The proposed environment for drug discovery provides a highly challenging test-bed for RL algorithms owing to the large state space and high-dimensional continuous action space with hierarchical actions. PGFS achieves state-of-the-art performance in generating structures with high QED and penalized clogP. Moreover, we validate PGFS in an in-silico proof-of-concept associated with three HIV targets. Finally, we describe how the end-to-end training conceptualized in this study represents an important paradigm in radically expanding the synthesizable chemical space and automating the drug discovery process.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-26T21:40:03Z</published>
+    <arxiv:comment>added the statistics of top-100 compounds used logP metric with scaled components added values of the initial reactants to the box plots some values in tables are recalculated due to the inconsistent environments on different machines. corresponding benchmarks were rerun with the requirements on github. no significant changes in the results. corrected figures in the Appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sai Krishna Gottipati</name>
+    </author>
+    <author>
+      <name>Boris Sattarov</name>
+    </author>
+    <author>
+      <name>Sufeng Niu</name>
+    </author>
+    <author>
+      <name>Yashaswi Pathak</name>
+    </author>
+    <author>
+      <name>Haoran Wei</name>
+    </author>
+    <author>
+      <name>Shengchao Liu</name>
+    </author>
+    <author>
+      <name>Karam M. J. Thomas</name>
+    </author>
+    <author>
+      <name>Simon Blackburn</name>
+    </author>
+    <author>
+      <name>Connor W. Coley</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Sarath Chandar</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.11935v1</id>
+    <title>The Variational Bandwidth Bottleneck: Stochastic Evaluation on an Information Budget</title>
+    <updated>2020-04-24T18:29:31Z</updated>
+    <link href="https://arxiv.org/abs/2004.11935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.11935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many applications, it is desirable to extract only the relevant information from complex input data, which involves making a decision about which input features are relevant. The information bottleneck method formalizes this as an information-theoretic optimization problem by maintaining an optimal tradeoff between compression (throwing away irrelevant input information), and predicting the target. In many problem settings, including the reinforcement learning problems we consider in this work, we might prefer to compress only part of the input. This is typically the case when we have a standard conditioning input, such as a state observation, and a "privileged" input, which might correspond to the goal of a task, the output of a costly planning algorithm, or communication with another agent. In such cases, we might prefer to compress the privileged input, either to achieve better generalization (e.g., with respect to goals) or to minimize access to costly information (e.g., in the case of communication). Practical implementations of the information bottleneck based on variational inference require access to the privileged input in order to compute the bottleneck variable, so although they perform compression, this compression operation itself needs unrestricted, lossless access. In this work, we propose the variational bandwidth bottleneck, which decides for each example on the estimated value of the privileged information before seeing it, i.e., only based on the standard input, and then accordingly chooses stochastically, whether to access the privileged input or not. We formulate a tractable approximation to this framework and demonstrate in a series of reinforcement learning experiments that it can improve generalization and reduce access to computationally costly information.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-24T18:29:31Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2020</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Matthew Botvinick</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.10151v3</id>
+    <title>Experience Grounds Language</title>
+    <updated>2020-11-02T00:40:12Z</updated>
+    <link href="https://arxiv.org/abs/2004.10151v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.10151v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language understanding research is held back by a failure to relate language to the physical world it describes and to the social interactions it facilitates. Despite the incredible effectiveness of language processing models to tackle tasks after being trained on text alone, successful linguistic communication relies on a shared experience of the world. It is this shared experience that makes utterances meaningful.
+  Natural language processing is a diverse field, and progress throughout its development has come from new representational theories, modeling techniques, data collection paradigms, and tasks. We posit that the present success of representation learning approaches trained on large, text-only corpora requires the parallel tradition of research on the broader physical and social context of language to address the deeper questions of communication.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-21T16:56:27Z</published>
+    <arxiv:comment>Empirical Methods in Natural Language Processing (EMNLP), 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Ari Holtzman</name>
+    </author>
+    <author>
+      <name>Jesse Thomason</name>
+    </author>
+    <author>
+      <name>Jacob Andreas</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Joyce Chai</name>
+    </author>
+    <author>
+      <name>Mirella Lapata</name>
+    </author>
+    <author>
+      <name>Angeliki Lazaridou</name>
+    </author>
+    <author>
+      <name>Jonathan May</name>
+    </author>
+    <author>
+      <name>Aleksandr Nisnevich</name>
+    </author>
+    <author>
+      <name>Nicolas Pinto</name>
+    </author>
+    <author>
+      <name>Joseph Turian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07213v2</id>
+    <title>Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims</title>
+    <updated>2020-04-20T19:10:58Z</updated>
+    <link href="https://arxiv.org/abs/2004.07213v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07213v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the recent wave of progress in artificial intelligence (AI) has come a growing awareness of the large-scale impacts of AI systems, and recognition that existing regulations and norms in industry and academia are insufficient to ensure responsible AI development. In order for AI developers to earn trust from system users, customers, civil society, governments, and other stakeholders that they are building AI responsibly, they will need to make verifiable claims to which they can be held accountable. Those outside of a given organization also need effective means of scrutinizing such claims. This report suggests various steps that different stakeholders can take to improve the verifiability of claims made about AI systems and their associated development processes, with a focus on providing evidence about the safety, security, fairness, and privacy protection of AI systems. We analyze ten mechanisms for this purpose--spanning institutions, software, and hardware--and make recommendations aimed at implementing, exploring, or improving those mechanisms.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-15T17:15:35Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+    <author>
+      <name>Shahar Avin</name>
+    </author>
+    <author>
+      <name>Jasmine Wang</name>
+    </author>
+    <author>
+      <name>Haydn Belfield</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Gillian Hadfield</name>
+    </author>
+    <author>
+      <name>Heidy Khlaaf</name>
+    </author>
+    <author>
+      <name>Jingying Yang</name>
+    </author>
+    <author>
+      <name>Helen Toner</name>
+    </author>
+    <author>
+      <name>Ruth Fong</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Pang Wei Koh</name>
+    </author>
+    <author>
+      <name>Sara Hooker</name>
+    </author>
+    <author>
+      <name>Jade Leung</name>
+    </author>
+    <author>
+      <name>Andrew Trask</name>
+    </author>
+    <author>
+      <name>Emma Bluemke</name>
+    </author>
+    <author>
+      <name>Jonathan Lebensold</name>
+    </author>
+    <author>
+      <name>Cullen O'Keefe</name>
+    </author>
+    <author>
+      <name>Mark Koren</name>
+    </author>
+    <author>
+      <name>Théo Ryffel</name>
+    </author>
+    <author>
+      <name>JB Rubinovitz</name>
+    </author>
+    <author>
+      <name>Tamay Besiroglu</name>
+    </author>
+    <author>
+      <name>Federica Carugati</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Peter Eckersley</name>
+    </author>
+    <author>
+      <name>Sarah de Haas</name>
+    </author>
+    <author>
+      <name>Maritza Johnson</name>
+    </author>
+    <author>
+      <name>Ben Laurie</name>
+    </author>
+    <author>
+      <name>Alex Ingerman</name>
+    </author>
+    <author>
+      <name>Igor Krawczuk</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Rosario Cammarota</name>
+    </author>
+    <author>
+      <name>Andrew Lohn</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+    <author>
+      <name>Charlotte Stix</name>
+    </author>
+    <author>
+      <name>Peter Henderson</name>
+    </author>
+    <author>
+      <name>Logan Graham</name>
+    </author>
+    <author>
+      <name>Carina Prunkl</name>
+    </author>
+    <author>
+      <name>Bianca Martin</name>
+    </author>
+    <author>
+      <name>Elizabeth Seger</name>
+    </author>
+    <author>
+      <name>Noa Zilberman</name>
+    </author>
+    <author>
+      <name>Seán Ó hÉigeartaigh</name>
+    </author>
+    <author>
+      <name>Frens Kroeger</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Rebecca Kagan</name>
+    </author>
+    <author>
+      <name>Adrian Weller</name>
+    </author>
+    <author>
+      <name>Brian Tse</name>
+    </author>
+    <author>
+      <name>Elizabeth Barnes</name>
+    </author>
+    <author>
+      <name>Allan Dafoe</name>
+    </author>
+    <author>
+      <name>Paul Scharre</name>
+    </author>
+    <author>
+      <name>Ariel Herbert-Voss</name>
+    </author>
+    <author>
+      <name>Martijn Rasser</name>
+    </author>
+    <author>
+      <name>Shagun Sodhani</name>
+    </author>
+    <author>
+      <name>Carrick Flynn</name>
+    </author>
+    <author>
+      <name>Thomas Krendl Gilbert</name>
+    </author>
+    <author>
+      <name>Lisa Dyer</name>
+    </author>
+    <author>
+      <name>Saif Khan</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.07449v2</id>
+    <title>Object-Centric Image Generation from Layouts</title>
+    <updated>2020-12-03T16:02:11Z</updated>
+    <link href="https://arxiv.org/abs/2003.07449v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.07449v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent impressive results on single-object and single-domain image generation, the generation of complex scenes with multiple objects remains challenging. In this paper, we start with the idea that a model must be able to understand individual objects and relationships between objects in order to generate complex scenes well. Our layout-to-image-generation method, which we call Object-Centric Generative Adversarial Network (or OC-GAN), relies on a novel Scene-Graph Similarity Module (SGSM). The SGSM learns representations of the spatial relationships between objects in the scene, which lead to our model's improved layout-fidelity. We also propose changes to the conditioning mechanism of the generator that enhance its object instance-awareness. Apart from improving image quality, our contributions mitigate two failure modes in previous approaches: (1) spurious objects being generated without corresponding bounding boxes in the layout, and (2) overlapping bounding boxes in the layout leading to merged objects in images. Extensive quantitative evaluation and ablation studies demonstrate the impact of our contributions, with our model outperforming previous state-of-the-art approaches on both the COCO-Stuff and Visual Genome datasets. Finally, we address an important limitation of evaluation metrics used in previous works by introducing SceneFID -- an object-centric adaptation of the popular Fr{é}chet Inception Distance metric, that is better suited for multi-object images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-16T21:40:09Z</published>
+    <arxiv:comment>AAAI 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tristan Sylvain</name>
+    </author>
+    <author>
+      <name>Pengchuan Zhang</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>R Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Shikhar Sharma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.06060v3</id>
+    <title>Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling</title>
+    <updated>2021-07-07T17:57:49Z</updated>
+    <link href="https://arxiv.org/abs/2003.06060v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.06060v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the sum of the implicit generator log-density $\log p_g$ of a GAN with the logit score of the discriminator defines an energy function which yields the true data density when the generator is imperfect but the discriminator is optimal, thus making it possible to improve on the typical generator (with implicit density $p_g$). To make that practical, we show that sampling from this modified density can be achieved by sampling in latent space according to an energy-based model induced by the sum of the latent prior log-density and the discriminator output score. This can be achieved by running a Langevin MCMC in latent space and then applying the generator function, which we call Discriminator Driven Latent Sampling~(DDLS). We show that DDLS is highly efficient compared to previous methods which work in the high-dimensional pixel space and can be applied to improve on previously trained GANs of many types. We evaluate DDLS on both synthetic and real-world datasets qualitatively and quantitatively. On CIFAR-10, DDLS substantially improves the Inception Score of an off-the-shelf pre-trained SN-GAN~\citep{sngan} from $8.22$ to $9.09$ which is even comparable to the class-conditional BigGAN~\citep{biggan} model. This achieves a new state-of-the-art in unconditional image synthesis setting without introducing extra parameters or additional training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-12T23:33:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tong Che</name>
+    </author>
+    <author>
+      <name>Ruixiang Zhang</name>
+    </author>
+    <author>
+      <name>Jascha Sohl-Dickstein</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Liam Paull</name>
+    </author>
+    <author>
+      <name>Yuan Cao</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.04382v1</id>
+    <title>Continuous Domain Adaptation with Variational Domain-Agnostic Feature Replay</title>
+    <updated>2020-03-09T19:50:24Z</updated>
+    <link href="https://arxiv.org/abs/2003.04382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.04382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning in non-stationary environments is one of the biggest challenges in machine learning. Non-stationarity can be caused by either task drift, i.e., the drift in the conditional distribution of labels given the input data, or the domain drift, i.e., the drift in the marginal distribution of the input data. This paper aims to tackle this challenge in the context of continuous domain adaptation, where the model is required to learn new tasks adapted to new domains in a non-stationary environment while maintaining previously learned knowledge. To deal with both drifts, we propose variational domain-agnostic feature replay, an approach that is composed of three components: an inference module that filters the input data into domain-agnostic representations, a generative module that facilitates knowledge transfer, and a solver module that applies the filtered and transferable knowledge to solve the queries. We address the two fundamental scenarios in continuous domain adaptation, demonstrating the effectiveness of our proposed approach for practical usage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-09T19:50:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qicheng Lao</name>
+    </author>
+    <author>
+      <name>Xiang Jiang</name>
+    </author>
+    <author>
+      <name>Mohammad Havaei</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.00982v5</id>
+    <title>Benchmarking Graph Neural Networks</title>
+    <updated>2022-12-28T04:57:24Z</updated>
+    <link href="https://arxiv.org/abs/2003.00982v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.00982v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the last few years, graph neural networks (GNNs) have become the standard toolkit for analyzing and learning from data on graphs. This emerging field has witnessed an extensive growth of promising techniques that have been applied with success to computer science, mathematics, biology, physics and chemistry. But for any successful field to become mainstream and reliable, benchmarks must be developed to quantify progress. This led us in March 2020 to release a benchmark framework that i) comprises of a diverse collection of mathematical and real-world graphs, ii) enables fair model comparison with the same parameter budget to identify key architectures, iii) has an open-source, easy-to-use and reproducible code infrastructure, and iv) is flexible for researchers to experiment with new theoretical ideas. As of December 2022, the GitHub repository has reached 2,000 stars and 380 forks, which demonstrates the utility of the proposed open-source framework through the wide usage by the GNN community. In this paper, we present an updated version of our benchmark with a concise presentation of the aforementioned framework characteristics, an additional medium-sized molecular dataset AQSOL, similar to the popular ZINC, but with a real-world measured chemical target, and discuss how this framework can be leveraged to explore new GNN designs and insights. As a proof of value of our benchmark, we study the case of graph positional encoding (PE) in GNNs, which was introduced with this benchmark and has since spurred interest of exploring more powerful PE for Transformers and GNNs in a robust experimental setting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-02T15:58:46Z</published>
+    <arxiv:comment>Benchmarking framework on GitHub at https://github.com/graphdeeplearning/benchmarking-gnns</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Journal of Machine Learning Research (JMLR), 2022</arxiv:journal_ref>
+    <author>
+      <name>Vijay Prakash Dwivedi</name>
+    </author>
+    <author>
+      <name>Chaitanya K. Joshi</name>
+    </author>
+    <author>
+      <name>Anh Tuan Luu</name>
+    </author>
+    <author>
+      <name>Thomas Laurent</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Xavier Bresson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.12499v2</id>
+    <title>On Catastrophic Interference in Atari 2600 Games</title>
+    <updated>2020-06-09T17:36:46Z</updated>
+    <link href="https://arxiv.org/abs/2002.12499v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.12499v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model-free deep reinforcement learning is sample inefficient. One hypothesis -- speculated, but not confirmed -- is that catastrophic interference within an environment inhibits learning. We test this hypothesis through a large-scale empirical study in the Arcade Learning Environment (ALE) and, indeed, find supporting evidence. We show that interference causes performance to plateau; the network cannot train on segments beyond the plateau without degrading the policy used to reach there. By synthetically controlling for interference, we demonstrate performance boosts across architectures, learning algorithms and environments. A more refined analysis shows that learning one segment of a game often increases prediction errors elsewhere. Our study provides a clear empirical link between catastrophic interference and sample efficiency in reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-28T00:55:03Z</published>
+    <arxiv:comment>First two authors contributed equally. Code available to reproduce experiments at https://github.com/google-research/google-research/tree/master/memento</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Dibya Ghosh</name>
+    </author>
+    <author>
+      <name>John D. Martin</name>
+    </author>
+    <author>
+      <name>Marc G. Bellemare</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09046v1</id>
+    <title>Neural Bayes: A Generic Parameterization Method for Unsupervised Representation Learning</title>
+    <updated>2020-02-20T22:28:53Z</updated>
+    <link href="https://arxiv.org/abs/2002.09046v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.09046v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a parameterization method called Neural Bayes which allows computing statistical quantities that are in general difficult to compute and opens avenues for formulating new objectives for unsupervised representation learning. Specifically, given an observed random variable $\mathbf{x}$ and a latent discrete variable $z$, we can express $p(\mathbf{x}|z)$, $p(z|\mathbf{x})$ and $p(z)$ in closed form in terms of a sufficiently expressive function (Eg. neural network) using our parameterization without restricting the class of these distributions. To demonstrate its usefulness, we develop two independent use cases for this parameterization:
+  1. Mutual Information Maximization (MIM): MIM has become a popular means for self-supervised representation learning. Neural Bayes allows us to compute mutual information between observed random variables $\mathbf{x}$ and latent discrete random variables $z$ in closed form. We use this for learning image representations and show its usefulness on downstream classification tasks.
+  2. Disjoint Manifold Labeling: Neural Bayes allows us to formulate an objective which can optimally label samples from disjoint manifolds present in the support of a continuous distribution. This can be seen as a specific form of clustering where each disjoint manifold in the support is a separate cluster. We design clustering tasks that obey this formulation and empirically show that the model optimally labels the disjoint manifolds. Our code is available at \url{https://github.com/salesforce/NeuralBayes}</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-20T22:28:53Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Huan Wang</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Richard Socher</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.06460v1</id>
+    <title>HighRes-net: Recursive Fusion for Multi-Frame Super-Resolution of Satellite Imagery</title>
+    <updated>2020-02-15T22:17:47Z</updated>
+    <link href="https://arxiv.org/abs/2002.06460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.06460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative deep learning has sparked a new wave of Super-Resolution (SR) algorithms that enhance single images with impressive aesthetic results, albeit with imaginary details. Multi-frame Super-Resolution (MFSR) offers a more grounded approach to the ill-posed problem, by conditioning on multiple low-resolution views. This is important for satellite monitoring of human impact on the planet -- from deforestation, to human rights violations -- that depend on reliable imagery. To this end, we present HighRes-net, the first deep learning approach to MFSR that learns its sub-tasks in an end-to-end fashion: (i) co-registration, (ii) fusion, (iii) up-sampling, and (iv) registration-at-the-loss. Co-registration of low-resolution views is learned implicitly through a reference-frame channel, with no explicit registration mechanism. We learn a global fusion operator that is applied recursively on an arbitrary number of low-resolution pairs. We introduce a registered loss, by learning to align the SR output to a ground-truth through ShiftNet. We show that by learning deep representations of multiple views, we can super-resolve low-resolution signals and enhance Earth Observation data at scale. Our approach recently topped the European Space Agency's MFSR competition on real-world satellite imagery.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-15T22:17:47Z</published>
+    <arxiv:comment>15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michel Deudon</name>
+    </author>
+    <author>
+      <name>Alfredo Kalaitzis</name>
+    </author>
+    <author>
+      <name>Israel Goytom</name>
+    </author>
+    <author>
+      <name>Md Rifat Arefin</name>
+    </author>
+    <author>
+      <name>Zhichao Lin</name>
+    </author>
+    <author>
+      <name>Kris Sankaran</name>
+    </author>
+    <author>
+      <name>Vincent Michalski</name>
+    </author>
+    <author>
+      <name>Samira E. Kahou</name>
+    </author>
+    <author>
+      <name>Julien Cornebise</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05120v4</id>
+    <title>Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies</title>
+    <updated>2021-06-02T20:11:03Z</updated>
+    <link href="https://arxiv.org/abs/2002.05120v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05120v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Branch and Bound (B&amp;B) is the exact tree search method typically used to solve Mixed-Integer Linear Programming problems (MILPs). Learning branching policies for MILP has become an active research area, with most works proposing to imitate the strong branching rule and specialize it to distinct classes of problems. We aim instead at learning a policy that generalizes across heterogeneous MILPs: our main hypothesis is that parameterizing the state of the B&amp;B search tree can aid this type of generalization. We propose a novel imitation learning framework, and introduce new input features and architectures to represent branching. Experiments on MILP benchmark instances clearly show the advantages of incorporating an explicit parameterization of the state of the search tree to modulate the branching decisions, in terms of both higher accuracy and smaller B&amp;B trees. The resulting policies significantly outperform the current state-of-the-art method for "learning to branch" by effectively allowing generalization to generic unseen instances.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-12T17:43:23Z</published>
+    <arxiv:comment>AAAI 2021 camera-ready version with supplementary materials, improved readability of figures in main article. Code, data and trained models are available at https://github.com/ds4dm/branch-search-trees</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings of the AAAI Conference on Artificial Intelligence 2021, 35(5), 3931-3939</arxiv:journal_ref>
+    <author>
+      <name>Giulia Zarpellon</name>
+    </author>
+    <author>
+      <name>Jason Jo</name>
+    </author>
+    <author>
+      <name>Andrea Lodi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.07579v2</id>
+    <title>Modeling Cloud Reflectance Fields using Conditional Generative Adversarial Networks</title>
+    <updated>2020-04-14T23:27:02Z</updated>
+    <link href="https://arxiv.org/abs/2002.07579v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.07579v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a conditional Generative Adversarial Network (cGAN) approach to generate cloud reflectance fields (CRFs) conditioned on large scale meteorological variables such as sea surface temperature and relative humidity. We show that our trained model can generate realistic CRFs from the corresponding meteorological observations, which represents a step towards a data-driven framework for stochastic cloud parameterization.</summary>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-10T23:04:02Z</published>
+    <arxiv:comment>Code is available on Github: https://github.com/krisrs1128/clouds_dist</arxiv:comment>
+    <arxiv:primary_category term="physics.ao-ph"/>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Mustafa Alghali</name>
+    </author>
+    <author>
+      <name>Kris Sankaran</name>
+    </author>
+    <author>
+      <name>Tianle Yuan</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.03090v2</id>
+    <title>BitPruning: Learning Bitlengths for Aggressive and Accurate Quantization</title>
+    <updated>2020-08-11T20:30:52Z</updated>
+    <link href="https://arxiv.org/abs/2002.03090v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.03090v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks have demonstrably achieved state-of-the art accuracy using low-bitlength integer quantization, yielding both execution time and energy benefits on existing hardware designs that support short bitlengths. However, the question of finding the minimum bitlength for a desired accuracy remains open. We introduce a training method for minimizing inference bitlength at any granularity while maintaining accuracy. Namely, we propose a regularizer that penalizes large bitlength representations throughout the architecture and show how it can be modified to minimize other quantifiable criteria, such as number of operations or memory footprint. We demonstrate that our method learns thrifty representations while maintaining accuracy. With ImageNet, the method produces an average per layer bitlength of 4.13, 3.76 and 4.36 bits on AlexNet, ResNet18 and MobileNet V2 respectively, remaining within 2.0%, 0.5% and 0.5% of the base TOP-1 accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-08T04:58:33Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Miloš Nikolić</name>
+    </author>
+    <author>
+      <name>Ghouthi Boukli Hacene</name>
+    </author>
+    <author>
+      <name>Ciaran Bannon</name>
+    </author>
+    <author>
+      <name>Alberto Delmas Lascorz</name>
+    </author>
+    <author>
+      <name>Matthieu Courbariaux</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Vincent Gripon</name>
+    </author>
+    <author>
+      <name>Andreas Moshovos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.02887v3</id>
+    <title>Meta-learning framework with applications to zero-shot time-series forecasting</title>
+    <updated>2020-12-14T19:33:05Z</updated>
+    <link href="https://arxiv.org/abs/2002.02887v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.02887v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can meta-learning discover generic ways of processing time series (TS) from a diverse dataset so as to greatly improve generalization on new TS coming from different datasets? This work provides positive evidence to this using a broad meta-learning framework which we show subsumes many existing meta-learning algorithms. Our theoretical analysis suggests that residual connections act as a meta-learning adaptation mechanism, generating a subset of task-specific parameters based on a given TS input, thus gradually expanding the expressive power of the architecture on-the-fly. The same mechanism is shown via linearization analysis to have the interpretation of a sequential update of the final linear layer. Our empirical results on a wide range of data emphasize the importance of the identified meta-learning mechanisms for successful zero-shot univariate forecasting, suggesting that it is viable to train a neural network on a source TS dataset and deploy it on a different target TS dataset without retraining, resulting in performance that is at least as good as that of state-of-practice univariate forecasting models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-07T16:39:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Boris N. Oreshkin</name>
+    </author>
+    <author>
+      <name>Dmitri Carpov</name>
+    </author>
+    <author>
+      <name>Nicolas Chapados</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r6UHWHlygXt30sCQkoYiQBckO/M</id>
+  <title>arXiv Query: search_query=au:"Andrew Barto"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T21:41:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Andrew+Barto%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05448v1</id>
+    <title>On Ensuring that Intelligent Machines Are Well-Behaved</title>
+    <updated>2017-08-17T21:53:47Z</updated>
+    <link href="https://arxiv.org/abs/1708.05448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.05448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning algorithms are everywhere, ranging from simple data analysis and pattern recognition tools used across the sciences to complex systems that achieve super-human performance on various tasks. Ensuring that they are well-behaved---that they do not, for example, cause harm to humans or act in a racist or sexist way---is therefore not a hypothetical problem to be dealt with in the future, but a pressing one that we address here. We propose a new framework for designing machine learning algorithms that simplifies the problem of specifying and regulating undesirable behaviors. To show the viability of this new framework, we use it to create new machine learning algorithms that preclude the sexist and harmful behaviors exhibited by standard machine learning algorithms in our experiments. Our framework for designing machine learning algorithms simplifies the safe and responsible application of machine learning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-17T21:53:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Philip S. Thomas</name>
+    </author>
+    <author>
+      <name>Bruno Castro da Silva</name>
+    </author>
+    <author>
+      <name>Andrew G. Barto</name>
+    </author>
+    <author>
+      <name>Emma Brunskill</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6398v2</id>
+    <title>Learning Parameterized Skills</title>
+    <updated>2012-09-03T16:05:45Z</updated>
+    <link href="https://arxiv.org/abs/1206.6398v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6398v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a method for constructing skills capable of solving tasks drawn from a distribution of parameterized reinforcement learning problems. The method draws example tasks from a distribution of interest and uses the corresponding learned policies to estimate the topology of the lower-dimensional piecewise-smooth manifold on which the skill policies lie. This manifold models how policy parameters change as task parameters vary. The method identifies the number of charts that compose the manifold and then applies non-linear regression in each chart to construct a parameterized skill by predicting policy parameters from task parameters. We evaluate our method on an underactuated simulated robotic arm tasked with learning to accurately throw darts at a parameterized target location.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bruno Da Silva</name>
+      <arxiv:affiliation>UMass Amherst</arxiv:affiliation>
+    </author>
+    <author>
+      <name>George Konidaris</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Barto</name>
+      <arxiv:affiliation>UMass Amherst</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

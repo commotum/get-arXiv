@@ -32,8 +32,10 @@ USER_AGENTS = [
     "Gecko/20100101 Firefox/122.0",
 ]
 RETRY_DELAYS = [5, 15, 30]
-SLEEP_MIN = 4.0
-SLEEP_MAX = 8.0
+API_SLEEP_MIN = 4.0
+API_SLEEP_MAX = 8.0
+HTML_SLEEP_MIN = 1.1
+HTML_SLEEP_MAX = 3.3
 
 NAMESPACES = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -265,8 +267,10 @@ def download_author(
     first_name: str,
     *,
     root: Path,
-    sleep_min: float = SLEEP_MIN,
-    sleep_max: float = SLEEP_MAX,
+    api_sleep_min: float = API_SLEEP_MIN,
+    api_sleep_max: float = API_SLEEP_MAX,
+    html_sleep_min: float = HTML_SLEEP_MIN,
+    html_sleep_max: float = HTML_SLEEP_MAX,
     max_request_seconds: float | None = None,
     max_total_seconds: float | None = None,
     retry_delays: list[int] | None = None,
@@ -357,7 +361,7 @@ def download_author(
                         )
 
                     safe_write_text(html_path, html)
-                    rand_sleep(sleep_min, sleep_max)
+                    rand_sleep(html_sleep_min, html_sleep_max)
 
             start += PAGE_SIZE
             if total_results and start >= total_results:
@@ -370,7 +374,7 @@ def download_author(
                         f"Author exceeded {max_total_seconds:.1f}s total"
                     )
 
-            rand_sleep(sleep_min, sleep_max)
+            rand_sleep(api_sleep_min, api_sleep_max)
 
     if bar is not None:
         bar.close()

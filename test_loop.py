@@ -13,8 +13,10 @@ DEFAULT_MAX_AUTHORS = 0
 DEFAULT_MAX_REQUEST_SECONDS = 45.0
 DEFAULT_MAX_TOTAL_SECONDS = 0.0
 DEFAULT_STOP_ON_FAIL = True
-DEFAULT_SLEEP_MIN = 4.0
-DEFAULT_SLEEP_MAX = 8.0
+DEFAULT_API_SLEEP_MIN = 4.0
+DEFAULT_API_SLEEP_MAX = 8.0
+DEFAULT_HTML_SLEEP_MIN = 1.1
+DEFAULT_HTML_SLEEP_MAX = 3.3
 
 
 def parse_env_int(name: str, default: int) -> int:
@@ -90,8 +92,18 @@ def main() -> None:
     )
     max_total_seconds = parse_env_float("MAX_TOTAL_SECONDS", DEFAULT_MAX_TOTAL_SECONDS)
     stop_on_fail = parse_env_bool("STOP_ON_FAIL", DEFAULT_STOP_ON_FAIL)
-    sleep_min = parse_env_float("SLEEP_MIN", DEFAULT_SLEEP_MIN)
-    sleep_max = parse_env_float("SLEEP_MAX", DEFAULT_SLEEP_MAX)
+    api_sleep_min = parse_env_float(
+        "API_SLEEP_MIN", parse_env_float("SLEEP_MIN", DEFAULT_API_SLEEP_MIN)
+    )
+    api_sleep_max = parse_env_float(
+        "API_SLEEP_MAX", parse_env_float("SLEEP_MAX", DEFAULT_API_SLEEP_MAX)
+    )
+    html_sleep_min = parse_env_float(
+        "HTML_SLEEP_MIN", parse_env_float("SLEEP_MIN", DEFAULT_HTML_SLEEP_MIN)
+    )
+    html_sleep_max = parse_env_float(
+        "HTML_SLEEP_MAX", parse_env_float("SLEEP_MAX", DEFAULT_HTML_SLEEP_MAX)
+    )
     retry_delays = parse_retry_delays(os.getenv("RETRY_DELAYS"))
     retry_arg = retry_delays if retry_delays else None
 
@@ -106,7 +118,8 @@ def main() -> None:
         f"authors={len(authors)}, "
         f"max_request_seconds={max_request_seconds:.1f}, "
         f"max_total_seconds={max_total_seconds:.1f}, "
-        f"sleep={sleep_min:.1f}-{sleep_max:.1f}s"
+        f"api_sleep={api_sleep_min:.1f}-{api_sleep_max:.1f}s, "
+        f"html_sleep={html_sleep_min:.1f}-{html_sleep_max:.1f}s"
     )
 
     for index, (last_name, first_name) in enumerate(authors, start=1):
@@ -118,8 +131,10 @@ def main() -> None:
                 last_name,
                 first_name,
                 root=root,
-                sleep_min=sleep_min,
-                sleep_max=sleep_max,
+                api_sleep_min=api_sleep_min,
+                api_sleep_max=api_sleep_max,
+                html_sleep_min=html_sleep_min,
+                html_sleep_max=html_sleep_max,
                 max_request_seconds=(None if max_request_seconds <= 0 else max_request_seconds),
                 max_total_seconds=(None if max_total_seconds <= 0 else max_total_seconds),
                 retry_delays=retry_arg,
