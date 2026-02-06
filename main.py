@@ -1,11 +1,10 @@
 from __future__ import annotations
 
-import math
 import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -29,10 +28,25 @@ def build_search_url(last_name: str, first_name: str, start: int) -> str:
     return f"{BASE_URL}{urlencode(params)}"
 
 
-def fetch_html(session: requests.Session, url: str) -> str:
-    response = session.get(url, headers=HEADERS, timeout=30)
-    response.raise_for_status()
-    return response.text
+def fetch_html(session: requests.Session, url: str, *, max_attempts: int = 4) -> str:
+    last_error: Exception | None = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = session.get(url, headers=HEADERS, timeout=30)
+            if 500 <= response.status_code <= 599:
+                raise requests.HTTPError(
+                    f"{response.status_code} Server Error: {response.reason} for url: {url}",
+                    response=response,
+                )
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt == max_attempts:
+                break
+            time.sleep(2 * attempt)
+    assert last_error is not None
+    raise last_error
 
 
 def parse_total_results(html: str) -> int:
@@ -45,6 +59,19 @@ def parse_total_results(html: str) -> int:
     if match:
         return int(match.group(1).replace(",", ""))
     return 0
+
+
+def parse_next_url(html: str) -> str | None:
+    soup = BeautifulSoup(html, "html.parser")
+    next_link = soup.select_one("a.pagination-next")
+    if not next_link:
+        return None
+    href = next_link.get("href")
+    if not href:
+        return None
+    if "is-invisible" in (next_link.get("class") or []):
+        return None
+    return urljoin("https://arxiv.org", href)
 
 
 def ensure_directories(root: Path, last_name: str, first_name: str) -> Path:
@@ -77,23 +104,33 @@ def main() -> None:
     html_dir = ensure_directories(root, last_name, first_name)
 
     with requests.Session() as session:
-        first_url = build_search_url(last_name, first_name, start=0)
-        first_html = fetch_html(session, first_url)
-        save_html(html_dir, 1, first_html)
+        url = build_search_url(last_name, first_name, start=0)
+        page_number = 1
+        total_results = 0
 
-        total_results = parse_total_results(first_html)
-        total_pages = max(1, math.ceil(total_results / PAGE_SIZE))
-
-        for page_number in range(2, total_pages + 1):
-            start = (page_number - 1) * PAGE_SIZE
-            url = build_search_url(last_name, first_name, start=start)
+        while url:
             html = fetch_html(session, url)
             save_html(html_dir, page_number, html)
+
+            if page_number == 1:
+                total_results = parse_total_results(html)
+
+            next_url = parse_next_url(html)
+            if not next_url or next_url == url:
+                break
+            url = next_url
+            page_number += 1
             time.sleep(1)
 
-    print(
-        f"Saved {total_pages} page(s) for {last_name}, {first_name} to {html_dir}"
-    )
+    if total_results:
+        print(
+            f"Saved {page_number} page(s) "
+            f"({total_results} results) for {last_name}, {first_name} to {html_dir}"
+        )
+    else:
+        print(
+            f"Saved {page_number} page(s) for {last_name}, {first_name} to {html_dir}"
+        )
 
 
 if __name__ == "__main__":
