@@ -443,11 +443,6 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("last_name", nargs="?", help="Author last name")
     parser.add_argument("first_name", nargs="?", help="Author first name")
     parser.add_argument(
-        "--csv",
-        action="store_true",
-        help="Process authors from authors.csv",
-    )
-    parser.add_argument(
         "--csv-path",
         default=str(CSV_PATH),
         help=argparse.SUPPRESS,
@@ -460,7 +455,7 @@ def main() -> None:
     root = Path(__file__).resolve().parent
     csv_path = Path(args.csv_path)
 
-    if args.csv:
+    if not args.last_name and not args.first_name:
         authors = iter_authors_csv(csv_path)
         if not authors:
             print(f"No authors found in {csv_path}", file=sys.stderr)
@@ -508,7 +503,7 @@ def main() -> None:
         return
 
     if not args.last_name or not args.first_name:
-        print("Usage: python main.py <last-name> <first-name> or --csv", file=sys.stderr)
+        print("Usage: python main.py <last-name> <first-name>", file=sys.stderr)
         raise SystemExit(2)
 
     last_name = args.last_name.strip().strip(",")
