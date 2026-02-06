@@ -1,0 +1,1831 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lYVsy7bHpDHIeBGAqO53tGyMI6E</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=200&amp;max_results=50</title>
+  <updated>2026-02-06T20:10:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=200&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>200</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2205.10607v2</id>
+    <title>Coordinating Policies Among Multiple Agents via an Intelligent Communication Channel</title>
+    <updated>2022-05-25T16:11:52Z</updated>
+    <link href="https://arxiv.org/abs/2205.10607v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.10607v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In Multi-Agent Reinforcement Learning (MARL), specialized channels are often introduced that allow agents to communicate directly with one another. In this paper, we propose an alternative approach whereby agents communicate through an intelligent facilitator that learns to sift through and interpret signals provided by all agents to improve the agents' collective performance. To ensure that this facilitator does not become a centralized controller, agents are incentivized to reduce their dependence on the messages it conveys, and the messages can only influence the selection of a policy from a fixed set, not instantaneous actions given the policy. We demonstrate the strength of this architecture over existing baselines on several cooperative MARL environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-21T14:11:33Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dianbo Liu</name>
+    </author>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Oussama Boussif</name>
+    </author>
+    <author>
+      <name>Cristian Meo</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Tianmin Shu</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09305v1</id>
+    <title>FedILC: Weighted Geometric Mean and Invariant Gradient Covariance for Federated Learning on Non-IID Data</title>
+    <updated>2022-05-19T03:32:03Z</updated>
+    <link href="https://arxiv.org/abs/2205.09305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning is a distributed machine learning approach which enables a shared server model to learn by aggregating the locally-computed parameter updates with the training data from spatially-distributed client silos. Though successfully possessing advantages in both scale and privacy, federated learning is hurt by domain shift problems, where the learning models are unable to generalize to unseen domains whose data distribution is non-i.i.d. with respect to the training domains. In this study, we propose the Federated Invariant Learning Consistency (FedILC) approach, which leverages the gradient covariance and the geometric mean of Hessians to capture both inter-silo and intra-silo consistencies of environments and unravel the domain shift problems in federated networks. The benchmark and real-world dataset experiments bring evidence that our proposed algorithm outperforms conventional baselines and similar federated learning algorithms. This is relevant to various fields such as medical healthcare, computer vision, and the Internet of Things (IoT). The code is released at https://github.com/mikemikezhu/FedILC.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-19T03:32:03Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mike He Zhu</name>
+    </author>
+    <author>
+      <name>Léna Néhale Ezzine</name>
+    </author>
+    <author>
+      <name>Dianbo Liu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.03027v1</id>
+    <title>A Highly Adaptive Acoustic Model for Accurate Multi-Dialect Speech Recognition</title>
+    <updated>2022-05-06T06:07:09Z</updated>
+    <link href="https://arxiv.org/abs/2205.03027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.03027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the success of deep learning in speech recognition, multi-dialect speech recognition remains a difficult problem. Although dialect-specific acoustic models are known to perform well in general, they are not easy to maintain when dialect-specific data is scarce and the number of dialects for each language is large. Therefore, a single unified acoustic model (AM) that generalizes well for many dialects has been in demand. In this paper, we propose a novel acoustic modeling technique for accurate multi-dialect speech recognition with a single AM. Our proposed AM is dynamically adapted based on both dialect information and its internal representation, which results in a highly adaptive AM for handling multiple dialects simultaneously. We also propose a simple but effective training method to deal with unseen dialects. The experimental results on large scale speech datasets show that the proposed AM outperforms all the previous ones, reducing word error rates (WERs) by 8.11% relative compared to a single all-dialects AM and by 7.31% relative compared to dialect-specific AMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-06T06:07:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sanghyun Yoo</name>
+    </author>
+    <author>
+      <name>Inchul Song</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <arxiv:doi>10.1109/ICASSP.2019.8683705</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICASSP.2019.8683705" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.00666v1</id>
+    <title>(Private)-Retroactive Carbon Pricing [(P)ReCaP]: A Market-based Approach for Climate Finance and Risk Assessment</title>
+    <updated>2022-05-02T06:02:13Z</updated>
+    <link href="https://arxiv.org/abs/2205.00666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.00666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Insufficient Social Cost of Carbon (SCC) estimation methods and short-term decision-making horizons have hindered the ability of carbon emitters to properly correct for the negative externalities of climate change, as well as the capacity of nations to balance economic and climate policy. To overcome these limitations, we introduce Retrospective Social Cost of Carbon Updating (ReSCCU), a novel mechanism that corrects for these limitations as empirically measured evidence is collected. To implement ReSCCU in the context of carbon taxation, we propose Retroactive Carbon Pricing (ReCaP), a market mechanism in which polluters offload the payment of ReSCCU adjustments to insurers. To alleviate systematic risks and minimize government involvement, we introduce the Private ReCaP (PReCaP) prediction market, which could see real-world implementation based on the engagement of a few high net-worth individuals or independent institutions.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-02T06:02:13Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Prateek Gupta</name>
+    </author>
+    <author>
+      <name>Dylan Radovic</name>
+    </author>
+    <author>
+      <name>Maarten Scholl</name>
+    </author>
+    <author>
+      <name>Andrew Williams</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.11369v1</id>
+    <title>Temporal Abstractions-Augmented Temporally Contrastive Learning: An Alternative to the Laplacian in RL</title>
+    <updated>2022-03-21T22:07:48Z</updated>
+    <link href="https://arxiv.org/abs/2203.11369v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.11369v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In reinforcement learning, the graph Laplacian has proved to be a valuable tool in the task-agnostic setting, with applications ranging from skill discovery to reward shaping. Recently, learning the Laplacian representation has been framed as the optimization of a temporally-contrastive objective to overcome its computational limitations in large (or continuous) state spaces. However, this approach requires uniform access to all states in the state space, overlooking the exploration problem that emerges during the representation learning process. In this work, we propose an alternative method that is able to recover, in a non-uniform-prior setting, the expressiveness and the desired properties of the Laplacian representation. We do so by combining the representation learning with a skill-based covering policy, which provides a better training distribution to extend and refine the representation. We also show that a simple augmentation of the representation objective with the learned temporal abstractions improves dynamics-awareness and helps exploration. We find that our method succeeds as an alternative to the Laplacian in the non-uniform setting and scales to challenging continuous control environments. Finally, even if our method is not optimized for skill discovery, the learned skills can successfully solve difficult continuous navigation tasks with sparse rewards, where standard skill discovery approaches are no so effective.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-21T22:07:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akram Erraqabi</name>
+    </author>
+    <author>
+      <name>Marlos C. Machado</name>
+    </author>
+    <author>
+      <name>Mingde Zhao</name>
+    </author>
+    <author>
+      <name>Sainbayar Sukhbaatar</name>
+    </author>
+    <author>
+      <name>Alessandro Lazaric</name>
+    </author>
+    <author>
+      <name>Ludovic Denoyer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.03724v1</id>
+    <title>A New Era: Intelligent Tutoring Systems Will Transform Online Learning for Millions</title>
+    <updated>2022-03-03T18:55:33Z</updated>
+    <link href="https://arxiv.org/abs/2203.03724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.03724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite artificial intelligence (AI) having transformed major aspects of our society, less than a fraction of its potential has been explored, let alone deployed, for education. AI-powered learning can provide millions of learners with a highly personalized, active and practical learning experience, which is key to successful learning. This is especially relevant in the context of online learning platforms. In this paper, we present the results of a comparative head-to-head study on learning outcomes for two popular online learning platforms (n=199 participants): A MOOC platform following a traditional model delivering content using lecture videos and multiple-choice quizzes, and the Korbit learning platform providing a highly personalized, active and practical learning experience. We observe a huge and statistically significant increase in the learning outcomes, with students on the Korbit platform providing full feedback resulting in higher course completion rates and achieving learning gains 2 to 2.5 times higher than both students on the MOOC platform and students in a control group who don't receive personalized feedback on the Korbit platform. The results demonstrate the tremendous impact that can be achieved with a personalized, active learning AI-powered system. Making this technology and learning experience available to millions of learners around the world will represent a significant leap forward towards the democratization of education.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-03T18:55:33Z</published>
+    <arxiv:comment>9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Francois St-Hilaire</name>
+    </author>
+    <author>
+      <name>Dung Do Vu</name>
+    </author>
+    <author>
+      <name>Antoine Frau</name>
+    </author>
+    <author>
+      <name>Nathan Burns</name>
+    </author>
+    <author>
+      <name>Farid Faraji</name>
+    </author>
+    <author>
+      <name>Joseph Potochny</name>
+    </author>
+    <author>
+      <name>Stephane Robert</name>
+    </author>
+    <author>
+      <name>Arnaud Roussel</name>
+    </author>
+    <author>
+      <name>Selene Zheng</name>
+    </author>
+    <author>
+      <name>Taylor Glazier</name>
+    </author>
+    <author>
+      <name>Junfel Vincent Romano</name>
+    </author>
+    <author>
+      <name>Robert Belfer</name>
+    </author>
+    <author>
+      <name>Muhammad Shayan</name>
+    </author>
+    <author>
+      <name>Ariella Smofsky</name>
+    </author>
+    <author>
+      <name>Tommy Delarosbil</name>
+    </author>
+    <author>
+      <name>Seulmin Ahn</name>
+    </author>
+    <author>
+      <name>Simon Eden-Walker</name>
+    </author>
+    <author>
+      <name>Kritika Sony</name>
+    </author>
+    <author>
+      <name>Ansona Onyi Ching</name>
+    </author>
+    <author>
+      <name>Sabina Elkins</name>
+    </author>
+    <author>
+      <name>Anush Stepanyan</name>
+    </author>
+    <author>
+      <name>Adela Matajova</name>
+    </author>
+    <author>
+      <name>Victor Chen</name>
+    </author>
+    <author>
+      <name>Hossein Sahraei</name>
+    </author>
+    <author>
+      <name>Robert Larson</name>
+    </author>
+    <author>
+      <name>Nadia Markova</name>
+    </author>
+    <author>
+      <name>Andrew Barkett</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Iulian Vlad Serban</name>
+    </author>
+    <author>
+      <name>Ekaterina Kochmar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01443v1</id>
+    <title>Continuous-Time Meta-Learning with Forward Mode Differentiation</title>
+    <updated>2022-03-02T22:35:58Z</updated>
+    <link href="https://arxiv.org/abs/2203.01443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.01443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Drawing inspiration from gradient-based meta-learning methods with infinitely small gradient steps, we introduce Continuous-Time Meta-Learning (COMLN), a meta-learning algorithm where adaptation follows the dynamics of a gradient vector field. Specifically, representations of the inputs are meta-learned such that a task-specific linear classifier is obtained as a solution of an ordinary differential equation (ODE). Treating the learning process as an ODE offers the notable advantage that the length of the trajectory is now continuous, as opposed to a fixed and discrete number of gradient steps. As a consequence, we can optimize the amount of adaptation necessary to solve a new task using stochastic gradient descent, in addition to learning the initial conditions as is standard practice in gradient-based meta-learning. Importantly, in order to compute the exact meta-gradients required for the outer-loop updates, we devise an efficient algorithm based on forward mode differentiation, whose memory requirements do not scale with the length of the learning trajectory, thus allowing longer adaptation in constant memory. We provide analytical guarantees for the stability of COMLN, we show empirically its efficiency in terms of runtime and memory usage, and we illustrate its effectiveness on a range of few-shot image classification problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-02T22:35:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>David Kanaa</name>
+    </author>
+    <author>
+      <name>Leo Feng</name>
+    </author>
+    <author>
+      <name>Giancarlo Kerg</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+    <author>
+      <name>Pierre-Luc Bacon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.04115v3</id>
+    <title>Biological Sequence Design with GFlowNets</title>
+    <updated>2023-05-24T11:21:54Z</updated>
+    <link href="https://arxiv.org/abs/2203.04115v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.04115v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Design of de novo biological sequences with desired properties, like protein and DNA sequences, often involves an active loop with several rounds of molecule ideation and expensive wet-lab evaluations. These experiments can consist of multiple stages, with increasing levels of precision and cost of evaluation, where candidates are filtered. This makes the diversity of proposed candidates a key consideration in the ideation phase. In this work, we propose an active learning algorithm leveraging epistemic uncertainty estimation and the recently proposed GFlowNets as a generator of diverse candidate solutions, with the objective to obtain a diverse batch of useful (as defined by some utility function, for example, the predicted anti-microbial activity of a peptide) and informative candidates after each round. We also propose a scheme to incorporate existing labeled datasets of candidates, in addition to a reward function, to speed up learning in GFlowNets. We present empirical results on several biological sequence design tasks, and we find that our method generates more diverse and novel batches with high scoring candidates compared to existing approaches.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-02T15:53:38Z</published>
+    <arxiv:comment>ICML 2022. 15 pages, 3 figures. Code available at: https://github.com/MJ10/BioSeq-GFN-AL. Updated GFP results</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Alex-Hernandez Garcia</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Bonaventure F. P. Dossou</name>
+    </author>
+    <author>
+      <name>Chanakya Ekbote</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Micheal Kilgour</name>
+    </author>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Lena Simine</name>
+    </author>
+    <author>
+      <name>Payel Das</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.13914v2</id>
+    <title>Combining Modular Skills in Multitask Learning</title>
+    <updated>2022-03-01T10:50:30Z</updated>
+    <link href="https://arxiv.org/abs/2202.13914v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.13914v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A modular design encourages neural models to disentangle and recombine different facets of knowledge to generalise more systematically to new tasks. In this work, we assume that each task is associated with a subset of latent discrete skills from a (potentially small) inventory. In turn, skills correspond to parameter-efficient (sparse / low-rank) model parameterisations. By jointly learning these and a task-skill allocation matrix, the network for each task is instantiated as the average of the parameters of active skills. To favour non-trivial soft partitions of skills across tasks, we experiment with a series of inductive biases, such as an Indian Buffet Process prior and a two-speed learning rate. We evaluate our latent-skill model on two main settings: 1) multitask reinforcement learning for grounded instruction following on 8 levels of the BabyAI platform; and 2) few-shot adaptation of pre-trained text-to-text generative models on CrossFit, a benchmark comprising 160 NLP tasks. We find that the modular design of a network significantly increases sample efficiency in reinforcement learning and few-shot generalisation in supervised learning, compared to baselines with fully shared, task-specific, or conditionally generated parameters where knowledge is entangled across tasks. In addition, we show how discrete skills help interpretability, as they yield an explicit hierarchy of tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-28T16:07:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Edoardo M. Ponti</name>
+    </author>
+    <author>
+      <name>Alessandro Sordoni</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.13903v2</id>
+    <title>Bayesian Structure Learning with Generative Flow Networks</title>
+    <updated>2022-06-28T18:08:32Z</updated>
+    <link href="https://arxiv.org/abs/2202.13903v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.13903v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In Bayesian structure learning, we are interested in inferring a distribution over the directed acyclic graph (DAG) structure of Bayesian networks, from data. Defining such a distribution is very challenging, due to the combinatorially large sample space, and approximations based on MCMC are often required. Recently, a novel class of probabilistic models, called Generative Flow Networks (GFlowNets), have been introduced as a general framework for generative modeling of discrete and composite objects, such as graphs. In this work, we propose to use a GFlowNet as an alternative to MCMC for approximating the posterior distribution over the structure of Bayesian networks, given a dataset of observations. Generating a sample DAG from this approximate distribution is viewed as a sequential decision problem, where the graph is constructed one edge at a time, based on learned transition probabilities. Through evaluation on both simulated and real data, we show that our approach, called DAG-GFlowNet, provides an accurate approximation of the posterior over DAGs, and it compares favorably against other methods based on MCMC or variational inference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-28T15:53:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>António Góis</name>
+    </author>
+    <author>
+      <name>Chris Emezue</name>
+    </author>
+    <author>
+      <name>Mansi Rankawat</name>
+    </author>
+    <author>
+      <name>Simon Lacoste-Julien</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.04202v3</id>
+    <title>RECOVER: sequential model optimization platform for combination drug repurposing identifies novel synergistic compounds in vitro</title>
+    <updated>2023-03-02T21:58:51Z</updated>
+    <link href="https://arxiv.org/abs/2202.04202v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.04202v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For large libraries of small molecules, exhaustive combinatorial chemical screens become infeasible to perform when considering a range of disease models, assay conditions, and dose ranges. Deep learning models have achieved state of the art results in silico for the prediction of synergy scores. However, databases of drug combinations are biased towards synergistic agents and these results do not necessarily generalise out of distribution. We employ a sequential model optimization search utilising a deep learning model to quickly discover synergistic drug combinations active against a cancer cell line, requiring substantially less screening than an exhaustive evaluation. Our small scale wet lab experiments only account for evaluation of ~5% of the total search space. After only 3 rounds of ML-guided in vitro experimentation (including a calibration round), we find that the set of drug pairs queried is enriched for highly synergistic combinations; two additional rounds of ML-guided experiments were performed to ensure reproducibility of trends. Remarkably, we rediscover drug combinations later confirmed to be under study within clinical trials. Moreover, we find that drug embeddings generated using only structural information begin to reflect mechanisms of action. Prior in silico benchmarking suggests we can enrich search queries by a factor of ~5-10x for highly synergistic drug combinations by using sequential rounds of evaluation when compared to random selection, or by a factor of &gt;3x when using a pretrained model selecting all drug combinations at a single time point.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-07T02:54:29Z</published>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <author>
+      <name>Paul Bertin</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Deepak Sharma</name>
+    </author>
+    <author>
+      <name>Thomas Gaudelet</name>
+    </author>
+    <author>
+      <name>Andrew Anighoro</name>
+    </author>
+    <author>
+      <name>Torsten Gross</name>
+    </author>
+    <author>
+      <name>Francisco Martinez-Pena</name>
+    </author>
+    <author>
+      <name>Eileen L. Tang</name>
+    </author>
+    <author>
+      <name>Suraj M S</name>
+    </author>
+    <author>
+      <name>Cristian Regep</name>
+    </author>
+    <author>
+      <name>Jeremy Hayter</name>
+    </author>
+    <author>
+      <name>Maksym Korablyov</name>
+    </author>
+    <author>
+      <name>Nicholas Valiante</name>
+    </author>
+    <author>
+      <name>Almer van der Sloot</name>
+    </author>
+    <author>
+      <name>Mike Tyers</name>
+    </author>
+    <author>
+      <name>Charles Roberts</name>
+    </author>
+    <author>
+      <name>Michael M. Bronstein</name>
+    </author>
+    <author>
+      <name>Luke L. Lairson</name>
+    </author>
+    <author>
+      <name>Jake P. Taylor-King</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.01361v2</id>
+    <title>Generative Flow Networks for Discrete Probabilistic Modeling</title>
+    <updated>2022-06-08T18:21:04Z</updated>
+    <link href="https://arxiv.org/abs/2202.01361v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.01361v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present energy-based generative flow networks (EB-GFN), a novel probabilistic modeling algorithm for high-dimensional discrete data. Building upon the theory of generative flow networks (GFlowNets), we model the generation process by a stochastic data construction policy and thus amortize expensive MCMC exploration into a fixed number of actions sampled from a GFlowNet. We show how GFlowNets can approximately perform large-block Gibbs sampling to mix between modes. We propose a framework to jointly train a GFlowNet with an energy function, so that the GFlowNet learns to sample from the energy distribution, while the energy learns with an approximate MLE objective with negative samples from the GFlowNet. We demonstrate EB-GFN's effectiveness on various probabilistic modeling tasks. Code is publicly available at https://github.com/zdhNarsil/EB_GFN.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-03T01:27:11Z</published>
+    <arxiv:comment>Accepted by ICML 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Zhen Liu</name>
+    </author>
+    <author>
+      <name>Alexandra Volokhova</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.01334v1</id>
+    <title>Adaptive Discrete Communication Bottlenecks with Dynamic Vector Quantization</title>
+    <updated>2022-02-02T23:54:26Z</updated>
+    <link href="https://arxiv.org/abs/2202.01334v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.01334v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector Quantization (VQ) is a method for discretizing latent representations and has become a major part of the deep learning toolkit. It has been theoretically and empirically shown that discretization of representations leads to improved generalization, including in reinforcement learning where discretization can be used to bottleneck multi-agent communication to promote agent specialization and robustness. The discretization tightness of most VQ-based methods is defined by the number of discrete codes in the representation vector and the codebook size, which are fixed as hyperparameters. In this work, we propose learning to dynamically select discretization tightness conditioned on inputs, based on the hypothesis that data naturally contains variations in complexity that call for different levels of representational coarseness. We show that dynamically varying tightness in communication bottlenecks can improve model performance on visual reasoning and reinforcement learning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-02T23:54:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dianbo Liu</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Xu Ji</name>
+    </author>
+    <author>
+      <name>Pascal Notsawo</name>
+    </author>
+    <author>
+      <name>Mike Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.13415v1</id>
+    <title>Towards Scaling Difference Target Propagation by Learning Backprop Targets</title>
+    <updated>2022-01-31T18:20:43Z</updated>
+    <link href="https://arxiv.org/abs/2201.13415v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.13415v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of biologically-plausible learning algorithms is important for understanding learning in the brain, but most of them fail to scale-up to real-world tasks, limiting their potential as explanations for learning by real brains. As such, it is important to explore learning algorithms that come with strong theoretical guarantees and can match the performance of backpropagation (BP) on complex tasks. One such algorithm is Difference Target Propagation (DTP), a biologically-plausible learning algorithm whose close relation with Gauss-Newton (GN) optimization has been recently established. However, the conditions under which this connection rigorously holds preclude layer-wise training of the feedback pathway synaptic weights (which is more biologically plausible). Moreover, good alignment between DTP weight updates and loss gradients is only loosely guaranteed and under very specific conditions for the architecture being trained. In this paper, we propose a novel feedback weight training scheme that ensures both that DTP approximates BP and that layer-wise feedback weight training can be restored without sacrificing any theoretical guarantees. Our theory is corroborated by experimental results and we report the best performance ever achieved by DTP on CIFAR-10 and ImageNet 32$\times$32</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-31T18:20:43Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Maxence Ernoult</name>
+    </author>
+    <author>
+      <name>Fabrice Normandin</name>
+    </author>
+    <author>
+      <name>Abhinav Moudgil</name>
+    </author>
+    <author>
+      <name>Sean Spinney</name>
+    </author>
+    <author>
+      <name>Eugene Belilovsky</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Blake Richards</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.13259v3</id>
+    <title>Trajectory balance: Improved credit assignment in GFlowNets</title>
+    <updated>2023-10-04T16:30:14Z</updated>
+    <link href="https://arxiv.org/abs/2201.13259v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.13259v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative flow networks (GFlowNets) are a method for learning a stochastic policy for generating compositional objects, such as graphs or strings, from a given unnormalized density by sequences of actions, where many possible action sequences may lead to the same object. We find previously proposed learning objectives for GFlowNets, flow matching and detailed balance, which are analogous to temporal difference learning, to be prone to inefficient credit propagation across long action sequences. We thus propose a new learning objective for GFlowNets, trajectory balance, as a more efficient alternative to previously used objectives. We prove that any global minimizer of the trajectory balance objective can define a policy that samples exactly from the target distribution. In experiments on four distinct domains, we empirically demonstrate the benefits of the trajectory balance objective for GFlowNet convergence, diversity of generated samples, and robustness to long action sequences and large action spaces.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-31T14:07:49Z</published>
+    <arxiv:comment>NeurIPS 2022; see footnotes for code; v3 fixes minor errata</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Chen Sun</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.11783v3</id>
+    <title>Boosting Exploration in Multi-Task Reinforcement Learning using Adversarial Networks</title>
+    <updated>2023-02-06T08:34:53Z</updated>
+    <link href="https://arxiv.org/abs/2201.11783v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.11783v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advancements in reinforcement learning (RL) have been remarkable in recent years. However, the limitations of traditional training methods have become increasingly evident, particularly in meta-RL settings where agents face new, unseen tasks. Conventional training approaches are susceptible to failure in such situations as they need more robustness to adversity. Our proposed adversarial training regime for Multi-Task Reinforcement Learning (MT-RL) addresses the limitations of conventional training methods in RL, especially in meta-RL environments where the agent faces new tasks. The adversarial component challenges the agent, forcing it to improve its decision-making abilities in dynamic and unpredictable situations. This component operates without relying on manual intervention or domain-specific knowledge, making it a highly versatile solution. Experiments conducted in multiple MT-RL environments demonstrate that adversarial training leads to better exploration and a deeper understanding of the environment. The adversarial training regime for MT-RL presents a new perspective on training and development for RL agents and is a valuable contribution to the field.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-27T19:51:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ramnath Kumar</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.11775v3</id>
+    <title>The Effect of Diversity in Meta-Learning</title>
+    <updated>2022-11-24T14:10:30Z</updated>
+    <link href="https://arxiv.org/abs/2201.11775v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.11775v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies show that task distribution plays a vital role in the meta-learner's performance. Conventional wisdom is that task diversity should improve the performance of meta-learning. In this work, we find evidence to the contrary; (i) our experiments draw into question the efficacy of our learned models: similar manifolds can be learned with a subset of the data (lower task diversity). This finding questions the advantage of providing more data to the model, and (ii) adding diversity to the task distribution (higher task diversity) sometimes hinders the model and does not lead to a significant improvement in performance as previously believed. To strengthen our findings, we provide both empirical and theoretical evidence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-27T19:39:07Z</published>
+    <arxiv:comment>Accepted at AAAI 23</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ramnath Kumar</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.13734v2</id>
+    <title>Multi-Domain Balanced Sampling Improves Out-of-Distribution Generalization of Chest X-ray Pathology Prediction Models</title>
+    <updated>2021-12-28T02:36:40Z</updated>
+    <link href="https://arxiv.org/abs/2112.13734v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.13734v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning models that generalize under different distribution shifts in medical imaging has been a long-standing research challenge. There have been several proposals for efficient and robust visual representation learning among vision research practitioners, especially in the sensitive and critical biomedical domain. In this paper, we propose an idea for out-of-distribution generalization of chest X-ray pathologies that uses a simple balanced batch sampling technique. We observed that balanced sampling between the multiple training datasets improves the performance over baseline models trained without balancing.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-27T15:28:01Z</published>
+    <arxiv:comment>MED-NEURIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Enoch Tetteh</name>
+    </author>
+    <author>
+      <name>Joseph Viviano</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+    <author>
+      <name>Joseph Paul Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.03215v1</id>
+    <title>Multi-scale Feature Learning Dynamics: Insights for Double Descent</title>
+    <updated>2021-12-06T18:17:08Z</updated>
+    <link href="https://arxiv.org/abs/2112.03215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.03215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key challenge in building theoretical foundations for deep learning is the complex optimization dynamics of neural networks, resulting from the high-dimensional interactions between the large number of network parameters. Such non-trivial dynamics lead to intriguing behaviors such as the phenomenon of "double descent" of the generalization error. The more commonly studied aspect of this phenomenon corresponds to model-wise double descent where the test error exhibits a second descent with increasing model complexity, beyond the classical U-shaped error curve. In this work, we investigate the origins of the less studied epoch-wise double descent in which the test error undergoes two non-monotonous transitions, or descents as the training time increases. By leveraging tools from statistical physics, we study a linear teacher-student setup exhibiting epoch-wise double descent similar to that in deep neural networks. In this setting, we derive closed-form analytical expressions for the evolution of generalization error over training. We find that double descent can be attributed to distinct features being learned at different scales: as fast-learning features overfit, slower-learning features start to fit, resulting in a second descent in test error. We validate our findings through numerical experiments where our theory accurately predicts empirical findings and remains consistent with observations in deep neural networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-06T18:17:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohammad Pezeshki</name>
+    </author>
+    <author>
+      <name>Amartya Mitra</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.09266v5</id>
+    <title>GFlowNet Foundations</title>
+    <updated>2026-01-24T19:58:22Z</updated>
+    <link href="https://arxiv.org/abs/2111.09266v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.09266v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Flow Networks (GFlowNets) have been introduced as a method to sample a diverse set of candidates in an active learning context, with a training objective that makes them approximately sample in proportion to a given reward function. In this paper, we show a number of additional theoretical properties of GFlowNets. They can be used to estimate joint probability distributions and the corresponding marginal distributions where some variables are unspecified and, of particular interest, can represent distributions over composite objects like sets and graphs. GFlowNets amortize the work typically done by computationally expensive MCMC methods in a single but trained generative pass. They could also be used to estimate partition functions and free energies, conditional probabilities of supersets (supergraphs) given a subset (subgraph), as well as marginal distributions over all supersets (supergraphs) of a given set (graph). We introduce variations enabling the estimation of entropy and mutual information, sampling from a Pareto frontier, connections to reward-maximizing policies, and extensions to stochastic environments, continuous actions and modular energy functions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-17T17:59:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Salem Lahlou</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Edward J. Hu</name>
+    </author>
+    <author>
+      <name>Mo Tiwari</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.15796v1</id>
+    <title>Properties from Mechanisms: An Equivariance Perspective on Identifiable Representation Learning</title>
+    <updated>2021-10-29T14:04:08Z</updated>
+    <link href="https://arxiv.org/abs/2110.15796v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.15796v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key goal of unsupervised representation learning is "inverting" a data generating process to recover its latent properties. Existing work that provably achieves this goal relies on strong assumptions on relationships between the latent variables (e.g., independence conditional on auxiliary information). In this paper, we take a very different perspective on the problem and ask, "Can we instead identify latent properties by leveraging knowledge of the mechanisms that govern their evolution?" We provide a complete characterization of the sources of non-identifiability as we vary knowledge about a set of possible mechanisms. In particular, we prove that if we know the exact mechanisms under which the latent properties evolve, then identification can be achieved up to any equivariances that are shared by the underlying mechanisms. We generalize this characterization to settings where we only know some hypothesis class over possible mechanisms, as well as settings where the mechanisms are stochastic. We demonstrate the power of this mechanism-based perspective by showing that we can leverage our results to generalize existing identifiable representation learning results. These results suggest that by exploiting inductive biases on mechanisms, it is possible to design a range of new identifiable representation learning approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-29T14:04:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kartik Ahuja</name>
+    </author>
+    <author>
+      <name>Jason Hartford</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.15245v1</id>
+    <title>From Machine Learning to Robotics: Challenges and Opportunities for Embodied Intelligence</title>
+    <updated>2021-10-28T16:04:01Z</updated>
+    <link href="https://arxiv.org/abs/2110.15245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.15245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning has long since become a keystone technology, accelerating science and applications in a broad range of domains. Consequently, the notion of applying learning methods to a particular problem set has become an established and valuable modus operandi to advance a particular field. In this article we argue that such an approach does not straightforwardly extended to robotics -- or to embodied intelligence more generally: systems which engage in a purposeful exchange of energy and information with a physical environment. In particular, the purview of embodied intelligent agents extends significantly beyond the typical considerations of main-stream machine learning approaches, which typically (i) do not consider operation under conditions significantly different from those encountered during training; (ii) do not consider the often substantial, long-lasting and potentially safety-critical nature of interactions during learning and deployment; (iii) do not require ready adaptation to novel tasks while at the same time (iv) effectively and efficiently curating and extending their models of the world through targeted and deliberate actions. In reality, therefore, these limitations result in learning-based systems which suffer from many of the same operational shortcomings as more traditional, engineering-based approaches when deployed on a robot outside a well defined, and often narrow operating envelope. Contrary to viewing embodied intelligence as another application domain for machine learning, here we argue that it is in fact a key driver for the advancement of machine learning technology. In this article our goal is to highlight challenges and opportunities that are specific to embodied intelligence and to propose research directions which may significantly advance the state-of-the-art in robot learning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-28T16:04:01Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Nicholas Roy</name>
+    </author>
+    <author>
+      <name>Ingmar Posner</name>
+    </author>
+    <author>
+      <name>Tim Barfoot</name>
+    </author>
+    <author>
+      <name>Philippe Beaudoin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+    <author>
+      <name>Oliver Brock</name>
+    </author>
+    <author>
+      <name>Isabelle Depatie</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+    <author>
+      <name>Dan Koditschek</name>
+    </author>
+    <author>
+      <name>Tomas Lozano-Perez</name>
+    </author>
+    <author>
+      <name>Vikash Mansinghka</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+    <author>
+      <name>Blake Richards</name>
+    </author>
+    <author>
+      <name>Dorsa Sadigh</name>
+    </author>
+    <author>
+      <name>Stefan Schaal</name>
+    </author>
+    <author>
+      <name>Gaurav Sukhatme</name>
+    </author>
+    <author>
+      <name>Denis Therien</name>
+    </author>
+    <author>
+      <name>Marc Toussaint</name>
+    </author>
+    <author>
+      <name>Michiel Van de Panne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.10139v2</id>
+    <title>Chunked Autoregressive GAN for Conditional Waveform Synthesis</title>
+    <updated>2022-03-03T23:05:26Z</updated>
+    <link href="https://arxiv.org/abs/2110.10139v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.10139v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conditional waveform synthesis models learn a distribution of audio waveforms given conditioning such as text, mel-spectrograms, or MIDI. These systems employ deep generative models that model the waveform via either sequential (autoregressive) or parallel (non-autoregressive) sampling. Generative adversarial networks (GANs) have become a common choice for non-autoregressive waveform synthesis. However, state-of-the-art GAN-based models produce artifacts when performing mel-spectrogram inversion. In this paper, we demonstrate that these artifacts correspond with an inability for the generator to learn accurate pitch and periodicity. We show that simple pitch and periodicity conditioning is insufficient for reducing this error relative to using autoregression. We discuss the inductive bias that autoregression provides for learning the relationship between instantaneous frequency and phase, and show that this inductive bias holds even when autoregressively sampling large chunks of the waveform during each forward pass. Relative to prior state-of-the-art GAN-based models, our proposed model, Chunked Autoregressive GAN (CARGAN) reduces pitch error by 40-60%, reduces training time by 58%, maintains a fast generation speed suitable for real-time or interactive applications, and maintains or improves subjective quality.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-19T17:48:12Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2022</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Max Morrison</name>
+    </author>
+    <author>
+      <name>Rithesh Kumar</name>
+    </author>
+    <author>
+      <name>Kundan Kumar</name>
+    </author>
+    <author>
+      <name>Prem Seetharaman</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.09419v2</id>
+    <title>Compositional Attention: Disentangling Search and Retrieval</title>
+    <updated>2022-02-13T20:31:45Z</updated>
+    <link href="https://arxiv.org/abs/2110.09419v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.09419v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-head, key-value attention is the backbone of the widely successful Transformer model and its variants. This attention mechanism uses multiple parallel key-value attention blocks (called heads), each performing two fundamental computations: (1) search - selection of a relevant entity from a set via query-key interactions, and (2) retrieval - extraction of relevant features from the selected entity via a value matrix. Importantly, standard attention heads learn a rigid mapping between search and retrieval. In this work, we first highlight how this static nature of the pairing can potentially: (a) lead to learning of redundant parameters in certain tasks, and (b) hinder generalization. To alleviate this problem, we propose a novel attention mechanism, called Compositional Attention, that replaces the standard head structure. The proposed mechanism disentangles search and retrieval and composes them in a dynamic, flexible and context-dependent manner through an additional soft competition stage between the query-key combination and value pairing. Through a series of numerical experiments, we show that it outperforms standard multi-head attention on a variety of tasks, including some out-of-distribution settings. Through our qualitative analysis, we demonstrate that Compositional Attention leads to dynamic specialization based on the type of retrieval needed. Our proposed mechanism generalizes multi-head attention, allows independent scaling of search and retrieval, and can easily be implemented in lieu of standard attention heads in any network architecture.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-18T15:47:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Sharath Chandra Raparthy</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.07875v2</id>
+    <title>Graph Neural Networks with Learnable Structural and Positional Representations</title>
+    <updated>2022-02-10T07:56:13Z</updated>
+    <link href="https://arxiv.org/abs/2110.07875v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.07875v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks (GNNs) have become the standard learning architectures for graphs. GNNs have been applied to numerous domains ranging from quantum chemistry, recommender systems to knowledge graphs and natural language processing. A major issue with arbitrary graphs is the absence of canonical positional information of nodes, which decreases the representation power of GNNs to distinguish e.g. isomorphic nodes and other graph symmetries. An approach to tackle this issue is to introduce Positional Encoding (PE) of nodes, and inject it into the input layer, like in Transformers. Possible graph PE are Laplacian eigenvectors. In this work, we propose to decouple structural and positional representations to make easy for the network to learn these two essential properties. We introduce a novel generic architecture which we call LSPE (Learnable Structural and Positional Encodings). We investigate several sparse and fully-connected (Transformer-like) GNNs, and observe a performance increase for molecular datasets, from 1.79% up to 64.14% when considering learnable PE for both GNN classes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-15T05:59:15Z</published>
+    <arxiv:comment>Code at https://github.com/vijaydwivedi75/gnn-lspe</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ICLR 2022 (https://openreview.net/pdf?id=wTTjnvGphYj)</arxiv:journal_ref>
+    <author>
+      <name>Vijay Prakash Dwivedi</name>
+    </author>
+    <author>
+      <name>Anh Tuan Luu</name>
+    </author>
+    <author>
+      <name>Thomas Laurent</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Xavier Bresson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.06399v1</id>
+    <title>Dynamic Inference with Neural Interpreters</title>
+    <updated>2021-10-12T23:22:45Z</updated>
+    <link href="https://arxiv.org/abs/2110.06399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.06399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern neural network architectures can leverage large amounts of data to generalize well within the training distribution. However, they are less capable of systematic generalization to data drawn from unseen but related distributions, a feat that is hypothesized to require compositional reasoning and reuse of knowledge. In this work, we present Neural Interpreters, an architecture that factorizes inference in a self-attention network as a system of modules, which we call \emph{functions}. Inputs to the model are routed through a sequence of functions in a way that is end-to-end learned. The proposed architecture can flexibly compose computation along width and depth, and lends itself well to capacity extension after training. To demonstrate the versatility of Neural Interpreters, we evaluate it in two distinct settings: image classification and visual abstract reasoning on Raven Progressive Matrices. In the former, we show that Neural Interpreters perform on par with the vision transformer using fewer parameters, while being transferrable to a new task in a sample efficient manner. In the latter, we find that Neural Interpreters are competitive with respect to the state-of-the-art in terms of systematic generalization</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-12T23:22:45Z</published>
+    <arxiv:comment>NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Muhammad Waleed Gondal</name>
+    </author>
+    <author>
+      <name>Shruti Joshi</name>
+    </author>
+    <author>
+      <name>Peter Gehler</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Francesco Locatello</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.02871v1</id>
+    <title>ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods</title>
+    <updated>2021-10-06T15:54:57Z</updated>
+    <link href="https://arxiv.org/abs/2110.02871v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.02871v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Climate change is a major threat to humanity, and the actions required to prevent its catastrophic consequences include changes in both policy-making and individual behaviour. However, taking action requires understanding the effects of climate change, even though they may seem abstract and distant. Projecting the potential consequences of extreme climate events such as flooding in familiar places can help make the abstract impacts of climate change more concrete and encourage action. As part of a larger initiative to build a website that projects extreme climate events onto user-chosen photos, we present our solution to simulate photo-realistic floods on authentic images. To address this complex task in the absence of suitable training data, we propose ClimateGAN, a model that leverages both simulated and real data for unsupervised domain adaptation and conditional image generation. In this paper, we describe the details of our framework, thoroughly evaluate components of our architecture and demonstrate that our model is capable of robustly generating photo-realistic flooding.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T15:54:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>ICLR 2022</arxiv:journal_ref>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Alexandra Sasha Luccioni</name>
+    </author>
+    <author>
+      <name>Mélisande Teng</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Alexia Reynaud</name>
+    </author>
+    <author>
+      <name>Sunand Raghupathi</name>
+    </author>
+    <author>
+      <name>Gautier Cosne</name>
+    </author>
+    <author>
+      <name>Adrien Juraver</name>
+    </author>
+    <author>
+      <name>Vahe Vardanyan</name>
+    </author>
+    <author>
+      <name>Alex Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03372v2</id>
+    <title>Unifying Likelihood-free Inference with Black-box Optimization and Beyond</title>
+    <updated>2022-02-08T22:23:52Z</updated>
+    <link href="https://arxiv.org/abs/2110.03372v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03372v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Black-box optimization formulations for biological sequence design have drawn recent attention due to their promising potential impact on the pharmaceutical industry. In this work, we propose to unify two seemingly distinct worlds: likelihood-free inference and black-box optimization, under one probabilistic framework. In tandem, we provide a recipe for constructing various sequence design methods based on this framework. We show how previous optimization approaches can be "reinvented" in our framework, and further propose new probabilistic black-box optimization algorithms. Extensive experiments on sequence design application illustrate the benefits of the proposed methodology.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T02:41:50Z</published>
+    <arxiv:comment>ICLR 2022 spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.02429v2</id>
+    <title>Learning Neural Causal Models with Active Interventions</title>
+    <updated>2022-03-05T14:28:55Z</updated>
+    <link href="https://arxiv.org/abs/2109.02429v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.02429v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discovering causal structures from data is a challenging inference problem of fundamental importance in all areas of science. The appealing properties of neural networks have recently led to a surge of interest in differentiable neural network-based methods for learning causal structures from data. So far, differentiable causal discovery has focused on static datasets of observational or fixed interventional origin. In this work, we introduce an active intervention targeting (AIT) method which enables a quick identification of the underlying causal structure of the data-generating process. Our method significantly reduces the required number of interactions compared with random intervention targeting and is applicable for both discrete and continuous optimization formulations of learning the underlying directed acyclic graph (DAG) from data. We examine the proposed method across multiple frameworks in a wide range of settings and demonstrate superior performance on multiple benchmarks from simulated to real-world data.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-06T13:10:37Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Nino Scherrer</name>
+    </author>
+    <author>
+      <name>Olexa Bilaniuk</name>
+    </author>
+    <author>
+      <name>Yashas Annadani</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Patrick Schwab</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Michael C. Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.02367v3</id>
+    <title>Discrete-Valued Neural Communication</title>
+    <updated>2021-07-10T18:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2107.02367v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.02367v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning has advanced from fully connected architectures to structured models organized into components, e.g., the transformer composed of positional elements, modular architectures divided into slots, and graph neural nets made up of nodes. In structured models, an interesting question is how to conduct dynamic and possibly sparse communication among the separate components. Here, we explore the hypothesis that restricting the transmitted information among components to discrete representations is a beneficial bottleneck. The motivating intuition is human language in which communication occurs through discrete symbols. Even though individuals have different understandings of what a "cat" is based on their specific experiences, the shared discrete token makes it possible for communication among individuals to be unimpeded by individual differences in internal representation. To discretize the values of concepts dynamically communicated among specialist components, we extend the quantization mechanism from the Vector-Quantized Variational Autoencoder to multi-headed discretization with shared codebooks and use it for discrete-valued neural communication (DVNC). Our experiments show that DVNC substantially improves systematic generalization in a variety of architectures -- transformers, modular architectures, and graph neural networks. We also show that the DVNC is robust to the choice of hyperparameters, making the method very useful in practice. Moreover, we establish a theoretical justification of our discretization process, proving that it has the ability to increase noise robustness and reduce the underlying dimensionality of the model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-06T03:09:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dianbo Liu</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Chen Sun</name>
+    </author>
+    <author>
+      <name>Michael Curtis Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00848v1</id>
+    <title>Systematic Evaluation of Causal Discovery in Visual Model Based Reinforcement Learning</title>
+    <updated>2021-07-02T05:44:56Z</updated>
+    <link href="https://arxiv.org/abs/2107.00848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inducing causal relationships from observations is a classic problem in machine learning. Most work in causality starts from the premise that the causal variables themselves are observed. However, for AI agents such as robots trying to make sense of their environment, the only observables are low-level variables like pixels in images. To generalize well, an agent must induce high-level variables, particularly those which are causal or are affected by causal variables. A central goal for AI and causality is thus the joint discovery of abstract representations and causal structure. However, we note that existing environments for studying causal induction are poorly suited for this objective because they have complicated task-specific causal graphs which are impossible to manipulate parametrically (e.g., number of nodes, sparsity, causal chain length, etc.). In this work, our goal is to facilitate research in learning representations of high-level variables as well as causal structures among them. In order to systematically probe the ability of methods to identify these variables and structures, we design a suite of benchmarking RL environments. We evaluate various representation learning algorithms from the literature and find that explicitly incorporating structure and modularity in models can help causal induction in model-based reinforcement learning.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T05:44:56Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Danilo Rezende</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00793v3</id>
+    <title>The Causal-Neural Connection: Expressiveness, Learnability, and Inference</title>
+    <updated>2022-10-03T18:18:48Z</updated>
+    <link href="https://arxiv.org/abs/2107.00793v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00793v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the central elements of any causal inference is an object called structural causal model (SCM), which represents a collection of mechanisms and exogenous sources of random variation of the system under investigation (Pearl, 2000). An important property of many kinds of neural networks is universal approximability: the ability to approximate any function to arbitrary precision. Given this property, one may be tempted to surmise that a collection of neural nets is capable of learning any SCM by training on data generated by that SCM. In this paper, we show this is not the case by disentangling the notions of expressivity and learnability. Specifically, we show that the causal hierarchy theorem (Thm. 1, Bareinboim et al., 2020), which describes the limits of what can be learned from data, still holds for neural models. For instance, an arbitrarily complex and expressive neural net is unable to predict the effects of interventions given observational data alone. Given this result, we introduce a special type of SCM called a neural causal model (NCM), and formalize a new type of inductive bias to encode structural constraints necessary for performing causal inferences. Building on this new class of models, we focus on solving two canonical tasks found in the literature known as causal identification and estimation. Leveraging the neural toolbox, we develop an algorithm that is both sufficient and necessary to determine whether a causal effect can be learned from data (i.e., causal identifiability); it then estimates the effect whenever identifiability holds (causal estimation). Simulations corroborate the proposed approach.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T01:55:18Z</published>
+    <arxiv:comment>10 pages main body (53 total pages with references and appendix), 5 figures in main body (20 total figures including appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kevin Xia</name>
+    </author>
+    <author>
+      <name>Kai-Zhan Lee</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Elias Bareinboim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.08365v7</id>
+    <title>Test Sample Accuracy Scales with Training Sample Density in Neural Networks</title>
+    <updated>2022-07-28T17:52:00Z</updated>
+    <link href="https://arxiv.org/abs/2106.08365v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.08365v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intuitively, one would expect accuracy of a trained neural network's prediction on test samples to correlate with how densely the samples are surrounded by seen training samples in representation space. We find that a bound on empirical training error smoothed across linear activation regions scales inversely with training sample density in representation space. Empirically, we verify this bound is a strong predictor of the inaccuracy of the network's prediction on test samples. For unseen test sets, including those with out-of-distribution samples, ranking test samples by their local region's error bound and discarding samples with the highest bounds raises prediction accuracy by up to 20% in absolute terms for image classification datasets, on average over thresholds.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-15T18:34:41Z</published>
+    <arxiv:comment>CoLLAs 2022 oral</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xu Ji</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Balaji Lakshminarayanan</name>
+    </author>
+    <author>
+      <name>Andrea Vedaldi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.07635v1</id>
+    <title>Variational Causal Networks: Approximate Bayesian Inference over Causal Structures</title>
+    <updated>2021-06-14T17:52:49Z</updated>
+    <link href="https://arxiv.org/abs/2106.07635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.07635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning the causal structure that underlies data is a crucial step towards robust real-world decision making. The majority of existing work in causal inference focuses on determining a single directed acyclic graph (DAG) or a Markov equivalence class thereof. However, a crucial aspect to acting intelligently upon the knowledge about causal structure which has been inferred from finite data demands reasoning about its uncertainty. For instance, planning interventions to find out more about the causal mechanisms that govern our data requires quantifying epistemic uncertainty over DAGs. While Bayesian causal inference allows to do so, the posterior over DAGs becomes intractable even for a small number of variables. Aiming to overcome this issue, we propose a form of variational inference over the graphs of Structural Causal Models (SCMs). To this end, we introduce a parametric variational family modelled by an autoregressive distribution over the space of discrete DAGs. Its number of parameters does not grow exponentially with the number of variables and can be tractably learned by maximising an Evidence Lower Bound (ELBO). In our experiments, we demonstrate that the proposed variational posterior is able to provide a good approximation of the true posterior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-14T17:52:49Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yashas Annadani</name>
+    </author>
+    <author>
+      <name>Jonas Rothfuss</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+    <author>
+      <name>Nino Scherrer</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06607v2</id>
+    <title>Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization</title>
+    <updated>2022-11-20T21:51:18Z</updated>
+    <link href="https://arxiv.org/abs/2106.06607v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.06607v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The invariance principle from causality is at the heart of notable approaches such as invariant risk minimization (IRM) that seek to address out-of-distribution (OOD) generalization failures. Despite the promising theory, invariance principle-based approaches fail in common classification tasks, where invariant (causal) features capture all the information about the label. Are these failures due to the methods failing to capture the invariance? Or is the invariance principle itself insufficient? To answer these questions, we revisit the fundamental assumptions in linear regression tasks, where invariance-based approaches were shown to provably generalize OOD. In contrast to the linear regression tasks, we show that for linear classification tasks we need much stronger restrictions on the distribution shifts, or otherwise OOD generalization is impossible. Furthermore, even with appropriate restrictions on distribution shifts in place, we show that the invariance principle alone is insufficient. We prove that a form of the information bottleneck constraint along with invariance helps address key failures when invariant features capture all the information about the label and also retains the existing success when they do not. We propose an approach that incorporates both of these principles and demonstrate its effectiveness in several experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-11T20:42:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kartik Ahuja</name>
+    </author>
+    <author>
+      <name>Ethan Caballero</name>
+    </author>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Jean-Christophe Gagnon-Audet</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Ioannis Mitliagkas</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.04624v1</id>
+    <title>SpeechBrain: A General-Purpose Speech Toolkit</title>
+    <updated>2021-06-08T18:22:56Z</updated>
+    <link href="https://arxiv.org/abs/2106.04624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.04624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>SpeechBrain is an open-source and all-in-one speech toolkit. It is designed to facilitate the research and development of neural speech processing technologies by being simple, flexible, user-friendly, and well-documented. This paper describes the core architecture designed to support several tasks of common interest, allowing users to naturally conceive, compare and share novel speech processing pipelines. SpeechBrain achieves competitive or state-of-the-art performance in a wide range of speech benchmarks. It also provides training recipes, pretrained models, and inference scripts for popular speech datasets, as well as tutorials which allow anyone with basic Python proficiency to familiarize themselves with speech technologies.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-08T18:22:56Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Mirco Ravanelli</name>
+    </author>
+    <author>
+      <name>Titouan Parcollet</name>
+    </author>
+    <author>
+      <name>Peter Plantinga</name>
+    </author>
+    <author>
+      <name>Aku Rouhe</name>
+    </author>
+    <author>
+      <name>Samuele Cornell</name>
+    </author>
+    <author>
+      <name>Loren Lugosch</name>
+    </author>
+    <author>
+      <name>Cem Subakan</name>
+    </author>
+    <author>
+      <name>Nauman Dawalatabad</name>
+    </author>
+    <author>
+      <name>Abdelwahab Heba</name>
+    </author>
+    <author>
+      <name>Jianyuan Zhong</name>
+    </author>
+    <author>
+      <name>Ju-Chieh Chou</name>
+    </author>
+    <author>
+      <name>Sung-Lin Yeh</name>
+    </author>
+    <author>
+      <name>Szu-Wei Fu</name>
+    </author>
+    <author>
+      <name>Chien-Feng Liao</name>
+    </author>
+    <author>
+      <name>Elena Rastorgueva</name>
+    </author>
+    <author>
+      <name>François Grondin</name>
+    </author>
+    <author>
+      <name>William Aris</name>
+    </author>
+    <author>
+      <name>Hwidong Na</name>
+    </author>
+    <author>
+      <name>Yan Gao</name>
+    </author>
+    <author>
+      <name>Renato De Mori</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.04399v2</id>
+    <title>Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation</title>
+    <updated>2021-11-19T14:50:32Z</updated>
+    <link href="https://arxiv.org/abs/2106.04399v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.04399v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is about the problem of learning a stochastic policy for generating an object (like a molecular graph) from a sequence of actions, such that the probability of generating an object is proportional to a given positive reward for that object. Whereas standard return maximization tends to converge to a single return-maximizing sequence, there are cases where we would like to sample a diverse set of high-return solutions. These arise, for example, in black-box function optimization when few rounds are possible, each with large batches of queries, where the batches should be diverse, e.g., in the design of new molecules. One can also see this as a problem of approximately converting an energy function to a generative distribution. While MCMC methods can achieve that, they are expensive and generally only perform local exploration. Instead, training a generative policy amortizes the cost of search during training and yields to fast generation. Using insights from Temporal Difference learning, we propose GFlowNet, based on a view of the generative process as a flow network, making it possible to handle the tricky case where different trajectories can yield the same final state, e.g., there are many ways to sequentially add atoms to generate some molecular graph. We cast the set of trajectories as a flow and convert the flow consistency equations into a learning objective, akin to the casting of the Bellman equations into Temporal Difference methods. We prove that any global minimum of the proposed objectives yields a policy which samples from the desired distribution, and demonstrate the improved performance and diversity of GFlowNet on a simple domain where there are many modes to the reward function, and on a molecule synthesis task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-08T14:21:10Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Maksym Korablyov</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.02097v3</id>
+    <title>A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning</title>
+    <updated>2021-11-04T15:08:19Z</updated>
+    <link href="https://arxiv.org/abs/2106.02097v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.02097v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an end-to-end, model-based deep reinforcement learning agent which dynamically attends to relevant parts of its state during planning. The agent uses a bottleneck mechanism over a set-based representation to force the number of entities to which the agent attends at each planning step to be small. In experiments, we investigate the bottleneck mechanism with several sets of customized environments featuring different challenges. We consistently observe that the design allows the planning agents to generalize their learned task-solving abilities in compatible unseen environments by attending to the relevant objects, leading to better out-of-distribution generalization performance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-03T19:35:19Z</published>
+    <arxiv:comment>NeurIPS camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingde Zhao</name>
+    </author>
+    <author>
+      <name>Zhen Liu</name>
+    </author>
+    <author>
+      <name>Sitao Luan</name>
+    </author>
+    <author>
+      <name>Shuyuan Zhang</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.08710v2</id>
+    <title>Fast and Slow Learning of Recurrent Independent Mechanisms</title>
+    <updated>2021-05-19T03:10:30Z</updated>
+    <link href="https://arxiv.org/abs/2105.08710v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.08710v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decomposing knowledge into interchangeable pieces promises a generalization advantage when there are changes in distribution. A learning agent interacting with its environment is likely to be faced with situations requiring novel combinations of existing pieces of knowledge. We hypothesize that such a decomposition of knowledge is particularly relevant for being able to generalize in a systematic manner to out-of-distribution changes. To study these ideas, we propose a particular training framework in which we assume that the pieces of knowledge an agent needs and its reward function are stationary and can be re-used across tasks. An attention mechanism dynamically selects which modules can be adapted to the current task, and the parameters of the selected modules are allowed to change quickly as the learner is confronted with variations in what it experiences, while the parameters of the attention mechanisms act as stable, slowly changing, meta-parameters. We focus on pieces of knowledge captured by an ensemble of modules sparsely communicating with each other via a bottleneck of attention. We find that meta-learning the modular aspects of the proposed system greatly helps in achieving faster adaptation in a reinforcement learning setup involving navigation in a partially observed grid world with image-level input. We also find that reversing the role of parameters and meta-parameters does not work nearly as well, suggesting a particular role for fast adaptation of the dynamically selected modules.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-18T17:50:32Z</published>
+    <arxiv:comment>Accepted at ICLR'21</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kanika Madan</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.07246v2</id>
+    <title>An End-to-End Framework for Molecular Conformation Generation via Bilevel Programming</title>
+    <updated>2021-06-02T13:01:35Z</updated>
+    <link href="https://arxiv.org/abs/2105.07246v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.07246v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting molecular conformations (or 3D structures) from molecular graphs is a fundamental problem in many applications. Most existing approaches are usually divided into two steps by first predicting the distances between atoms and then generating a 3D structure through optimizing a distance geometry problem. However, the distances predicted with such two-stage approaches may not be able to consistently preserve the geometry of local atomic neighborhoods, making the generated structures unsatisfying. In this paper, we propose an end-to-end solution for molecular conformation prediction called ConfVAE based on the conditional variational autoencoder framework. Specifically, the molecular graph is first encoded in a latent space, and then the 3D structures are generated by solving a principled bilevel optimization program. Extensive experiments on several benchmark data sets prove the effectiveness of our proposed approach over existing state-of-the-art approaches. Code is available at https://github.com/MinkaiXu/ConfVAE-ICML21</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-15T15:22:29Z</published>
+    <arxiv:comment>Accepted by ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minkai Xu</name>
+    </author>
+    <author>
+      <name>Wujie Wang</name>
+    </author>
+    <author>
+      <name>Shitong Luo</name>
+    </author>
+    <author>
+      <name>Chence Shi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Rafael Gomez-Bombarelli</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.07763v1</id>
+    <title>Comparative Study of Learning Outcomes for Online Learning Platforms</title>
+    <updated>2021-04-15T20:40:24Z</updated>
+    <link href="https://arxiv.org/abs/2104.07763v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.07763v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalization and active learning are key aspects to successful learning. These aspects are important to address in intelligent educational applications, as they help systems to adapt and close the gap between students with varying abilities, which becomes increasingly important in the context of online and distance learning. We run a comparative head-to-head study of learning outcomes for two popular online learning platforms: Platform A, which follows a traditional model delivering content over a series of lecture videos and multiple-choice quizzes, and Platform B, which creates a personalized learning environment and provides problem-solving exercises and personalized feedback. We report on the results of our study using pre- and post-assessment quizzes with participants taking courses on an introductory data science topic on two platforms. We observe a statistically significant increase in the learning outcomes on Platform B, highlighting the impact of well-designed and well-engineered technology supporting active learning and problem-based learning in online education. Moreover, the results of the self-assessment questionnaire, where participants reported on perceived learning gains, suggest that participants using Platform B improve their metacognition.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-15T20:40:24Z</published>
+    <arxiv:comment>14 pages, 3 figures, 2 tables, accepted at AIED 2021 (2021 Conference on Artificial Intelligence in Education)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Francois St-Hilaire</name>
+    </author>
+    <author>
+      <name>Nathan Burns</name>
+    </author>
+    <author>
+      <name>Robert Belfer</name>
+    </author>
+    <author>
+      <name>Muhammad Shayan</name>
+    </author>
+    <author>
+      <name>Ariella Smofsky</name>
+    </author>
+    <author>
+      <name>Dung Do Vu</name>
+    </author>
+    <author>
+      <name>Antoine Frau</name>
+    </author>
+    <author>
+      <name>Joseph Potochny</name>
+    </author>
+    <author>
+      <name>Farid Faraji</name>
+    </author>
+    <author>
+      <name>Vincent Pavero</name>
+    </author>
+    <author>
+      <name>Neroli Ko</name>
+    </author>
+    <author>
+      <name>Ansona Onyi Ching</name>
+    </author>
+    <author>
+      <name>Sabina Elkins</name>
+    </author>
+    <author>
+      <name>Anush Stepanyan</name>
+    </author>
+    <author>
+      <name>Adela Matajova</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Iulian Vlad Serban</name>
+    </author>
+    <author>
+      <name>Ekaterina Kochmar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.02242v3</id>
+    <title>HBert + BiasCorp -- Fighting Racism on the Web</title>
+    <updated>2021-10-30T22:35:01Z</updated>
+    <link href="https://arxiv.org/abs/2104.02242v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.02242v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subtle and overt racism is still present both in physical and online communities today and has impacted many lives in different segments of the society. In this short piece of work, we present how we're tackling this societal issue with Natural Language Processing. We are releasing BiasCorp, a dataset containing 139,090 comments and news segment from three specific sources - Fox News, BreitbartNews and YouTube. The first batch (45,000 manually annotated) is ready for publication. We are currently in the final phase of manually labeling the remaining dataset using Amazon Mechanical Turk. BERT has been used widely in several downstream tasks. In this work, we present hBERT, where we modify certain layers of the pretrained BERT model with the new Hopfield Layer. hBert generalizes well across different distributions with the added advantage of a reduced model complexity. We are also releasing a JavaScript library and a Chrome Extension Application, to help developers make use of our trained model in web applications (say chat application) and for users to identify and report racially biased contents on the web respectively.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-06T02:17:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ltedi-1. 4 (2021) 26-33</arxiv:journal_ref>
+    <author>
+      <name>Olawale Onabola</name>
+    </author>
+    <author>
+      <name>Zhuang Ma</name>
+    </author>
+    <author>
+      <name>Yang Xie</name>
+    </author>
+    <author>
+      <name>Benjamin Akera</name>
+    </author>
+    <author>
+      <name>Abdulrahman Ibraheem</name>
+    </author>
+    <author>
+      <name>Jia Xue</name>
+    </author>
+    <author>
+      <name>Dianbo Liu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01937v3</id>
+    <title>Neural Production Systems: Learning Rule-Governed Visual Dynamics</title>
+    <updated>2022-03-23T16:16:25Z</updated>
+    <link href="https://arxiv.org/abs/2103.01937v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01937v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual environments are structured, consisting of distinct objects or entities. These entities have properties -- both visible and latent -- that determine the manner in which they interact with one another. To partition images into entities, deep-learning researchers have proposed structural inductive biases such as slot-based architectures. To model interactions among entities, equivariant graph neural nets (GNNs) are used, but these are not particularly well suited to the task for two reasons. First, GNNs do not predispose interactions to be sparse, as relationships among independent entities are likely to be. Second, GNNs do not factorize knowledge about interactions in an entity-conditional manner. As an alternative, we take inspiration from cognitive science and resurrect a classic approach, production systems, which consist of a set of rule templates that are applied by binding placeholder variables in the rules to specific entities. Rules are scored on their match to entities, and the best fitting rules are applied to update entity properties. In a series of experiments, we demonstrate that this architecture achieves a flexible, dynamic flow of control and serves to factorize entity-specific and rule-based information. This disentangling of knowledge achieves robust future-state prediction in rich visual environments, outperforming state-of-the-art methods using GNNs, and allows for the extrapolation from simple (few object) environments to more complex environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-02T18:53:20Z</published>
+    <arxiv:comment>NeurIPS'21</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Charles Blundell</name>
+    </author>
+    <author>
+      <name>Philippe Beaudoin</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01197v2</id>
+    <title>Coordination Among Neural Modules Through a Shared Global Workspace</title>
+    <updated>2022-03-22T21:31:37Z</updated>
+    <link href="https://arxiv.org/abs/2103.01197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning has seen a movement away from representing examples with a monolithic hidden state towards a richly structured state. For example, Transformers segment by position, and object-centric architectures decompose images into entities. In all these architectures, interactions between different elements are modeled via pairwise interactions: Transformers make use of self-attention to incorporate information from other positions; object-centric architectures make use of graph neural networks to model interactions among entities. However, pairwise interactions may not achieve global coordination or a coherent, integrated representation that can be used for downstream tasks. In cognitive science, a global workspace architecture has been proposed in which functionally specialized components share information through a common, bandwidth-limited communication channel. We explore the use of such a communication channel in the context of deep learning for modeling the structure of complex environments. The proposed method includes a shared workspace through which communication among different specialist modules takes place but due to limits on the communication bandwidth, specialist modules must compete for access. We show that capacity limitations have a rational basis in that (1) they encourage specialization and compositionality and (2) they facilitate the synchronization of otherwise independent specialists.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-01T18:43:48Z</published>
+    <arxiv:comment>ICLR'22 accepted paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Kartikeya Badola</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Jonathan Binas</name>
+    </author>
+    <author>
+      <name>Charles Blundell</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.00336v1</id>
+    <title>Transformers with Competitive Ensembles of Independent Mechanisms</title>
+    <updated>2021-02-27T21:48:46Z</updated>
+    <link href="https://arxiv.org/abs/2103.00336v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.00336v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An important development in deep learning from the earliest MLPs has been a move towards architectures with structural inductive biases which enable the model to keep distinct sources of information and routes of processing well-separated. This structure is linked to the notion of independent mechanisms from the causality literature, in which a mechanism is able to retain the same processing as irrelevant aspects of the world are changed. For example, convnets enable separation over positions, while attention-based architectures (especially Transformers) learn which combination of positions to process dynamically. In this work we explore a way in which the Transformer architecture is deficient: it represents each position with a large monolithic hidden representation and a single set of parameters which are applied over the entire hidden representation. This potentially throws unrelated sources of information together, and limits the Transformer's ability to capture independent mechanisms. To address this, we propose Transformers with Independent Mechanisms (TIM), a new Transformer layer which divides the hidden representation and parameters into multiple mechanisms, which only exchange information through attention. Additionally, we propose a competition mechanism which encourages these mechanisms to specialize over time steps, and thus be more independent. We study TIM on a large-scale BERT model, on the Image Transformer, and on speech enhancement and find evidence for semantically meaningful specialization as well as improved performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-27T21:48:46Z</published>
+    <arxiv:comment>Under Review, ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Di He</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Guolin Ke</name>
+    </author>
+    <author>
+      <name>Chien-Feng Liao</name>
+    </author>
+    <author>
+      <name>Mirco Ravanelli</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.11107v1</id>
+    <title>Towards Causal Representation Learning</title>
+    <updated>2021-02-22T15:26:57Z</updated>
+    <link href="https://arxiv.org/abs/2102.11107v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.11107v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the opposite direction: we note that most work in causality starts from the premise that the causal variables are given. A central problem for AI and causality is, thus, causal representation learning, the discovery of high-level causal variables from low-level observations. Finally, we delineate some implications of causality for machine learning and propose key research areas at the intersection of both communities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-22T15:26:57Z</published>
+    <arxiv:comment>Special Issue of Proceedings of the IEEE - Advances in Machine Learning and Deep Neural Networks</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Francesco Locatello</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Nal Kalchbrenner</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10240v3</id>
+    <title>Learning Neural Generative Dynamics for Molecular Conformation Generation</title>
+    <updated>2021-03-31T03:20:36Z</updated>
+    <link href="https://arxiv.org/abs/2102.10240v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10240v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how to generate molecule conformations (i.e., 3D structures) from a molecular graph. Traditional methods, such as molecular dynamics, sample conformations via computationally expensive simulations. Recently, machine learning methods have shown great potential by training on a large collection of conformation data. Challenges arise from the limited model capacity for capturing complex distributions of conformations and the difficulty in modeling long-range dependencies between atoms. Inspired by the recent progress in deep generative models, in this paper, we propose a novel probabilistic framework to generate valid and diverse conformations given a molecular graph. We propose a method combining the advantages of both flow-based and energy-based models, enjoying: (1) a high model capacity to estimate the multimodal conformation distribution; (2) explicitly capturing the complex long-range dependencies between atoms in the observation space. Extensive experiments demonstrate the superior performance of the proposed method on several benchmarks, including conformation generation and distance modeling tasks, with a significant improvement over existing generative models for molecular conformation sampling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-20T03:17:58Z</published>
+    <arxiv:comment>Accepted by ICLR 2021. Code is available at \url{https://github.com/DeepGraphLearning/CGCF-ConfGen}</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minkai Xu</name>
+    </author>
+    <author>
+      <name>Shitong Luo</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jian Peng</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08501v4</id>
+    <title>DEUP: Direct Epistemic Uncertainty Prediction</title>
+    <updated>2023-02-03T05:00:34Z</updated>
+    <link href="https://arxiv.org/abs/2102.08501v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.08501v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Epistemic Uncertainty is a measure of the lack of knowledge of a learner which diminishes with more evidence. While existing work focuses on using the variance of the Bayesian posterior due to parameter uncertainty as a measure of epistemic uncertainty, we argue that this does not capture the part of lack of knowledge induced by model misspecification. We discuss how the excess risk, which is the gap between the generalization error of a predictor and the Bayes predictor, is a sound measure of epistemic uncertainty which captures the effect of model misspecification. We thus propose a principled framework for directly estimating the excess risk by learning a secondary predictor for the generalization error and subtracting an estimate of aleatoric uncertainty, i.e., intrinsic unpredictability. We discuss the merits of this novel measure of epistemic uncertainty, and highlight how it differs from variance-based measures of epistemic uncertainty and addresses its major pitfall. Our framework, Direct Epistemic Uncertainty Prediction (DEUP) is particularly interesting in interactive learning environments, where the learner is allowed to acquire novel examples in each round. Through a wide set of experiments, we illustrate how existing methods in sequential model optimization can be improved with epistemic uncertainty estimates from DEUP, and how DEUP can be used to drive exploration in reinforcement learning. We also evaluate the quality of uncertainty estimates from DEUP for probabilistic image classification and predicting synergies of drug combinations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-16T23:50:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Salem Lahlou</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Hadi Nekoei</name>
+    </author>
+    <author>
+      <name>Victor Ion Butoi</name>
+    </author>
+    <author>
+      <name>Paul Bertin</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Maksym Korablyov</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.03869v2</id>
+    <title>Structured Sparsity Inducing Adaptive Optimizers for Deep Learning</title>
+    <updated>2023-01-05T15:44:31Z</updated>
+    <link href="https://arxiv.org/abs/2102.03869v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.03869v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The parameters of a neural network are naturally organized in groups, some of which might not contribute to its overall performance. To prune out unimportant groups of parameters, we can include some non-differentiable penalty to the objective function, and minimize it using proximal gradient methods. In this paper, we derive the weighted proximal operator, which is a necessary component of these proximal methods, of two structured sparsity inducing penalties. Moreover, they can be approximated efficiently with a numerical solver, and despite this approximation, we prove that existing convergence guarantees are preserved when these operators are integrated as part of a generic adaptive proximal method. Finally, we show that this adaptive method, together with the weighted proximal operators derived here, is indeed capable of finding solutions with structure in their sparsity patterns, on representative examples from computer vision and natural language processing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-07T18:06:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.05536v1</id>
+    <title>Scaling Equilibrium Propagation to Deep ConvNets by Drastically Reducing its Gradient Estimator Bias</title>
+    <updated>2021-01-14T10:23:40Z</updated>
+    <link href="https://arxiv.org/abs/2101.05536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.05536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equilibrium Propagation (EP) is a biologically-inspired counterpart of Backpropagation Through Time (BPTT) which, owing to its strong theoretical guarantees and the locality in space of its learning rule, fosters the design of energy-efficient hardware dedicated to learning. In practice, however, EP does not scale to visual tasks harder than MNIST. In this work, we show that a bias in the gradient estimate of EP, inherent in the use of finite nudging, is responsible for this phenomenon and that cancelling it allows training deep ConvNets by EP, including architectures with distinct forward and backward connections. These results highlight EP as a scalable approach to compute error gradients in deep neural networks, thereby motivating its hardware implementation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-14T10:23:40Z</published>
+    <arxiv:comment>NeurIPS 2020 Workshop : "Beyond Backpropagation Novel Ideas for Training Neural Architectures". arXiv admin note: substantial text overlap with arXiv:2006.03824</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Axel Laborieux</name>
+    </author>
+    <author>
+      <name>Maxence Ernoult</name>
+    </author>
+    <author>
+      <name>Benjamin Scellier</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Julie Grollier</name>
+    </author>
+    <author>
+      <name>Damien Querlioz</name>
+    </author>
+  </entry>
+</feed>

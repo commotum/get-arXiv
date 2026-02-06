@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q9pLg52aP/BBEkWMy3CEb0prHxk</id>
+  <title>arXiv Query: search_query=au:"Douglas Hofstadter"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T20:33:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Douglas+Hofstadter%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1310.1676v3</id>
+    <title>Synopsis of the workshop on humor and cognition</title>
+    <updated>2019-07-04T21:04:15Z</updated>
+    <link href="https://arxiv.org/abs/1310.1676v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.1676v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We summarize the proceedings of the Workshop on Humor and. The principal type of humor considered, slippage humor, is defined and contrasted with aggression-based humor. A variety of slippage humor, based on Hofstadter's notion of a frame blend, is presented. Given that a frame is a small coherent cluster of concepts pertaining to a single topic (similar to a script), a frame blend results when elements extracted from two distinct frames are spliced together to yield a new hybrid frame. Diverse ways of blending two frames can produce varying degrees and types of humor. Studies of this phenomenon are presented. We discuss the connection between frame blends and analogies, focusing on the Copycat domain: an idealized microworld in which analogy making can be studied and modeled on computer. It is shown how jokes can be mapped into that domain, giving rise to a kind of abstract microworld humor. This highlights the relationships amongst good jokes, defective analogies, and frame blends. We discuss the notion that many jokes can share the same abstract structure, and propose the term ur-joke for the most abstract level of a joke. Several specific ur-jokes are presented, each with a set of fully fleshed-out jokes based on it. We recount efforts at translating two jokes from one subject matter to another in an attempt to determine whether a joke's funniness is due more to its underlying ur-joke or its subject matter. We discuss the relationship between the Raskin's overlapping-script theory of humor, Hofstadter's frame-blend theory, and a theory that incorporates multiple-level analysis of jokes. Finally, a speculative theory about the adaptive value of humor is presented.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-07T05:07:44Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>(1989). Synopsis of the workshop on humor and cognition. Humor, 2(4), 417-440</arxiv:journal_ref>
+    <author>
+      <name>Douglas Hofstadter</name>
+    </author>
+    <author>
+      <name>Liane Gabora</name>
+    </author>
+  </entry>
+</feed>

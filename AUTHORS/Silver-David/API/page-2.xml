@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5qn2nSSRye0QJKEfxYxmbx/mgAc</id>
+  <title>arXiv Query: search_query=au:"David Silver"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T20:24:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22David+Silver%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>71</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.05343v2</id>
+    <title>Decoupled Neural Interfaces using Synthetic Gradients</title>
+    <updated>2017-07-03T10:52:04Z</updated>
+    <link href="https://arxiv.org/abs/1608.05343v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.05343v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training directed neural networks typically requires forward-propagating data through a computation graph, followed by backpropagating error signal, to produce weight updates. All layers, or more generally, modules, of the network are therefore locked, in the sense that they must wait for the remainder of the network to execute forwards and propagate error backwards before they can be updated. In this work we break this constraint by decoupling modules by introducing a model of the future computation of the network graph. These models predict what the result of the modelled subgraph will produce using only local information. In particular we focus on modelling error gradients: by using the modelled synthetic gradient in place of true backpropagated error gradients we decouple subgraphs, and can update them independently and asynchronously i.e. we realise decoupled neural interfaces. We show results for feed-forward models, where every layer is trained asynchronously, recurrent neural networks (RNNs) where predicting one's future gradient extends the time over which the RNN can effectively model, and also a hierarchical RNN system with ticking at different timescales. Finally, we demonstrate that in addition to predicting gradients, the same framework can be used to predict inputs, resulting in models which are decoupled in both the forward and backwards pass -- amounting to independent networks which co-learn such that they can be composed into a single functioning corporation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-18T17:29:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Max Jaderberg</name>
+    </author>
+    <author>
+      <name>Wojciech Marian Czarnecki</name>
+    </author>
+    <author>
+      <name>Simon Osindero</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Koray Kavukcuoglu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.05312v2</id>
+    <title>Successor Features for Transfer in Reinforcement Learning</title>
+    <updated>2018-04-12T11:41:05Z</updated>
+    <link href="https://arxiv.org/abs/1606.05312v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.05312v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transfer in reinforcement learning refers to the notion that generalization should occur not only within a task but also across tasks. We propose a transfer framework for the scenario where the reward function changes between tasks but the environment's dynamics remain the same. Our approach rests on two key ideas: "successor features", a value function representation that decouples the dynamics of the environment from the rewards, and "generalized policy improvement", a generalization of dynamic programming's policy improvement operation that considers a set of policies rather than a single one. Put together, the two ideas lead to an approach that integrates seamlessly within the reinforcement learning framework and allows the free exchange of information across tasks. The proposed method also provides performance guarantees for the transferred policy even before any learning has taken place. We derive two theorems that set our approach in firm theoretical ground and present experiments that show that it successfully promotes transfer in practice, significantly outperforming alternative methods in a sequence of navigation tasks and in the control of a simulated robotic arm.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-16T18:45:32Z</published>
+    <arxiv:comment>Published at NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>André Barreto</name>
+    </author>
+    <author>
+      <name>Will Dabney</name>
+    </author>
+    <author>
+      <name>Rémi Munos</name>
+    </author>
+    <author>
+      <name>Jonathan J. Hunt</name>
+    </author>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>Hado van Hasselt</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01121v2</id>
+    <title>Deep Reinforcement Learning from Self-Play in Imperfect-Information Games</title>
+    <updated>2016-06-28T15:28:30Z</updated>
+    <link href="https://arxiv.org/abs/1603.01121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.01121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many real-world applications can be described as large-scale games of imperfect information. To deal with these challenging domains, prior work has focused on computing Nash equilibria in a handcrafted abstraction of the domain. In this paper we introduce the first scalable end-to-end approach to learning approximate Nash equilibria without prior domain knowledge. Our method combines fictitious self-play with deep reinforcement learning. When applied to Leduc poker, Neural Fictitious Self-Play (NFSP) approached a Nash equilibrium, whereas common reinforcement learning methods diverged. In Limit Texas Holdem, a poker game of real-world scale, NFSP learnt a strategy that approached the performance of state-of-the-art, superhuman algorithms based on significant domain expertise.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-03T15:01:54Z</published>
+    <arxiv:comment>updated version, incorporating conference feedback</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Johannes Heinrich</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07714v2</id>
+    <title>Learning values across many orders of magnitude</title>
+    <updated>2016-08-16T05:27:17Z</updated>
+    <link href="https://arxiv.org/abs/1602.07714v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.07714v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most learning algorithms are not invariant to the scale of the function that is being approximated. We propose to adaptively normalize the targets used in learning. This is useful in value-based reinforcement learning, where the magnitude of appropriate value approximations can change over time when we update the policy of behavior. Our main motivation is prior work on learning to play Atari games, where the rewards were all clipped to a predetermined range. This clipping facilitates learning across many different games with a single learning algorithm, but a clipped reward function can result in qualitatively different behavior. Using the adaptive normalization we can remove this domain-specific heuristic without diminishing overall performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-24T21:14:52Z</published>
+    <arxiv:comment>Paper accepted for publication at NIPS 2016. This version includes the appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hado van Hasselt</name>
+    </author>
+    <author>
+      <name>Arthur Guez</name>
+    </author>
+    <author>
+      <name>Matteo Hessel</name>
+    </author>
+    <author>
+      <name>Volodymyr Mnih</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.01783v2</id>
+    <title>Asynchronous Methods for Deep Reinforcement Learning</title>
+    <updated>2016-06-16T16:38:45Z</updated>
+    <link href="https://arxiv.org/abs/1602.01783v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.01783v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a conceptually simple and lightweight framework for deep reinforcement learning that uses asynchronous gradient descent for optimization of deep neural network controllers. We present asynchronous variants of four standard reinforcement learning algorithms and show that parallel actor-learners have a stabilizing effect on training allowing all four methods to successfully train neural network controllers. The best performing method, an asynchronous variant of actor-critic, surpasses the current state-of-the-art on the Atari domain while training for half the time on a single multi-core CPU instead of a GPU. Furthermore, we show that asynchronous actor-critic succeeds on a wide variety of continuous motor control problems as well as on a new task of navigating random 3D mazes using a visual input.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-04T18:38:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ICML 2016</arxiv:journal_ref>
+    <author>
+      <name>Volodymyr Mnih</name>
+    </author>
+    <author>
+      <name>Adrià Puigdomènech Badia</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Timothy P. Lillicrap</name>
+    </author>
+    <author>
+      <name>Tim Harley</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Koray Kavukcuoglu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.04455v1</id>
+    <title>Memory-based control with recurrent neural networks</title>
+    <updated>2015-12-14T18:44:48Z</updated>
+    <link href="https://arxiv.org/abs/1512.04455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.04455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Partially observed control problems are a challenging aspect of reinforcement learning. We extend two related, model-free algorithms for continuous control -- deterministic policy gradient and stochastic value gradient -- to solve partially observed domains using recurrent neural networks trained with backpropagation through time.
+  We demonstrate that this approach, coupled with long-short term memory is able to solve a variety of physical control problems exhibiting an assortment of memory requirements. These include the short-term integration of information from noisy sensors and the identification of system parameters, as well as long-term memory problems that require preserving information over many time steps. We also demonstrate success on a combined exploration and memory problem in the form of a simplified version of the well-known Morris water maze task. Finally, we show that our approach can deal with high-dimensional observations by learning directly from pixels.
+  We find that recurrent deterministic and stochastic policies are able to learn similarly good solutions to these tasks, including the water maze where the agent must learn effective search strategies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-14T18:44:48Z</published>
+    <arxiv:comment>NIPS Deep Reinforcement Learning Workshop 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Jonathan J Hunt</name>
+    </author>
+    <author>
+      <name>Timothy P Lillicrap</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05952v4</id>
+    <title>Prioritized Experience Replay</title>
+    <updated>2016-02-25T17:55:31Z</updated>
+    <link href="https://arxiv.org/abs/1511.05952v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05952v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experience replay lets online reinforcement learning agents remember and reuse experiences from the past. In prior work, experience transitions were uniformly sampled from a replay memory. However, this approach simply replays transitions at the same frequency that they were originally experienced, regardless of their significance. In this paper we develop a framework for prioritizing experience, so as to replay important transitions more frequently, and therefore learn more efficiently. We use prioritized experience replay in Deep Q-Networks (DQN), a reinforcement learning algorithm that achieved human-level performance across many Atari games. DQN with prioritized experience replay achieves a new state-of-the-art, outperforming DQN with uniform replay on 41 out of 49 games.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-18T20:54:44Z</published>
+    <arxiv:comment>Published at ICLR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>John Quan</name>
+    </author>
+    <author>
+      <name>Ioannis Antonoglou</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.09142v1</id>
+    <title>Learning Continuous Control Policies by Stochastic Value Gradients</title>
+    <updated>2015-10-30T16:07:51Z</updated>
+    <link href="https://arxiv.org/abs/1510.09142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.09142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a unified framework for learning continuous control policies using backpropagation. It supports stochastic control by treating stochasticity in the Bellman equation as a deterministic function of exogenous noise. The product is a spectrum of general policy gradient algorithms that range from model-free methods with value functions to model-based methods without value functions. We use learned models but only require observations from the environment in- stead of observations from model-predicted trajectories, minimizing the impact of compounded model errors. We apply these algorithms first to a toy stochastic control problem and then to several physics-based control problems in simulation. One of these variants, SVG(1), shows the effectiveness of learning models, value functions, and policies simultaneously in continuous domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-30T16:07:51Z</published>
+    <arxiv:comment>13 pages, NIPS 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Greg Wayne</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+    <author>
+      <name>Yuval Tassa</name>
+    </author>
+    <author>
+      <name>Tom Erez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.06461v3</id>
+    <title>Deep Reinforcement Learning with Double Q-learning</title>
+    <updated>2015-12-08T21:19:16Z</updated>
+    <link href="https://arxiv.org/abs/1509.06461v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.06461v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they harm performance, and whether they can generally be prevented. In this paper, we answer all these questions affirmatively. In particular, we first show that the recent DQN algorithm, which combines Q-learning with a deep neural network, suffers from substantial overestimations in some games in the Atari 2600 domain. We then show that the idea behind the Double Q-learning algorithm, which was introduced in a tabular setting, can be generalized to work with large-scale function approximation. We propose a specific adaptation to the DQN algorithm and show that the resulting algorithm not only reduces the observed overestimations, as hypothesized, but that this also leads to much better performance on several games.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-22T04:40:22Z</published>
+    <arxiv:comment>AAAI 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hado van Hasselt</name>
+    </author>
+    <author>
+      <name>Arthur Guez</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.02971v6</id>
+    <title>Continuous control with deep reinforcement learning</title>
+    <updated>2019-07-05T10:47:27Z</updated>
+    <link href="https://arxiv.org/abs/1509.02971v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.02971v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We adapt the ideas underlying the success of Deep Q-Learning to the continuous action domain. We present an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous action spaces. Using the same learning algorithm, network architecture and hyper-parameters, our algorithm robustly solves more than 20 simulated physics tasks, including classic problems such as cartpole swing-up, dexterous manipulation, legged locomotion and car driving. Our algorithm is able to find policies whose performance is competitive with those found by a planning algorithm with full access to the dynamics of the domain and its derivatives. We further demonstrate that for many of the tasks the algorithm can learn policies end-to-end: directly from raw pixel inputs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-09T23:01:36Z</published>
+    <arxiv:comment>10 pages + supplementary</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Timothy P. Lillicrap</name>
+    </author>
+    <author>
+      <name>Jonathan J. Hunt</name>
+    </author>
+    <author>
+      <name>Alexander Pritzel</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Tom Erez</name>
+    </author>
+    <author>
+      <name>Yuval Tassa</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.04296v2</id>
+    <title>Massively Parallel Methods for Deep Reinforcement Learning</title>
+    <updated>2015-07-16T09:27:06Z</updated>
+    <link href="https://arxiv.org/abs/1507.04296v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.04296v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first massively distributed architecture for deep reinforcement learning. This architecture uses four main components: parallel actors that generate new behaviour; parallel learners that are trained from stored experience; a distributed neural network to represent the value function or behaviour policy; and a distributed store of experience. We used our architecture to implement the Deep Q-Network algorithm (DQN). Our distributed algorithm was applied to 49 games from Atari 2600 games from the Arcade Learning Environment, using identical hyperparameters. Our performance surpassed non-distributed DQN in 41 of the 49 games and also reduced the wall-time required to achieve these results by an order of magnitude on most games.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-15T16:56:56Z</published>
+    <arxiv:comment>Presented at the Deep Learning Workshop, International Conference on Machine Learning, Lille, France, 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arun Nair</name>
+    </author>
+    <author>
+      <name>Praveen Srinivasan</name>
+    </author>
+    <author>
+      <name>Sam Blackwell</name>
+    </author>
+    <author>
+      <name>Cagdas Alcicek</name>
+    </author>
+    <author>
+      <name>Rory Fearon</name>
+    </author>
+    <author>
+      <name>Alessandro De Maria</name>
+    </author>
+    <author>
+      <name>Vedavyas Panneershelvam</name>
+    </author>
+    <author>
+      <name>Mustafa Suleyman</name>
+    </author>
+    <author>
+      <name>Charles Beattie</name>
+    </author>
+    <author>
+      <name>Stig Petersen</name>
+    </author>
+    <author>
+      <name>Shane Legg</name>
+    </author>
+    <author>
+      <name>Volodymyr Mnih</name>
+    </author>
+    <author>
+      <name>Koray Kavukcuoglu</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.03959v1</id>
+    <title>Value Iteration with Options and State Aggregation</title>
+    <updated>2015-01-16T12:02:51Z</updated>
+    <link href="https://arxiv.org/abs/1501.03959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.03959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a way of solving Markov Decision Processes that combines state abstraction and temporal abstraction. Specifically, we combine state aggregation with the options framework and demonstrate that they work well together and indeed it is only after one combines the two that the full benefit of each is realized. We introduce a hierarchical value iteration algorithm where we first coarsely solve subgoals and then use these approximate solutions to exactly solve the MDP. This algorithm solved several problems faster than vanilla value iteration.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-16T12:02:51Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kamil Ciosek</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6564v2</id>
+    <title>Move Evaluation in Go Using Deep Convolutional Neural Networks</title>
+    <updated>2015-04-10T19:03:34Z</updated>
+    <link href="https://arxiv.org/abs/1412.6564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The game of Go is more challenging than other board games, due to the difficulty of constructing a position or move evaluation function. In this paper we investigate whether deep convolutional networks can be used to directly represent and learn this knowledge. We train a large 12-layer convolutional neural network by supervised learning from a database of human professional games. The network correctly predicts the expert move in 55% of positions, equalling the accuracy of a 6 dan human player. When the trained convolutional network was used directly to play games of Go, without any search, it beat the traditional search program GnuGo in 97% of games, and matched the performance of a state-of-the-art Monte-Carlo tree search that simulates a million positions per move.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-20T00:31:30Z</published>
+    <arxiv:comment>Minor edits and included captures in Figure 2</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chris J. Maddison</name>
+    </author>
+    <author>
+      <name>Aja Huang</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.1958v1</id>
+    <title>Better Optimism By Bayes: Adaptive Planning with Rich Models</title>
+    <updated>2014-02-09T15:38:57Z</updated>
+    <link href="https://arxiv.org/abs/1402.1958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.1958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The computational costs of inference and planning have confined Bayesian model-based reinforcement learning to one of two dismal fates: powerful Bayes-adaptive planning but only for simplistic models, or powerful, Bayesian non-parametric models but using simple, myopic planning strategies such as Thompson sampling. We ask whether it is feasible and truly beneficial to combine rich probabilistic models with a closer approximation to fully Bayesian planning. First, we use a collection of counterexamples to show formal problems with the over-optimism inherent in Thompson sampling. Then we leverage state-of-the-art techniques in efficient Bayes-adaptive planning and non-parametric Bayesian methods to perform qualitatively better than both existing conventional algorithms and Thompson sampling on two contextual bandit-like problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-09T15:38:57Z</published>
+    <arxiv:comment>11 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Arthur Guez</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Peter Dayan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.5390v1</id>
+    <title>Learning to Win by Reading Manuals in a Monte-Carlo Framework</title>
+    <updated>2014-01-18T21:10:57Z</updated>
+    <link href="https://arxiv.org/abs/1401.5390v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.5390v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Domain knowledge is crucial for effective performance in autonomous control systems.  Typically, human effort is required to encode this knowledge into a control algorithm.  In this paper, we present an approach to language grounding which automatically interprets text in the context of a complex control application, such as a game, and uses domain knowledge extracted from the text to improve control performance.  Both text analysis and control strategies are learned jointly using only a feedback signal inherent to the application.  To effectively leverage textual information, our method automatically extracts the text segment most relevant to the current game state, and labels it with a task-centric predicate structure.  This labeled text is then used to bias an action selection policy for the game, guiding it towards promising regions of the action space.  We encode our model for text analysis and game playing in a multi-layer neural network, representing linguistic decisions via latent variables in the hidden layers, and game action quality via the output layer.  Operating within the Monte-Carlo Search framework, we estimate model parameters using feedback from simulated games.  We apply our approach to the complex strategy game Civilization II using the official game manual as the text guide.  Our results show that a linguistically-informed game-playing agent significantly outperforms its language-unaware counterpart, yielding a 34% absolute improvement and winning over 65% of games when playing against the built-in AI of Civilization.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-18T21:10:57Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Journal Of Artificial Intelligence Research, Volume 43, pages 661-704, 2012</arxiv:journal_ref>
+    <author>
+      <name>S. R. K. Branavan</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Regina Barzilay</name>
+    </author>
+    <arxiv:doi>10.1613/jair.3484</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1613/jair.3484" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6055v3</id>
+    <title>Unit Tests for Stochastic Optimization</title>
+    <updated>2014-02-25T18:16:54Z</updated>
+    <link href="https://arxiv.org/abs/1312.6055v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6055v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimization by stochastic gradient descent is an important component of many large-scale machine learning algorithms. A wide variety of such optimization algorithms have been devised; however, it is unclear whether these algorithms are robust and widely applicable across many different optimization landscapes. In this paper we develop a collection of unit tests for stochastic optimization. Each unit test rapidly evaluates an optimization algorithm on a small-scale, isolated, and well-understood difficulty, rather than in real-world scenarios where many such issues are entangled. Passing these unit tests is not sufficient, but absolutely necessary for any algorithms with claims to generality or robustness. We give initial quantitative and qualitative results on numerous established algorithms. The testing framework is open-source, extensible, and easy to apply to new algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T17:44:06Z</published>
+    <arxiv:comment>Final submission to ICLR 2014 (revised according to reviews, additional results added)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>Ioannis Antonoglou</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5602v1</id>
+    <title>Playing Atari with Deep Reinforcement Learning</title>
+    <updated>2013-12-19T16:00:08Z</updated>
+    <link href="https://arxiv.org/abs/1312.5602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-19T16:00:08Z</published>
+    <arxiv:comment>NIPS Deep Learning Workshop 2013</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Volodymyr Mnih</name>
+    </author>
+    <author>
+      <name>Koray Kavukcuoglu</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Ioannis Antonoglou</name>
+    </author>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+    <author>
+      <name>Martin Riedmiller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6473v1</id>
+    <title>Compositional Planning Using Optimal Option Models</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6473v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6473v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce a framework for option model composition. Option models are temporal abstractions that, like macro-operators in classical planning, jump directly from a start state to an end state. Prior work has focused on constructing option models from primitive actions, by intra-option model learning; or on using option models to construct a value function, by inter-option planning. We present a unified view of intra- and inter-option model learning, based on a major generalisation of the Bellman equation. Our fundamental operation is the recursive composition of option models into other option models. This key idea enables compositional planning over many levels of abstraction. We illustrate our framework using a dynamic programming algorithm that simultaneously constructs optimal option models for multiple subgoals, and also searches over those option models to provide rapid progress towards other subgoals.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>David Silver</name>
+      <arxiv:affiliation>University College London</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kamil Ciosek</name>
+      <arxiv:affiliation>University College London</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3109v4</id>
+    <title>Efficient Bayes-Adaptive Reinforcement Learning using Sample-Based Search</title>
+    <updated>2013-12-18T11:45:49Z</updated>
+    <link href="https://arxiv.org/abs/1205.3109v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3109v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian model-based reinforcement learning is a formally elegant approach to learning optimal behaviour under model uncertainty, trading off exploration and exploitation in an ideal way. Unfortunately, finding the resulting Bayes-optimal policies is notoriously taxing, since the search space becomes enormous. In this paper we introduce a tractable, sample-based method for approximate Bayes-optimal planning which exploits Monte-Carlo tree search. Our approach outperformed prior Bayesian model-based RL algorithms by a significant margin on several well-known benchmark problems -- because it avoids expensive applications of Bayes rule within the search tree by lazily sampling models from the current beliefs. We illustrate the advantages of our approach by showing it working in an infinite state space domain which is qualitatively out of reach of almost all previous work in Bayesian exploration.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T17:20:29Z</published>
+    <arxiv:comment>14 pages, 7 figures, includes supplementary material. Advances in Neural Information Processing Systems (NIPS) 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>(2012) Advances in Neural Information Processing Systems 25, pages 1034-1042</arxiv:journal_ref>
+    <author>
+      <name>Arthur Guez</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Peter Dayan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.2049v1</id>
+    <title>Reinforcement Learning via AIXI Approximation</title>
+    <updated>2010-07-13T08:48:18Z</updated>
+    <link href="https://arxiv.org/abs/1007.2049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.2049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a principled approach for the design of a scalable general reinforcement learning agent. This approach is based on a direct approximation of AIXI, a Bayesian optimality notion for general reinforcement learning agents. Previously, it has been unclear whether the theory of AIXI could motivate the design of practical algorithms. We answer this hitherto open question in the affirmative, by providing the first computationally feasible approximation to the AIXI agent. To develop our approximation, we introduce a Monte Carlo Tree Search algorithm along with an agent-specific extension of the Context Tree Weighting algorithm. Empirically, we present a set of encouraging results on a number of stochastic, unknown, and partially observable domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-13T08:48:18Z</published>
+    <arxiv:comment>8 LaTeX pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proc. 24th AAAI Conference on Artificial Intelligence (AAAI 2010) pages 605-611</arxiv:journal_ref>
+    <author>
+      <name>Joel Veness</name>
+    </author>
+    <author>
+      <name>Kee Siong Ng</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.0801v2</id>
+    <title>A Monte Carlo AIXI Approximation</title>
+    <updated>2010-12-26T11:01:10Z</updated>
+    <link href="https://arxiv.org/abs/0909.0801v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.0801v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a principled approach for the design of a scalable general reinforcement learning agent. Our approach is based on a direct approximation of AIXI, a Bayesian optimality notion for general reinforcement learning agents. Previously, it has been unclear whether the theory of AIXI could motivate the design of practical algorithms. We answer this hitherto open question in the affirmative, by providing the first computationally feasible approximation to the AIXI agent. To develop our approximation, we introduce a new Monte-Carlo Tree Search algorithm along with an agent-specific extension to the Context Tree Weighting algorithm. Empirically, we present a set of encouraging results on a variety of stochastic and partially observable domains. We conclude by proposing a number of directions for future research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-04T03:13:58Z</published>
+    <arxiv:comment>51 LaTeX pages, 11 figures, 6 tables, 4 algorithms</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Joel Veness</name>
+    </author>
+    <author>
+      <name>Kee Siong Ng</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>William Uther</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+  </entry>
+</feed>
