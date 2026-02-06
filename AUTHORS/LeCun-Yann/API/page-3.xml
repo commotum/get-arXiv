@@ -1,0 +1,1287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HGLv9VjNuYy+btx8IQeYGP3GAOg</id>
+  <title>arXiv Query: search_query=au:"Yann LeCun"&amp;id_list=&amp;start=100&amp;max_results=50</title>
+  <updated>2026-02-06T19:39:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yann+LeCun%22&amp;start=100&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>196</opensearch:totalResults>
+  <opensearch:startIndex>100</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.08325v1</id>
+    <title>A Data-Augmentation Is Worth A Thousand Samples: Exact Quantification From Analytical Augmented Sample Moments</title>
+    <updated>2022-02-16T20:41:57Z</updated>
+    <link href="https://arxiv.org/abs/2202.08325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.08325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data-Augmentation (DA) is known to improve performance across tasks and datasets. We propose a method to theoretically analyze the effect of DA and study questions such as: how many augmented samples are needed to correctly estimate the information encoded by that DA? How does the augmentation policy impact the final parameters of a model? We derive several quantities in close-form, such as the expectation and variance of an image, loss, and model's output under a given DA distribution. Those derivations open new avenues to quantify the benefits and limitations of DA. For example, we show that common DAs require tens of thousands of samples for the loss at hand to be correctly estimated and for the model training to converge. We show that for a training loss to be stable under DA sampling, the model's saliency map (gradient of the loss with respect to the model's input) must align with the smallest eigenvector of the sample variance under the considered DA augmentation, hinting at a possible explanation on why models tend to shift their focus from edges to textures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-16T20:41:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Ishan Misra</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.10000v1</id>
+    <title>Neural Manifold Clustering and Embedding</title>
+    <updated>2022-01-24T23:13:37Z</updated>
+    <link href="https://arxiv.org/abs/2201.10000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.10000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a union of non-linear manifolds, non-linear subspace clustering or manifold clustering aims to cluster data points based on manifold structures and also learn to parameterize each manifold as a linear subspace in a feature space. Deep neural networks have the potential to achieve this goal under highly non-linear settings given their large capacity and flexibility. We argue that achieving manifold clustering with neural networks requires two essential ingredients: a domain-specific constraint that ensures the identification of the manifolds, and a learning algorithm for embedding each manifold to a linear subspace in the feature space. This work shows that many constraints can be implemented by data augmentation. For subspace feature learning, Maximum Coding Rate Reduction (MCR$^2$) objective can be used. Putting them together yields {\em Neural Manifold Clustering and Embedding} (NMCE), a novel method for general purpose manifold clustering, which significantly outperforms autoencoder-based deep subspace clustering. Further, on more challenging natural image datasets, NMCE can also outperform other algorithms specifically designed for clustering. Qualitatively, we demonstrate that NMCE learns a meaningful and interpretable feature space. As the formulation of NMCE is closely related to several important Self-supervised learning (SSL) methods, we believe this work can help us build a deeper understanding on SSL representation learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-24T23:13:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zengyi Li</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Friedrich T. Sommer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09214v2</id>
+    <title>Sparse Coding with Multi-Layer Decoders using Variance Regularization</title>
+    <updated>2022-09-07T19:57:50Z</updated>
+    <link href="https://arxiv.org/abs/2112.09214v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09214v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse representations of images are useful in many computer vision applications. Sparse coding with an $l_1$ penalty and a learned linear dictionary requires regularization of the dictionary to prevent a collapse in the $l_1$ norms of the codes. Typically, this regularization entails bounding the Euclidean norms of the dictionary's elements. In this work, we propose a novel sparse coding protocol which prevents a collapse in the codes without the need to regularize the decoder. Our method regularizes the codes directly so that each latent code component has variance greater than a fixed threshold over a set of sparse representations for a given set of inputs. Furthermore, we explore ways to effectively train sparse coding systems with multi-layer decoders since they can model more complex relationships than linear dictionaries. In our experiments with MNIST and natural image patches, we show that decoders learned with our approach have interpretable features both in the linear and multi-layer case. Moreover, we show that sparse autoencoders with multi-layer decoders trained using our variance regularization method produce higher quality reconstructions with sparser representations when compared to autoencoders with linear dictionaries. Additionally, sparse representations obtained with our variance regularization approach are useful in the downstream tasks of denoising and classification in the low-data regime.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-16T21:46:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Katrina Evtimova</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.09485v2</id>
+    <title>Learning in High Dimension Always Amounts to Extrapolation</title>
+    <updated>2021-10-29T20:48:06Z</updated>
+    <link href="https://arxiv.org/abs/2110.09485v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.09485v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The notion of interpolation and extrapolation is fundamental in various fields from deep learning to function approximation. Interpolation occurs for a sample $x$ whenever this sample falls inside or on the boundary of the given dataset's convex hull. Extrapolation occurs when $x$ falls outside of that convex hull. One fundamental (mis)conception is that state-of-the-art algorithms work so well because of their ability to correctly interpolate training data. A second (mis)conception is that interpolation happens throughout tasks and datasets, in fact, many intuitions and theories rely on that assumption. We empirically and theoretically argue against those two points and demonstrate that on any high-dimensional ($&gt;$100) dataset, interpolation almost surely never happens. Those results challenge the validity of our current interpolation/extrapolation definition as an indicator of generalization performances.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-18T17:32:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Jerome Pesenti</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.09348v3</id>
+    <title>Understanding Dimensional Collapse in Contrastive Self-supervised Learning</title>
+    <updated>2022-04-23T16:44:20Z</updated>
+    <link href="https://arxiv.org/abs/2110.09348v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.09348v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised visual representation learning aims to learn useful representations without relying on human annotations. Joint embedding approach bases on maximizing the agreement between embedding vectors from different views of the same image. Various methods have been proposed to solve the collapsing problem where all embedding vectors collapse to a trivial constant solution. Among these methods, contrastive learning prevents collapse via negative sample pairs. It has been shown that non-contrastive methods suffer from a lesser collapse problem of a different nature: dimensional collapse, whereby the embedding vectors end up spanning a lower-dimensional subspace instead of the entire available embedding space. Here, we show that dimensional collapse also happens in contrastive learning. In this paper, we shed light on the dynamics at play in contrastive learning that leads to dimensional collapse. Inspired by our theory, we propose a novel contrastive learning method, called DirectCLR, which directly optimizes the representation space without relying on an explicit trainable projector. Experiments show that DirectCLR outperforms SimCLR with a trainable linear projector on ImageNet.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-18T14:22:19Z</published>
+    <arxiv:comment>In Proceedings of the 10th International Conference on Learning Representations (ICLR) 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>ICLR 2022</arxiv:journal_ref>
+    <author>
+      <name>Li Jing</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Yuandong Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.06848v3</id>
+    <title>Decoupled Contrastive Learning</title>
+    <updated>2022-07-30T02:37:33Z</updated>
+    <link href="https://arxiv.org/abs/2110.06848v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.06848v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contrastive learning (CL) is one of the most successful paradigms for self-supervised learning (SSL). In a principled way, it considers two augmented "views" of the same image as positive to be pulled closer, and all other images as negative to be pushed further apart. However, behind the impressive success of CL-based techniques, their formulation often relies on heavy-computation settings, including large sample batches, extensive training epochs, etc. We are thus motivated to tackle these issues and establish a simple, efficient, yet competitive baseline of contrastive learning. Specifically, we identify, from theoretical and empirical studies, a noticeable negative-positive-coupling (NPC) effect in the widely used InfoNCE loss, leading to unsuitable learning efficiency concerning the batch size. By removing the NPC effect, we propose decoupled contrastive learning (DCL) loss, which removes the positive term from the denominator and significantly improves the learning efficiency. DCL achieves competitive performance with less sensitivity to sub-optimal hyperparameters, requiring neither large batches in SimCLR, momentum encoding in MoCo, or large epochs. We demonstrate with various benchmarks while manifesting robustness as much less sensitive to suboptimal hyperparameters. Notably, SimCLR with DCL achieves 68.2% ImageNet-1K top-1 accuracy using batch size 256 within 200 epochs pre-training, outperforming its SimCLR baseline by 6.4%. Further, DCL can be combined with the SOTA contrastive learning method, NNCLR, to achieve 72.3% ImageNet-1K top-1 accuracy with 512 batch size in 400 epochs, which represents a new SOTA in contrastive learning. We believe DCL provides a valuable baseline for future contrastive SSL studies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-13T16:38:43Z</published>
+    <arxiv:comment>Accepted by ECCV2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chun-Hsiao Yeh</name>
+    </author>
+    <author>
+      <name>Cheng-Yao Hong</name>
+    </author>
+    <author>
+      <name>Yen-Chi Hsu</name>
+    </author>
+    <author>
+      <name>Tyng-Luh Liu</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.07110v3</id>
+    <title>Compact and Optimal Deep Learning with Recurrent Parameter Generators</title>
+    <updated>2022-10-26T23:56:01Z</updated>
+    <link href="https://arxiv.org/abs/2107.07110v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.07110v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning has achieved tremendous success by training increasingly large models, which are then compressed for practical deployment. We propose a drastically different approach to compact and optimal deep learning: We decouple the Degrees of freedom (DoF) and the actual number of parameters of a model, optimize a small DoF with predefined random linear constraints for a large model of arbitrary architecture, in one-stage end-to-end learning. Specifically, we create a recurrent parameter generator (RPG), which repeatedly fetches parameters from a ring and unpacks them onto a large model with random permutation and sign flipping to promote parameter decorrelation. We show that gradient descent can automatically find the best model under constraints with faster convergence. Our extensive experimentation reveals a log-linear relationship between model DoF and accuracy. Our RPG demonstrates remarkable DoF reduction and can be further pruned and quantized for additional run-time performance gain. For example, in terms of top-1 accuracy on ImageNet, RPG achieves $96\%$ of ResNet18's performance with only $18\%$ DoF (the equivalent of one convolutional layer) and $52\%$ of ResNet34's performance with only $0.25\%$ DoF! Our work shows a significant potential of constrained neural optimization in compact and optimal deep learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-15T04:23:59Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>WACV 2023</arxiv:journal_ref>
+    <author>
+      <name>Jiayun Wang</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Stella X. Yu</name>
+    </author>
+    <author>
+      <name>Brian Cheung</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.04906v3</id>
+    <title>VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning</title>
+    <updated>2022-01-28T12:23:37Z</updated>
+    <link href="https://arxiv.org/abs/2105.04906v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.04906v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent self-supervised methods for image representation learning are based on maximizing the agreement between embedding vectors from different views of the same image. A trivial solution is obtained when the encoder outputs constant vectors. This collapse problem is often avoided through implicit biases in the learning architecture, that often lack a clear justification or interpretation. In this paper, we introduce VICReg (Variance-Invariance-Covariance Regularization), a method that explicitly avoids the collapse problem with a simple regularization term on the variance of the embeddings along each dimension individually. VICReg combines the variance term with a decorrelation mechanism based on redundancy reduction and covariance regularization, and achieves results on par with the state of the art on several downstream tasks. In addition, we show that incorporating our new variance term into other methods helps stabilize the training and leads to performance improvements.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-11T09:53:21Z</published>
+    <arxiv:comment>Accepted at ICLR 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.12763v2</id>
+    <title>MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding</title>
+    <updated>2021-10-12T00:49:54Z</updated>
+    <link href="https://arxiv.org/abs/2104.12763v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.12763v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-modal reasoning systems rely on a pre-trained object detector to extract regions of interest from the image. However, this crucial module is typically used as a black box, trained independently of the downstream task and on a fixed vocabulary of objects and attributes. This makes it challenging for such systems to capture the long tail of visual concepts expressed in free form text. In this paper we propose MDETR, an end-to-end modulated detector that detects objects in an image conditioned on a raw text query, like a caption or a question. We use a transformer-based architecture to reason jointly over text and image by fusing the two modalities at an early stage of the model. We pre-train the network on 1.3M text-image pairs, mined from pre-existing multi-modal datasets having explicit alignment between phrases in text and objects in the image. We then fine-tune on several downstream tasks such as phrase grounding, referring expression comprehension and segmentation, achieving state-of-the-art results on popular benchmarks. We also investigate the utility of our model as an object detector on a given label set when fine-tuned in a few-shot setting. We show that our pre-training approach provides a way to handle the long tail of object categories which have very few labelled instances. Our approach can be easily extended for visual question answering, achieving competitive performance on GQA and CLEVR. The code and models are available at https://github.com/ashkamath/mdetr.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-26T17:55:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aishwarya Kamath</name>
+    </author>
+    <author>
+      <name>Mannat Singh</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Gabriel Synnaeve</name>
+    </author>
+    <author>
+      <name>Ishan Misra</name>
+    </author>
+    <author>
+      <name>Nicolas Carion</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.15949v2</id>
+    <title>Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors</title>
+    <updated>2023-04-04T06:43:19Z</updated>
+    <link href="https://arxiv.org/abs/2103.15949v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.15949v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer networks have revolutionized NLP representation learning since they were introduced. Though a great effort has been made to explain the representation in transformers, it is widely recognized that our understanding is not sufficient. One important reason is that there lack enough visualization tools for detailed analysis. In this paper, we propose to use dictionary learning to open up these "black boxes" as linear superpositions of transformer factors. Through visualization, we demonstrate the hierarchical semantic structures captured by the transformer factors, e.g., word-level polysemy disambiguation, sentence-level pattern formation, and long-range dependency. While some of these patterns confirm the conventional prior linguistic knowledge, the rest are relatively unexpected, which may provide new insights. We hope this visualization tool can bring further knowledge and a better understanding of how transformer networks work. The code is available at https://github.com/zeyuyun1/TransformerVis</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-29T20:51:33Z</published>
+    <arxiv:comment>This paper is published at DeeLIO Workshop@NAACL 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zeyu Yun</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Bruno A Olshausen</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.03230v3</id>
+    <title>Barlow Twins: Self-Supervised Learning via Redundancy Reduction</title>
+    <updated>2021-06-14T14:09:43Z</updated>
+    <link href="https://arxiv.org/abs/2103.03230v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.03230v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning (SSL) is rapidly closing the gap with supervised methods on large computer vision benchmarks. A successful approach to SSL is to learn embeddings which are invariant to distortions of the input sample. However, a recurring issue with this approach is the existence of trivial constant solutions. Most current methods avoid such solutions by careful implementation details. We propose an objective function that naturally avoids collapse by measuring the cross-correlation matrix between the outputs of two identical networks fed with distorted versions of a sample, and making it as close to the identity matrix as possible. This causes the embedding vectors of distorted versions of a sample to be similar, while minimizing the redundancy between the components of these vectors. The method is called Barlow Twins, owing to neuroscientist H. Barlow's redundancy-reduction principle applied to a pair of identical networks. Barlow Twins does not require large batches nor asymmetry between the network twins such as a predictor network, gradient stopping, or a moving average on the weight updates. Intriguingly it benefits from very high-dimensional output vectors. Barlow Twins outperforms previous methods on ImageNet for semi-supervised classification in the low-data regime, and is on par with current state of the art for ImageNet classification with a linear classifier head, and for transfer tasks of classification and object detection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-04T18:55:09Z</published>
+    <arxiv:comment>13 pages, 6 figures, to appear at ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jure Zbontar</name>
+    </author>
+    <author>
+      <name>Li Jing</name>
+    </author>
+    <author>
+      <name>Ishan Misra</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Stéphane Deny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.00679v2</id>
+    <title>Implicit Rank-Minimizing Autoencoder</title>
+    <updated>2020-10-14T15:36:27Z</updated>
+    <link href="https://arxiv.org/abs/2010.00679v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.00679v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An important component of autoencoders is the method by which the information capacity of the latent representation is minimized or limited. In this work, the rank of the covariance matrix of the codes is implicitly minimized by relying on the fact that gradient descent learning in multi-layer linear networks leads to minimum-rank solutions. By inserting a number of extra linear layers between the encoder and the decoder, the system spontaneously learns representations with a low effective dimension. The model, dubbed Implicit Rank-Minimizing Autoencoder (IRMAE), is simple, deterministic, and learns compact latent spaces. We demonstrate the validity of the method on several image generation and representation learning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-01T20:48:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Li Jing</name>
+    </author>
+    <author>
+      <name>Jure Zbontar</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.11661v2</id>
+    <title>Inspirational Adversarial Image Generation</title>
+    <updated>2021-04-02T06:55:30Z</updated>
+    <link href="https://arxiv.org/abs/1906.11661v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.11661v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The task of image generation started to receive some attention from artists and designers to inspire them in new creations. However, exploiting the results of deep generative models such as Generative Adversarial Networks can be long and tedious given the lack of existing tools. In this work, we propose a simple strategy to inspire creators with new generations learned from a dataset of their choice, while providing some control on them. We design a simple optimization method to find the optimal latent parameters corresponding to the closest generation to any input inspirational image. Specifically, we allow the generation given an inspirational image of the user choice by performing several optimization steps to recover optimal parameters from the model's latent space. We tested several exploration methods starting with classic gradient descents to gradient-free optimizers. Many gradient-free optimizers just need comparisons (better/worse than another image), so that they can even be used without numerical criterion, without inspirational image, but with only with human preference. Thus, by iterating on one's preferences we could make robust Facial Composite or Fashion Generation algorithms. High resolution of the produced design generations are obtained using progressive growing of GANs. Our results on four datasets of faces, fashion images, and textures show that satisfactory images are effectively retrieved in most cases.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-17T06:52:40Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>TIP 2021</arxiv:journal_ref>
+    <author>
+      <name>Baptiste Rozière</name>
+    </author>
+    <author>
+      <name>Morgane Riviere</name>
+    </author>
+    <author>
+      <name>Olivier Teytaud</name>
+    </author>
+    <author>
+      <name>Jérémy Rapin</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Camille Couprie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03148v1</id>
+    <title>Unsupervised Image Matching and Object Discovery as Optimization</title>
+    <updated>2019-04-05T16:29:44Z</updated>
+    <link href="https://arxiv.org/abs/1904.03148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.03148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning with complete or partial supervision is powerful but relies on ever-growing human annotation efforts. As a way to mitigate this serious problem, as well as to serve specific applications, unsupervised learning has emerged as an important field of research. In computer vision, unsupervised learning comes in various guises. We focus here on the unsupervised discovery and matching of object categories among images in a collection, following the work of Cho et al. 2015. We show that the original approach can be reformulated and solved as a proper optimization problem. Experiments on several benchmarks establish the merit of our approach.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-05T16:29:44Z</published>
+    <arxiv:comment>Accepted to CVPR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Huy V. Vo</name>
+    </author>
+    <author>
+      <name>Francis Bach</name>
+    </author>
+    <author>
+      <name>Minsu Cho</name>
+    </author>
+    <author>
+      <name>Kai Han</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Patrick Perez</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.08401v1</id>
+    <title>Learning about an exponential amount of conditional distributions</title>
+    <updated>2019-02-22T08:45:01Z</updated>
+    <link href="https://arxiv.org/abs/1902.08401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.08401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the Neural Conditioner (NC), a self-supervised machine able to learn about all the conditional distributions of a random vector $X$. The NC is a function $NC(x \cdot a, a, r)$ that leverages adversarial training to match each conditional distribution $P(X_r|X_a=x_a)$. After training, the NC generalizes to sample from conditional distributions never seen, including the joint distribution. The NC is also able to auto-encode examples, providing data representations useful for downstream classification tasks. In sum, the NC integrates different self-supervised tasks (each being the estimation of a conditional distribution) and levels of supervision (partially observed data) seamlessly into a single learning experience.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-22T08:45:01Z</published>
+    <arxiv:comment>8 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohamed Ishmael Belghazi</name>
+    </author>
+    <author>
+      <name>Maxime Oquab</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>David Lopez-Paz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.02705v1</id>
+    <title>Model-Predictive Policy Learning with Uncertainty Regularization for Driving in Dense Traffic</title>
+    <updated>2019-01-08T00:39:21Z</updated>
+    <link href="https://arxiv.org/abs/1901.02705v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.02705v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning a policy using only observational data is challenging because the distribution of states it induces at execution time may differ from the distribution observed during training. We propose to train a policy by unrolling a learned model of the environment dynamics over multiple time steps while explicitly penalizing two costs: the original cost the policy seeks to optimize, and an uncertainty cost which represents its divergence from the states it is trained on. We measure this second cost by using the uncertainty of the dynamics model about its own predictions, using recent ideas from uncertainty estimation for deep networks. We evaluate our approach using a large-scale observational dataset of driving behavior recorded from traffic cameras, and show that we are able to learn effective driving policies from purely observational data, with no environment interaction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-08T00:39:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mikael Henaff</name>
+    </author>
+    <author>
+      <name>Alfredo Canziani</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.01161v2</id>
+    <title>A Spectral Regularizer for Unsupervised Disentanglement</title>
+    <updated>2019-02-06T02:23:54Z</updated>
+    <link href="https://arxiv.org/abs/1812.01161v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.01161v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A generative model with a disentangled representation allows for independent control over different aspects of the output. Learning disentangled representations has been a recent topic of great interest, but it remains poorly understood. We show that even for GANs that do not possess disentangled representations, one can find curved trajectories in latent space over which local disentanglement occurs. These trajectories are found by iteratively following the leading right-singular vectors of the Jacobian of the generator with respect to its input. Based on this insight, we describe an efficient regularizer that aligns these vectors with the coordinate axes, and show that it can be used to induce disentangled representations in GANs, in a completely unsupervised manner.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-04T01:35:40Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Youngduck Choi</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.04201v1</id>
+    <title>Adversarially-Trained Normalized Noisy-Feature Auto-Encoder for Text Generation</title>
+    <updated>2018-11-10T06:05:53Z</updated>
+    <link href="https://arxiv.org/abs/1811.04201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.04201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article proposes Adversarially-Trained Normalized Noisy-Feature Auto-Encoder (ATNNFAE) for byte-level text generation. An ATNNFAE consists of an auto-encoder where the internal code is normalized on the unit sphere and corrupted by additive noise. Simultaneously, a replica of the decoder (sharing the same parameters as the AE decoder) is used as the generator and fed with random latent vectors. An adversarial discriminator is trained to distinguish training samples reconstructed from the AE from samples produced through the random-input generator, making the entire generator-discriminator path differentiable for discrete data like text. The combined effect of noise injection in the code and shared weights between the decoder and the generator can prevent the mode collapsing phenomenon commonly observed in GANs. Since perplexity cannot be applied to non-sequential text generation, we propose a new evaluation method using the total variance distance between frequencies of hash-coded byte-level n-grams (NGTVD). NGTVD is a single benchmark that can characterize both the quality and the diversity of the generated texts. Experiments are offered in 6 large-scale datasets in Arabic, Chinese and English, with comparisons against n-gram baselines and recurrent neural networks (RNNs). Ablation study on both the noise level and the discriminator is performed. We find that RNNs have trouble competing with the n-gram baselines, and the ATNNFAE results are generally competitive.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-10T06:05:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiang Zhang</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05662v3</id>
+    <title>GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations</title>
+    <updated>2018-07-02T20:24:33Z</updated>
+    <link href="https://arxiv.org/abs/1806.05662v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05662v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern deep transfer learning approaches have mainly focused on learning generic feature vectors from one task that are transferable to other tasks, such as word embeddings in language and pretrained convolutional features in vision. However, these approaches usually transfer unary features and largely ignore more structured graphical representations. This work explores the possibility of learning generic latent relational graphs that capture dependencies between pairs of data units (e.g., words or pixels) from large-scale unlabeled data and transferring the graphs to downstream tasks. Our proposed transfer learning framework improves performance on various tasks including question answering, natural language inference, sentiment analysis, and image classification. We also show that the learned graphs are generic enough to be transferred to different embeddings on which the graphs have not been trained (including GloVe embeddings, ELMo embeddings, and task-specific RNN hidden unit), or embedding-free units such as image pixels.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-14T17:41:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Jake Zhao</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00499v1</id>
+    <title>Backpropagation for Implicit Spectral Densities</title>
+    <updated>2018-06-01T18:28:20Z</updated>
+    <link href="https://arxiv.org/abs/1806.00499v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.00499v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most successful machine intelligence systems rely on gradient-based learning, which is made possible by backpropagation. Some systems are designed to aid us in interpreting data when explicit goals cannot be provided. These unsupervised systems are commonly trained by backpropagating through a likelihood function. We introduce a tool that allows us to do this even when the likelihood is not explicitly set, by instead using the implicit likelihood of the model. Explicitly defining the likelihood often entails making heavy-handed assumptions that impede our ability to solve challenging tasks. On the other hand, the implicit likelihood of the model is accessible without the need for such assumptions. Our tool, which we call spectral backpropagation, allows us to optimize it in much greater generality than what has been attempted before. GANs can also be viewed as a technique for optimizing implicit likelihoods. We study them using spectral backpropagation in order to demonstrate robustness for high-dimensional problems, and identify two novel properties of the generator G: (1) there exist aberrant, nonsensical outputs to which G assigns very high likelihood, and (2) the eigenvectors of the metric induced by G over latent space correspond to quasi-disentangled explanatory factors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-01T18:28:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.12076v1</id>
+    <title>Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks</title>
+    <updated>2018-05-30T16:50:28Z</updated>
+    <link href="https://arxiv.org/abs/1805.12076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.12076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite existing work on ensuring generalization of neural networks in terms of scale sensitive complexity measures, such as norms, margin and sharpness, these complexity measures do not offer an explanation of why neural networks generalize better with over-parametrization. In this work we suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks. Our capacity bound correlates with the behavior of test error with increasing network sizes, and could potentially explain the improvement in generalization with over-parametrization. We further present a matching lower bound for the Rademacher complexity that improves over previous capacity lower bounds for neural networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-30T16:50:28Z</published>
+    <arxiv:comment>19 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Behnam Neyshabur</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+    <author>
+      <name>Srinadh Bhojanapalli</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00921v2</id>
+    <title>DeSIGN: Design Inspiration from Generative Networks</title>
+    <updated>2018-09-14T10:17:31Z</updated>
+    <link href="https://arxiv.org/abs/1804.00921v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00921v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can an algorithm create original and compelling fashion designs to serve as an inspirational assistant? To help answer this question, we design and investigate different image generation models associated with different loss functions to boost creativity in fashion generation. The dimensions of our explorations include: (i) different Generative Adversarial Networks architectures that start from noise vectors to generate fashion items, (ii) novel loss functions that encourage novelty, inspired from Sharma-Mittal divergence, a generalized mutual information measure for the widely used relative entropies such as Kullback-Leibler, and (iii) a generation process following the key elements of fashion design (disentangling shape and texture components). A key challenge of this study is the evaluation of generated designs and the retrieval of best ones, hence we put together an evaluation protocol associating automatic metrics and human experimental studies that we hope will help ease future research. We show that our proposed creativity criterion yield better overall appreciation than the one employed in Creative Adversarial Networks. In the end, about 61% of our images are thought to be created by human designers rather than by a computer while also being considered original per our human subject experiments, and our proposed loss scores the highest compared to existing losses in both novelty and likability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-03T11:54:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Othman Sbai</name>
+    </author>
+    <author>
+      <name>Mohamed Elhoseiny</name>
+    </author>
+    <author>
+      <name>Antoine Bordes</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Camille Couprie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.11496v2</id>
+    <title>Predicting Future Instance Segmentation by Forecasting Convolutional Features</title>
+    <updated>2018-10-03T10:12:48Z</updated>
+    <link href="https://arxiv.org/abs/1803.11496v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.11496v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anticipating future events is an important prerequisite towards intelligent behavior. Video forecasting has been studied as a proxy task towards this goal. Recent work has shown that to predict semantic segmentation of future frames, forecasting at the semantic level is more effective than forecasting RGB frames and then segmenting these. In this paper we consider the more challenging problem of future instance segmentation, which additionally segments out individual objects. To deal with a varying number of output labels per image, we develop a predictive model in the space of fixed-sized convolutional features of the Mask R-CNN instance segmentation model. We apply the "detection head'" of Mask R-CNN on the predicted features to produce the instance segmentation of future frames. Experiments show that this approach significantly improves over strong baselines based on optical flow and repurposed instance segmentation architectures.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-30T14:55:32Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pauline Luc</name>
+    </author>
+    <author>
+      <name>Camille Couprie</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Jakob Verbeek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.01817v1</id>
+    <title>Byte-Level Recursive Convolutional Auto-Encoder for Text</title>
+    <updated>2018-02-06T06:47:09Z</updated>
+    <link href="https://arxiv.org/abs/1802.01817v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.01817v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article proposes to auto-encode text at byte-level using convolutional networks with a recursive architecture. The motivation is to explore whether it is possible to have scalable and homogeneous text generation at byte-level in a non-sequential fashion through the simple task of auto-encoding. We show that non-sequential text generation from a fixed-length representation is not only possible, but also achieved much better auto-encoding results than recurrent networks. The proposed model is a multi-stage deep convolutional encoder-decoder framework using residual connections, containing up to 160 parameterized layers. Each encoder or decoder contains a shared group of modules that consists of either pooling or upsampling layers, making the network recursive in terms of abstraction levels in representation. Results for 6 large-scale paragraph datasets are reported, in 3 languages including Arabic, Chinese and English. Analyses are conducted to study several properties of the proposed model.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-06T06:47:09Z</published>
+    <arxiv:comment>Rejected from ICLR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiang Zhang</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11248v3</id>
+    <title>A Closer Look at Spatiotemporal Convolutions for Action Recognition</title>
+    <updated>2018-04-12T01:07:30Z</updated>
+    <link href="https://arxiv.org/abs/1711.11248v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.11248v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we discuss several forms of spatiotemporal convolutions for video analysis and study their effects on action recognition. Our motivation stems from the observation that 2D CNNs applied to individual frames of the video have remained solid performers in action recognition. In this work we empirically demonstrate the accuracy advantages of 3D CNNs over 2D CNNs within the framework of residual learning. Furthermore, we show that factorizing the 3D convolutional filters into separate spatial and temporal components yields significantly advantages in accuracy. Our empirical study leads to the design of a new spatiotemporal convolutional block "R(2+1)D" which gives rise to CNNs that achieve results comparable or superior to the state-of-the-art on Sports-1M, Kinetics, UCF101 and HMDB51.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T06:28:20Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Du Tran</name>
+    </author>
+    <author>
+      <name>Heng Wang</name>
+    </author>
+    <author>
+      <name>Lorenzo Torresani</name>
+    </author>
+    <author>
+      <name>Jamie Ray</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Manohar Paluri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.04994v3</id>
+    <title>Prediction Under Uncertainty with Error-Encoding Networks</title>
+    <updated>2017-11-30T23:11:58Z</updated>
+    <link href="https://arxiv.org/abs/1711.04994v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.04994v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we introduce a new framework for performing temporal predictions in the presence of uncertainty. It is based on a simple idea of disentangling components of the future state which are predictable from those which are inherently unpredictable, and encoding the unpredictable components into a low-dimensional latent variable which is fed into a forward model. Our method uses a supervised training objective which is fast and easy to train. We evaluate it in the context of video prediction on multiple datasets and show that it is able to consistently generate diverse predictions without the need for alternating minimization over a latent space or adversarial training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-14T08:32:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mikael Henaff</name>
+    </author>
+    <author>
+      <name>Junbo Zhao</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.01062v2</id>
+    <title>A hierarchical loss and its problems when classifying non-hierarchically</title>
+    <updated>2019-12-09T20:38:32Z</updated>
+    <link href="https://arxiv.org/abs/1709.01062v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.01062v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Failing to distinguish between a sheepdog and a skyscraper should be worse and penalized more than failing to distinguish between a sheepdog and a poodle; after all, sheepdogs and poodles are both breeds of dogs. However, existing metrics of failure (so-called "loss" or "win") used in textual or visual classification/recognition via neural networks seldom leverage a-priori information, such as a sheepdog being more similar to a poodle than to a skyscraper. We define a metric that, inter alia, can penalize failure to distinguish between a sheepdog and a skyscraper more than failure to distinguish between a sheepdog and a poodle. Unlike previously employed possibilities, this metric is based on an ultrametric tree associated with any given tree organization into a semantically meaningful hierarchy of a classifier's classes. An ultrametric tree is a tree with a so-called ultrametric distance metric such that all leaves are at the same distance from the root. Unfortunately, extensive numerical experiments indicate that the standard practice of training neural networks via stochastic gradient descent with random starting points often drives down the hierarchical loss nearly as much when minimizing the standard cross-entropy loss as when trying to minimize the hierarchical loss directly. Thus, this hierarchical loss is unreliable as an objective for plain, randomly started stochastic gradient descent to minimize; the main value of the hierarchical loss may be merely as a meaningful metric of success of a classifier.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-01T23:46:59Z</published>
+    <arxiv:comment>19 pages, 4 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>PLOS ONE, 14 (12): 1-17, 2019</arxiv:journal_ref>
+    <author>
+      <name>Cinna Wu</name>
+    </author>
+    <author>
+      <name>Mark Tygert</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.02657v2</id>
+    <title>Which Encoding is the Best for Text Classification in Chinese, English, Japanese and Korean?</title>
+    <updated>2017-08-17T00:34:08Z</updated>
+    <link href="https://arxiv.org/abs/1708.02657v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.02657v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article offers an empirical study on the different ways of encoding Chinese, Japanese, Korean (CJK) and English languages for text classification. Different encoding levels are studied, including UTF-8 bytes, characters, words, romanized characters and romanized words. For all encoding levels, whenever applicable, we provide comparisons with linear models, fastText and convolutional networks. For convolutional networks, we compare between encoding mechanisms using character glyph images, one-hot (or one-of-n) encoding, and embedding. In total there are 473 models, using 14 large-scale text classification datasets in 4 languages including Chinese, English, Japanese and Korean. Some conclusions from these results include that byte-level one-hot encoding based on UTF-8 consistently produces competitive results for convolutional networks, that word-level n-grams linear models are competitive even without perfect word segmentation, and that fastText provides the best result using character-level n-gram encoding but can overfit when the features are overly rich.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-08T21:24:44Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiang Zhang</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.04223v3</id>
+    <title>Adversarially Regularized Autoencoders</title>
+    <updated>2018-06-29T00:07:16Z</updated>
+    <link href="https://arxiv.org/abs/1706.04223v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.04223v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep latent variable models, trained using variational autoencoders or generative adversarial networks, are now a key technique for representation learning of continuous structures. However, applying similar methods to discrete structures, such as text sequences or discretized images, has proven to be more challenging. In this work, we propose a flexible method for training deep latent variable models of discrete structures. Our approach is based on the recently-proposed Wasserstein autoencoder (WAE) which formalizes the adversarial autoencoder (AAE) as an optimal transport problem. We first extend this framework to model discrete sequences, and then further explore different learned priors targeting a controllable representation. This adversarially regularized autoencoder (ARAE) allows us to generate natural textual outputs as well as perform manipulations in the latent space to induce change in the output space. Finally we show that the latent representation can be trained to perform unaligned textual style transfer, giving improvements both in automatic/human evaluation compared to existing methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-13T19:00:53Z</published>
+    <arxiv:comment>ICML 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jake Zhao</name>
+      <arxiv:affiliation>Junbo</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yoon Kim</name>
+    </author>
+    <author>
+      <name>Kelly Zhang</name>
+    </author>
+    <author>
+      <name>Alexander M. Rush</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07177v2</id>
+    <title>Model-Based Planning with Discrete and Continuous Actions</title>
+    <updated>2018-04-04T06:34:26Z</updated>
+    <link href="https://arxiv.org/abs/1705.07177v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07177v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Action planning using learned and differentiable forward models of the world is a general approach which has a number of desirable properties, including improved sample complexity over model-free RL methods, reuse of learned models across different tasks, and the ability to perform efficient gradient-based optimization in continuous action spaces. However, this approach does not apply straightforwardly when the action space is discrete. In this work, we show that it is in fact possible to effectively perform planning via backprop in discrete action spaces, using a simple paramaterization of the actions vectors on the simplex combined with input noise when training the forward model. Our experiments show that this approach can match or outperform model-free RL and discrete planning methods on gridworld navigation tasks in terms of performance and/or planning time while using limited environment interactions, and can additionally be used to perform model-based control in a challenging new task where the action space combines discrete and continuous actions. We furthermore propose a policy distillation approach which yields a fast policy network which can be used at inference time, removing the need for an iterative planning procedure.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-19T20:38:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mikael Henaff</name>
+    </author>
+    <author>
+      <name>William F. Whitney</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.07684v3</id>
+    <title>Predicting Deeper into the Future of Semantic Segmentation</title>
+    <updated>2017-08-08T10:02:36Z</updated>
+    <link href="https://arxiv.org/abs/1703.07684v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.07684v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to predict and therefore to anticipate the future is an important attribute of intelligence. It is also of utmost importance in real-time systems, e.g. in robotics or autonomous driving, which depend on visual scene understanding for decision making. While prediction of the raw RGB pixel values in future video frames has been studied in previous work, here we introduce the novel task of predicting semantic segmentations of future frames. Given a sequence of video frames, our goal is to predict segmentation maps of not yet observed video frames that lie up to a second or further in the future. We develop an autoregressive convolutional neural network that learns to iteratively generate multiple frames. Our results on the Cityscapes dataset show that directly predicting future segmentations is substantially better than predicting and then segmenting future RGB frames. Prediction results up to half a second in the future are visually convincing and are much more accurate than those of a baseline based on warping semantic segmentations using optical flow.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-22T14:45:15Z</published>
+    <arxiv:comment>Accepted to ICCV 2017. Supplementary material available on the authors' webpages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pauline Luc</name>
+    </author>
+    <author>
+      <name>Natalia Neverova</name>
+    </author>
+    <author>
+      <name>Camille Couprie</name>
+    </author>
+    <author>
+      <name>Jakob Verbeek</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.05231v3</id>
+    <title>Tunable Efficient Unitary Neural Networks (EUNN) and their application to RNNs</title>
+    <updated>2017-04-03T17:13:38Z</updated>
+    <link href="https://arxiv.org/abs/1612.05231v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.05231v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using unitary (instead of general) matrices in artificial neural networks (ANNs) is a promising way to solve the gradient explosion/vanishing problem, as well as to enable ANNs to learn long-term correlations in the data. This approach appears particularly promising for Recurrent Neural Networks (RNNs). In this work, we present a new architecture for implementing an Efficient Unitary Neural Network (EUNNs); its main advantages can be summarized as follows. Firstly, the representation capacity of the unitary space in an EUNN is fully tunable, ranging from a subspace of SU(N) to the entire unitary space. Secondly, the computational complexity for training an EUNN is merely $\mathcal{O}(1)$ per parameter. Finally, we test the performance of EUNNs on the standard copying task, the pixel-permuted MNIST digit recognition benchmark as well as the Speech Prediction Test (TIMIT). We find that our architecture significantly outperforms both other state-of-the-art unitary RNNs and the LSTM architecture, in terms of the final performance and/or the wall-clock training speed. EUNNs are thus promising alternatives to RNNs and LSTMs for a wide variety of applications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-15T20:39:15Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Li Jing</name>
+    </author>
+    <author>
+      <name>Yichen Shen</name>
+    </author>
+    <author>
+      <name>Tena Dubček</name>
+    </author>
+    <author>
+      <name>John Peurifoy</name>
+    </author>
+    <author>
+      <name>Scott Skirlo</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Max Tegmark</name>
+    </author>
+    <author>
+      <name>Marin Soljačić</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03969v3</id>
+    <title>Tracking the World State with Recurrent Entity Networks</title>
+    <updated>2017-05-10T16:52:56Z</updated>
+    <link href="https://arxiv.org/abs/1612.03969v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03969v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new model, the Recurrent Entity Network (EntNet). It is equipped with a dynamic long-term memory which allows it to maintain and update a representation of the state of the world as it receives new data. For language understanding tasks, it can reason on-the-fly as it reads text, not just when it is required to answer a question or respond as is the case for a Memory Network (Sukhbaatar et al., 2015). Like a Neural Turing Machine or Differentiable Neural Computer (Graves et al., 2014; 2016) it maintains a fixed size memory and can learn to perform location and content-based read and write operations. However, unlike those models it has a simple parallel architecture in which several memory locations can be updated simultaneously. The EntNet sets a new state-of-the-art on the bAbI tasks, and is the first method to solve all the tasks in the 10k training examples setting. We also demonstrate that it can solve a reasoning task which requires a large number of supporting facts, which other methods are not able to solve, and can generalize past its training horizon. It can also be practically used on large scale datasets such as Children's Book Test, where it obtains competitive performance, reading the story in a single pass.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-12T23:29:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICLR 2017</arxiv:journal_ref>
+    <author>
+      <name>Mikael Henaff</name>
+    </author>
+    <author>
+      <name>Jason Weston</name>
+    </author>
+    <author>
+      <name>Arthur Szlam</name>
+    </author>
+    <author>
+      <name>Antoine Bordes</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08097v2</id>
+    <title>Geometric deep learning: going beyond Euclidean data</title>
+    <updated>2017-05-03T12:37:19Z</updated>
+    <link href="https://arxiv.org/abs/1611.08097v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08097v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many scientific fields study data with an underlying structure that is a non-Euclidean space. Some examples include social networks in computational social sciences, sensor networks in communications, functional networks in brain imaging, regulatory networks in genetics, and meshed surfaces in computer graphics. In many applications, such geometric data are large and complex (in the case of social networks, on the scale of billions), and are natural targets for machine learning techniques. In particular, we would like to use deep neural networks, which have recently proven to be powerful tools for a broad range of problems from computer vision, natural language processing, and audio analysis. However, these tools have been most successful on data with an underlying Euclidean or grid-like structure, and in cases where the invariances of these structures are built into networks used to model them. Geometric deep learning is an umbrella term for emerging techniques attempting to generalize (structured) deep neural models to non-Euclidean domains such as graphs and manifolds. The purpose of this paper is to overview different examples of geometric deep learning problems and present available solutions, key difficulties, applications, and future research directions in this nascent field.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-24T08:45:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michael M. Bronstein</name>
+    </author>
+    <author>
+      <name>Joan Bruna</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Arthur Szlam</name>
+    </author>
+    <author>
+      <name>Pierre Vandergheynst</name>
+    </author>
+    <arxiv:doi>10.1109/MSP.2017.2693418</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/MSP.2017.2693418" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.07476v2</id>
+    <title>Eigenvalues of the Hessian in Deep Learning: Singularity and Beyond</title>
+    <updated>2017-10-05T13:28:50Z</updated>
+    <link href="https://arxiv.org/abs/1611.07476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.07476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We look at the eigenvalues of the Hessian of a loss function before and after training. The eigenvalue distribution is seen to be composed of two parts, the bulk which is concentrated around zero, and the edges which are scattered away from zero. We present empirical evidence for the bulk indicating how over-parametrized the system is, and for the edges that depend on the input data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-22T19:24:49Z</published>
+    <arxiv:comment>ICLR submission, 2016 - updated to match the openreview.net version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Levent Sagun</name>
+    </author>
+    <author>
+      <name>Leon Bottou</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.03383v1</id>
+    <title>Disentangling factors of variation in deep representations using adversarial training</title>
+    <updated>2016-11-10T16:24:16Z</updated>
+    <link href="https://arxiv.org/abs/1611.03383v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.03383v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a conditional generative model for learning to disentangle the hidden factors of variation within a set of labeled observations, and separate them into complementary codes. One code summarizes the specified factors of variation associated with the labels. The other summarizes the remaining unspecified variability. During training, the only available source of supervision comes from our ability to distinguish among different observations belonging to the same class. Examples of such observations include images of a set of labeled objects captured at different viewpoints, or recordings of set of speakers dictating multiple phrases. In both instances, the intra-class diversity is the source of the unspecified factors of variation: each object is observed at multiple viewpoints, and each speaker dictates multiple phrases. Learning to disentangle the specified factors from the unspecified ones becomes easier when strong supervision is possible. Suppose that during training, we have access to pairs of images, where each pair shows two different objects captured from the same viewpoint. This source of alignment allows us to solve our task using existing methods. However, labels for the unspecified factors are usually unavailable in realistic scenarios where data acquisition is not strictly controlled. We address the problem of disentanglement in this more general setting by combining deep convolutional autoencoders with a form of adversarial training. Both factors of variation are implicitly captured in the organization of the learned embedding space, and can be used for solving single-image analogies. Experimental results on synthetic and real datasets show that the proposed method is capable of generalizing to unseen classes and intra-class variabilities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-10T16:24:16Z</published>
+    <arxiv:comment>Conference paper in NIPS 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Mathieu</name>
+    </author>
+    <author>
+      <name>Junbo Zhao</name>
+    </author>
+    <author>
+      <name>Pablo Sprechmann</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.01838v5</id>
+    <title>Entropy-SGD: Biasing Gradient Descent Into Wide Valleys</title>
+    <updated>2017-04-21T07:16:30Z</updated>
+    <link href="https://arxiv.org/abs/1611.01838v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.01838v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a new optimization algorithm called Entropy-SGD for training deep neural networks that is motivated by the local geometry of the energy landscape. Local extrema with low generalization error have a large proportion of almost-zero eigenvalues in the Hessian with very few positive or negative eigenvalues. We leverage upon this observation to construct a local-entropy-based objective function that favors well-generalizable solutions lying in large flat regions of the energy landscape, while avoiding poorly-generalizable solutions located in the sharp valleys. Conceptually, our algorithm resembles two nested loops of SGD where we use Langevin dynamics in the inner loop to compute the gradient of the local entropy before each update of the weights. We show that the new objective has a smoother energy landscape and show improved generalization over SGD using uniform stability, under certain assumptions. Our experiments on convolutional and recurrent networks demonstrate that Entropy-SGD compares favorably to state-of-the-art techniques in terms of generalization error and training time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-06T20:22:49Z</published>
+    <arxiv:comment>ICLR '17</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pratik Chaudhari</name>
+    </author>
+    <author>
+      <name>Anna Choromanska</name>
+    </author>
+    <author>
+      <name>Stefano Soatto</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Carlo Baldassi</name>
+    </author>
+    <author>
+      <name>Christian Borgs</name>
+    </author>
+    <author>
+      <name>Jennifer Chayes</name>
+    </author>
+    <author>
+      <name>Levent Sagun</name>
+    </author>
+    <author>
+      <name>Riccardo Zecchina</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.03126v4</id>
+    <title>Energy-based Generative Adversarial Network</title>
+    <updated>2017-03-06T22:52:53Z</updated>
+    <link href="https://arxiv.org/abs/1609.03126v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.03126v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the "Energy-based Generative Adversarial Network" model (EBGAN) which views the discriminator as an energy function that attributes low energies to the regions near the data manifold and higher energies to other regions. Similar to the probabilistic GANs, a generator is seen as being trained to produce contrastive samples with minimal energies, while the discriminator is trained to assign high energies to these generated samples. Viewing the discriminator as an energy function allows to use a wide variety of architectures and loss functionals in addition to the usual binary classifier with logistic output. Among them, we show one instantiation of EBGAN framework as using an auto-encoder architecture, with the energy being the reconstruction error, in place of the discriminator. We show that this form of EBGAN exhibits more stable behavior than regular GANs during training. We also show that a single-scale architecture can be trained to generate high-resolution images.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-11T07:11:13Z</published>
+    <arxiv:comment>Submitted to ICLR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Junbo Zhao</name>
+    </author>
+    <author>
+      <name>Michael Mathieu</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.08057v1</id>
+    <title>Fast Incremental Learning for Off-Road Robot Navigation</title>
+    <updated>2016-06-26T17:31:02Z</updated>
+    <link href="https://arxiv.org/abs/1606.08057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.08057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A promising approach to autonomous driving is machine learning. In such systems, training datasets are created that capture the sensory input to a vehicle as well as the desired response. A disadvantage of using a learned navigation system is that the learning process itself may require a huge number of training examples and a large amount of computing. To avoid the need to collect a large training set of driving examples, we describe a system that takes advantage of the huge number of training examples provided by ImageNet, but is able to adapt quickly using a small training set for the specific driving environment.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-26T17:31:02Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Artem Provodin</name>
+    </author>
+    <author>
+      <name>Liila Torabi</name>
+    </author>
+    <author>
+      <name>Beat Flepp</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Michael Sergio</name>
+    </author>
+    <author>
+      <name>L. D. Jackel</name>
+    </author>
+    <author>
+      <name>Urs Muller</name>
+    </author>
+    <author>
+      <name>Jure Zbontar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.01781v2</id>
+    <title>Very Deep Convolutional Networks for Text Classification</title>
+    <updated>2017-01-27T12:49:11Z</updated>
+    <link href="https://arxiv.org/abs/1606.01781v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.01781v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dominant approach for many NLP tasks are recurrent neural networks, in particular LSTMs, and convolutional neural networks. However, these architectures are rather shallow in comparison to the deep convolutional networks which have pushed the state-of-the-art in computer vision. We present a new architecture (VDCNN) for text processing which operates directly at the character level and uses only small convolutions and pooling operations. We are able to show that the performance of this model increases with depth: using up to 29 convolutional layers, we report improvements over the state-of-the-art on several public text classification tasks. To the best of our knowledge, this is the first time that very deep convolutional nets have been applied to text processing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-06T15:14:50Z</published>
+    <arxiv:comment>10 pages, EACL 2017, camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Alexis Conneau</name>
+    </author>
+    <author>
+      <name>Holger Schwenk</name>
+    </author>
+    <author>
+      <name>Loïc Barrault</name>
+    </author>
+    <author>
+      <name>Yann Lecun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.01535v1</id>
+    <title>What is the Best Feature Learning Procedure in Hierarchical Recognition Architectures?</title>
+    <updated>2016-06-05T17:31:39Z</updated>
+    <link href="https://arxiv.org/abs/1606.01535v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.01535v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>(This paper was written in November 2011 and never published. It is posted on arXiv.org in its original form in June 2016). Many recent object recognition systems have proposed using a two phase training procedure to learn sparse convolutional feature hierarchies: unsupervised pre-training followed by supervised fine-tuning. Recent results suggest that these methods provide little improvement over purely supervised systems when the appropriate nonlinearities are included. This paper presents an empirical exploration of the space of learning procedures for sparse convolutional networks to assess which method produces the best performance. In our study, we introduce an augmentation of the Predictive Sparse Decomposition method that includes a discriminative term (DPSD). We also introduce a new single phase supervised learning procedure that places an L1 penalty on the output state of each layer of the network. This forces the network to produce sparse codes without the expensive pre-training phase. Using DPSD with a new, complex predictor that incorporates lateral inhibition, combined with multi-scale feature pooling, and supervised refinement, the system achieves a 70.6\% recognition rate on Caltech-101. With the addition of convolutional training, a 77\% recognition was obtained on the CIfAR-10 dataset.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-05T17:31:39Z</published>
+    <arxiv:comment>17 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kevin Jarrett</name>
+    </author>
+    <author>
+      <name>Koray Kvukcuoglu</name>
+    </author>
+    <author>
+      <name>Karol Gregor</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00983v2</id>
+    <title>Phase 3: DCL System Using Deep Learning Approaches for Land-based or Ship-based Real-Time Recognition and Localization of Marine Mammals - Bioacoustic Applicaitons</title>
+    <updated>2016-05-05T18:29:19Z</updated>
+    <link href="https://arxiv.org/abs/1605.00983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Goals of this research phase is to investigate advanced detection and classification pardims useful for data-mining passive large passive acoustic archives. Technical objectives are to develop and refine a High Performance Computing, Acoustic Data Accelerator (HPC-ADA) along with MATLAB based software based on time series acoustic signal Detection cLassification using Machine learning Algorithms, called DeLMA. Data scientists and biologists integrate to use the HPC-ADA and DeLMA technologies to explore data using newly developed techniques aimed at inspection of data extracted at large spatial and temporal scales.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-03T16:54:46Z</published>
+    <arxiv:comment>National Oceanic Partnership Program (NOPP) sponsored by ONR and NFWF</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Peter J. Dugan</name>
+    </author>
+    <author>
+      <name>Christopher W. Clark</name>
+    </author>
+    <author>
+      <name>Yann André LeCun</name>
+    </author>
+    <author>
+      <name>Sofie M. Van Parijs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00982v2</id>
+    <title>Phase 4: DCL System Using Deep Learning Approaches for Land-Based or Ship-Based Real-Time Recognition and Localization of Marine Mammals - Distributed Processing and Big Data Applications</title>
+    <updated>2016-05-05T18:35:16Z</updated>
+    <link href="https://arxiv.org/abs/1605.00982v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00982v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While the animal bioacoustics community at large is collecting huge amounts of acoustic data at an unprecedented pace, processing these data is problematic. Currently in bioacoustics, there is no effective way to achieve high performance computing using commericial off the shelf (COTS) or government off the shelf (GOTS) tools. Although several advances have been made in the open source and commercial software community, these offerings either support specific applications that do not integrate well with data formats in bioacoustics or they are too general. Furthermore, complex algorithms that use deep learning strategies require special considerations, such as very large libraiers of exemplars (whale sounds) readily available for algorithm training and testing. Detection-classification for passive acoustics is a data-mining strategy and our goals are aligned with best practices that appeal to the general data mining and machine learning communities where the problem of processing large data is common. Therefore, the objective of this work is to advance the state-of-the art for data-mining large passive acoustic datasets as they pertain to bioacoustics. With this basic deficiency recognized at the forefront, portions of the grant were dedicated to fostering deep-learning by way of international competitions (kaggle.com) meant to attract deep-learning solutions. The focus of this early work was targeted to make significant progress in addressing big data systems and advanced algorithms over the duration of the grant from 2012 to 2015. This early work provided simulataneous advances in systems-algorithms research while supporting various collaborations and projects.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-03T16:54:07Z</published>
+    <arxiv:comment>National Oceanic Partnership Program (NOPP) sponsored by ONR and NFWF</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Peter J. Dugan</name>
+    </author>
+    <author>
+      <name>Christopher W. Clark</name>
+    </author>
+    <author>
+      <name>Yann André LeCun</name>
+    </author>
+    <author>
+      <name>Sofie M. Van Parijs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00972v2</id>
+    <title>Phase 2: DCL System Using Deep Learning Approaches for Land-based or Ship-based Real-Time Recognition and Localization of Marine Mammals - Machine Learning Detection Algorithms</title>
+    <updated>2016-05-05T18:28:21Z</updated>
+    <link href="https://arxiv.org/abs/1605.00972v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00972v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Overarching goals for this work aim to advance the state of the art for detection, classification and localization (DCL) in the field of bioacoustics. This goal is primarily achieved by building a generic framework for detection-classification (DC) using a fast, efficient and scalable architecture, demonstrating the capabilities of this system using on a variety of low-frequency mid-frequency cetacean sounds. Two primary goals are to develop transferable technologies for detection and classification in, one: the area of advanced algorithms, such as deep learning and other methods; and two: advanced systems, capable of real-time and archival processing. For each key area, we will focus on producing publications from this work and providing tools and software to the community where/when possible. Currently massive amounts of acoustic data are being collected by various institutions, corporations and national defense agencies. The long-term goal is to provide technical capability to analyze the data using automatic algorithms for (DC) based on machine intelligence. The goal of the automation is to provide effective and efficient mechanisms by which to process large acoustic datasets for understanding the bioacoustic behaviors of marine mammals. This capability will provide insights into the potential ecological impacts and influences of anthropogenic ocean sounds. This work focuses on building technologies using a maturity model based on DARPA 6.1 and 6.2 processes, for basic and applied research, respectively.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-03T16:36:30Z</published>
+    <arxiv:comment>National Oceanic Partnership Program (NOPP) sponsored by ONR and NFWF: N000141210585</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Peter J. Dugan</name>
+    </author>
+    <author>
+      <name>Christopher W. Clark</name>
+    </author>
+    <author>
+      <name>Yann André LeCun</name>
+    </author>
+    <author>
+      <name>Sofie M. Van Parijs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00971v2</id>
+    <title>Phase 1: DCL System Research Using Advanced Approaches for Land-based or Ship-based Real-Time Recognition and Localization of Marine Mammals - HPC System Implementation</title>
+    <updated>2016-05-05T18:27:35Z</updated>
+    <link href="https://arxiv.org/abs/1605.00971v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00971v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We aim to investigate advancing the state of the art of detection, classification and localization (DCL) in the field of bioacoustics. The two primary goals are to develop transferable technologies for detection and classification in: (1) the area of advanced algorithms, such as deep learning and other methods; and (2) advanced systems, capable of real-time and archival and processing. This project will focus on long-term, continuous datasets to provide automatic recognition, minimizing human time to annotate the signals. Effort will begin by focusing on several years of multi-channel acoustic data collected in the Stellwagen Bank National Marine Sanctuary (SBNMS) between 2006 and 2010. Our efforts will incorporate existing technologies in the bioacoustics signal processing community, advanced high performance computing (HPC) systems, and new approaches aimed at automatically detecting-classifying and measuring features for species-specific marine mammal sounds within passive acoustic data.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-03T16:35:35Z</published>
+    <arxiv:comment>Year 1 National Oceanic Partnership Program Report, sponsored ONR, NFWF. N000141210585</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Peter J. Dugan</name>
+    </author>
+    <author>
+      <name>Christopher W. Clark</name>
+    </author>
+    <author>
+      <name>Yann André LeCun</name>
+    </author>
+    <author>
+      <name>Sofie M. Van Parijs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.06662v2</id>
+    <title>Recurrent Orthogonal Networks and Long-Memory Tasks</title>
+    <updated>2017-03-15T17:45:08Z</updated>
+    <link href="https://arxiv.org/abs/1602.06662v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.06662v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although RNNs have been shown to be powerful tools for processing sequential data, finding architectures or optimization strategies that allow them to model very long term dependencies is still an active area of research. In this work, we carefully analyze two synthetic datasets originally outlined in (Hochreiter and Schmidhuber, 1997) which are used to evaluate the ability of RNNs to store information over many time steps. We explicitly construct RNN solutions to these problems, and using these constructions, illuminate both the problems themselves and the way in which RNNs store different types of information in their hidden states. These constructions furthermore explain the success of recent methods that specify unitary initializations or constraints on the transition matrices.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-22T06:51:25Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Mikael Henaff</name>
+    </author>
+    <author>
+      <name>Arthur Szlam</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06444v3</id>
+    <title>Universal halting times in optimization and machine learning</title>
+    <updated>2017-02-21T02:49:58Z</updated>
+    <link href="https://arxiv.org/abs/1511.06444v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06444v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The authors present empirical distributions for the halting time (measured by the number of iterations to reach a given accuracy) of optimization algorithms applied to two random systems: spin glasses and deep learning. Given an algorithm, which we take to be both the optimization routine and the form of the random landscape, the fluctuations of the halting time follow a distribution that, after centering and scaling, remains unchanged even when the distribution on the landscape is changed. We observe two qualitative classes: A Gumbel-like distribution that appears in Google searches, human decision times, the QR eigenvalue algorithm and spin glasses, and a Gaussian-like distribution that appears in conjugate gradient method, deep network with MNIST input data and deep network with random input data. This empirical evidence suggests presence of a class of distributions for which the halting time is independent of the underlying distribution under some conditions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-19T23:14:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Quart. Appl. Math. 76 (2018), 289-301</arxiv:journal_ref>
+    <author>
+      <name>Levent Sagun</name>
+    </author>
+    <author>
+      <name>Thomas Trogdon</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <arxiv:doi>10.1090/qam/1483</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1090/qam/1483" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05666v4</id>
+    <title>Super-Resolution with Deep Convolutional Sufficient Statistics</title>
+    <updated>2016-03-01T18:26:13Z</updated>
+    <link href="https://arxiv.org/abs/1511.05666v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05666v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inverse problems in image and audio, and super-resolution in particular, can be seen as high-dimensional structured prediction problems, where the goal is to characterize the conditional distribution of a high-resolution output given its low-resolution corrupted observation. When the scaling ratio is small, point estimates achieve impressive performance, but soon they suffer from the regression-to-the-mean problem, result of their inability to capture the multi-modality of this conditional distribution. Modeling high-dimensional image and audio distributions is a hard task, requiring both the ability to model complex geometrical structures and textured regions. In this paper, we propose to use as conditional model a Gibbs distribution, where its sufficient statistics are given by deep convolutional neural networks. The features computed by the network are stable to local deformation, and have reduced variance when the input is a stationary texture. These properties imply that the resulting sufficient statistics minimize the uncertainty of the target signals given the degraded observations, while being highly informative. The filters of the CNN are initialized by multiscale complex wavelets, and then we propose an algorithm to fine-tune them by estimating the gradient of the conditional log-likelihood, which bears some similarities with Generative Adversarial Networks. We evaluate experimentally the proposed approach in the image super-resolution task, but the approach is general and could be used in other challenging ill-posed problems such as audio bandwidth extension.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-18T06:24:00Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Joan Bruna</name>
+    </author>
+    <author>
+      <name>Pablo Sprechmann</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05440v6</id>
+    <title>Deep multi-scale video prediction beyond mean square error</title>
+    <updated>2016-02-26T22:10:30Z</updated>
+    <link href="https://arxiv.org/abs/1511.05440v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05440v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning to predict future images from a video sequence involves the construction of an internal representation that models the image evolution accurately, and therefore, to some degree, its content and dynamics. This is why pixel-space video prediction may be viewed as a promising avenue for unsupervised feature learning. In addition, while optical flow has been a very studied problem in computer vision for a long time, future frame prediction is rarely approached. Still, many vision applications could benefit from the knowledge of the next frames of videos, that does not require the complexity of tracking every pixel trajectories. In this work, we train a convolutional network to generate future frames given an input sequence. To deal with the inherently blurry predictions obtained from the standard Mean Squared Error (MSE) loss function, we propose three different and complementary feature learning strategies: a multi-scale architecture, an adversarial training method, and an image gradient difference loss function. We compare our predictions to different published results based on recurrent neural networks on the UCF101 dataset</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-17T15:36:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Mathieu</name>
+    </author>
+    <author>
+      <name>Camille Couprie</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05212v5</id>
+    <title>Binary embeddings with structured hashed projections</title>
+    <updated>2016-07-01T16:39:05Z</updated>
+    <link href="https://arxiv.org/abs/1511.05212v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05212v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the hashing mechanism for constructing binary embeddings, that involves pseudo-random projections followed by nonlinear (sign function) mappings. The pseudo-random projection is described by a matrix, where not all entries are independent random variables but instead a fixed "budget of randomness" is distributed across the matrix. Such matrices can be efficiently stored in sub-quadratic or even linear space, provide reduction in randomness usage (i.e. number of required random values), and very often lead to computational speed ups. We prove several theoretical results showing that projections via various structured matrices followed by nonlinear mappings accurately preserve the angular distance between input high-dimensional vectors. To the best of our knowledge, these results are the first that give theoretical ground for the use of general structured matrices in the nonlinear setting. In particular, they generalize previous extensions of the Johnson-Lindenstrauss lemma and prove the plausibility of the approach that was so far only heuristically confirmed for some special structured matrices. Consequently, we show that many structured matrices can be used as an efficient information compression mechanism. Our findings build a better understanding of certain deep architectures, which contain randomly weighted and untrained layers, and yet achieve high performance on different learning tasks. We empirically verify our theoretical findings and show the dependence of learning via structured hashed projections on the performance of neural network as well as nearest neighbor classifier.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-16T23:01:12Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1505.03190</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anna Choromanska</name>
+    </author>
+    <author>
+      <name>Krzysztof Choromanski</name>
+    </author>
+    <author>
+      <name>Mariusz Bojarski</name>
+    </author>
+    <author>
+      <name>Tony Jebara</name>
+    </author>
+    <author>
+      <name>Sanjiv Kumar</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+</feed>

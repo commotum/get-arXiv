@@ -1,0 +1,3767 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4/Tg2lZWEwKa/6wY05pDd61xVtE</id>
+  <title>arXiv Query: search_query=au:"Alec Radford"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T19:16:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Alec+Radford%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21571v2</id>
+    <title>Shaping capabilities with token-level data filtering</title>
+    <updated>2026-01-30T22:44:20Z</updated>
+    <link href="https://arxiv.org/abs/2601.21571v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21571v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current approaches to reducing undesired capabilities in language models are largely post hoc, and can thus be easily bypassed by adversaries. A natural alternative is to shape capabilities during pretraining itself. On the proxy task of removing medical capabilities, we show that the simple intervention of filtering pretraining data is highly effective, robust, and inexpensive at scale. Inspired by work on data attribution, we show that filtering tokens is more effective than filtering documents, achieving the same hit to undesired capabilities at a lower cost to benign ones. Training models spanning two orders of magnitude, we then demonstrate that filtering gets more effective with scale: for our largest models, token filtering leads to a 7000x compute slowdown on the forget domain. We also show that models trained with token filtering can still be aligned on the forget domain. Along the way, we introduce a methodology for labeling tokens with sparse autoencoders and distilling cheap, high-quality classifiers. We also demonstrate that filtering can be robust to noisy labels with sufficient pretraining compute.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T11:34:01Z</published>
+    <arxiv:comment>update figure 2</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Neil Rathi</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21276v1</id>
+    <title>GPT-4o System Card</title>
+    <updated>2024-10-25T17:43:01Z</updated>
+    <link href="https://arxiv.org/abs/2410.21276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GPT-4o is an autoregressive omni model that accepts as input any combination of text, audio, image, and video, and generates any combination of text, audio, and image outputs. It's trained end-to-end across text, vision, and audio, meaning all inputs and outputs are processed by the same neural network. GPT-4o can respond to audio inputs in as little as 232 milliseconds, with an average of 320 milliseconds, which is similar to human response time in conversation. It matches GPT-4 Turbo performance on text in English and code, with significant improvement on text in non-English languages, while also being much faster and 50\% cheaper in the API. GPT-4o is especially better at vision and audio understanding compared to existing models. In line with our commitment to building AI safely and consistent with our voluntary commitments to the White House, we are sharing the GPT-4o System Card, which includes our Preparedness Framework evaluations. In this System Card, we provide a detailed look at GPT-4o's capabilities, limitations, and safety evaluations across multiple categories, focusing on speech-to-speech while also evaluating text and image capabilities, and measures we've implemented to ensure the model is safe and aligned. We also include third-party assessments on dangerous capabilities, as well as discussion of potential societal impacts of GPT-4o's text and vision capabilities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-25T17:43:01Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> OpenAI</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aaron Hurst</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam Lerer</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam P. Goucher</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam Perelman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aidan Clark</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AJ Ostrow</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Akila Welihinda</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alan Hayes</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aleksander Mądry</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Baker-Whitcomb</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Beutel</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Borzunov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Carney</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Chow</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Kirillov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Nichol</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Paino</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Renzin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Tachard Passos</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Kirillov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexi Christakis</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexis Conneau</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ali Kamali</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Allan Jabri</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Allison Moyer</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Allison Tam</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amadou Crookes</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amin Tootoochian</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amin Tootoonchian</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ananya Kumar</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrea Vallone</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrej Karpathy</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Braunstein</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Cann</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Codispoti</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Galu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Kondrich</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Tulloch</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrey Mishchenko</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angela Baek</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angela Jiang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Antoine Pelisse</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Antonia Woodford</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anuj Gosalia</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arka Dhar</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ashley Pantuliano</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Avi Nayak</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Avital Oliver</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Barret Zoph</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Behrooz Ghorbani</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Leimberger</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Rossen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Sokolowsky</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Wang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Benjamin Zweig</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Beth Hoover</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Blake Samic</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bob McGrew</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bobby Spero</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bogo Giertler</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bowen Cheng</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brad Lightcap</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brandon Walkin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brendan Quinn</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brian Guarraci</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brian Hsu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bright Kellogg</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brydon Eastman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Camillo Lugaresi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Carroll Wainwright</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cary Bassin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cary Hudson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Casey Chu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chad Nelson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chak Li</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chan Jun Shern</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Channing Conger</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Charlotte Barette</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chelsea Voss</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chen Ding</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cheng Lu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chong Zhang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Beaumont</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Hallacy</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Koch</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Gibson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christina Kim</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christine Choi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christine McLeavey</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christopher Hesse</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Claudia Fischer</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Clemens Winter</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Coley Czarnecki</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Colin Jarvis</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Colin Wei</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Constantin Koumouzelis</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dane Sherburn</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Kappler</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Levin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Levy</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Carr</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Farhi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Mely</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Robinson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Sasaki</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Denny Jin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dev Valladares</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dimitris Tsipras</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Doug Li</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Duc Phong Nguyen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Duncan Findlay</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Edede Oiwoh</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Edmund Wong</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ehsan Asdar</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elizabeth Proehl</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elizabeth Yang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Antonow</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Kramer</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Peterson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Sigler</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Wallace</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eugene Brevdo</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Evan Mays</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Farzad Khorasani</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Felipe Petroski Such</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Filippo Raso</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francis Zhang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fred von Lohmann</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Freddie Sulit</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gabriel Goh</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gene Oden</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Geoff Salmon</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Giulio Starace</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Greg Brockman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hadi Salman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haiming Bao</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haitang Hu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hannah Wong</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Heather Schmidt</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Heather Whitney</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Heewoo Jun</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hendrik Kirchner</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Henrique Ponde de Oliveira Pinto</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hongyu Ren</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Huiwen Chang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hyung Won Chung</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian Kivlichan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian O'Connell</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian O'Connell</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian Osband</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian Silber</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian Sohl</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ibrahim Okuyucu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ikai Lan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ilya Kostrikov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ingmar Kanitscheider</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ishaan Gulrajani</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacob Coxon</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacob Menick</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jakub Pachocki</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Aung</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Betker</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Crooks</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Lennon</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jamie Kiros</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jane Park</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Kwon</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Phang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Teplitz</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Wei</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Wolfe</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jay Chen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeff Harris</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jenia Varavva</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jessica Gan Lee</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jessica Shieh</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ji Lin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiahui Yu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiayi Weng</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jie Tang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jieqi Yu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joanne Jang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joaquin Quinonero Candela</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joe Beutler</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joe Landers</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joel Parish</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Johannes Heidecke</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John Schulman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan Lachman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan McKay</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan Uesato</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan Ward</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joost Huizinga</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jordan Sitkin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jos Kraaijeveld</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Josh Gross</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Josh Kaplan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Josh Snyder</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joshua Achiam</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joy Jiao</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joyce Lee</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Juntang Zhuang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Justyn Harriman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kai Fricke</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kai Hayashi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karan Singhal</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katy Shi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kavin Karthik</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kayla Wood</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kendra Rimbach</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kenny Hsu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kenny Nguyen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Keren Gu-Lemberg</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kevin Button</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kevin Liu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kiel Howe</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Krithika Muthukumar</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kyle Luther</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lama Ahmad</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Larry Kai</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lauren Itow</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lauren Workman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Leher Pathak</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Leo Chen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Li Jing</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lia Guy</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Liam Fedus</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Liang Zhou</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lien Mamitsuka</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lilian Weng</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lindsay McCallum</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lindsey Held</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Long Ouyang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Louis Feuvrier</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lu Zhang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lukas Kondraciuk</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lukasz Kaiser</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luke Hewitt</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luke Metz</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lyric Doshi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mada Aflak</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maddie Simens</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Madelaine Boyd</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Madeleine Thompson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marat Dukhan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mark Gray</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mark Hudnall</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marvin Zhang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marwan Aljubeh</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mateusz Litwin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matthew Zeng</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Max Johnson</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maya Shetty</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mayank Gupta</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Meghan Shah</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mehmet Yatbaz</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Meng Jia Yang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mengchao Zhong</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mia Glaese</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mianna Chen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Janner</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Lampe</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Petrov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Wu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michele Wang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michelle Fradin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michelle Pokrass</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Miguel Castro</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Miguel Oom Temudo de Castro</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mikhail Pavlov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Miles Wang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Minal Khan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mira Murati</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mo Bavarian</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Molly Lin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Murat Yesildal</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nacho Soto</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Natalia Gimelshein</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Natalie Cone</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Natalie Staudacher</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Natalie Summers</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Natan LaFontaine</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Neil Chowdhury</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nick Stathas</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nick Turley</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nik Tezak</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Niko Felix</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nithanth Kudige</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nitish Keskar</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Noah Deutsch</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Noel Bundick</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nora Puckett</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ofir Nachum</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ola Okelola</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Oleg Boiko</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Oleg Murk</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Oliver Jaffe</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Olivia Watkins</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Olivier Godement</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Owen Campbell-Moore</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Patrick Chao</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul McMillan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pavel Belov</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peng Su</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Bak</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Bakkum</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Deng</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Dolan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Hoeschele</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Welinder</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Phil Tillet</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Philip Pronin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Philippe Tillet</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Prafulla Dhariwal</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qiming Yuan</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rachel Dias</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rachel Lim</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rahul Arora</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rajan Troll</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Randall Lin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rapha Gontijo Lopes</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raul Puri</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Reah Miyara</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Reimar Leike</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Renaud Gaubert</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Reza Zamani</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ricky Wang</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rob Donnelly</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rob Honsby</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rocky Smith</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rohan Sahai</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rohit Ramchandani</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Romain Huet</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rory Carmichael</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rowan Zellers</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Roy Chen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruby Chen</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruslan Nigmatullin</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Cheu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Saachi Jain</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Altman</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Schoenholz</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Toizer</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samuel Miserendino</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sandhini Agarwal</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sara Culver</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott Ethersmith</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sean Grove</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sean Metzger</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shamez Hermani</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shantanu Jain</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shengjia Zhao</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sherwin Wu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shino Jomoto</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shirong Wu</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Shuaiqi</name>
+      <arxiv:affiliation>Tony</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Xia</name>
+    </author>
+    <author>
+      <name>Sonia Phene</name>
+    </author>
+    <author>
+      <name>Spencer Papay</name>
+    </author>
+    <author>
+      <name>Srinivas Narayanan</name>
+    </author>
+    <author>
+      <name>Steve Coffey</name>
+    </author>
+    <author>
+      <name>Steve Lee</name>
+    </author>
+    <author>
+      <name>Stewart Hall</name>
+    </author>
+    <author>
+      <name>Suchir Balaji</name>
+    </author>
+    <author>
+      <name>Tal Broda</name>
+    </author>
+    <author>
+      <name>Tal Stramer</name>
+    </author>
+    <author>
+      <name>Tao Xu</name>
+    </author>
+    <author>
+      <name>Tarun Gogineni</name>
+    </author>
+    <author>
+      <name>Taya Christianson</name>
+    </author>
+    <author>
+      <name>Ted Sanders</name>
+    </author>
+    <author>
+      <name>Tejal Patwardhan</name>
+    </author>
+    <author>
+      <name>Thomas Cunninghman</name>
+    </author>
+    <author>
+      <name>Thomas Degry</name>
+    </author>
+    <author>
+      <name>Thomas Dimson</name>
+    </author>
+    <author>
+      <name>Thomas Raoux</name>
+    </author>
+    <author>
+      <name>Thomas Shadwell</name>
+    </author>
+    <author>
+      <name>Tianhao Zheng</name>
+    </author>
+    <author>
+      <name>Todd Underwood</name>
+    </author>
+    <author>
+      <name>Todor Markov</name>
+    </author>
+    <author>
+      <name>Toki Sherbakov</name>
+    </author>
+    <author>
+      <name>Tom Rubin</name>
+    </author>
+    <author>
+      <name>Tom Stasi</name>
+    </author>
+    <author>
+      <name>Tomer Kaftan</name>
+    </author>
+    <author>
+      <name>Tristan Heywood</name>
+    </author>
+    <author>
+      <name>Troy Peterson</name>
+    </author>
+    <author>
+      <name>Tyce Walters</name>
+    </author>
+    <author>
+      <name>Tyna Eloundou</name>
+    </author>
+    <author>
+      <name>Valerie Qi</name>
+    </author>
+    <author>
+      <name>Veit Moeller</name>
+    </author>
+    <author>
+      <name>Vinnie Monaco</name>
+    </author>
+    <author>
+      <name>Vishal Kuo</name>
+    </author>
+    <author>
+      <name>Vlad Fomenko</name>
+    </author>
+    <author>
+      <name>Wayne Chang</name>
+    </author>
+    <author>
+      <name>Weiyi Zheng</name>
+    </author>
+    <author>
+      <name>Wenda Zhou</name>
+    </author>
+    <author>
+      <name>Wesam Manassra</name>
+    </author>
+    <author>
+      <name>Will Sheu</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Yash Patil</name>
+    </author>
+    <author>
+      <name>Yilei Qian</name>
+    </author>
+    <author>
+      <name>Yongjik Kim</name>
+    </author>
+    <author>
+      <name>Youlong Cheng</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen He</name>
+    </author>
+    <author>
+      <name>Yuchen Zhang</name>
+    </author>
+    <author>
+      <name>Yujia Jin</name>
+    </author>
+    <author>
+      <name>Yunxing Dai</name>
+    </author>
+    <author>
+      <name>Yury Malkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04093v1</id>
+    <title>Scaling and evaluating sparse autoencoders</title>
+    <updated>2024-06-06T14:10:12Z</updated>
+    <link href="https://arxiv.org/abs/2406.04093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse autoencoders provide a promising unsupervised approach for extracting interpretable features from a language model by reconstructing activations from a sparse bottleneck layer. Since language models learn many concepts, autoencoders need to be very large to recover all relevant features. However, studying the properties of autoencoder scaling is difficult due to the need to balance reconstruction and sparsity objectives and the presence of dead latents. We propose using k-sparse autoencoders [Makhzani and Frey, 2013] to directly control sparsity, simplifying tuning and improving the reconstruction-sparsity frontier. Additionally, we find modifications that result in few dead latents, even at the largest scales we tried. Using these techniques, we find clean scaling laws with respect to autoencoder size and sparsity. We also introduce several new metrics for evaluating feature quality based on the recovery of hypothesized features, the explainability of activation patterns, and the sparsity of downstream effects. These metrics all generally improve with autoencoder size. To demonstrate the scalability of our approach, we train a 16 million latent autoencoder on GPT-4 activations for 40 billion tokens. We release training code and autoencoders for open-source models, as well as a visualizer.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-06T14:10:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Leo Gao</name>
+    </author>
+    <author>
+      <name>Tom Dupré la Tour</name>
+    </author>
+    <author>
+      <name>Henk Tillman</name>
+    </author>
+    <author>
+      <name>Gabriel Goh</name>
+    </author>
+    <author>
+      <name>Rajan Troll</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.08774v6</id>
+    <title>GPT-4 Technical Report</title>
+    <updated>2024-03-04T06:01:33Z</updated>
+    <link href="https://arxiv.org/abs/2303.08774v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.08774v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-15T17:15:04Z</published>
+    <arxiv:comment>100 pages; updated authors list; fixed author names and added citation</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> OpenAI</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Josh Achiam</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Steven Adler</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sandhini Agarwal</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lama Ahmad</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ilge Akkaya</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Florencia Leoni Aleman</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Diogo Almeida</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Janko Altenschmidt</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Altman</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shyamal Anadkat</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Red Avila</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Igor Babuschkin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Suchir Balaji</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Valerie Balcom</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Baltescu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haiming Bao</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohammad Bavarian</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeff Belgum</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Irwan Bello</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jake Berdine</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gabriel Bernadett-Shapiro</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christopher Berner</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lenny Bogdonoff</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Oleg Boiko</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Madelaine Boyd</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anna-Luisa Brakman</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Greg Brockman</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tim Brooks</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kevin Button</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Trevor Cai</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rosie Campbell</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Cann</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brittany Carey</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chelsea Carlson</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rory Carmichael</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brooke Chan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Che Chang</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fotis Chantzis</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Derek Chen</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sully Chen</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruby Chen</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Chen</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Chess</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chester Cho</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Casey Chu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hyung Won Chung</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dave Cummings</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeremiah Currier</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yunxing Dai</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cory Decareaux</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas Degry</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Noah Deutsch</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Damien Deville</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arka Dhar</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Dohan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Steve Dowling</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sheila Dunning</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adrien Ecoffet</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Atty Eleti</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tyna Eloundou</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Farhi</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Liam Fedus</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Niko Felix</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Simón Posada Fishman</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Juston Forte</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Isabella Fulford</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Leo Gao</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elie Georges</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Gibson</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vik Goel</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tarun Gogineni</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gabriel Goh</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rapha Gontijo-Lopes</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan Gordon</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Morgan Grafstein</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Greene</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joshua Gross</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shixiang Shane Gu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yufei Guo</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Hallacy</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jesse Han</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeff Harris</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yuchen He</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mike Heaton</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Johannes Heidecke</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Hesse</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alan Hickey</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wade Hickey</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Hoeschele</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brandon Houghton</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kenny Hsu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shengli Hu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xin Hu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joost Huizinga</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shantanu Jain</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shawn Jain</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joanne Jang</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angela Jiang</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Roger Jiang</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haozhun Jin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Denny Jin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shino Jomoto</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Billie Jonn</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Heewoo Jun</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tomer Kaftan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Łukasz Kaiser</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ali Kamali</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ingmar Kanitscheider</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nitish Shirish Keskar</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tabarak Khan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Logan Kilpatrick</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christina Kim</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yongjik Kim</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jan Hendrik Kirchner</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jamie Kiros</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matt Knight</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Kokotajlo</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Łukasz Kondraciuk</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Kondrich</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aris Konstantinidis</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kyle Kosic</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vishal Kuo</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Lampe</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ikai Lan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Teddy Lee</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jade Leung</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Levy</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chak Ming Li</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rachel Lim</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Molly Lin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stephanie Lin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mateusz Litwin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Theresa Lopez</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Lowe</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Patricia Lue</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anna Makanju</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kim Malfacini</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Manning</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Todor Markov</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yaniv Markovski</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bianca Martin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katie Mayer</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Mayne</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bob McGrew</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott Mayer McKinney</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christine McLeavey</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul McMillan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jake McNeil</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Medina</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aalok Mehta</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacob Menick</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luke Metz</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrey Mishchenko</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pamela Mishkin</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vinnie Monaco</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Evan Morikawa</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Mossing</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tong Mu</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mira Murati</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Oleg Murk</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Mély</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ashvin Nair</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Reiichiro Nakano</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rajeev Nayak</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arvind Neelakantan</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Richard Ngo</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hyeonwoo Noh</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Long Ouyang</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cullen O'Keefe</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jakub Pachocki</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Paino</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joe Palermo</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ashley Pantuliano</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Giambattista Parascandolo</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joel Parish</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Emy Parparita</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Passos</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mikhail Pavlov</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Peng</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam Perelman</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Filipe de Avila Belbute Peres</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Petrov</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Henrique Ponde de Oliveira Pinto</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Michael</name>
+      <arxiv:affiliation>Rai</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Pokorny</name>
+    </author>
+    <author>
+      <name>Michelle Pokrass</name>
+    </author>
+    <author>
+      <name>Vitchyr H. Pong</name>
+    </author>
+    <author>
+      <name>Tolly Powell</name>
+    </author>
+    <author>
+      <name>Alethea Power</name>
+    </author>
+    <author>
+      <name>Boris Power</name>
+    </author>
+    <author>
+      <name>Elizabeth Proehl</name>
+    </author>
+    <author>
+      <name>Raul Puri</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jack Rae</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Cameron Raymond</name>
+    </author>
+    <author>
+      <name>Francis Real</name>
+    </author>
+    <author>
+      <name>Kendra Rimbach</name>
+    </author>
+    <author>
+      <name>Carl Ross</name>
+    </author>
+    <author>
+      <name>Bob Rotsted</name>
+    </author>
+    <author>
+      <name>Henri Roussez</name>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+    </author>
+    <author>
+      <name>Mario Saltarelli</name>
+    </author>
+    <author>
+      <name>Ted Sanders</name>
+    </author>
+    <author>
+      <name>Shibani Santurkar</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Heather Schmidt</name>
+    </author>
+    <author>
+      <name>David Schnurr</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Daniel Selsam</name>
+    </author>
+    <author>
+      <name>Kyla Sheppard</name>
+    </author>
+    <author>
+      <name>Toki Sherbakov</name>
+    </author>
+    <author>
+      <name>Jessica Shieh</name>
+    </author>
+    <author>
+      <name>Sarah Shoker</name>
+    </author>
+    <author>
+      <name>Pranav Shyam</name>
+    </author>
+    <author>
+      <name>Szymon Sidor</name>
+    </author>
+    <author>
+      <name>Eric Sigler</name>
+    </author>
+    <author>
+      <name>Maddie Simens</name>
+    </author>
+    <author>
+      <name>Jordan Sitkin</name>
+    </author>
+    <author>
+      <name>Katarina Slama</name>
+    </author>
+    <author>
+      <name>Ian Sohl</name>
+    </author>
+    <author>
+      <name>Benjamin Sokolowsky</name>
+    </author>
+    <author>
+      <name>Yang Song</name>
+    </author>
+    <author>
+      <name>Natalie Staudacher</name>
+    </author>
+    <author>
+      <name>Felipe Petroski Such</name>
+    </author>
+    <author>
+      <name>Natalie Summers</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Jie Tang</name>
+    </author>
+    <author>
+      <name>Nikolas Tezak</name>
+    </author>
+    <author>
+      <name>Madeleine B. Thompson</name>
+    </author>
+    <author>
+      <name>Phil Tillet</name>
+    </author>
+    <author>
+      <name>Amin Tootoonchian</name>
+    </author>
+    <author>
+      <name>Elizabeth Tseng</name>
+    </author>
+    <author>
+      <name>Preston Tuggle</name>
+    </author>
+    <author>
+      <name>Nick Turley</name>
+    </author>
+    <author>
+      <name>Jerry Tworek</name>
+    </author>
+    <author>
+      <name>Juan Felipe Cerón Uribe</name>
+    </author>
+    <author>
+      <name>Andrea Vallone</name>
+    </author>
+    <author>
+      <name>Arun Vijayvergiya</name>
+    </author>
+    <author>
+      <name>Chelsea Voss</name>
+    </author>
+    <author>
+      <name>Carroll Wainwright</name>
+    </author>
+    <author>
+      <name>Justin Jay Wang</name>
+    </author>
+    <author>
+      <name>Alvin Wang</name>
+    </author>
+    <author>
+      <name>Ben Wang</name>
+    </author>
+    <author>
+      <name>Jonathan Ward</name>
+    </author>
+    <author>
+      <name>Jason Wei</name>
+    </author>
+    <author>
+      <name>CJ Weinmann</name>
+    </author>
+    <author>
+      <name>Akila Welihinda</name>
+    </author>
+    <author>
+      <name>Peter Welinder</name>
+    </author>
+    <author>
+      <name>Jiayi Weng</name>
+    </author>
+    <author>
+      <name>Lilian Weng</name>
+    </author>
+    <author>
+      <name>Matt Wiethoff</name>
+    </author>
+    <author>
+      <name>Dave Willner</name>
+    </author>
+    <author>
+      <name>Clemens Winter</name>
+    </author>
+    <author>
+      <name>Samuel Wolrich</name>
+    </author>
+    <author>
+      <name>Hannah Wong</name>
+    </author>
+    <author>
+      <name>Lauren Workman</name>
+    </author>
+    <author>
+      <name>Sherwin Wu</name>
+    </author>
+    <author>
+      <name>Jeff Wu</name>
+    </author>
+    <author>
+      <name>Michael Wu</name>
+    </author>
+    <author>
+      <name>Kai Xiao</name>
+    </author>
+    <author>
+      <name>Tao Xu</name>
+    </author>
+    <author>
+      <name>Sarah Yoo</name>
+    </author>
+    <author>
+      <name>Kevin Yu</name>
+    </author>
+    <author>
+      <name>Qiming Yuan</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Rowan Zellers</name>
+    </author>
+    <author>
+      <name>Chong Zhang</name>
+    </author>
+    <author>
+      <name>Marvin Zhang</name>
+    </author>
+    <author>
+      <name>Shengjia Zhao</name>
+    </author>
+    <author>
+      <name>Tianhao Zheng</name>
+    </author>
+    <author>
+      <name>Juntang Zhuang</name>
+    </author>
+    <author>
+      <name>William Zhuk</name>
+    </author>
+    <author>
+      <name>Barret Zoph</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.04356v1</id>
+    <title>Robust Speech Recognition via Large-Scale Weak Supervision</title>
+    <updated>2022-12-06T18:46:04Z</updated>
+    <link href="https://arxiv.org/abs/2212.04356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.04356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the capabilities of speech processing systems trained simply to predict large amounts of transcripts of audio on the internet. When scaled to 680,000 hours of multilingual and multitask supervision, the resulting models generalize well to standard benchmarks and are often competitive with prior fully supervised results but in a zero-shot transfer setting without the need for any fine-tuning. When compared to humans, the models approach their accuracy and robustness. We are releasing models and inference code to serve as a foundation for further work on robust speech processing.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-06T18:46:04Z</published>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+    </author>
+    <author>
+      <name>Tao Xu</name>
+    </author>
+    <author>
+      <name>Greg Brockman</name>
+    </author>
+    <author>
+      <name>Christine McLeavey</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.10005v1</id>
+    <title>Text and Code Embeddings by Contrastive Pre-Training</title>
+    <updated>2022-01-24T23:36:20Z</updated>
+    <link href="https://arxiv.org/abs/2201.10005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.10005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text embeddings are useful features in many applications such as semantic search and computing text similarity. Previous work typically trains models customized for different use cases, varying in dataset choice, training objective and model architecture. In this work, we show that contrastive pre-training on unsupervised data at scale leads to high quality vector representations of text and code. The same unsupervised text embeddings that achieve new state-of-the-art results in linear-probe classification also display impressive semantic search capabilities and sometimes even perform competitively with fine-tuned models. On linear-probe classification accuracy averaging over 7 tasks, our best unsupervised model achieves a relative improvement of 4% and 1.8% over previous best unsupervised and supervised text embedding models respectively. The same text embeddings when evaluated on large-scale semantic search attains a relative improvement of 23.4%, 14.7%, and 10.6% over previous best unsupervised methods on MSMARCO, Natural Questions and TriviaQA benchmarks, respectively. Similarly to text embeddings, we train code embedding models on (text, code) pairs, obtaining a 20.8% relative improvement over prior best work on code search.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-24T23:36:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Arvind Neelakantan</name>
+    </author>
+    <author>
+      <name>Tao Xu</name>
+    </author>
+    <author>
+      <name>Raul Puri</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jesse Michael Han</name>
+    </author>
+    <author>
+      <name>Jerry Tworek</name>
+    </author>
+    <author>
+      <name>Qiming Yuan</name>
+    </author>
+    <author>
+      <name>Nikolas Tezak</name>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+    </author>
+    <author>
+      <name>Chris Hallacy</name>
+    </author>
+    <author>
+      <name>Johannes Heidecke</name>
+    </author>
+    <author>
+      <name>Pranav Shyam</name>
+    </author>
+    <author>
+      <name>Boris Power</name>
+    </author>
+    <author>
+      <name>Tyna Eloundou Nekoul</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>David Schnurr</name>
+    </author>
+    <author>
+      <name>Felipe Petroski Such</name>
+    </author>
+    <author>
+      <name>Kenny Hsu</name>
+    </author>
+    <author>
+      <name>Madeleine Thompson</name>
+    </author>
+    <author>
+      <name>Tabarak Khan</name>
+    </author>
+    <author>
+      <name>Toki Sherbakov</name>
+    </author>
+    <author>
+      <name>Joanne Jang</name>
+    </author>
+    <author>
+      <name>Peter Welinder</name>
+    </author>
+    <author>
+      <name>Lilian Weng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.05448v1</id>
+    <title>Unsupervised Neural Machine Translation with Generative Language Models Only</title>
+    <updated>2021-10-11T17:35:34Z</updated>
+    <link href="https://arxiv.org/abs/2110.05448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.05448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show how to derive state-of-the-art unsupervised neural machine translation systems from generatively pre-trained language models. Our method consists of three steps: few-shot amplification, distillation, and backtranslation. We first use the zero-shot translation ability of large pre-trained language models to generate translations for a small set of unlabeled sentences. We then amplify these zero-shot translations by using them as few-shot demonstrations for sampling a larger synthetic dataset. This dataset is distilled by discarding the few-shot demonstrations and then fine-tuning. During backtranslation, we repeatedly generate translations for a set of inputs and then fine-tune a single language model on both directions of the translation task at once, ensuring cycle-consistency by swapping the roles of gold monotext and generated translations when fine-tuning. By using our method to leverage GPT-3's zero-shot translation capability, we achieve a new state-of-the-art in unsupervised translation on the WMT14 English-French benchmark, attaining a BLEU score of 42.1.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-11T17:35:34Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jesse Michael Han</name>
+    </author>
+    <author>
+      <name>Igor Babuschkin</name>
+    </author>
+    <author>
+      <name>Harrison Edwards</name>
+    </author>
+    <author>
+      <name>Arvind Neelakantan</name>
+    </author>
+    <author>
+      <name>Tao Xu</name>
+    </author>
+    <author>
+      <name>Stanislas Polu</name>
+    </author>
+    <author>
+      <name>Alex Ray</name>
+    </author>
+    <author>
+      <name>Pranav Shyam</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02818v1</id>
+    <title>Evaluating CLIP: Towards Characterization of Broader Capabilities and Downstream Implications</title>
+    <updated>2021-08-05T19:05:57Z</updated>
+    <link href="https://arxiv.org/abs/2108.02818v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.02818v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, there have been breakthroughs in computer vision ("CV") models that are more generalizable with the advent of models such as CLIP and ALIGN. In this paper, we analyze CLIP and highlight some of the challenges such models pose. CLIP reduces the need for task specific training data, potentially opening up many niche tasks to automation. CLIP also allows its users to flexibly specify image classification classes in natural language, which we find can shift how biases manifest. Additionally, through some preliminary probes we find that CLIP can inherit biases found in prior computer vision systems. Given the wide and unpredictable domain of uses for such models, this raises questions regarding what sufficiently safe behaviour for such systems may look like. These results add evidence to the growing body of work calling for a change in the notion of a 'better' model--to move beyond simply looking at higher accuracy at task-oriented capability evaluations, and towards a broader 'better' that takes into account deployment-critical features such as different use contexts, and people who interact with the model when thinking about model deployment.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-05T19:05:57Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:2103.00020</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sandhini Agarwal</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.03374v2</id>
+    <title>Evaluating Large Language Models Trained on Code</title>
+    <updated>2021-07-14T17:16:02Z</updated>
+    <link href="https://arxiv.org/abs/2107.03374v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.03374v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities. A distinct production version of Codex powers GitHub Copilot. On HumanEval, a new evaluation set we release to measure functional correctness for synthesizing programs from docstrings, our model solves 28.8% of the problems, while GPT-3 solves 0% and GPT-J solves 11.4%. Furthermore, we find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions to difficult prompts. Using this method, we solve 70.2% of our problems with 100 samples per problem. Careful investigation of our model reveals its limitations, including difficulty with docstrings describing long chains of operations and with binding operations to variables. Finally, we discuss the potential broader impacts of deploying powerful code generation technologies, covering safety, security, and economics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-07T17:41:24Z</published>
+    <arxiv:comment>corrected typos, added references, added authors, added acknowledgements</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Jerry Tworek</name>
+    </author>
+    <author>
+      <name>Heewoo Jun</name>
+    </author>
+    <author>
+      <name>Qiming Yuan</name>
+    </author>
+    <author>
+      <name>Henrique Ponde de Oliveira Pinto</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Harri Edwards</name>
+    </author>
+    <author>
+      <name>Yuri Burda</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Greg Brockman</name>
+    </author>
+    <author>
+      <name>Alex Ray</name>
+    </author>
+    <author>
+      <name>Raul Puri</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Michael Petrov</name>
+    </author>
+    <author>
+      <name>Heidy Khlaaf</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Pamela Mishkin</name>
+    </author>
+    <author>
+      <name>Brooke Chan</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+    </author>
+    <author>
+      <name>Mikhail Pavlov</name>
+    </author>
+    <author>
+      <name>Alethea Power</name>
+    </author>
+    <author>
+      <name>Lukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Mohammad Bavarian</name>
+    </author>
+    <author>
+      <name>Clemens Winter</name>
+    </author>
+    <author>
+      <name>Philippe Tillet</name>
+    </author>
+    <author>
+      <name>Felipe Petroski Such</name>
+    </author>
+    <author>
+      <name>Dave Cummings</name>
+    </author>
+    <author>
+      <name>Matthias Plappert</name>
+    </author>
+    <author>
+      <name>Fotios Chantzis</name>
+    </author>
+    <author>
+      <name>Elizabeth Barnes</name>
+    </author>
+    <author>
+      <name>Ariel Herbert-Voss</name>
+    </author>
+    <author>
+      <name>William Hebgen Guss</name>
+    </author>
+    <author>
+      <name>Alex Nichol</name>
+    </author>
+    <author>
+      <name>Alex Paino</name>
+    </author>
+    <author>
+      <name>Nikolas Tezak</name>
+    </author>
+    <author>
+      <name>Jie Tang</name>
+    </author>
+    <author>
+      <name>Igor Babuschkin</name>
+    </author>
+    <author>
+      <name>Suchir Balaji</name>
+    </author>
+    <author>
+      <name>Shantanu Jain</name>
+    </author>
+    <author>
+      <name>William Saunders</name>
+    </author>
+    <author>
+      <name>Christopher Hesse</name>
+    </author>
+    <author>
+      <name>Andrew N. Carr</name>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+    </author>
+    <author>
+      <name>Josh Achiam</name>
+    </author>
+    <author>
+      <name>Vedant Misra</name>
+    </author>
+    <author>
+      <name>Evan Morikawa</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Matthew Knight</name>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+    <author>
+      <name>Mira Murati</name>
+    </author>
+    <author>
+      <name>Katie Mayer</name>
+    </author>
+    <author>
+      <name>Peter Welinder</name>
+    </author>
+    <author>
+      <name>Bob McGrew</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.00020v1</id>
+    <title>Learning Transferable Visual Models From Natural Language Supervision</title>
+    <updated>2021-02-26T19:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2103.00020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.00020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at https://github.com/OpenAI/CLIP.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-26T19:04:58Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+    </author>
+    <author>
+      <name>Chris Hallacy</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Gabriel Goh</name>
+    </author>
+    <author>
+      <name>Sandhini Agarwal</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Pamela Mishkin</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.12092v2</id>
+    <title>Zero-Shot Text-to-Image Generation</title>
+    <updated>2021-02-26T23:26:05Z</updated>
+    <link href="https://arxiv.org/abs/2102.12092v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.12092v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-to-image generation has traditionally focused on finding better modeling assumptions for training on a fixed dataset. These assumptions might involve complex architectures, auxiliary losses, or side information such as object part labels or segmentation masks supplied during training. We describe a simple approach for this task based on a transformer that autoregressively models the text and image tokens as a single stream of data. With sufficient data and scale, our approach is competitive with previous domain-specific models when evaluated in a zero-shot fashion.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-24T06:42:31Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Mikhail Pavlov</name>
+    </author>
+    <author>
+      <name>Gabriel Goh</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Chelsea Voss</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.14701v2</id>
+    <title>Scaling Laws for Autoregressive Generative Modeling</title>
+    <updated>2020-11-06T04:16:36Z</updated>
+    <link href="https://arxiv.org/abs/2010.14701v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.14701v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We identify empirical scaling laws for the cross-entropy loss in four domains: generative image modeling, video modeling, multimodal image$\leftrightarrow$text models, and mathematical problem solving. In all cases autoregressive Transformers smoothly improve in performance as model size and compute budgets increase, following a power-law plus constant scaling law. The optimal model size also depends on the compute budget through a power-law, with exponents that are nearly universal across all data domains.
+  The cross-entropy loss has an information theoretic interpretation as $S($True$) + D_{\mathrm{KL}}($True$||$Model$)$, and the empirical scaling laws suggest a prediction for both the true data distribution's entropy and the KL divergence between the true and model distributions. With this interpretation, billion-parameter Transformers are nearly perfect models of the YFCC100M image distribution downsampled to an $8\times 8$ resolution, and we can forecast the model size needed to achieve any given reducible loss (ie $D_{\mathrm{KL}}$) in nats/image for other resolutions.
+  We find a number of additional scaling laws in specific domains: (a) we identify a scaling relation for the mutual information between captions and images in multimodal models, and show how to answer the question "Is a picture worth a thousand words?"; (b) in the case of mathematical problem solving, we identify scaling laws for model performance when extrapolating beyond the training distribution; (c) we finetune generative image models for ImageNet classification and find smooth scaling of the classification loss and error rate, even as the generative loss levels off. Taken together, these results strengthen the case that scaling laws have important implications for neural network performance, including on downstream tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-28T02:17:24Z</published>
+    <arxiv:comment>20+17 pages, 33 figures; added appendix with additional language results</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Mor Katz</name>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Christopher Hesse</name>
+    </author>
+    <author>
+      <name>Jacob Jackson</name>
+    </author>
+    <author>
+      <name>Heewoo Jun</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Prafulla Dhariwal</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Chris Hallacy</name>
+    </author>
+    <author>
+      <name>Benjamin Mann</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+    </author>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.01325v3</id>
+    <title>Learning to summarize from human feedback</title>
+    <updated>2022-02-15T19:09:36Z</updated>
+    <link href="https://arxiv.org/abs/2009.01325v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.01325v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models become more powerful, training and evaluation are increasingly bottlenecked by the data and metrics used for a particular task. For example, summarization models are often trained to predict human reference summaries and evaluated using ROUGE, but both of these metrics are rough proxies for what we really care about -- summary quality. In this work, we show that it is possible to significantly improve summary quality by training a model to optimize for human preferences. We collect a large, high-quality dataset of human comparisons between summaries, train a model to predict the human-preferred summary, and use that model as a reward function to fine-tune a summarization policy using reinforcement learning. We apply our method to a version of the TL;DR dataset of Reddit posts and find that our models significantly outperform both human reference summaries and much larger models fine-tuned with supervised learning alone. Our models also transfer to CNN/DM news articles, producing summaries nearly as good as the human reference without any news-specific fine-tuning. We conduct extensive analyses to understand our human feedback dataset and fine-tuned models We establish that our reward model generalizes to new datasets, and that optimizing our reward model results in better summaries than optimizing ROUGE according to humans. We hope the evidence from our paper motivates machine learning researchers to pay closer attention to how their training loss affects the model behavior they actually want.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-02T19:54:41Z</published>
+    <arxiv:comment>NeurIPS 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Nisan Stiennon</name>
+    </author>
+    <author>
+      <name>Long Ouyang</name>
+    </author>
+    <author>
+      <name>Jeff Wu</name>
+    </author>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>Ryan Lowe</name>
+    </author>
+    <author>
+      <name>Chelsea Voss</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.14165v4</id>
+    <title>Language Models are Few-Shot Learners</title>
+    <updated>2020-07-22T19:47:17Z</updated>
+    <link href="https://arxiv.org/abs/2005.14165v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.14165v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-28T17:29:03Z</published>
+    <arxiv:comment>40+32 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Benjamin Mann</name>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+    </author>
+    <author>
+      <name>Melanie Subbiah</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Prafulla Dhariwal</name>
+    </author>
+    <author>
+      <name>Arvind Neelakantan</name>
+    </author>
+    <author>
+      <name>Pranav Shyam</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Sandhini Agarwal</name>
+    </author>
+    <author>
+      <name>Ariel Herbert-Voss</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Rewon Child</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Clemens Winter</name>
+    </author>
+    <author>
+      <name>Christopher Hesse</name>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Eric Sigler</name>
+    </author>
+    <author>
+      <name>Mateusz Litwin</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Benjamin Chess</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Christopher Berner</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.00341v1</id>
+    <title>Jukebox: A Generative Model for Music</title>
+    <updated>2020-04-30T09:02:45Z</updated>
+    <link href="https://arxiv.org/abs/2005.00341v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.00341v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Jukebox, a model that generates music with singing in the raw audio domain. We tackle the long context of raw audio using a multi-scale VQ-VAE to compress it to discrete codes, and modeling those using autoregressive Transformers. We show that the combined model at scale can generate high-fidelity and diverse songs with coherence up to multiple minutes. We can condition on artist and genre to steer the musical and vocal style, and on unaligned lyrics to make the singing more controllable. We are releasing thousands of non cherry-picked samples at https://jukebox.openai.com, along with model weights and code at https://github.com/openai/jukebox</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-30T09:02:45Z</published>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Prafulla Dhariwal</name>
+    </author>
+    <author>
+      <name>Heewoo Jun</name>
+    </author>
+    <author>
+      <name>Christine Payne</name>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.08361v1</id>
+    <title>Scaling Laws for Neural Language Models</title>
+    <updated>2020-01-23T03:59:20Z</updated>
+    <link href="https://arxiv.org/abs/2001.08361v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.08361v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-23T03:59:20Z</published>
+    <arxiv:comment>19 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Benjamin Chess</name>
+    </author>
+    <author>
+      <name>Rewon Child</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.08593v2</id>
+    <title>Fine-Tuning Language Models from Human Preferences</title>
+    <updated>2020-01-08T23:02:36Z</updated>
+    <link href="https://arxiv.org/abs/1909.08593v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.08593v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward learning enables the application of reinforcement learning (RL) to tasks where reward is defined by human judgment, building a model of reward by asking humans questions. Most work on reward learning has used simulated environments, but complex information about values is often expressed in natural language, and we believe reward learning for language is a key to making RL practical and safe for real-world tasks. In this paper, we build on advances in generative pretraining of language models to apply reward learning to four natural language tasks: continuing text with positive sentiment or physically descriptive language, and summarization tasks on the TL;DR and CNN/Daily Mail datasets. For stylistic continuation we achieve good results with only 5,000 comparisons evaluated by humans. For summarization, models trained with 60,000 comparisons copy whole sentences from the input but skip irrelevant preamble; this leads to reasonable ROUGE scores and very good performance according to our human labelers, but may be exploiting the fact that labelers rely on simple heuristics.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-18T17:33:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>Nisan Stiennon</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.09203v2</id>
+    <title>Release Strategies and the Social Impacts of Language Models</title>
+    <updated>2019-11-13T03:54:12Z</updated>
+    <link href="https://arxiv.org/abs/1908.09203v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.09203v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models have a range of beneficial uses: they can assist in prose, poetry, and programming; analyze dataset biases; and more. However, their flexibility and generative capabilities also raise misuse concerns. This report discusses OpenAI's work related to the release of its GPT-2 language model. It discusses staged release, which allows time between model releases to conduct risk and benefit analyses as model sizes increased. It also discusses ongoing partnership-based research and provides recommendations for better coordination and responsible publication in AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-24T20:41:40Z</published>
+    <arxiv:comment>71 pages, report</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Irene Solaiman</name>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Ariel Herbert-Voss</name>
+    </author>
+    <author>
+      <name>Jeff Wu</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Jong Wook Kim</name>
+    </author>
+    <author>
+      <name>Sarah Kreps</name>
+    </author>
+    <author>
+      <name>Miles McCain</name>
+    </author>
+    <author>
+      <name>Alex Newhouse</name>
+    </author>
+    <author>
+      <name>Jason Blazakis</name>
+    </author>
+    <author>
+      <name>Kris McGuffie</name>
+    </author>
+    <author>
+      <name>Jasmine Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10509v1</id>
+    <title>Generating Long Sequences with Sparse Transformers</title>
+    <updated>2019-04-23T19:29:47Z</updated>
+    <link href="https://arxiv.org/abs/1904.10509v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.10509v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers are powerful sequence models, but require time and memory that grows quadratically with the sequence length. In this paper we introduce sparse factorizations of the attention matrix which reduce this to $O(n \sqrt{n})$. We also introduce a) a variation on architecture and initialization to train deeper networks, b) the recomputation of attention matrices to save memory, and c) fast attention kernels for training. We call networks with these changes Sparse Transformers, and show they can model sequences tens of thousands of timesteps long using hundreds of layers. We use the same architecture to model images, audio, and text from raw bytes, setting a new state of the art for density modeling of Enwik8, CIFAR-10, and ImageNet-64. We generate unconditional samples that demonstrate global coherence and great diversity, and show it is possible in principle to use self-attention to model sequences of length one million or more.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-23T19:29:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rewon Child</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.05573v1</id>
+    <title>Improving GANs Using Optimal Transport</title>
+    <updated>2018-03-15T02:34:46Z</updated>
+    <link href="https://arxiv.org/abs/1803.05573v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.05573v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Optimal Transport GAN (OT-GAN), a variant of generative adversarial nets minimizing a new metric measuring the distance between the generator distribution and the data distribution. This metric, which we call mini-batch energy distance, combines optimal transport in primal form with an energy distance defined in an adversarially learned feature space, resulting in a highly discriminative distance function with unbiased mini-batch gradients. Experimentally we show OT-GAN to be highly stable when trained with large mini-batches, and we present state-of-the-art results on several popular benchmark problems for image generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-15T02:34:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tim Salimans</name>
+    </author>
+    <author>
+      <name>Han Zhang</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Dimitris Metaxas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.06347v2</id>
+    <title>Proximal Policy Optimization Algorithms</title>
+    <updated>2017-08-28T09:20:06Z</updated>
+    <link href="https://arxiv.org/abs/1707.06347v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.06347v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-20T02:32:33Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Filip Wolski</name>
+    </author>
+    <author>
+      <name>Prafulla Dhariwal</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Oleg Klimov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01444v2</id>
+    <title>Learning to Generate Reviews and Discovering Sentiment</title>
+    <updated>2017-04-06T09:48:20Z</updated>
+    <link href="https://arxiv.org/abs/1704.01444v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.01444v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the properties of byte-level recurrent language models. When given sufficient amounts of capacity, training data, and compute time, the representations learned by these models include disentangled features corresponding to high-level concepts. Specifically, we find a single unit which performs sentiment analysis. These representations, learned in an unsupervised manner, achieve state of the art on the binary subset of the Stanford Sentiment Treebank. They are also very data efficient. When using only a handful of labeled examples, our approach matches the performance of strong baselines trained on full datasets. We also demonstrate the sentiment unit has a direct influence on the generative process of the model. Simply fixing its value to be positive or negative generates samples with the corresponding positive or negative sentiment.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-05T14:20:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Rafal Jozefowicz</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03498v1</id>
+    <title>Improved Techniques for Training GANs</title>
+    <updated>2016-06-10T22:53:35Z</updated>
+    <link href="https://arxiv.org/abs/1606.03498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.03498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a variety of new architectural features and training procedures that we apply to the generative adversarial networks (GANs) framework. We focus on two applications of GANs: semi-supervised learning, and the generation of images that humans find visually realistic. Unlike most work on generative models, our primary goal is not to train a model that assigns high likelihood to test data, nor do we require the model to be able to learn well without using any labels. Using our new techniques, we achieve state-of-the-art results in semi-supervised classification on MNIST, CIFAR-10 and SVHN. The generated images are of high quality as confirmed by a visual Turing test: our model generates MNIST samples that humans cannot distinguish from real data, and CIFAR-10 samples that yield a human error rate of 21.3%. We also present ImageNet samples with unprecedented resolution and show that our methods enable the model to learn recognizable features of ImageNet classes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-10T22:53:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tim Salimans</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Vicki Cheung</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06434v2</id>
+    <title>Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</title>
+    <updated>2016-01-07T23:09:39Z</updated>
+    <link href="https://arxiv.org/abs/1511.06434v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06434v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications. Comparatively, unsupervised learning with CNNs has received less attention. In this work we hope to help bridge the gap between the success of CNNs for supervised learning and unsupervised learning. We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-19T22:50:32Z</published>
+    <arxiv:comment>Under review as a conference paper at ICLR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Luke Metz</name>
+    </author>
+    <author>
+      <name>Soumith Chintala</name>
+    </author>
+  </entry>
+</feed>

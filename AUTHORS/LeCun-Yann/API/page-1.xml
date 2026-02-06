@@ -1,0 +1,1983 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jTjY0QpJyijk+xV7bJ8pgaqFXcQ</id>
+  <title>arXiv Query: search_query=au:"Yann LeCun"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T19:28:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yann+LeCun%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>196</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03604v1</id>
+    <title>A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures</title>
+    <updated>2026-02-03T14:56:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.03604v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03604v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present EB-JEPA, an open-source library for learning representations and world models using Joint-Embedding Predictive Architectures (JEPAs). JEPAs learn to predict in representation space rather than pixel space, avoiding the pitfalls of generative modeling while capturing semantically meaningful features suitable for downstream tasks. Our library provides modular, self-contained implementations that illustrate how representation learning techniques developed for image-level self-supervised learning can transfer to video, where temporal dynamics add complexity, and ultimately to action-conditioned world models, where the model must additionally learn to predict the effects of control inputs. Each example is designed for single-GPU training within a few hours, making energy-based self-supervised learning accessible for research and education. We provide ablations of JEA components on CIFAR-10. Probing these representations yields 91% accuracy, indicating that the model learns useful features. Extending to video, we include a multi-step prediction example on Moving MNIST that demonstrates how the same principles scale to temporal modeling. Finally, we show how these representations can drive action-conditioned world models, achieving a 97% planning success rate on the Two Rooms navigation task. Comprehensive ablations reveal the critical importance of each regularization component for preventing representation collapse. Code is available at https://github.com/facebookresearch/eb_jepa.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T14:56:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Basile Terver</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Megi Dervishi</name>
+    </author>
+    <author>
+      <name>David Fan</name>
+    </author>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Tushar Nagarajan</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Wancong Zhang</name>
+    </author>
+    <author>
+      <name>Mike Rabbat</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01456v1</id>
+    <title>Rectified LpJEPA: Joint-Embedding Predictive Architectures with Sparse and Maximum-Entropy Representations</title>
+    <updated>2026-02-01T21:49:30Z</updated>
+    <link href="https://arxiv.org/abs/2602.01456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-Embedding Predictive Architectures (JEPA) learn view-invariant representations and admit projection-based distribution matching for collapse prevention. Existing approaches regularize representations towards isotropic Gaussian distributions, but inherently favor dense representations and fail to capture the key property of sparsity observed in efficient representations. We introduce Rectified Distribution Matching Regularization (RDMReg), a sliced two-sample distribution-matching loss that aligns representations to a Rectified Generalized Gaussian (RGG) distribution. RGG enables explicit control over expected $\ell_0$ norm through rectification, while preserving maximum-entropy up to rescaling under expected $\ell_p$ norm constraints. Equipping JEPAs with RDMReg yields Rectified LpJEPA, which strictly generalizes prior Gaussian-based JEPAs. Empirically, Rectified LpJEPA learns sparse, non-negative representations with favorable sparsity-performance trade-offs and competitive downstream performance on image classification benchmarks, demonstrating that RDMReg effectively enforces sparsity while preserving task-relevant information.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T21:49:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yilun Kuang</name>
+    </author>
+    <author>
+      <name>Yash Dagade</name>
+    </author>
+    <author>
+      <name>Tim G. J. Rudner</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00475v1</id>
+    <title>Parallel Stochastic Gradient-Based Planning for World Models</title>
+    <updated>2026-01-31T02:57:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.00475v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00475v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models simulate environment dynamics from raw sensory inputs like video. However, using them for planning can be challenging due to the vast and unstructured search space. We propose a robust and highly parallelizable planner that leverages the differentiability of the learned world model for efficient optimization, solving long-horizon control tasks from visual input. Our method treats states as optimization variables ("virtual states") with soft dynamics constraints, enabling parallel computation and easier optimization. To facilitate exploration and avoid local optima, we introduce stochasticity into the states. To mitigate sensitive gradients through high-dimensional vision-based world models, we modify the gradient structure to descend towards valid plans while only requiring action-input gradients. Our planner, which we call GRASP (Gradient RelAxed Stochastic Planner), can be viewed as a stochastic version of a non-condensed or collocation-based optimal controller. We provide theoretical justification and experiments on video-based world models, where our resulting planner outperforms existing planning algorithms like the cross-entropy method (CEM) and vanilla gradient-based optimization (GD) on long-horizon experiments, both in success rate and time to convergence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T02:57:47Z</published>
+    <arxiv:comment>23 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Psenka</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Aditi Krishnapriyan</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16208v1</id>
+    <title>Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders</title>
+    <updated>2026-01-22T18:58:16Z</updated>
+    <link href="https://arxiv.org/abs/2601.16208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Representation Autoencoders (RAEs) have shown distinct advantages in diffusion modeling on ImageNet by training in high-dimensional semantic latent spaces. In this work, we investigate whether this framework can scale to large-scale, freeform text-to-image (T2I) generation. We first scale RAE decoders on the frozen representation encoder (SigLIP-2) beyond ImageNet by training on web, synthetic, and text-rendering data, finding that while scale improves general fidelity, targeted data composition is essential for specific domains like text. We then rigorously stress-test the RAE design choices originally proposed for ImageNet. Our analysis reveals that scaling simplifies the framework: while dimension-dependent noise scheduling remains critical, architectural complexities such as wide diffusion heads and noise-augmented decoding offer negligible benefits at scale Building on this simplified framework, we conduct a controlled comparison of RAE against the state-of-the-art FLUX VAE across diffusion transformer scales from 0.5B to 9.8B parameters. RAEs consistently outperform VAEs during pretraining across all model scales. Further, during finetuning on high-quality datasets, VAE-based models catastrophically overfit after 64 epochs, while RAE models remain stable through 256 epochs and achieve consistently better performance. Across all experiments, RAE-based diffusion models demonstrate faster convergence and better generation quality, establishing RAEs as a simpler and stronger foundation than VAEs for large-scale T2I generation. Additionally, because both visual understanding and generation can operate in a shared representation space, the multimodal model can directly reason over generated latents, opening new possibilities for unified models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-22T18:58:16Z</published>
+    <arxiv:comment>website: https://rae-dit.github.io/scale-rae/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Boyang Zheng</name>
+    </author>
+    <author>
+      <name>Ziteng Wang</name>
+    </author>
+    <author>
+      <name>Bingda Tang</name>
+    </author>
+    <author>
+      <name>Nanye Ma</name>
+    </author>
+    <author>
+      <name>Ellis Brown</name>
+    </author>
+    <author>
+      <name>Jihan Yang</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05230v2</id>
+    <title>Learning Latent Action World Models In The Wild</title>
+    <updated>2026-01-20T14:03:19Z</updated>
+    <link href="https://arxiv.org/abs/2601.05230v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05230v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents capable of reasoning and planning in the real world require the ability of predicting the consequences of their actions. While world models possess this capability, they most often require action labels, that can be complex to obtain at scale. This motivates the learning of latent action models, that can learn an action space from videos alone. Our work addresses the problem of learning latent actions world models on in-the-wild videos, expanding the scope of existing works that focus on simple robotics simulations, video games, or manipulation data. While this allows us to capture richer actions, it also introduces challenges stemming from the video diversity, such as environmental noise, or the lack of a common embodiment across videos. To address some of the challenges, we discuss properties that actions should follow as well as relevant architectural choices and evaluations. We find that continuous, but constrained, latent actions are able to capture the complexity of actions from in-the-wild videos, something that the common vector quantization does not. We for example find that changes in the environment coming from agents, such as humans entering the room, can be transferred across videos. This highlights the capability of learning actions that are specific to in-the-wild videos. In the absence of a common embodiment across videos, we are mainly able to learn latent actions that become localized in space, relative to the camera. Nonetheless, we are able to train a controller that maps known actions to latent ones, allowing us to use latent actions as a universal interface and solve planning tasks with our world model with similar performance as action-conditioned baselines. Our analyses and experiments provide a step towards scaling latent action models to the real world.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-08T18:55:39Z</published>
+    <arxiv:comment>37 pages, 25 figures; updated references and experimental details</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Tushar Nagarajan</name>
+    </author>
+    <author>
+      <name>Basile Terver</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24497v2</id>
+    <title>What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?</title>
+    <updated>2026-01-08T23:57:08Z</updated>
+    <link href="https://arxiv.org/abs/2512.24497v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24497v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A long-standing challenge in AI is to develop agents capable of solving a wide range of physical tasks and generalizing to new, unseen tasks and environments. A popular recent approach involves training a world model from state-action trajectories and subsequently use it with a planning algorithm to solve new tasks. Planning is commonly performed in the input space, but a recent family of methods has introduced planning algorithms that optimize in the learned representation space of the world model, with the promise that abstracting irrelevant details yields more efficient planning. In this work, we characterize models from this family as JEPA-WMs and investigate the technical choices that make algorithms from this class work. We propose a comprehensive study of several key components with the objective of finding the optimal approach within the family. We conducted experiments using both simulated environments and real-world robotic data, and studied how the model architecture, the training objective, and the planning algorithm affect planning success. We combine our findings to propose a model that outperforms two established baselines, DINO-WM and V-JEPA-2-AC, in both navigation and manipulation tasks. Code, data and checkpoints are available at https://github.com/facebookresearch/jepa-wms.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-30T22:50:03Z</published>
+    <arxiv:comment>V2 of the article: - Added AdaLN-zero - Added table comparing JEPA-WMs with baselines with std translating per-seed variability only, no variability across epochs - Reordered figures in main body of the paper</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Basile Terver</name>
+    </author>
+    <author>
+      <name>Tsung-Yen Yang</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00844v1</id>
+    <title>Value-guided action planning with JEPA world models</title>
+    <updated>2025-12-28T20:17:49Z</updated>
+    <link href="https://arxiv.org/abs/2601.00844v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00844v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building deep learning models that can reason about their environment requires capturing its underlying dynamics. Joint-Embedded Predictive Architectures (JEPA) provide a promising framework to model such dynamics by learning representations and predictors through a self-supervised prediction objective. However, their ability to support effective action planning remains limited. We propose an approach to enhance planning with JEPA world models by shaping their representation space so that the negative goal-conditioned value function for a reaching cost in a given environment is approximated by a distance (or quasi-distance) between state embeddings. We introduce a practical method to enforce this constraint during training and show that it leads to significantly improved planning performance compared to standard JEPA models on simple control tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-28T20:17:49Z</published>
+    <arxiv:comment>Presented as a poster at the World Modeling Workshop 2026, Mila</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Matthieu Destrade</name>
+    </author>
+    <author>
+      <name>Oumayma Bounou</name>
+    </author>
+    <author>
+      <name>Quentin Le Lidec</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21204v1</id>
+    <title>SpidR-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation</title>
+    <updated>2025-12-24T14:33:16Z</updated>
+    <link href="https://arxiv.org/abs/2512.21204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human infants, with only a few hundred hours of speech exposure, acquire basic units of new languages, highlighting a striking efficiency gap compared to the data-hungry self-supervised speech models. To address this gap, this paper introduces SpidR-Adapt for rapid adaptation to new languages using minimal unlabeled data. We cast such low-resource speech representation learning as a meta-learning problem and construct a multi-task adaptive pre-training (MAdaPT) protocol which formulates the adaptation process as a bi-level optimization framework. To enable scalable meta-training under this framework, we propose a novel heuristic solution, first-order bi-level optimization (FOBLO), avoiding heavy computation costs. Finally, we stabilize meta-training by using a robust initialization through interleaved supervision which alternates self-supervised and supervised objectives. Empirically, SpidR-Adapt achieves rapid gains in phonemic discriminability (ABX) and spoken language modeling (sWUGGY, sBLIMP, tSC), improving over in-domain language models after training on less than 1h of target-language audio, over $100\times$ more data-efficient than standard training. These findings highlight a practical, architecture-agnostic path toward biologically inspired, data-efficient representations. We open-source the training code and model checkpoints at https://github.com/facebookresearch/spidr-adapt.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-24T14:33:16Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahi Luthra</name>
+    </author>
+    <author>
+      <name>Jiayi Shen</name>
+    </author>
+    <author>
+      <name>Maxime Poli</name>
+    </author>
+    <author>
+      <name>Angelo Ortiz</name>
+    </author>
+    <author>
+      <name>Yosuke Higuchi</name>
+    </author>
+    <author>
+      <name>Youssef Benchekroun</name>
+    </author>
+    <author>
+      <name>Martin Gleize</name>
+    </author>
+    <author>
+      <name>Charles-Eric Saint-James</name>
+    </author>
+    <author>
+      <name>Dongyan Lin</name>
+    </author>
+    <author>
+      <name>Phillip Rust</name>
+    </author>
+    <author>
+      <name>Angel Villar</name>
+    </author>
+    <author>
+      <name>Surya Parimi</name>
+    </author>
+    <author>
+      <name>Vanessa Stark</name>
+    </author>
+    <author>
+      <name>Rashel Moritz</name>
+    </author>
+    <author>
+      <name>Juan Pino</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Emmanuel Dupoux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13644v1</id>
+    <title>World Models Can Leverage Human Videos for Dexterous Manipulation</title>
+    <updated>2025-12-15T18:37:12Z</updated>
+    <link href="https://arxiv.org/abs/2512.13644v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13644v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dexterous manipulation is challenging because it requires understanding how subtle hand motion influences the environment through contact with objects. We introduce DexWM, a Dexterous Manipulation World Model that predicts the next latent state of the environment conditioned on past states and dexterous actions. To overcome the scarcity of dexterous manipulation datasets, DexWM is trained on over 900 hours of human and non-dexterous robot videos. To enable fine-grained dexterity, we find that predicting visual features alone is insufficient; therefore, we introduce an auxiliary hand consistency loss that enforces accurate hand configurations. DexWM outperforms prior world models conditioned on text, navigation, and full-body actions, achieving more accurate predictions of future states. DexWM also demonstrates strong zero-shot generalization to unseen manipulation skills when deployed on a Franka Panda arm equipped with an Allegro gripper, outperforming Diffusion Policy by over 50% on average in grasping, placing, and reaching tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T18:37:12Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Raktim Gautam Goswami</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>David Fan</name>
+    </author>
+    <author>
+      <name>Tsung-Yen Yang</name>
+    </author>
+    <author>
+      <name>Gaoyue Zhou</name>
+    </author>
+    <author>
+      <name>Prashanth Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Farshad Khorrami</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.10942v2</id>
+    <title>VL-JEPA: Joint Embedding Predictive Architecture for Vision-language</title>
+    <updated>2026-02-02T12:38:20Z</updated>
+    <link href="https://arxiv.org/abs/2512.10942v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.10942v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce VL-JEPA, a vision-language model built on a Joint Embedding Predictive Architecture (JEPA). Instead of autoregressively generating tokens as in classical VLMs, VL-JEPA predicts continuous embeddings of the target texts. By learning in an abstract representation space, the model focuses on task-relevant semantics while abstracting away surface-level linguistic variability. In a strictly controlled comparison against standard token-space VLM training with the same vision encoder and training data, VL-JEPA achieves stronger performance while having 50% fewer trainable parameters. At inference time, a lightweight text decoder is invoked only when needed to translate VL-JEPA predicted embeddings into text. We show that VL-JEPA natively supports selective decoding that reduces the number of decoding operations by 2.85x while maintaining similar performance compared to non-adaptive uniform decoding. Beyond generation, the VL-JEPA's embedding space naturally supports open-vocabulary classification, text-to-video retrieval, and discriminative VQA without any architecture modification. On eight video classification and eight video retrieval datasets, the average performance VL-JEPA surpasses that of CLIP, SigLIP2, and Perception Encoder. At the same time, the model achieves comparable performance as classical VLMs (InstructBLIP, QwenVL) on four VQA datasets: GQA, TallyQA, POPE and POPEv2, despite only having 1.6B parameters.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-11T18:59:22Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Delong Chen</name>
+    </author>
+    <author>
+      <name>Mustafa Shukor</name>
+    </author>
+    <author>
+      <name>Theo Moutakanni</name>
+    </author>
+    <author>
+      <name>Willy Chung</name>
+    </author>
+    <author>
+      <name>Jade Yu</name>
+    </author>
+    <author>
+      <name>Tejaswi Kasarla</name>
+    </author>
+    <author>
+      <name>Yejin Bang</name>
+    </author>
+    <author>
+      <name>Allen Bolourchi</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Pascale Fung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.09929v1</id>
+    <title>Closing the Train-Test Gap in World Models for Gradient-Based Planning</title>
+    <updated>2025-12-10T18:59:45Z</updated>
+    <link href="https://arxiv.org/abs/2512.09929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.09929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models paired with model predictive control (MPC) can be trained offline on large-scale datasets of expert trajectories and enable generalization to a wide range of planning tasks at inference time. Compared to traditional MPC procedures, which rely on slow search algorithms or on iteratively solving optimization problems exactly, gradient-based planning offers a computationally efficient alternative. However, the performance of gradient-based planning has thus far lagged behind that of other approaches. In this paper, we propose improved methods for training world models that enable efficient gradient-based planning. We begin with the observation that although a world model is trained on a next-state prediction objective, it is used at test-time to instead estimate a sequence of actions. The goal of our work is to close this train-test gap. To that end, we propose train-time data synthesis techniques that enable significantly improved gradient-based planning with existing world models. At test time, our approach outperforms or matches the classical gradient-free cross-entropy method (CEM) across a variety of object manipulation and navigation tasks in 10% of the time budget.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-10T18:59:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arjun Parthasarathy</name>
+    </author>
+    <author>
+      <name>Nimit Kalra</name>
+    </author>
+    <author>
+      <name>Rohun Agrawal</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Oumayma Bounou</name>
+    </author>
+    <author>
+      <name>Pavel Izmailov</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.07168v1</id>
+    <title>JEPA as a Neural Tokenizer: Learning Robust Speech Representations with Density Adaptive Attention</title>
+    <updated>2025-12-08T05:01:51Z</updated>
+    <link href="https://arxiv.org/abs/2512.07168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.07168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a two-stage self-supervised framework that combines the Joint-Embedding Predictive Architecture (JEPA) with a Density Adaptive Attention Mechanism (DAAM) for learning robust speech representations. Stage~1 uses JEPA with DAAM to learn semantic audio features via masked prediction in latent space, fully decoupled from waveform reconstruction. Stage~2 leverages these representations for efficient tokenization using Finite Scalar Quantization (FSQ) and a mixed-radix packing scheme, followed by high-fidelity waveform reconstruction with a HiFi-GAN decoder. By integrating Gaussian mixture-based density-adaptive gating into the JEPA encoder, the model performs adaptive temporal feature selection and discovers hierarchical speech structure at a low frame rate of 2.5~Hz. The resulting tokens (47.5 tokens/sec) provide a reversible, highly compressed, and language-model-friendly representation that is competitive with, and often more efficient than, existing neural audio codecs.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T05:01:51Z</published>
+    <arxiv:comment>UniReps: Unifying Representations in Neural Models (NeurIPS 2025 Workshop)</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Georgios Ioannides</name>
+    </author>
+    <author>
+      <name>Christos Constantinou</name>
+    </author>
+    <author>
+      <name>Aman Chadha</name>
+    </author>
+    <author>
+      <name>Aaron Elkins</name>
+    </author>
+    <author>
+      <name>Linsey Pang</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05094v2</id>
+    <title>From Generated Human Videos to Physically Plausible Robot Trajectories</title>
+    <updated>2025-12-11T17:37:53Z</updated>
+    <link href="https://arxiv.org/abs/2512.05094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video generation models are rapidly improving in their ability to synthesize human actions in novel contexts, holding the potential to serve as high-level planners for contextual robot control. To realize this potential, a key research question remains open: how can a humanoid execute the human actions from generated videos in a zero-shot manner? This challenge arises because generated videos are often noisy and exhibit morphological distortions that make direct imitation difficult compared to real video. To address this, we introduce a two-stage pipeline. First, we lift video pixels into a 4D human representation and then retarget to the humanoid morphology. Second, we propose GenMimic-a physics-aware reinforcement learning policy conditioned on 3D keypoints, and trained with symmetry regularization and keypoint-weighted tracking rewards. As a result, GenMimic can mimic human actions from noisy, generated videos. We curate GenMimicBench, a synthetic human-motion dataset generated using two video generation models across a spectrum of actions and contexts, establishing a benchmark for assessing zero-shot generalization and policy robustness. Extensive experiments demonstrate improvements over strong baselines in simulation and confirm coherent, physically stable motion tracking on a Unitree G1 humanoid robot without fine-tuning. This work offers a promising path to realizing the potential of video generation models as high-level policies for robot control.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T18:56:03Z</published>
+    <arxiv:comment>For project website, see https://genmimic.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>James Ni</name>
+    </author>
+    <author>
+      <name>Zekai Wang</name>
+    </author>
+    <author>
+      <name>Wei Lin</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Jitendra Malik</name>
+    </author>
+    <author>
+      <name>Roei Herzig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.08544v3</id>
+    <title>LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics</title>
+    <updated>2025-11-14T08:38:32Z</updated>
+    <link href="https://arxiv.org/abs/2511.08544v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.08544v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning manipulable representations of the world and its dynamics is central to AI. Joint-Embedding Predictive Architectures (JEPAs) offer a promising blueprint, but lack of practical guidance and theory has led to ad-hoc R&amp;D. We present a comprehensive theory of JEPAs and instantiate it in {\bf LeJEPA}, a lean, scalable, and theoretically grounded training objective. First, we identify the isotropic Gaussian as the optimal distribution that JEPAs' embeddings should follow to minimize downstream prediction risk. Second, we introduce a novel objective--{\bf Sketched Isotropic Gaussian Regularization} (SIGReg)--to constrain embeddings to reach that ideal distribution. Combining the JEPA predictive loss with SIGReg yields LeJEPA with numerous theoretical and practical benefits: (i) single trade-off hyperparameter, (ii) linear time and memory complexity, (iii) stability across hyper-parameters, architectures (ResNets, ViTs, ConvNets) and domains, (iv) heuristics-free, e.g., no stop-gradient, no teacher-student, no hyper-parameter schedulers, and (v) distributed training-friendly implementation requiring only $\approx$50 lines of code. Our empirical validation covers 10+ datasets, 60+ architectures, all with varying scales and domains. As an example, using imagenet-1k for pretraining and linear evaluation with frozen backbone, LeJEPA reaches 79\% with a ViT-H/14. We hope that the simplicity and theory-friendly ecosystem offered by LeJEPA will reestablish self-supervised pre-training as a core pillar of AI research (\href{https://github.com/rbalestr-lab/lejepa}{GitHub repo}).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T18:21:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.04670v1</id>
+    <title>Cambrian-S: Towards Spatial Supersensing in Video</title>
+    <updated>2025-11-06T18:55:17Z</updated>
+    <link href="https://arxiv.org/abs/2511.04670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.04670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that progress in true multimodal intelligence calls for a shift from reactive, task-driven systems and brute-force long context towards a broader paradigm of supersensing. We frame spatial supersensing as four stages beyond linguistic-only understanding: semantic perception (naming what is seen), streaming event cognition (maintaining memory across continuous experiences), implicit 3D spatial cognition (inferring the world behind pixels), and predictive world modeling (creating internal models that filter and organize information). Current benchmarks largely test only the early stages, offering narrow coverage of spatial cognition and rarely challenging models in ways that require true world modeling. To drive progress in spatial supersensing, we present VSI-SUPER, a two-part benchmark: VSR (long-horizon visual spatial recall) and VSC (continual visual spatial counting). These tasks require arbitrarily long video inputs yet are resistant to brute-force context expansion. We then test data scaling limits by curating VSI-590K and training Cambrian-S, achieving +30% absolute improvement on VSI-Bench without sacrificing general capabilities. Yet performance on VSI-SUPER remains limited, indicating that scale alone is insufficient for spatial supersensing. We propose predictive sensing as a path forward, presenting a proof-of-concept in which a self-supervised next-latent-frame predictor leverages surprise (prediction error) to drive memory and event segmentation. On VSI-SUPER, this approach substantially outperforms leading proprietary baselines, showing that spatial supersensing requires models that not only see but also anticipate, select, and organize experience.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-06T18:55:17Z</published>
+    <arxiv:comment>Website: https://cambrian-mllm.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shusheng Yang</name>
+    </author>
+    <author>
+      <name>Jihan Yang</name>
+    </author>
+    <author>
+      <name>Pinzhi Huang</name>
+    </author>
+    <author>
+      <name>Ellis Brown</name>
+    </author>
+    <author>
+      <name>Zihao Yang</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Zihan Zheng</name>
+    </author>
+    <author>
+      <name>Yifan Xu</name>
+    </author>
+    <author>
+      <name>Muhan Wang</name>
+    </author>
+    <author>
+      <name>Daohan Lu</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.06477v1</id>
+    <title>Attention Sinks and Compression Valleys in LLMs are Two Sides of the Same Coin</title>
+    <updated>2025-10-07T21:27:24Z</updated>
+    <link href="https://arxiv.org/abs/2510.06477v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.06477v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Attention sinks and compression valleys have attracted significant attention as two puzzling phenomena in large language models, but have been studied in isolation. In this work, we present a surprising connection between attention sinks and compression valleys, tracing both to the formation of massive activations in the residual stream. We prove theoretically that massive activations necessarily produce representational compression and establish bounds on the resulting entropy reduction. Through experiments across several models (410M-120B parameters), we confirm that when the beginning-of-sequence token develops extreme activation norms in the middle layers, both compression valleys and attention sinks emerge simultaneously. Targeted ablation studies validate our theoretical predictions. This unified view motivates us to propose the Mix-Compress-Refine theory of information flow, as an attempt to explain how LLMs organize their computation in depth by controlling attention and representational compression via massive activations. Specifically, we posit that Transformer-based LLMs process tokens in three distinct phases: (1) broad mixing in the early layers, (2) compressed computation with limited mixing in the middle layers, and (3) selective refinement in the late layers. Our framework helps explain why embedding tasks perform best at intermediate layers, whereas generation tasks benefit from full-depth processing, clarifying differences in task-dependent representations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-07T21:27:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Enrique Queipo-de-Llano</name>
+    </author>
+    <author>
+      <name>Álvaro Arroyo</name>
+    </author>
+    <author>
+      <name>Federico Barbero</name>
+    </author>
+    <author>
+      <name>Xiaowen Dong</name>
+    </author>
+    <author>
+      <name>Michael Bronstein</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.05949v1</id>
+    <title>Gaussian Embeddings: How JEPAs Secretly Learn Your Data Density</title>
+    <updated>2025-10-07T14:06:30Z</updated>
+    <link href="https://arxiv.org/abs/2510.05949v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.05949v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint Embedding Predictive Architectures (JEPAs) learn representations able to solve numerous downstream tasks out-of-the-box. JEPAs combine two objectives: (i) a latent-space prediction term, i.e., the representation of a slightly perturbed sample must be predictable from the original sample's representation, and (ii) an anti-collapse term, i.e., not all samples should have the same representation. While (ii) is often considered as an obvious remedy to representation collapse, we uncover that JEPAs' anti-collapse term does much more--it provably estimates the data density. In short, any successfully trained JEPA can be used to get sample probabilities, e.g., for data curation, outlier detection, or simply for density estimation. Our theoretical finding is agnostic of the dataset and architecture used--in any case one can compute the learned probabilities of sample $x$ efficiently and in closed-form using the model's Jacobian matrix at $x$. Our findings are empirically validated across datasets (synthetic, controlled, and Imagenet) and across different Self Supervised Learning methods falling under the JEPA family (I-JEPA and DINOv2) and on multimodal models, such as MetaCLIP. We denote the method extracting the JEPA learned density as {\bf JEPA-SCORE}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-07T14:06:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Mike Rabbat</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14252v2</id>
+    <title>LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures</title>
+    <updated>2025-10-07T17:55:14Z</updated>
+    <link href="https://arxiv.org/abs/2509.14252v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14252v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) pretraining, finetuning, and evaluation rely on input-space reconstruction and generative capabilities. Yet, it has been observed in vision that embedding-space training objectives, e.g., with Joint Embedding Predictive Architectures (JEPAs), are far superior to their input-space counterpart. That mismatch in how training is achieved between language and vision opens up a natural question: {\em can language training methods learn a few tricks from the vision ones?} The lack of JEPA-style LLM is a testimony of the challenge in designing such objectives for language. In this work, we propose a first step in that direction where we develop LLM-JEPA, a JEPA based solution for LLMs applicable both to finetuning and pretraining. Thus far, LLM-JEPA is able to outperform the standard LLM training objectives by a significant margin across models, all while being robust to overfiting. Those findings are observed across numerous datasets (NL-RX, GSM8K, Spider, RottenTomatoes) and various models from the Llama3, OpenELM, Gemma2 and Olmo families. Code: https://github.com/rbalestr-lab/llm-jepa.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-11T03:03:57Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hai Huang</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.19468v1</id>
+    <title>Back to the Features: DINO as a Foundation for Video World Models</title>
+    <updated>2025-07-25T17:54:10Z</updated>
+    <link href="https://arxiv.org/abs/2507.19468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.19468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present DINO-world, a powerful generalist video world model trained to predict future frames in the latent space of DINOv2. By leveraging a pre-trained image encoder and training a future predictor on a large-scale uncurated video dataset, DINO-world learns the temporal dynamics of diverse scenes, from driving and indoor scenes to simulated environments. We show that DINO-world outperforms previous models on a variety of video prediction benchmarks, e.g. segmentation and depth forecasting, and demonstrates strong understanding of intuitive physics. Furthermore, we show that it is possible to fine-tune the predictor on observation-action trajectories. The resulting action-conditioned world model can be used for planning by simulating candidate trajectories in latent space.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-25T17:54:10Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Federico Baldassarre</name>
+    </author>
+    <author>
+      <name>Marc Szafraniec</name>
+    </author>
+    <author>
+      <name>Basile Terver</name>
+    </author>
+    <author>
+      <name>Vasil Khalidov</name>
+    </author>
+    <author>
+      <name>Francisco Massa</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Patrick Labatut</name>
+    </author>
+    <author>
+      <name>Maximilian Seitzer</name>
+    </author>
+    <author>
+      <name>Piotr Bojanowski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.21552v1</id>
+    <title>Whole-Body Conditioned Egocentric Video Prediction</title>
+    <updated>2025-06-26T17:59:59Z</updated>
+    <link href="https://arxiv.org/abs/2506.21552v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.21552v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We train models to Predict Ego-centric Video from human Actions (PEVA), given the past video and an action represented by the relative 3D body pose. By conditioning on kinematic pose trajectories, structured by the joint hierarchy of the body, our model learns to simulate how physical human actions shape the environment from a first-person point of view. We train an auto-regressive conditional diffusion transformer on Nymeria, a large-scale dataset of real-world egocentric video and body pose capture. We further design a hierarchical evaluation protocol with increasingly challenging tasks, enabling a comprehensive analysis of the model's embodied prediction and control abilities. Our work represents an initial attempt to tackle the challenges of modeling complex real-world environments and embodied agent behaviors with video prediction from the perspective of a human.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-26T17:59:59Z</published>
+    <arxiv:comment>Project Page: https://dannytran123.github.io/PEVA</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yutong Bai</name>
+    </author>
+    <author>
+      <name>Danny Tran</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Jitendra Malik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.09985v1</id>
+    <title>V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning</title>
+    <updated>2025-06-11T17:57:09Z</updated>
+    <link href="https://arxiv.org/abs/2506.09985v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.09985v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A major challenge for modern AI is to learn to understand the world and learn to act largely by observation. This paper explores a self-supervised approach that combines internet-scale video data with a small amount of interaction data (robot trajectories), to develop models capable of understanding, predicting, and planning in the physical world. We first pre-train an action-free joint-embedding-predictive architecture, V-JEPA 2, on a video and image dataset comprising over 1 million hours of internet video. V-JEPA 2 achieves strong performance on motion understanding (77.3 top-1 accuracy on Something-Something v2) and state-of-the-art performance on human action anticipation (39.7 recall-at-5 on Epic-Kitchens-100) surpassing previous task-specific models. Additionally, after aligning V-JEPA 2 with a large language model, we demonstrate state-of-the-art performance on multiple video question-answering tasks at the 8 billion parameter scale (e.g., 84.0 on PerceptionTest, 76.9 on TempCompass). Finally, we show how self-supervised learning can be applied to robotic planning tasks by post-training a latent action-conditioned world model, V-JEPA 2-AC, using less than 62 hours of unlabeled robot videos from the Droid dataset. We deploy V-JEPA 2-AC zero-shot on Franka arms in two different labs and enable picking and placing of objects using planning with image goals. Notably, this is achieved without collecting any data from the robots in these environments, and without any task-specific training or reward. This work demonstrates how self-supervised learning from web-scale data and a small amount of robot interaction data can yield a world model capable of planning in the physical world.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-11T17:57:09Z</published>
+    <arxiv:comment>48 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mido Assran</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>David Fan</name>
+    </author>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Russell Howes</name>
+    </author>
+    <author>
+      <name> Mojtaba</name>
+    </author>
+    <author>
+      <name> Komeili</name>
+    </author>
+    <author>
+      <name>Matthew Muckley</name>
+    </author>
+    <author>
+      <name>Ammar Rizvi</name>
+    </author>
+    <author>
+      <name>Claire Roberts</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Artem Zholus</name>
+    </author>
+    <author>
+      <name>Sergio Arnaud</name>
+    </author>
+    <author>
+      <name>Abha Gejji</name>
+    </author>
+    <author>
+      <name>Ada Martin</name>
+    </author>
+    <author>
+      <name>Francois Robert Hogan</name>
+    </author>
+    <author>
+      <name>Daniel Dugas</name>
+    </author>
+    <author>
+      <name>Piotr Bojanowski</name>
+    </author>
+    <author>
+      <name>Vasil Khalidov</name>
+    </author>
+    <author>
+      <name>Patrick Labatut</name>
+    </author>
+    <author>
+      <name>Francisco Massa</name>
+    </author>
+    <author>
+      <name>Marc Szafraniec</name>
+    </author>
+    <author>
+      <name>Kapil Krishnakumar</name>
+    </author>
+    <author>
+      <name>Yong Li</name>
+    </author>
+    <author>
+      <name>Xiaodong Ma</name>
+    </author>
+    <author>
+      <name>Sarath Chandar</name>
+    </author>
+    <author>
+      <name>Franziska Meier</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.20425v2</id>
+    <title>OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation</title>
+    <updated>2025-12-30T21:48:04Z</updated>
+    <link href="https://arxiv.org/abs/2505.20425v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.20425v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual imitation learning enables robotic agents to acquire skills by observing expert demonstration videos. In the one-shot setting, the agent generates a policy after observing a single expert demonstration without additional fine-tuning. Existing approaches typically train and evaluate on the same set of tasks, varying only object configurations, and struggle to generalize to unseen tasks with different semantic or structural requirements. While some recent methods attempt to address this, they exhibit low success rates on hard test tasks that, despite being visually similar to some training tasks, differ in context and require distinct responses. Additionally, most existing methods lack an explicit model of environment dynamics, limiting their ability to reason about future states. To address these limitations, we propose a novel framework for one-shot visual imitation learning via world-model-guided trajectory generation. Given an expert demonstration video and the agent's initial observation, our method leverages a learned world model to predict a sequence of latent states and actions. This latent trajectory is then decoded into physical waypoints that guide the agent's execution. Our method is evaluated on two simulated benchmarks and three real-world robotic platforms, where it consistently outperforms prior approaches, with over 30% improvement in some cases. The code is available at https://github.com/raktimgg/osvi-wm.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T18:18:25Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Raktim Gautam Goswami</name>
+    </author>
+    <author>
+      <name>Prashanth Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Farshad Khorrami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.17117v6</id>
+    <title>From Tokens to Thoughts: How LLMs and Humans Trade Compression for Meaning</title>
+    <updated>2025-12-01T22:23:22Z</updated>
+    <link href="https://arxiv.org/abs/2505.17117v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.17117v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans organize knowledge into compact conceptual categories that balance compression with semantic richness. Large Language Models (LLMs) exhibit impressive linguistic abilities, but whether they navigate this same compression-meaning trade-off remains unclear. We apply an Information Bottleneck framework to compare human conceptual structure with embeddings from 40+ LLMs using classic categorization benchmarks. We find that LLMs broadly align with human category boundaries, yet fall short on fine-grained semantic distinctions. Unlike humans, who maintain ``inefficient'' representations that preserve contextual nuance, LLMs aggressively compress, achieving more optimal information-theoretic compression at the cost of semantic richness. Surprisingly, encoder models outperform much larger decoder models in human alignment, suggesting that understanding and generation rely on distinct representational mechanisms. Training-dynamics analysis reveals a two-phase trajectory: rapid initial concept formation followed by architectural reorganization, during which semantic processing migrates from deep to mid-network layers as the model discovers increasingly efficient, sparser encodings. These divergent strategies, where LLMs optimize for compression and humans for adaptive utility, reveal fundamental differences between artificial and natural intelligence. This highlights the need for models that preserve the conceptual ``inefficiencies'' essential for human-like understanding.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-21T16:29:00Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chen Shani</name>
+    </author>
+    <author>
+      <name>Liron Soffer</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.01017v1</id>
+    <title>Scaling Language-Free Visual Representation Learning</title>
+    <updated>2025-04-01T17:59:15Z</updated>
+    <link href="https://arxiv.org/abs/2504.01017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.01017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual Self-Supervised Learning (SSL) currently underperforms Contrastive Language-Image Pretraining (CLIP) in multimodal settings such as Visual Question Answering (VQA). This multimodal gap is often attributed to the semantics introduced by language supervision, even though visual SSL and CLIP models are often trained on different data. In this work, we ask the question: "Do visual self-supervised approaches lag behind CLIP due to the lack of language supervision, or differences in the training data?" We study this question by training both visual SSL and CLIP models on the same MetaCLIP data, and leveraging VQA as a diverse testbed for vision encoders. In this controlled setup, visual SSL models scale better than CLIP models in terms of data and model capacity, and visual SSL performance does not saturate even after scaling up to 7B parameters. Consequently, we observe visual SSL methods achieve CLIP-level performance on a wide range of VQA and classic vision benchmarks. These findings demonstrate that pure visual SSL can match language-supervised visual pretraining at scale, opening new opportunities for vision-centric representation learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-01T17:59:15Z</published>
+    <arxiv:comment>Project page at https://davidfan.io/webssl/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>David Fan</name>
+    </author>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Zhuang Liu</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10622v2</id>
+    <title>Transformers without Normalization</title>
+    <updated>2025-06-14T08:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2503.10622v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10622v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Normalization layers are ubiquitous in modern neural networks and have long been considered essential. This work demonstrates that Transformers without normalization can achieve the same or better performance using a remarkably simple technique. We introduce Dynamic Tanh (DyT), an element-wise operation $DyT($x$) = \tanh(α$x$)$, as a drop-in replacement for normalization layers in Transformers. DyT is inspired by the observation that layer normalization in Transformers often produces tanh-like, $S$-shaped input-output mappings. By incorporating DyT, Transformers without normalization can match or exceed the performance of their normalized counterparts, mostly without hyperparameter tuning. We validate the effectiveness of Transformers with DyT across diverse settings, ranging from recognition to generation, supervised to self-supervised learning, and computer vision to language models. These findings challenge the conventional understanding that normalization layers are indispensable in modern neural networks, and offer new insights into their role in deep networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T17:59:06Z</published>
+    <arxiv:comment>CVPR 2025; Project page: https://jiachenzhu.github.io/DyT/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Zhuang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.15969v4</id>
+    <title>Forgotten Polygons: Multimodal Large Language Models are Shape-Blind</title>
+    <updated>2025-08-25T14:28:48Z</updated>
+    <link href="https://arxiv.org/abs/2502.15969v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.15969v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite strong performance on vision-language tasks, Multimodal Large Language Models (MLLMs) struggle with mathematical problem-solving, with both open-source and state-of-the-art models falling short of human performance on visual-math benchmarks. To systematically examine visual-mathematical reasoning in MLLMs, we (1) evaluate their understanding of geometric primitives, (2) test multi-step reasoning, and (3) explore a potential solution to improve visual reasoning capabilities. Our findings reveal fundamental shortcomings in shape recognition, with top models achieving under 50% accuracy in identifying regular polygons. We analyze these failures through the lens of dual-process theory and show that MLLMs rely on System 1 (intuitive, memorized associations) rather than System 2 (deliberate reasoning). Consequently, MLLMs fail to count the sides of both familiar and novel shapes, suggesting they have neither learned the concept of sides nor effectively process visual inputs. Finally, we propose Visually Cued Chain-of-Thought (VC-CoT) prompting, which enhances multi-step mathematical reasoning by explicitly referencing visual annotations in diagrams, boosting GPT-4o's accuracy on an irregular polygon side-counting task from 7% to 93%. Our findings suggest that System 2 reasoning in MLLMs remains an open problem, and visually-guided prompting is essential for successfully engaging visual reasoning. Code available at: https://github.com/rsinghlab/Shape-Blind.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-21T22:04:09Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>William Rudman</name>
+    </author>
+    <author>
+      <name>Michal Golovanevsky</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Vedant Palit</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Carsten Eickhoff</name>
+    </author>
+    <author>
+      <name>Ritambhara Singh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14819v4</id>
+    <title>Learning from Reward-Free Offline Data: A Case for Planning with Latent Dynamics Models</title>
+    <updated>2025-10-29T00:35:42Z</updated>
+    <link href="https://arxiv.org/abs/2502.14819v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14819v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A long-standing goal in AI is to develop agents capable of solving diverse tasks across a range of environments, including those never seen during training. Two dominant paradigms address this challenge: (i) reinforcement learning (RL), which learns policies via trial and error, and (ii) optimal control, which plans actions using a known or learned dynamics model. However, their comparative strengths in the offline setting - where agents must learn from reward-free trajectories - remain underexplored. In this work, we systematically evaluate RL and control-based methods on a suite of navigation tasks, using offline datasets of varying quality. On the RL side, we consider goal-conditioned and zero-shot methods. On the control side, we train a latent dynamics model using the Joint Embedding Predictive Architecture (JEPA) and employ it for planning. We investigate how factors such as data diversity, trajectory quality, and environment variability influence the performance of these approaches. Our results show that model-free RL benefits most from large amounts of high-quality data, whereas model-based planning generalizes better to unseen layouts and is more data-efficient, while achieving trajectory stitching performance comparable to leading model-free methods. Notably, planning with a latent dynamics model proves to be a strong approach for handling suboptimal offline data and adapting to diverse environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-20T18:39:41Z</published>
+    <arxiv:comment>Project web page: https://latent-planning.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Wancong Zhang</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Tim G. J. Rudner</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11831v1</id>
+    <title>Intuitive physics understanding emerges from self-supervised pretraining on natural videos</title>
+    <updated>2025-02-17T14:27:14Z</updated>
+    <link href="https://arxiv.org/abs/2502.11831v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11831v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the emergence of intuitive physics understanding in general-purpose deep neural network models trained to predict masked regions in natural videos. Leveraging the violation-of-expectation framework, we find that video prediction models trained to predict outcomes in a learned representation space demonstrate an understanding of various intuitive physics properties, such as object permanence and shape consistency. In contrast, video prediction in pixel space and multimodal large language models, which reason through text, achieve performance closer to chance. Our comparisons of these architectures reveal that jointly learning an abstract representation space while predicting missing parts of sensory input, akin to predictive coding, is sufficient to acquire an understanding of intuitive physics, and that even models trained on one week of unique video achieve above chance performance. This challenges the idea that core knowledge -- a set of innate systems to help understand the world -- needs to be hardwired to develop an understanding of intuitive physics.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T14:27:14Z</published>
+    <arxiv:comment>24 pages,14 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Mahmoud Assran</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Laurent Najman</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Emmanuel Dupoux</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.02013v2</id>
+    <title>Layer by Layer: Uncovering Hidden Representations in Language Models</title>
+    <updated>2025-06-15T18:27:17Z</updated>
+    <link href="https://arxiv.org/abs/2502.02013v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.02013v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From extracting features to generating text, the outputs of large language models (LLMs) typically rely on the final layers, following the conventional wisdom that earlier layers capture only low-level cues. However, our analysis shows that intermediate layers can encode even richer representations, often improving performance on a range of downstream tasks. To explain and quantify these hidden-layer properties, we propose a unified framework of representation quality metrics based on information theory, geometry, and invariance to input perturbations. Our framework highlights how each layer balances information compression and signal preservation, revealing why mid-depth embeddings can exceed the last layer's performance. Through extensive experiments on 32 text-embedding tasks across various architectures (transformers, state-space models) and domains (language, vision), we demonstrate that intermediate layers consistently provide stronger features, challenging the standard view on final-layer embeddings and opening new directions on using mid-layer representations for more robust and accurate representations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-04T05:03:42Z</published>
+    <arxiv:comment>update for ICML2025 camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oscar Skean</name>
+    </author>
+    <author>
+      <name>Md Rifat Arefin</name>
+    </author>
+    <author>
+      <name>Dan Zhao</name>
+    </author>
+    <author>
+      <name>Niket Patel</name>
+    </author>
+    <author>
+      <name>Jalal Naghiyev</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.14164v1</id>
+    <title>MetaMorph: Multimodal Understanding and Generation via Instruction Tuning</title>
+    <updated>2024-12-18T18:58:50Z</updated>
+    <link href="https://arxiv.org/abs/2412.14164v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.14164v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we propose Visual-Predictive Instruction Tuning (VPiT) - a simple and effective extension to visual instruction tuning that enables a pretrained LLM to quickly morph into an unified autoregressive model capable of generating both text and visual tokens. VPiT teaches an LLM to predict discrete text tokens and continuous visual tokens from any input sequence of image and text data curated in an instruction-following format. Our empirical investigation reveals several intriguing properties of VPiT: (1) visual generation ability emerges as a natural byproduct of improved visual understanding, and can be unlocked efficiently with a small amount of generation data; (2) while we find understanding and generation to be mutually beneficial, understanding data contributes to both capabilities more effectively than generation data. Building upon these findings, we train our MetaMorph model and achieve competitive performance on both visual understanding and generation. In visual generation, MetaMorph can leverage the world knowledge and reasoning abilities gained from LLM pretraining, and overcome common failure modes exhibited by other generation models. Our results suggest that LLMs may have strong "prior" vision capabilities that can be efficiently adapted to both visual understanding and generation with a relatively simple instruction tuning process.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-18T18:58:50Z</published>
+    <arxiv:comment>Project page at tsb0601.github.io/metamorph</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>David Fan</name>
+    </author>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Yunyang Xiong</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+    <author>
+      <name>Zhuang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.10925v1</id>
+    <title>Video Representation Learning with Joint-Embedding Predictive Architectures</title>
+    <updated>2024-12-14T18:33:29Z</updated>
+    <link href="https://arxiv.org/abs/2412.10925v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.10925v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video representation learning is an increasingly important topic in machine learning research. We present Video JEPA with Variance-Covariance Regularization (VJ-VCR): a joint-embedding predictive architecture for self-supervised video representation learning that employs variance and covariance regularization to avoid representation collapse. We show that hidden representations from our VJ-VCR contain abstract, high-level information about the input data. Specifically, they outperform representations obtained from a generative baseline on downstream tasks that require understanding of the underlying dynamics of moving objects in the videos. Additionally, we explore different ways to incorporate latent variables into the VJ-VCR framework that capture information about uncertainty in the future in non-deterministic settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-14T18:33:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Katrina Drozdov</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.09563v1</id>
+    <title>Does Representation Matter? Exploring Intermediate Layers in Large Language Models</title>
+    <updated>2024-12-12T18:48:51Z</updated>
+    <link href="https://arxiv.org/abs/2412.09563v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.09563v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding what defines a good representation in large language models (LLMs) is fundamental to both theoretical understanding and practical applications. In this paper, we investigate the quality of intermediate representations in various LLM architectures, including Transformers and State Space Models (SSMs). We find that intermediate layers often yield more informative representations for downstream tasks than the final layers. To measure the representation quality, we adapt and apply a suite of metrics - such as prompt entropy, curvature, and augmentation-invariance - originally proposed in other contexts. Our empirical study reveals significant architectural differences, how representations evolve throughout training, and how factors like input randomness and prompt length affect each layer. Notably, we observe a bimodal pattern in the entropy of some intermediate layers and consider potential explanations tied to training data. Overall, our results illuminate the internal mechanics of LLMs and guide strategies for architectural optimization and training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-12T18:48:51Z</published>
+    <arxiv:comment>Accepted to 2024 NeurIPs Workshop on Machine Learning and Compression</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oscar Skean</name>
+    </author>
+    <author>
+      <name>Md Rifat Arefin</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07169v4</id>
+    <title>Rate-In: Information-Driven Adaptive Dropout Rates for Improved Inference-Time Uncertainty Estimation</title>
+    <updated>2025-06-04T03:01:01Z</updated>
+    <link href="https://arxiv.org/abs/2412.07169v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07169v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate uncertainty estimation is crucial for deploying neural networks in risk-sensitive applications such as medical diagnosis. Monte Carlo Dropout is a widely used technique for approximating predictive uncertainty by performing stochastic forward passes with dropout during inference. However, using static dropout rates across all layers and inputs can lead to suboptimal uncertainty estimates, as it fails to adapt to the varying characteristics of individual inputs and network layers. Existing approaches optimize dropout rates during training using labeled data, resulting in fixed inference-time parameters that cannot adjust to new data distributions, compromising uncertainty estimates in Monte Carlo simulations.
+  In this paper, we propose Rate-In, an algorithm that dynamically adjusts dropout rates during inference by quantifying the information loss induced by dropout in each layer's feature maps. By treating dropout as controlled noise injection and leveraging information-theoretic principles, Rate-In adapts dropout rates per layer and per input instance without requiring ground truth labels. By quantifying the functional information loss in feature maps, we adaptively tune dropout rates to maintain perceptual quality across diverse medical imaging tasks and architectural configurations. Our extensive empirical study on synthetic data and real-world medical imaging tasks demonstrates that Rate-In improves calibration and sharpens uncertainty estimates compared to fixed or heuristic dropout rates without compromising predictive performance. Rate-In offers a practical, unsupervised, inference-time approach to optimizing dropout for more reliable predictive uncertainty estimation in critical applications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T04:03:46Z</published>
+    <arxiv:comment>Accepted to the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025. Code available at: https://github.com/code-supplement-25/rate-in</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tal Zeevi</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Lawrence H. Staib</name>
+    </author>
+    <author>
+      <name>John A. Onofrey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.03572v2</id>
+    <title>Navigation World Models</title>
+    <updated>2025-04-11T19:20:22Z</updated>
+    <link href="https://arxiv.org/abs/2412.03572v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.03572v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observations based on past observations and navigation actions. To capture complex environment dynamics, NWM employs a Conditional Diffusion Transformer (CDiT), trained on a diverse collection of egocentric videos of both human and robotic agents, and scaled up to 1 billion parameters. In familiar environments, NWM can plan navigation trajectories by simulating them and evaluating whether they achieve the desired goal. Unlike supervised navigation policies with fixed behavior, NWM can dynamically incorporate constraints during planning. Experiments demonstrate its effectiveness in planning trajectories from scratch or by ranking trajectories sampled from an external policy. Furthermore, NWM leverages its learned visual priors to imagine trajectories in unfamiliar environments from a single input image, making it a flexible and powerful tool for next-generation navigation systems.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-04T18:59:45Z</published>
+    <arxiv:comment>CVPR 2025. Project page: https://www.amirbar.net/nwm/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Gaoyue Zhou</name>
+    </author>
+    <author>
+      <name>Danny Tran</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17662v2</id>
+    <title>RoboPEPP: Vision-Based Robot Pose and Joint Angle Estimation through Embedding Predictive Pre-Training</title>
+    <updated>2025-05-02T17:36:47Z</updated>
+    <link href="https://arxiv.org/abs/2411.17662v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17662v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-based pose estimation of articulated robots with unknown joint angles has applications in collaborative robotics and human-robot interaction tasks. Current frameworks use neural network encoders to extract image features and downstream layers to predict joint angles and robot pose. While images of robots inherently contain rich information about the robot's physical structures, existing methods often fail to leverage it fully; therefore, limiting performance under occlusions and truncations. To address this, we introduce RoboPEPP, a method that fuses information about the robot's physical model into the encoder using a masking-based self-supervised embedding-predictive architecture. Specifically, we mask the robot's joints and pre-train an encoder-predictor model to infer the joints' embeddings from surrounding unmasked regions, enhancing the encoder's understanding of the robot's physical model. The pre-trained encoder-predictor pair, along with joint angle and keypoint prediction networks, is then fine-tuned for pose and joint angle estimation. Random masking of input during fine-tuning and keypoint filtering during evaluation further improves robustness. Our method, evaluated on several datasets, achieves the best results in robot pose and joint angle estimation while being the least sensitive to occlusions and requiring the lowest execution time.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T18:26:17Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Raktim Gautam Goswami</name>
+    </author>
+    <author>
+      <name>Prashanth Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Farshad Khorrami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15931v2</id>
+    <title>Improving Pre-trained Self-Supervised Embeddings Through Effective Entropy Maximization</title>
+    <updated>2025-03-13T20:12:09Z</updated>
+    <link href="https://arxiv.org/abs/2411.15931v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15931v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A number of different architectures and loss functions have been applied to the problem of self-supervised learning (SSL), with the goal of developing embeddings that provide the best possible pre-training for as-yet-unknown, lightly supervised downstream tasks. One of these SSL criteria is to maximize the entropy of a set of embeddings in some compact space. But the goal of maximizing the embedding entropy often depends -- whether explicitly or implicitly -- upon high dimensional entropy estimates, which typically perform poorly in more than a few dimensions. In this paper, we motivate an effective entropy maximization criterion (E2MC), defined in terms of easy-to-estimate, low-dimensional constraints. We demonstrate that using it to continue training an already-trained SSL model for only a handful of epochs leads to a consistent and, in some cases, significant improvement in downstream performance. We perform careful ablation studies to show that the improved performance is due to the proposed add-on criterion. We also show that continued pre-training with alternative criteria does not lead to notable improvements, and in some cases, even degrades performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-24T17:38:23Z</published>
+    <arxiv:comment>Published in Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS 2025). A preliminary version of this work also appeared in the NeurIPS 2024 Workshop on Self-Supervised Learning: Theory and Practice</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Deep Chakraborty</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Tim G. J. Rudner</name>
+    </author>
+    <author>
+      <name>Erik Learned-Miller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.04983v2</id>
+    <title>DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning</title>
+    <updated>2025-02-01T02:40:49Z</updated>
+    <link href="https://arxiv.org/abs/2411.04983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.04983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to predict future outcomes given control actions is fundamental for physical reasoning. However, such predictive models, often called world models, remains challenging to learn and are typically developed for task-specific solutions with online policy learning. To unlock world models' true potential, we argue that they should 1) be trainable on offline, pre-collected trajectories, 2) support test-time behavior optimization, and 3) facilitate task-agnostic reasoning. To this end, we present DINO World Model (DINO-WM), a new method to model visual dynamics without reconstructing the visual world. DINO-WM leverages spatial patch features pre-trained with DINOv2, enabling it to learn from offline behavioral trajectories by predicting future patch features. This allows DINO-WM to achieve observational goals through action sequence optimization, facilitating task-agnostic planning by treating goal features as prediction targets. We demonstrate that DINO-WM achieves zero-shot behavioral solutions at test time on six environments without expert demonstrations, reward modeling, or pre-learned inverse models, outperforming prior state-of-the-art work across diverse task families such as arbitrarily configured mazes, push manipulation with varied object shapes, and multi-particle scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-07T18:54:37Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Gaoyue Zhou</name>
+    </author>
+    <author>
+      <name>Hengkai Pan</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Lerrel Pinto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.02344v2</id>
+    <title>Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning</title>
+    <updated>2025-03-20T17:37:44Z</updated>
+    <link href="https://arxiv.org/abs/2411.02344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.02344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decoder-only Transformers often struggle with complex reasoning tasks, particularly arithmetic reasoning requiring multiple sequential operations. In this work, we identify representation collapse in the model's intermediate layers as a key factor limiting their reasoning capabilities. To address this, we propose Sequential Variance-Covariance Regularization (Seq-VCR), which enhances the entropy of intermediate representations and prevents collapse. Combined with dummy pause tokens as substitutes for chain-of-thought (CoT) tokens, our method significantly improves performance in arithmetic reasoning problems. In the challenging $5 \times 5$ integer multiplication task, our approach achieves $99.5\%$ exact match accuracy, outperforming models of the same size (which yield $0\%$ accuracy) and GPT-4 with five-shot CoT prompting ($44\%$). We also demonstrate superior results on arithmetic expression and longest increasing subsequence (LIS) datasets. Our findings highlight the importance of preventing intermediate layer representation collapse to enhance the reasoning capabilities of Transformers and show that Seq-VCR offers an effective solution without requiring explicit CoT supervision.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-04T18:14:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Md Rifat Arefin</name>
+    </author>
+    <author>
+      <name>Gopeshh Subbaraj</name>
+    </author>
+    <author>
+      <name>Nicolas Gontier</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21256v2</id>
+    <title>Multi-modal AI for comprehensive breast cancer prognostication</title>
+    <updated>2025-03-03T03:23:44Z</updated>
+    <link href="https://arxiv.org/abs/2410.21256v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21256v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Treatment selection in breast cancer is guided by molecular subtypes and clinical characteristics. However, current tools including genomic assays lack the accuracy required for optimal clinical decision-making. We developed a novel artificial intelligence (AI)-based approach that integrates digital pathology images with clinical data, providing a more robust and effective method for predicting the risk of cancer recurrence in breast cancer patients. Specifically, we utilized a vision transformer pan-cancer foundation model trained with self-supervised learning to extract features from digitized H&amp;E-stained slides. These features were integrated with clinical data to form a multi-modal AI test predicting cancer recurrence and death. The test was developed and evaluated using data from a total of 8,161 female breast cancer patients across 15 cohorts originating from seven countries. Of these, 3,502 patients from five cohorts were used exclusively for evaluation, while the remaining patients were used for training. Our test accurately predicted our primary endpoint, disease-free interval, in the five evaluation cohorts (C-index: 0.71 [0.68-0.75], HR: 3.63 [3.02-4.37, p&lt;0.001]). In a direct comparison (n=858), the AI test was more accurate than Oncotype DX, the standard-of-care 21-gene assay, achieving a C-index of 0.67 [0.61-0.74] versus 0.61 [0.49-0.73], respectively. Additionally, the AI test added independent prognostic information to Oncotype DX in a multivariate analysis (HR: 3.11 [1.91-5.09, p&lt;0.001)]). The test demonstrated robust accuracy across major molecular breast cancer subtypes, including TNBC (C-index: 0.71 [0.62-0.81], HR: 3.81 [2.35-6.17, p=0.02]), where no diagnostic tools are currently recommended by clinical guidelines. These results suggest that our AI test improves upon the accuracy of existing prognostic tests, while being applicable to a wider range of patients.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T17:54:29Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jan Witowski</name>
+    </author>
+    <author>
+      <name>Ken G. Zeng</name>
+    </author>
+    <author>
+      <name>Joseph Cappadona</name>
+    </author>
+    <author>
+      <name>Jailan Elayoubi</name>
+    </author>
+    <author>
+      <name>Khalil Choucair</name>
+    </author>
+    <author>
+      <name>Elena Diana Chiru</name>
+    </author>
+    <author>
+      <name>Nancy Chan</name>
+    </author>
+    <author>
+      <name>Young-Joon Kang</name>
+    </author>
+    <author>
+      <name>Frederick Howard</name>
+    </author>
+    <author>
+      <name>Irina Ostrovnaya</name>
+    </author>
+    <author>
+      <name>Carlos Fernandez-Granda</name>
+    </author>
+    <author>
+      <name>Freya Schnabel</name>
+    </author>
+    <author>
+      <name>Zoe Steinsnyder</name>
+    </author>
+    <author>
+      <name>Ugur Ozerdem</name>
+    </author>
+    <author>
+      <name>Kangning Liu</name>
+    </author>
+    <author>
+      <name>Waleed Abdulsattar</name>
+    </author>
+    <author>
+      <name>Yu Zong</name>
+    </author>
+    <author>
+      <name>Lina Daoud</name>
+    </author>
+    <author>
+      <name>Rafic Beydoun</name>
+    </author>
+    <author>
+      <name>Anas Saad</name>
+    </author>
+    <author>
+      <name>Nitya Thakore</name>
+    </author>
+    <author>
+      <name>Mohammad Sadic</name>
+    </author>
+    <author>
+      <name>Frank Yeung</name>
+    </author>
+    <author>
+      <name>Elisa Liu</name>
+    </author>
+    <author>
+      <name>Theodore Hill</name>
+    </author>
+    <author>
+      <name>Benjamin Swett</name>
+    </author>
+    <author>
+      <name>Danielle Rigau</name>
+    </author>
+    <author>
+      <name>Andrew Clayburn</name>
+    </author>
+    <author>
+      <name>Valerie Speirs</name>
+    </author>
+    <author>
+      <name>Marcus Vetter</name>
+    </author>
+    <author>
+      <name>Lina Sojak</name>
+    </author>
+    <author>
+      <name>Simone Soysal</name>
+    </author>
+    <author>
+      <name>Daniel Baumhoer</name>
+    </author>
+    <author>
+      <name>Jia-Wern Pan</name>
+    </author>
+    <author>
+      <name>Haslina Makmur</name>
+    </author>
+    <author>
+      <name>Soo-Hwang Teo</name>
+    </author>
+    <author>
+      <name>Linda Ma Pak</name>
+    </author>
+    <author>
+      <name>Victor Angel</name>
+    </author>
+    <author>
+      <name>Dovile Zilenaite-Petrulaitiene</name>
+    </author>
+    <author>
+      <name>Arvydas Laurinavicius</name>
+    </author>
+    <author>
+      <name>Natalie Klar</name>
+    </author>
+    <author>
+      <name>Brian D. Piening</name>
+    </author>
+    <author>
+      <name>Carlo Bifulco</name>
+    </author>
+    <author>
+      <name>Sun-Young Jun</name>
+    </author>
+    <author>
+      <name>Jae Pak Yi</name>
+    </author>
+    <author>
+      <name>Su Hyun Lim</name>
+    </author>
+    <author>
+      <name>Adam Brufsky</name>
+    </author>
+    <author>
+      <name>Francisco J. Esteva</name>
+    </author>
+    <author>
+      <name>Lajos Pusztai</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Krzysztof J. Geras</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.11208v3</id>
+    <title>PooDLe: Pooled and dense self-supervised learning from naturalistic videos</title>
+    <updated>2025-04-23T07:57:34Z</updated>
+    <link href="https://arxiv.org/abs/2408.11208v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.11208v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning has driven significant progress in learning from single-subject, iconic images. However, there are still unanswered questions about the use of minimally-curated, naturalistic video data, which contain dense scenes with many independent objects, imbalanced class distributions, and varying object sizes. In this paper, we propose PooDLe, a self-supervised learning method that combines an invariance-based objective on pooled representations with a dense SSL objective that enforces equivariance to optical flow warping. Our results show that a unified objective applied at multiple feature scales is essential for learning effective image representations from naturalistic videos. We validate our method with experiments on the BDD100K driving video dataset and the Walking Tours first-person video dataset, demonstrating its ability to capture spatial understanding from a dense objective and semantic understanding via a pooled representation objective.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-20T21:40:48Z</published>
+    <arxiv:comment>Project page: https://agenticlearning.ai/poodle/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alex N. Wang</name>
+    </author>
+    <author>
+      <name>Christopher Hoang</name>
+    </author>
+    <author>
+      <name>Yuwen Xiong</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Mengye Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.18134v2</id>
+    <title>$\mathbb{X}$-Sample Contrastive Loss: Improving Contrastive Learning with Sample Similarity Graphs</title>
+    <updated>2024-09-11T21:50:21Z</updated>
+    <link href="https://arxiv.org/abs/2407.18134v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.18134v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning good representations involves capturing the diverse ways in which data samples relate. Contrastive loss - an objective matching related samples - underlies methods from self-supervised to multimodal learning. Contrastive losses, however, can be viewed more broadly as modifying a similarity graph to indicate how samples should relate in the embedding space. This view reveals a shortcoming in contrastive learning: the similarity graph is binary, as only one sample is the related positive sample. Crucially, similarities \textit{across} samples are ignored. Based on this observation, we revise the standard contrastive loss to explicitly encode how a sample relates to others. We experiment with this new objective, called $\mathbb{X}$-Sample Contrastive, to train vision models based on similarities in class or text caption descriptions. Our study spans three scales: ImageNet-1k with 1 million, CC3M with 3 million, and CC12M with 12 million samples. The representations learned via our objective outperform both contrastive self-supervised and vision-language models trained on the same data across a range of tasks. When training on CC12M, we outperform CLIP by $0.6\%$ on both ImageNet and ImageNet Real. Our objective appears to work particularly well in lower-data regimes, with gains over CLIP of $16.8\%$ on ImageNet and $18.1\%$ on ImageNet Real when training with CC3M. Finally, our objective seems to encourage the model to learn representations that separate objects from their attributes and backgrounds, with gains of $3.3$-$5.6$\% over CLIP on ImageNet9. We hope the proposed solution takes a small step towards developing richer learning objectives for understanding sample relations in foundation models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-25T15:38:16Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Mark Ibrahim</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Vivien Cabannes</name>
+    </author>
+    <author>
+      <name>Diane Bouchacourt</name>
+    </author>
+    <author>
+      <name>Pietro Astolfi</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19314v2</id>
+    <title>LiveBench: A Challenging, Contamination-Limited LLM Benchmark</title>
+    <updated>2025-04-18T19:36:00Z</updated>
+    <link href="https://arxiv.org/abs/2406.19314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Test set contamination, wherein test data from a benchmark ends up in a newer model's training set, is a well-documented obstacle for fair LLM evaluation and can quickly render benchmarks obsolete. To mitigate this, many recent benchmarks crowdsource new prompts and evaluations from human or LLM judges; however, these can introduce significant biases, and break down when scoring hard questions. In this work, we introduce a new benchmark for LLMs designed to be resistant to both test set contamination and the pitfalls of LLM judging and human crowdsourcing. We release LiveBench, the first benchmark that (1) contains frequently-updated questions from recent information sources, (2) scores answers automatically according to objective ground-truth values, and (3) contains a wide variety of challenging tasks, spanning math, coding, reasoning, language, instruction following, and data analysis. To achieve this, LiveBench contains questions that are based on recently-released math competitions, arXiv papers, news articles, and datasets, and it contains harder, contamination-limited versions of tasks from previous benchmarks such as Big-Bench Hard, AMPS, and IFEval. We evaluate many prominent closed-source models, as well as dozens of open-source models ranging from 0.5B to 405B in size. LiveBench is difficult, with top models achieving below 70% accuracy. We release all questions, code, and model answers. Questions are added and updated on a monthly basis, and we release new tasks and harder versions of tasks over time so that LiveBench can distinguish between the capabilities of LLMs as they improve in the future. We welcome community engagement and collaboration for expanding the benchmark tasks and models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-27T16:47:42Z</published>
+    <arxiv:comment>ICLR 2025 Spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Colin White</name>
+    </author>
+    <author>
+      <name>Samuel Dooley</name>
+    </author>
+    <author>
+      <name>Manley Roberts</name>
+    </author>
+    <author>
+      <name>Arka Pal</name>
+    </author>
+    <author>
+      <name>Ben Feuer</name>
+    </author>
+    <author>
+      <name>Siddhartha Jain</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Neel Jain</name>
+    </author>
+    <author>
+      <name>Khalid Saifullah</name>
+    </author>
+    <author>
+      <name>Sreemanti Dey</name>
+    </author>
+    <author>
+      <name> Shubh-Agrawal</name>
+    </author>
+    <author>
+      <name>Sandeep Singh Sandha</name>
+    </author>
+    <author>
+      <name>Siddartha Naidu</name>
+    </author>
+    <author>
+      <name>Chinmay Hegde</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+    <author>
+      <name>Willie Neiswanger</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16860v2</id>
+    <title>Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs</title>
+    <updated>2024-12-04T17:57:32Z</updated>
+    <link href="https://arxiv.org/abs/2406.16860v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16860v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Cambrian-1, a family of multimodal LLMs (MLLMs) designed with a vision-centric approach. While stronger language models can enhance multimodal capabilities, the design choices for vision components are often insufficiently explored and disconnected from visual representation learning research. This gap hinders accurate sensory grounding in real-world scenarios. Our study uses LLMs and visual instruction tuning as an interface to evaluate various visual representations, offering new insights into different models and architectures -- self-supervised, strongly supervised, or combinations thereof -- based on experiments with over 20 vision encoders. We critically examine existing MLLM benchmarks, address the difficulties involved in consolidating and interpreting results from various tasks, and introduce a new vision-centric benchmark, CV-Bench. To further improve visual grounding, we propose the Spatial Vision Aggregator (SVA), a dynamic and spatially-aware connector that integrates high-resolution vision features with LLMs while reducing the number of tokens. Additionally, we discuss the curation of high-quality visual instruction-tuning data from publicly available sources, emphasizing the importance of data source balancing and distribution ratio. Collectively, Cambrian-1 not only achieves state-of-the-art performance but also serves as a comprehensive, open cookbook for instruction-tuned MLLMs. We provide model weights, code, supporting tools, datasets, and detailed instruction-tuning and evaluation recipes. We hope our release will inspire and accelerate advancements in multimodal systems and visual representation learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-24T17:59:42Z</published>
+    <arxiv:comment>NeurIPS 2024 (Oral). Website at https://cambrian-mllm.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Ellis Brown</name>
+    </author>
+    <author>
+      <name>Penghao Wu</name>
+    </author>
+    <author>
+      <name>Sanghyun Woo</name>
+    </author>
+    <author>
+      <name>Manoj Middepogu</name>
+    </author>
+    <author>
+      <name>Sai Charitha Akula</name>
+    </author>
+    <author>
+      <name>Jihan Yang</name>
+    </author>
+    <author>
+      <name>Shusheng Yang</name>
+    </author>
+    <author>
+      <name>Adithya Iyer</name>
+    </author>
+    <author>
+      <name>Xichen Pan</name>
+    </author>
+    <author>
+      <name>Ziteng Wang</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.11463v1</id>
+    <title>Just How Flexible are Neural Networks in Practice?</title>
+    <updated>2024-06-17T12:24:45Z</updated>
+    <link href="https://arxiv.org/abs/2406.11463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.11463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is widely believed that a neural network can fit a training set containing at least as many samples as it has parameters, underpinning notions of overparameterized and underparameterized models. In practice, however, we only find solutions accessible via our training procedure, including the optimizer and regularizers, limiting flexibility. Moreover, the exact parameterization of the function class, built into an architecture, shapes its loss surface and impacts the minima we find. In this work, we examine the ability of neural networks to fit data in practice. Our findings indicate that: (1) standard optimizers find minima where the model can only fit training sets with significantly fewer samples than it has parameters; (2) convolutional networks are more parameter-efficient than MLPs and ViTs, even on randomly labeled data; (3) while stochastic training is thought to have a regularizing effect, SGD actually finds minima that fit more training data than full-batch gradient descent; (4) the difference in capacity to fit correctly labeled and incorrectly labeled samples can be predictive of generalization; (5) ReLU activation functions result in finding minima that fit more data despite being designed to avoid vanishing and exploding gradients in deep architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-17T12:24:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+    <author>
+      <name>Arpit Bansal</name>
+    </author>
+    <author>
+      <name>C. Bayan Bruss</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Andrew Gordon Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.09366v1</id>
+    <title>Towards an Improved Understanding and Utilization of Maximum Manifold Capacity Representations</title>
+    <updated>2024-06-13T17:49:56Z</updated>
+    <link href="https://arxiv.org/abs/2406.09366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.09366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Maximum Manifold Capacity Representations (MMCR) is a recent multi-view self-supervised learning (MVSSL) method that matches or surpasses other leading MVSSL methods. MMCR is intriguing because it does not fit neatly into any of the commonplace MVSSL lineages, instead originating from a statistical mechanical perspective on the linear separability of data manifolds. In this paper, we seek to improve our understanding and our utilization of MMCR. To better understand MMCR, we leverage tools from high dimensional probability to demonstrate that MMCR incentivizes alignment and uniformity of learned embeddings. We then leverage tools from information theory to show that such embeddings maximize a well-known lower bound on mutual information between views, thereby connecting the geometric perspective of MMCR to the information-theoretic perspective commonly discussed in MVSSL. To better utilize MMCR, we mathematically predict and experimentally confirm non-monotonic changes in the pretraining loss akin to double descent but with respect to atypical hyperparameters. We also discover compute scaling laws that enable predicting the pretraining loss as a function of gradients steps, batch size, embedding dimension and number of views. We then show that MMCR, originally applied to image data, is performant on multimodal image-text data. By more deeply understanding the theoretical and empirical behavior of MMCR, our work reveals insights on improving MVSSL methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T17:49:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rylan Schaeffer</name>
+    </author>
+    <author>
+      <name>Victor Lecomte</name>
+    </author>
+    <author>
+      <name>Dhruv Bhandarkar Pai</name>
+    </author>
+    <author>
+      <name>Andres Carranza</name>
+    </author>
+    <author>
+      <name>Berivan Isik</name>
+    </author>
+    <author>
+      <name>Alyssa Unell</name>
+    </author>
+    <author>
+      <name>Mikail Khona</name>
+    </author>
+    <author>
+      <name>Thomas Yerxa</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>SueYeon Chung</name>
+    </author>
+    <author>
+      <name>Andrey Gromov</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.18418v3</id>
+    <title>Hierarchical World Models as Visual Whole-Body Humanoid Controllers</title>
+    <updated>2025-05-14T18:27:05Z</updated>
+    <link href="https://arxiv.org/abs/2405.18418v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.18418v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Whole-body control for humanoids is challenging due to the high-dimensional nature of the problem, coupled with the inherent instability of a bipedal morphology. Learning from visual observations further exacerbates this difficulty. In this work, we explore highly data-driven approaches to visual whole-body humanoid control based on reinforcement learning, without any simplifying assumptions, reward design, or skill primitives. Specifically, we propose a hierarchical world model in which a high-level agent generates commands based on visual observations for a low-level agent to execute, both of which are trained with rewards. Our approach produces highly performant control policies in 8 tasks with a simulated 56-DoF humanoid, while synthesizing motions that are broadly preferred by humans.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-28T17:57:23Z</published>
+    <arxiv:comment>Code and videos at https://nicklashansen.com/rlpuppeteer</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicklas Hansen</name>
+    </author>
+    <author>
+      <name>Jyothir S</name>
+    </author>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Xiaolong Wang</name>
+    </author>
+    <author>
+      <name>Hao Su</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.15802v1</id>
+    <title>Towards a Framework for Openness in Foundation Models: Proceedings from the Columbia Convening on Openness in Artificial Intelligence</title>
+    <updated>2024-05-17T20:35:39Z</updated>
+    <link href="https://arxiv.org/abs/2405.15802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.15802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Over the past year, there has been a robust debate about the benefits and risks of open sourcing foundation models. However, this discussion has often taken place at a high level of generality or with a narrow focus on specific technical attributes. In part, this is because defining open source for foundation models has proven tricky, given its significant differences from traditional software development. In order to inform more practical and nuanced decisions about opening AI systems, including foundation models, this paper presents a framework for grappling with openness across the AI stack. It summarizes previous work on this topic, analyzes the various potential reasons to pursue openness, and outlines how openness varies in different parts of the AI stack, both at the model and at the system level. In doing so, its authors hope to provide a common descriptive framework to deepen a nuanced and rigorous understanding of openness in AI and enable further work around definitions of openness and safety in AI.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-17T20:35:39Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Adrien Basdevant</name>
+    </author>
+    <author>
+      <name>Camille François</name>
+    </author>
+    <author>
+      <name>Victor Storchan</name>
+    </author>
+    <author>
+      <name>Kevin Bankston</name>
+    </author>
+    <author>
+      <name>Ayah Bdeir</name>
+    </author>
+    <author>
+      <name>Brian Behlendorf</name>
+    </author>
+    <author>
+      <name>Merouane Debbah</name>
+    </author>
+    <author>
+      <name>Sayash Kapoor</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Mark Surman</name>
+    </author>
+    <author>
+      <name>Helen King-Turvey</name>
+    </author>
+    <author>
+      <name>Nathan Lambert</name>
+    </author>
+    <author>
+      <name>Stefano Maffulli</name>
+    </author>
+    <author>
+      <name>Nik Marda</name>
+    </author>
+    <author>
+      <name>Govind Shivkumar</name>
+    </author>
+    <author>
+      <name>Justine Tunney</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.10292v3</id>
+    <title>Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning</title>
+    <updated>2024-10-07T19:13:47Z</updated>
+    <link href="https://arxiv.org/abs/2405.10292v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.10292v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large vision-language models (VLMs) fine-tuned on specialized visual instruction-following data have exhibited impressive language reasoning capabilities across various scenarios. However, this fine-tuning paradigm may not be able to efficiently learn optimal decision-making agents in multi-step goal-directed tasks from interactive environments. To address this challenge, we propose an algorithmic framework that fine-tunes VLMs with reinforcement learning (RL). Specifically, our framework provides a task description and then prompts the VLM to generate chain-of-thought (CoT) reasoning, enabling the VLM to efficiently explore intermediate reasoning steps that lead to the final text-based action. Next, the open-ended text output is parsed into an executable action to interact with the environment to obtain goal-directed task rewards. Finally, our framework uses these task rewards to fine-tune the entire VLM with RL. Empirically, we demonstrate that our proposed framework enhances the decision-making capabilities of VLM agents across various tasks, enabling 7b models to outperform commercial models such as GPT4-V or Gemini. Furthermore, we find that CoT reasoning is a crucial component for performance improvement, as removing the CoT reasoning results in a significant decrease in the overall performance of our method.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T17:50:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuexiang Zhai</name>
+    </author>
+    <author>
+      <name>Hao Bai</name>
+    </author>
+    <author>
+      <name>Zipeng Lin</name>
+    </author>
+    <author>
+      <name>Jiayi Pan</name>
+    </author>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Yifei Zhou</name>
+    </author>
+    <author>
+      <name>Alane Suhr</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.05012v2</id>
+    <title>The Entropy Enigma: Success and Failure of Entropy Minimization</title>
+    <updated>2024-05-12T22:21:27Z</updated>
+    <link href="https://arxiv.org/abs/2405.05012v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.05012v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entropy minimization (EM) is frequently used to increase the accuracy of classification models when they're faced with new data at test time. EM is a self-supervised learning method that optimizes classifiers to assign even higher probabilities to their top predicted classes. In this paper, we analyze why EM works when adapting a model for a few steps and why it eventually fails after adapting for many steps. We show that, at first, EM causes the model to embed test images close to training images, thereby increasing model accuracy. After many steps of optimization, EM makes the model embed test images far away from the embeddings of training images, which results in a degradation of accuracy. Building upon our insights, we present a method for solving a practical problem: estimating a model's accuracy on a given arbitrary dataset without having access to its labels. Our method estimates accuracy by looking at how the embeddings of input images change as the model is optimized to minimize entropy. Experiments on 23 challenging datasets show that our method sets the SoTA with a mean absolute error of $5.75\%$, an improvement of $29.62\%$ over the previous SoTA on this task. Our code is available at https://github.com/oripress/EntropyEnigma</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-08T12:26:15Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ori Press</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Matthias Bethge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01469v1</id>
+    <title>Advancing human-centric AI for robust X-ray analysis through holistic self-supervised learning</title>
+    <updated>2024-05-02T16:59:10Z</updated>
+    <link href="https://arxiv.org/abs/2405.01469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI Foundation models are gaining traction in various applications, including medical fields like radiology. However, medical foundation models are often tested on limited tasks, leaving their generalisability and biases unexplored. We present RayDINO, a large visual encoder trained by self-supervision on 873k chest X-rays. We compare RayDINO to previous state-of-the-art models across nine radiology tasks, from classification and dense segmentation to text generation, and provide an in depth analysis of population, age and sex biases of our model. Our findings suggest that self-supervision allows patient-centric AI proving useful in clinical workflows and interpreting X-rays holistically. With RayDINO and small task-specific adapters, we reach state-of-the-art results and improve generalization to unseen populations while mitigating bias, illustrating the true promise of foundation models: versatility and robustness.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T16:59:10Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Théo Moutakanni</name>
+    </author>
+    <author>
+      <name>Piotr Bojanowski</name>
+    </author>
+    <author>
+      <name>Guillaume Chassagnon</name>
+    </author>
+    <author>
+      <name>Céline Hudelot</name>
+    </author>
+    <author>
+      <name>Armand Joulin</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Matthew Muckley</name>
+    </author>
+    <author>
+      <name>Maxime Oquab</name>
+    </author>
+    <author>
+      <name>Marie-Pierre Revel</name>
+    </author>
+    <author>
+      <name>Maria Vakalopoulou</name>
+    </author>
+  </entry>
+</feed>

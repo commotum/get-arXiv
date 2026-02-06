@@ -1,0 +1,1182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bz3xy1O9rXU6hDT+kaXLNHfvrZI</id>
+  <title>arXiv Query: search_query=au:"Richard Sutton"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T18:59:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Richard+Sutton%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>74</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06218v1</id>
+    <title>Average-reward reinforcement learning in semi-Markov decision processes via relative value iteration</title>
+    <updated>2025-12-05T23:49:07Z</updated>
+    <link href="https://arxiv.org/abs/2512.06218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper applies the authors' recent results on asynchronous stochastic approximation (SA) in the Borkar-Meyn framework to reinforcement learning in average-reward semi-Markov decision processes (SMDPs). We establish the convergence of an asynchronous SA analogue of Schweitzer's classical relative value iteration algorithm, RVI Q-learning, for finite-space, weakly communicating SMDPs. In particular, we show that the algorithm converges almost surely to a compact, connected subset of solutions to the average-reward optimality equation, with convergence to a unique, sample path-dependent solution under additional stepsize and asynchrony conditions. Moreover, to make full use of the SA framework, we introduce new monotonicity conditions for estimating the optimal reward rate in RVI Q-learning. These conditions substantially expand the previously considered algorithmic framework and are addressed through novel arguments in the stability and convergence analysis of RVI Q-learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T23:49:07Z</published>
+    <arxiv:comment>24 pages. This paper presents the reinforcement-learning material previously contained in version 2 of arXiv:2409.03915, which is now being split into two stand-alone papers. Minor corrections and improvements to the main results have also been made in the course of this reformatting</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.19539v1</id>
+    <title>Swift-Sarsa: Fast and Robust Linear Control</title>
+    <updated>2025-07-22T15:08:38Z</updated>
+    <link href="https://arxiv.org/abs/2507.19539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.19539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Javed, Sharifnassab, and Sutton (2024) introduced a new algorithm for TD learning -- SwiftTD -- that augments True Online TD($λ$) with step-size optimization, a bound on the effective learning rate, and step-size decay. In their experiments SwiftTD outperformed True Online TD($λ$) and TD($λ$) on a variety of prediction tasks derived from Atari games, and its performance was robust to the choice of hyper-parameters. In this extended abstract we extend SwiftTD to work for control problems. We combine the key ideas behind SwiftTD with True Online Sarsa($λ$) to develop an on-policy reinforcement learning algorithm called $\textit{Swift-Sarsa}$.
+  We propose a simple benchmark for linear on-policy control called the $\textit{operant conditioning benchmark}$. The key challenge in the operant conditioning benchmark is that a very small subset of input signals are relevant for decision making. The majority of the signals are noise sampled from a non-stationary distribution. To learn effectively, the agent must learn to differentiate between the relevant signals and the noisy signals, and minimize prediction errors by assigning credit to the weight parameters associated with the relevant signals.
+  Swift-Sarsa, when applied to the operant conditioning benchmark, learned to assign credit to the relevant signals without any prior knowledge of the structure of the problem. It opens the door for solution methods that learn representations by searching over hundreds of millions of features in parallel without performance degradation due to noisy or bad features.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-22T15:08:38Z</published>
+    <arxiv:comment>Presented at RLDM 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Khurram Javed</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.03915v3</id>
+    <title>Asynchronous Stochastic Approximation with Applications to Average-Reward Reinforcement Learning</title>
+    <updated>2025-12-09T07:36:14Z</updated>
+    <link href="https://arxiv.org/abs/2409.03915v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.03915v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the stability and convergence properties of asynchronous stochastic approximation (SA) algorithms, with a focus on extensions relevant to average-reward reinforcement learning. We first extend a stability proof method of Borkar and Meyn to accommodate more general noise conditions than previously considered, thereby yielding broader convergence guarantees for asynchronous SA. To sharpen the convergence analysis, we further examine the shadowing properties of asynchronous SA, building on a dynamical systems approach of Hirsch and Benaïm. These results provide a theoretical foundation for a class of relative value iteration-based reinforcement learning algorithms -- developed and analyzed in a companion paper -- for solving average-reward Markov and semi-Markov decision processes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-05T21:23:51Z</published>
+    <arxiv:comment>34 pages. This version contains only the asynchronous stochastic approximation material from version 2 of the original report; the reinforcement-learning material has been moved to a separate, stand-alone paper (arXiv:2512.06218). Minor corrections and additional remarks have been incorporated. A shorter version of this paper is to appear in the SIAM Journal on Control and Optimization</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.16262v1</id>
+    <title>On Convergence of Average-Reward Q-Learning in Weakly Communicating Markov Decision Processes</title>
+    <updated>2024-08-29T04:57:44Z</updated>
+    <link href="https://arxiv.org/abs/2408.16262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.16262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper analyzes reinforcement learning (RL) algorithms for Markov decision processes (MDPs) under the average-reward criterion. We focus on Q-learning algorithms based on relative value iteration (RVI), which are model-free stochastic analogues of the classical RVI method for average-reward MDPs. These algorithms have low per-iteration complexity, making them well-suited for large state space problems. We extend the almost-sure convergence analysis of RVI Q-learning algorithms developed by Abounadi, Bertsekas, and Borkar (2001) from unichain to weakly communicating MDPs. This extension is important both practically and theoretically: weakly communicating MDPs cover a much broader range of applications compared to unichain MDPs, and their optimality equations have a richer solution structure (with multiple degrees of freedom), introducing additional complexity in proving algorithmic convergence. We also characterize the sets to which RVI Q-learning algorithms converge, showing that they are compact, connected, potentially nonconvex, and comprised of solutions to the average-reward optimality equation, with exactly one less degree of freedom than the general solution set of this equation. Furthermore, we extend our analysis to two RVI-based hierarchical average-reward RL algorithms using the options framework, proving their almost-sure convergence and characterizing their sets of convergence under the assumption that the underlying semi-Markov decision process is weakly communicating.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-29T04:57:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.14951v2</id>
+    <title>An Idiosyncrasy of Time-discretization in Reinforcement Learning</title>
+    <updated>2024-09-02T04:13:50Z</updated>
+    <link href="https://arxiv.org/abs/2406.14951v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.14951v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many reinforcement learning algorithms are built on an assumption that an agent interacts with an environment over fixed-duration, discrete time steps. However, physical systems are continuous in time, requiring a choice of time-discretization granularity when digitally controlling them. Furthermore, such systems do not wait for decisions to be made before advancing the environment state, necessitating the study of how the choice of discretization may affect a reinforcement learning algorithm. In this work, we consider the relationship between the definitions of the continuous-time and discrete-time returns. Specifically, we acknowledge an idiosyncrasy with naively applying a discrete-time algorithm to a discretized continuous-time environment, and note how a simple modification can better align the return definitions. This observation is of practical consideration when dealing with environments where time-discretization granularity is a choice, or situations where such granularity is inherently stochastic.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-21T08:03:25Z</published>
+    <arxiv:comment>RLC 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kris De Asis</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.09999v2</id>
+    <title>Reward Centering</title>
+    <updated>2024-10-30T14:18:42Z</updated>
+    <link href="https://arxiv.org/abs/2405.09999v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.09999v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that discounted methods for solving continuing reinforcement learning problems can perform significantly better if they center their rewards by subtracting out the rewards' empirical average. The improvement is substantial at commonly used discount factors and increases further as the discount factor approaches one. In addition, we show that if a problem's rewards are shifted by a constant, then standard methods perform much worse, whereas methods with reward centering are unaffected. Estimating the average reward is straightforward in the on-policy setting; we propose a slightly more sophisticated method for the off-policy setting. Reward centering is a general idea, so we expect almost every reinforcement-learning algorithm to benefit by the addition of reward centering.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T11:33:49Z</published>
+    <arxiv:comment>In Proceedings of RLC 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abhishek Naik</name>
+    </author>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Manan Tomar</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.02342v6</id>
+    <title>MetaOptimize: A Framework for Optimizing Step Sizes and Other Meta-parameters</title>
+    <updated>2025-07-09T01:03:54Z</updated>
+    <link href="https://arxiv.org/abs/2402.02342v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.02342v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address the challenge of optimizing meta-parameters (hyperparameters) in machine learning, a key factor for efficient training and high model performance. Rather than relying on expensive meta-parameter search methods, we introduce MetaOptimize: a dynamic approach that adjusts meta-parameters, particularly step sizes (also known as learning rates), during training. More specifically, MetaOptimize can wrap around any first-order optimization algorithm, tuning step sizes on the fly to minimize a specific form of regret that considers the long-term impact of step sizes on training, through a discounted sum of future losses. We also introduce lower-complexity variants of MetaOptimize that, in conjunction with its adaptability to various optimization algorithms, achieve performance comparable to those of the best hand-crafted learning rate schedules across diverse machine learning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-04T04:55:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ICML 2025</arxiv:journal_ref>
+    <author>
+      <name>Arsalan Sharifnassab</name>
+    </author>
+    <author>
+      <name>Saber Salehkaleybar</name>
+    </author>
+    <author>
+      <name>Richard Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.17401v1</id>
+    <title>Step-size Optimization for Continual Learning</title>
+    <updated>2024-01-30T19:35:43Z</updated>
+    <link href="https://arxiv.org/abs/2401.17401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.17401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In continual learning, a learner has to keep learning from the data over its whole life time. A key issue is to decide what knowledge to keep and what knowledge to let go. In a neural network, this can be implemented by using a step-size vector to scale how much gradient samples change network weights. Common algorithms, like RMSProp and Adam, use heuristics, specifically normalization, to adapt this step-size vector. In this paper, we show that those heuristics ignore the effect of their adaptation on the overall objective function, for example by moving the step-size vector away from better step-size vectors. On the other hand, stochastic meta-gradient descent algorithms, like IDBD (Sutton, 1992), explicitly optimize the step-size vector with respect to the overall objective function. On simple problems, we show that IDBD is able to consistently improve step-size vectors, where RMSProp and Adam do not. We explain the differences between the two approaches and their respective limitations. We conclude by suggesting that combining both approaches could be a promising future direction to improve the performance of neural networks in continual learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-30T19:35:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Degris</name>
+    </author>
+    <author>
+      <name>Khurram Javed</name>
+    </author>
+    <author>
+      <name>Arsalan Sharifnassab</name>
+    </author>
+    <author>
+      <name>Yuxin Liu</name>
+    </author>
+    <author>
+      <name>Richard Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.15091v2</id>
+    <title>A Note on Stability in Asynchronous Stochastic Approximation without Communication Delays</title>
+    <updated>2024-08-13T23:17:57Z</updated>
+    <link href="https://arxiv.org/abs/2312.15091v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.15091v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study asynchronous stochastic approximation algorithms without communication delays. Our main contribution is a stability proof for these algorithms that extends a method of Borkar and Meyn by accommodating more general noise conditions. We also derive convergence results from this stability result and discuss their application in important average-reward reinforcement learning problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-22T22:18:13Z</published>
+    <arxiv:comment>Corrected typos and a minor error; parts of this material will be included in a separate future arXiv preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01569v2</id>
+    <title>Iterative Option Discovery for Planning, by Planning</title>
+    <updated>2023-12-22T23:04:53Z</updated>
+    <link href="https://arxiv.org/abs/2310.01569v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01569v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discovering useful temporal abstractions, in the form of options, is widely thought to be key to applying reinforcement learning and planning to increasingly complex domains. Building on the empirical success of the Expert Iteration approach to policy learning used in AlphaZero, we propose Option Iteration, an analogous approach to option discovery. Rather than learning a single strong policy that is trained to match the search results everywhere, Option Iteration learns a set of option policies trained such that for each state encountered, at least one policy in the set matches the search results for some horizon into the future. Intuitively, this may be significantly easier as it allows the algorithm to hedge its bets compared to learning a single globally strong policy, which may have complex dependencies on the details of the current state. Having learned such a set of locally strong policies, we can use them to guide the search algorithm resulting in a virtuous cycle where better options lead to better search results which allows for training of better options. We demonstrate experimentally that planning using options learned with Option Iteration leads to a significant benefit in challenging planning environments compared to an analogous planning algorithm operating in the space of primitive actions and learning a single rollout policy with Expert Iteration.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T19:03:30Z</published>
+    <arxiv:comment>Fixed incorrect arrows on some figures in the appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kenny Young</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15625v1</id>
+    <title>Value-aware Importance Weighting for Off-policy Reinforcement Learning</title>
+    <updated>2023-06-27T17:05:22Z</updated>
+    <link href="https://arxiv.org/abs/2306.15625v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15625v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Importance sampling is a central idea underlying off-policy prediction in reinforcement learning. It provides a strategy for re-weighting samples from a distribution to obtain unbiased estimates under another distribution. However, importance sampling weights tend to exhibit extreme variance, often leading to stability issues in practice. In this work, we consider a broader class of importance weights to correct samples in off-policy learning. We propose the use of $\textit{value-aware importance weights}$ which take into account the sample space to provide lower variance, but still unbiased, estimates under a target distribution. We derive how such weights can be computed, and detail key properties of the resulting importance weights. We then extend several reinforcement learning prediction algorithms to the off-policy setting with these weights, and evaluate them empirically.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T17:05:22Z</published>
+    <arxiv:comment>CoLLAs 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kristopher De Asis</name>
+    </author>
+    <author>
+      <name>Eric Graves</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.13812v3</id>
+    <title>Maintaining Plasticity in Deep Continual Learning</title>
+    <updated>2024-04-09T21:01:56Z</updated>
+    <link href="https://arxiv.org/abs/2306.13812v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.13812v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern deep-learning systems are specialized to problem settings in which training occurs once and then never again, as opposed to continual-learning settings in which training occurs continually. If deep-learning systems are applied in a continual learning setting, then it is well known that they may fail to remember earlier examples. More fundamental, but less well known, is that they may also lose their ability to learn on new examples, a phenomenon called loss of plasticity. We provide direct demonstrations of loss of plasticity using the MNIST and ImageNet datasets repurposed for continual learning as sequences of tasks. In ImageNet, binary classification performance dropped from 89% accuracy on an early task down to 77%, about the level of a linear network, on the 2000th task. Loss of plasticity occurred with a wide range of deep network architectures, optimizers, activation functions, batch normalization, dropout, but was substantially eased by L2-regularization, particularly when combined with weight perturbation. Further, we introduce a new algorithm -- continual backpropagation -- which slightly modifies conventional backpropagation to reinitialize a small fraction of less-used units after each example and appears to maintain plasticity indefinitely.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-23T23:19:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shibhansh Dohare</name>
+    </author>
+    <author>
+      <name>J. Fernando Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>Parash Rahman</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.13757v3</id>
+    <title>Toward Efficient Gradient-Based Value Estimation</title>
+    <updated>2023-07-23T19:51:25Z</updated>
+    <link href="https://arxiv.org/abs/2301.13757v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.13757v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gradient-based methods for value estimation in reinforcement learning have favorable stability properties, but they are typically much slower than Temporal Difference (TD) learning methods. We study the root causes of this slowness and show that Mean Square Bellman Error (MSBE) is an ill-conditioned loss function in the sense that its Hessian has large condition-number. To resolve the adverse effect of poor conditioning of MSBE on gradient based methods, we propose a low complexity batch-free proximal method that approximately follows the Gauss-Newton direction and is asymptotically robust to parameterization. Our main algorithm, called RANS, is efficient in the sense that it is significantly faster than the residual gradient methods while having almost the same computational complexity, and is competitive with TD on the classic problems that we tested.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-31T16:45:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arsalan Sharifnassab</name>
+    </author>
+    <author>
+      <name>Richard Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.14361v2</id>
+    <title>Auxiliary task discovery through generate-and-test</title>
+    <updated>2024-07-20T16:54:39Z</updated>
+    <link href="https://arxiv.org/abs/2210.14361v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.14361v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we explore an approach to auxiliary task discovery in reinforcement learning based on ideas from representation learning. Auxiliary tasks tend to improve data efficiency by forcing the agent to learn auxiliary prediction and control objectives in addition to the main task of maximizing reward, and thus producing better representations. Typically these tasks are designed by people. Meta-learning offers a promising avenue for automatic task discovery; however, these methods are computationally expensive and challenging to tune in practice. In this paper, we explore a complementary approach to the auxiliary task discovery: continually generating new auxiliary tasks and preserving only those with high utility. We also introduce a new measure of auxiliary tasks' usefulness based on how useful the features induced by them are for the main task. Our discovery algorithm significantly outperforms random tasks and learning without auxiliary tasks across a suite of environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-25T22:04:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Banafsheh Rafiee</name>
+    </author>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Jun Jin</name>
+    </author>
+    <author>
+      <name>Richard Sutton</name>
+    </author>
+    <author>
+      <name>Jun Luo</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.15141v2</id>
+    <title>On Convergence of Average-Reward Off-Policy Control Algorithms in Weakly Communicating MDPs</title>
+    <updated>2022-11-06T01:29:38Z</updated>
+    <link href="https://arxiv.org/abs/2209.15141v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.15141v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show two average-reward off-policy control algorithms, Differential Q-learning (Wan, Naik, &amp; Sutton 2021a) and RVI Q-learning (Abounadi Bertsekas &amp; Borkar 2001), converge in weakly communicating MDPs. Weakly communicating MDPs are the most general MDPs that can be solved by a learning algorithm with a single stream of experience. The original convergence proofs of the two algorithms require that the solution set of the average-reward optimality equation only has one degree of freedom, which is not necessarily true for weakly communicating MDPs. To the best of our knowledge, our results are the first showing average-reward off-policy control algorithms converge in weakly communicating MDPs. As a direct extension, we show that average-reward options algorithms for temporal abstraction introduced by Wan, Naik, &amp; Sutton (2021b) converge if the Semi-MDP induced by options is weakly communicating.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-30T00:07:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.11173v3</id>
+    <title>The Alberta Plan for AI Research</title>
+    <updated>2023-03-21T22:20:47Z</updated>
+    <link href="https://arxiv.org/abs/2208.11173v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.11173v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Herein we describe our approach to artificial intelligence research, which we call the Alberta Plan. The Alberta Plan is pursued within our research groups in Alberta and by others who are like minded throughout the world. We welcome all who would join us in this pursuit.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-23T20:02:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Michael Bowling</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.01613v2</id>
+    <title>Doubly-Asynchronous Value Iteration: Making Value Iteration Asynchronous in Actions</title>
+    <updated>2022-11-27T12:16:40Z</updated>
+    <link href="https://arxiv.org/abs/2207.01613v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.01613v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Value iteration (VI) is a foundational dynamic programming method, important for learning and planning in optimal control and reinforcement learning. VI proceeds in batches, where the update to the value of each state must be completed before the next batch of updates can begin. Completing a single batch is prohibitively expensive if the state space is large, rendering VI impractical for many applications. Asynchronous VI helps to address the large state space problem by updating one state at a time, in-place and in an arbitrary order. However, Asynchronous VI still requires a maximization over the entire action space, making it impractical for domains with large action space. To address this issue, we propose doubly-asynchronous value iteration (DAVI), a new algorithm that generalizes the idea of asynchrony from states to states and actions. More concretely, DAVI maximizes over a sampled subset of actions that can be of any user-defined size. This simple approach of using sampling to reduce computation maintains similarly appealing theoretical properties to VI without the need to wait for a full sweep through the entire action space in each update. In this paper, we show DAVI converges to the optimal value function with probability one, converges at a near-geometric rate with probability 1-delta, and returns a near-optimal policy in computation time that nearly matches a previously established bound for VI. We also empirically demonstrate DAVI's effectiveness in several experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-04T17:55:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tian Tian</name>
+    </author>
+    <author>
+      <name>Kenny Young</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.12515v2</id>
+    <title>Toward Discovering Options that Achieve Faster Planning</title>
+    <updated>2022-09-29T23:30:44Z</updated>
+    <link href="https://arxiv.org/abs/2205.12515v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.12515v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new objective for option discovery that emphasizes the computational advantage of using options in planning. In a sequential machine, the speed of planning is proportional to the number of elementary operations used to achieve a good policy. For episodic tasks, the number of elementary operations depends on the number of options composed by the policy in an episode and the number of options being considered at each decision point. To reduce the amount of computation in planning, for a given set of episodic tasks and a given number of options, our objective prefers options with which it is possible to achieve a high return by composing few options, and also prefers a smaller set of options to choose from at each decision point. We develop an algorithm that optimizes the proposed objective. In a variant of the classic four-room domain, we show that 1) a higher objective value is typically associated with fewer number of elementary planning operations used by the option-value iteration algorithm to obtain a near-optimal value function, 2) our algorithm achieves an objective value that matches it achieved by two human-designed options 3) the amount of computation used by option-value iteration with options discovered by our algorithm matches it with the human-designed options, 4) the options produced by our algorithm also make intuitive sense--they seem to move to and terminate at the entrances of rooms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-25T06:10:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.13252v3</id>
+    <title>The Quest for a Common Model of the Intelligent Decision Maker</title>
+    <updated>2022-06-05T22:15:16Z</updated>
+    <link href="https://arxiv.org/abs/2202.13252v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.13252v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The premise of the Multi-disciplinary Conference on Reinforcement Learning and Decision Making is that multiple disciplines share an interest in goal-directed decision making over time. The idea of this paper is to sharpen and deepen this premise by proposing a perspective on the decision maker that is substantive and widely held across psychology, artificial intelligence, economics, control theory, and neuroscience, which I call the "common model of the intelligent agent". The common model does not include anything specific to any organism, world, or application domain. The common model does include aspects of the decision maker's interaction with its world (there must be input and output, and a goal) and internal components of the decision maker (for perception, decision-making, internal evaluation, and a world model). I identify these aspects and components, note that they are given different names in different disciplines but refer essentially to the same ideas, and discuss the challenges and benefits of devising a neutral terminology that can be used across disciplines. It is time to recognize and build on the convergence of multiple diverse disciplines on a substantive common model of the intelligent agent.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-26T23:40:42Z</published>
+    <arxiv:comment>Will appear as an extended abstract at the fifth Multi-disciplinary Conference on Reinforcement Learning and Decision Making, held in Providence, Rhode Island, June 8-11, 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.09701v1</id>
+    <title>A History of Meta-gradient: Gradient Methods for Meta-learning</title>
+    <updated>2022-02-20T00:27:14Z</updated>
+    <link href="https://arxiv.org/abs/2202.09701v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.09701v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The history of meta-learning methods based on gradient descent is reviewed, focusing primarily on methods that adapt step-size (learning rate) meta-parameters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-20T00:27:14Z</published>
+    <arxiv:comment>3 pages of text, 54 references</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.03466v4</id>
+    <title>Reward-Respecting Subtasks for Model-Based Reinforcement Learning</title>
+    <updated>2023-09-16T23:59:17Z</updated>
+    <link href="https://arxiv.org/abs/2202.03466v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.03466v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To achieve the ambitious goals of artificial intelligence, reinforcement learning must include planning with a model of the world that is abstract in state and time. Deep learning has made progress with state abstraction, but temporal abstraction has rarely been used, despite extensively developed theory based on the options framework. One reason for this is that the space of possible options is immense, and the methods previously proposed for option discovery do not take into account how the option models will be used in planning. Options are typically discovered by posing subsidiary tasks, such as reaching a bottleneck state or maximizing the cumulative sum of a sensory signal other than reward. Each subtask is solved to produce an option, and then a model of the option is learned and made available to the planning process. In most previous work, the subtasks ignore the reward on the original problem, whereas we propose subtasks that use the original reward plus a bonus based on a feature of the state at the time the option terminates. We show that option models obtained from such reward-respecting subtasks are much more likely to be useful in planning than eigenoptions, shortest path options based on bottleneck states, or reward-respecting options generated by the option-critic. Reward respecting subtasks strongly constrain the space of options and thereby also provide a partial solution to the problem of option discovery. Finally, we show how values, policies, options, and models can all be learned online and off-policy using standard algorithms and general value functions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-07T19:09:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Artificial Intelligence, first published online September 6, 2023</arxiv:journal_ref>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Marlos C. Machado</name>
+    </author>
+    <author>
+      <name>G. Zacharias Holland</name>
+    </author>
+    <author>
+      <name>David Szepesvari</name>
+    </author>
+    <author>
+      <name>Finbarr Timbers</name>
+    </author>
+    <author>
+      <name>Brian Tanner</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <arxiv:doi>10.1016/j.artint.2023.104001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.artint.2023.104001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.15236v1</id>
+    <title>Learning Agent State Online with Recurrent Generate-and-Test</title>
+    <updated>2021-12-30T23:10:32Z</updated>
+    <link href="https://arxiv.org/abs/2112.15236v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.15236v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning continually and online from a continuous stream of data is challenging, especially for a reinforcement learning agent with sequential data. When the environment only provides observations giving partial information about the state of the environment, the agent must learn the agent state based on the data stream of experience. We refer to the state learned directly from the data stream of experience as the agent state. Recurrent neural networks can learn the agent state, but the training methods are computationally expensive and sensitive to the hyper-parameters, making them unideal for online learning. This work introduces methods based on the generate-and-test approach to learn the agent state. A generate-and-test algorithm searches for state features by generating features and testing their usefulness. In this process, features useful for the agent's performance on the task are preserved, and the least useful features get replaced with newly generated features. We study the effectiveness of our methods on two online multi-step prediction problems. The first problem, trace conditioning, focuses on the agent's ability to remember a cue for a prediction multiple steps into the future. In the second problem, trace patterning, the agent needs to learn patterns in the observation signals and remember them for future predictions. We show that our proposed methods can effectively learn the agent state online and produce accurate predictions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-30T23:10:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Amir Samani</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13855v1</id>
+    <title>Average-Reward Learning and Planning with Options</title>
+    <updated>2021-10-26T16:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2110.13855v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13855v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the options framework for temporal abstraction in reinforcement learning from discounted Markov decision processes (MDPs) to average-reward MDPs. Our contributions include general convergent off-policy inter-option learning algorithms, intra-option algorithms for learning values and models, as well as sample-based planning variants of our learning algorithms. Our algorithms and convergence proofs extend those recently developed by Wan, Naik, and Sutton. We also extend the notion of option-interrupting behavior from the discounted to the average-reward formulation. We show the efficacy of the proposed algorithms with experiments on a continuing version of the Four-Room domain.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-26T16:58:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Abhishek Naik</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.05110v1</id>
+    <title>An Empirical Comparison of Off-policy Prediction Learning Algorithms in the Four Rooms Environment</title>
+    <updated>2021-09-10T21:15:41Z</updated>
+    <link href="https://arxiv.org/abs/2109.05110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.05110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many off-policy prediction learning algorithms have been proposed in the past decade, but it remains unclear which algorithms learn faster than others. We empirically compare 11 off-policy prediction learning algorithms with linear function approximation on two small tasks: the Rooms task, and the High Variance Rooms task. The tasks are designed such that learning fast in them is challenging. In the Rooms task, the product of importance sampling ratios can be as large as $2^{14}$ and can sometimes be two. To control the high variance caused by the product of the importance sampling ratios, step size should be set small, which in turn slows down learning. The High Variance Rooms task is more extreme in that the product of the ratios can become as large as $2^{14}\times 25$. This paper builds upon the empirical study of off-policy prediction learning algorithms by Ghiassian and Sutton (2021). We consider the same set of algorithms as theirs and employ the same experimental methodology. The algorithms considered are: Off-policy TD($λ$), five Gradient-TD algorithms, two Emphatic-TD algorithms, Tree Backup($λ$), Vtrace($λ$), and ABTD($ζ$). We found that the algorithms' performance is highly affected by the variance induced by the importance sampling ratios. The data shows that Tree Backup($λ$), Vtrace($λ$), and ABTD($ζ$) are not affected by the high variance as much as other algorithms but they restrict the effective bootstrapping parameter in a way that is too limiting for tasks where high variance is not present. We observed that Emphatic TD($λ$) tends to have lower asymptotic error than other algorithms, but might learn more slowly in some cases. We suggest algorithms for practitioners based on their problem of interest, and suggest approaches that can be applied to specific algorithms that might result in substantially improved algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-10T21:15:41Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.06325v3</id>
+    <title>Continual Backprop: Stochastic Gradient Descent with Persistent Randomness</title>
+    <updated>2022-05-05T17:16:00Z</updated>
+    <link href="https://arxiv.org/abs/2108.06325v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.06325v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Backprop algorithm for learning in neural networks utilizes two mechanisms: first, stochastic gradient descent and second, initialization with small random weights, where the latter is essential to the effectiveness of the former. We show that in continual learning setups, Backprop performs well initially, but over time its performance degrades. Stochastic gradient descent alone is insufficient to learn continually; the initial randomness enables only initial learning but not continual learning. To the best of our knowledge, ours is the first result showing this degradation in Backprop's ability to learn. To address this degradation in Backprop's plasticity, we propose an algorithm that continually injects random features alongside gradient descent using a new generate-and-test process. We call this the \textit{Continual Backprop} algorithm. We show that, unlike Backprop, Continual Backprop is able to continually adapt in both supervised and reinforcement learning (RL) problems. Continual Backprop has the same computational complexity as Backprop and can be seen as a natural extension of Backprop for continual learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-13T17:33:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shibhansh Dohare</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.00922v2</id>
+    <title>An Empirical Comparison of Off-policy Prediction Learning Algorithms on the Collision Task</title>
+    <updated>2021-06-11T20:57:53Z</updated>
+    <link href="https://arxiv.org/abs/2106.00922v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.00922v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Off-policy prediction -- learning the value function for one policy from data generated while following another policy -- is one of the most challenging subproblems in reinforcement learning. This paper presents empirical results with eleven prominent off-policy learning algorithms that use linear function approximation: five Gradient-TD methods, two Emphatic-TD methods, Off-policy TD($λ$), Vtrace, and versions of Tree Backup and ABQ modified to apply to a prediction setting. Our experiments used the Collision task, a small idealized off-policy problem analogous to that of an autonomous car trying to predict whether it will collide with an obstacle. We assessed the performance of the algorithms according to their learning rate, asymptotic error level, and sensitivity to step-size and bootstrapping parameters. By these measures, the eleven algorithms can be partially ordered on the Collision task. In the top tier, the two Emphatic-TD algorithms learned the fastest, reached the lowest errors, and were robust to parameter settings. In the middle tier, the five Gradient-TD algorithms and Off-policy TD($λ$) were more sensitive to the bootstrapping parameter. The bottom tier comprised Vtrace, Tree Backup, and ABQ; these algorithms were no faster and had higher asymptotic error than the others. Our results are definitive for this task, though of course experiments with more tasks are needed before an overall assessment of the algorithms' merits can be made.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-02T03:45:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.08543v1</id>
+    <title>Planning with Expectation Models for Control</title>
+    <updated>2021-04-17T13:37:14Z</updated>
+    <link href="https://arxiv.org/abs/2104.08543v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.08543v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In model-based reinforcement learning (MBRL), Wan et al. (2019) showed conditions under which the environment model could produce the expectation of the next feature vector rather than the full distribution, or a sample thereof, with no loss in planning performance. Such expectation models are of interest when the environment is stochastic and non-stationary, and the model is approximate, such as when it is learned using function approximation. In these cases a full distribution model may be impractical and a sample model may be either more expensive computationally or of high variance. Wan et al. considered only planning for prediction to evaluate a fixed policy. In this paper, we treat the control case - planning to improve and find a good approximate policy. We prove that planning with an expectation model must update a state-value function, not an action-value function as previously suggested (e.g., Sorg &amp; Singh, 2010). This opens the question of how planning influences action selections. We consider three strategies for this and present general MBRL algorithms for each. We identify the strengths and weaknesses of these algorithms in computational experiments. Our algorithms and experiments are the first to treat MBRL with expectation models in a general setting.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-17T13:37:14Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Katya Kudashkina</name>
+    </author>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Abhishek Naik</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.07686v4</id>
+    <title>Does the Adam Optimizer Exacerbate Catastrophic Forgetting?</title>
+    <updated>2021-06-09T17:00:09Z</updated>
+    <link href="https://arxiv.org/abs/2102.07686v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.07686v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Catastrophic forgetting remains a severe hindrance to the broad application of artificial neural networks (ANNs), however, it continues to be a poorly understood phenomenon. Despite the extensive amount of work on catastrophic forgetting, we argue that it is still unclear how exactly the phenomenon should be quantified, and, moreover, to what degree all of the choices we make when designing learning systems affect the amount of catastrophic forgetting. We use various testbeds from the reinforcement learning and supervised learning literature to (1) provide evidence that the choice of which modern gradient-based optimization algorithm is used to train an ANN has a significant impact on the amount of catastrophic forgetting and show that-surprisingly-in many instances classical algorithms such as vanilla SGD experience less catastrophic forgetting than the more modern algorithms such as Adam. We empirically compare four different existing metrics for quantifying catastrophic forgetting and (2) show that the degree to which the learning systems experience catastrophic forgetting is sufficiently sensitive to the metric used that a change from one principled metric to another is enough to change the conclusions of a study dramatically. Our results suggest that a much more rigorous experimental methodology is required when looking at catastrophic forgetting. Based on our results, we recommend inter-task forgetting in supervised learning must be measured with both retention and relearning metrics concurrently, and intra-task forgetting in reinforcement learning must-at the very least-be measured with pairwise interference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-15T17:32:39Z</published>
+    <arxiv:comment>9 pages in main text + 3 pages of references + 16 pages of appendices, 6 figures in main text + 21 figures in appendices, 6 tables in appendices; source code available at https://github.com/dylanashley/catastrophic-forgetting/tree/arxiv</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.02808v3</id>
+    <title>Average-Reward Off-Policy Policy Evaluation with Function Approximation</title>
+    <updated>2022-10-18T12:43:35Z</updated>
+    <link href="https://arxiv.org/abs/2101.02808v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.02808v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider off-policy policy evaluation with function approximation (FA) in average-reward MDPs, where the goal is to estimate both the reward rate and the differential value function. For this problem, bootstrapping is necessary and, along with off-policy learning and FA, results in the deadly triad (Sutton &amp; Barto, 2018). To address the deadly triad, we propose two novel algorithms, reproducing the celebrated success of Gradient TD algorithms in the average-reward setting. In terms of estimating the differential value function, the algorithms are the first convergent off-policy linear function approximation algorithms. In terms of estimating the reward rate, the algorithms are the first convergent off-policy linear function approximation algorithms that do not require estimating the density ratio. We demonstrate empirically the advantage of the proposed algorithms, as well as their nonlinear variants, over a competitive density-ratio-based approach, in a simple domain as well as challenging robot simulation tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-08T00:43:04Z</published>
+    <arxiv:comment>ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shangtong Zhang</name>
+    </author>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Shimon Whiteson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.04590v4</id>
+    <title>From Eye-blinks to State Construction: Diagnostic Benchmarks for Online Representation Learning</title>
+    <updated>2022-10-10T18:11:11Z</updated>
+    <link href="https://arxiv.org/abs/2011.04590v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.04590v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present three new diagnostic prediction problems inspired by classical-conditioning experiments to facilitate research in online prediction learning. Experiments in classical conditioning show that animals such as rabbits, pigeons, and dogs can make long temporal associations that enable multi-step prediction. To replicate this remarkable ability, an agent must construct an internal state representation that summarizes its interaction history. Recurrent neural networks can automatically construct state and learn temporal associations. However, the current training methods are prohibitively expensive for online prediction -- continual learning on every time step -- which is the focus of this paper. Our proposed problems test the learning capabilities that animals readily exhibit and highlight the limitations of the current recurrent learning methods. While the proposed problems are nontrivial, they are still amenable to extensive testing and analysis in the small-compute regime, thereby enabling researchers to study issues in isolation, ultimately accelerating progress towards scalable online representation learning methods.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-09T17:41:13Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Banafsheh Rafiee</name>
+    </author>
+    <author>
+      <name>Zaheer Abbas</name>
+    </author>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Raksha Kumaraswamy</name>
+    </author>
+    <author>
+      <name>Richard Sutton</name>
+    </author>
+    <author>
+      <name>Elliot Ludvig</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.15268v1</id>
+    <title>Understanding the Pathologies of Approximate Policy Evaluation when Combined with Greedification in Reinforcement Learning</title>
+    <updated>2020-10-28T22:57:57Z</updated>
+    <link href="https://arxiv.org/abs/2010.15268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.15268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite empirical success, the theory of reinforcement learning (RL) with value function approximation remains fundamentally incomplete. Prior work has identified a variety of pathological behaviours that arise in RL algorithms that combine approximate on-policy evaluation and greedification. One prominent example is policy oscillation, wherein an algorithm may cycle indefinitely between policies, rather than converging to a fixed point. What is not well understood however is the quality of the policies in the region of oscillation. In this paper we present simple examples illustrating that in addition to policy oscillation and multiple fixed points -- the same basic issue can lead to convergence to the worst possible policy for a given approximation. Such behaviours can arise when algorithms optimize evaluation accuracy weighted by the distribution of states that occur under the current policy, but greedify based on the value of states which are rare or nonexistent under this distribution. This means the values used for greedification are unreliable and can steer the policy in undesirable directions. Our observation that this can lead to the worst possible policy shows that in a general sense such algorithms are unreliable. The existence of such examples helps to narrow the kind of theoretical guarantees that are possible and the kind of algorithmic ideas that are likely to be helpful. We demonstrate analytically and experimentally that such pathological behaviours can impact a wide range of RL and dynamic programming algorithms; such behaviours can arise both with and without bootstrapping, and with linear function approximation as well as with more complex parameterized functions like neural networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-28T22:57:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kenny Young</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.12095v1</id>
+    <title>Document-editing Assistants and Model-based Reinforcement Learning as a Path to Conversational AI</title>
+    <updated>2020-08-27T13:05:51Z</updated>
+    <link href="https://arxiv.org/abs/2008.12095v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.12095v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intelligent assistants that follow commands or answer simple questions, such as Siri and Google search, are among the most economically important applications of AI. Future conversational AI assistants promise even greater capabilities and a better user experience through a deeper understanding of the domain, the user, or the user's purposes. But what domain and what methods are best suited to researching and realizing this promise? In this article we argue for the domain of voice document editing and for the methods of model-based reinforcement learning. The primary advantages of voice document editing are that the domain is tightly scoped and that it provides something for the conversation to be about (the document) that is delimited and fully accessible to the intelligent assistant. The advantages of reinforcement learning in general are that its methods are designed to learn from interaction without explicit instruction and that it formalizes the purposes of the assistant. Model-based reinforcement learning is needed in order to genuinely understand the domain of discourse and thereby work efficiently with the user to achieve their goals. Together, voice document editing and model-based reinforcement learning comprise a promising research direction for achieving conversational AI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-27T13:05:51Z</published>
+    <arxiv:comment>Currently under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Katya Kudashkina</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11329v1</id>
+    <title>Inverse Policy Evaluation for Value-based Sequential Decision-making</title>
+    <updated>2020-08-26T01:31:38Z</updated>
+    <link href="https://arxiv.org/abs/2008.11329v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11329v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Value-based methods for reinforcement learning lack generally applicable ways to derive behavior from a value function. Many approaches involve approximate value iteration (e.g., $Q$-learning), and acting greedily with respect to the estimates with an arbitrary degree of entropy to ensure that the state-space is sufficiently explored. Behavior based on explicit greedification assumes that the values reflect those of \textit{some} policy, over which the greedy policy will be an improvement. However, value-iteration can produce value functions that do not correspond to \textit{any} policy. This is especially relevant in the function-approximation regime, when the true value function can't be perfectly represented. In this work, we explore the use of \textit{inverse policy evaluation}, the process of solving for a likely policy given a value function, for deriving behavior from a value function. We provide theoretical and empirical results to show that inverse policy evaluation, combined with an approximate value iteration algorithm, is a feasible method for value-based control.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-26T01:31:38Z</published>
+    <arxiv:comment>Submitted to NeurIPS 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alan Chan</name>
+    </author>
+    <author>
+      <name>Kris de Asis</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.16318v3</id>
+    <title>Learning and Planning in Average-Reward Markov Decision Processes</title>
+    <updated>2021-06-28T10:06:53Z</updated>
+    <link href="https://arxiv.org/abs/2006.16318v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.16318v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce learning and planning algorithms for average-reward MDPs, including 1) the first general proven-convergent off-policy model-free control algorithm without reference states, 2) the first proven-convergent off-policy model-free prediction algorithm, and 3) the first off-policy learning algorithm that converges to the actual value function rather than to the value function plus an offset. All of our algorithms are based on using the temporal-difference error rather than the conventional error when updating the estimate of the average reward. Our proof techniques are a slight generalization of those by Abounadi, Bertsekas, and Borkar (2001). In experiments with an Access-Control Queuing Task, we show some of the difficulties that can arise when using methods that rely on reference states and argue that our new algorithms can be significantly easier to use.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-29T19:03:24Z</published>
+    <arxiv:comment>In Proceedings of ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Abhishek Naik</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.04002v1</id>
+    <title>Learning Sparse Representations Incrementally in Deep Reinforcement Learning</title>
+    <updated>2019-12-09T12:41:17Z</updated>
+    <link href="https://arxiv.org/abs/1912.04002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.04002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse representations have been shown to be useful in deep reinforcement learning for mitigating catastrophic interference and improving the performance of agents in terms of cumulative reward. Previous results were based on a two step process were the representation was learned offline and the action-value function was learned online afterwards. In this paper, we investigate if it is possible to learn a sparse representation and the action-value function simultaneously and incrementally. We investigate this question by employing several regularization techniques and observing how they affect sparsity of the representation learned by a DQN agent in two different benchmark domains. Our results show that with appropriate regularization it is possible to increase the sparsity of the representations learned by DQN agents. Moreover, we found that learning sparse representations also resulted in improved performance in terms of cumulative reward. Finally, we found that the performance of the agents that learned a sparse representation was more robust to the size of the experience replay buffer. This last finding supports the long standing hypothesis that the overlap in representations learned by deep neural networks is the leading cause of catastrophic interference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-09T12:41:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>J. Fernando Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.02140v3</id>
+    <title>Discounted Reinforcement Learning Is Not an Optimization Problem</title>
+    <updated>2019-11-27T07:28:55Z</updated>
+    <link href="https://arxiv.org/abs/1910.02140v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.02140v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discounted reinforcement learning is fundamentally incompatible with function approximation for control in continuing tasks. It is not an optimization problem in its usual formulation, so when using function approximation there is no optimal policy. We substantiate these claims, then go on to address some misconceptions about discounting and its connection to the average reward formulation. We encourage researchers to adopt rigorous optimization approaches, such as maximizing average reward, for reinforcement learning in continuing tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-04T20:52:39Z</published>
+    <arxiv:comment>Accepted for presentation at the Optimization Foundations of Reinforcement Learning Workshop at NeurIPS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Abhishek Naik</name>
+    </author>
+    <author>
+      <name>Roshan Shariff</name>
+    </author>
+    <author>
+      <name>Niko Yasui</name>
+    </author>
+    <author>
+      <name>Hengshuai Yao</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.03906v2</id>
+    <title>Fixed-Horizon Temporal Difference Methods for Stable Reinforcement Learning</title>
+    <updated>2020-02-11T04:54:49Z</updated>
+    <link href="https://arxiv.org/abs/1909.03906v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.03906v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore fixed-horizon temporal difference (TD) methods, reinforcement learning algorithms for a new kind of value function that predicts the sum of rewards over a $\textit{fixed}$ number of future time steps. To learn the value function for horizon $h$, these algorithms bootstrap from the value function for horizon $h-1$, or some shorter horizon. Because no value function bootstraps from itself, fixed-horizon methods are immune to the stability problems that plague other off-policy TD methods using function approximation (also known as "the deadly triad"). Although fixed-horizon methods require the storage of additional value functions, this gives the agent additional predictive power, while the added complexity can be substantially reduced via parallel updates, shared weights, and $n$-step bootstrapping. We show how to use fixed-horizon value functions to solve reinforcement learning problems competitively with methods such as Q-learning that learn conventional value functions. We also prove convergence of fixed-horizon temporal difference methods with linear and general function approximation. Taken together, our results establish fixed-horizon TD methods as a viable new way of avoiding the stability problems of the deadly triad.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-09T14:57:42Z</published>
+    <arxiv:comment>AAAI 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kristopher De Asis</name>
+    </author>
+    <author>
+      <name>Alan Chan</name>
+    </author>
+    <author>
+      <name>Silviu Pitis</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Daniel Graves</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.03568v3</id>
+    <title>Behaviour Suite for Reinforcement Learning</title>
+    <updated>2020-02-14T15:18:17Z</updated>
+    <link href="https://arxiv.org/abs/1908.03568v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.03568v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces the Behaviour Suite for Reinforcement Learning, or bsuite for short. bsuite is a collection of carefully-designed experiments that investigate core capabilities of reinforcement learning (RL) agents with two objectives. First, to collect clear, informative and scalable problems that capture key issues in the design of general and efficient learning algorithms. Second, to study agent behaviour through their performance on these shared benchmarks. To complement this effort, we open source github.com/deepmind/bsuite, which automates evaluation and analysis of any agent on bsuite. This library facilitates reproducible and accessible research on the core issues in RL, and ultimately the design of superior learning algorithms. Our code is Python, and easy to use within existing projects. We include examples with OpenAI Baselines, Dopamine as well as new reference implementations. Going forward, we hope to incorporate more excellent experiments from the research community, and commit to a periodic review of bsuite from a committee of prominent researchers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-09T08:34:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Osband</name>
+    </author>
+    <author>
+      <name>Yotam Doron</name>
+    </author>
+    <author>
+      <name>Matteo Hessel</name>
+    </author>
+    <author>
+      <name>John Aslanides</name>
+    </author>
+    <author>
+      <name>Eren Sezener</name>
+    </author>
+    <author>
+      <name>Andre Saraiva</name>
+    </author>
+    <author>
+      <name>Katrina McKinney</name>
+    </author>
+    <author>
+      <name>Tor Lattimore</name>
+    </author>
+    <author>
+      <name>Csaba Szepesvari</name>
+    </author>
+    <author>
+      <name>Satinder Singh</name>
+    </author>
+    <author>
+      <name>Benjamin Van Roy</name>
+    </author>
+    <author>
+      <name>Richard Sutton</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Hado Van Hasselt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01191v4</id>
+    <title>Planning with Expectation Models</title>
+    <updated>2020-07-29T22:40:04Z</updated>
+    <link href="https://arxiv.org/abs/1904.01191v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01191v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distribution and sample models are two popular model choices in model-based reinforcement learning (MBRL). However, learning these models can be intractable, particularly when the state and action spaces are large. Expectation models, on the other hand, are relatively easier to learn due to their compactness and have also been widely used for deterministic environments. For stochastic environments, it is not obvious how expectation models can be used for planning as they only partially characterize a distribution. In this paper, we propose a sound way of using approximate expectation models for MBRL. In particular, we 1) show that planning with an expectation model is equivalent to planning with a distribution model if the state value function is linear in state features, 2) analyze two common parametrization choices for approximating the expectation: linear and non-linear expectation models, 3) propose a sound model-based policy evaluation algorithm and present its convergence results, and 4) empirically demonstrate the effectiveness of the proposed planning algorithm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-02T03:25:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Zaheer Abbas</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.03252v1</id>
+    <title>Learning Feature Relevance Through Step Size Adaptation in Temporal-Difference Learning</title>
+    <updated>2019-03-08T02:29:22Z</updated>
+    <link href="https://arxiv.org/abs/1903.03252v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.03252v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a long history of using meta learning as representation learning, specifically for determining the relevance of inputs. In this paper, we examine an instance of meta-learning in which feature relevance is learned by adapting step size parameters of stochastic gradient descent---building on a variety of prior work in stochastic approximation, machine learning, and artificial neural networks. In particular, we focus on stochastic meta-descent introduced in the Incremental Delta-Bar-Delta (IDBD) algorithm for setting individual step sizes for each feature of a linear function approximator. Using IDBD, a feature with large or small step sizes will have a large or small impact on generalization from training examples. As a main contribution of this work, we extend IDBD to temporal-difference (TD) learning---a form of learning which is effective in sequential, non i.i.d. problems. We derive a variety of IDBD generalizations for TD learning, demonstrating that they are able to distinguish which features are relevant and which are not. We demonstrate that TD IDBD is effective at learning feature relevance in both an idealized gridworld and a real-world robotic prediction task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-08T02:29:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alex Kearney</name>
+    </author>
+    <author>
+      <name>Vivek Veeriah</name>
+    </author>
+    <author>
+      <name>Jaden Travnik</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.00194v1</id>
+    <title>Should All Temporal Difference Learning Use Emphasis?</title>
+    <updated>2019-03-01T08:09:18Z</updated>
+    <link href="https://arxiv.org/abs/1903.00194v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.00194v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Emphatic Temporal Difference (ETD) learning has recently been proposed as a convergent off-policy learning method. ETD was proposed mainly to address convergence issues of conventional Temporal Difference (TD) learning under off-policy training but it is different from conventional TD learning even under on-policy training. A simple counterexample provided back in 2017 pointed to a potential class of problems where ETD converges but TD diverges. In this paper, we empirically show that ETD converges on a few other well-known on-policy experiments whereas TD either diverges or performs poorly. We also show that ETD outperforms TD on the mountain car prediction problem. Our results, together with a similar pattern observed under off-policy training in prior works, suggest that ETD might be a good substitute over conventional TD.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-01T08:09:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiang Gu</name>
+    </author>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.07510v2</id>
+    <title>Understanding Multi-Step Deep Reinforcement Learning: A Systematic Study of the DQN Target</title>
+    <updated>2019-02-07T22:11:51Z</updated>
+    <link href="https://arxiv.org/abs/1901.07510v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.07510v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-step methods such as Retrace($λ$) and $n$-step $Q$-learning have become a crucial component of modern deep reinforcement learning agents. These methods are often evaluated as a part of bigger architectures and their evaluations rarely include enough samples to draw statistically significant conclusions about their performance. This type of methodology makes it difficult to understand how particular algorithmic details of multi-step methods influence learning. In this paper we combine the $n$-step action-value algorithms Retrace, $Q$-learning, Tree Backup, Sarsa, and $Q(σ)$ with an architecture analogous to DQN. We test the performance of all these algorithms in the mountain car environment; this choice of environment allows for faster training times and larger sample sizes. We present statistical analyses on the effects of the off-policy correction, the backup length parameter $n$, and the update frequency of the target network on the performance of these algorithms. Our results show that (1) using off-policy correction can have an adverse effect on the performance of Sarsa and $Q(σ)$; (2) increasing the backup length $n$ consistently improved performance across all the different algorithms; and (3) the performance of Sarsa and $Q$-learning was more robust to the effect of the target network update frequency than the performance of Tree Backup, $Q(σ)$, and Retrace in this particular task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-22T18:38:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>J. Fernando Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.02597v1</id>
+    <title>Online Off-policy Prediction</title>
+    <updated>2018-11-06T19:09:04Z</updated>
+    <link href="https://arxiv.org/abs/1811.02597v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.02597v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the problem of online prediction learning, where learning proceeds continuously as the agent interacts with an environment. The predictions made by the agent are contingent on a particular way of behaving, represented as a value function. However, the behavior used to select actions and generate the behavior data might be different from the one used to define the predictions, and thus the samples are generated off-policy. The ability to learn behavior-contingent predictions online and off-policy has long been advocated as a key capability of predictive-knowledge learning systems but remained an open algorithmic challenge for decades. The issue lies with the temporal difference (TD) learning update at the heart of most prediction algorithms: combining bootstrapping, off-policy sampling and function approximation may cause the value estimate to diverge. A breakthrough came with the development of a new objective function that admitted stochastic gradient descent variants of TD. Since then, many sound online off-policy prediction algorithms have been developed, but there has been limited empirical work investigating the relative merits of all the variants. This paper aims to fill these empirical gaps and provide clarity on the key ideas behind each method. We summarize the large body of literature on off-policy learning, focusing on 1- methods that use computation linear in the number of features and are convergent under off-policy sampling, and 2- other methods which have proven useful with non-fixed, nonlinear function approximation. We provide an empirical study of off-policy prediction methods in two challenging microworlds. We report each method's parameter sensitivity, empirical convergence rate, and final performance, providing new insights that should enable practitioners to successfully extend these new methods to large-scale applications.[Abridged abstract]</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-06T19:09:04Z</published>
+    <arxiv:comment>68 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Andrew Patterson</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.07435v1</id>
+    <title>Predicting Periodicity with Temporal Difference Learning</title>
+    <updated>2018-09-20T00:07:27Z</updated>
+    <link href="https://arxiv.org/abs/1809.07435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.07435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal difference (TD) learning is an important approach in reinforcement learning, as it combines ideas from dynamic programming and Monte Carlo methods in a way that allows for online and incremental model-free learning. A key idea of TD learning is that it is learning predictive knowledge about the environment in the form of value functions, from which it can derive its behavior to address long-term sequential decision making problems. The agent's horizon of interest, that is, how immediate or long-term a TD learning agent predicts into the future, is adjusted through a discount rate parameter. In this paper, we introduce an alternative view on the discount rate, with insight from digital signal processing, to include complex-valued discounting. Our results show that setting the discount rate to appropriately chosen complex numbers allows for online and incremental estimation of the Discrete Fourier Transform (DFT) of a signal of interest with TD learning. We thereby extend the types of knowledge representable by value functions, which we show are particularly useful for identifying periodic effects in the reward sequence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-20T00:07:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kristopher De Asis</name>
+    </author>
+    <author>
+      <name>Brendan Bennett</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.01830v1</id>
+    <title>Per-decision Multi-step Temporal Difference Learning with Control Variates</title>
+    <updated>2018-07-05T02:34:40Z</updated>
+    <link href="https://arxiv.org/abs/1807.01830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.01830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-step temporal difference (TD) learning is an important approach in reinforcement learning, as it unifies one-step TD learning with Monte Carlo methods in a way where intermediate algorithms can outperform either extreme. They address a bias-variance trade off between reliance on current estimates, which could be poor, and incorporating longer sampled reward sequences into the updates. Especially in the off-policy setting, where the agent aims to learn about a policy different from the one generating its behaviour, the variance in the updates can cause learning to diverge as the number of sampled rewards used in the estimates increases. In this paper, we introduce per-decision control variates for multi-step TD algorithms, and compare them to existing methods. Our results show that including the control variates can greatly improve performance on both on and off-policy multi-step temporal difference learning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-05T02:34:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>(2018). In Conference on Uncertainty in Artificial Intelligence. http://auai.org/uai2018/proceedings/papers/282.pdf</arxiv:journal_ref>
+    <author>
+      <name>Kristopher De Asis</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00540v1</id>
+    <title>Integrating Episodic Memory into a Reinforcement Learning Agent using Reservoir Sampling</title>
+    <updated>2018-06-01T20:52:31Z</updated>
+    <link href="https://arxiv.org/abs/1806.00540v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.00540v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Episodic memory is a psychology term which refers to the ability to recall specific events from the past. We suggest one advantage of this particular type of memory is the ability to easily assign credit to a specific state when remembered information is found to be useful. Inspired by this idea, and the increasing popularity of external memory mechanisms to handle long-term dependencies in deep learning systems, we propose a novel algorithm which uses a reservoir sampling procedure to maintain an external memory consisting of a fixed number of past states. The algorithm allows a deep reinforcement learning agent to learn online to preferentially remember those states which are found to be useful to recall later on. Critically this method allows for efficient online computation of gradient estimates with respect to the write process of the external memory. Thus unlike most prior mechanisms for external memory it is feasible to use in an online reinforcement learning setting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-01T20:52:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kenny J. Young</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Shuo Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.07476v2</id>
+    <title>Two geometric input transformation methods for fast online reinforcement learning with neural nets</title>
+    <updated>2018-09-06T21:09:44Z</updated>
+    <link href="https://arxiv.org/abs/1805.07476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.07476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply neural nets with ReLU gates in online reinforcement learning. Our goal is to train these networks in an incremental manner, without the computationally expensive experience replay. By studying how individual neural nodes behave in online training, we recognize that the global nature of ReLU gates can cause undesirable learning interference in each node's learning behavior. We propose reducing such interferences with two efficient input transformation methods that are geometric in nature and match well the geometric property of ReLU gates. The first one is tile coding, a classic binary encoding scheme originally designed for local generalization based on the topological structure of the input space. The second one (EmECS) is a new method we introduce; it is based on geometric properties of convex sets and topological embedding of the input space into the boundary of a convex set. We discuss the behavior of the network when it operates on the transformed inputs. We also compare it experimentally with some neural nets that do not use the same input transformations, and with the classic algorithm of tile coding plus a linear function approximator, and on several online reinforcement learning tasks, we show that the neural net with tile coding or EmECS can achieve not only faster learning but also more accurate approximations. Our results strongly suggest that geometric input transformation of this type can be effective for interference reduction and takes us a step closer to fully incremental reinforcement learning with neural nets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-18T23:35:14Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Banafsheh Rafiee</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.03334v1</id>
+    <title>TIDBD: Adapting Temporal-difference Step-sizes Through Stochastic Meta-descent</title>
+    <updated>2018-04-10T04:01:07Z</updated>
+    <link href="https://arxiv.org/abs/1804.03334v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.03334v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce a method for adapting the step-sizes of temporal difference (TD) learning. The performance of TD methods often depends on well chosen step-sizes, yet few algorithms have been developed for setting the step-size automatically for TD learning. An important limitation of current methods is that they adapt a single step-size shared by all the weights of the learning system. A vector step-size enables greater optimization by specifying parameters on a per-feature basis. Furthermore, adapting parameters at different rates has the added benefit of being a simple form of representation learning. We generalize Incremental Delta Bar Delta (IDBD)---a vectorized adaptive step-size method for supervised learning---to TD learning, which we name TIDBD. We demonstrate that TIDBD is able to find appropriate step-sizes in both stationary and non-stationary prediction tasks, outperforming ordinary TD methods and TD methods with scalar step-size adaptation; we demonstrate that it can differentiate between features which are relevant and irrelevant for a given task, performing representation learning; and we show on a real-world robot prediction task that TIDBD is able to outperform ordinary TD methods and TD methods augmented with AlphaBound and RMSprop.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-10T04:01:07Z</published>
+    <arxiv:comment>Version as submitted to the 31st Conference on Neural Information Processing Systems (NIPS 2017) on May 19, 2017. 9 pages, 5 figures. Extended version in preparation for journal submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alex Kearney</name>
+    </author>
+    <author>
+      <name>Vivek Veeriah</name>
+    </author>
+    <author>
+      <name>Jaden B. Travnik</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06139v1</id>
+    <title>Reactive Reinforcement Learning in Asynchronous Environments</title>
+    <updated>2018-02-16T21:55:01Z</updated>
+    <link href="https://arxiv.org/abs/1802.06139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.06139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The relationship between a reinforcement learning (RL) agent and an asynchronous environment is often ignored. Frequently used models of the interaction between an agent and its environment, such as Markov Decision Processes (MDP) or Semi-Markov Decision Processes (SMDP), do not capture the fact that, in an asynchronous environment, the state of the environment may change during computation performed by the agent. In an asynchronous environment, minimizing reaction time---the time it takes for an agent to react to an observation---also minimizes the time in which the state of the environment may change following observation. In many environments, the reaction time of an agent directly impacts task performance by permitting the environment to transition into either an undesirable terminal state or a state where performing the chosen action is inappropriate. We propose a class of reactive reinforcement learning algorithms that address this problem of asynchronous environments by immediately acting after observing new state information. We compare a reactive SARSA learning algorithm with the conventional SARSA learning algorithm on two asynchronous robotic tasks (emergency stopping and impact prevention), and show that the reactive RL algorithm reduces the reaction time of the agent by approximately the duration of the algorithm's learning update. This new class of reactive algorithms may facilitate safer control and faster decision making without any change to standard learning guarantees.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-16T21:55:01Z</published>
+    <arxiv:comment>11 pages, 7 figures, currently under journal peer review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jaden B. Travnik</name>
+    </author>
+    <author>
+      <name>Kory W. Mathewson</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <arxiv:doi>10.3389/frobt.2018.00079</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/frobt.2018.00079" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.08287v2</id>
+    <title>Directly Estimating the Variance of the λ-Return Using Temporal-Difference Methods</title>
+    <updated>2018-02-14T17:00:05Z</updated>
+    <link href="https://arxiv.org/abs/1801.08287v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.08287v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates estimating the variance of a temporal-difference learning agent's update target. Most reinforcement learning methods use an estimate of the value function, which captures how good it is for the agent to be in a particular state and is mathematically expressed as the expected sum of discounted future rewards (called the return). These values can be straightforwardly estimated by averaging batches of returns using Monte Carlo methods. However, if we wish to update the agent's value estimates during learning--before terminal outcomes are observed--we must use a different estimation target called the λ-return, which truncates the return with the agent's own estimate of the value function. Temporal difference learning methods estimate the expected λ-return for each state, allowing these methods to update online and incrementally, and in most cases achieve better generalization error and faster learning than Monte Carlo methods. Naturally one could attempt to estimate higher-order moments of the λ-return. This paper is about estimating the variance of the λ-return. Prior work has shown that given estimates of the variance of the λ-return, learning systems can be constructed to (1) mitigate risk in action selection, and (2) automatically adapt the parameters of the learning process itself to improve performance. Unfortunately, existing methods for estimating the variance of the λ-return are complex and not well understood empirically. We contribute a method for estimating the variance of the λ-return directly using policy evaluation methods from reinforcement learning. Our approach is significantly simpler than prior methods that independently estimate the second moment of the λ-return. Empirically our new approach behaves at least as well as existing approaches, but is generally more robust.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-25T06:48:14Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Craig Sherstan</name>
+    </author>
+    <author>
+      <name>Brendan Bennett</name>
+    </author>
+    <author>
+      <name>Kenny Young</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+</feed>

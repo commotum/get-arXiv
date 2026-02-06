@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fr5gwG8iO1Tbyk6ZMDcpZR8lZ08</id>
+  <title>arXiv Query: search_query=au:"Richard Sutton"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T19:25:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Richard+Sutton%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>74</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1712.01275v3</id>
+    <title>A Deeper Look at Experience Replay</title>
+    <updated>2018-04-30T04:24:26Z</updated>
+    <link href="https://arxiv.org/abs/1712.01275v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.01275v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently experience replay is widely used in various deep reinforcement learning (RL) algorithms, in this paper we rethink the utility of experience replay. It introduces a new hyper-parameter, the memory buffer size, which needs carefully tuning. However unfortunately the importance of this new hyper-parameter has been underestimated in the community for a long time. In this paper we did a systematic empirical study of experience replay under various function representations. We showcase that a large replay buffer can significantly hurt the performance. Moreover, we propose a simple O(1) method to remedy the negative influence of a large replay buffer. We showcase its utility in both simple grid world and challenging domains like Atari games.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-04T06:03:26Z</published>
+    <arxiv:comment>NIPS 2017 Deep Reinforcement Learning Symposium</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shangtong Zhang</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.03676v1</id>
+    <title>Communicative Capital for Prosthetic Agents</title>
+    <updated>2017-11-10T03:19:59Z</updated>
+    <link href="https://arxiv.org/abs/1711.03676v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.03676v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents an overarching perspective on the role that machine intelligence can play in enhancing human abilities, especially those that have been diminished due to injury or illness. As a primary contribution, we develop the hypothesis that assistive devices, and specifically artificial arms and hands, can and should be viewed as agents in order for us to most effectively improve their collaboration with their human users. We believe that increased agency will enable more powerful interactions between human users and next generation prosthetic devices, especially when the sensorimotor space of the prosthetic technology greatly exceeds the conventional control and communication channels available to a prosthetic user. To more concretely examine an agency-based view on prosthetic devices, we propose a new schema for interpreting the capacity of a human-machine collaboration as a function of both the human's and machine's degrees of agency. We then introduce the idea of communicative capital as a way of thinking about the communication resources developed by a human and a machine during their ongoing interaction. Using this schema of agency and capacity, we examine the benefits and disadvantages of increasing the agency of a prosthetic limb. To do so, we present an analysis of examples from the literature where building communicative capital has enabled a progression of fruitful, task-directed interactions between prostheses and their human users. We then describe further work that is needed to concretely evaluate the hypothesis that prostheses are best thought of as agents. The agent-based viewpoint developed in this article significantly extends current thinking on how best to support the natural, functional use of increasingly complex prosthetic enhancements, and opens the door for more powerful interactions between humans and their assistive technologies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-10T03:19:59Z</published>
+    <arxiv:comment>33 pages, 10 figures; unpublished technical report undergoing peer review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Kory W. Mathewson</name>
+    </author>
+    <author>
+      <name>Craig Sherstan</name>
+    </author>
+    <author>
+      <name>Adam S. R. Parker</name>
+    </author>
+    <author>
+      <name>Ann L. Edwards</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.04185v2</id>
+    <title>A First Empirical Study of Emphatic Temporal Difference Learning</title>
+    <updated>2017-05-12T16:49:38Z</updated>
+    <link href="https://arxiv.org/abs/1705.04185v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.04185v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we present the first empirical study of the emphatic temporal-difference learning algorithm (ETD), comparing it with conventional temporal-difference learning, in particular, with linear TD(0), on on-policy and off-policy variations of the Mountain Car problem. The initial motivation for developing ETD was that it has good convergence properties under off-policy training (Sutton, Mahmood and White 2016), but it is also a new algorithm for the on-policy case. In both our on-policy and off-policy experiments, we found that each method converged to a characteristic asymptotic level of error, with ETD better than TD(0). TD(0) achieved a still lower error level temporarily before falling back to its higher asymptote, whereas ETD never showed this kind of "bounce". In the off-policy case (in which TD(0) is not guaranteed to converge), ETD was significantly slower.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-11T13:52:52Z</published>
+    <arxiv:comment>5 pages, Accepted to NIPS Continual Learning and Deep Networks workshop, 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Banafsheh Rafiee</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03967v1</id>
+    <title>GQ($λ$) Quick Reference and Implementation Guide</title>
+    <updated>2017-05-10T22:43:11Z</updated>
+    <link href="https://arxiv.org/abs/1705.03967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.03967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This document should serve as a quick reference for and guide to the implementation of linear GQ($λ$), a gradient-based off-policy temporal-difference learning algorithm. Explanation of the intuition and theory behind the algorithm are provided elsewhere (e.g., Maei &amp; Sutton 2010, Maei 2011). If you questions or concerns about the content in this document or the attached java code please email Adam White (adam.white@ualberta.ca).
+  The code is provided as part of the source files in the arXiv submission.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-10T22:43:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03520v2</id>
+    <title>Policy Iterations for Reinforcement Learning Problems in Continuous Time and Space -- Fundamental Theory and Methods</title>
+    <updated>2020-10-31T16:19:02Z</updated>
+    <link href="https://arxiv.org/abs/1705.03520v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.03520v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Policy iteration (PI) is a recursive process of policy evaluation and improvement for solving an optimal decision-making/control problem, or in other words, a reinforcement learning (RL) problem. PI has also served as the fundamental for developing RL methods. In this paper, we propose two PI methods, called differential PI (DPI) and integral PI (IPI), and their variants, for a general RL framework in continuous time and space (CTS), where the environment is modeled by a system of ordinary differential equations (ODEs). The proposed methods inherit the current ideas of PI in classical RL and optimal control and theoretically support the existing RL algorithms in CTS: TD-learning and value-gradient-based (VGB) greedy policy update. We also provide case studies including 1) discounted RL and 2) optimal control tasks. Fundamental mathematical properties -- admissibility, uniqueness of the solution to the Bellman equation (BE), monotone improvement, convergence, and optimality of the solution to the Hamilton-Jacobi-Bellman equation (HJBE) -- are all investigated in-depth and improved from the existing theory, along with the general and case studies. Finally, the proposed ones are simulated with an inverted-pendulum model and their model-based and partially model-free implementations to support the theory and further investigate them beyond.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-09T20:01:34Z</published>
+    <arxiv:comment>To appear in Automatica. All the Appendices are provided</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Automatica vol. 126, 109421 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Jaeyoung Lee</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <arxiv:doi>10.1016/j.automatica.2020.109421</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.automatica.2020.109421" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.04463v2</id>
+    <title>On Generalized Bellman Equations and Temporal-Difference Learning</title>
+    <updated>2018-09-27T20:27:40Z</updated>
+    <link href="https://arxiv.org/abs/1704.04463v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.04463v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider off-policy temporal-difference (TD) learning in discounted Markov decision processes, where the goal is to evaluate a policy in a model-free way by using observations of a state process generated without executing the policy. To curb the high variance issue in off-policy TD learning, we propose a new scheme of setting the $λ$-parameters of TD, based on generalized Bellman equations. Our scheme is to set $λ$ according to the eligibility trace iterates calculated in TD, thereby easily keeping these traces in a desired bounded range. Compared with prior work, this scheme is more direct and flexible, and allows much larger $λ$ values for off-policy TD learning with bounded traces. As to its soundness, using Markov chain theory, we prove the ergodicity of the joint state-trace process under nonrestrictive conditions, and we show that associated with our scheme is a generalized Bellman equation (for the policy to be evaluated) that depends on both the evolution of $λ$ and the unique invariant probability measure of the state-trace process. These results not only lead immediately to a characterization of the convergence behavior of least-squares based implementation of our scheme, but also prepare the ground for further analysis of gradient-based implementations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-14T16:01:18Z</published>
+    <arxiv:comment>Minor revision; 41 pages; to appear in Journal on Machine Learning Research, 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Journal of Machine Learning Research 19(48):1-49, 2018</arxiv:journal_ref>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.01327v2</id>
+    <title>Multi-step Reinforcement Learning: A Unifying Algorithm</title>
+    <updated>2018-06-11T22:01:57Z</updated>
+    <link href="https://arxiv.org/abs/1703.01327v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.01327v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unifying seemingly disparate algorithmic ideas to produce better performing algorithms has been a longstanding goal in reinforcement learning. As a primary example, TD($λ$) elegantly unifies one-step TD prediction with Monte Carlo methods through the use of eligibility traces and the trace-decay parameter $λ$. Currently, there are a multitude of algorithms that can be used to perform TD control, including Sarsa, $Q$-learning, and Expected Sarsa. These methods are often studied in the one-step case, but they can be extended across multiple time steps to achieve better performance. Each of these algorithms is seemingly distinct, and no one dominates the others for all problems. In this paper, we study a new multi-step action-value algorithm called $Q(σ)$ which unifies and generalizes these existing algorithms, while subsuming them as special cases. A new parameter, $σ$, is introduced to allow the degree of sampling performed by the algorithm at each step during its backup to be continuously varied, with Sarsa existing at one extreme (full sampling), and Expected Sarsa existing at the other (pure expectation). $Q(σ)$ is generally applicable to both on- and off-policy learning, but in this work we focus on experiments in the on-policy case. Our results show that an intermediate value of $σ$, which results in a mixture of the existing algorithms, performs better than either extreme. The mixture can also be varied dynamically which can result in even greater performance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-03T20:19:08Z</published>
+    <arxiv:comment>Appeared at the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>(2018). In AAAI Conference on Artificial Intelligence. https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16294</arxiv:journal_ref>
+    <author>
+      <name>Kristopher De Asis</name>
+    </author>
+    <author>
+      <name>J. Fernando Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>G. Zacharias Holland</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.03006v1</id>
+    <title>Multi-step Off-policy Learning Without Importance Sampling Ratios</title>
+    <updated>2017-02-09T22:36:25Z</updated>
+    <link href="https://arxiv.org/abs/1702.03006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.03006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To estimate the value functions of policies from exploratory data, most model-free off-policy algorithms rely on importance sampling, where the use of importance sampling ratios often leads to estimates with severe variance. It is thus desirable to learn off-policy without using the ratios. However, such an algorithm does not exist for multi-step learning with function approximation. In this paper, we introduce the first such algorithm based on temporal-difference (TD) learning updates. We show that an explicit use of importance sampling ratios can be eliminated by varying the amount of bootstrapping in TD updates in an action-dependent manner. Our new algorithm achieves stability using a two-timescale gradient-based TD update. A prior algorithm based on lookup table representation called Tree Backup can also be retrieved using action-dependent bootstrapping, becoming a special case of our algorithm. In two challenging off-policy tasks, we demonstrate that our algorithm is stable, effectively avoids the large variance issue, and can perform substantially better than its state-of-the-art counterpart.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-09T22:36:25Z</published>
+    <arxiv:comment>24 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ashique Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.02879v2</id>
+    <title>Learning Representations by Stochastic Meta-Gradient Descent in Neural Networks</title>
+    <updated>2017-04-27T14:53:00Z</updated>
+    <link href="https://arxiv.org/abs/1612.02879v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.02879v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Representations are fundamental to artificial intelligence. The performance of a learning system depends on the type of representation used for representing the data. Typically, these representations are hand-engineered using domain knowledge. More recently, the trend is to learn these representations through stochastic gradient descent in multi-layer neural networks, which is called backprop. Learning the representations directly from the incoming data stream reduces the human labour involved in designing a learning system. More importantly, this allows in scaling of a learning system for difficult tasks. In this paper, we introduce a new incremental learning algorithm called crossprop, which learns incoming weights of hidden units based on the meta-gradient descent approach, that was previously introduced by Sutton (1992) and Schraudolph (1999) for learning step-sizes. The final update equation introduces an additional memory parameter for each of these weights and generalizes the backprop update equation. From our experiments, we show that crossprop learns and reuses its feature representation while tackling new and unseen tasks whereas backprop relearns a new feature representation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-09T00:56:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vivek Veeriah</name>
+    </author>
+    <author>
+      <name>Shangtong Zhang</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05047v1</id>
+    <title>A Batch, Off-Policy, Actor-Critic Algorithm for Optimizing the Average Reward</title>
+    <updated>2016-07-18T12:43:40Z</updated>
+    <link href="https://arxiv.org/abs/1607.05047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.05047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop an off-policy actor-critic algorithm for learning an optimal policy from a training set composed of data from multiple individuals. This algorithm is developed with a view towards its use in mobile health.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-18T12:43:40Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>S. A. Murphy</name>
+    </author>
+    <author>
+      <name>Y. Deng</name>
+    </author>
+    <author>
+      <name>E. B. Laber</name>
+    </author>
+    <author>
+      <name>H. R. Maei</name>
+    </author>
+    <author>
+      <name>R. S. Sutton</name>
+    </author>
+    <author>
+      <name>K. Witkiewitz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.02807v1</id>
+    <title>Face valuing: Training user interfaces with facial expressions and reinforcement learning</title>
+    <updated>2016-06-09T03:06:46Z</updated>
+    <link href="https://arxiv.org/abs/1606.02807v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.02807v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An important application of interactive machine learning is extending or amplifying the cognitive and physical capabilities of a human. To accomplish this, machines need to learn about their human users' intentions and adapt to their preferences. In most current research, a user has conveyed preferences to a machine using explicit corrective or instructive feedback; explicit feedback imposes a cognitive load on the user and is expensive in terms of human effort. The primary objective of the current work is to demonstrate that a learning agent can reduce the amount of explicit feedback required for adapting to the user's preferences pertaining to a task by learning to perceive a value of its behavior from the human user, particularly from the user's facial expressions---we call this face valuing. We empirically evaluate face valuing on a grip selection task. Our preliminary results suggest that an agent can quickly adapt to a user's changing preferences with minimal explicit feedback by learning a value function that maps facial features extracted from a camera image to expected future reward. We believe that an agent learning to perceive a value from the body language of its human user is complementary to existing interactive machine learning approaches and will help in creating successful human-machine interactive applications.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-09T03:06:46Z</published>
+    <arxiv:comment>7 pages, 4 figures, IJCAI 2016 - Interactive Machine Learning Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Vivek Veeriah</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.04087v2</id>
+    <title>True Online Temporal-Difference Learning</title>
+    <updated>2016-09-08T18:56:23Z</updated>
+    <link href="https://arxiv.org/abs/1512.04087v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.04087v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The temporal-difference methods TD($λ$) and Sarsa($λ$) form a core part of modern reinforcement learning. Their appeal comes from their good performance, low computational cost, and their simple interpretation, given by their forward view. Recently, new versions of these methods were introduced, called true online TD($λ$) and true online Sarsa($λ$), respectively (van Seijen &amp; Sutton, 2014). These new versions maintain an exact equivalence with the forward view at all times, whereas the traditional versions only approximate it for small step-sizes. We hypothesize that these true online methods not only have better theoretical properties, but also dominate the regular methods empirically. In this article, we put this hypothesis to the test by performing an extensive empirical comparison. Specifically, we compare the performance of true online TD($λ$)/Sarsa($λ$) with regular TD($λ$)/Sarsa($λ$) on random MRPs, a real-world myoelectric prosthetic arm, and a domain from the Arcade Learning Environment. We use linear function approximation with tabular, binary, and non-binary features. Our results suggest that the true online methods indeed dominate the regular methods. Across all domains/representations the learning speed of the true online methods are often better, but never worse than that of the regular methods. An additional advantage is that no choice between traces has to be made for the true online methods. Besides the empirical results, we provide an in-depth analysis of the theory behind true online temporal-difference learning. In addition, we show that new true online temporal-difference methods can be derived by making changes to the online forward view and then rewriting the update equations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-13T17:13:33Z</published>
+    <arxiv:comment>This is the published JMLR version. It is a much improved version. The main changes are: 1) re-structuring of the article; 2) additional analysis on the forward view; 3) empirical comparison of traditional and new forward view; 4) added discussion of other true online papers; 5) updated discussion for non-linear function approximation</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Journal of Machine Learning Research (JMLR), 17(145):1-40, 2016</arxiv:journal_ref>
+    <author>
+      <name>Harm van Seijen</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <author>
+      <name>Marlos C. Machado</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.04582v1</id>
+    <title>Learning to Predict Independent of Span</title>
+    <updated>2015-08-19T09:37:25Z</updated>
+    <link href="https://arxiv.org/abs/1508.04582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.04582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider how to learn multi-step predictions efficiently. Conventional algorithms wait until observing actual outcomes before performing the computations to update their predictions. If predictions are made at a high rate or span over a large amount of time, substantial computation can be required to store all relevant observations and to update all predictions when the outcome is finally observed. We show that the exact same predictions can be learned in a much more computationally congenial way, with uniform per-step computation that does not depend on the span of the predictions. We apply this idea to various settings of increasing generality, repeatedly adding desired properties and each time deriving an equivalent span-independent algorithm for the conventional algorithm that satisfies these desiderata. Interestingly, along the way several known algorithmic constructs emerge spontaneously from our derivations, including dutch eligibility traces, temporal difference errors, and averaging. This allows us to link these constructs one-to-one to the corresponding desiderata, unambiguously connecting the `how' to the `why'. Each step, we make sure that the derived algorithm subsumes the previous algorithms, thereby retaining their properties. Ultimately we arrive at a single general temporal-difference algorithm that is applicable to the full setting of reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-19T09:37:25Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hado van Hasselt</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07147v1</id>
+    <title>True Online Emphatic TD($λ$): Quick Reference and Implementation Guide</title>
+    <updated>2015-07-25T22:56:29Z</updated>
+    <link href="https://arxiv.org/abs/1507.07147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This document is a guide to the implementation of true online emphatic TD($λ$), a model-free temporal-difference algorithm for learning to make long-term predictions which combines the emphasis idea (Sutton, Mahmood &amp; White 2015) and the true-online idea (van Seijen &amp; Sutton 2014). The setting used here includes linear function approximation, the possibility of off-policy training, and all the generality of general value functions, as well as the emphasis algorithm's notion of "interest".</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-25T22:56:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.01569v1</id>
+    <title>Emphatic Temporal-Difference Learning</title>
+    <updated>2015-07-06T19:28:36Z</updated>
+    <link href="https://arxiv.org/abs/1507.01569v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.01569v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Emphatic algorithms are temporal-difference learning algorithms that change their effective state distribution by selectively emphasizing and de-emphasizing their updates on different time steps. Recent works by Sutton, Mahmood and White (2015), and Yu (2015) show that by varying the emphasis in a particular way, these algorithms become stable and convergent under off-policy training with linear function approximation. This paper serves as a unified summary of the available results from both works. In addition, we demonstrate the empirical benefits from the flexibility of emphatic algorithms, including state-dependent discounting, state-dependent bootstrapping, and the user-specified allocation of function approximation resources.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-06T19:28:36Z</published>
+    <arxiv:comment>9 pages, accepted for presentation at European Workshop on Reinforcement Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Huizhen Yu</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.00353v1</id>
+    <title>An Empirical Evaluation of True Online TD(λ)</title>
+    <updated>2015-07-01T20:03:49Z</updated>
+    <link href="https://arxiv.org/abs/1507.00353v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.00353v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The true online TD(λ) algorithm has recently been proposed (van Seijen and Sutton, 2014) as a universal replacement for the popular TD(λ) algorithm, in temporal-difference learning and reinforcement learning. True online TD(λ) has better theoretical properties than conventional TD(λ), and the expectation is that it also results in faster learning. In this paper, we put this hypothesis to the test. Specifically, we compare the performance of true online TD(λ) with that of TD(λ) on challenging examples, random Markov reward processes, and a real-world myoelectric prosthetic arm. We use linear function approximation with tabular, binary, and non-binary features. We assess the algorithms along three dimensions: computational cost, learning speed, and ease of use. Our results confirm the strength of true online TD(λ): 1) for sparse feature vectors, the computational overhead with respect to TD(λ) is minimal; for non-sparse features the computation time is at most twice that of TD(λ), 2) across all domains/representations the learning speed of true online TD(λ) is often better, but never worse than that of TD(λ), and 3) true online TD(λ) is easier to use, because it does not require choosing between trace types, and it is generally more stable with respect to the step-size. Overall, our results suggest that true online TD(λ) should be the first choice when looking for an efficient, general-purpose TD method.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-01T20:03:49Z</published>
+    <arxiv:comment>European Workshop on Reinforcement Learning (EWRL) 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Harm van Seijen</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.05539v1</id>
+    <title>Temporal-Difference Networks</title>
+    <updated>2015-04-21T18:33:39Z</updated>
+    <link href="https://arxiv.org/abs/1504.05539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.05539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a generalization of temporal-difference (TD) learning to networks of interrelated predictions. Rather than relating a single prediction to itself at a later time, as in conventional TD methods, a TD network relates each prediction in a set of predictions to other predictions in the set at a later time. TD networks can represent and apply TD learning to a much wider class of predictions than has previously been possible. Using a random-walk example, we show that these networks can be used to learn to predict by a fixed interval, which is not possible with conventional TD methods. Secondly, we show that if the inter-predictive relationships are made conditional on action, then the usual learning-efficiency advantage of TD methods over Monte Carlo (supervised learning) methods becomes particularly pronounced. Thirdly, we demonstrate that TD networks can learn predictive state representations that enable exact solution of a non-Markov problem. A very broad range of inter-predictive temporal relationships can be expressed in these networks. Overall we argue that TD networks represent a substantial extension of the abilities of TD methods and bring us closer to the goal of representing world knowledge in entirely predictive, grounded terms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-21T18:33:39Z</published>
+    <arxiv:comment>8 pages, 3 figures, presented at the 2004 conference on Neural Information Processing Systems. in Advances in Neural Information Processing Systems 17 (proceedings of the 2004 conference), Saul, L. K., Weiss, Y., and Bottou, L. (Eds)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Brian Tanner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.04269v2</id>
+    <title>An Emphatic Approach to the Problem of Off-policy Temporal-Difference Learning</title>
+    <updated>2015-04-21T02:21:57Z</updated>
+    <link href="https://arxiv.org/abs/1503.04269v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.04269v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the idea of improving the performance of parametric temporal-difference (TD) learning algorithms by selectively emphasizing or de-emphasizing their updates on different time steps. In particular, we show that varying the emphasis of linear TD($λ$)'s updates in a particular way causes its expected update to become stable under off-policy training. The only prior model-free TD methods to achieve this with per-step computation linear in the number of function approximation parameters are the gradient-TD family of methods including TDC, GTD($λ$), and GQ($λ$). Compared to these methods, our _emphatic TD($λ$)_ is simpler and easier to use; it has only one learned parameter vector and one step-size parameter. Our treatment includes general state-dependent discounting and bootstrapping functions, and a way of specifying varying degrees of interest in accurately valuing different states.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-14T04:44:20Z</published>
+    <arxiv:comment>29 pages This is a significant revision based on the first set of reviews. The most important change was to signal early that the main result is about stability, not convergence</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Journal of Machine Learning Research 17(73): 1-29, 2016</arxiv:journal_ref>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.4714v1</id>
+    <title>Temporal-Difference Learning to Assist Human Decision Making during the Control of an Artificial Limb</title>
+    <updated>2013-09-18T17:29:03Z</updated>
+    <link href="https://arxiv.org/abs/1309.4714v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.4714v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we explore the use of reinforcement learning (RL) to help with human decision making, combining state-of-the-art RL algorithms with an application to prosthetics. Managing human-machine interaction is a problem of considerable scope, and the simplification of human-robot interfaces is especially important in the domains of biomedical technology and rehabilitation medicine. For example, amputees who control artificial limbs are often required to quickly switch between a number of control actions or modes of operation in order to operate their devices. We suggest that by learning to anticipate (predict) a user's behaviour, artificial limbs could take on an active role in a human's control decisions so as to reduce the burden on their users. Recently, we showed that RL in the form of general value functions (GVFs) could be used to accurately detect a user's control intent prior to their explicit control choices. In the present work, we explore the use of temporal-difference learning and GVFs to predict when users will switch their control influence between the different motor functions of a robot arm. Experiments were performed using a multi-function robot arm that was controlled by muscle signals from a user's body (similar to conventional artificial limb control). Our approach was able to acquire and maintain forecasts about a user's switching decisions in real time. It also provides an intuitive and reward-free way for users to correct or reinforce the decisions made by the machine learning system. We expect that when a system is certain enough about its predictions, it can begin to take over switching decisions from the user to streamline control and potentially decrease the time and effort needed to complete tasks. This preliminary study therefore suggests a way to naturally integrate human- and machine-based decision making systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-18T17:29:03Z</published>
+    <arxiv:comment>5 pages, 4 figures, This version to appear at The 1st Multidisciplinary Conference on Reinforcement Learning and Decision Making, Princeton, NJ, USA, Oct. 25-27, 2013</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ann L. Edwards</name>
+    </author>
+    <author>
+      <name>Alexandra Kearney</name>
+    </author>
+    <author>
+      <name>Michael Rory Dawson</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.2343v1</id>
+    <title>Planning by Prioritized Sweeping with Small Backups</title>
+    <updated>2013-01-10T21:54:42Z</updated>
+    <link href="https://arxiv.org/abs/1301.2343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.2343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient planning plays a crucial role in model-based reinforcement learning. Traditionally, the main planning operation is a full backup based on the current estimates of the successor states. Consequently, its computation time is proportional to the number of successor states. In this paper, we introduce a new planning backup that uses only the current value of a single successor state and has a computation time independent of the number of successor states. This new backup, which we call a small backup, opens the door to a new class of model-based reinforcement learning methods that exhibit much finer control over their planning process than traditional methods. We empirically demonstrate that this increased flexibility allows for more efficient planning by showing that an implementation of prioritized sweeping based on small backups achieves a substantial performance improvement over classical implementations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-10T21:54:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Harm van Seijen</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6262v1</id>
+    <title>Scaling Life-long Off-policy Learning</title>
+    <updated>2012-06-27T13:27:56Z</updated>
+    <link href="https://arxiv.org/abs/1206.6262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We pursue a life-long learning approach to artificial intelligence that makes extensive use of reinforcement learning algorithms. We build on our prior work with general value functions (GVFs) and the Horde architecture. GVFs have been shown able to represent a wide variety of facts about the world's dynamics that may be useful to a long-lived agent (Sutton et al. 2011). We have also previously shown scaling - that thousands of on-policy GVFs can be learned accurately in real-time on a mobile robot (Modayil, White &amp; Sutton 2011). That work was limited in that it learned about only one policy at a time, whereas the greatest potential benefits of life-long learning come from learning about many policies in parallel, as we explore in this paper. Many new challenges arise in this off-policy learning setting. To deal with convergence and efficiency challenges, we utilize the recently introduced GTD(λ) algorithm. We show that GTD(λ) with tile coding can simultaneously learn hundreds of predictions for five simple target policies while following a single random behavior policy, assessing accuracy with interspersed on-policy tests. To escape the need for the tests, which preclude further scaling, we introduce and empirically vali- date two online estimators of the off-policy objective (MSPBE). Finally, we use the more efficient of the two estimators to demonstrate off-policy learning at scale - the learning of value functions for one thousand policies in real time on a physical robot. This ability constitutes a significant step towards scaling life-long off-policy learning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T13:27:56Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <author>
+      <name>Joseph Modayil</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.3285v1</id>
+    <title>Dyna-Style Planning with Linear Function Approximation and Prioritized Sweeping</title>
+    <updated>2012-06-13T15:45:04Z</updated>
+    <link href="https://arxiv.org/abs/1206.3285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.3285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of efficiently learning optimal control policies and value functions over large state spaces in an online setting in which estimates must be available after each interaction with the world. This paper develops an explicitly model-based approach extending the Dyna architecture to linear function approximation. Dynastyle planning proceeds by generating imaginary experience from the world model and then applying model-free reinforcement learning algorithms to the imagined state transitions. Our main results are to prove that linear Dyna-style planning converges to a unique solution independent of the generating distribution, under natural conditions. In the policy evaluation setting, we prove that the limit point is the least-squares (LSTD) solution. An implication of our results is that prioritized-sweeping can be soundly extended to the linear approximation case, backing up to preceding features rather than to preceding states. We introduce two versions of prioritized sweeping with linear Dyna and briefly illustrate their performance empirically on the Mountain Car and Boyan Chain problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-13T15:45:04Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Fourth Conference on Uncertainty in Artificial Intelligence (UAI2008)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+    <author>
+      <name>Csaba Szepesvari</name>
+    </author>
+    <author>
+      <name>Alborz Geramifard</name>
+    </author>
+    <author>
+      <name>Michael P. Bowling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.4839v5</id>
+    <title>Off-Policy Actor-Critic</title>
+    <updated>2013-06-20T10:53:42Z</updated>
+    <link href="https://arxiv.org/abs/1205.4839v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.4839v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the first actor-critic algorithm for off-policy reinforcement learning. Our algorithm is online and incremental, and its per-time-step complexity scales linearly with the number of learned weights. Previous work on actor-critic algorithms is limited to the on-policy setting and does not take advantage of the recent advances in off-policy gradient temporal-difference learning. Off-policy techniques, such as Greedy-GQ, enable a target policy to be learned while following and obtaining data from another (behavior) policy. For many problems, however, actor-critic methods are more practical than action value methods (like Greedy-GQ) because they explicitly represent the policy; consequently, the policy can be stochastic and utilize a large action space. In this paper, we illustrate how to practically combine the generality and learning potential of off-policy learning with the flexibility in action selection given by actor-critic methods. We derive an incremental, linear time and space complexity algorithm that includes eligibility traces, prove convergence under assumptions similar to previous off-policy algorithms, and empirically show better or comparable performance to existing algorithms on standard reinforcement-learning benchmark problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-22T08:36:41Z</published>
+    <arxiv:comment>Full version of the paper, appendix and errata included; Proceedings of the 2012 International Conference on Machine Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Degris</name>
+    </author>
+    <author>
+      <name>Martha White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.1133v3</id>
+    <title>Multi-timescale Nexting in a Reinforcement Learning Robot</title>
+    <updated>2012-06-08T20:39:30Z</updated>
+    <link href="https://arxiv.org/abs/1112.1133v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.1133v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The term "nexting" has been used by psychologists to refer to the propensity of people and many other animals to continually predict what will happen next in an immediate, local, and personal sense. The ability to "next" constitutes a basic kind of awareness and knowledge of one's environment. In this paper we present results with a robot that learns to next in real time, predicting thousands of features of the world's state, including all sensory inputs, at timescales from 0.1 to 8 seconds. This was achieved by treating each state feature as a reward-like target and applying temporal-difference methods to learn a corresponding value function with a discount rate corresponding to the timescale. We show that two thousand predictions, each dependent on six thousand state features, can be learned and updated online at better than 10Hz on a laptop computer, using the standard TD(lambda) algorithm with linear function approximation. We show that this approach is efficient enough to be practical, with most of the learning complete within 30 minutes. We also show that a single tile-coded feature representation suffices to accurately predict many different signals at a significant range of timescales. Finally, we show that the accuracy of our learned predictions compares favorably with the optimal off-line solution.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-06T00:45:28Z</published>
+    <arxiv:comment>(11 pages, 5 figures, This version to appear in the Proceedings of the Conference on the Simulation of Adaptive Behavior, 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Joseph Modayil</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+</feed>

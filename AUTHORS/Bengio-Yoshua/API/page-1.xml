@@ -1,0 +1,3175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jsio6n1wSyOE4ztg5/JtY9hkuzU</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T19:49:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04119v1</id>
+    <title>Synthesizable Molecular Generation via Soft-constrained GFlowNets with Rich Chemical Priors</title>
+    <updated>2026-02-04T01:27:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.04119v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04119v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The application of generative models for experimental drug discovery campaigns is severely limited by the difficulty of designing molecules de novo that can be synthesized in practice. Previous works have leveraged Generative Flow Networks (GFlowNets) to impose hard synthesizability constraints through the design of state and action spaces based on predefined reaction templates and building blocks. Despite the promising prospects of this approach, it currently lacks flexibility and scalability. As an alternative, we propose S3-GFN, which generates synthesizable SMILES molecules via simple soft regularization of a sequence-based GFlowNet. Our approach leverages rich molecular priors learned from large-scale SMILES corpora to steer molecular generation towards high-reward, synthesizable chemical spaces. The model induces constraints through off-policy replay training with a contrastive learning signal based on separate buffers of synthesizable and unsynthesizable samples. Our experiments show that S3-GFN learns to generate synthesizable molecules ($\geq 95\%$) with higher rewards in diverse tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T01:27:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hyeonah Kim</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Celine Roget</name>
+    </author>
+    <author>
+      <name>Dionessa Biton</name>
+    </author>
+    <author>
+      <name>Louis Vaillancourt</name>
+    </author>
+    <author>
+      <name>Yves V. Brun</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alex Hernandez-Garcia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11699v3</id>
+    <title>Frontier AI Auditing: Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies</title>
+    <updated>2026-01-27T03:14:44Z</updated>
+    <link href="https://arxiv.org/abs/2601.11699v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11699v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Frontier AI is becoming critical societal infrastructure, but outsiders lack reliable ways to judge whether leading developers' safety and security claims are accurate and whether their practices meet relevant standards. Compared to other social and technological systems we rely on daily such as consumer products, corporate financial statements, and food supply chains, AI is subject to less rigorous third-party scrutiny along several dimensions. Ambiguity about whether AI systems are trustworthy can discourage deployment in some contexts where the technology could be beneficial, and make it more likely when it's dangerous. Public transparency alone cannot close this gap: many safety- and security-relevant details are legitimately confidential and require expert interpretation. We define frontier AI auditing as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of their systems and practices against relevant standards, based on deep, secure access to non-public information. To make rigor legible and comparable, we introduce AI Assurance Levels (AAL-1 to AAL-4), ranging from time-bounded system audits to continuous, deception-resilient verification.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-16T18:44:09Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+    <author>
+      <name>Noemi Dreksler</name>
+    </author>
+    <author>
+      <name>Aidan Homewood</name>
+    </author>
+    <author>
+      <name>Sean McGregor</name>
+    </author>
+    <author>
+      <name>Patricia Paskov</name>
+    </author>
+    <author>
+      <name>Conrad Stosz</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>A. Feder Cooper</name>
+    </author>
+    <author>
+      <name>George Balston</name>
+    </author>
+    <author>
+      <name>Steven Adler</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Grace Werner</name>
+    </author>
+    <author>
+      <name>Soren Mindermann</name>
+    </author>
+    <author>
+      <name>Vasilios Mavroudis</name>
+    </author>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Charlotte Stix</name>
+    </author>
+    <author>
+      <name>Jonas Freund</name>
+    </author>
+    <author>
+      <name>Lorenzo Pacchiardi</name>
+    </author>
+    <author>
+      <name>Jose Hernandez-Orallo</name>
+    </author>
+    <author>
+      <name>Matteo Pistillo</name>
+    </author>
+    <author>
+      <name>Michael Chen</name>
+    </author>
+    <author>
+      <name>Chris Painter</name>
+    </author>
+    <author>
+      <name>Dean W. Ball</name>
+    </author>
+    <author>
+      <name>Cullen O'Keefe</name>
+    </author>
+    <author>
+      <name>Gabriel Weil</name>
+    </author>
+    <author>
+      <name>Ben Harack</name>
+    </author>
+    <author>
+      <name>Graeme Finley</name>
+    </author>
+    <author>
+      <name>Ryan Hassan</name>
+    </author>
+    <author>
+      <name>Scott Emmons</name>
+    </author>
+    <author>
+      <name>Charles Foster</name>
+    </author>
+    <author>
+      <name>Anka Reuel</name>
+    </author>
+    <author>
+      <name>Bri Treece</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Daniel Reti</name>
+    </author>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Cristian Trout</name>
+    </author>
+    <author>
+      <name>Ali Shahin Shamsabadi</name>
+    </author>
+    <author>
+      <name>Rajiv Dattani</name>
+    </author>
+    <author>
+      <name>Adrian Weller</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+    <author>
+      <name>Jaime Sevilla</name>
+    </author>
+    <author>
+      <name>Lauren Wagner</name>
+    </author>
+    <author>
+      <name>Lisa Soder</name>
+    </author>
+    <author>
+      <name>Ketan Ramakrishnan</name>
+    </author>
+    <author>
+      <name>Henry Papadatos</name>
+    </author>
+    <author>
+      <name>Malcolm Murray</name>
+    </author>
+    <author>
+      <name>Ryan Tovcimak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10403v1</id>
+    <title>Discrete Feynman-Kac Correctors</title>
+    <updated>2026-01-15T13:55:38Z</updated>
+    <link href="https://arxiv.org/abs/2601.10403v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10403v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discrete diffusion models have recently emerged as a promising alternative to the autoregressive approach for generating discrete sequences. Sample generation via gradual denoising or demasking processes allows them to capture hierarchical non-sequential interdependencies in the data. These custom processes, however, do not assume a flexible control over the distribution of generated samples. We propose Discrete Feynman-Kac Correctors, a framework that allows for controlling the generated distribution of discrete masked diffusion models at inference time. We derive Sequential Monte Carlo (SMC) algorithms that, given a trained discrete diffusion model, control the temperature of the sampled distribution (i.e. perform annealing), sample from the product of marginals of several diffusion processes (e.g. differently conditioned processes), and sample from the product of the marginal with an external reward function, producing likely samples from the target distribution that also have high reward. Notably, our framework does not require any training of additional models or fine-tuning of the original model. We illustrate the utility of our framework in several applications including: efficient sampling from the annealed Boltzmann distribution of the Ising model, improving the performance of language models for code generation and amortized learning, as well as reward-tilted protein sequence generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T13:55:38Z</published>
+    <arxiv:comment>Code: https://github.com/hasanmohsin/discrete_fkc</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohsin Hasan</name>
+    </author>
+    <author>
+      <name>Viktor Ohanesian</name>
+    </author>
+    <author>
+      <name>Artem Gazizov</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alán Aspuru-Guzik</name>
+    </author>
+    <author>
+      <name>Roberto Bondesan</name>
+    </author>
+    <author>
+      <name>Marta Skreta</name>
+    </author>
+    <author>
+      <name>Kirill Neklyudov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.03015v1</id>
+    <title>In-Context Reinforcement Learning through Bayesian Fusion of Context and Value Prior</title>
+    <updated>2026-01-06T13:41:31Z</updated>
+    <link href="https://arxiv.org/abs/2601.03015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.03015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In-context reinforcement learning (ICRL) promises fast adaptation to unseen environments without parameter updates, but current methods either cannot improve beyond the training distribution or require near-optimal data, limiting practical adoption. We introduce SPICE, a Bayesian ICRL method that learns a prior over Q-values via deep ensemble and updates this prior at test-time using in-context information through Bayesian updates. To recover from poor priors resulting from training on sub-optimal data, our online inference follows an Upper-Confidence Bound rule that favours exploration and adaptation. We prove that SPICE achieves regret-optimal behaviour in both stochastic bandits and finite-horizon MDPs, even when pretrained only on suboptimal trajectories. We validate these findings empirically across bandit and control benchmarks. SPICE achieves near-optimal decisions on unseen tasks, substantially reduces regret compared to prior ICRL and meta-RL approaches while rapidly adapting to unseen tasks and remaining robust under distribution shift.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-06T13:41:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anaïs Berkes</name>
+    </author>
+    <author>
+      <name>Vincent Taboga</name>
+    </author>
+    <author>
+      <name>Donna Vakalis</name>
+    </author>
+    <author>
+      <name>David Rolnick</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21852v2</id>
+    <title>A Comedy of Estimators: On KL Regularization in RL Training of LLMs</title>
+    <updated>2026-01-06T15:07:53Z</updated>
+    <link href="https://arxiv.org/abs/2512.21852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The reasoning performance of large language models (LLMs) can be substantially improved by training them with reinforcement learning (RL). The RL objective for LLM training involves a regularization term, which is the reverse Kullback-Leibler (KL) divergence between the trained policy and the reference policy. Since computing the KL divergence exactly is intractable, various estimators are used in practice to estimate it from on-policy samples. Despite its wide adoption, including in several open-source libraries, there is no systematic study analyzing the numerous ways of incorporating KL estimators in the objective and their effect on the downstream performance of RL-trained models. Recent works show that prevailing practices for incorporating KL regularization do not provide correct gradients for stated objectives, creating a discrepancy between the objective and its implementation. In this paper, we further analyze these practices and study the gradients of several estimators configurations, revealing how design choices shape gradient bias. We substantiate these findings with empirical observations by RL fine-tuning \texttt{Qwen2.5-7B}, \texttt{Llama-3.1-8B-Instruct} and \texttt{Qwen3-4B-Instruct-2507} with different configurations and evaluating their performance on both in- and out-of-distribution tasks. Through our analysis, we observe that, in on-policy settings: (1) estimator configurations with biased gradients can result in training instabilities; and (2) using estimator configurations resulting in unbiased gradients leads to better performance on in-domain as well as out-of-domain tasks. We also investigate the performance resulting from different KL configurations in off-policy settings and observe that KL regularization can help stabilize off-policy RL training resulting from asynchronous setups.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-26T04:20:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Johan Obando-Ceron</name>
+    </author>
+    <author>
+      <name>Vineet Jain</name>
+    </author>
+    <author>
+      <name>Brian Bartoldson</name>
+    </author>
+    <author>
+      <name>Bhavya Kailkhura</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Glen Berseth</name>
+    </author>
+    <author>
+      <name>Pablo Samuel Castro</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Siddarth Venkatraman</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.02383v1</id>
+    <title>The Future of the AI Summit Series</title>
+    <updated>2025-12-19T23:30:07Z</updated>
+    <link href="https://arxiv.org/abs/2601.02383v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.02383v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This policy memo examines the evolution of the international AI Summit series, initiated at Bletchley Park in 2023 and continued through Seoul in 2024 and Paris in 2025, as a forum for cooperation on the governance of advanced artificial intelligence. It analyzes the factors underpinning the series' early successes and assesses challenges related to scope, participation, continuity, and institutional design. Drawing on comparisons with existing international governance models, the memo evaluates options for hosting arrangements, secretariat formats, participant selection, agenda setting, and meeting frequency. It proposes a set of design recommendations aimed at preserving the series' focus on advanced AI governance while balancing inclusivity, effectiveness, and long-term sustainability.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-19T23:30:07Z</published>
+    <arxiv:comment>Policy memo, 39 pages, includes tables. Prepared by the Oxford Martin AI Governance Initiative</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Lucia Velasco</name>
+    </author>
+    <author>
+      <name>Charles Martinet</name>
+    </author>
+    <author>
+      <name>Henry de Zoete</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+    <author>
+      <name>Duncan Snidal</name>
+    </author>
+    <author>
+      <name>Ben Garfinkel</name>
+    </author>
+    <author>
+      <name>Kwan Yee Ng</name>
+    </author>
+    <author>
+      <name>Haydn Belfield</name>
+    </author>
+    <author>
+      <name>Don Wallace</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Benjamin Prud'homme</name>
+    </author>
+    <author>
+      <name>Brian Tse</name>
+    </author>
+    <author>
+      <name>Roxana Radu</name>
+    </author>
+    <author>
+      <name>Ranjit Lall</name>
+    </author>
+    <author>
+      <name>Ben Harack</name>
+    </author>
+    <author>
+      <name>Julia Morse</name>
+    </author>
+    <author>
+      <name>Nicolas Miailhe</name>
+    </author>
+    <author>
+      <name>Scott Singer</name>
+    </author>
+    <author>
+      <name>Matt Sheehan</name>
+    </author>
+    <author>
+      <name>Max Stauffer</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Joslyn Barnhart</name>
+    </author>
+    <author>
+      <name>Imane Bello</name>
+    </author>
+    <author>
+      <name>Xue Lan</name>
+    </author>
+    <author>
+      <name>Oliver Guest</name>
+    </author>
+    <author>
+      <name>Duncan Cass-Beggs</name>
+    </author>
+    <author>
+      <name>Lu Chuanying</name>
+    </author>
+    <author>
+      <name>Sumaya Nur Adan</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Claire Dennis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13921v1</id>
+    <title>Sliding Window Recurrences for Sequence Models</title>
+    <updated>2025-12-15T21:53:17Z</updated>
+    <link href="https://arxiv.org/abs/2512.13921v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13921v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-hybrid architectures are poised to take over language modeling due to better quality and performance. We introduce a hierarchical decomposition framework for linear recurrences that allows us to develop algorithms aligned with GPU memory hierarchies, yielding Sliding Window Recurrences. We focus specifically on truncating recurrences to hardware-aligned windows which are naturally jagged, limiting costly inter-warp communication. Using SWR, we develop Phalanx layers that serve as drop-in replacements for windowed attention or linear recurrences. In 1B parameter multi-hybrid models, Phalanx achieves over 10-40% speedup across 4K to 32K context length over optimized Transformers while matching perplexity.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T21:53:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dragos Secrieru</name>
+    </author>
+    <author>
+      <name>Garyk Brixi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Taiji Suzuki</name>
+    </author>
+    <author>
+      <name>Michael Poli</name>
+    </author>
+    <author>
+      <name>Stefano Massaroli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.09914v1</id>
+    <title>FALCON: Few-step Accurate Likelihoods for Continuous Flows</title>
+    <updated>2025-12-10T18:47:25Z</updated>
+    <link href="https://arxiv.org/abs/2512.09914v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.09914v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalable sampling of molecular states in thermodynamic equilibrium is a long-standing challenge in statistical physics. Boltzmann Generators tackle this problem by pairing a generative model, capable of exact likelihood computation, with importance sampling to obtain consistent samples under the target distribution. Current Boltzmann Generators primarily use continuous normalizing flows (CNFs) trained with flow matching for efficient training of powerful models. However, likelihood calculation for these models is extremely costly, requiring thousands of function evaluations per sample, severely limiting their adoption. In this work, we propose Few-step Accurate Likelihoods for Continuous Flows (FALCON), a method which allows for few-step sampling with a likelihood accurate enough for importance sampling applications by introducing a hybrid training objective that encourages invertibility. We show FALCON outperforms state-of-the-art normalizing flow models for molecular Boltzmann sampling and is two orders of magnitude faster than the equivalently performing CNF model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-10T18:47:25Z</published>
+    <arxiv:comment>Preprint; NeurIPS 2025 MLSB</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Danyal Rehman</name>
+    </author>
+    <author>
+      <name>Tara Akhound-Sadegh</name>
+    </author>
+    <author>
+      <name>Artem Gazizov</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alexander Tong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05938v1</id>
+    <title>Adsorption energies are necessary but not sufficient to identify good catalysts</title>
+    <updated>2025-12-05T18:30:48Z</updated>
+    <link href="https://arxiv.org/abs/2512.05938v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05938v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As a core technology for green chemical synthesis and electrochemical energy storage, electrocatalysis is central to decarbonization strategies aimed at combating climate change. In this context, computational and machine learning driven catalyst discovery has emerged as a major research focus. These approaches frequently use the thermodynamic overpotential, calculated from adsorption free energies of reaction intermediates, as a key parameter in their analysis. In this paper, we explore the large-scale applicability of such overpotential estimates for identifying good catalyst candidates by using datasets from the Open Catalyst Project (OC20 and OC22). We start by quantifying the uncertainty in predicting adsorption energies using \textit{ab initio} methods and find that $\sim$0.3-0.5 eV is a conservative estimate for a single adsorption energy prediction. We then compute the overpotential of all materials in the OC20 and OC22 datasets for the hydrogen and oxygen evolution reactions. We find that while the overpotential allows the identification of known good catalysts such as platinum and iridium oxides, the uncertainty is large enough to misclassify a broad fraction of the datasets as ``good'', which limits its value as a screening criterion. These results question the reliance on overpotential estimation as a primary evaluation metric to sort through catalyst candidates and calls for a shift in focus in the computational catalysis and machine learning communities towards other metrics such as synthesizability, stability, lifetime or affordability.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T18:30:48Z</published>
+    <arxiv:comment>7 pages, 3 figures and 1 table. SI included as an appendix</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Shahana Chatterjee</name>
+    </author>
+    <author>
+      <name>Alexander Davis</name>
+    </author>
+    <author>
+      <name>Lena Podina</name>
+    </author>
+    <author>
+      <name>Divya Sharma</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alexandre Duval</name>
+    </author>
+    <author>
+      <name>Oleksandr Voznyy</name>
+    </author>
+    <author>
+      <name>Alex Hernández-Garcia</name>
+    </author>
+    <author>
+      <name>David Rolnick</name>
+    </author>
+    <author>
+      <name>Félix Therrien</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19863v1</id>
+    <title>International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management</title>
+    <updated>2025-11-25T03:12:56Z</updated>
+    <link href="https://arxiv.org/abs/2511.19863v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19863v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This second update to the 2025 International AI Safety Report assesses new developments in general-purpose AI risk management over the past year. It examines how researchers, public institutions, and AI developers are approaching risk management for general-purpose AI. In recent months, for example, three leading AI developers applied enhanced safeguards to their new models, as their internal pre-deployment testing could not rule out the possibility that these models could be misused to help create biological weapons. Beyond specific precautionary measures, there have been a range of other advances in techniques for making AI models and systems more reliable and resistant to misuse. These include new approaches in adversarial training, data curation, and monitoring systems. In parallel, institutional frameworks that operationalise and formalise these technical capabilities are starting to emerge: the number of companies publishing Frontier AI Safety Frameworks more than doubled in 2025, and governments and international organisations have established a small number of governance frameworks for general-purpose AI, focusing largely on transparency and risk assessment.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T03:12:56Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stephen Clare</name>
+    </author>
+    <author>
+      <name>Carina Prunkl</name>
+    </author>
+    <author>
+      <name>Maksym Andriushchenko</name>
+    </author>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Philip Fox</name>
+    </author>
+    <author>
+      <name>Nestor Maslej</name>
+    </author>
+    <author>
+      <name>Conor McGlynn</name>
+    </author>
+    <author>
+      <name>Malcolm Murray</name>
+    </author>
+    <author>
+      <name>Shalaleh Rismani</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Jessica Newman</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daron Acemoglu</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Fredrik Heintz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Susan Leavy</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John McDermid</name>
+    </author>
+    <author>
+      <name>Jane Munga</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Clara Neppel</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Alavaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Leandro Aguirre</name>
+    </author>
+    <author>
+      <name>Olubunmi Ajala</name>
+    </author>
+    <author>
+      <name>Fahad Albalawi</name>
+    </author>
+    <author>
+      <name>Noora AlMalek</name>
+    </author>
+    <author>
+      <name>Christian Busch</name>
+    </author>
+    <author>
+      <name>André Carvalho</name>
+    </author>
+    <author>
+      <name>Jonathan Collas</name>
+    </author>
+    <author>
+      <name>Amandeep Gill</name>
+    </author>
+    <author>
+      <name>Ahmet Hatip</name>
+    </author>
+    <author>
+      <name>Juha Heikkilä</name>
+    </author>
+    <author>
+      <name>Chris Johnson</name>
+    </author>
+    <author>
+      <name>Gill Jolly</name>
+    </author>
+    <author>
+      <name>Ziv Katzir</name>
+    </author>
+    <author>
+      <name>Mary Kerema</name>
+    </author>
+    <author>
+      <name>Hiroaki Kitano</name>
+    </author>
+    <author>
+      <name>Antonio Krüger</name>
+    </author>
+    <author>
+      <name>Aoife McLysaght</name>
+    </author>
+    <author>
+      <name>Oleksii Molchanovskyi</name>
+    </author>
+    <author>
+      <name>Andrea Monti</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+    <author>
+      <name>Mona Nemer</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+    <author>
+      <name>Raquel Pezoa</name>
+    </author>
+    <author>
+      <name>Audrey Plonk</name>
+    </author>
+    <author>
+      <name>José Portillo</name>
+    </author>
+    <author>
+      <name>Balaraman Ravindran</name>
+    </author>
+    <author>
+      <name>Hammam Riza</name>
+    </author>
+    <author>
+      <name>Crystal Rugege</name>
+    </author>
+    <author>
+      <name>Haroon Sheikh</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Liming Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25741v4</id>
+    <title>Scaling Latent Reasoning via Looped Language Models</title>
+    <updated>2025-11-17T20:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2510.25741v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25741v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern LLMs are trained to "think" primarily via explicit text generation, such as chain-of-thought (CoT), which defers reasoning to post-training and under-leverages pre-training data. We present and open-source Ouro, named after the recursive Ouroboros, a family of pre-trained Looped Language Models (LoopLM) that instead build reasoning into the pre-training phase through (i) iterative computation in latent space, (ii) an entropy-regularized objective for learned depth allocation, and (iii) scaling to 7.7T tokens. Ouro 1.4B and 2.6B models enjoy superior performance that match the results of up to 12B SOTA LLMs across a wide range of benchmarks. Through controlled experiments, we show this advantage stems not from increased knowledge capacity, but from superior knowledge manipulation capabilities. We also show that LoopLM yields reasoning traces more aligned with final outputs than explicit CoT. We hope our results show the potential of LoopLM as a novel scaling direction in the reasoning era. Our model is available here: http://ouro-llm.github.io.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T17:45:42Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui-Jie Zhu</name>
+    </author>
+    <author>
+      <name>Zixuan Wang</name>
+    </author>
+    <author>
+      <name>Kai Hua</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Ziniu Li</name>
+    </author>
+    <author>
+      <name>Haoran Que</name>
+    </author>
+    <author>
+      <name>Boyi Wei</name>
+    </author>
+    <author>
+      <name>Zixin Wen</name>
+    </author>
+    <author>
+      <name>Fan Yin</name>
+    </author>
+    <author>
+      <name>He Xing</name>
+    </author>
+    <author>
+      <name>Lu Li</name>
+    </author>
+    <author>
+      <name>Jiajun Shi</name>
+    </author>
+    <author>
+      <name>Kaijing Ma</name>
+    </author>
+    <author>
+      <name>Shanda Li</name>
+    </author>
+    <author>
+      <name>Taylor Kergan</name>
+    </author>
+    <author>
+      <name>Andrew Smith</name>
+    </author>
+    <author>
+      <name>Xingwei Qu</name>
+    </author>
+    <author>
+      <name>Mude Hui</name>
+    </author>
+    <author>
+      <name>Bohong Wu</name>
+    </author>
+    <author>
+      <name>Qiyang Min</name>
+    </author>
+    <author>
+      <name>Hongzhi Huang</name>
+    </author>
+    <author>
+      <name>Xun Zhou</name>
+    </author>
+    <author>
+      <name>Wei Ye</name>
+    </author>
+    <author>
+      <name>Jiaheng Liu</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Yunfeng Shi</name>
+    </author>
+    <author>
+      <name>Chenghua Lin</name>
+    </author>
+    <author>
+      <name>Enduo Zhao</name>
+    </author>
+    <author>
+      <name>Tianle Cai</name>
+    </author>
+    <author>
+      <name>Ge Zhang</name>
+    </author>
+    <author>
+      <name>Wenhao Huang</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jason Eshraghian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21523v1</id>
+    <title>Surrogate-based quantification of policy uncertainty in generative flow networks</title>
+    <updated>2025-10-24T14:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.21523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative flow networks are able to sample, via sequential construction, high-reward, complex objects according to a reward function. However, such reward functions are often estimated approximately from noisy data, leading to epistemic uncertainty in the learnt policy. We present an approach to quantify this uncertainty by constructing a surrogate model composed of a polynomial chaos expansion, fit on a small ensemble of trained flow networks. This model learns the relationship between reward functions, parametrised in a low-dimensional space, and the probability distributions over actions at each step along a trajectory of the flow network. The surrogate model can then be used for inexpensive Monte Carlo sampling to estimate the uncertainty in the policy given uncertain rewards. We illustrate the performance of our approach on a discrete and continuous grid-world, symbolic regression, and a Bayesian structure learning task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T14:44:36Z</published>
+    <arxiv:comment>18 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ramón Nartallo-Kaluarachchi</name>
+    </author>
+    <author>
+      <name>Robert Manson-Sawko</name>
+    </author>
+    <author>
+      <name>Shashanka Ubaru</name>
+    </author>
+    <author>
+      <name>Dongsung Huh</name>
+    </author>
+    <author>
+      <name>Małgorzata J Zimoń</name>
+    </author>
+    <author>
+      <name>Lior Horesh</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18212v3</id>
+    <title>A Definition of AGI</title>
+    <updated>2025-12-03T00:35:56Z</updated>
+    <link href="https://arxiv.org/abs/2510.18212v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18212v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The lack of a concrete definition for Artificial General Intelligence (AGI) obscures the gap between today's specialized AI and human-level cognition. This paper introduces a quantifiable framework to address this, defining AGI as matching the cognitive versatility and proficiency of a well-educated adult. To operationalize this, we ground our methodology in Cattell-Horn-Carroll theory, the most empirically validated model of human cognition. The framework dissects general intelligence into ten core cognitive domains-including reasoning, memory, and perception-and adapts established human psychometric batteries to evaluate AI systems. Application of this framework reveals a highly "jagged" cognitive profile in contemporary models. While proficient in knowledge-intensive domains, current AI systems have critical deficits in foundational cognitive machinery, particularly long-term memory storage. The resulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 57%) concretely quantify both rapid progress and the substantial gap remaining before AGI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T01:28:35Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Honglak Lee</name>
+    </author>
+    <author>
+      <name>Yarin Gal</name>
+    </author>
+    <author>
+      <name>Erik Brynjolfsson</name>
+    </author>
+    <author>
+      <name>Sharon Li</name>
+    </author>
+    <author>
+      <name>Andy Zou</name>
+    </author>
+    <author>
+      <name>Lionel Levine</name>
+    </author>
+    <author>
+      <name>Bo Han</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Ziwei Liu</name>
+    </author>
+    <author>
+      <name>Jinwoo Shin</name>
+    </author>
+    <author>
+      <name>Kimin Lee</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Long Phan</name>
+    </author>
+    <author>
+      <name>George Ingebretsen</name>
+    </author>
+    <author>
+      <name>Adam Khoja</name>
+    </author>
+    <author>
+      <name>Cihang Xie</name>
+    </author>
+    <author>
+      <name>Olawale Salaudeen</name>
+    </author>
+    <author>
+      <name>Matthias Hein</name>
+    </author>
+    <author>
+      <name>Kevin Zhao</name>
+    </author>
+    <author>
+      <name>Alexander Pan</name>
+    </author>
+    <author>
+      <name>David Duvenaud</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>Steve Omohundro</name>
+    </author>
+    <author>
+      <name>Gabriel Alfour</name>
+    </author>
+    <author>
+      <name>Max Tegmark</name>
+    </author>
+    <author>
+      <name>Kevin McGrew</name>
+    </author>
+    <author>
+      <name>Gary Marcus</name>
+    </author>
+    <author>
+      <name>Jaan Tallinn</name>
+    </author>
+    <author>
+      <name>Eric Schmidt</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13653v1</id>
+    <title>International AI Safety Report 2025: First Key Update: Capabilities and Risk Implications</title>
+    <updated>2025-10-15T15:13:49Z</updated>
+    <link href="https://arxiv.org/abs/2510.13653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the publication of the first International AI Safety Report, AI capabilities have continued to improve across key domains. New training techniques that teach AI systems to reason step-by-step and inference-time enhancements have primarily driven these advances, rather than simply training larger models. As a result, general-purpose AI systems can solve more complex problems in a range of domains, from scientific research to software development. Their performance on benchmarks that measure performance in coding, mathematics, and answering expert-level science questions has continued to improve, though reliability challenges persist, with systems excelling on some tasks while failing completely on others. These capability improvements also have implications for multiple risks, including risks from biological weapons and cyber attacks. Finally, they pose new challenges for monitoring and controllability. This update examines how AI capabilities have improved since the first Report, then focuses on key risk areas where substantial new evidence warrants updated assessments.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T15:13:49Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stephen Clare</name>
+    </author>
+    <author>
+      <name>Carina Prunkl</name>
+    </author>
+    <author>
+      <name>Shalaleh Rismani</name>
+    </author>
+    <author>
+      <name>Maksym Andriushchenko</name>
+    </author>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Philip Fox</name>
+    </author>
+    <author>
+      <name>Tiancheng Hu</name>
+    </author>
+    <author>
+      <name>Cameron Jones</name>
+    </author>
+    <author>
+      <name>Sam Manning</name>
+    </author>
+    <author>
+      <name>Nestor Maslej</name>
+    </author>
+    <author>
+      <name>Vasilios Mavroudis</name>
+    </author>
+    <author>
+      <name>Conor McGlynn</name>
+    </author>
+    <author>
+      <name>Malcolm Murray</name>
+    </author>
+    <author>
+      <name>Charlotte Stix</name>
+    </author>
+    <author>
+      <name>Lucia Velasco</name>
+    </author>
+    <author>
+      <name>Nicole Wheeler</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daron Acemoglu</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Fredrik Heintz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Susan Leavy</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John McDermid</name>
+    </author>
+    <author>
+      <name>Jane Munga</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Clara Neppel</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Alavaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Leandro Aguirre</name>
+    </author>
+    <author>
+      <name>Olubunmi Ajala</name>
+    </author>
+    <author>
+      <name>Fahad Albalawi Noora AlMalek</name>
+    </author>
+    <author>
+      <name>Christian Busch</name>
+    </author>
+    <author>
+      <name>André Carvalho</name>
+    </author>
+    <author>
+      <name>Jonathan Collas</name>
+    </author>
+    <author>
+      <name>Amandeep Gill</name>
+    </author>
+    <author>
+      <name>Ahmet Hatip</name>
+    </author>
+    <author>
+      <name>Juha Heikkilä</name>
+    </author>
+    <author>
+      <name>Chris Johnson</name>
+    </author>
+    <author>
+      <name>Gill Jolly</name>
+    </author>
+    <author>
+      <name>Ziv Katzir</name>
+    </author>
+    <author>
+      <name>Mary Kerema</name>
+    </author>
+    <author>
+      <name>Hiroaki Kitano</name>
+    </author>
+    <author>
+      <name>Antonio Krüger</name>
+    </author>
+    <author>
+      <name>Aoife McLysaght</name>
+    </author>
+    <author>
+      <name>Oleksii Molchanovskyi</name>
+    </author>
+    <author>
+      <name>Andrea Monti</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+    <author>
+      <name>Mona Nemer</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+    <author>
+      <name>Raquel Pezoa</name>
+    </author>
+    <author>
+      <name>Audrey Plonk</name>
+    </author>
+    <author>
+      <name>José Portillo</name>
+    </author>
+    <author>
+      <name>Balaraman Ravindran</name>
+    </author>
+    <author>
+      <name>Hammam Riza</name>
+    </author>
+    <author>
+      <name>Crystal Rugege</name>
+    </author>
+    <author>
+      <name>Haroon Sheikh</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Liming Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.12974v2</id>
+    <title>Scope: Selective Cross-modal Orchestration of Visual Perception Experts</title>
+    <updated>2025-10-17T03:30:31Z</updated>
+    <link href="https://arxiv.org/abs/2510.12974v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.12974v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) benefit from multiple vision encoders, but naively stacking them yields diminishing returns while multiplying inference costs. We propose SCOPE, a Mixture-of-Encoders (MoEnc) framework that dynamically selects one specialized encoder per image-text pair via instance-level routing, unlike token-level routing in traditional MoE. SCOPE maintains a shared encoder and a pool of routed encoders. A lightweight router uses cross-attention between text prompts and shared visual features to select the optimal encoder from the routed encoders. To train this router, we introduce dual entropy regularization with auxiliary losses to balance dataset-level load distribution with instance-level routing confidence. Remarkably, SCOPE with one shared plus one routed encoder outperforms models using all four extra encoders simultaneously, while reducing compute by 24-49\%. This demonstrates that intelligent encoder selection beats brute-force aggregation, challenging the prevailing paradigm in multi-encoder VLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-14T20:33:01Z</published>
+    <arxiv:comment>14 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Suyuchen Wang</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Juan Rodriguez</name>
+    </author>
+    <author>
+      <name>Ahmed Masry</name>
+    </author>
+    <author>
+      <name>Xiangru Jian</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Perouz Taslakian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09660v4</id>
+    <title>Learning What Matters: Steering Diffusion via Spectrally Anisotropic Forward Noise</title>
+    <updated>2025-12-10T16:04:26Z</updated>
+    <link href="https://arxiv.org/abs/2510.09660v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09660v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion Probabilistic Models (DPMs) have achieved strong generative performance, yet their inductive biases remain largely implicit. In this work, we aim to build inductive biases into the training and sampling of diffusion models to better accommodate the target distribution of the data to model. We introduce an anisotropic noise operator that shapes these biases by replacing the isotropic forward covariance with a structured, frequency-diagonal covariance. This operator unifies band-pass masks and power-law weightings, allowing us to emphasize or suppress designated frequency bands, while keeping the forward process Gaussian. We refer to this as Spectrally Anisotropic Gaussian Diffusion (SAGD). In this work, we derive the score relation for anisotropic forward covariances and show that, under full support, the learned score converges to the true data score as $t\!\to\!0$, while anisotropy reshapes the probability-flow path from noise to data. Empirically, we show the induced anisotropy outperforms standard diffusion across several vision datasets, and enables selective omission: learning while ignoring known corruptions confined to specific bands. Together, these results demonstrate that carefully designed anisotropic forward noise provides a simple, yet principled, handle to tailor inductive bias in DPMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-07T16:08:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Thomas Jiralerspong</name>
+    </author>
+    <author>
+      <name>Berton Earnshaw</name>
+    </author>
+    <author>
+      <name>Jason Hartford</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02142v1</id>
+    <title>Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study</title>
+    <updated>2025-10-02T15:49:39Z</updated>
+    <link href="https://arxiv.org/abs/2510.02142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient and inexpensive energy storage is essential for accelerating the adoption of renewable energy and ensuring a stable supply, despite fluctuations in sources such as wind and solar. Electrocatalysts play a key role in hydrogen energy storage (HES), allowing the energy to be stored as hydrogen. However, the development of affordable and high-performance catalysts for this process remains a significant challenge. We introduce Catalyst GFlowNet, a generative model that leverages machine learning-based predictors of formation and adsorption energy to design crystal surfaces that act as efficient catalysts. We demonstrate the performance of the model through a proof-of-concept application to the hydrogen evolution reaction, a key reaction in HES, for which we successfully identified platinum as the most efficient known catalyst. In future work, we aim to extend this approach to the oxygen evolution reaction, where current optimal catalysts are expensive metal oxides, and open the search space to discover new materials. This generative modeling framework offers a promising pathway for accelerating the search for novel and efficient catalysts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T15:49:39Z</published>
+    <arxiv:comment>5 pages, 2 figures. Accepted to NeurIPS AI for Materials Workshop 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lena Podina</name>
+    </author>
+    <author>
+      <name>Christina Humer</name>
+    </author>
+    <author>
+      <name>Alexandre Duval</name>
+    </author>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Ali Ramlaoui</name>
+    </author>
+    <author>
+      <name>Shahana Chatterjee</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alex Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>David Rolnick</name>
+    </author>
+    <author>
+      <name>Félix Therrien</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.26626v1</id>
+    <title>Recursive Self-Aggregation Unlocks Deep Thinking in Large Language Models</title>
+    <updated>2025-09-30T17:58:03Z</updated>
+    <link href="https://arxiv.org/abs/2509.26626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.26626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Test-time scaling methods improve the capabilities of large language models (LLMs) by increasing the amount of compute used during inference to make a prediction. Inference-time compute can be scaled in parallel by choosing among multiple independent solutions or sequentially through self-refinement. We propose Recursive Self-Aggregation (RSA), a test-time scaling method inspired by evolutionary methods that combines the benefits of both parallel and sequential scaling. Each step of RSA refines a population of candidate reasoning chains through aggregation of subsets to yield a population of improved solutions, which are then used as the candidate pool for the next iteration. RSA exploits the rich information embedded in the reasoning chains -- not just the final answers -- and enables bootstrapping from partially correct intermediate steps within different chains of thought. Empirically, RSA delivers substantial performance gains with increasing compute budgets across diverse tasks, model families and sizes. Notably, RSA enables Qwen3-4B-Instruct-2507 to achieve competitive performance with larger reasoning models, including DeepSeek-R1 and o3-mini (high), while outperforming purely parallel and sequential scaling strategies across AIME-25, HMMT-25, Reasoning Gym, LiveCodeBench-v6, and SuperGPQA. We further demonstrate that training the model to combine solutions via a novel aggregation-aware reinforcement learning approach yields significant performance gains. Code available at https://github.com/HyperPotatoNeo/RSA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-30T17:58:03Z</published>
+    <arxiv:comment>24 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Siddarth Venkatraman</name>
+    </author>
+    <author>
+      <name>Vineet Jain</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Johan Obando-Ceron</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Brian R. Bartoldson</name>
+    </author>
+    <author>
+      <name>Bhavya Kailkhura</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+    <author>
+      <name>Glen Berseth</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.21947v2</id>
+    <title>Active Attacks: Red-teaming LLMs via Adaptive Environments</title>
+    <updated>2025-10-04T07:20:24Z</updated>
+    <link href="https://arxiv.org/abs/2509.21947v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.21947v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address the challenge of generating diverse attack prompts for large language models (LLMs) that elicit harmful behaviors (e.g., insults, sexual content) and are used for safety fine-tuning. Rather than relying on manual prompt engineering, attacker LLMs can be trained with reinforcement learning (RL) to automatically generate such prompts using only a toxicity classifier as a reward. However, capturing a wide range of harmful behaviors is a significant challenge that requires explicit diversity objectives. Existing diversity-seeking RL methods often collapse to limited modes: once high-reward prompts are found, exploration of new regions is discouraged. Inspired by the active learning paradigm that encourages adaptive exploration, we introduce \textit{Active Attacks}, a novel RL-based red-teaming algorithm that adapts its attacks as the victim evolves. By periodically safety fine-tuning the victim LLM with collected attack prompts, rewards in exploited regions diminish, which forces the attacker to seek unexplored vulnerabilities. This process naturally induces an easy-to-hard exploration curriculum, where the attacker progresses beyond easy modes toward increasingly difficult ones. As a result, Active Attacks uncovers a wide range of local attack modes step by step, and their combination achieves wide coverage of the multi-mode distribution. Active Attacks, a simple plug-and-play module that seamlessly integrates into existing RL objectives, unexpectedly outperformed prior RL-based methods -- including GFlowNets, PPO, and REINFORCE -- by improving cross-attack success rates against GFlowNets, the previous state-of-the-art, from 0.07% to 31.28% (a relative gain greater than $400\ \times$) with only a 6% increase in computation. Our code is publicly available \href{https://github.com/dbsxodud-11/active_attacks}{here}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-26T06:27:00Z</published>
+    <arxiv:comment>22 pages, 7 figures, 18 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Taeyoung Yun</name>
+    </author>
+    <author>
+      <name>Pierre-Luc St-Charles</name>
+    </author>
+    <author>
+      <name>Jinkyoo Park</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.01632v1</id>
+    <title>Relative Trajectory Balance is equivalent to Trust-PCL</title>
+    <updated>2025-09-01T17:17:25Z</updated>
+    <link href="https://arxiv.org/abs/2509.01632v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.01632v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress in generative modeling has highlighted the importance of Reinforcement Learning (RL) for fine-tuning, with KL-regularized methods in particular proving to be highly effective for both autoregressive and diffusion models. Complementing this line of work, the Relative Trajectory Balance (RTB) objective was recently introduced in the context of Generative Flow Networks (GFlowNets) to serve the same role of improving fine-tuning in sequential generative models. Building on prior work linking GFlowNets and maximum-entropy RL, we establish in this paper an equivalence between RTB and Trust-PCL, an off-policy RL method with KL regularization. This equivalence situates RTB within the broader theoretical landscape of KL-regularized RL, and clarifies its relationship to earlier methods. Leveraging this insight, we revisit an illustrative example from the RTB paper and show that KL-regularized RL methods achieve comparable performance, offering an alternative perspective to what was previously reported.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-01T17:17:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Padideh Nouri</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.16110v1</id>
+    <title>Expert-Guided LLM Reasoning for Battery Discovery: From AI-Driven Hypothesis to Synthesis and Characterization</title>
+    <updated>2025-07-21T23:46:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.16110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.16110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) leverage chain-of-thought (CoT) techniques to tackle complex problems, representing a transformative breakthrough in artificial intelligence (AI). However, their reasoning capabilities have primarily been demonstrated in solving math and coding problems, leaving their potential for domain-specific applications-such as battery discovery-largely unexplored. Inspired by the idea that reasoning mirrors a form of guided search, we introduce ChatBattery, a novel agentic framework that integrates domain knowledge to steer LLMs toward more effective reasoning in materials design. Using ChatBattery, we successfully identify, synthesize, and characterize three novel lithium-ion battery cathode materials, which achieve practical capacity improvements of 28.8%, 25.2%, and 18.5%, respectively, over the widely used cathode material, LiNi0.8Mn0.1Co0.1O2 (NMC811). Beyond this discovery, ChatBattery paves a new path by showing a successful LLM-driven and reasoning-based platform for battery materials invention. This complete AI-driven cycle-from design to synthesis to characterization-demonstrates the transformative potential of AI-driven reasoning in revolutionizing materials discovery.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-21T23:46:11Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shengchao Liu</name>
+    </author>
+    <author>
+      <name>Hannan Xu</name>
+    </author>
+    <author>
+      <name>Yan Ai</name>
+    </author>
+    <author>
+      <name>Huanxin Li</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Harry Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.11759v1</id>
+    <title>Torsional-GFN: a conditional conformation generator for small molecules</title>
+    <updated>2025-07-15T21:53:25Z</updated>
+    <link href="https://arxiv.org/abs/2507.11759v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.11759v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generating stable molecular conformations is crucial in several drug discovery applications, such as estimating the binding affinity of a molecule to a target. Recently, generative machine learning methods have emerged as a promising, more efficient method than molecular dynamics for sampling of conformations from the Boltzmann distribution. In this paper, we introduce Torsional-GFN, a conditional GFlowNet specifically designed to sample conformations of molecules proportionally to their Boltzmann distribution, using only a reward function as training signal. Conditioned on a molecular graph and its local structure (bond lengths and angles), Torsional-GFN samples rotations of its torsion angles. Our results demonstrate that Torsional-GFN is able to sample conformations approximately proportional to the Boltzmann distribution for multiple molecules with a single model, and allows for zero-shot generalization to unseen bond lengths and angles coming from the MD simulations for such molecules. Our work presents a promising avenue for scaling the proposed approach to larger molecular systems, achieving zero-shot generalization to unseen molecules, and including the generation of the local structure into the GFlowNet model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-15T21:53:25Z</published>
+    <arxiv:comment>The two first authors are Alexandra Volokhova and Léna Néhale Ezzine, with equal contribution</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexandra Volokhova</name>
+    </author>
+    <author>
+      <name>Léna Néhale Ezzine</name>
+    </author>
+    <author>
+      <name>Piotr Gaiński</name>
+    </author>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Prudencio Tossou</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alex Hernandez-Garcia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.11473v2</id>
+    <title>Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety</title>
+    <updated>2025-12-07T02:14:12Z</updated>
+    <link href="https://arxiv.org/abs/2507.11473v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.11473v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI systems that "think" in human language offer a unique opportunity for AI safety: we can monitor their chains of thought (CoT) for the intent to misbehave. Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-15T16:43:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tomek Korbak</name>
+    </author>
+    <author>
+      <name>Mikita Balesni</name>
+    </author>
+    <author>
+      <name>Elizabeth Barnes</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Joe Benton</name>
+    </author>
+    <author>
+      <name>Joseph Bloom</name>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Alan Cooney</name>
+    </author>
+    <author>
+      <name>Allan Dafoe</name>
+    </author>
+    <author>
+      <name>Anca Dragan</name>
+    </author>
+    <author>
+      <name>Scott Emmons</name>
+    </author>
+    <author>
+      <name>Owain Evans</name>
+    </author>
+    <author>
+      <name>David Farhi</name>
+    </author>
+    <author>
+      <name>Ryan Greenblatt</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+    <author>
+      <name>Marius Hobbhahn</name>
+    </author>
+    <author>
+      <name>Evan Hubinger</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+    <author>
+      <name>Erik Jenner</name>
+    </author>
+    <author>
+      <name>Daniel Kokotajlo</name>
+    </author>
+    <author>
+      <name>Victoria Krakovna</name>
+    </author>
+    <author>
+      <name>Shane Legg</name>
+    </author>
+    <author>
+      <name>David Lindner</name>
+    </author>
+    <author>
+      <name>David Luan</name>
+    </author>
+    <author>
+      <name>Aleksander Mądry</name>
+    </author>
+    <author>
+      <name>Julian Michael</name>
+    </author>
+    <author>
+      <name>Neel Nanda</name>
+    </author>
+    <author>
+      <name>Dave Orr</name>
+    </author>
+    <author>
+      <name>Jakub Pachocki</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Mary Phuong</name>
+    </author>
+    <author>
+      <name>Fabien Roger</name>
+    </author>
+    <author>
+      <name>Joshua Saxe</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Martín Soto</name>
+    </author>
+    <author>
+      <name>Eric Steinberger</name>
+    </author>
+    <author>
+      <name>Jasmine Wang</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Bowen Baker</name>
+    </author>
+    <author>
+      <name>Rohin Shah</name>
+    </author>
+    <author>
+      <name>Vlad Mikulik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.20702v2</id>
+    <title>The Singapore Consensus on Global AI Safety Research Priorities</title>
+    <updated>2025-06-30T21:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2506.20702v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.20702v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapidly improving AI capabilities and autonomy hold significant promise of transformation, but are also driving vigorous debate on how to ensure that AI is safe, i.e., trustworthy, reliable, and secure. Building a trusted ecosystem is therefore essential -- it helps people embrace AI with confidence and gives maximal space for innovation while avoiding backlash.
+  The "2025 Singapore Conference on AI (SCAI): International Scientific Exchange on AI Safety" aimed to support research in this space by bringing together AI scientists across geographies to identify and synthesise research priorities in AI safety. This resulting report builds on the International AI Safety Report chaired by Yoshua Bengio and backed by 33 governments. By adopting a defence-in-depth model, this report organises AI safety research domains into three types: challenges with creating trustworthy AI systems (Development), challenges with evaluating their risks (Assessment), and challenges with monitoring and intervening after deployment (Control).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-25T17:59:50Z</published>
+    <arxiv:comment>Final report from the "2025 Singapore Conference on AI (SCAI)" held April 26: https://www.scai.gov.sg/2025/scai2025-report</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Luke Ong</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Max Tegmark</name>
+    </author>
+    <author>
+      <name>Lan Xue</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Wan Sie Lee</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Vanessa Wilfred</name>
+    </author>
+    <author>
+      <name>Vidhisha Balachandran</name>
+    </author>
+    <author>
+      <name>Fazl Barez</name>
+    </author>
+    <author>
+      <name>Michael Belinsky</name>
+    </author>
+    <author>
+      <name>Imane Bello</name>
+    </author>
+    <author>
+      <name>Malo Bourgon</name>
+    </author>
+    <author>
+      <name>Mark Brakel</name>
+    </author>
+    <author>
+      <name>Siméon Campos</name>
+    </author>
+    <author>
+      <name>Duncan Cass-Beggs</name>
+    </author>
+    <author>
+      <name>Jiahao Chen</name>
+    </author>
+    <author>
+      <name>Rumman Chowdhury</name>
+    </author>
+    <author>
+      <name>Kuan Chua Seah</name>
+    </author>
+    <author>
+      <name>Jeff Clune</name>
+    </author>
+    <author>
+      <name>Juntao Dai</name>
+    </author>
+    <author>
+      <name>Agnes Delaborde</name>
+    </author>
+    <author>
+      <name>Nouha Dziri</name>
+    </author>
+    <author>
+      <name>Francisco Eiras</name>
+    </author>
+    <author>
+      <name>Joshua Engels</name>
+    </author>
+    <author>
+      <name>Jinyu Fan</name>
+    </author>
+    <author>
+      <name>Adam Gleave</name>
+    </author>
+    <author>
+      <name>Noah Goodman</name>
+    </author>
+    <author>
+      <name>Fynn Heide</name>
+    </author>
+    <author>
+      <name>Johannes Heidecke</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+    <author>
+      <name>Cyrus Hodes</name>
+    </author>
+    <author>
+      <name>Bryan Low Kian Hsiang</name>
+    </author>
+    <author>
+      <name>Minlie Huang</name>
+    </author>
+    <author>
+      <name>Sami Jawhar</name>
+    </author>
+    <author>
+      <name>Wang Jingyu</name>
+    </author>
+    <author>
+      <name>Adam Tauman Kalai</name>
+    </author>
+    <author>
+      <name>Meindert Kamphuis</name>
+    </author>
+    <author>
+      <name>Mohan Kankanhalli</name>
+    </author>
+    <author>
+      <name>Subhash Kantamneni</name>
+    </author>
+    <author>
+      <name>Mathias Bonde Kirk</name>
+    </author>
+    <author>
+      <name>Thomas Kwa</name>
+    </author>
+    <author>
+      <name>Jeffrey Ladish</name>
+    </author>
+    <author>
+      <name>Kwok-Yan Lam</name>
+    </author>
+    <author>
+      <name>Wan Lee Sie</name>
+    </author>
+    <author>
+      <name>Taewhi Lee</name>
+    </author>
+    <author>
+      <name>Xiaojian Li</name>
+    </author>
+    <author>
+      <name>Jiajun Liu</name>
+    </author>
+    <author>
+      <name>Chaochao Lu</name>
+    </author>
+    <author>
+      <name>Yifan Mai</name>
+    </author>
+    <author>
+      <name>Richard Mallah</name>
+    </author>
+    <author>
+      <name>Julian Michael</name>
+    </author>
+    <author>
+      <name>Nick Moës</name>
+    </author>
+    <author>
+      <name>Simon Möller</name>
+    </author>
+    <author>
+      <name>Kihyuk Nam</name>
+    </author>
+    <author>
+      <name>Kwan Yee Ng</name>
+    </author>
+    <author>
+      <name>Mark Nitzberg</name>
+    </author>
+    <author>
+      <name>Besmira Nushi</name>
+    </author>
+    <author>
+      <name>Seán O hÉigeartaigh</name>
+    </author>
+    <author>
+      <name>Alejandro Ortega</name>
+    </author>
+    <author>
+      <name>Pierre Peigné</name>
+    </author>
+    <author>
+      <name>James Petrie</name>
+    </author>
+    <author>
+      <name>Benjamin Prud'Homme</name>
+    </author>
+    <author>
+      <name>Reihaneh Rabbany</name>
+    </author>
+    <author>
+      <name>Nayat Sanchez-Pi</name>
+    </author>
+    <author>
+      <name>Sarah Schwettmann</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Saad Siddiqui</name>
+    </author>
+    <author>
+      <name>Aradhana Sinha</name>
+    </author>
+    <author>
+      <name>Martín Soto</name>
+    </author>
+    <author>
+      <name>Cheston Tan</name>
+    </author>
+    <author>
+      <name>Dong Ting</name>
+    </author>
+    <author>
+      <name>William Tjhi</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+    <author>
+      <name>Brian Tse</name>
+    </author>
+    <author>
+      <name>Anthony Tung K. H.</name>
+    </author>
+    <author>
+      <name>Vanessa Wilfred</name>
+    </author>
+    <author>
+      <name>John Willes</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Wei Xu</name>
+    </author>
+    <author>
+      <name>Rongwu Xu</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>HongJiang Zhang</name>
+    </author>
+    <author>
+      <name>Djordje Žikelić</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15871v2</id>
+    <title>Visual symbolic mechanisms: Emergent symbol processing in vision language models</title>
+    <updated>2025-12-12T21:38:27Z</updated>
+    <link href="https://arxiv.org/abs/2506.15871v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15871v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To accurately process a visual scene, observers must bind features together to represent individual objects. This capacity is necessary, for instance, to distinguish an image containing a red square and a blue circle from an image containing a blue square and a red circle. Recent work has found that language models solve this 'binding problem' via a set of symbol-like, content-independent indices, but it is unclear whether similar mechanisms are employed by Vision Language Models (VLMs). This question is especially relevant, given the persistent failures of VLMs on tasks that require binding. Here, we identify a previously unknown set of emergent symbolic mechanisms that support binding specifically in VLMs, via a content-independent, spatial indexing scheme. Moreover, we find that binding errors, when they occur, can be traced directly to failures in these mechanisms. Taken together, these results shed light on the mechanisms that support symbol-like processing in VLMs, and suggest possible avenues for reducing the number of binding failures exhibited by these models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-18T20:35:44Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Rim Assouel</name>
+    </author>
+    <author>
+      <name>Declan Campbell</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Taylor Webb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.09498v4</id>
+    <title>Fast Monte Carlo Tree Diffusion: 100x Speedup via Parallel Sparse Planning</title>
+    <updated>2025-10-24T09:38:10Z</updated>
+    <link href="https://arxiv.org/abs/2506.09498v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.09498v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion models have recently emerged as a powerful approach for trajectory planning. However, their inherently non-sequential nature limits their effectiveness in long-horizon reasoning tasks at test time. The recently proposed Monte Carlo Tree Diffusion (MCTD) offers a promising solution by combining diffusion with tree-based search, achieving state-of-the-art performance on complex planning problems. Despite its strengths, our analysis shows that MCTD incurs substantial computational overhead due to the sequential nature of tree search and the cost of iterative denoising. To address this, we propose Fast-MCTD, a more efficient variant that preserves the strengths of MCTD while significantly improving its speed and scalability. Fast-MCTD integrates two techniques: Parallel MCTD, which enables parallel rollouts via delayed tree updates and redundancy-aware selection; and Sparse MCTD, which reduces rollout length through trajectory coarsening. Experiments show that Fast-MCTD achieves up to 100x speedup over standard MCTD while maintaining or improving planning performance. Remarkably, it even outperforms Diffuser in inference speed on some tasks, despite Diffuser requiring no search and yielding weaker solutions. These results position Fast-MCTD as a practical and scalable solution for diffusion-based inference-time reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-11T08:17:40Z</published>
+    <arxiv:comment>20 pages, 6 figures, NeurIPS 25 Spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jaesik Yoon</name>
+    </author>
+    <author>
+      <name>Hyeonseo Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sungjin Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.04970v1</id>
+    <title>Bringing SAM to new heights: Leveraging elevation data for tree crown segmentation from drone imagery</title>
+    <updated>2025-06-05T12:43:11Z</updated>
+    <link href="https://arxiv.org/abs/2506.04970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.04970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Information on trees at the individual level is crucial for monitoring forest ecosystems and planning forest management. Current monitoring methods involve ground measurements, requiring extensive cost, time and labor. Advances in drone remote sensing and computer vision offer great potential for mapping individual trees from aerial imagery at broad-scale. Large pre-trained vision models, such as the Segment Anything Model (SAM), represent a particularly compelling choice given limited labeled data. In this work, we compare methods leveraging SAM for the task of automatic tree crown instance segmentation in high resolution drone imagery in three use cases: 1) boreal plantations, 2) temperate forests and 3) tropical forests. We also study the integration of elevation data into models, in the form of Digital Surface Model (DSM) information, which can readily be obtained at no additional cost from RGB drone imagery. We present BalSAM, a model leveraging SAM and DSM information, which shows potential over other methods, particularly in the context of plantations. We find that methods using SAM out-of-the-box do not outperform a custom Mask R-CNN, even with well-designed prompts. However, efficiently tuning SAM end-to-end and integrating DSM information are both promising avenues for tree crown instance segmentation models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T12:43:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mélisande Teng</name>
+    </author>
+    <author>
+      <name>Arthur Ouaknine</name>
+    </author>
+    <author>
+      <name>Etienne Laliberté</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>David Rolnick</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.01158v2</id>
+    <title>Efficient Regression-Based Training of Normalizing Flows for Boltzmann Generators</title>
+    <updated>2025-10-30T07:20:59Z</updated>
+    <link href="https://arxiv.org/abs/2506.01158v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.01158v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulation-free training frameworks have been at the forefront of the generative modelling revolution in continuous spaces, leading to large-scale diffusion and flow matching models. However, such modern generative models suffer from expensive inference, inhibiting their use in numerous scientific applications like Boltzmann Generators (BGs) for molecular conformations that require fast likelihood evaluation. In this paper, we revisit classical normalizing flows in the context of BGs that offer efficient sampling and likelihoods, but whose training via maximum likelihood is often unstable and computationally challenging. We propose Regression Training of Normalizing Flows (RegFlow), a novel and scalable regression-based training objective that bypasses the numerical instability and computational challenge of conventional maximum likelihood training in favour of a simple $\ell_2$-regression objective. Specifically, RegFlow maps prior samples under our flow to targets computed using optimal transport couplings or a pre-trained continuous normalizing flow (CNF). To enhance numerical stability, RegFlow employs effective regularization strategies such as a new forward-backward self-consistency loss that enjoys painless implementation. Empirically, we demonstrate that RegFlow unlocks a broader class of architectures that were previously intractable to train for BGs with maximum likelihood. We also show RegFlow exceeds the performance, computational cost, and stability of maximum likelihood training in equilibrium sampling in Cartesian coordinates of alanine dipeptide, tripeptide, and tetrapeptide, showcasing its potential in molecular systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-01T20:32:27Z</published>
+    <arxiv:comment>Preprint; ICML GenBio Best Paper Award 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Danyal Rehman</name>
+    </author>
+    <author>
+      <name>Oscar Davis</name>
+    </author>
+    <author>
+      <name>Jiarui Lu</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Michael Bronstein</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alexander Tong</name>
+    </author>
+    <author>
+      <name>Avishek Joey Bose</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.16896v2</id>
+    <title>Structure-Aligned Protein Language Model</title>
+    <updated>2025-12-17T17:53:11Z</updated>
+    <link href="https://arxiv.org/abs/2505.16896v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.16896v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Protein language models (pLMs) pre-trained on vast protein sequence databases excel at various downstream tasks but often lack the structural knowledge essential for some biological applications. To address this, we introduce a method to enrich pLMs with structural knowledge by leveraging pre-trained protein graph neural networks (pGNNs). First, a latent-level contrastive learning task aligns residue representations from pLMs with those from pGNNs across multiple proteins, injecting inter-protein structural information. Additionally, a physical-level task integrates intra-protein information by training pLMs to predict structure tokens. Together, the proposed dual-task framework effectively incorporates both inter- and intra-protein structural knowledge into pLMs. Given the variability in the quality of protein structures in PDB, we further introduce a residue loss selection module that uses a small model trained on high-quality structures to select reliable yet challenging residue losses for the pLM to learn. Applying our structure alignment method as a simple, lightweight post-training step to the state-of-the-art ESM2 and AMPLIFY yields notable performance gains. These improvements are consistent across a wide range of tasks, including substantial gains in deep mutational scanning (DMS) fitness prediction and a 59% increase in P@L for ESM2 650M contact prediction on CASP16. Furthermore, we demonstrate that these performance gains are robust, scaling with model sizes from 8M to 650M and extending to different downstream tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-22T16:56:12Z</published>
+    <arxiv:comment>28 pages, 16 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Can Chen</name>
+    </author>
+    <author>
+      <name>David Heurtel-Depeiges</name>
+    </author>
+    <author>
+      <name>Robert M. Vernon</name>
+    </author>
+    <author>
+      <name>Christopher James Langmead</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Quentin Fournier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.14970v4</id>
+    <title>Self-Evolving Curriculum for LLM Reasoning</title>
+    <updated>2025-10-30T07:03:09Z</updated>
+    <link href="https://arxiv.org/abs/2505.14970v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.14970v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has proven effective for fine-tuning large language models (LLMs), significantly enhancing their reasoning abilities in domains such as mathematics and code generation. A crucial factor influencing RL fine-tuning success is the training curriculum: the order in which training problems are presented. While random curricula serve as common baselines, they remain suboptimal; manually designed curricula often rely heavily on heuristics, and online filtering methods can be computationally prohibitive. To address these limitations, we propose Self-Evolving Curriculum (SEC), an automatic curriculum learning method that learns a curriculum policy concurrently with the RL fine-tuning process. Our approach formulates curriculum selection as a non-stationary Multi-Armed Bandit problem, treating each problem category (e.g., difficulty level or problem type) as an individual arm. We leverage the absolute advantage from policy gradient methods as a proxy measure for immediate learning gain. At each training step, the curriculum policy selects categories to maximize this reward signal and is updated using the TD(0) method. Across three distinct reasoning domains: planning, inductive reasoning, and mathematics, our experiments demonstrate that SEC significantly improves models' reasoning capabilities, enabling better generalization to harder, out-of-distribution test problems. Additionally, our approach achieves better skill balance when fine-tuning simultaneously on multiple reasoning domains. These findings highlight SEC as a promising strategy for RL fine-tuning of LLMs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-20T23:17:15Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiaoyin Chen</name>
+    </author>
+    <author>
+      <name>Jiarui Lu</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Alexandre Piché</name>
+    </author>
+    <author>
+      <name>Nicolas Gontier</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Ehsan Kamalloo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.14036v4</id>
+    <title>Adaptive Inference-Time Scaling via Cyclic Diffusion Search</title>
+    <updated>2025-10-24T15:27:49Z</updated>
+    <link href="https://arxiv.org/abs/2505.14036v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.14036v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion models have demonstrated strong generative capabilities across domains ranging from image synthesis to complex reasoning tasks. However, most inference-time scaling methods rely on fixed denoising schedules, limiting their ability to allocate computation based on instance difficulty or task-specific demands adaptively. We introduce the challenge of adaptive inference-time scaling-dynamically adjusting computational effort during inference-and propose Adaptive Bi-directional Cyclic Diffusion (ABCD), a flexible, search-based inference framework. ABCD refines outputs through bi-directional diffusion cycles while adaptively controlling exploration depth and termination. It comprises three components: Cyclic Diffusion Search, Automatic Exploration-Exploitation Balancing, and Adaptive Thinking Time. Experiments show that ABCD improves performance across diverse tasks while maintaining computational efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-20T07:31:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gyubin Lee</name>
+    </author>
+    <author>
+      <name>Truong Nhat Nguyen Bao</name>
+    </author>
+    <author>
+      <name>Jaesik Yoon</name>
+    </author>
+    <author>
+      <name>Dongwoo Lee</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sungjin Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11824v2</id>
+    <title>Latent Veracity Inference for Identifying Errors in Stepwise Reasoning</title>
+    <updated>2025-09-26T03:18:43Z</updated>
+    <link href="https://arxiv.org/abs/2505.11824v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11824v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chain-of-Thought (CoT) reasoning has advanced the capabilities and transparency of language models (LMs); however, reasoning chains can contain inaccurate statements that reduce performance and trustworthiness. To address this, we propose to augment each reasoning step in a CoT with a latent veracity (or correctness) variable. To efficiently explore this expanded space, we introduce Veracity Search (VS), a discrete search algorithm over veracity assignments. It performs otherwise intractable inference in the posterior distribution over latent veracity values by leveraging the LM's joint likelihood over veracity and the final answer as a proxy reward. This efficient inference-time verification method facilitates supervised fine-tuning of an Amortized Veracity Inference (AVI) machine by providing pseudo-labels for veracity. AVI generalizes VS, enabling accurate zero-shot veracity inference in novel contexts. Empirical results demonstrate that VS reliably identifies errors in logical (ProntoQA), mathematical (GSM8K), and commonsense (CommonsenseQA) reasoning benchmarks, with AVI achieving comparable zero-shot accuracy. Finally, we demonstrate the utility of latent veracity inference for providing feedback during self-correction and self-improvement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-17T04:16:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Jean-Pierre Falet</name>
+    </author>
+    <author>
+      <name>Oliver E. Richardson</name>
+    </author>
+    <author>
+      <name>Xiaoyin Chen</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Sungjin Ahn</name>
+    </author>
+    <author>
+      <name>Sungsoo Ahn</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.12914v1</id>
+    <title>In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?</title>
+    <updated>2025-04-17T13:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2504.12914v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.12914v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>International cooperation is common in AI research, including between geopolitical rivals. While many experts advocate for greater international cooperation on AI safety to address shared global risks, some view cooperation on AI with suspicion, arguing that it can pose unacceptable risks to national security. However, the extent to which cooperation on AI safety poses such risks, as well as provides benefits, depends on the specific area of cooperation. In this paper, we consider technical factors that impact the risks of international cooperation on AI safety research, focusing on the degree to which such cooperation can advance dangerous capabilities, result in the sharing of sensitive information, or provide opportunities for harm. We begin by why nations historically cooperate on strategic technologies and analyse current US-China cooperation in AI as a case study. We further argue that existing frameworks for managing associated risks can be supplemented with consideration of key risks specific to cooperation on technical AI safety research. Through our analysis, we find that research into AI verification mechanisms and shared protocols may be suitable areas for such cooperation. Through this analysis we aim to help researchers and governments identify and mitigate the risks of international cooperation on AI safety research, so that the benefits of cooperation can be fully realised.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-17T13:03:56Z</published>
+    <arxiv:comment>Accepted to ACM Conference on Fairness, Accountability, and Transparency (FAccT 2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Saad Siddiqui</name>
+    </author>
+    <author>
+      <name>Lara Thurnherr</name>
+    </author>
+    <author>
+      <name>Conor McGurk</name>
+    </author>
+    <author>
+      <name>Ben Harack</name>
+    </author>
+    <author>
+      <name>Anka Reuel</name>
+    </author>
+    <author>
+      <name>Patricia Paskov</name>
+    </author>
+    <author>
+      <name>Casey Mahoney</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Scott Singer</name>
+    </author>
+    <author>
+      <name>Vinay Hiremath</name>
+    </author>
+    <author>
+      <name>Charbel-Raphaël Segerie</name>
+    </author>
+    <author>
+      <name>Oscar Delaney</name>
+    </author>
+    <author>
+      <name>Alessandro Abate</name>
+    </author>
+    <author>
+      <name>Fazl Barez</name>
+    </author>
+    <author>
+      <name>Michael K. Cohen</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Ferenc Huszár</name>
+    </author>
+    <author>
+      <name>Anisoara Calinescu</name>
+    </author>
+    <author>
+      <name>Gabriel Davis Jones</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.20199v1</id>
+    <title>Assessing SAM for Tree Crown Instance Segmentation from Drone Imagery</title>
+    <updated>2025-03-26T03:45:36Z</updated>
+    <link href="https://arxiv.org/abs/2503.20199v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.20199v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The potential of tree planting as a natural climate solution is often undermined by inadequate monitoring of tree planting projects. Current monitoring methods involve measuring trees by hand for each species, requiring extensive cost, time, and labour. Advances in drone remote sensing and computer vision offer great potential for mapping and characterizing trees from aerial imagery, and large pre-trained vision models, such as the Segment Anything Model (SAM), may be a particularly compelling choice given limited labeled data. In this work, we compare SAM methods for the task of automatic tree crown instance segmentation in high resolution drone imagery of young tree plantations. We explore the potential of SAM for this task, and find that methods using SAM out-of-the-box do not outperform a custom Mask R-CNN, even with well-designed prompts, but that there is potential for methods which tune SAM further. We also show that predictions can be improved by adding Digital Surface Model (DSM) information as an input.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-26T03:45:36Z</published>
+    <arxiv:comment>ICLR 2025 ML4RS workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mélisande Teng</name>
+    </author>
+    <author>
+      <name>Arthur Ouaknine</name>
+    </author>
+    <author>
+      <name>Etienne Laliberté</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>David Rolnick</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.20102v3</id>
+    <title>Extendable Planning via Multiscale Diffusion</title>
+    <updated>2025-11-16T21:28:31Z</updated>
+    <link href="https://arxiv.org/abs/2503.20102v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.20102v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon planning is crucial in complex environments, but diffusion-based planners like Diffuser are limited by the trajectory lengths observed during training. This creates a dilemma: long trajectories are needed for effective planning, yet they degrade model performance. In this paper, we introduce this extendable long-horizon planning challenge and propose a two-phase solution. First, Progressive Trajectory Extension incrementally constructs longer trajectories through multi-round compositional stitching. Second, the Hierarchical Multiscale Diffuser enables efficient training and inference over long horizons by reasoning across temporal scales. To avoid the need for multiple separate models, we propose Adaptive Plan Pondering and the Recursive HM-Diffuser, which unify hierarchical planning within a single model. Experiments show our approach yields strong performance gains, advancing scalable and efficient decision-making over long-horizons.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-25T22:52:46Z</published>
+    <arxiv:comment>First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chang Chen</name>
+    </author>
+    <author>
+      <name>Hany Hamed</name>
+    </author>
+    <author>
+      <name>Doojin Baek</name>
+    </author>
+    <author>
+      <name>Taegu Kang</name>
+    </author>
+    <author>
+      <name>Samyeul Noh</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sungjin Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.20027v1</id>
+    <title>A scalable gene network model of regulatory dynamics in single cells</title>
+    <updated>2025-03-25T19:19:21Z</updated>
+    <link href="https://arxiv.org/abs/2503.20027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.20027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single-cell data provide high-dimensional measurements of the transcriptional states of cells, but extracting insights into the regulatory functions of genes, particularly identifying transcriptional mechanisms affected by biological perturbations, remains a challenge. Many perturbations induce compensatory cellular responses, making it difficult to distinguish direct from indirect effects on gene regulation. Modeling how gene regulatory functions shape the temporal dynamics of these responses is key to improving our understanding of biological perturbations. Dynamical models based on differential equations offer a principled way to capture transcriptional dynamics, but their application to single-cell data has been hindered by computational constraints, stochasticity, sparsity, and noise. Existing methods either rely on low-dimensional representations or make strong simplifying assumptions, limiting their ability to model transcriptional dynamics at scale. We introduce a Functional and Learnable model of Cell dynamicS, FLeCS, that incorporates gene network structure into coupled differential equations to model gene regulatory functions. Given (pseudo)time-series single-cell data, FLeCS accurately infers cell dynamics at scale, provides improved functional insights into transcriptional mechanisms perturbed by gene knockouts, both in myeloid differentiation and K562 Perturb-seq experiments, and simulates single-cell trajectories of A549 cells following small-molecule perturbations.</summary>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-25T19:19:21Z</published>
+    <arxiv:comment>42 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.MN"/>
+    <author>
+      <name>Paul Bertin</name>
+    </author>
+    <author>
+      <name>Joseph D. Viviano</name>
+    </author>
+    <author>
+      <name>Alejandro Tejada-Lapuerta</name>
+    </author>
+    <author>
+      <name>Weixu Wang</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Fabian J. Theis</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.18929v2</id>
+    <title>Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training</title>
+    <updated>2025-12-03T18:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2503.18929v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.18929v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) is a critical component of large language model (LLM) post-training. However, on-policy algorithms used for post-training are not naturally robust to a diversified content of experience replay buffers, which asynchronous off-policy actors can efficiently populate in parallel to training. We propose efficiently learning on such off-policy data via Trajectory Balance with Asynchrony (TBA), an approach to asynchronous RL for LLMs that leverages the principled off-policy TB objective. On math, preference-tuning, and automated red-teaming tasks, we post-train models ranging from Pythia 410M to Qwen 2.5 7B, finding TBA offers speed and performance boosts over strong baselines like Online DPO and Dr. GRPO. Beyond TBA's performance benefits (high accuracy even as asynchrony grows) and speedups ($4\times$ or more), we show its reward- and recency-prioritizing sampling enable further gains as data generation is scaled. Our code is available at https://github.com/bbartoldson/TBA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-24T17:51:39Z</published>
+    <arxiv:comment>NeurIPS 2025; 27 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Brian Bartoldson</name>
+    </author>
+    <author>
+      <name>Siddarth Venkatraman</name>
+    </author>
+    <author>
+      <name>James Diffenderfer</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Tal Ben-Nun</name>
+    </author>
+    <author>
+      <name>Seanie Lee</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Johan Obando-Ceron</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Bhavya Kailkhura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.17286v2</id>
+    <title>Offline Model-Based Optimization: Comprehensive Review</title>
+    <updated>2026-01-06T02:53:28Z</updated>
+    <link href="https://arxiv.org/abs/2503.17286v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.17286v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Offline optimization is a fundamental challenge in science and engineering, where the goal is to optimize black-box functions using only offline datasets. This setting is particularly relevant when querying the objective function is prohibitively expensive or infeasible, with applications spanning protein engineering, material discovery, neural architecture search, and beyond. The main difficulty lies in accurately estimating the objective landscape beyond the available data, where extrapolations are fraught with significant epistemic uncertainty. This uncertainty can lead to objective hacking(reward hacking), exploiting model inaccuracies in unseen regions, or other spurious optimizations that yield misleadingly high performance estimates outside the training distribution. Recent advances in model-based optimization(MBO) have harnessed the generalization capabilities of deep neural networks to develop offline-specific surrogate and generative models. Trained with carefully designed strategies, these models are more robust against out-of-distribution issues, facilitating the discovery of improved designs. Despite its growing impact in accelerating scientific discovery, the field lacks a comprehensive review. To bridge this gap, we present the first thorough review of offline MBO. We begin by formalizing the problem for both single-objective and multi-objective settings and by reviewing recent benchmarks and evaluation metrics. We then categorize existing approaches into two key areas: surrogate modeling, which emphasizes accurate function approximation in out-of-distribution regions, and generative modeling, which explores high-dimensional design spaces to identify high-performing designs. Finally, we examine the key challenges and propose promising directions for advancement in this rapidly evolving field including safe control of superintelligent systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-21T16:35:02Z</published>
+    <arxiv:comment>Accepted to TMLR 2026 (Survey Certification)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Jiayao Gu</name>
+    </author>
+    <author>
+      <name>Ye Yuan</name>
+    </author>
+    <author>
+      <name>Taeyoung Yun</name>
+    </author>
+    <author>
+      <name>Zixuan Liu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Can Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09746v1</id>
+    <title>Solving Bayesian inverse problems with diffusion priors and off-policy RL</title>
+    <updated>2025-03-12T18:45:22Z</updated>
+    <link href="https://arxiv.org/abs/2503.09746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a practical application of Relative Trajectory Balance (RTB), a recently introduced off-policy reinforcement learning (RL) objective that can asymptotically solve Bayesian inverse problems optimally. We extend the original work by using RTB to train conditional diffusion model posteriors from pretrained unconditional priors for challenging linear and non-linear inverse problems in vision, and science. We use the objective alongside techniques such as off-policy backtracking exploration to improve training. Importantly, our results show that existing training-free diffusion posterior methods struggle to perform effective posterior inference in latent space due to inherent biases.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T18:45:22Z</published>
+    <arxiv:comment>Accepted as workshop paper at DeLTa workshop, ICLR 2025. arXiv admin note: substantial text overlap with arXiv:2405.20971</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Siddarth Venkatraman</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Marcin Sendera</name>
+    </author>
+    <author>
+      <name>Mohsin Hasan</name>
+    </author>
+    <author>
+      <name>Luke Rowe</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Pablo Lemos</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Alexandre Adam</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Yashar Hezaveh</name>
+    </author>
+    <author>
+      <name>Laurence Perreault-Levasseur</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Glen Berseth</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.06985v1</id>
+    <title>Learning Decision Trees as Amortized Structure Inference</title>
+    <updated>2025-03-10T07:05:07Z</updated>
+    <link href="https://arxiv.org/abs/2503.06985v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.06985v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building predictive models for tabular data presents fundamental challenges, notably in scaling consistently, i.e., more resources translating to better performance, and generalizing systematically beyond the training data distribution. Designing decision tree models remains especially challenging given the intractably large search space, and most existing methods rely on greedy heuristics, while deep learning inductive biases expect a temporal or spatial structure not naturally present in tabular data. We propose a hybrid amortized structure inference approach to learn predictive decision tree ensembles given data, formulating decision tree construction as a sequential planning problem. We train a deep reinforcement learning (GFlowNet) policy to solve this problem, yielding a generative model that samples decision trees from the Bayesian posterior. We show that our approach, DT-GFN, outperforms state-of-the-art decision tree and deep learning methods on standard classification benchmarks derived from real-world data, robustness to distribution shifts, and anomaly detection, all while yielding interpretable models with shorter description lengths. Samples from the trained DT-GFN model can be ensembled to construct a random forest, and we further show that the performance of scales consistently in ensemble size, yielding ensembles of predictors that continue to generalize systematically.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-10T07:05:07Z</published>
+    <arxiv:comment>Code: $\href{https://github.com/GFNOrg/dt-gfn}{https://github.com/GFNOrg/dt-gfn}$</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohammed Mahfoud</name>
+    </author>
+    <author>
+      <name>Ghait Boukachab</name>
+    </author>
+    <author>
+      <name>Michał Koziarski</name>
+    </author>
+    <author>
+      <name>Alex Hernandez-Garcia</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.15657v2</id>
+    <title>Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?</title>
+    <updated>2025-02-24T18:14:15Z</updated>
+    <link href="https://arxiv.org/abs/2502.15657v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.15657v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The leading AI companies are increasingly focused on building generalist AI agents -- systems that can autonomously plan, act, and pursue goals across almost all tasks that humans can perform. Despite how useful these systems might be, unchecked AI agency poses significant risks to public safety and security, ranging from misuse by malicious actors to a potentially irreversible loss of human control. We discuss how these risks arise from current AI training methods. Indeed, various scenarios and experiments have demonstrated the possibility of AI agents engaging in deception or pursuing goals that were not specified by human operators and that conflict with human interests, such as self-preservation. Following the precautionary principle, we see a strong need for safer, yet still useful, alternatives to the current agency-driven trajectory. Accordingly, we propose as a core building block for further advances the development of a non-agentic AI system that is trustworthy and safe by design, which we call Scientist AI. This system is designed to explain the world from observations, as opposed to taking actions in it to imitate or please humans. It comprises a world model that generates theories to explain data and a question-answering inference machine. Both components operate with an explicit notion of uncertainty to mitigate the risks of overconfident predictions. In light of these considerations, a Scientist AI could be used to assist human researchers in accelerating scientific progress, including in AI safety. In particular, our system can be employed as a guardrail against AI agents that might be created despite the risks involved. Ultimately, focusing on non-agentic AI may enable the benefits of AI innovation while avoiding the risks associated with the current trajectory. We hope these arguments will motivate researchers, developers, and policymakers to favor this safer path.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-21T18:28:36Z</published>
+    <arxiv:comment>v2 with fixed formatting for URLs and hyperlinks</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Michael Cohen</name>
+    </author>
+    <author>
+      <name>Damiano Fornasiere</name>
+    </author>
+    <author>
+      <name>Joumana Ghosn</name>
+    </author>
+    <author>
+      <name>Pietro Greiner</name>
+    </author>
+    <author>
+      <name>Matt MacDermott</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Adam Oberman</name>
+    </author>
+    <author>
+      <name>Jesse Richardson</name>
+    </author>
+    <author>
+      <name>Oliver Richardson</name>
+    </author>
+    <author>
+      <name>Marc-Antoine Rondeau</name>
+    </author>
+    <author>
+      <name>Pierre-Luc St-Charles</name>
+    </author>
+    <author>
+      <name>David Williams-King</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14234v2</id>
+    <title>OBELiX: A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes</title>
+    <updated>2025-10-01T04:38:06Z</updated>
+    <link href="https://arxiv.org/abs/2502.14234v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14234v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solid-state electrolyte batteries are expected to replace liquid electrolyte lithium-ion batteries in the near future thanks to their higher theoretical energy density and improved safety. However, their adoption is currently hindered by their lower effective ionic conductivity, a quantity that governs charge and discharge rates. Identifying highly ion-conductive materials using conventional theoretical calculations and experimental validation is both time-consuming and resource-intensive. While machine learning holds the promise to expedite this process, relevant ionic conductivity and structural data is scarce. Here, we present OBELiX, a database of $\sim$600 synthesized solid electrolyte materials and their experimentally measured room temperature ionic conductivities gathered from literature and curated by domain experts. Each material is described by their measured composition, space group and lattice parameters. A full-crystal description in the form of a crystallographic information file (CIF) is provided for $\sim$320 structures for which atomic positions were available. We discuss various statistics and features of the dataset and provide training and testing splits carefully designed to avoid data leakage. Finally, we benchmark seven existing ML models on the task of predicting ionic conductivity and discuss their performance. The goal of this work is to facilitate the use of machine learning for solid-state electrolyte materials discovery.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-20T03:59:35Z</published>
+    <arxiv:comment>10 pages, 4 figures and 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Félix Therrien</name>
+    </author>
+    <author>
+      <name>Jamal Abou Haibeh</name>
+    </author>
+    <author>
+      <name>Divya Sharma</name>
+    </author>
+    <author>
+      <name>Rhiannon Hendley</name>
+    </author>
+    <author>
+      <name>Leah Wairimu Mungai</name>
+    </author>
+    <author>
+      <name>Sun Sun</name>
+    </author>
+    <author>
+      <name>Alain Tchagang</name>
+    </author>
+    <author>
+      <name>Jiang Su</name>
+    </author>
+    <author>
+      <name>Samuel Huberman</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Hongyu Guo</name>
+    </author>
+    <author>
+      <name>Alex Hernández-García</name>
+    </author>
+    <author>
+      <name>Homin Shin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11617v1</id>
+    <title>In-Context Parametric Inference: Point or Distribution Estimators?</title>
+    <updated>2025-02-17T10:00:24Z</updated>
+    <link href="https://arxiv.org/abs/2502.11617v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11617v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian and frequentist inference are two fundamental paradigms in statistical estimation. Bayesian methods treat hypotheses as random variables, incorporating priors and updating beliefs via Bayes' theorem, whereas frequentist methods assume fixed but unknown hypotheses, relying on estimators like maximum likelihood. While extensive research has compared these approaches, the frequentist paradigm of obtaining point estimates has become predominant in deep learning, as Bayesian inference is challenging due to the computational complexity and the approximation gap of posterior estimation methods. However, a good understanding of trade-offs between the two approaches is lacking in the regime of amortized estimators, where in-context learners are trained to estimate either point values via maximum likelihood or maximum a posteriori estimation, or full posteriors using normalizing flows, score-based diffusion samplers, or diagonal Gaussian approximations, conditioned on observations. To help resolve this, we conduct a rigorous comparative analysis spanning diverse problem settings, from linear models to shallow neural networks, with a robust evaluation framework assessing both in-distribution and out-of-distribution generalization on tractable tasks. Our experiments indicate that amortized point estimators generally outperform posterior inference, though the latter remain competitive in some low-dimensional problems, and we further discuss why this might be the case.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T10:00:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.10236v2</id>
+    <title>Shaping Inductive Bias in Diffusion Models through Frequency-Based Noise Control</title>
+    <updated>2025-03-12T18:40:15Z</updated>
+    <link href="https://arxiv.org/abs/2502.10236v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.10236v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion Probabilistic Models (DPMs) are powerful generative models that have achieved unparalleled success in a number of generative tasks. In this work, we aim to build inductive biases into the training and sampling of diffusion models to better accommodate the target distribution of the data to model. For topologically structured data, we devise a frequency-based noising operator to purposefully manipulate, and set, these inductive biases. We first show that appropriate manipulations of the noising forward process can lead DPMs to focus on particular aspects of the distribution to learn. We show that different datasets necessitate different inductive biases, and that appropriate frequency-based noise control induces increased generative performance compared to standard diffusion. Finally, we demonstrate the possibility of ignoring information at particular frequencies while learning. We show this in an image corruption and recovery task, where we train a DPM to recover the original target distribution after severe noise corruption.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-14T15:46:37Z</published>
+    <arxiv:comment>Published as workshop paper at DeLTa and FPI workshops, ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Jiralerspong</name>
+    </author>
+    <author>
+      <name>Berton Earnshaw</name>
+    </author>
+    <author>
+      <name>Jason Hartford</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.07202v7</id>
+    <title>Monte Carlo Tree Diffusion for System 2 Planning</title>
+    <updated>2026-01-29T04:51:49Z</updated>
+    <link href="https://arxiv.org/abs/2502.07202v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.07202v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion models have recently emerged as a powerful tool for planning. However, unlike Monte Carlo Tree Search (MCTS)-whose performance naturally improves with inference-time computation scaling-standard diffusion-based planners offer only limited avenues for the scalability. In this paper, we introduce Monte Carlo Tree Diffusion (MCTD), a novel framework that integrates the generative strength of diffusion models with the adaptive search capabilities of MCTS. Our method reconceptualizes denoising as a tree-structured process, allowing partially denoised plans to be iteratively evaluated, pruned, and refined. By selectively expanding promising trajectories while retaining the flexibility to revisit and improve suboptimal branches, MCTD achieves the benefits of MCTS such as controlling exploration-exploitation trade-offs within the diffusion framework. Empirical results on challenging long-horizon tasks show that MCTD outperforms diffusion baselines, yielding higher-quality solutions as inference-time computation increases.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-11T02:51:42Z</published>
+    <arxiv:comment>23 pages, 7 figures, ICML 2025 Spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jaesik Yoon</name>
+    </author>
+    <author>
+      <name>Hyeonseo Cho</name>
+    </author>
+    <author>
+      <name>Doojin Baek</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sungjin Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06999v2</id>
+    <title>Outsourced diffusion sampling: Efficient posterior inference in latent spaces of generative models</title>
+    <updated>2025-05-28T14:58:36Z</updated>
+    <link href="https://arxiv.org/abs/2502.06999v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06999v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Any well-behaved generative model over a variable $\mathbf{x}$ can be expressed as a deterministic transformation of an exogenous ('outsourced') Gaussian noise variable $\mathbf{z}$: $\mathbf{x}=f_θ(\mathbf{z})$. In such a model (\eg, a VAE, GAN, or continuous-time flow-based model), sampling of the target variable $\mathbf{x} \sim p_θ(\mathbf{x})$ is straightforward, but sampling from a posterior distribution of the form $p(\mathbf{x}\mid\mathbf{y}) \propto p_θ(\mathbf{x})r(\mathbf{x},\mathbf{y})$, where $r$ is a constraint function depending on an auxiliary variable $\mathbf{y}$, is generally intractable. We propose to amortize the cost of sampling from such posterior distributions with diffusion models that sample a distribution in the noise space ($\mathbf{z}$). These diffusion samplers are trained by reinforcement learning algorithms to enforce that the transformed samples $f_θ(\mathbf{z})$ are distributed according to the posterior in the data space ($\mathbf{x}$). For many models and constraints, the posterior in noise space is smoother than in data space, making it more suitable for amortized inference. Our method enables conditional sampling under unconditional GAN, (H)VAE, and flow-based priors, comparing favorably with other inference methods. We demonstrate the proposed outsourced diffusion sampling in several experiments with large pretrained prior models: conditional image generation, reinforcement learning with human feedback, and protein structure generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-10T19:49:54Z</published>
+    <arxiv:comment>ICML 2025; code: https://github.com/HyperPotatoNeo/Outsourced_Diffusion_Sampling</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Siddarth Venkatraman</name>
+    </author>
+    <author>
+      <name>Mohsin Hasan</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Marcin Sendera</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Glen Berseth</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06323v2</id>
+    <title>A physics-based data-driven model for CO$_2$ gas diffusion electrodes to drive automated laboratories</title>
+    <updated>2026-02-04T21:47:35Z</updated>
+    <link href="https://arxiv.org/abs/2502.06323v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06323v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electrochemical reduction of atmospheric CO$_2$ into high-energy molecules with renewable energy is a promising avenue for energy storage that can take advantage of existing infrastructure especially in areas where sustainable alternatives to fossil fuels do not exist. Automated laboratories are currently being developed and used to optimize the composition and operating conditions of gas diffusion electrodes (GDEs), the device in which this reaction takes place. Improving the efficiency of GDEs is crucial for this technology to become viable. Here we present a modeling framework to efficiently explore the high-dimensional parameter space of GDE designs in an active learning context. At the core of the framework is an uncertainty-aware physics model calibrated with experimental data. The model has the flexibility to capture various input parameter spaces and any carbon products which can be modeled with Tafel kinetics. It is interpretable, and a Gaussian process layer can capture deviations of real data from the function space of the physical model itself. We deploy the model in a simulated active learning setup with real electrochemical data gathered by the AdaCarbon automated laboratory and show that it can be used to efficiently traverse the multi-dimensional parameter space.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-10T10:20:10Z</published>
+    <arxiv:comment>7 pages, 5 figures. Published as a conference paper in ICLR2025 AI4Mat workshop</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Ivan Grega</name>
+    </author>
+    <author>
+      <name>Félix Therrien</name>
+    </author>
+    <author>
+      <name>Abhishek Soni</name>
+    </author>
+    <author>
+      <name>Karry Ocean</name>
+    </author>
+    <author>
+      <name>Kevan Dettelbach</name>
+    </author>
+    <author>
+      <name>Ribwar Ahmadi</name>
+    </author>
+    <author>
+      <name>Mehrdad Mokhtari</name>
+    </author>
+    <author>
+      <name>Curtis P. Berlinguette</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.01341v2</id>
+    <title>AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding</title>
+    <updated>2025-11-02T11:22:10Z</updated>
+    <link href="https://arxiv.org/abs/2502.01341v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.01341v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aligning visual features with language embeddings is a key challenge in vision-language models (VLMs). The performance of such models hinges on having a good connector that maps visual features generated by a vision encoder to a shared embedding space with the LLM while preserving semantic similarity. Existing connectors, such as multilayer perceptrons (MLPs), lack inductive bias to constrain visual features within the linguistic structure of the LLM's embedding space, making them data-hungry and prone to cross-modal misalignment. In this work, we propose a novel vision-text alignment method, AlignVLM, that maps visual features to a weighted average of LLM text embeddings. Our approach leverages the linguistic priors encoded by the LLM to ensure that visual features are mapped to regions of the space that the LLM can effectively interpret. AlignVLM is particularly effective for document understanding tasks, where visual and textual modalities are highly correlated. Our extensive experiments show that AlignVLM achieves state-of-the-art performance compared to prior alignment methods, with larger gains on document understanding tasks and under low-resource setups. We provide further analysis demonstrating its efficiency and robustness to noise.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-03T13:34:51Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ahmed Masry</name>
+    </author>
+    <author>
+      <name>Juan A. Rodriguez</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Suyuchen Wang</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Aarash Feizi</name>
+    </author>
+    <author>
+      <name>Akshay Kalkunte Suresh</name>
+    </author>
+    <author>
+      <name>Abhay Puri</name>
+    </author>
+    <author>
+      <name>Xiangru Jian</name>
+    </author>
+    <author>
+      <name>Pierre-André Noël</name>
+    </author>
+    <author>
+      <name>Sathwik Tejaswi Madhusudhan</name>
+    </author>
+    <author>
+      <name>Marco Pedersoli</name>
+    </author>
+    <author>
+      <name>Bang Liu</name>
+    </author>
+    <author>
+      <name>Nicolas Chapados</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Enamul Hoque</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+    <author>
+      <name>Issam H. Laradji</name>
+    </author>
+    <author>
+      <name>David Vazquez</name>
+    </author>
+    <author>
+      <name>Perouz Taslakian</name>
+    </author>
+    <author>
+      <name>Spandana Gella</name>
+    </author>
+    <author>
+      <name>Sai Rajeswar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.17805v1</id>
+    <title>International AI Safety Report</title>
+    <updated>2025-01-29T17:47:36Z</updated>
+    <link href="https://arxiv.org/abs/2501.17805v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.17805v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first International AI Safety Report comprehensively synthesizes the current evidence on the capabilities, risks, and safety of advanced AI systems. The report was mandated by the nations attending the AI Safety Summit in Bletchley, UK. Thirty nations, the UN, the OECD, and the EU each nominated a representative to the report's Expert Advisory Panel. A total of 100 AI experts contributed, representing diverse perspectives and disciplines. Led by the report's Chair, these independent experts collectively had full discretion over the report's content.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-29T17:47:36Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Tamay Besiroglu</name>
+    </author>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Philip Fox</name>
+    </author>
+    <author>
+      <name>Ben Garfinkel</name>
+    </author>
+    <author>
+      <name>Danielle Goldfarb</name>
+    </author>
+    <author>
+      <name>Hoda Heidari</name>
+    </author>
+    <author>
+      <name>Anson Ho</name>
+    </author>
+    <author>
+      <name>Sayash Kapoor</name>
+    </author>
+    <author>
+      <name>Leila Khalatbari</name>
+    </author>
+    <author>
+      <name>Shayne Longpre</name>
+    </author>
+    <author>
+      <name>Sam Manning</name>
+    </author>
+    <author>
+      <name>Vasilios Mavroudis</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Julian Michael</name>
+    </author>
+    <author>
+      <name>Jessica Newman</name>
+    </author>
+    <author>
+      <name>Kwan Yee Ng</name>
+    </author>
+    <author>
+      <name>Chinasa T. Okolo</name>
+    </author>
+    <author>
+      <name>Deborah Raji</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Elizabeth Seger</name>
+    </author>
+    <author>
+      <name>Theodora Skeadas</name>
+    </author>
+    <author>
+      <name>Tobin South</name>
+    </author>
+    <author>
+      <name>Emma Strubell</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Lucia Velasco</name>
+    </author>
+    <author>
+      <name>Nicole Wheeler</name>
+    </author>
+    <author>
+      <name>Daron Acemoglu</name>
+    </author>
+    <author>
+      <name>Olubayo Adekanmbi</name>
+    </author>
+    <author>
+      <name>David Dalrymple</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Edward W. Felten</name>
+    </author>
+    <author>
+      <name>Pascale Fung</name>
+    </author>
+    <author>
+      <name>Pierre-Olivier Gourinchas</name>
+    </author>
+    <author>
+      <name>Fredrik Heintz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Andreas Krause</name>
+    </author>
+    <author>
+      <name>Susan Leavy</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John McDermid</name>
+    </author>
+    <author>
+      <name>Jane Munga</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Clara Neppel</name>
+    </author>
+    <author>
+      <name>Alice Oh</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Alvaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Fahad Albalawi</name>
+    </author>
+    <author>
+      <name>Marwan Alserkal</name>
+    </author>
+    <author>
+      <name>Olubunmi Ajala</name>
+    </author>
+    <author>
+      <name>Guillaume Avrin</name>
+    </author>
+    <author>
+      <name>Christian Busch</name>
+    </author>
+    <author>
+      <name>André Carlos Ponce de Leon Ferreira de Carvalho</name>
+    </author>
+    <author>
+      <name>Bronwyn Fox</name>
+    </author>
+    <author>
+      <name>Amandeep Singh Gill</name>
+    </author>
+    <author>
+      <name>Ahmet Halit Hatip</name>
+    </author>
+    <author>
+      <name>Juha Heikkilä</name>
+    </author>
+    <author>
+      <name>Gill Jolly</name>
+    </author>
+    <author>
+      <name>Ziv Katzir</name>
+    </author>
+    <author>
+      <name>Hiroaki Kitano</name>
+    </author>
+    <author>
+      <name>Antonio Krüger</name>
+    </author>
+    <author>
+      <name>Chris Johnson</name>
+    </author>
+    <author>
+      <name>Saif M. Khan</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+    <author>
+      <name>Dominic Vincent Ligot</name>
+    </author>
+    <author>
+      <name>Oleksii Molchanovskyi</name>
+    </author>
+    <author>
+      <name>Andrea Monti</name>
+    </author>
+    <author>
+      <name>Nusu Mwamanzi</name>
+    </author>
+    <author>
+      <name>Mona Nemer</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+    <author>
+      <name>José Ramón López Portillo</name>
+    </author>
+    <author>
+      <name>Balaraman Ravindran</name>
+    </author>
+    <author>
+      <name>Raquel Pezoa Rivera</name>
+    </author>
+    <author>
+      <name>Hammam Riza</name>
+    </author>
+    <author>
+      <name>Crystal Rugege</name>
+    </author>
+    <author>
+      <name>Ciarán Seoighe</name>
+    </author>
+    <author>
+      <name>Jerry Sheehan</name>
+    </author>
+    <author>
+      <name>Haroon Sheikh</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.11183v1</id>
+    <title>Can Safety Fine-Tuning Be More Principled? Lessons Learned from Cybersecurity</title>
+    <updated>2025-01-19T21:49:42Z</updated>
+    <link href="https://arxiv.org/abs/2501.11183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.11183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLMs develop increasingly advanced capabilities, there is an increased need to minimize the harm that could be caused to society by certain model outputs; hence, most LLMs have safety guardrails added, for example via fine-tuning. In this paper, we argue the position that current safety fine-tuning is very similar to a traditional cat-and-mouse game (or arms race) between attackers and defenders in cybersecurity. Model jailbreaks and attacks are patched with bandaids to target the specific attack mechanism, but many similar attack vectors might remain. When defenders are not proactively coming up with principled mechanisms, it becomes very easy for attackers to sidestep any new defenses. We show how current defenses are insufficient to prevent new adversarial jailbreak attacks, reward hacking, and loss of control problems. In order to learn from past mistakes in cybersecurity, we draw analogies with historical examples and develop lessons learned that can be applied to LLM safety. These arguments support the need for new and more principled approaches to designing safe models, which are architected for security from the beginning. We describe several such approaches from the AI literature.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-19T21:49:42Z</published>
+    <arxiv:comment>published at Neurips Safe Generative AI Workshop 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>David Williams-King</name>
+    </author>
+    <author>
+      <name>Linh Le</name>
+    </author>
+    <author>
+      <name>Adam Oberman</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+</feed>

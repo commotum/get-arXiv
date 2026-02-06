@@ -1,0 +1,1551 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3+UjugiiG1yLyBqao6NqgU/iEu4</id>
+  <title>arXiv Query: search_query=au:"Yann LeCun"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T19:33:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yann+LeCun%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>196</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.09991v1</id>
+    <title>EgoPet: Egomotion and Interaction Data from an Animal's Perspective</title>
+    <updated>2024-04-15T17:59:47Z</updated>
+    <link href="https://arxiv.org/abs/2404.09991v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.09991v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Animals perceive the world to plan their actions and interact with other agents to accomplish complex tasks, demonstrating capabilities that are still unmatched by AI systems. To advance our understanding and reduce the gap between the capabilities of animals and AI systems, we introduce a dataset of pet egomotion imagery with diverse examples of simultaneous egomotion and multi-agent interaction. Current video datasets separately contain egomotion and interaction examples, but rarely both at the same time. In addition, EgoPet offers a radically distinct perspective from existing egocentric datasets of humans or vehicles. We define two in-domain benchmark tasks that capture animal behavior, and a third benchmark to assess the utility of EgoPet as a pretraining resource to robotic quadruped locomotion, showing that models trained from EgoPet outperform those trained from prior datasets.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-15T17:59:47Z</published>
+    <arxiv:comment>https://www.amirbar.net/egopet</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Arya Bakhtiar</name>
+    </author>
+    <author>
+      <name>Danny Tran</name>
+    </author>
+    <author>
+      <name>Antonio Loquercio</name>
+    </author>
+    <author>
+      <name>Jathushan Rajasegaran</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Amir Globerson</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.00504v1</id>
+    <title>Learning and Leveraging World Models in Visual Representation Learning</title>
+    <updated>2024-03-01T13:05:38Z</updated>
+    <link href="https://arxiv.org/abs/2403.00504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.00504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-Embedding Predictive Architecture (JEPA) has emerged as a promising self-supervised approach that learns by leveraging a world model. While previously limited to predicting missing parts of an input, we explore how to generalize the JEPA prediction task to a broader set of corruptions. We introduce Image World Models, an approach that goes beyond masked image modeling and learns to predict the effect of global photometric transformations in latent space. We study the recipe of learning performant IWMs and show that it relies on three key aspects: conditioning, prediction difficulty, and capacity. Additionally, we show that the predictive world model learned by IWM can be adapted through finetuning to solve diverse tasks; a fine-tuned IWM world model matches or surpasses the performance of previous self-supervised methods. Finally, we show that learning with an IWM allows one to control the abstraction level of the learned representations, learning invariant representations such as contrastive methods, or equivariant representations such as masked image modelling.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-01T13:05:38Z</published>
+    <arxiv:comment>23 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Mahmoud Assran</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Laurent Najman</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.11337v1</id>
+    <title>Learning by Reconstruction Produces Uninformative Features For Perception</title>
+    <updated>2024-02-17T17:08:16Z</updated>
+    <link href="https://arxiv.org/abs/2402.11337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.11337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Input space reconstruction is an attractive representation learning paradigm. Despite interpretability of the reconstruction and generation, we identify a misalignment between learning by reconstruction, and learning for perception. We show that the former allocates a model's capacity towards a subspace of the data explaining the observed variance--a subspace with uninformative features for the latter. For example, the supervised TinyImagenet task with images projected onto the top subspace explaining 90\% of the pixel variance can be solved with 45\% test accuracy. Using the bottom subspace instead, accounting for only 20\% of the pixel variance, reaches 55\% test accuracy. The features for perception being learned last explains the need for long training time, e.g., with Masked Autoencoders. Learning by denoising is a popular strategy to alleviate that misalignment. We prove that while some noise strategies such as masking are indeed beneficial, others such as additive Gaussian noise are not. Yet, even in the case of masking, we find that the benefits vary as a function of the mask's shape, ratio, and the considered dataset. While tuning the noise strategy without knowledge of the perception task seems challenging, we provide first clues on how to detect if a noise strategy is never beneficial regardless of the perception task.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-17T17:08:16Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.08471v1</id>
+    <title>Revisiting Feature Prediction for Learning Visual Representations from Video</title>
+    <updated>2024-02-15T18:59:11Z</updated>
+    <link href="https://arxiv.org/abs/2404.08471v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.08471v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper explores feature prediction as a stand-alone objective for unsupervised learning from video and introduces V-JEPA, a collection of vision models trained solely using a feature prediction objective, without the use of pretrained image encoders, text, negative examples, reconstruction, or other sources of supervision. The models are trained on 2 million videos collected from public datasets and are evaluated on downstream image and video tasks. Our results show that learning by predicting video features leads to versatile visual representations that perform well on both motion and appearance-based tasks, without adaption of the model's parameters; e.g., using a frozen backbone. Our largest model, a ViT-H/16 trained only on videos, obtains 81.9% on Kinetics-400, 72.2% on Something-Something-v2, and 77.9% on ImageNet1K.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-15T18:59:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Mahmoud Assran</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07630v3</id>
+    <title>G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering</title>
+    <updated>2024-05-27T04:04:40Z</updated>
+    <link href="https://arxiv.org/abs/2402.07630v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07630v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a graph with textual attributes, we enable users to `chat with their graph': that is, to ask questions about the graph using a conversational interface. In response to a user's questions, our method provides textual replies and highlights the relevant parts of the graph. While existing works integrate large language models (LLMs) and graph neural networks (GNNs) in various ways, they mostly focus on either conventional graph tasks (such as node, edge, and graph classification), or on answering simple graph queries on small or synthetic graphs. In contrast, we develop a flexible question-answering framework targeting real-world textual graphs, applicable to multiple applications including scene graph understanding, common sense reasoning, and knowledge graph reasoning. Toward this goal, we first develop a Graph Question Answering (GraphQA) benchmark with data collected from different tasks. Then, we propose our G-Retriever method, introducing the first retrieval-augmented generation (RAG) approach for general textual graphs, which can be fine-tuned to enhance graph understanding via soft prompting. To resist hallucination and to allow for textual graphs that greatly exceed the LLM's context window size, G-Retriever performs RAG over a graph by formulating this task as a Prize-Collecting Steiner Tree optimization problem. Empirical evaluations show that our method outperforms baselines on textual graph tasks from multiple domains, scales well with larger graph sizes, and mitigates hallucination.~\footnote{Our codes and datasets are available at: \url{https://github.com/XiaoxinHe/G-Retriever}}</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-12T13:13:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiaoxin He</name>
+    </author>
+    <author>
+      <name>Yijun Tian</name>
+    </author>
+    <author>
+      <name>Yifei Sun</name>
+    </author>
+    <author>
+      <name>Nitesh V. Chawla</name>
+    </author>
+    <author>
+      <name>Thomas Laurent</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Xavier Bresson</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.11188v1</id>
+    <title>Fast and Exact Enumeration of Deep Networks Partitions Regions</title>
+    <updated>2024-01-20T09:51:52Z</updated>
+    <link href="https://arxiv.org/abs/2401.11188v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.11188v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One fruitful formulation of Deep Networks (DNs) enabling their theoretical study and providing practical guidelines to practitioners relies on Piecewise Affine Splines. In that realm, a DN's input-mapping is expressed as per-region affine mapping where those regions are implicitly determined by the model's architecture and form a partition of their input space. That partition -- which is involved in all the results spanned from this line of research -- has so far only been computed on $2/3$-dimensional slices of the DN's input space or estimated by random sampling. In this paper, we provide the first parallel algorithm that does exact enumeration of the DN's partition regions. The proposed algorithm enables one to finally assess the closeness of the commonly employed approximations methods, e.g. based on random sampling of the DN input space. One of our key finding is that if one is only interested in regions with ``large'' volume, then uniform sampling of the space is highly efficient, but that if one is also interested in discovering the ``small'' regions of the partition, then uniform sampling is exponentially costly with the DN's input space dimension. On the other hand, our proposed method has complexity scaling linearly with input dimension and the number of regions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-20T09:51:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.06209v2</id>
+    <title>Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs</title>
+    <updated>2024-04-25T07:12:39Z</updated>
+    <link href="https://arxiv.org/abs/2401.06209v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.06209v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Is vision good enough for language? Recent advancements in multimodal models primarily stem from the powerful reasoning abilities of large language models (LLMs). However, the visual component typically depends only on the instance-level contrastive language-image pre-training (CLIP). Our research reveals that the visual capabilities in recent multimodal LLMs (MLLMs) still exhibit systematic shortcomings. To understand the roots of these errors, we explore the gap between the visual embedding space of CLIP and vision-only self-supervised learning. We identify ''CLIP-blind pairs'' - images that CLIP perceives as similar despite their clear visual differences. With these pairs, we construct the Multimodal Visual Patterns (MMVP) benchmark. MMVP exposes areas where state-of-the-art systems, including GPT-4V, struggle with straightforward questions across nine basic visual patterns, often providing incorrect answers and hallucinated explanations. We further evaluate various CLIP-based vision-and-language models and found a notable correlation between visual patterns that challenge CLIP models and those problematic for multimodal LLMs. As an initial effort to address these issues, we propose a Mixture of Features (MoF) approach, demonstrating that integrating vision self-supervised learning features with MLLMs can significantly enhance their visual grounding capabilities. Together, our research suggests visual representation learning remains an open challenge, and accurate visual grounding is crucial for future successful multimodal systems.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-11T18:58:36Z</published>
+    <arxiv:comment>Project page: https://tsb0601.github.io/mmvp_blog/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Zhuang Liu</name>
+    </author>
+    <author>
+      <name>Yuexiang Zhai</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.17227v1</id>
+    <title>Gradient-based Planning with World Models</title>
+    <updated>2023-12-28T18:54:21Z</updated>
+    <link href="https://arxiv.org/abs/2312.17227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.17227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The enduring challenge in the field of artificial intelligence has been the control of systems to achieve desired behaviours. While for systems governed by straightforward dynamics equations, methods like Linear Quadratic Regulation (LQR) have historically proven highly effective, most real-world tasks, which require a general problem-solver, demand world models with dynamics that cannot be easily described by simple equations. Consequently, these models must be learned from data using neural networks. Most model predictive control (MPC) algorithms designed for visual world models have traditionally explored gradient-free population-based optimisation methods, such as Cross Entropy and Model Predictive Path Integral (MPPI) for planning. However, we present an exploration of a gradient-based alternative that fully leverages the differentiability of the world model. In our study, we conduct a comparative analysis between our method and other MPC-based alternatives, as well as policy-based algorithms. In a sample-efficient setting, our method achieves on par or superior performance compared to the alternative approaches in most tasks. Additionally, we introduce a hybrid model that combines policy networks and gradient-based MPC, which outperforms pure policy based methods thereby holding promise for Gradient-based planning with world models in complex real-world tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-28T18:54:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jyothir S</name>
+    </author>
+    <author>
+      <name>Siddhartha Jalagam</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.12983v1</id>
+    <title>GAIA: a benchmark for General AI Assistants</title>
+    <updated>2023-11-21T20:34:47Z</updated>
+    <link href="https://arxiv.org/abs/2311.12983v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.12983v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency. GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92\% vs. 15\% for GPT-4 equipped with plugins. This notable performance disparity contrasts with the recent trend of LLMs outperforming humans on tasks requiring professional skills in e.g. law or chemistry. GAIA's philosophy departs from the current trend in AI benchmarks suggesting to target tasks that are ever more difficult for humans. We posit that the advent of Artificial General Intelligence (AGI) hinges on a system's capability to exhibit similar robustness as the average human does on such questions. Using GAIA's methodology, we devise 466 questions and their answer. We release our questions while retaining answers to 300 of them to power a leader-board available at https://huggingface.co/gaia-benchmark.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-21T20:34:47Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Grégoire Mialon</name>
+    </author>
+    <author>
+      <name>Clémentine Fourrier</name>
+    </author>
+    <author>
+      <name>Craig Swift</name>
+    </author>
+    <author>
+      <name>Thomas Wolf</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Thomas Scialom</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.04496v2</id>
+    <title>URLOST: Unsupervised Representation Learning without Stationarity or Topology</title>
+    <updated>2025-03-21T17:59:54Z</updated>
+    <link href="https://arxiv.org/abs/2310.04496v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.04496v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised representation learning has seen tremendous progress. However, it is constrained by its reliance on domain specific stationarity and topology, a limitation not found in biological intelligence systems. For instance, unlike computer vision, human vision can process visual signals sampled from highly irregular and non-stationary sensors. We introduce a novel framework that learns from high-dimensional data without prior knowledge of stationarity and topology. Our model, abbreviated as URLOST, combines a learnable self-organizing layer, spectral clustering, and a masked autoencoder (MAE). We evaluate its effectiveness on three diverse data modalities including simulated biological vision data, neural recordings from the primary visual cortex, and gene expressions. Compared to state-of-the-art unsupervised learning methods like SimCLR and MAE, our model excels at learning meaningful representations across diverse modalities without knowing their stationarity or topology. It also outperforms other methods that are not dependent on these factors, setting a new benchmark in the field. We position this work as a step toward unsupervised learning methods capable of generalizing across diverse high-dimensional data modalities.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-06T18:00:02Z</published>
+    <arxiv:comment>Accepted by ICLR 2025; Code will be available at this https://github.com/zeyuyun1/URLOST</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zeyu Yun</name>
+    </author>
+    <author>
+      <name>Juexiao Zhang</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00566v2</id>
+    <title>Stochastic positional embeddings improve masked image modeling</title>
+    <updated>2024-02-27T18:59:14Z</updated>
+    <link href="https://arxiv.org/abs/2308.00566v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00566v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Masked Image Modeling (MIM) is a promising self-supervised learning approach that enables learning from unlabeled images. Despite its recent success, learning good representations through MIM remains challenging because it requires predicting the right semantic content in accurate locations. For example, given an incomplete picture of a dog, we can guess that there is a tail, but we cannot determine its exact location. In this work, we propose to incorporate location uncertainty into MIM by using stochastic positional embeddings (StoP). Specifically, we condition the model on stochastic masked token positions drawn from a Gaussian distribution. StoP reduces overfitting to location features and guides the model toward learning features that are more robust to location uncertainties. Quantitatively, StoP improves downstream MIM performance on a variety of downstream tasks, including $+1.7\%$ on ImageNet linear probing using ViT-B, and $+2.5\%$ for ViT-H using $1\%$ of the data.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-31T17:59:08Z</published>
+    <arxiv:comment>Code and models available in https://github.com/amirbar/StoP</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Florian Bordes</name>
+    </author>
+    <author>
+      <name>Assaf Shocher</name>
+    </author>
+    <author>
+      <name>Mahmoud Assran</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Amir Globerson</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.12698v1</id>
+    <title>MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features</title>
+    <updated>2023-07-24T11:27:14Z</updated>
+    <link href="https://arxiv.org/abs/2307.12698v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.12698v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning of visual representations has been focusing on learning content features, which do not capture object motion or location, and focus on identifying and differentiating objects in images and videos. On the other hand, optical flow estimation is a task that does not involve understanding the content of the images on which it is estimated. We unify the two approaches and introduce MC-JEPA, a joint-embedding predictive architecture and self-supervised learning approach to jointly learn optical flow and content features within a shared encoder, demonstrating that the two associated objectives; the optical flow estimation objective and the self-supervised learning objective; benefit from each other and thus learn content features that incorporate motion information. The proposed approach achieves performance on-par with existing unsupervised optical flow benchmarks, as well as with common self-supervised learning approaches on downstream tasks such as semantic segmentation of images and videos.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-24T11:27:14Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05432v2</id>
+    <title>Self-Supervised Learning with Lie Symmetries for Partial Differential Equations</title>
+    <updated>2024-02-14T14:59:38Z</updated>
+    <link href="https://arxiv.org/abs/2307.05432v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05432v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning for differential equations paves the way for computationally efficient alternatives to numerical solvers, with potentially broad impacts in science and engineering. Though current algorithms typically require simulated training data tailored to a given setting, one may instead wish to learn useful information from heterogeneous sources, or from real dynamical systems observations that are messy or incomplete. In this work, we learn general-purpose representations of PDEs from heterogeneous data by implementing joint embedding methods for self-supervised learning (SSL), a framework for unsupervised representation learning that has had notable success in computer vision. Our representation outperforms baseline approaches to invariant tasks, such as regressing the coefficients of a PDE, while also improving the time-stepping performance of neural solvers. We hope that our proposed methodology will prove useful in the eventual development of general-purpose foundation models for PDEs. Code: https://github.com/facebookresearch/SSLForPDEs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-11T16:52:22Z</published>
+    <arxiv:comment>NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Grégoire Mialon</name>
+    </author>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Hannah Lawrence</name>
+    </author>
+    <author>
+      <name>Danyal Rehman</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Bobak T. Kiani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.13292v2</id>
+    <title>Variance-Covariance Regularization Improves Representation Learning</title>
+    <updated>2024-02-22T21:07:10Z</updated>
+    <link href="https://arxiv.org/abs/2306.13292v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.13292v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transfer learning plays a key role in advancing machine learning models, yet conventional supervised pretraining often undermines feature transferability by prioritizing features that minimize the pretraining loss. In this work, we adapt a self-supervised learning regularization technique from the VICReg method to supervised learning contexts, introducing Variance-Covariance Regularization (VCReg). This adaptation encourages the network to learn high-variance, low-covariance representations, promoting learning more diverse features. We outline best practices for an efficient implementation of our framework, including applying it to the intermediate representations. Through extensive empirical evaluation, we demonstrate that our method significantly enhances transfer learning for images and videos, achieving state-of-the-art performance across numerous tasks and datasets. VCReg also improves performance in scenarios like long-tail learning and hierarchical classification. Additionally, we show its effectiveness may stem from its success in addressing challenges like gradient starvation and neural collapse. In summary, VCReg offers a universally applicable regularization framework that significantly advances transfer learning and highlights the connection between gradient starvation, neural collapse, and feature transferability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-23T05:01:02Z</published>
+    <arxiv:comment>165 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Katrina Evtimova</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.02572v1</id>
+    <title>Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence</title>
+    <updated>2023-06-05T03:55:26Z</updated>
+    <link href="https://arxiv.org/abs/2306.02572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.02572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current automated systems have crucial limitations that need to be addressed before artificial intelligence can reach human-like levels and bring new technological revolutions. Among others, our societies still lack Level 5 self-driving cars, domestic robots, and virtual assistants that learn reliable world models, reason, and plan complex action sequences. In these notes, we summarize the main ideas behind the architecture of autonomous intelligence of the future proposed by Yann LeCun. In particular, we introduce energy-based and latent variable models and combine their advantages in the building block of LeCun's proposal, that is, in the hierarchical joint embedding predictive architecture (H-JEPA).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T03:55:26Z</published>
+    <arxiv:comment>23 pages + 1-page appendix, 11 figures. These notes follow the content of three lectures given by Yann LeCun during the Les Houches Summer School on Statistical Physics and Machine Learning in 2022. Feedback and comments are most welcome!</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>J. Stat. Mech. (2024) 104011</arxiv:journal_ref>
+    <author>
+      <name>Anna Dawid</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/ad292b</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/ad292b" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.19523v5</id>
+    <title>Harnessing Explanations: LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning</title>
+    <updated>2024-03-07T02:45:36Z</updated>
+    <link href="https://arxiv.org/abs/2305.19523v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.19523v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Representation learning on text-attributed graphs (TAGs) has become a critical research problem in recent years. A typical example of a TAG is a paper citation graph, where the text of each paper serves as node attributes. Initial graph neural network (GNN) pipelines handled these text attributes by transforming them into shallow or hand-crafted features, such as skip-gram or bag-of-words features. Recent efforts have focused on enhancing these pipelines with language models (LMs), which typically demand intricate designs and substantial computational resources. With the advent of powerful large language models (LLMs) such as GPT or Llama2, which demonstrate an ability to reason and to utilize general knowledge, there is a growing need for techniques which combine the textual modelling abilities of LLMs with the structural learning capabilities of GNNs. Hence, in this work, we focus on leveraging LLMs to capture textual information as features, which can be used to boost GNN performance on downstream tasks. A key innovation is our use of explanations as features: we prompt an LLM to perform zero-shot classification, request textual explanations for its decision-making process, and design an LLM-to-LM interpreter to translate these explanations into informative features for downstream GNNs. Our experiments demonstrate that our method achieves state-of-the-art results on well-established TAG datasets, including Cora, PubMed, ogbn-arxiv, as well as our newly introduced dataset, tape-arxiv23. Furthermore, our method significantly speeds up training, achieving a 2.88 times improvement over the closest baseline on ogbn-arxiv. Lastly, we believe the versatility of the proposed method extends beyond TAGs and holds the potential to enhance other tasks involving graph-text data. Our codes and datasets are available at: https://github.com/XiaoxinHe/TAPE.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-31T03:18:03Z</published>
+    <arxiv:comment>In Proceedings of ICLR 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiaoxin He</name>
+    </author>
+    <author>
+      <name>Xavier Bresson</name>
+    </author>
+    <author>
+      <name>Thomas Laurent</name>
+    </author>
+    <author>
+      <name>Adam Perold</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15614v2</id>
+    <title>Reverse Engineering Self-Supervised Learning</title>
+    <updated>2023-05-31T14:14:32Z</updated>
+    <link href="https://arxiv.org/abs/2305.15614v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15614v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning (SSL) is a powerful tool in machine learning, but understanding the learned representations and their underlying mechanisms remains a challenge. This paper presents an in-depth empirical analysis of SSL-trained representations, encompassing diverse models, architectures, and hyperparameters. Our study reveals an intriguing aspect of the SSL training process: it inherently facilitates the clustering of samples with respect to semantic labels, which is surprisingly driven by the SSL objective's regularization term. This clustering process not only enhances downstream classification but also compresses the data information. Furthermore, we establish that SSL-trained representations align more closely with semantic classes rather than random classes. Remarkably, we show that learned representations align with semantic classes across various hierarchical levels, and this alignment increases during training and when moving deeper into the network. Our findings provide valuable insights into SSL's representation learning mechanisms and their impact on performance across different sets of classes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T23:15:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ido Ben-Shaul</name>
+    </author>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Tomer Galanti</name>
+    </author>
+    <author>
+      <name>Shai Dekel</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.12210v2</id>
+    <title>A Cookbook of Self-Supervised Learning</title>
+    <updated>2023-06-28T14:15:22Z</updated>
+    <link href="https://arxiv.org/abs/2304.12210v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.12210v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning, dubbed the dark matter of intelligence, is a promising path to advance machine learning. Yet, much like cooking, training SSL methods is a delicate art with a high barrier to entry. While many components are familiar, successfully training a SSL method involves a dizzying set of choices from the pretext tasks to training hyper-parameters. Our goal is to lower the barrier to entry into SSL research by laying the foundations and latest SSL recipes in the style of a cookbook. We hope to empower the curious researcher to navigate the terrain of methods, understand the role of the various knobs, and gain the know-how required to explore how delicious SSL can be.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-24T15:49:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Mark Ibrahim</name>
+    </author>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Ari Morcos</name>
+    </author>
+    <author>
+      <name>Shashank Shekhar</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+    <author>
+      <name>Florian Bordes</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Gregoire Mialon</name>
+    </author>
+    <author>
+      <name>Yuandong Tian</name>
+    </author>
+    <author>
+      <name>Avi Schwarzschild</name>
+    </author>
+    <author>
+      <name>Andrew Gordon Wilson</name>
+    </author>
+    <author>
+      <name>Jonas Geiping</name>
+    </author>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Pierre Fernandez</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+    <author>
+      <name>Hamed Pirsiavash</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.09355v5</id>
+    <title>To Compress or Not to Compress- Self-Supervised Learning and Information Theory: A Review</title>
+    <updated>2023-11-21T13:12:21Z</updated>
+    <link href="https://arxiv.org/abs/2304.09355v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.09355v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks excel in supervised learning tasks but are constrained by the need for extensive labeled data. Self-supervised learning emerges as a promising alternative, allowing models to learn without explicit labels. Information theory, and notably the information bottleneck principle, has been pivotal in shaping deep neural networks. This principle focuses on optimizing the trade-off between compression and preserving relevant information, providing a foundation for efficient network design in supervised contexts. However, its precise role and adaptation in self-supervised learning remain unclear. In this work, we scrutinize various self-supervised learning approaches from an information-theoretic perspective, introducing a unified framework that encapsulates the \textit{self-supervised information-theoretic learning problem}. We weave together existing research into a cohesive narrative, delve into contemporary self-supervised methodologies, and spotlight potential research avenues and inherent challenges. Additionally, we discuss the empirical evaluation of information-theoretic quantities and their estimation methods. Overall, this paper furnishes an exhaustive review of the intersection of information theory, self-supervised learning, and deep neural networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-19T00:33:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.03977v1</id>
+    <title>EMP-SSL: Towards Self-Supervised Learning in One Training Epoch</title>
+    <updated>2023-04-08T10:09:30Z</updated>
+    <link href="https://arxiv.org/abs/2304.03977v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.03977v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, self-supervised learning (SSL) has achieved tremendous success in learning image representation. Despite the empirical success, most self-supervised learning methods are rather "inefficient" learners, typically taking hundreds of training epochs to fully converge. In this work, we show that the key towards efficient self-supervised learning is to increase the number of crops from each image instance. Leveraging one of the state-of-the-art SSL method, we introduce a simplistic form of self-supervised learning method called Extreme-Multi-Patch Self-Supervised-Learning (EMP-SSL) that does not rely on many heuristic techniques for SSL such as weight sharing between the branches, feature-wise normalization, output quantization, and stop gradient, etc, and reduces the training epochs by two orders of magnitude. We show that the proposed method is able to converge to 85.1% on CIFAR-10, 58.5% on CIFAR-100, 38.1% on Tiny ImageNet and 58.5% on ImageNet-100 in just one epoch. Furthermore, the proposed method achieves 91.5% on CIFAR-10, 70.1% on CIFAR-100, 51.5% on Tiny ImageNet and 78.9% on ImageNet-100 with linear probing in less than ten training epochs. In addition, we show that EMP-SSL shows significantly better transferability to out-of-domain datasets compared to baseline SSL methods. We will release the code in https://github.com/tsb0601/EMP-SSL.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-08T10:09:30Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Yann Lecun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.15256v2</id>
+    <title>Active Self-Supervised Learning: A Few Low-Cost Relationships Are All You Need</title>
+    <updated>2023-09-29T08:30:32Z</updated>
+    <link href="https://arxiv.org/abs/2303.15256v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.15256v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-Supervised Learning (SSL) has emerged as the solution of choice to learn transferable representations from unlabeled data. However, SSL requires to build samples that are known to be semantically akin, i.e. positive views. Requiring such knowledge is the main limitation of SSL and is often tackled by ad-hoc strategies e.g. applying known data-augmentations to the same input. In this work, we formalize and generalize this principle through Positive Active Learning (PAL) where an oracle queries semantic relationships between samples. PAL achieves three main objectives. First, it unveils a theoretically grounded learning framework beyond SSL, based on similarity graphs, that can be extended to tackle supervised and semi-supervised learning depending on the employed oracle. Second, it provides a consistent algorithm to embed a priori knowledge, e.g. some observed labels, into any SSL losses without any change in the training pipeline. Third, it provides a proper active learning framework yielding low-cost solutions to annotate datasets, arguably bringing the gap between theory and practice of active learning that is based on simple-to-answer-by-non-experts queries of semantic relationships between inputs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-27T14:44:39Z</published>
+    <arxiv:comment>8 main pages, 20 totals, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vivien Cabannes</name>
+    </author>
+    <author>
+      <name>Leon Bottou</name>
+    </author>
+    <author>
+      <name>Yann Lecun</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.00633v4</id>
+    <title>An Information-Theoretic Perspective on Variance-Invariance-Covariance Regularization</title>
+    <updated>2024-05-02T03:58:14Z</updated>
+    <link href="https://arxiv.org/abs/2303.00633v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.00633v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Variance-Invariance-Covariance Regularization (VICReg) is a self-supervised learning (SSL) method that has shown promising results on a variety of tasks. However, the fundamental mechanisms underlying VICReg remain unexplored. In this paper, we present an information-theoretic perspective on the VICReg objective. We begin by deriving information-theoretic quantities for deterministic networks as an alternative to unrealistic stochastic network assumptions. We then relate the optimization of the VICReg objective to mutual information optimization, highlighting underlying assumptions and facilitating a constructive comparison with other SSL algorithms and derive a generalization bound for VICReg, revealing its inherent advantages for downstream tasks. Building on these results, we introduce a family of SSL methods derived from information-theoretic principles that outperform existing SSL techniques.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-01T16:36:25Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Tim G. J. Rudner</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.07842v1</id>
+    <title>Augmented Language Models: a Survey</title>
+    <updated>2023-02-15T18:25:52Z</updated>
+    <link href="https://arxiv.org/abs/2302.07842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.07842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This survey reviews works in which language models (LMs) are augmented with reasoning skills and the ability to use tools. The former is defined as decomposing a potentially complex task into simpler subtasks while the latter consists in calling external modules such as a code interpreter. LMs can leverage these augmentations separately or in combination via heuristics, or learn to do so from demonstrations. While adhering to a standard missing tokens prediction objective, such augmented LMs can use various, possibly non-parametric external modules to expand their context processing ability, thus departing from the pure language modeling paradigm. We therefore refer to them as Augmented Language Models (ALMs). The missing token objective allows ALMs to learn to reason, use tools, and even act, while still performing standard natural language tasks and even outperforming most regular LMs on several benchmarks. In this work, after reviewing current advance in ALMs, we conclude that this new research direction has the potential to address common limitations of traditional LMs such as interpretability, consistency, and scalability issues.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-15T18:25:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Grégoire Mialon</name>
+    </author>
+    <author>
+      <name>Roberto Dessì</name>
+    </author>
+    <author>
+      <name>Maria Lomeli</name>
+    </author>
+    <author>
+      <name>Christoforos Nalmpantis</name>
+    </author>
+    <author>
+      <name>Ram Pasunuru</name>
+    </author>
+    <author>
+      <name>Roberta Raileanu</name>
+    </author>
+    <author>
+      <name>Baptiste Rozière</name>
+    </author>
+    <author>
+      <name>Timo Schick</name>
+    </author>
+    <author>
+      <name>Jane Dwivedi-Yu</name>
+    </author>
+    <author>
+      <name>Asli Celikyilmaz</name>
+    </author>
+    <author>
+      <name>Edouard Grave</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Thomas Scialom</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.10283v2</id>
+    <title>Self-supervised learning of Split Invariant Equivariant representations</title>
+    <updated>2023-06-19T12:21:08Z</updated>
+    <link href="https://arxiv.org/abs/2302.10283v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.10283v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress has been made towards learning invariant or equivariant representations with self-supervised learning. While invariant methods are evaluated on large scale datasets, equivariant ones are evaluated in smaller, more controlled, settings. We aim at bridging the gap between the two in order to learn more diverse representations that are suitable for a wide range of tasks. We start by introducing a dataset called 3DIEBench, consisting of renderings from 3D models over  55 classes and more than 2.5 million images where we have full control on the transformations applied to the objects. We further introduce a predictor architecture based on hypernetworks to learn equivariant representations with no possible collapse to invariance. We introduce SIE (Split Invariant-Equivariant) which combines the hypernetwork-based predictor with representations split in two parts, one invariant, the other equivariant, to learn richer representations. We demonstrate significant performance gains over existing methods on equivariance related tasks from both a qualitative and quantitative point of view. We further analyze our introduced predictor and show how it steers the learned latent space. We hope that both our introduced dataset and approach will enable learning richer representations without supervision in more complex scenarios. Code and data are available at https://github.com/facebookresearch/SIE.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-14T07:53:18Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>The Fortieth International Conference on Machine Learning, 2023, Honolulu, United States</arxiv:journal_ref>
+    <author>
+      <name>Quentin Garrido</name>
+      <arxiv:affiliation>FAIR, LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Najman</name>
+      <arxiv:affiliation>LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yann Lecun</name>
+      <arxiv:affiliation>FAIR, CIMS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02774v2</id>
+    <title>The SSL Interplay: Augmentations, Inductive Bias, and Generalization</title>
+    <updated>2023-06-01T14:17:16Z</updated>
+    <link href="https://arxiv.org/abs/2302.02774v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02774v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning (SSL) has emerged as a powerful framework to learn representations from raw data without supervision. Yet in practice, engineers face issues such as instability in tuning optimizers and collapse of representations during training. Such challenges motivate the need for a theory to shed light on the complex interplay between the choice of data augmentation, network architecture, and training algorithm. We study such an interplay with a precise analysis of generalization performance on both pretraining and downstream tasks in a theory friendly setup, and highlight several insights for SSL practitioners that arise from our theory.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T13:42:14Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Proceedings of the 40 th International Conference on Machine Learning, Honolulu, Hawaii, USA. PMLR 202, 2023</arxiv:journal_ref>
+    <author>
+      <name>Vivien Cabannes</name>
+    </author>
+    <author>
+      <name>Bobak T. Kiani</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Alberto Bietti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.01647v2</id>
+    <title>Blockwise Self-Supervised Learning at Scale</title>
+    <updated>2024-08-11T15:59:30Z</updated>
+    <link href="https://arxiv.org/abs/2302.01647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.01647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current state-of-the-art deep networks are all powered by backpropagation. In this paper, we explore alternatives to full backpropagation in the form of blockwise learning rules, leveraging the latest developments in self-supervised learning. We show that a blockwise pretraining procedure consisting of training independently the 4 main blocks of layers of a ResNet-50 with Barlow Twins' loss function at each block performs almost as well as end-to-end backpropagation on ImageNet: a linear probe trained on top of our blockwise pretrained model obtains a top-1 classification accuracy of 70.48%, only 1.1% below the accuracy of an end-to-end pretrained network (71.57% accuracy). We perform extensive experiments to understand the impact of different components within our method and explore a variety of adaptations of self-supervised learning to the blockwise paradigm, building an exhaustive understanding of the critical avenues for scaling local learning rules to large networks, with implications ranging from hardware design to neuroscience.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-03T10:48:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shoaib Ahmed Siddiqui</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Stéphane Deny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.08243v3</id>
+    <title>Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture</title>
+    <updated>2023-04-13T17:59:37Z</updated>
+    <link href="https://arxiv.org/abs/2301.08243v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.08243v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper demonstrates an approach for learning highly semantic image representations without relying on hand-crafted data-augmentations. We introduce the Image-based Joint-Embedding Predictive Architecture (I-JEPA), a non-generative approach for self-supervised learning from images. The idea behind I-JEPA is simple: from a single context block, predict the representations of various target blocks in the same image. A core design choice to guide I-JEPA towards producing semantic representations is the masking strategy; specifically, it is crucial to (a) sample target blocks with sufficiently large scale (semantic), and to (b) use a sufficiently informative (spatially distributed) context block. Empirically, when combined with Vision Transformers, we find I-JEPA to be highly scalable. For instance, we train a ViT-Huge/14 on ImageNet using 16 A100 GPUs in under 72 hours to achieve strong downstream performance across a wide range of tasks, from linear classification to object counting and depth prediction.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-19T18:59:01Z</published>
+    <arxiv:comment>2023 IEEE/CVF International Conference on Computer Vision</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mahmoud Assran</name>
+    </author>
+    <author>
+      <name>Quentin Duval</name>
+    </author>
+    <author>
+      <name>Ishan Misra</name>
+    </author>
+    <author>
+      <name>Piotr Bojanowski</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+    <author>
+      <name>Michael Rabbat</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.13350v2</id>
+    <title>A Generalization of ViT/MLP-Mixer to Graphs</title>
+    <updated>2023-05-31T03:19:44Z</updated>
+    <link href="https://arxiv.org/abs/2212.13350v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.13350v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph Neural Networks (GNNs) have shown great potential in the field of graph representation learning. Standard GNNs define a local message-passing mechanism which propagates information over the whole graph domain by stacking multiple layers. This paradigm suffers from two major limitations, over-squashing and poor long-range dependencies, that can be solved using global attention but significantly increases the computational cost to quadratic complexity. In this work, we propose an alternative approach to overcome these structural limitations by leveraging the ViT/MLP-Mixer architectures introduced in computer vision. We introduce a new class of GNNs, called Graph ViT/MLP-Mixer, that holds three key properties. First, they capture long-range dependency and mitigate the issue of over-squashing as demonstrated on Long Range Graph Benchmark and TreeNeighbourMatch datasets. Second, they offer better speed and memory efficiency with a complexity linear to the number of nodes and edges, surpassing the related Graph Transformer and expressive GNN models. Third, they show high expressivity in terms of graph isomorphism as they can distinguish at least 3-WL non-isomorphic graphs. We test our architecture on 4 simulated datasets and 7 real-world benchmarks, and show highly competitive results on all of them. The source code is available for reproducibility at: \url{https://github.com/XiaoxinHe/Graph-ViT-MLPMixer}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-27T03:27:46Z</published>
+    <arxiv:comment>In Proceedings of ICML 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaoxin He</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+    <author>
+      <name>Thomas Laurent</name>
+    </author>
+    <author>
+      <name>Adam Perold</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Xavier Bresson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.10831v1</id>
+    <title>Joint Embedding Predictive Architectures Focus on Slow Features</title>
+    <updated>2022-11-20T00:50:11Z</updated>
+    <link href="https://arxiv.org/abs/2211.10831v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.10831v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many common methods for learning a world model for pixel-based environments use generative architectures trained with pixel-level reconstruction objectives. Recently proposed Joint Embedding Predictive Architectures (JEPA) offer a reconstruction-free alternative. In this work, we analyze performance of JEPA trained with VICReg and SimCLR objectives in the fully offline setting without access to rewards, and compare the results to the performance of the generative architecture. We test the methods in a simple environment with a moving dot with various background distractors, and probe learned representations for the dot's location. We find that JEPA methods perform on par or better than reconstruction when distractor noise changes every time step, but fail when the noise is fixed. Furthermore, we provide a theoretical explanation for the poor performance of JEPA-based methods with fixed noise, highlighting an important limitation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-20T00:50:11Z</published>
+    <arxiv:comment>4 pages (3 figures) short paper for SSL Theory and Practice workshop at NeurIPS 2022. Code is available at https://github.com/vladisai/JEPA_SSL_NeurIPS_2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Jyothir S</name>
+    </author>
+    <author>
+      <name>Siddhartha Jalagam</name>
+    </author>
+    <author>
+      <name>Nicolas Carion</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.01340v3</id>
+    <title>POLICE: Provably Optimal Linear Constraint Enforcement for Deep Neural Networks</title>
+    <updated>2023-03-10T16:23:19Z</updated>
+    <link href="https://arxiv.org/abs/2211.01340v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.01340v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Neural Networks (DNNs) outshine alternative function approximators in many settings thanks to their modularity in composing any desired differentiable operator. The formed parametrized functional is then tuned to solve a task at hand from simple gradient descent. This modularity comes at the cost of making strict enforcement of constraints on DNNs, e.g. from a priori knowledge of the task, or from desired physical properties, an open challenge. In this paper we propose the first provable affine constraint enforcement method for DNNs that only requires minimal changes into a given DNN's forward-pass, that is computationally friendly, and that leaves the optimization of the DNN's parameter to be unconstrained, i.e. standard gradient-based method can be employed. Our method does not require any sampling and provably ensures that the DNN fulfills the affine constraint on a given input space's region at any point during training, and testing. We coin this method POLICE, standing for Provably Optimal LInear Constraint Enforcement. Github: https://github.com/RandallBalestriero/POLICE</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-02T17:48:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.16782v1</id>
+    <title>Unsupervised Learning of Structured Representations via Closed-Loop Transcription</title>
+    <updated>2022-10-30T09:09:05Z</updated>
+    <link href="https://arxiv.org/abs/2210.16782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.16782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes an unsupervised method for learning a unified representation that serves both discriminative and generative purposes. While most existing unsupervised learning approaches focus on a representation for only one of these two goals, we show that a unified representation can enjoy the mutual benefits of having both. Such a representation is attainable by generalizing the recently proposed \textit{closed-loop transcription} framework, known as CTRL, to the unsupervised setting. This entails solving a constrained maximin game over a rate reduction objective that expands features of all samples while compressing features of augmentations of each sample. Through this process, we see discriminative low-dimensional structures emerge in the resulting representations. Under comparable experimental conditions and network complexities, we demonstrate that these structured representations enable classification performance close to state-of-the-art unsupervised discriminative representations, and conditionally generated image quality significantly higher than that of state-of-the-art unsupervised generative models. Source code can be found at https://github.com/Delay-Xili/uCTRL.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-30T09:09:05Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Xili Dai</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Mingyang Li</name>
+    </author>
+    <author>
+      <name>Zengyi Li</name>
+    </author>
+    <author>
+      <name>Brent Yi</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.08340v3</id>
+    <title>Toward Next-Generation Artificial Intelligence: Catalyzing the NeuroAI Revolution</title>
+    <updated>2023-02-22T20:05:10Z</updated>
+    <link href="https://arxiv.org/abs/2210.08340v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.08340v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neuroscience has long been an essential driver of progress in artificial intelligence (AI). We propose that to accelerate progress in AI, we must invest in fundamental research in NeuroAI. A core component of this is the embodied Turing test, which challenges AI animal models to interact with the sensorimotor world at skill levels akin to their living counterparts. The embodied Turing test shifts the focus from those capabilities like game playing and language that are especially well-developed or uniquely human to those capabilities, inherited from over 500 million years of evolution, that are shared with all animals. Building models that can pass the embodied Turing test will provide a roadmap for the next generation of AI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-15T17:18:37Z</published>
+    <arxiv:comment>White paper, 10 pages + 8 pages of references, 1 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Anthony Zador</name>
+    </author>
+    <author>
+      <name>Sean Escola</name>
+    </author>
+    <author>
+      <name>Blake Richards</name>
+    </author>
+    <author>
+      <name>Bence Ölveczky</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Kwabena Boahen</name>
+    </author>
+    <author>
+      <name>Matthew Botvinick</name>
+    </author>
+    <author>
+      <name>Dmitri Chklovskii</name>
+    </author>
+    <author>
+      <name>Anne Churchland</name>
+    </author>
+    <author>
+      <name>Claudia Clopath</name>
+    </author>
+    <author>
+      <name>James DiCarlo</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+    <author>
+      <name>Jeff Hawkins</name>
+    </author>
+    <author>
+      <name>Konrad Koerding</name>
+    </author>
+    <author>
+      <name>Alexei Koulakov</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+    <author>
+      <name>Adam Marblestone</name>
+    </author>
+    <author>
+      <name>Bruno Olshausen</name>
+    </author>
+    <author>
+      <name>Alexandre Pouget</name>
+    </author>
+    <author>
+      <name>Cristina Savin</name>
+    </author>
+    <author>
+      <name>Terrence Sejnowski</name>
+    </author>
+    <author>
+      <name>Eero Simoncelli</name>
+    </author>
+    <author>
+      <name>Sara Solla</name>
+    </author>
+    <author>
+      <name>David Sussillo</name>
+    </author>
+    <author>
+      <name>Andreas S. Tolias</name>
+    </author>
+    <author>
+      <name>Doris Tsao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04135v3</id>
+    <title>VoLTA: Vision-Language Transformer with Weakly-Supervised Local-Feature Alignment</title>
+    <updated>2023-10-30T01:56:14Z</updated>
+    <link href="https://arxiv.org/abs/2210.04135v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04135v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language pre-training (VLP) has recently proven highly effective for various uni- and multi-modal downstream applications. However, most existing end-to-end VLP methods use high-resolution image-text box data to perform well on fine-grained region-level tasks, such as object detection, segmentation, and referring expression comprehension. Unfortunately, such high-resolution images with accurate bounding box annotations are expensive to collect and use for supervision at scale. In this work, we propose VoLTA (Vision-Language Transformer with weakly-supervised local-feature Alignment), a new VLP paradigm that only utilizes image-caption data but achieves fine-grained region-level image understanding, eliminating the use of expensive box annotations. VoLTA adopts graph optimal transport-based weakly-supervised alignment on local image patches and text tokens to germinate an explicit, self-normalized, and interpretable low-level matching criterion. In addition, VoLTA pushes multi-modal fusion deep into the uni-modal backbones during pre-training and removes fusion-specific transformer layers, further reducing memory requirements. Extensive experiments on a wide range of vision- and vision-language downstream tasks demonstrate the effectiveness of VoLTA on fine-grained applications without compromising the coarse-grained downstream performance, often outperforming methods using significantly more caption and box annotations.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-09T01:49:58Z</published>
+    <arxiv:comment>Published in TMLR 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shraman Pramanick</name>
+    </author>
+    <author>
+      <name>Li Jing</name>
+    </author>
+    <author>
+      <name>Sayan Nag</name>
+    </author>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Hardik Shah</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Rama Chellappa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.02885v3</id>
+    <title>RankMe: Assessing the downstream performance of pretrained self-supervised representations by their rank</title>
+    <updated>2023-06-26T12:17:11Z</updated>
+    <link href="https://arxiv.org/abs/2210.02885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.02885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-Embedding Self Supervised Learning (JE-SSL) has seen a rapid development, with the emergence of many method variations but only few principled guidelines that would help practitioners to successfully deploy them. The main reason for that pitfall comes from JE-SSL's core principle of not employing any input reconstruction therefore lacking visual cues of unsuccessful training. Adding non informative loss values to that, it becomes difficult to deploy SSL on a new dataset for which no labels can help to judge the quality of the learned representation. In this study, we develop a simple unsupervised criterion that is indicative of the quality of the learned JE-SSL representations: their effective rank. Albeit simple and computationally friendly, this method -- coined RankMe -- allows one to assess the performance of JE-SSL representations, even on different downstream datasets, without requiring any labels. A further benefit of RankMe is that it does not have any training or hyper-parameters to tune. Through thorough empirical experiments involving hundreds of training episodes, we demonstrate how RankMe can be used for hyperparameter selection with nearly no reduction in final performance compared to the current selection method that involve a dataset's labels. We hope that RankMe will facilitate the deployment of JE-SSL towards domains that do not have the opportunity to rely on labels for representations' quality assessment.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-05T12:13:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>The Fortieth International Conference on Machine Learning, 2023, Honolulu, United States</arxiv:journal_ref>
+    <author>
+      <name>Quentin Garrido</name>
+      <arxiv:affiliation>LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+      <arxiv:affiliation>LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Najman</name>
+      <arxiv:affiliation>LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yann Lecun</name>
+      <arxiv:affiliation>CIMS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.01571v1</id>
+    <title>VICRegL: Self-Supervised Learning of Local Visual Features</title>
+    <updated>2022-10-04T12:54:25Z</updated>
+    <link href="https://arxiv.org/abs/2210.01571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.01571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most recent self-supervised methods for learning image representations focus on either producing a global feature with invariance properties, or producing a set of local features. The former works best for classification tasks while the latter is best for detection and segmentation tasks. This paper explores the fundamental trade-off between learning local and global features. A new method called VICRegL is proposed that learns good global and local features simultaneously, yielding excellent performance on detection and segmentation tasks while maintaining good performance on classification tasks. Concretely, two identical branches of a standard convolutional net architecture are fed two differently distorted versions of the same image. The VICReg criterion is applied to pairs of global feature vectors. Simultaneously, the VICReg criterion is applied to pairs of local feature vectors occurring before the last pooling layer. Two local feature vectors are attracted to each other if their l2-distance is below a threshold or if their relative locations are consistent with a known geometric transformation between the two input images. We demonstrate strong performance on linear classification and segmentation transfer tasks. Code and pretrained models are publicly available at: https://github.com/facebookresearch/VICRegL</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-04T12:54:25Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.15261v2</id>
+    <title>Minimalistic Unsupervised Learning with the Sparse Manifold Transform</title>
+    <updated>2023-04-27T22:05:23Z</updated>
+    <link href="https://arxiv.org/abs/2209.15261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.15261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a minimalistic and interpretable method for unsupervised learning, without resorting to data augmentation, hyperparameter tuning, or other engineering designs, that achieves performance close to the SOTA SSL methods. Our approach leverages the sparse manifold transform, which unifies sparse coding, manifold learning, and slow feature analysis. With a one-layer deterministic sparse manifold transform, one can achieve 99.3% KNN top-1 accuracy on MNIST, 81.1% KNN top-1 accuracy on CIFAR-10 and 53.2% on CIFAR-100. With a simple gray-scale augmentation, the model gets 83.2% KNN top-1 accuracy on CIFAR-10 and 57% on CIFAR-100. These results significantly close the gap between simplistic "white-box" methods and the SOTA methods. Additionally, we provide visualization to explain how an unsupervised representation transform is formed. The proposed method is closely connected to latent-embedding self-supervised methods and can be treated as the simplest form of VICReg. Though there remains a small performance gap between our simple constructive model and SOTA methods, the evidence points to this as a promising direction for achieving a principled and white-box approach to unsupervised learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-30T06:38:30Z</published>
+    <arxiv:comment>This paper is published at ICLR 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>The Eleventh International Conference on Learning Representations (2023)</arxiv:journal_ref>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Zeyu Yun</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Bruno Olshausen</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.14905v2</id>
+    <title>Variance Covariance Regularization Enforces Pairwise Independence in Self-Supervised Representations</title>
+    <updated>2024-02-14T15:31:56Z</updated>
+    <link href="https://arxiv.org/abs/2209.14905v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.14905v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-Supervised Learning (SSL) methods such as VICReg, Barlow Twins or W-MSE avoid collapse of their joint embedding architectures by constraining or regularizing the covariance matrix of their projector's output. This study highlights important properties of such strategy, which we coin Variance-Covariance regularization (VCReg). More precisely, we show that {\em VCReg combined to a MLP projector enforces pairwise independence between the features of the learned representation}. This result emerges by bridging VCReg applied on the projector's output to kernel independence criteria applied on the projector's input. We empirically validate our findings where (i) we put in evidence which projector's characteristics favor pairwise independence, (ii) we demonstrate pairwise independence to be beneficial for out-of-domain generalization, (iii) we demonstrate that the scope of VCReg goes beyond SSL by using it to solve Independent Component Analysis. This provides the first theoretical motivation and explanation of MLP projectors in SSL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-29T16:13:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Grégoire Mialon</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.14884v1</id>
+    <title>Joint Embedding Self-Supervised Learning in the Kernel Regime</title>
+    <updated>2022-09-29T15:53:19Z</updated>
+    <link href="https://arxiv.org/abs/2209.14884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.14884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fundamental goal of self-supervised learning (SSL) is to produce useful representations of data without access to any labels for classifying the data. Modern methods in SSL, which form representations based on known or constructed relationships between samples, have been particularly effective at this task. Here, we aim to extend this framework to incorporate algorithms based on kernel methods where embeddings are constructed by linear maps acting on the feature space of a kernel. In this kernel regime, we derive methods to find the optimal form of the output representations for contrastive and non-contrastive loss functions. This procedure produces a new representation space with an inner product denoted as the induced kernel which generally correlates points which are related by an augmentation in kernel space and de-correlates points otherwise. We analyze our kernel model on small datasets to identify common features of self-supervised learning algorithms and gain theoretical insights into their performance on downstream tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-29T15:53:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bobak T. Kiani</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Seth Lloyd</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.12345v2</id>
+    <title>Light-weight probing of unsupervised representations for Reinforcement Learning</title>
+    <updated>2024-05-31T21:36:57Z</updated>
+    <link href="https://arxiv.org/abs/2208.12345v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.12345v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised visual representation learning offers the opportunity to leverage large corpora of unlabeled trajectories to form useful visual representations, which can benefit the training of reinforcement learning (RL) algorithms. However, evaluating the fitness of such representations requires training RL algorithms which is computationally intensive and has high variance outcomes. Inspired by the vision community, we study whether linear probing can be a proxy evaluation task for the quality of unsupervised RL representation. Specifically, we probe for the observed reward in a given state and the action of an expert in a given state, both of which are generally applicable to many RL domains. Through rigorous experimentation, we show that the probing tasks are strongly rank correlated with the downstream RL performance on the Atari100k Benchmark, while having lower variance and up to 600x lower computational cost. This provides a more efficient method for exploring the space of pretraining algorithms and identifying promising pretraining recipes without the need to run RL evaluations for every setting. Leveraging this framework, we further improve existing self-supervised learning (SSL) recipes for RL, highlighting the importance of the forward model, the size of the visual backbone, and the precise formulation of the unsupervised objective.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-25T21:08:01Z</published>
+    <arxiv:comment>To appear in the proceedings of the Reinforcement Learning Conference 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wancong Zhang</name>
+    </author>
+    <author>
+      <name>Anthony GX-Chen</name>
+    </author>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Nicolas Carion</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.10081v1</id>
+    <title>What Do We Maximize in Self-Supervised Learning?</title>
+    <updated>2022-07-20T04:44:26Z</updated>
+    <link href="https://arxiv.org/abs/2207.10081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.10081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we examine self-supervised learning methods, particularly VICReg, to provide an information-theoretical understanding of their construction. As a first step, we demonstrate how information-theoretic quantities can be obtained for a deterministic network, offering a possible alternative to prior work that relies on stochastic models. This enables us to demonstrate how VICReg can be (re)discovered from first principles and its assumptions about data distribution. Furthermore, we empirically demonstrate the validity of our assumptions, confirming our novel understanding of VICReg. Finally, we believe that the derivation and insights we obtain can be generalized to many other SSL methods, opening new avenues for theoretical and practical understanding of SSL and transfer learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-20T04:44:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.10698v2</id>
+    <title>TiCo: Transformation Invariance and Covariance Contrast for Self-Supervised Visual Representation Learning</title>
+    <updated>2022-06-23T17:36:11Z</updated>
+    <link href="https://arxiv.org/abs/2206.10698v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.10698v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Transformation Invariance and Covariance Contrast (TiCo) for self-supervised visual representation learning. Similar to other recent self-supervised learning methods, our method is based on maximizing the agreement among embeddings of different distorted versions of the same image, which pushes the encoder to produce transformation invariant representations. To avoid the trivial solution where the encoder generates constant vectors, we regularize the covariance matrix of the embeddings from different images by penalizing low rank solutions. By jointly minimizing the transformation invariance loss and covariance contrast loss, we get an encoder that is able to produce useful representations for downstream tasks. We analyze our method and show that it can be viewed as a variant of MoCo with an implicit memory bank of unlimited size at no extra memory cost. This makes our method perform better than alternative methods when using small batch sizes. TiCo can also be seen as a modification of Barlow Twins. By connecting the contrastive and redundancy-reduction methods together, TiCo gives us new insights into how joint embedding methods work.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-21T19:44:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Rafael M. Moraes</name>
+    </author>
+    <author>
+      <name>Serkan Karakulak</name>
+    </author>
+    <author>
+      <name>Vlad Sobol</name>
+    </author>
+    <author>
+      <name>Alfredo Canziani</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.08954v2</id>
+    <title>Bag of Image Patch Embedding Behind the Success of Self-Supervised Learning</title>
+    <updated>2023-06-13T00:48:40Z</updated>
+    <link href="https://arxiv.org/abs/2206.08954v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.08954v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning (SSL) has recently achieved tremendous empirical advancements in learning image representation. However, our understanding of the principle behind learning such a representation is still limited. This work shows that joint-embedding SSL approaches primarily learn a representation of image patches, which reflects their co-occurrence. Such a connection to co-occurrence modeling can be established formally, and it supplements the prevailing invariance perspective. We empirically show that learning a representation for fixed-scale patches and aggregating local patch representations as the image representation achieves similar or even better results than the baseline methods. We denote this process as BagSSL. Even with 32x32 patch representation, BagSSL achieves 62% top-1 linear probing accuracy on ImageNet. On the other hand, with a multi-scale pretrained model, we show that the whole image embedding is approximately the average of local patch embeddings. While the SSL representation is relatively invariant at the global scale, we show that locality is preserved when we zoom into local patch-level representation. Further, we show that patch representation aggregation can improve various SOTA baseline methods by a large margin. The patch representation is considerably easier to understand, and this work makes a step to demystify self-supervised representation learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-17T18:11:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yubei Chen</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Zengyi Li</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.07700v1</id>
+    <title>Masked Siamese ConvNets</title>
+    <updated>2022-06-15T17:52:23Z</updated>
+    <link href="https://arxiv.org/abs/2206.07700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.07700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning has shown superior performances over supervised methods on various vision benchmarks. The siamese network, which encourages embeddings to be invariant to distortions, is one of the most successful self-supervised visual representation learning approaches. Among all the augmentation methods, masking is the most general and straightforward method that has the potential to be applied to all kinds of input and requires the least amount of domain knowledge. However, masked siamese networks require particular inductive bias and practically only work well with Vision Transformers. This work empirically studies the problems behind masked siamese networks with ConvNets. We propose several empirical designs to overcome these problems gradually. Our method performs competitively on low-shot image classification and outperforms previous methods on object detection benchmarks. We discuss several remaining issues and hope this work can provide useful data points for future general-purpose self-supervised learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-15T17:52:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Li Jing</name>
+    </author>
+    <author>
+      <name>Jiachen Zhu</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.07643v2</id>
+    <title>Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone</title>
+    <updated>2022-11-18T18:23:08Z</updated>
+    <link href="https://arxiv.org/abs/2206.07643v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.07643v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language (VL) pre-training has recently received considerable attention. However, most existing end-to-end pre-training approaches either only aim to tackle VL tasks such as image-text retrieval, visual question answering (VQA) and image captioning that test high-level understanding of images, or only target region-level understanding for tasks such as phrase grounding and object detection. We present FIBER (Fusion-In-the-Backbone-based transformER), a new VL model architecture that can seamlessly handle both these types of tasks. Instead of having dedicated transformer layers for fusion after the uni-modal backbones, FIBER pushes multimodal fusion deep into the model by inserting cross-attention into the image and text backbones, bringing gains in terms of memory and performance. In addition, unlike previous work that is either only pre-trained on image-text data or on fine-grained data with box-level annotations, we present a two-stage pre-training strategy that uses both these kinds of data efficiently: (i) coarse-grained pre-training based on image-text data; followed by (ii) fine-grained pre-training based on image-text-box data. We conduct comprehensive experiments on a wide range of VL tasks, ranging from VQA, image captioning, and retrieval, to phrase grounding, referring expression comprehension, and object detection. Using deep multimodal fusion coupled with the two-stage pre-training, FIBER provides consistent performance improvements over strong baselines across all tasks, often outperforming methods using magnitudes more data. Code is available at https://github.com/microsoft/FIBER.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-15T16:41:29Z</published>
+    <arxiv:comment>NeurIPS 2022. Project Website: https://ashkamath.github.io/FIBER_page</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zi-Yi Dou</name>
+    </author>
+    <author>
+      <name>Aishwarya Kamath</name>
+    </author>
+    <author>
+      <name>Zhe Gan</name>
+    </author>
+    <author>
+      <name>Pengchuan Zhang</name>
+    </author>
+    <author>
+      <name>Jianfeng Wang</name>
+    </author>
+    <author>
+      <name>Linjie Li</name>
+    </author>
+    <author>
+      <name>Zicheng Liu</name>
+    </author>
+    <author>
+      <name>Ce Liu</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Nanyun Peng</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+    <author>
+      <name>Lijuan Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.02574v3</id>
+    <title>On the duality between contrastive and non-contrastive self-supervised learning</title>
+    <updated>2023-06-26T12:01:56Z</updated>
+    <link href="https://arxiv.org/abs/2206.02574v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.02574v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent approaches in self-supervised learning of image representations can be categorized into different families of methods and, in particular, can be divided into contrastive and non-contrastive approaches. While differences between the two families have been thoroughly discussed to motivate new approaches, we focus more on the theoretical similarities between them. By designing contrastive and covariance based non-contrastive criteria that can be related algebraically and shown to be equivalent under limited assumptions, we show how close those families can be. We further study popular methods and introduce variations of them, allowing us to relate this theoretical result to current practices and show the influence (or lack thereof) of design choices on downstream performance. Motivated by our equivalence result, we investigate the low performance of SimCLR and show how it can match VICReg's with careful hyperparameter tuning, improving significantly over known baselines. We also challenge the popular assumption that non-contrastive methods need large output dimensions. Our theoretical and quantitative results suggest that the numerical gaps between contrastive and non-contrastive methods in certain regimes can be closed given better network design choices and hyperparameter tuning. The evidence shows that unifying different SOTA methods is an important direction to build a better understanding of self-supervised learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-03T08:04:12Z</published>
+    <arxiv:comment>The Eleventh International Conference on Learning Representations, 2023, Kigali, Rwanda</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Quentin Garrido</name>
+      <arxiv:affiliation>FAIR, LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yubei Chen</name>
+      <arxiv:affiliation>FAIR</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+      <arxiv:affiliation>FAIR, WILLOW</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Najman</name>
+      <arxiv:affiliation>LIGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yann Lecun</name>
+      <arxiv:affiliation>FAIR, CIMS</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.48550/arXiv.2206.02574</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.48550/arXiv.2206.02574" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.11508v3</id>
+    <title>Contrastive and Non-Contrastive Self-Supervised Learning Recover Global and Local Spectral Embedding Methods</title>
+    <updated>2022-06-10T17:26:36Z</updated>
+    <link href="https://arxiv.org/abs/2205.11508v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.11508v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-Supervised Learning (SSL) surmises that inputs and pairwise positive relationships are enough to learn meaningful representations. Although SSL has recently reached a milestone: outperforming supervised methods in many modalities\dots the theoretical foundations are limited, method-specific, and fail to provide principled design guidelines to practitioners. In this paper, we propose a unifying framework under the helm of spectral manifold learning to address those limitations. Through the course of this study, we will rigorously demonstrate that VICReg, SimCLR, BarlowTwins et al. correspond to eponymous spectral methods such as Laplacian Eigenmaps, Multidimensional Scaling et al.
+  This unification will then allow us to obtain (i) the closed-form optimal representation for each method, (ii) the closed-form optimal network parameters in the linear regime for each method, (iii) the impact of the pairwise relations used during training on each of those quantities and on downstream task performances, and most importantly, (iv) the first theoretical bridge between contrastive and non-contrastive methods towards global and local spectral embedding methods respectively, hinting at the benefits and limitations of each. For example, (i) if the pairwise relation is aligned with the downstream task, any SSL method can be employed successfully and will recover the supervised method, but in the low data regime, VICReg's invariance hyper-parameter should be high; (ii) if the pairwise relation is misaligned with the downstream task, VICReg with small invariance hyper-parameter should be preferred over SimCLR or BarlowTwins.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-23T17:59:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.10279v1</id>
+    <title>Pre-Train Your Loss: Easy Bayesian Transfer Learning with Informative Priors</title>
+    <updated>2022-05-20T16:19:30Z</updated>
+    <link href="https://arxiv.org/abs/2205.10279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.10279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning is increasingly moving towards a transfer learning paradigm whereby large foundation models are fine-tuned on downstream tasks, starting from an initialization learned on the source task. But an initialization contains relatively little information about the source task. Instead, we show that we can learn highly informative posteriors from the source task, through supervised or self-supervised approaches, which then serve as the basis for priors that modify the whole loss surface on the downstream task. This simple modular approach enables significant performance gains and more data-efficient learning on a variety of downstream classification and segmentation tasks, serving as a drop-in replacement for standard pre-training strategies. These highly informative priors also can be saved for future use, similar to pre-trained weights, and stand in contrast to the zero-mean isotropic uninformative priors that are typically used in Bayesian deep learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-20T16:19:30Z</published>
+    <arxiv:comment>Code available at https://github.com/hsouri/BayesianTransferLearning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ravid Shwartz-Ziv</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+    <author>
+      <name>Hossein Souri</name>
+    </author>
+    <author>
+      <name>Sanyam Kapoor</name>
+    </author>
+    <author>
+      <name>Chen Zhu</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Andrew Gordon Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.07184v1</id>
+    <title>Separating the World and Ego Models for Self-Driving</title>
+    <updated>2022-04-14T18:32:30Z</updated>
+    <link href="https://arxiv.org/abs/2204.07184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.07184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training self-driving systems to be robust to the long-tail of driving scenarios is a critical problem. Model-based approaches leverage simulation to emulate a wide range of scenarios without putting users at risk in the real world. One promising path to faithful simulation is to train a forward model of the world to predict the future states of both the environment and the ego-vehicle given past states and a sequence of actions. In this paper, we argue that it is beneficial to model the state of the ego-vehicle, which often has simple, predictable and deterministic behavior, separately from the rest of the environment, which is much more complex and highly multimodal. We propose to model the ego-vehicle using a simple and differentiable kinematic model, while training a stochastic convolutional forward model on raster representations of the state to predict the behavior of the rest of the environment. We explore several configurations of such decoupled models, and evaluate their performance both with Model Predictive Control (MPC) and direct policy learning. We test our methods on the task of highway driving and demonstrate lower crash rates and better stability. The code is available at https://github.com/vladisai/pytorch-PPUU/tree/ICLR2022.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-14T18:32:30Z</published>
+    <arxiv:comment>8 pages main content, 14 with references and appendix. 5 figures in total. Submitted and accepted to ICLR 2022 workshop on Generalizable Policy Learning in the Physical World (https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Vlad Sobal</name>
+    </author>
+    <author>
+      <name>Alfredo Canziani</name>
+    </author>
+    <author>
+      <name>Nicolas Carion</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.03632v2</id>
+    <title>The Effects of Regularization and Data Augmentation are Class Dependent</title>
+    <updated>2022-04-08T20:03:26Z</updated>
+    <link href="https://arxiv.org/abs/2204.03632v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.03632v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regularization is a fundamental technique to prevent over-fitting and to improve generalization performances by constraining a model's complexity. Current Deep Networks heavily rely on regularizers such as Data-Augmentation (DA) or weight-decay, and employ structural risk minimization, i.e. cross-validation, to select the optimal regularization hyper-parameters. In this study, we demonstrate that techniques such as DA or weight decay produce a model with a reduced complexity that is unfair across classes. The optimal amount of DA or weight decay found from cross-validation leads to disastrous model performances on some classes e.g. on Imagenet with a resnet50, the "barn spider" classification test accuracy falls from $68\%$ to $46\%$ only by introducing random crop DA during training. Even more surprising, such performance drop also appears when introducing uninformative regularization techniques such as weight decay. Those results demonstrate that our search for ever increasing generalization performance -- averaged over all classes and samples -- has left us with models and regularizers that silently sacrifice performances on some classes. This scenario can become dangerous when deploying a model on downstream tasks e.g. an Imagenet pre-trained resnet50 deployed on INaturalist sees its performances fall from $70\%$ to $30\%$ on class \#8889 when introducing random crop DA during the Imagenet pre-training phase. Those results demonstrate that designing novel regularizers without class-dependent bias remains an open research question.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-07T17:57:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Leon Bottou</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.05483v3</id>
+    <title>projUNN: efficient method for training deep networks with unitary matrices</title>
+    <updated>2022-10-13T20:33:54Z</updated>
+    <link href="https://arxiv.org/abs/2203.05483v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.05483v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In learning with recurrent or very deep feed-forward networks, employing unitary matrices in each layer can be very effective at maintaining long-range stability. However, restricting network parameters to be unitary typically comes at the cost of expensive parameterizations or increased training runtime. We propose instead an efficient method based on rank-$k$ updates -- or their rank-$k$ approximation -- that maintains performance at a nearly optimal training runtime. We introduce two variants of this method, named Direct (projUNN-D) and Tangent (projUNN-T) projected Unitary Neural Networks, that can parameterize full $N$-dimensional unitary or orthogonal matrices with a training runtime scaling as $O(kN^2)$. Our method either projects low-rank gradients onto the closest unitary matrix (projUNN-T) or transports unitary matrices in the direction of the low-rank gradient (projUNN-D). Even in the fastest setting ($k=1$), projUNN is able to train a model's unitary parameters to reach comparable performances against baseline implementations. In recurrent neural network settings, projUNN closely matches or exceeds benchmarked results from prior unitary neural networks. Finally, we preliminarily explore projUNN in training orthogonal convolutional neural networks, which are currently unable to outperform state of the art models but can potentially enhance stability and robustness at large depth.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-10T17:04:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bobak Kiani</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Seth Lloyd</name>
+    </author>
+  </entry>
+</feed>
