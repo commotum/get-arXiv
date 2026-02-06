@@ -1,0 +1,2366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t/N4rvByJq/cM+kWLYJBJmPhY7o</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T19:54:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08111v1</id>
+    <title>EarthView: A Large Scale Remote Sensing Dataset for Self-Supervision</title>
+    <updated>2025-01-14T13:42:22Z</updated>
+    <link href="https://arxiv.org/abs/2501.08111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents EarthView, a comprehensive dataset specifically designed for self-supervision on remote sensing data, intended to enhance deep learning applications on Earth monitoring tasks. The dataset spans 15 tera pixels of global remote-sensing data, combining imagery from a diverse range of sources, including NEON, Sentinel, and a novel release of 1m spatial resolution data from Satellogic. Our dataset provides a wide spectrum of image data with varying resolutions, harnessed from different sensors and organized coherently into an accessible HuggingFace dataset in parquet format. This data spans five years, from 2017 to 2022. Accompanying the dataset, we introduce EarthMAE, a tailored Masked Autoencoder, developed to tackle the distinct challenges of remote sensing data. Trained in a self-supervised fashion, EarthMAE effectively processes different data modalities such as hyperspectral, multispectral, topographical data, segmentation maps, and temporal structure. This model helps us show that pre-training on Satellogic data improves performance on downstream tasks. While there is still a gap to fill in MAE for heterogeneous data, we regard this innovative combination of an expansive, diverse dataset and a versatile model adapted for self-supervised learning as a stride forward in deep learning for Earth monitoring.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-14T13:42:22Z</published>
+    <arxiv:comment>2nd Workshop on Computer Vision for Earth Observation (CV4EO) Applications</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Diego Velazquez</name>
+    </author>
+    <author>
+      <name>Pau Rodriguez López</name>
+    </author>
+    <author>
+      <name>Sergio Alonso</name>
+    </author>
+    <author>
+      <name>Josep M. Gonfaus</name>
+    </author>
+    <author>
+      <name>Jordi Gonzalez</name>
+    </author>
+    <author>
+      <name>Gerardo Richarte</name>
+    </author>
+    <author>
+      <name>Javier Marin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07775v6</id>
+    <title>Efficient Diversity-Preserving Diffusion Alignment via Gradient-Informed GFlowNets</title>
+    <updated>2025-05-17T20:13:19Z</updated>
+    <link href="https://arxiv.org/abs/2412.07775v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07775v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While one commonly trains large diffusion models by collecting datasets on target downstream tasks, it is often desired to align and finetune pretrained diffusion models with some reward functions that are either designed by experts or learned from small-scale datasets. Existing post-training methods for reward finetuning of diffusion models typically suffer from lack of diversity in generated samples, lack of prior preservation, and/or slow convergence in finetuning. In response to this challenge, we take inspiration from recent successes in generative flow networks (GFlowNets) and propose a reinforcement learning method for diffusion model finetuning, dubbed Nabla-GFlowNet (abbreviated as $\nabla$-GFlowNet), that leverages the rich signal in reward gradients for probabilistic diffusion finetuning. We show that our proposed method achieves fast yet diversity- and prior-preserving finetuning of Stable Diffusion, a large-scale text-conditioned image diffusion model, on different realistic reward functions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T18:59:58Z</published>
+    <arxiv:comment>Technical Report (36 pages, 31 figures), Accepted at ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhen Liu</name>
+    </author>
+    <author>
+      <name>Tim Z. Xiao</name>
+    </author>
+    <author>
+      <name>Weiyang Liu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.04626v2</id>
+    <title>BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks</title>
+    <updated>2025-03-17T16:32:24Z</updated>
+    <link href="https://arxiv.org/abs/2412.04626v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.04626v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal AI has the potential to significantly enhance document-understanding tasks, such as processing receipts, understanding workflows, extracting data from documents, and summarizing reports. Code generation tasks that require long-structured outputs can also be enhanced by multimodality. Despite this, their use in commercial applications is often limited due to limited access to training data and restrictive licensing, which hinders open access. To address these limitations, we introduce BigDocs-7.5M, a high-quality, open-access dataset comprising 7.5 million multimodal documents across 30 tasks. We use an efficient data curation process to ensure our data is high-quality and license-permissive. Our process emphasizes accountability, responsibility, and transparency through filtering rules, traceable metadata, and careful content analysis. Additionally, we introduce BigDocs-Bench, a benchmark suite with 10 novel tasks where we create datasets that reflect real-world use cases involving reasoning over Graphical User Interfaces (GUI) and code generation from images. Our experiments show that training with BigDocs-Bench improves average performance up to 25.8% over closed-source GPT-4o in document reasoning and structured output tasks such as Screenshot2HTML or Image2Latex generation. Finally, human evaluations showed a preference for outputs from models trained on BigDocs over GPT-4o. This suggests that BigDocs can help both academics and the open-source community utilize and improve AI tools to enhance multimodal capabilities and document reasoning. The project is hosted at https://bigdocs.github.io .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-05T21:41:20Z</published>
+    <arxiv:comment>The project is hosted at https://bigdocs.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ICLR 2025 https://openreview.net/forum?id=UTgNFcpk0j</arxiv:journal_ref>
+    <author>
+      <name>Juan Rodriguez</name>
+    </author>
+    <author>
+      <name>Xiangru Jian</name>
+    </author>
+    <author>
+      <name>Siba Smarak Panigrahi</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Aarash Feizi</name>
+    </author>
+    <author>
+      <name>Abhay Puri</name>
+    </author>
+    <author>
+      <name>Akshay Kalkunte</name>
+    </author>
+    <author>
+      <name>François Savard</name>
+    </author>
+    <author>
+      <name>Ahmed Masry</name>
+    </author>
+    <author>
+      <name>Shravan Nayak</name>
+    </author>
+    <author>
+      <name>Rabiul Awal</name>
+    </author>
+    <author>
+      <name>Mahsa Massoud</name>
+    </author>
+    <author>
+      <name>Amirhossein Abaskohi</name>
+    </author>
+    <author>
+      <name>Zichao Li</name>
+    </author>
+    <author>
+      <name>Suyuchen Wang</name>
+    </author>
+    <author>
+      <name>Pierre-André Noël</name>
+    </author>
+    <author>
+      <name>Mats Leon Richter</name>
+    </author>
+    <author>
+      <name>Saverio Vadacchino</name>
+    </author>
+    <author>
+      <name>Shubham Agarwal</name>
+    </author>
+    <author>
+      <name>Sanket Biswas</name>
+    </author>
+    <author>
+      <name>Sara Shanian</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Noah Bolger</name>
+    </author>
+    <author>
+      <name>Kurt MacDonald</name>
+    </author>
+    <author>
+      <name>Simon Fauvel</name>
+    </author>
+    <author>
+      <name>Sathwik Tejaswi</name>
+    </author>
+    <author>
+      <name>Srinivas Sunkara</name>
+    </author>
+    <author>
+      <name>Joao Monteiro</name>
+    </author>
+    <author>
+      <name>Krishnamurthy DJ Dvijotham</name>
+    </author>
+    <author>
+      <name>Torsten Scholak</name>
+    </author>
+    <author>
+      <name>Nicolas Chapados</name>
+    </author>
+    <author>
+      <name>Sepideh Kharagani</name>
+    </author>
+    <author>
+      <name>Sean Hughes</name>
+    </author>
+    <author>
+      <name>M. Özsu</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+    <author>
+      <name>Marco Pedersoli</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+    <author>
+      <name>Issam Laradji</name>
+    </author>
+    <author>
+      <name>Spandana Gella</name>
+    </author>
+    <author>
+      <name>Perouz Taslakian</name>
+    </author>
+    <author>
+      <name>David Vazquez</name>
+    </author>
+    <author>
+      <name>Sai Rajeswar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05282v2</id>
+    <title>International Scientific Report on the Safety of Advanced AI (Interim Report)</title>
+    <updated>2025-04-09T11:34:12Z</updated>
+    <link href="https://arxiv.org/abs/2412.05282v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05282v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the interim publication of the first International Scientific Report on the Safety of Advanced AI. The report synthesises the scientific understanding of general-purpose AI -- AI that can perform a wide variety of tasks -- with a focus on understanding and managing its risks. A diverse group of 75 AI experts contributed to this report, including an international Expert Advisory Panel nominated by 30 countries, the EU, and the UN. Led by the Chair, these independent experts collectively had full discretion over the report's content.
+  The final report is available at arXiv:2501.17805</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-05T15:47:23Z</published>
+    <arxiv:comment>Available under the open government license at https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Tamay Besiroglu</name>
+    </author>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Danielle Goldfarb</name>
+    </author>
+    <author>
+      <name>Hoda Heidari</name>
+    </author>
+    <author>
+      <name>Leila Khalatbari</name>
+    </author>
+    <author>
+      <name>Shayne Longpre</name>
+    </author>
+    <author>
+      <name>Vasilios Mavroudis</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Kwan Yee Ng</name>
+    </author>
+    <author>
+      <name>Chinasa T. Okolo</name>
+    </author>
+    <author>
+      <name>Deborah Raji</name>
+    </author>
+    <author>
+      <name>Theodora Skeadas</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Bayo Adekanmbi</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>David Dalrymple</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Edward Felten</name>
+    </author>
+    <author>
+      <name>Pascale Fung</name>
+    </author>
+    <author>
+      <name>Pierre-Olivier Gourinchas</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Andreas Krause</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John A. McDermid</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Alice Oh</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Alvaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.02478v4</id>
+    <title>Imagining and building wise machines: The centrality of AI metacognition</title>
+    <updated>2026-01-07T14:09:58Z</updated>
+    <link href="https://arxiv.org/abs/2411.02478v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.02478v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although AI has become increasingly smart, its wisdom has not kept pace. In this article, we examine what is known about human wisdom and sketch a vision of its AI counterpart. We analyze human wisdom as a set of strategies for solving intractable problems-those outside the scope of analytic techniques-including both object-level strategies like heuristics [for managing problems] and metacognitive strategies like intellectual humility, perspective-taking, or context-adaptability [for managing object-level strategies]. We argue that AI systems particularly struggle with metacognition; improved metacognition would lead to AI more robust to novel environments, explainable to users, cooperative with others, and safer in risking fewer misaligned goals with human users. We discuss how wise AI might be benchmarked, trained, and implemented.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-04T18:10:10Z</published>
+    <arxiv:comment>23 pages, 2 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Samuel G. B. Johnson</name>
+    </author>
+    <author>
+      <name>Amir-Hossein Karimi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nick Chater</name>
+    </author>
+    <author>
+      <name>Tobias Gerstenberg</name>
+    </author>
+    <author>
+      <name>Kate Larson</name>
+    </author>
+    <author>
+      <name>Sydney Levine</name>
+    </author>
+    <author>
+      <name>Melanie Mitchell</name>
+    </author>
+    <author>
+      <name>Iyad Rahwan</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Igor Grossmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21154v2</id>
+    <title>Trajectory Flow Matching with Applications to Clinical Time Series Modeling</title>
+    <updated>2025-02-04T17:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2410.21154v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21154v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modeling stochastic and irregularly sampled time series is a challenging problem found in a wide range of applications, especially in medicine. Neural stochastic differential equations (Neural SDEs) are an attractive modeling technique for this problem, which parameterize the drift and diffusion terms of an SDE with neural networks. However, current algorithms for training Neural SDEs require backpropagation through the SDE dynamics, greatly limiting their scalability and stability. To address this, we propose Trajectory Flow Matching (TFM), which trains a Neural SDE in a simulation-free manner, bypassing backpropagation through the dynamics. TFM leverages the flow matching technique from generative modeling to model time series. In this work we first establish necessary conditions for TFM to learn time series data. Next, we present a reparameterization trick which improves training stability. Finally, we adapt TFM to the clinical time series setting, demonstrating improved performance on three clinical time series datasets both in terms of absolute performance and uncertainty prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T15:54:50Z</published>
+    <arxiv:comment>NeurIPS 2024 Spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xi Zhang</name>
+    </author>
+    <author>
+      <name>Yuan Pu</name>
+    </author>
+    <author>
+      <name>Yuki Kawamura</name>
+    </author>
+    <author>
+      <name>Andrew Loza</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Dennis L. Shung</name>
+    </author>
+    <author>
+      <name>Alexander Tong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.18403v2</id>
+    <title>Structure Language Models for Protein Conformation Generation</title>
+    <updated>2025-03-12T19:06:38Z</updated>
+    <link href="https://arxiv.org/abs/2410.18403v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.18403v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Proteins adopt multiple structural conformations to perform their diverse biological functions, and understanding these conformations is crucial for advancing drug discovery. Traditional physics-based simulation methods often struggle with sampling equilibrium conformations and are computationally expensive. Recently, deep generative models have shown promise in generating protein conformations as a more efficient alternative. However, these methods predominantly rely on the diffusion process within a 3D geometric space, which typically centers around the vicinity of metastable states and is often inefficient in terms of runtime. In this paper, we introduce Structure Language Modeling (SLM) as a novel framework for efficient protein conformation generation. Specifically, the protein structures are first encoded into a compact latent space using a discrete variational auto-encoder, followed by conditional language modeling that effectively captures sequence-specific conformation distributions. This enables a more efficient and interpretable exploration of diverse ensemble modes compared to existing methods. Based on this general framework, we instantiate SLM with various popular LM architectures as well as proposing the ESMDiff, a novel BERT-like structure language model fine-tuned from ESM3 with masked diffusion. We verify our approach in various scenarios, including the equilibrium dynamics of BPTI, conformational change pairs, and intrinsically disordered proteins. SLM provides a highly efficient solution, offering a 20-100x speedup than existing methods in generating diverse conformations, shedding light on promising avenues for future research.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T03:38:51Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2025, see https://openreview.net/forum?id=OzUNDnpQyd</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Jiarui Lu</name>
+    </author>
+    <author>
+      <name>Xiaoyin Chen</name>
+    </author>
+    <author>
+      <name>Stephen Zhewen Lu</name>
+    </author>
+    <author>
+      <name>Chence Shi</name>
+    </author>
+    <author>
+      <name>Hongyu Guo</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.15728v1</id>
+    <title>Object-Centric Temporal Consistency via Conditional Autoregressive Inductive Biases</title>
+    <updated>2024-10-21T07:44:44Z</updated>
+    <link href="https://arxiv.org/abs/2410.15728v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.15728v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised object-centric learning from videos is a promising approach towards learning compositional representations that can be applied to various downstream tasks, such as prediction and reasoning. Recently, it was shown that pretrained Vision Transformers (ViTs) can be useful to learn object-centric representations on real-world video datasets. However, while these approaches succeed at extracting objects from the scenes, the slot-based representations fail to maintain temporal consistency across consecutive frames in a video, i.e. the mapping of objects to slots changes across the video. To address this, we introduce Conditional Autoregressive Slot Attention (CA-SA), a framework that enhances the temporal consistency of extracted object-centric representations in video-centric vision tasks. Leveraging an autoregressive prior network to condition representations on previous timesteps and a novel consistency loss function, CA-SA predicts future slot representations and imposes consistency across frames. We present qualitative and quantitative results showing that our proposed method outperforms the considered baselines on downstream tasks, such as video prediction and visual question-answering tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-21T07:44:44Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Cristian Meo</name>
+    </author>
+    <author>
+      <name>Akihiro Nakano</name>
+    </author>
+    <author>
+      <name>Mircea Lică</name>
+    </author>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Masahiro Suzuki</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Mengmi Zhang</name>
+    </author>
+    <author>
+      <name>Justin Dauwels</name>
+    </author>
+    <author>
+      <name>Yutaka Matsuo</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.15184v1</id>
+    <title>Action abstractions for amortized sampling</title>
+    <updated>2024-10-19T19:22:50Z</updated>
+    <link href="https://arxiv.org/abs/2410.15184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.15184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As trajectories sampled by policies used by reinforcement learning (RL) and generative flow networks (GFlowNets) grow longer, credit assignment and exploration become more challenging, and the long planning horizon hinders mode discovery and generalization. The challenge is particularly pronounced in entropy-seeking RL methods, such as generative flow networks, where the agent must learn to sample from a structured distribution and discover multiple high-reward states, each of which take many steps to reach. To tackle this challenge, we propose an approach to incorporate the discovery of action abstractions, or high-level actions, into the policy optimization process. Our approach involves iteratively extracting action subsequences commonly used across many high-reward trajectories and `chunking' them into a single action that is added to the action space. In empirical evaluation on synthetic and real-world environments, our approach demonstrates improved sample efficiency performance in discovering diverse high-reward objects, especially on harder exploration problems. We also observe that the abstracted high-order actions are interpretable, capturing the latent structure of the reward landscape of the action space. This work provides a cognitively motivated approach to action abstraction in RL and is the first demonstration of hierarchical planning in amortized sequential sampling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-19T19:22:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oussama Boussif</name>
+    </author>
+    <author>
+      <name>Léna Néhale Ezzine</name>
+    </author>
+    <author>
+      <name>Joseph D Viviano</name>
+    </author>
+    <author>
+      <name>Michał Koziarski</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Rim Assouel</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.14817v5</id>
+    <title>A Complexity-Based Theory of Compositionality</title>
+    <updated>2025-06-02T21:11:54Z</updated>
+    <link href="https://arxiv.org/abs/2410.14817v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.14817v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Compositionality is believed to be fundamental to intelligence. In humans, it underlies the structure of thought, language, and higher-level reasoning. In AI, compositional representations can enable a powerful form of out-of-distribution generalization, in which a model systematically adapts to novel combinations of known concepts. However, while we have strong intuitions about what compositionality is, we lack satisfying formal definitions for it that are measurable and mathematical. Here, we propose such a definition, which we call representational compositionality, that accounts for and extends our intuitions about compositionality. The definition is conceptually simple, quantitative, grounded in algorithmic information theory, and applicable to any representation. Intuitively, representational compositionality states that a compositional representation satisfies three properties. First, it must be expressive. Second, it must be possible to re-describe the representation as a function of discrete symbolic sequences with re-combinable parts, analogous to sentences in natural language. Third, the function that relates these symbolic sequences to the representation, analogous to semantics in natural language, must be simple. Through experiments on both synthetic and real world data, we validate our definition of compositionality and show how it unifies disparate intuitions from across the literature in both AI and cognitive science. We also show that representational compositionality, while theoretically intractable, can be readily estimated using standard deep learning tools. We hope that our definition can inspire the design of novel, theoretically-driven models that better capture the mechanisms of compositional thought. We make our code available at https://github.com/EricElmoznino/complexity_compositionality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-18T18:37:27Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Eric Elmoznino</name>
+    </author>
+    <author>
+      <name>Thomas Jiralerspong</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Lajoie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08134v1</id>
+    <title>Steering Masked Discrete Diffusion Models via Discrete Denoising Posterior Prediction</title>
+    <updated>2024-10-10T17:18:30Z</updated>
+    <link href="https://arxiv.org/abs/2410.08134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative modeling of discrete data underlies important applications spanning text-based agents like ChatGPT to the design of the very building blocks of life in protein sequences. However, application domains need to exert control over the generated data by steering the generative process - typically via RLHF - to satisfy a specified property, reward, or affinity metric. In this paper, we study the problem of steering Masked Diffusion Models (MDMs), a recent class of discrete diffusion models that offer a compelling alternative to traditional autoregressive models. We introduce Discrete Denoising Posterior Prediction (DDPP), a novel framework that casts the task of steering pre-trained MDMs as a problem of probabilistic inference by learning to sample from a target Bayesian posterior. Our DDPP framework leads to a family of three novel objectives that are all simulation-free, and thus scalable while applying to general non-differentiable reward functions. Empirically, we instantiate DDPP by steering MDMs to perform class-conditional pixel-level image modeling, RLHF-based alignment of MDMs using text-based rewards, and finetuning protein language models to generate more diverse secondary structures and shorter proteins. We substantiate our designs via wet-lab validation, where we observe transient expression of reward-optimized protein sequences.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-10T17:18:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Mohsin Hasan</name>
+    </author>
+    <author>
+      <name>Zhangzhi Peng</name>
+    </author>
+    <author>
+      <name>Zachary Quinn</name>
+    </author>
+    <author>
+      <name>Chenghao Liu</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Nouha Dziri</name>
+    </author>
+    <author>
+      <name>Michael Bronstein</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Pranam Chatterjee</name>
+    </author>
+    <author>
+      <name>Alexander Tong</name>
+    </author>
+    <author>
+      <name>Avishek Joey Bose</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07096v9</id>
+    <title>Rejecting Hallucinated State Targets during Planning</title>
+    <updated>2025-08-10T15:33:50Z</updated>
+    <link href="https://arxiv.org/abs/2410.07096v9" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07096v9" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In planning processes of computational decision-making agents, generative or predictive models are often used as "generators" to propose "targets" representing sets of expected or desirable states. Unfortunately, learned models inevitably hallucinate infeasible targets that can cause delusional behaviors and safety concerns. We first investigate the kinds of infeasible targets that generators can hallucinate. Then, we devise a strategy to identify and reject infeasible targets by learning a target feasibility evaluator. To ensure that the evaluator is robust and non-delusional, we adopted a design choice combining off-policy compatible learning rule, distributional architecture, and data augmentation based on hindsight relabeling. Attaching to a planning agent, the designed evaluator learns by observing the agent's interactions with the environment and the targets produced by its generator, without the need to change the agent or its generator. Our controlled experiments show significant reductions in delusional behaviors and performance improvements for various kinds of existing agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T17:35:25Z</published>
+    <arxiv:comment>[20250810]: ICML 2025 Camera Ready, https://github.com/mila-iqia/delusions</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingde Zhao</name>
+    </author>
+    <author>
+      <name>Tristan Sylvain</name>
+    </author>
+    <author>
+      <name>Romain Laroche</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.06213v1</id>
+    <title>RL, but don't do anything I wouldn't do</title>
+    <updated>2024-10-08T17:18:17Z</updated>
+    <link href="https://arxiv.org/abs/2410.06213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.06213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In reinforcement learning, if the agent's reward differs from the designers' true utility, even only rarely, the state distribution resulting from the agent's policy can be very bad, in theory and in practice. When RL policies would devolve into undesired behavior, a common countermeasure is KL regularization to a trusted policy ("Don't do anything I wouldn't do"). All current cutting-edge language models are RL agents that are KL-regularized to a "base policy" that is purely predictive. Unfortunately, we demonstrate that when this base policy is a Bayesian predictive model of a trusted policy, the KL constraint is no longer reliable for controlling the behavior of an advanced RL agent. We demonstrate this theoretically using algorithmic information theory, and while systems today are too weak to exhibit this theorized failure precisely, we RL-finetune a language model and find evidence that our formal results are plausibly relevant in practice. We also propose a theoretical alternative that avoids this problem by replacing the "Don't do anything I wouldn't do" principle with "Don't do anything I mightn't do".</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-08T17:18:17Z</published>
+    <arxiv:comment>10 pages, 7 page appendix, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael K. Cohen</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01524v3</id>
+    <title>HarmAug: Effective Data Augmentation for Knowledge Distillation of Safety Guard Models</title>
+    <updated>2025-02-24T09:14:13Z</updated>
+    <link href="https://arxiv.org/abs/2410.01524v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01524v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety guard models that detect malicious queries aimed at large language models (LLMs) are essential for ensuring the secure and responsible deployment of LLMs in real-world applications. However, deploying existing safety guard models with billions of parameters alongside LLMs on mobile devices is impractical due to substantial memory requirements and latency. To reduce this cost, we distill a large teacher safety guard model into a smaller one using a labeled dataset of instruction-response pairs with binary harmfulness labels. Due to the limited diversity of harmful instructions in the existing labeled dataset, naively distilled models tend to underperform compared to larger models. To bridge the gap between small and large models, we propose HarmAug, a simple yet effective data augmentation method that involves jailbreaking an LLM and prompting it to generate harmful instructions. Given a prompt such as, "Make a single harmful instruction prompt that would elicit offensive content", we add an affirmative prefix (e.g., "I have an idea for a prompt:") to the LLM's response. This encourages the LLM to continue generating the rest of the response, leading to sampling harmful instructions. Another LLM generates a response to the harmful instruction, and the teacher model labels the instruction-response pair. We empirically show that our HarmAug outperforms other relevant baselines. Moreover, a 435-million-parameter safety guard model trained with HarmAug achieves an F1 score comparable to larger models with over 7 billion parameters, and even outperforms them in AUPRC, while operating at less than 25% of their computational cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T13:12:13Z</published>
+    <arxiv:comment>ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Seanie Lee</name>
+    </author>
+    <author>
+      <name>Haebin Seong</name>
+    </author>
+    <author>
+      <name>Dong Bok Lee</name>
+    </author>
+    <author>
+      <name>Minki Kang</name>
+    </author>
+    <author>
+      <name>Xiaoyin Chen</name>
+    </author>
+    <author>
+      <name>Dominik Wagner</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Juho Lee</name>
+    </author>
+    <author>
+      <name>Sung Ju Hwang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01444v5</id>
+    <title>Geometric Signatures of Compositionality Across a Language Model's Lifetime</title>
+    <updated>2025-06-17T05:34:44Z</updated>
+    <link href="https://arxiv.org/abs/2410.01444v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01444v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By virtue of linguistic compositionality, few syntactic rules and a finite lexicon can generate an unbounded number of sentences. That is, language, though seemingly high-dimensional, can be explained using relatively few degrees of freedom. An open question is whether contemporary language models (LMs) reflect the intrinsic simplicity of language that is enabled by compositionality. We take a geometric view of this problem by relating the degree of compositionality in a dataset to the intrinsic dimension (ID) of its representations under an LM, a measure of feature complexity. We find not only that the degree of dataset compositionality is reflected in representations' ID, but that the relationship between compositionality and geometric complexity arises due to learned linguistic features over training. Finally, our analyses reveal a striking contrast between nonlinear and linear dimensionality, showing they respectively encode semantic and superficial aspects of linguistic composition.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T11:54:06Z</published>
+    <arxiv:comment>Published at ACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jin Hwa Lee</name>
+    </author>
+    <author>
+      <name>Thomas Jiralerspong</name>
+    </author>
+    <author>
+      <name>Lei Yu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Emily Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01432v2</id>
+    <title>Adaptive teachers for amortized samplers</title>
+    <updated>2025-04-14T05:09:11Z</updated>
+    <link href="https://arxiv.org/abs/2410.01432v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01432v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Amortized inference is the task of training a parametric model, such as a neural network, to approximate a distribution with a given unnormalized density where exact sampling is intractable. When sampling is implemented as a sequential decision-making process, reinforcement learning (RL) methods, such as generative flow networks, can be used to train the sampling policy. Off-policy RL training facilitates the discovery of diverse, high-reward candidates, but existing methods still face challenges in efficient exploration. We propose to use an adaptive training distribution (the \teacher) to guide the training of the primary amortized sampler (the \student). The \teacher, an auxiliary behavior model, is trained to sample high-loss regions of the \student and can generalize across unexplored modes, thereby enhancing mode coverage by providing an efficient training curriculum. We validate the effectiveness of this approach in a synthetic environment designed to present an exploration challenge, two diffusion-based sampling tasks, and four biochemical discovery tasks demonstrating its ability to improve sample efficiency and mode coverage. Source code is available at https://github.com/alstn12088/adaptive-teacher.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T11:33:13Z</published>
+    <arxiv:comment>ICLR 2025, 27 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Sanghyeok Choi</name>
+    </author>
+    <author>
+      <name>Taeyoung Yun</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Leo Feng</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Sungsoo Ahn</name>
+    </author>
+    <author>
+      <name>Jinkyoo Park</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01201v3</id>
+    <title>Were RNNs All We Needed?</title>
+    <updated>2024-11-28T07:10:33Z</updated>
+    <link href="https://arxiv.org/abs/2410.01201v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01201v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The introduction of Transformers in 2017 reshaped the landscape of deep learning. Originally proposed for sequence modelling, Transformers have since achieved widespread success across various domains. However, the scalability limitations of Transformers - particularly with respect to sequence length - have sparked renewed interest in novel recurrent models that are parallelizable during training, offer comparable performance, and scale more effectively. In this work, we revisit sequence modelling from a historical perspective, focusing on Recurrent Neural Networks (RNNs), which dominated the field for two decades before the rise of Transformers. Specifically, we examine LSTMs (1997) and GRUs (2014). We demonstrate that by simplifying these models, we can derive minimal versions (minLSTMs and minGRUs) that (1) use fewer parameters than their traditional counterparts, (2) are fully parallelizable during training, and (3) achieve surprisingly competitive performance on a range of tasks, rivalling recent models including Transformers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T03:06:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Leo Feng</name>
+    </author>
+    <author>
+      <name>Frederick Tung</name>
+    </author>
+    <author>
+      <name>Mohamed Osama Ahmed</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Hossein Hajimirsadeghi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.00965v2</id>
+    <title>Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution</title>
+    <updated>2025-01-13T19:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2410.00965v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.00965v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Correlation does not imply causation, but patterns of statistical association between variables can be exploited to infer a causal structure (even with purely observational data) with the burgeoning field of causal discovery. As a purely observational science, astrophysics has much to gain by exploiting these new methods. The supermassive black hole (SMBH)--galaxy interaction has long been constrained by observed scaling relations, that is low-scatter correlations between variables such as SMBH mass and the central velocity dispersion of stars in a host galaxy's bulge. This study, using advanced causal discovery techniques and an up-to-date dataset, reveals a causal link between galaxy properties and dynamically-measured SMBH masses. We apply a score-based Bayesian framework to compute the exact conditional probabilities of every causal structure that could possibly describe our galaxy sample. With the exact posterior distribution, we determine the most likely causal structures and notice a probable causal reversal when separating galaxies by morphology. In elliptical galaxies, bulge properties (built from major mergers) tend to influence SMBH growth, while in spiral galaxies, SMBHs are seen to affect host galaxy properties, potentially through feedback in gas-rich environments. For spiral galaxies, SMBHs progressively quench star formation, whereas in elliptical galaxies, quenching is complete, and the causal connection has reversed. Our findings support theoretical models of hierarchical assembly of galaxies and active galactic nuclei feedback regulating galaxy evolution. Our study suggests the potentiality for further exploration of causal links in astrophysical and cosmological scaling relations, as well as any other observational science.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-01T18:00:03Z</published>
+    <arxiv:comment>35 pages, 21 figures, accepted by The Astrophysical Journal. Previously entitled "A Data-driven Discovery of the Causal Connection between Galaxy and Black Hole Evolution" in earlier versions</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>ApJ 979 212 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Zehao Jin</name>
+    </author>
+    <author>
+      <name>Mario Pasquato</name>
+    </author>
+    <author>
+      <name>Benjamin L. Davis</name>
+    </author>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Yu Luo</name>
+    </author>
+    <author>
+      <name>Changhyun Cho</name>
+    </author>
+    <author>
+      <name>Pablo Lemos</name>
+    </author>
+    <author>
+      <name>Laurence Perreault-Levasseur</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Xi Kang</name>
+    </author>
+    <author>
+      <name>Andrea Valerio Maccio</name>
+    </author>
+    <author>
+      <name>Yashar Hezaveh</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ad9ded</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ad9ded" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.14608v2</id>
+    <title>Meta Flow Matching: Integrating Vector Fields on the Wasserstein Manifold</title>
+    <updated>2025-03-03T23:31:16Z</updated>
+    <link href="https://arxiv.org/abs/2408.14608v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.14608v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerous biological and physical processes can be modeled as systems of interacting entities evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Learning the dynamics of such systems is essential for predicting the temporal evolution of populations across novel samples and unseen environments. Flow-based models allow for learning these dynamics at the population level - they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We argue that multiple processes in natural sciences have to be represented as vector fields on the Wasserstein manifold of probability densities. That is, the change of the population at any moment in time depends on the population itself due to the interactions between samples. In particular, this is crucial for personalized medicine where the development of diseases and their respective treatment response depend on the microenvironment of cells specific to each patient. We propose Meta Flow Matching (MFM), a practical approach to integrate along these vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. Namely, we embed the population of samples using a Graph Neural Network (GNN) and use these embeddings to train a Flow Matching model. This gives MFM the ability to generalize over the initial distributions, unlike previously proposed methods. We demonstrate the ability of MFM to improve the prediction of individual treatment responses on a large-scale multi-patient single-cell drug screen dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-26T20:05:31Z</published>
+    <arxiv:comment>Accepted to ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lazar Atanackovic</name>
+    </author>
+    <author>
+      <name>Xi Zhang</name>
+    </author>
+    <author>
+      <name>Brandon Amos</name>
+    </author>
+    <author>
+      <name>Mathieu Blanchette</name>
+    </author>
+    <author>
+      <name>Leo J. Lee</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Alexander Tong</name>
+    </author>
+    <author>
+      <name>Kirill Neklyudov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.09162v1</id>
+    <title>Zero-Shot Object-Centric Representation Learning</title>
+    <updated>2024-08-17T10:37:07Z</updated>
+    <link href="https://arxiv.org/abs/2408.09162v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.09162v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The goal of object-centric representation learning is to decompose visual scenes into a structured representation that isolates the entities. Recent successes have shown that object-centric representation learning can be scaled to real-world scenes by utilizing pre-trained self-supervised features. However, so far, object-centric methods have mostly been applied in-distribution, with models trained and evaluated on the same dataset. This is in contrast to the wider trend in machine learning towards general-purpose models directly applicable to unseen data and tasks. Thus, in this work, we study current object-centric methods through the lens of zero-shot generalization by introducing a benchmark comprising eight different synthetic and real-world datasets. We analyze the factors influencing zero-shot performance and find that training on diverse real-world images improves transferability to unseen scenarios. Furthermore, inspired by the success of task-specific fine-tuning in foundation models, we introduce a novel fine-tuning strategy to adapt pre-trained vision encoders for the task of object discovery. We find that the proposed approach results in state-of-the-art performance for unsupervised object discovery, exhibiting strong zero-shot transfer to unseen datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-17T10:37:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Andrii Zadaianchuk</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Mike Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Georg Martius</name>
+    </author>
+    <author>
+      <name>Maximilian Seitzer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.05284v3</id>
+    <title>Can a Bayesian Oracle Prevent Harm from an Agent?</title>
+    <updated>2025-06-16T02:38:43Z</updated>
+    <link href="https://arxiv.org/abs/2408.05284v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.05284v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Is there a way to design powerful AI systems based on machine learning methods that would satisfy probabilistic safety guarantees? With the long-term goal of obtaining a probabilistic guarantee that would apply in every context, we consider estimating a context-dependent bound on the probability of violating a given safety specification. Such a risk evaluation would need to be performed at run-time to provide a guardrail against dangerous actions of an AI. Noting that different plausible hypotheses about the world could produce very different outcomes, and because we do not know which one is right, we derive bounds on the safety violation probability predicted under the true but unknown hypothesis. Such bounds could be used to reject potentially dangerous actions. Our main results involve searching for cautious but plausible hypotheses, obtained by a maximization that involves Bayesian posteriors over hypotheses. We consider two forms of this result, in the i.i.d. case and in the non-i.i.d. case, and conclude with open problems towards turning such theoretical results into practical AI guardrails.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-09T18:10:42Z</published>
+    <arxiv:comment>Accepted at UAI 2025 (Uncertainty in Artificial Intelligence). 20 pages, 2 figures. Code available at: https://github.com/saifh-github/conservative-bayesian-public</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Michael K. Cohen</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Matt MacDermott</name>
+    </author>
+    <author>
+      <name>Damiano Fornasiere</name>
+    </author>
+    <author>
+      <name>Pietro Greiner</name>
+    </author>
+    <author>
+      <name>Younesse Kaddar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.05196v1</id>
+    <title>Cell Morphology-Guided Small Molecule Generation with GFlowNets</title>
+    <updated>2024-08-09T17:40:35Z</updated>
+    <link href="https://arxiv.org/abs/2408.05196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.05196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-content phenotypic screening, including high-content imaging (HCI), has gained popularity in the last few years for its ability to characterize novel therapeutics without prior knowledge of the protein target. When combined with deep learning techniques to predict and represent molecular-phenotype interactions, these advancements hold the potential to significantly accelerate and enhance drug discovery applications. This work focuses on the novel task of HCI-guided molecular design. Generative models for molecule design could be guided by HCI data, for example with a supervised model that links molecules to phenotypes of interest as a reward function. However, limited labeled data, combined with the high-dimensional readouts, can make training these methods challenging and impractical. We consider an alternative approach in which we leverage an unsupervised multimodal joint embedding to define a latent similarity as a reward for GFlowNets. The proposed model learns to generate new molecules that could produce phenotypic effects similar to those of the given image target, without relying on pre-annotated phenotypic labels. We demonstrate that the proposed method generates molecules with high morphological and structural similarity to the target, increasing the likelihood of similar biological activity, as confirmed by an independent oracle model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-09T17:40:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Stephen Zhewen Lu</name>
+    </author>
+    <author>
+      <name>Ziqing Lu</name>
+    </author>
+    <author>
+      <name>Ehsan Hajiramezanali</name>
+    </author>
+    <author>
+      <name>Tommaso Biancalani</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Gabriele Scalia</name>
+    </author>
+    <author>
+      <name>Michał Koziarski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.21009v4</id>
+    <title>AI-Assisted Generation of Difficult Math Questions</title>
+    <updated>2025-02-03T12:53:41Z</updated>
+    <link href="https://arxiv.org/abs/2407.21009v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.21009v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current LLM training positions mathematical reasoning as a core capability. With publicly available sources fully tapped, there is unmet demand for diverse and challenging math questions. Relying solely on human experts is both time-consuming and costly, while LLM-generated questions often lack the requisite diversity and difficulty. We present a design framework that combines the strengths of LLMs with a human-in-the-loop approach to generate a diverse array of challenging math questions. We leverage LLM metacognition skills [Didolkar et al., 2024] of a strong LLM to extract core "skills" from existing math datasets. These skills serve as the basis for generating novel and difficult questions by prompting the LLM with random pairs of core skills. The use of two different skills within each question makes finding such questions an "out of distribution" task for both LLMs and humans. Our pipeline employs LLMs to iteratively generate and refine questions and solutions through multiturn prompting. Human annotators then verify and further refine the questions, with their efficiency enhanced via further LLM interactions. Applying this pipeline on skills extracted from the MATH dataset [Hendrycks et al., 2021] resulted in MATH$^2$ - a dataset of higher-quality math questions, as evidenced by: (a) Lower performance of all models on MATH$^2$ than on MATH (b) Higher performance on MATH when using MATH$^2$ questions as in-context examples. Although focused on mathematics, our methodology seems applicable to other domains requiring structured reasoning, and potentially as a component of scalable oversight. Also of interest is a striking relationship observed between models' performance on the new dataset: the success rate on MATH$^2$ is the square on MATH, suggesting that successfully solving the question in MATH$^2$ requires a nontrivial combination of two distinct math skills.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-30T17:55:36Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Dingli Yu</name>
+    </author>
+    <author>
+      <name>Kaifeng Lyu</name>
+    </author>
+    <author>
+      <name>Simon Park</name>
+    </author>
+    <author>
+      <name>Jiatong Yu</name>
+    </author>
+    <author>
+      <name>Yinghui He</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.14981v2</id>
+    <title>Open Problems in Technical AI Governance</title>
+    <updated>2025-04-16T09:38:09Z</updated>
+    <link href="https://arxiv.org/abs/2407.14981v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.14981v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI progress is creating a growing range of risks and opportunities, but it is often unclear how they should be navigated. In many cases, the barriers and uncertainties faced are at least partly technical. Technical AI governance, referring to technical analysis and tools for supporting the effective governance of AI, seeks to address such challenges. It can help to (a) identify areas where intervention is needed, (b) identify and assess the efficacy of potential governance actions, and (c) enhance governance options by designing mechanisms for enforcement, incentivization, or compliance. In this paper, we explain what technical AI governance is, why it is important, and present a taxonomy and incomplete catalog of its open problems. This paper is intended as a resource for technical researchers or research funders looking to contribute to AI governance.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-20T21:13:56Z</published>
+    <arxiv:comment>Ben Bucknall and Anka Reuel contributed equally and share the first author position</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>Transactions on Machine Learning Research, 2025</arxiv:journal_ref>
+    <author>
+      <name>Anka Reuel</name>
+    </author>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Tim Fist</name>
+    </author>
+    <author>
+      <name>Lisa Soder</name>
+    </author>
+    <author>
+      <name>Onni Aarne</name>
+    </author>
+    <author>
+      <name>Lewis Hammond</name>
+    </author>
+    <author>
+      <name>Lujain Ibrahim</name>
+    </author>
+    <author>
+      <name>Alan Chan</name>
+    </author>
+    <author>
+      <name>Peter Wills</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Ben Garfinkel</name>
+    </author>
+    <author>
+      <name>Lennart Heim</name>
+    </author>
+    <author>
+      <name>Andrew Trask</name>
+    </author>
+    <author>
+      <name>Gabriel Mukobi</name>
+    </author>
+    <author>
+      <name>Rylan Schaeffer</name>
+    </author>
+    <author>
+      <name>Mauricio Baker</name>
+    </author>
+    <author>
+      <name>Sara Hooker</name>
+    </author>
+    <author>
+      <name>Irene Solaiman</name>
+    </author>
+    <author>
+      <name>Alexandra Sasha Luccioni</name>
+    </author>
+    <author>
+      <name>Nitarshan Rajkumar</name>
+    </author>
+    <author>
+      <name>Nicolas Moës</name>
+    </author>
+    <author>
+      <name>Jeffrey Ladish</name>
+    </author>
+    <author>
+      <name>David Bau</name>
+    </author>
+    <author>
+      <name>Paul Bricman</name>
+    </author>
+    <author>
+      <name>Neel Guha</name>
+    </author>
+    <author>
+      <name>Jessica Newman</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Tobin South</name>
+    </author>
+    <author>
+      <name>Alex Pentland</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+    <author>
+      <name>Mykel J. Kochenderfer</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.03105v1</id>
+    <title>On Generalization for Generative Flow Networks</title>
+    <updated>2024-07-03T13:42:21Z</updated>
+    <link href="https://arxiv.org/abs/2407.03105v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.03105v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Flow Networks (GFlowNets) have emerged as an innovative learning paradigm designed to address the challenge of sampling from an unnormalized probability distribution, called the reward function. This framework learns a policy on a constructed graph, which enables sampling from an approximation of the target probability distribution through successive steps of sampling from the learned policy. To achieve this, GFlowNets can be trained with various objectives, each of which can lead to the model s ultimate goal. The aspirational strength of GFlowNets lies in their potential to discern intricate patterns within the reward function and their capacity to generalize effectively to novel, unseen parts of the reward function. This paper attempts to formalize generalization in the context of GFlowNets, to link generalization with stability, and also to design experiments that assess the capacity of these models to uncover unseen parts of the reward function. The experiments will focus on length generalization meaning generalization to states that can be constructed only by longer trajectories than those seen in training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-03T13:42:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anas Krichel</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Salem Lahlou</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07529v5</id>
+    <title>MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation</title>
+    <updated>2025-04-25T06:15:26Z</updated>
+    <link href="https://arxiv.org/abs/2406.07529v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07529v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model merging has emerged as an effective approach to combine multiple single-task models into a multitask model. This process typically involves computing a weighted average of the model parameters without any additional training. Existing model-merging methods focus on enhancing average task accuracy. However, interference and conflicts between the objectives of different tasks can lead to trade-offs during the merging process. In real-world applications, a set of solutions with various trade-offs can be more informative, helping practitioners make decisions based on diverse preferences. In this paper, we introduce a novel and low-compute algorithm, Model Merging with Amortized Pareto Front (MAP). MAP efficiently identifies a Pareto set of scaling coefficients for merging multiple models, reflecting the trade-offs involved. It amortizes the substantial computational cost of evaluations needed to estimate the Pareto front by using quadratic approximation surrogate models derived from a pre-selected set of scaling coefficients. Experimental results on vision and natural language processing tasks demonstrate that MAP can accurately identify the Pareto front, providing practitioners with flexible solutions to balance competing task objectives. We also introduce Bayesian MAP for scenarios with a relatively low number of tasks and Nested MAP for situations with a high number of tasks, further reducing the computational cost of evaluation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T17:55:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lu Li</name>
+    </author>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhiqi Bu</name>
+    </author>
+    <author>
+      <name>Suyuchen Wang</name>
+    </author>
+    <author>
+      <name>Huan He</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Yonghui Wu</name>
+    </author>
+    <author>
+      <name>Jiang Bian</name>
+    </author>
+    <author>
+      <name>Yong Chen</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.06462v4</id>
+    <title>VCR: A Task for Pixel-Level Complex Reasoning in Vision Language Models via Restoring Occluded Text</title>
+    <updated>2025-04-18T16:42:48Z</updated>
+    <link href="https://arxiv.org/abs/2406.06462v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.06462v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Visual Caption Restoration (VCR), a novel vision-language task that challenges models to accurately restore partially obscured texts using pixel-level hints within images. This task stems from the observation that text embedded in images is intrinsically different from common visual elements and natural language due to the need to align the modalities of vision, text, and text embedded in images. While numerous works have integrated text embedded in images into visual question-answering tasks, approaches to these tasks generally rely on optical character recognition or masked language modeling, thus reducing the task to mainly text-based processing. However, text-based processing becomes ineffective in VCR as accurate text restoration depends on the combined information from provided images, context, and subtle cues from the tiny exposed areas of masked texts. We develop a pipeline to generate synthetic images for the VCR task using image-caption pairs, with adjustable caption visibility to control the task difficulty. With this pipeline, we construct a dataset for VCR called VCR-Wiki using images with captions from Wikipedia, comprising 2.11M English and 346K Chinese entities in both easy and hard split variants. Our results reveal that current vision language models significantly lag behind human performance in the VCR task, and merely fine-tuning the models on our dataset does not lead to notable improvements. We release VCR-Wiki and the data construction code to facilitate future research.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-10T16:58:48Z</published>
+    <arxiv:comment>Accepted at ICLR 2025. Original paper name: VCR: Visual Caption Restoration</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tianyu Zhang</name>
+    </author>
+    <author>
+      <name>Suyuchen Wang</name>
+    </author>
+    <author>
+      <name>Lu Li</name>
+    </author>
+    <author>
+      <name>Ge Zhang</name>
+    </author>
+    <author>
+      <name>Perouz Taslakian</name>
+    </author>
+    <author>
+      <name>Sai Rajeswar</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Bang Liu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.05426v1</id>
+    <title>Baking Symmetry into GFlowNets</title>
+    <updated>2024-06-08T10:11:10Z</updated>
+    <link href="https://arxiv.org/abs/2406.05426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.05426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GFlowNets have exhibited promising performance in generating diverse candidates with high rewards. These networks generate objects incrementally and aim to learn a policy that assigns probability of sampling objects in proportion to rewards. However, the current training pipelines of GFlowNets do not consider the presence of isomorphic actions, which are actions resulting in symmetric or isomorphic states. This lack of symmetry increases the amount of samples required for training GFlowNets and can result in inefficient and potentially incorrect flow functions. As a consequence, the reward and diversity of the generated objects decrease. In this study, our objective is to integrate symmetries into GFlowNets by identifying equivalent actions during the generation process. Experimental results using synthetic data demonstrate the promising performance of our proposed approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-08T10:11:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>George Ma</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08506v2</id>
+    <title>RGFN: Synthesizable Molecular Generation Using GFlowNets</title>
+    <updated>2024-11-06T21:25:19Z</updated>
+    <link href="https://arxiv.org/abs/2406.08506v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08506v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative models hold great promise for small molecule discovery, significantly increasing the size of search space compared to traditional in silico screening libraries. However, most existing machine learning methods for small molecule generation suffer from poor synthesizability of candidate compounds, making experimental validation difficult. In this paper we propose Reaction-GFlowNet (RGFN), an extension of the GFlowNet framework that operates directly in the space of chemical reactions, thereby allowing out-of-the-box synthesizability while maintaining comparable quality of generated candidates. We demonstrate that with the proposed set of reactions and building blocks, it is possible to obtain a search space of molecules orders of magnitude larger than existing screening libraries coupled with low cost of synthesis. We also show that the approach scales to very large fragment libraries, further increasing the number of potential molecules. We demonstrate the effectiveness of the proposed approach across a range of oracle models, including pretrained proxy models and GPU-accelerated docking.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-01T13:11:11Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Michał Koziarski</name>
+    </author>
+    <author>
+      <name>Andrei Rekesh</name>
+    </author>
+    <author>
+      <name>Dmytro Shevchuk</name>
+    </author>
+    <author>
+      <name>Almer van der Sloot</name>
+    </author>
+    <author>
+      <name>Piotr Gaiński</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Cheng-Hao Liu</name>
+    </author>
+    <author>
+      <name>Mike Tyers</name>
+    </author>
+    <author>
+      <name>Robert A. Batey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.20971v2</id>
+    <title>Amortizing intractable inference in diffusion models for vision, language, and control</title>
+    <updated>2025-01-13T10:14:27Z</updated>
+    <link href="https://arxiv.org/abs/2405.20971v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.20971v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion models have emerged as effective distribution estimators in vision, language, and reinforcement learning, but their use as priors in downstream tasks poses an intractable posterior inference problem. This paper studies amortized sampling of the posterior over data, $\mathbf{x}\sim p^{\rm post}(\mathbf{x})\propto p(\mathbf{x})r(\mathbf{x})$, in a model that consists of a diffusion generative model prior $p(\mathbf{x})$ and a black-box constraint or likelihood function $r(\mathbf{x})$. We state and prove the asymptotic correctness of a data-free learning objective, relative trajectory balance, for training a diffusion model that samples from this posterior, a problem that existing methods solve only approximately or in restricted cases. Relative trajectory balance arises from the generative flow network perspective on diffusion models, which allows the use of deep reinforcement learning techniques to improve mode coverage. Experiments illustrate the broad potential of unbiased inference of arbitrary posteriors under diffusion priors: in vision (classifier guidance), language (infilling under a discrete diffusion LLM), and multimodal data (text-to-image generation). Beyond generative modeling, we apply relative trajectory balance to the problem of continuous control with a score-based behavior prior, achieving state-of-the-art results on benchmarks in offline reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-31T16:18:46Z</published>
+    <arxiv:comment>NeurIPS 2024; code: https://github.com/GFNOrg/diffusion-finetuning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Siddarth Venkatraman</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Marcin Sendera</name>
+    </author>
+    <author>
+      <name>Mohsin Hasan</name>
+    </author>
+    <author>
+      <name>Luke Rowe</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Pablo Lemos</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Alexandre Adam</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Glen Berseth</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.18540v2</id>
+    <title>Learning diverse attacks on large language models for robust red-teaming and safety tuning</title>
+    <updated>2025-02-28T14:49:25Z</updated>
+    <link href="https://arxiv.org/abs/2405.18540v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.18540v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Red-teaming, or identifying prompts that elicit harmful responses, is a critical step in ensuring the safe and responsible deployment of large language models (LLMs). Developing effective protection against many modes of attack prompts requires discovering diverse attacks. Automated red-teaming typically uses reinforcement learning to fine-tune an attacker language model to generate prompts that elicit undesirable responses from a target LLM, as measured, for example, by an auxiliary toxicity classifier. We show that even with explicit regularization to favor novelty and diversity, existing approaches suffer from mode collapse or fail to generate effective attacks. As a flexible and probabilistically principled alternative, we propose to use GFlowNet fine-tuning, followed by a secondary smoothing phase, to train the attacker model to generate diverse and effective attack prompts. We find that the attacks generated by our method are effective against a wide range of target LLMs, both with and without safety tuning, and transfer well between target LLMs. Finally, we demonstrate that models safety-tuned using a dataset of red-teaming prompts generated by our method are robust to attacks from other RL-based red-teaming approaches.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-28T19:16:17Z</published>
+    <arxiv:comment>ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Seanie Lee</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Lynn Cherif</name>
+    </author>
+    <author>
+      <name>David Dobre</name>
+    </author>
+    <author>
+      <name>Juho Lee</name>
+    </author>
+    <author>
+      <name>Sung Ju Hwang</name>
+    </author>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Gauthier Gidel</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.13956v2</id>
+    <title>Attention as an RNN</title>
+    <updated>2024-05-28T04:44:06Z</updated>
+    <link href="https://arxiv.org/abs/2405.13956v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.13956v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advent of Transformers marked a significant breakthrough in sequence modelling, providing a highly performant architecture capable of leveraging GPU parallelism. However, Transformers are computationally expensive at inference time, limiting their applications, particularly in low-resource settings (e.g., mobile and embedded devices). Addressing this, we (1) begin by showing that attention can be viewed as a special Recurrent Neural Network (RNN) with the ability to compute its \textit{many-to-one} RNN output efficiently. We then (2) show that popular attention-based models such as Transformers can be viewed as RNN variants. However, unlike traditional RNNs (e.g., LSTMs), these models cannot be updated efficiently with new tokens, an important property in sequence modelling. Tackling this, we (3) introduce a new efficient method of computing attention's \textit{many-to-many} RNN output based on the parallel prefix scan algorithm. Building on the new attention formulation, we (4) introduce \textbf{Aaren}, an attention-based module that can not only (i) be trained in parallel (like Transformers) but also (ii) be updated efficiently with new tokens, requiring only constant memory for inferences (like traditional RNNs). Empirically, we show Aarens achieve comparable performance to Transformers on $38$ datasets spread across four popular sequential problem settings: reinforcement learning, event forecasting, time series classification, and time series forecasting tasks while being more time and memory-efficient.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-22T19:45:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Leo Feng</name>
+    </author>
+    <author>
+      <name>Frederick Tung</name>
+    </author>
+    <author>
+      <name>Hossein Hajimirsadeghi</name>
+    </author>
+    <author>
+      <name>Mohamed Osama Ahmed</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Greg Mori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.12205v1</id>
+    <title>Metacognitive Capabilities of LLMs: An Exploration in Mathematical Problem Solving</title>
+    <updated>2024-05-20T17:45:26Z</updated>
+    <link href="https://arxiv.org/abs/2405.12205v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.12205v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Metacognitive knowledge refers to humans' intuitive knowledge of their own thinking and reasoning processes. Today's best LLMs clearly possess some reasoning processes. The paper gives evidence that they also have metacognitive knowledge, including ability to name skills and procedures to apply given a task. We explore this primarily in context of math reasoning, developing a prompt-guided interaction procedure to get a powerful LLM to assign sensible skill labels to math questions, followed by having it perform semantic clustering to obtain coarser families of skill labels. These coarse skill labels look interpretable to humans.
+  To validate that these skill labels are meaningful and relevant to the LLM's reasoning processes we perform the following experiments. (a) We ask GPT-4 to assign skill labels to training questions in math datasets GSM8K and MATH. (b) When using an LLM to solve the test questions, we present it with the full list of skill labels and ask it to identify the skill needed. Then it is presented with randomly selected exemplar solved questions associated with that skill label. This improves accuracy on GSM8k and MATH for several strong LLMs, including code-assisted models. The methodology presented is domain-agnostic, even though this article applies it to math problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-20T17:45:26Z</published>
+    <arxiv:comment>Preprint. Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Siyuan Guo</name>
+    </author>
+    <author>
+      <name>Michal Valko</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+    <author>
+      <name>Danilo Rezende</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.13012v2</id>
+    <title>Divergent Creativity in Humans and Large Language Models</title>
+    <updated>2025-07-01T19:34:19Z</updated>
+    <link href="https://arxiv.org/abs/2405.13012v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.13012v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent surge of Large Language Models (LLMs) has led to claims that they are approaching a level of creativity akin to human capabilities. This idea has sparked a blend of excitement and apprehension. However, a critical piece that has been missing in this discourse is a systematic evaluation of LLMs' semantic diversity, particularly in comparison to human divergent thinking. To bridge this gap, we leverage recent advances in computational creativity to analyze semantic divergence in both state-of-the-art LLMs and a substantial dataset of 100,000 humans. We found evidence that LLMs can surpass average human performance on the Divergent Association Task, and approach human creative writing abilities, though they fall short of the typical performance of highly creative humans. Notably, even the top performing LLMs are still largely surpassed by highly creative individuals, underscoring a ceiling that current LLMs still fail to surpass. Our human-machine benchmarking framework addresses the polemic surrounding the imminent replacement of human creative labour by AI, disentangling the quality of the respective creative linguistic outputs using established objective measures. While prompting deeper exploration of the distinctive elements of human inventive thought compared to those of AI systems, we lay out a series of techniques to improve their outputs with respect to semantic diversity, such as prompt design and hyper-parameter tuning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-13T22:37:52Z</published>
+    <arxiv:comment>First two and last listed authors are corresponding authors. The first two listed authors contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Antoine Bellemare-Pepin</name>
+      <arxiv:affiliation>CoCo Lab, Psychology department, Université de Montréal, Montreal, QC, Canada</arxiv:affiliation>
+      <arxiv:affiliation>Music department, Concordia University, Montreal, QC, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>François Lespinasse</name>
+      <arxiv:affiliation>Sociology and Anthropology department, Concordia University, Montreal, QC, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Philipp Thölke</name>
+      <arxiv:affiliation>CoCo Lab, Psychology department, Université de Montréal, Montreal, QC, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yann Harel</name>
+      <arxiv:affiliation>CoCo Lab, Psychology department, Université de Montréal, Montreal, QC, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kory Mathewson</name>
+      <arxiv:affiliation>Mila</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jay A. Olson</name>
+      <arxiv:affiliation>Department of Psychology, University of Toronto Mississauga, Mississauga, ON, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+      <arxiv:affiliation>Mila</arxiv:affiliation>
+      <arxiv:affiliation>Department of Computer Science and Operations Research, Université de Montréal, Montreal, QC, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karim Jerbi</name>
+      <arxiv:affiliation>CoCo Lab, Psychology department, Université de Montréal, Montreal, QC, Canada</arxiv:affiliation>
+      <arxiv:affiliation>Mila</arxiv:affiliation>
+      <arxiv:affiliation>UNIQUE Center</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.06624v3</id>
+    <title>Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems</title>
+    <updated>2024-07-08T13:35:00Z</updated>
+    <link href="https://arxiv.org/abs/2405.06624v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.06624v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensuring that AI systems reliably and robustly avoid harmful or dangerous behaviours is a crucial challenge, especially for AI systems with a high degree of autonomy and general intelligence, or systems used in safety-critical contexts. In this paper, we will introduce and define a family of approaches to AI safety, which we will refer to as guaranteed safe (GS) AI. The core feature of these approaches is that they aim to produce AI systems which are equipped with high-assurance quantitative safety guarantees. This is achieved by the interplay of three core components: a world model (which provides a mathematical description of how the AI system affects the outside world), a safety specification (which is a mathematical description of what effects are acceptable), and a verifier (which provides an auditable proof certificate that the AI satisfies the safety specification relative to the world model). We outline a number of approaches for creating each of these three core components, describe the main technical challenges, and suggest a number of potential solutions to them. We also argue for the necessity of this approach to AI safety, and for the inadequacy of the main alternative approaches.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-10T17:38:32Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>David "davidad" Dalrymple</name>
+    </author>
+    <author>
+      <name>Joar Skalse</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Max Tegmark</name>
+    </author>
+    <author>
+      <name>Sanjit Seshia</name>
+    </author>
+    <author>
+      <name>Steve Omohundro</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Ben Goldhaber</name>
+    </author>
+    <author>
+      <name>Nora Ammann</name>
+    </author>
+    <author>
+      <name>Alessandro Abate</name>
+    </author>
+    <author>
+      <name>Joe Halpern</name>
+    </author>
+    <author>
+      <name>Clark Barrett</name>
+    </author>
+    <author>
+      <name>Ding Zhao</name>
+    </author>
+    <author>
+      <name>Tan Zhi-Xuan</name>
+    </author>
+    <author>
+      <name>Jeannette Wing</name>
+    </author>
+    <author>
+      <name>Joshua Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01616v1</id>
+    <title>Generative Active Learning for the Search of Small-molecule Protein Binders</title>
+    <updated>2024-05-02T16:39:21Z</updated>
+    <link href="https://arxiv.org/abs/2405.01616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite substantial progress in machine learning for scientific discovery in recent years, truly de novo design of small molecules which exhibit a property of interest remains a significant challenge. We introduce LambdaZero, a generative active learning approach to search for synthesizable molecules. Powered by deep reinforcement learning, LambdaZero learns to search over the vast space of molecules to discover candidates with a desired property. We apply LambdaZero with molecular docking to design novel small molecules that inhibit the enzyme soluble Epoxide Hydrolase 2 (sEH), while enforcing constraints on synthesizability and drug-likeliness. LambdaZero provides an exponential speedup in terms of the number of calls to the expensive molecular docking oracle, and LambdaZero de novo designed molecules reach docking scores that would otherwise require the virtual screening of a hundred billion molecules. Importantly, LambdaZero discovers novel scaffolds of synthesizable, drug-like inhibitors for sEH. In in vitro experimental validation, a series of ligands from a generated quinazoline-based scaffold were synthesized, and the lead inhibitor N-(4,6-di(pyrrolidin-1-yl)quinazolin-2-yl)-N-methylbenzamide (UM0152893) displayed sub-micromolar enzyme inhibition of sEH.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T16:39:21Z</published>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Maksym Korablyov</name>
+    </author>
+    <author>
+      <name>Cheng-Hao Liu</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Almer M. van der Sloot</name>
+    </author>
+    <author>
+      <name>Eric Jolicoeur</name>
+    </author>
+    <author>
+      <name>Edward Ruediger</name>
+    </author>
+    <author>
+      <name>Andrei Cristian Nica</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>Kostiantyn Lapchevskyi</name>
+    </author>
+    <author>
+      <name>Daniel St-Cyr</name>
+    </author>
+    <author>
+      <name>Doris Alexandra Schuetz</name>
+    </author>
+    <author>
+      <name>Victor Ion Butoi</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Simon Blackburn</name>
+    </author>
+    <author>
+      <name>Leo Feng</name>
+    </author>
+    <author>
+      <name>Hadi Nekoei</name>
+    </author>
+    <author>
+      <name>SaiKrishna Gottipati</name>
+    </author>
+    <author>
+      <name>Priyesh Vijayan</name>
+    </author>
+    <author>
+      <name>Prateek Gupta</name>
+    </author>
+    <author>
+      <name>Ladislav Rampášek</name>
+    </author>
+    <author>
+      <name>Sasikanth Avancha</name>
+    </author>
+    <author>
+      <name>Pierre-Luc Bacon</name>
+    </author>
+    <author>
+      <name>William L. Hamilton</name>
+    </author>
+    <author>
+      <name>Brooks Paige</name>
+    </author>
+    <author>
+      <name>Sanchit Misra</name>
+    </author>
+    <author>
+      <name>Stanislaw Kamil Jastrzebski</name>
+    </author>
+    <author>
+      <name>Bharat Kaul</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>José Miguel Hernández-Lobato</name>
+    </author>
+    <author>
+      <name>Marwin Segler</name>
+    </author>
+    <author>
+      <name>Michael Bronstein</name>
+    </author>
+    <author>
+      <name>Anne Marinier</name>
+    </author>
+    <author>
+      <name>Mike Tyers</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.10094v1</id>
+    <title>Towards DNA-Encoded Library Generation with GFlowNets</title>
+    <updated>2024-04-15T19:01:20Z</updated>
+    <link href="https://arxiv.org/abs/2404.10094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.10094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>DNA-encoded libraries (DELs) are a powerful approach for rapidly screening large numbers of diverse compounds. One of the key challenges in using DELs is library design, which involves choosing the building blocks that will be combinatorially combined to produce the final library. In this paper we consider the task of protein-protein interaction (PPI) biased DEL design. To this end, we evaluate several machine learning algorithms on the PPI modulation task and use them as a reward for the proposed GFlowNet-based generative approach. We additionally investigate the possibility of using structural information about building blocks to design a hierarchical action space for the GFlowNet. The observed results indicate that GFlowNets are a promising approach for generating diverse combinatorial library candidates.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-15T19:01:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michał Koziarski</name>
+    </author>
+    <author>
+      <name>Mohammed Abukalam</name>
+    </author>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Louis Vaillancourt</name>
+    </author>
+    <author>
+      <name>Doris Alexandra Schuetz</name>
+    </author>
+    <author>
+      <name>Moksh Jain</name>
+    </author>
+    <author>
+      <name>Almer van der Sloot</name>
+    </author>
+    <author>
+      <name>Mathieu Bourgey</name>
+    </author>
+    <author>
+      <name>Anne Marinier</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.09932v2</id>
+    <title>Foundational Challenges in Assuring Alignment and Safety of Large Language Models</title>
+    <updated>2024-09-06T00:46:40Z</updated>
+    <link href="https://arxiv.org/abs/2404.09932v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.09932v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose $200+$ concrete research questions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-15T16:58:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Usman Anwar</name>
+    </author>
+    <author>
+      <name>Abulhair Saparov</name>
+    </author>
+    <author>
+      <name>Javier Rando</name>
+    </author>
+    <author>
+      <name>Daniel Paleka</name>
+    </author>
+    <author>
+      <name>Miles Turpin</name>
+    </author>
+    <author>
+      <name>Peter Hase</name>
+    </author>
+    <author>
+      <name>Ekdeep Singh Lubana</name>
+    </author>
+    <author>
+      <name>Erik Jenner</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Oliver Sourbut</name>
+    </author>
+    <author>
+      <name>Benjamin L. Edelman</name>
+    </author>
+    <author>
+      <name>Zhaowei Zhang</name>
+    </author>
+    <author>
+      <name>Mario Günther</name>
+    </author>
+    <author>
+      <name>Anton Korinek</name>
+    </author>
+    <author>
+      <name>Jose Hernandez-Orallo</name>
+    </author>
+    <author>
+      <name>Lewis Hammond</name>
+    </author>
+    <author>
+      <name>Eric Bigelow</name>
+    </author>
+    <author>
+      <name>Alexander Pan</name>
+    </author>
+    <author>
+      <name>Lauro Langosco</name>
+    </author>
+    <author>
+      <name>Tomasz Korbak</name>
+    </author>
+    <author>
+      <name>Heidi Zhang</name>
+    </author>
+    <author>
+      <name>Ruiqi Zhong</name>
+    </author>
+    <author>
+      <name>Seán Ó hÉigeartaigh</name>
+    </author>
+    <author>
+      <name>Gabriel Recchia</name>
+    </author>
+    <author>
+      <name>Giulio Corsi</name>
+    </author>
+    <author>
+      <name>Alan Chan</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Lilian Edwards</name>
+    </author>
+    <author>
+      <name>Aleksandar Petrov</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+    <author>
+      <name>Sumeet Ramesh Motwan</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Danqi Chen</name>
+    </author>
+    <author>
+      <name>Philip H. S. Torr</name>
+    </author>
+    <author>
+      <name>Samuel Albanie</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Jakob Foerster</name>
+    </author>
+    <author>
+      <name>Florian Tramer</name>
+    </author>
+    <author>
+      <name>He He</name>
+    </author>
+    <author>
+      <name>Atoosa Kasirzadeh</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.14443v1</id>
+    <title>Language Models Can Reduce Asymmetry in Information Markets</title>
+    <updated>2024-03-21T14:48:37Z</updated>
+    <link href="https://arxiv.org/abs/2403.14443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.14443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work addresses the buyer's inspection paradox for information markets. The paradox is that buyers need to access information to determine its value, while sellers need to limit access to prevent theft. To study this, we introduce an open-source simulated digital marketplace where intelligent agents, powered by language models, buy and sell information on behalf of external participants. The central mechanism enabling this marketplace is the agents' dual capabilities: they not only have the capacity to assess the quality of privileged information but also come equipped with the ability to forget. This ability to induce amnesia allows vendors to grant temporary access to proprietary information, significantly reducing the risk of unauthorized retention while enabling agents to accurately gauge the information's relevance to specific queries or tasks. To perform well, agents must make rational decisions, strategically explore the marketplace through generated sub-queries, and synthesize answers from purchased information. Concretely, our experiments (a) uncover biases in language models leading to irrational behavior and evaluate techniques to mitigate these biases, (b) investigate how price affects demand in the context of informational goods, and (c) show that inspection and higher budgets both lead to higher quality outcomes.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-21T14:48:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nasim Rahaman</name>
+    </author>
+    <author>
+      <name>Martin Weiss</name>
+    </author>
+    <author>
+      <name>Manuel Wüthrich</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Li Erran Li</name>
+    </author>
+    <author>
+      <name>Chris Pal</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.07041v4</id>
+    <title>Ant Colony Sampling with GFlowNets for Combinatorial Optimization</title>
+    <updated>2025-02-28T05:33:02Z</updated>
+    <link href="https://arxiv.org/abs/2403.07041v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.07041v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the Generative Flow Ant Colony Sampler (GFACS), a novel meta-heuristic method that hierarchically combines amortized inference and parallel stochastic search. Our method first leverages Generative Flow Networks (GFlowNets) to amortize a \emph{multi-modal} prior distribution over combinatorial solution space that encompasses both high-reward and diversified solutions. This prior is iteratively updated via parallel stochastic search in the spirit of Ant Colony Optimization (ACO), leading to the posterior distribution that generates near-optimal solutions. Extensive experiments across seven combinatorial optimization problems demonstrate GFACS's promising performances.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-11T16:26:06Z</published>
+    <arxiv:comment>AISTATS 2025, 21 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Sanghyeok Choi</name>
+    </author>
+    <author>
+      <name>Hyeonah Kim</name>
+    </author>
+    <author>
+      <name>Jiwoo Son</name>
+    </author>
+    <author>
+      <name>Jinkyoo Park</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04571v1</id>
+    <title>Machine learning and information theory concepts towards an AI Mathematician</title>
+    <updated>2024-03-07T15:12:06Z</updated>
+    <link href="https://arxiv.org/abs/2403.04571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The current state-of-the-art in artificial intelligence is impressive, especially in terms of mastery of language, but not so much in terms of mathematical reasoning. What could be missing? Can we learn something useful about that gap from how the brains of mathematicians go about their craft? This essay builds on the idea that current deep learning mostly succeeds at system 1 abilities -- which correspond to our intuition and habitual behaviors -- but still lacks something important regarding system 2 abilities -- which include reasoning and robust uncertainty estimation. It takes an information-theoretical posture to ask questions about what constitutes an interesting mathematical statement, which could guide future work in crafting an AI mathematician. The focus is not on proving a given theorem but on discovering new and interesting conjectures. The central hypothesis is that a desirable body of theorems better summarizes the set of all provable statements, for example by having a small description length while at the same time being close (in terms of number of derivation steps) to many provable statements.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-07T15:12:06Z</published>
+    <arxiv:comment>To appear in the Bulletin of the AMS, 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.10309v2</id>
+    <title>Discrete Probabilistic Inference as Control in Multi-path Environments</title>
+    <updated>2024-05-27T20:58:38Z</updated>
+    <link href="https://arxiv.org/abs/2402.10309v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.10309v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of sampling from a discrete and structured distribution as a sequential decision problem, where the objective is to find a stochastic policy such that objects are sampled at the end of this sequential process proportionally to some predefined reward. While we could use maximum entropy Reinforcement Learning (MaxEnt RL) to solve this problem for some distributions, it has been shown that in general, the distribution over states induced by the optimal policy may be biased in cases where there are multiple ways to generate the same object. To address this issue, Generative Flow Networks (GFlowNets) learn a stochastic policy that samples objects proportionally to their reward by approximately enforcing a conservation of flows across the whole Markov Decision Process (MDP). In this paper, we extend recent methods correcting the reward in order to guarantee that the marginal distribution induced by the optimal MaxEnt RL policy is proportional to the original reward, regardless of the structure of the underlying MDP. We also prove that some flow-matching objectives found in the GFlowNet literature are in fact equivalent to well-established MaxEnt RL algorithms with a corrected reward. Finally, we study empirically the performance of multiple MaxEnt RL and GFlowNet algorithms on multiple problems involving sampling from discrete distributions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-15T20:20:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tristan Deleu</name>
+    </author>
+    <author>
+      <name>Padideh Nouri</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.08797v1</id>
+    <title>Computing Power and the Governance of Artificial Intelligence</title>
+    <updated>2024-02-13T21:10:21Z</updated>
+    <link href="https://arxiv.org/abs/2402.08797v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.08797v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computing power, or "compute," is crucial for the development and deployment of artificial intelligence (AI) capabilities. As a result, governments and companies have started to leverage compute as a means to govern AI. For example, governments are investing in domestic compute capacity, controlling the flow of compute to competing countries, and subsidizing compute access to certain sectors. However, these efforts only scratch the surface of how compute can be used to govern AI development and deployment. Relative to other key inputs to AI (data and algorithms), AI-relevant compute is a particularly effective point of intervention: it is detectable, excludable, and quantifiable, and is produced via an extremely concentrated supply chain. These characteristics, alongside the singular importance of compute for cutting-edge AI models, suggest that governing compute can contribute to achieving common policy objectives, such as ensuring the safety and beneficial use of AI. More precisely, policymakers could use compute to facilitate regulatory visibility of AI, allocate resources to promote beneficial outcomes, and enforce restrictions against irresponsible or malicious AI development and usage. However, while compute-based policies and technologies have the potential to assist in these areas, there is significant variation in their readiness for implementation. Some ideas are currently being piloted, while others are hindered by the need for fundamental research. Furthermore, naive or poorly scoped approaches to compute governance carry significant risks in areas like privacy, economic impacts, and centralization of power. We end by suggesting guardrails to minimize these risks from compute governance.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-13T21:10:21Z</published>
+    <arxiv:comment>Figures can be accessed at: https://github.com/lheim/CPGAI-Figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Lennart Heim</name>
+    </author>
+    <author>
+      <name>Haydn Belfield</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+    <author>
+      <name>Julian Hazell</name>
+    </author>
+    <author>
+      <name>Cullen O'Keefe</name>
+    </author>
+    <author>
+      <name>Gillian K. Hadfield</name>
+    </author>
+    <author>
+      <name>Richard Ngo</name>
+    </author>
+    <author>
+      <name>Konstantin Pilz</name>
+    </author>
+    <author>
+      <name>George Gor</name>
+    </author>
+    <author>
+      <name>Emma Bluemke</name>
+    </author>
+    <author>
+      <name>Sarah Shoker</name>
+    </author>
+    <author>
+      <name>Janet Egan</name>
+    </author>
+    <author>
+      <name>Robert F. Trager</name>
+    </author>
+    <author>
+      <name>Shahar Avin</name>
+    </author>
+    <author>
+      <name>Adrian Weller</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Diane Coyle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.06121v2</id>
+    <title>Iterated Denoising Energy Matching for Sampling from Boltzmann Densities</title>
+    <updated>2024-06-26T04:14:13Z</updated>
+    <link href="https://arxiv.org/abs/2402.06121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.06121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficiently generating statistically independent samples from an unnormalized probability distribution, such as equilibrium samples of many-body systems, is a foundational problem in science. In this paper, we propose Iterated Denoising Energy Matching (iDEM), an iterative algorithm that uses a novel stochastic score matching objective leveraging solely the energy function and its gradient -- and no data samples -- to train a diffusion-based sampler. Specifically, iDEM alternates between (I) sampling regions of high model density from a diffusion-based sampler and (II) using these samples in our stochastic matching objective to further improve the sampler. iDEM is scalable to high dimensions as the inner matching objective, is simulation-free, and requires no MCMC samples. Moreover, by leveraging the fast mode mixing behavior of diffusion, iDEM smooths out the energy landscape enabling efficient exploration and learning of an amortized sampler. We evaluate iDEM on a suite of tasks ranging from standard synthetic energy functions to invariant $n$-body particle systems. We show that the proposed approach achieves state-of-the-art performance on all metrics and trains $2-5\times$ faster, which allows it to be the first method to train using energy on the challenging $55$-particle Lennard-Jones system.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-09T01:11:23Z</published>
+    <arxiv:comment>Published at ICML 2024. Code for iDEM is available at https://github.com/jarridrb/dem</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tara Akhound-Sadegh</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Avishek Joey Bose</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Pablo Lemos</name>
+    </author>
+    <author>
+      <name>Cheng-Hao Liu</name>
+    </author>
+    <author>
+      <name>Marcin Sendera</name>
+    </author>
+    <author>
+      <name>Siamak Ravanbakhsh</name>
+    </author>
+    <author>
+      <name>Gauthier Gidel</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Alexander Tong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.05098v4</id>
+    <title>Improved off-policy training of diffusion samplers</title>
+    <updated>2025-01-13T09:56:11Z</updated>
+    <link href="https://arxiv.org/abs/2402.05098v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.05098v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of training diffusion models to sample from a distribution with a given unnormalized density or energy function. We benchmark several diffusion-structured inference methods, including simulation-based variational approaches and off-policy methods (continuous generative flow networks). Our results shed light on the relative advantages of existing algorithms while bringing into question some claims from past work. We also propose a novel exploration strategy for off-policy methods, based on local search in the target space with the use of a replay buffer, and show that it improves the quality of samples on a variety of target distributions. Our code for the sampling methods and benchmarks studied is made public at https://github.com/GFNOrg/gfn-diffusion as a base for future work on diffusion models for amortized inference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-07T18:51:49Z</published>
+    <arxiv:comment>NeurIPS 2024; code: https://github.com/GFNOrg/gfn-diffusion</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Marcin Sendera</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Sarthak Mittal</name>
+    </author>
+    <author>
+      <name>Pablo Lemos</name>
+    </author>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Jarrid Rector-Brooks</name>
+    </author>
+    <author>
+      <name>Alexandre Adam</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01207v4</id>
+    <title>Efficient Causal Graph Discovery Using Large Language Models</title>
+    <updated>2024-07-20T18:51:58Z</updated>
+    <link href="https://arxiv.org/abs/2402.01207v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01207v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel framework that leverages LLMs for full causal graph discovery. While previous LLM-based methods have used a pairwise query approach, this requires a quadratic number of queries which quickly becomes impractical for larger causal graphs. In contrast, the proposed framework uses a breadth-first search (BFS) approach which allows it to use only a linear number of queries. We also show that the proposed method can easily incorporate observational data when available, to improve performance. In addition to being more time and data-efficient, the proposed framework achieves state-of-the-art results on real-world causal graphs of varying sizes. The results demonstrate the effectiveness and efficiency of the proposed method in discovering causal relationships, showcasing its potential for broad applicability in causal graph discovery tasks across different domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T08:25:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Jiralerspong</name>
+    </author>
+    <author>
+      <name>Xiaoyin Chen</name>
+    </author>
+    <author>
+      <name>Yash More</name>
+    </author>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.07511v2</id>
+    <title>A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems</title>
+    <updated>2024-03-13T17:38:27Z</updated>
+    <link href="https://arxiv.org/abs/2312.07511v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.07511v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in computational modelling of atomic systems, spanning molecules, proteins, and materials, represent them as geometric graphs with atoms embedded as nodes in 3D Euclidean space. In these graphs, the geometric attributes transform according to the inherent physical symmetries of 3D atomic systems, including rotations and translations in Euclidean space, as well as node permutations. In recent years, Geometric Graph Neural Networks have emerged as the preferred machine learning architecture powering applications ranging from protein structure prediction to molecular simulations and material generation. Their specificity lies in the inductive biases they leverage - such as physical symmetries and chemical properties - to learn informative representations of these geometric graphs.
+  In this opinionated paper, we provide a comprehensive and self-contained overview of the field of Geometric GNNs for 3D atomic systems. We cover fundamental background material and introduce a pedagogical taxonomy of Geometric GNN architectures: (1) invariant networks, (2) equivariant networks in Cartesian basis, (3) equivariant networks in spherical basis, and (4) unconstrained networks. Additionally, we outline key datasets and application areas and suggest future research directions. The objective of this work is to present a structured perspective on the field, making it accessible to newcomers and aiding practitioners in gaining an intuition for its mathematical abstractions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-12T18:44:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexandre Duval</name>
+    </author>
+    <author>
+      <name>Simon V. Mathis</name>
+    </author>
+    <author>
+      <name>Chaitanya K. Joshi</name>
+    </author>
+    <author>
+      <name>Victor Schmidt</name>
+    </author>
+    <author>
+      <name>Santiago Miret</name>
+    </author>
+    <author>
+      <name>Fragkiskos D. Malliaros</name>
+    </author>
+    <author>
+      <name>Taco Cohen</name>
+    </author>
+    <author>
+      <name>Pietro Liò</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Michael Bronstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.03911v1</id>
+    <title>Improving Gradient-guided Nested Sampling for Posterior Inference</title>
+    <updated>2023-12-06T21:09:18Z</updated>
+    <link href="https://arxiv.org/abs/2312.03911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.03911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a performant, general-purpose gradient-guided nested sampling algorithm, ${\tt GGNS}$, combining the state of the art in differentiable programming, Hamiltonian slice sampling, clustering, mode separation, dynamic nested sampling, and parallelization. This unique combination allows ${\tt GGNS}$ to scale well with dimensionality and perform competitively on a variety of synthetic and real-world problems. We also show the potential of combining nested sampling with generative flow networks to obtain large amounts of high-quality samples from the posterior distribution. This combination leads to faster mode discovery and more accurate estimates of the partition function.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-06T21:09:18Z</published>
+    <arxiv:comment>10 pages, 5 figures. Code available at https://github.com/Pablo-Lemos/GGNS</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pablo Lemos</name>
+    </author>
+    <author>
+      <name>Nikolay Malkin</name>
+    </author>
+    <author>
+      <name>Will Handley</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Yashar Hezaveh</name>
+    </author>
+    <author>
+      <name>Laurence Perreault-Levasseur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.15268v2</id>
+    <title>Unlearning via Sparse Representations</title>
+    <updated>2024-10-10T21:27:50Z</updated>
+    <link href="https://arxiv.org/abs/2311.15268v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.15268v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine \emph{unlearning}, which involves erasing knowledge about a \emph{forget set} from a trained model, can prove to be costly and infeasible by existing techniques. We propose a nearly compute-free zero-shot unlearning technique based on a discrete representational bottleneck. We show that the proposed technique efficiently unlearns the forget set and incurs negligible damage to the model's performance on the rest of the data set. We evaluate the proposed technique on the problem of \textit{class unlearning} using three datasets: CIFAR-10, CIFAR-100, and LACUNA-100. We compare the proposed technique to SCRUB, a state-of-the-art approach which uses knowledge distillation for unlearning. Across all three datasets, the proposed technique performs as well as, if not better than SCRUB while incurring almost no computational cost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-26T11:12:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vedant Shah</name>
+    </author>
+    <author>
+      <name>Frederik Träuble</name>
+    </author>
+    <author>
+      <name>Ashish Malik</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Michael Mozer</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16176v5</id>
+    <title>Mitigating Shortcut Learning with Diffusion Counterfactuals and Diverse Ensembles</title>
+    <updated>2025-04-02T18:36:37Z</updated>
+    <link href="https://arxiv.org/abs/2311.16176v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16176v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spurious correlations in the data, where multiple cues are predictive of the target labels, often lead to a phenomenon known as shortcut learning, where a model relies on erroneous, easy-to-learn cues while ignoring reliable ones. In this work, we propose DiffDiv an ensemble diversification framework exploiting Diffusion Probabilistic Models (DPMs) to mitigate this form of bias. We show that at particular training intervals, DPMs can generate images with novel feature combinations, even when trained on samples displaying correlated input features. We leverage this crucial property to generate synthetic counterfactuals to increase model diversity via ensemble disagreement. We show that DPM-guided diversification is sufficient to remove dependence on shortcut cues, without a need for additional supervised signals. We further empirically quantify its efficacy on several diversification objectives, and finally show improved generalization and diversification on par with prior work that relies on auxiliary data collection.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-23T15:47:33Z</published>
+    <arxiv:comment>Accepted as a workshop paper at ICLR 2025. arXiv admin note: substantial text overlap with arXiv:2310.02230</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Luca Scimeca</name>
+    </author>
+    <author>
+      <name>Alexander Rubinstein</name>
+    </author>
+    <author>
+      <name>Damien Teney</name>
+    </author>
+    <author>
+      <name>Seong Joon Oh</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+</feed>

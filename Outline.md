@@ -1,4 +1,0 @@
-1. a python CLI script that runs in this root folder and receives two arguments, [last-name], [first-name]
-2. it then adds a new sub-folder within /home/jake/Developer/get-arXiv/AUTHORS with the title [last-name]-[first-name] (ie if I give args "Sutton, Richard", it creates a folder Sutton-Richard)
-3. it then constructs an arXiv search URL from the author name, retrieves the first results page to determine the total number of results, computes the required pagination offsets, then iterates through each results page and saves the raw HTML into the author’s folder in a sub-folder titled HTML.
-4. 
