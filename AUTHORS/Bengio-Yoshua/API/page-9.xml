@@ -1,0 +1,1477 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y9aLRoH1eNQJmXvLyzU+hblQyUE</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=400&amp;max_results=50</title>
+  <updated>2026-02-06T21:57:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=400&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>400</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1806.07789v1</id>
+    <title>Quaternion Convolutional Neural Networks for End-to-End Automatic Speech Recognition</title>
+    <updated>2018-06-20T15:16:43Z</updated>
+    <link href="https://arxiv.org/abs/1806.07789v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.07789v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, the connectionist temporal classification (CTC) model coupled with recurrent (RNN) or convolutional neural networks (CNN), made it easier to train speech recognition systems in an end-to-end fashion. However in real-valued models, time frame components such as mel-filter-bank energies and the cepstral coefficients obtained from them, together with their first and second order derivatives, are processed as individual elements, while a natural alternative is to process such components as composed entities. We propose to group such elements in the form of quaternions and to process these quaternions using the established quaternion algebra. Quaternion numbers and quaternion neural networks have shown their efficiency to process multidimensional inputs as entities, to encode internal dependencies, and to solve many tasks with less learning parameters than real-valued models. This paper proposes to integrate multiple feature views in quaternion-valued convolutional neural network (QCNN), to be used for sequence-to-sequence mapping with the CTC model. Promising results are reported using simple QCNNs in phoneme recognition experiments with the TIMIT corpus. More precisely, QCNNs obtain a lower phoneme error rate (PER) with less learning parameters than a competing model based on real-valued CNNs.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-20T15:16:43Z</published>
+    <arxiv:comment>Accepted at INTERSPEECH 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Titouan Parcollet</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Mohamed Morchid</name>
+    </author>
+    <author>
+      <name>Chiheb Trabelsi</name>
+    </author>
+    <author>
+      <name>Georges Linarès</name>
+    </author>
+    <author>
+      <name>Renato De Mori</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06975v1</id>
+    <title>Towards Gene Expression Convolutions using Gene Interaction Graphs</title>
+    <updated>2018-06-18T22:40:37Z</updated>
+    <link href="https://arxiv.org/abs/1806.06975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.06975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the challenges of applying deep learning to gene expression data. We find experimentally that there exists non-linear signal in the data, however is it not discovered automatically given the noise and low numbers of samples used in most research. We discuss how gene interaction graphs (same pathway, protein-protein, co-expression, or research paper text association) can be used to impose a bias on a deep model similar to the spatial bias imposed by convolutions on an image. We explore the usage of Graph Convolutional Neural Networks coupled with dropout and gene embeddings to utilize the graph information. We find this approach provides an advantage for particular tasks in a low data regime but is very dependent on the quality of the graph used. We conclude that more work should be done in this direction. We design experiments that show why existing methods fail to capture signal that is present in the data when features are added which clearly isolates the problem that needs to be addressed.</summary>
+    <category term="q-bio.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-18T22:40:37Z</published>
+    <arxiv:comment>4 pages +1 page references, To appear in the International Conference on Machine Learning Workshop on Computational Biology, 2018</arxiv:comment>
+    <arxiv:primary_category term="q-bio.GN"/>
+    <author>
+      <name>Francis Dutil</name>
+    </author>
+    <author>
+      <name>Joseph Paul Cohen</name>
+    </author>
+    <author>
+      <name>Martin Weiss</name>
+    </author>
+    <author>
+      <name>Georgy Derevyanko</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06765v1</id>
+    <title>Modularity Matters: Learning Invariant Relational Reasoning Tasks</title>
+    <updated>2018-06-18T15:19:04Z</updated>
+    <link href="https://arxiv.org/abs/1806.06765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.06765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We focus on two supervised visual reasoning tasks whose labels encode a semantic relational rule between two or more objects in an image: the MNIST Parity task and the colorized Pentomino task. The objects in the images undergo random translation, scaling, rotation and coloring transformations. Thus these tasks involve invariant relational reasoning. We report uneven performance of various deep CNN models on these two tasks. For the MNIST Parity task, we report that the VGG19 model soundly outperforms a family of ResNet models. Moreover, the family of ResNet models exhibits a general sensitivity to random initialization for the MNIST Parity task. For the colorized Pentomino task, now both the VGG19 and ResNet models exhibit sluggish optimization and very poor test generalization, hovering around 30% test error. The CNN we tested all learn hierarchies of fully distributed features and thus encode the distributed representation prior. We are motivated by a hypothesis from cognitive neuroscience which posits that the human visual cortex is modularized, and this allows the visual cortex to learn higher order invariances. To this end, we consider a modularized variant of the ResNet model, referred to as a Residual Mixture Network (ResMixNet) which employs a mixture-of-experts architecture to interleave distributed representations with more specialized, modular representations. We show that very shallow ResMixNets are capable of learning each of the two tasks well, attaining less than 2% and 1% test error on the MNIST Parity and the colorized Pentomino tasks respectively. Most importantly, the ResMixNet models are extremely parameter efficient: generalizing better than various non-modular CNNs that have over 10x the number of parameters. These experimental results support the hypothesis that modularity is a robust prior for learning invariant relational reasoning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-18T15:19:04Z</published>
+    <arxiv:comment>Modified abstract to fit arXiv character limit</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jason Jo</name>
+    </author>
+    <author>
+      <name>Vikas Verma</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05236v7</id>
+    <title>Manifold Mixup: Better Representations by Interpolating Hidden States</title>
+    <updated>2019-05-11T16:50:55Z</updated>
+    <link href="https://arxiv.org/abs/1806.05236v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05236v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks excel at learning the training data, but often provide incorrect and confident predictions when evaluated on slightly different test examples. This includes distribution shifts, outliers, and adversarial examples. To address these issues, we propose Manifold Mixup, a simple regularizer that encourages neural networks to predict less confidently on interpolations of hidden representations. Manifold Mixup leverages semantic interpolations as additional training signal, obtaining neural networks with smoother decision boundaries at multiple levels of representation. As a result, neural networks trained with Manifold Mixup learn class-representations with fewer directions of variance. We prove theory on why this flattening happens under ideal conditions, validate it on practical situations, and connect it to previous works on information theory and generalization. In spite of incurring no significant computation and being implemented in a few lines of code, Manifold Mixup improves strong baselines in supervised learning, robustness to single-step adversarial attacks, and test log-likelihood.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-13T19:32:59Z</published>
+    <arxiv:comment>To appear in ICML 2019</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Vikas Verma</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Christopher Beckham</name>
+    </author>
+    <author>
+      <name>Amir Najafi</name>
+    </author>
+    <author>
+      <name>Ioannis Mitliagkas</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>David Lopez-Paz</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04418v3</id>
+    <title>Quaternion Recurrent Neural Networks</title>
+    <updated>2019-01-07T10:24:11Z</updated>
+    <link href="https://arxiv.org/abs/1806.04418v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04418v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent neural networks (RNNs) are powerful architectures to model sequential data, due to their capability to learn short and long-term dependencies between the basic elements of a sequence. Nonetheless, popular tasks such as speech or images recognition, involve multi-dimensional input features that are characterized by strong internal dependencies between the dimensions of the input vector. We propose a novel quaternion recurrent neural network (QRNN), alongside with a quaternion long-short term memory neural network (QLSTM), that take into account both the external relations and these internal structural dependencies with the quaternion algebra. Similarly to capsules, quaternions allow the QRNN to code internal dependencies by composing and processing multidimensional features as single entities, while the recurrent operation reveals correlations between the elements composing the sequence. We show that both QRNN and QLSTM achieve better performances than RNN and LSTM in a realistic application of automatic speech recognition. Finally, we show that QRNN and QLSTM reduce by a maximum factor of 3.3x the number of free parameters needed, compared to real-valued RNNs and LSTMs to reach better results, leading to a more compact representation of the relevant information.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-12T09:49:40Z</published>
+    <arxiv:comment>ICLR Update - Full rework</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Titouan Parcollet</name>
+    </author>
+    <author>
+      <name>Mirco Ravanelli</name>
+    </author>
+    <author>
+      <name>Mohamed Morchid</name>
+    </author>
+    <author>
+      <name>Georges Linarès</name>
+    </author>
+    <author>
+      <name>Chiheb Trabelsi</name>
+    </author>
+    <author>
+      <name>Renato De Mori</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04342v1</id>
+    <title>Focused Hierarchical RNNs for Conditional Sequence Processing</title>
+    <updated>2018-06-12T05:54:37Z</updated>
+    <link href="https://arxiv.org/abs/1806.04342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent Neural Networks (RNNs) with attention mechanisms have obtained state-of-the-art results for many sequence processing tasks. Most of these models use a simple form of encoder with attention that looks over the entire sequence and assigns a weight to each token independently. We present a mechanism for focusing RNN encoders for sequence modelling tasks which allows them to attend to key parts of the input as needed. We formulate this using a multi-layer conditional sequence encoder that reads in one token at a time and makes a discrete decision on whether the token is relevant to the context or question being asked. The discrete gating mechanism takes in the context embedding and the current hidden state as inputs and controls information flow into the layer above. We train it using policy gradient methods. We evaluate this method on several types of tasks with different attributes. First, we evaluate the method on synthetic tasks which allow us to evaluate the model for its generalization ability and probe the behavior of the gates in more controlled settings. We then evaluate this approach on large scale Question Answering tasks including the challenging MS MARCO and SearchQA tasks. Our models shows consistent improvements for both tasks over prior work and our baselines. It has also shown to generalize significantly better on synthetic tasks as compared to the baselines.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-12T05:54:37Z</published>
+    <arxiv:comment>To appear at ICML 2018</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Konrad Zolna</name>
+    </author>
+    <author>
+      <name>Alessandro Sordoni</name>
+    </author>
+    <author>
+      <name>Zhouhan Lin</name>
+    </author>
+    <author>
+      <name>Adam Trischler</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Joelle Pineau</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Chris Pal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04168v1</id>
+    <title>Straight to the Tree: Constituency Parsing with Neural Syntactic Distance</title>
+    <updated>2018-06-11T18:18:00Z</updated>
+    <link href="https://arxiv.org/abs/1806.04168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we propose a novel constituency parsing scheme. The model predicts a vector of real-valued scalars, named syntactic distances, for each split position in the input sentence. The syntactic distances specify the order in which the split points will be selected, recursively partitioning the input, in a top-down fashion. Compared to traditional shift-reduce parsing schemes, our approach is free from the potential problem of compounding errors, while being faster and easier to parallelize. Our model achieves competitive performance amongst single model, discriminative parsers in the PTB dataset and outperforms previous models in the CTB dataset.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-11T18:18:00Z</published>
+    <arxiv:comment>Published at ACL2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yikang Shen</name>
+    </author>
+    <author>
+      <name>Zhouhan Lin</name>
+    </author>
+    <author>
+      <name>Athul Paul Jacob</name>
+    </author>
+    <author>
+      <name>Alessandro Sordoni</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.03836v4</id>
+    <title>Bayesian Model-Agnostic Meta-Learning</title>
+    <updated>2018-11-19T01:53:11Z</updated>
+    <link href="https://arxiv.org/abs/1806.03836v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.03836v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning to infer Bayesian posterior from a few-shot dataset is an important step towards robust meta-learning due to the model uncertainty inherent in the problem. In this paper, we propose a novel Bayesian model-agnostic meta-learning method. The proposed method combines scalable gradient-based meta-learning with nonparametric variational inference in a principled probabilistic framework. During fast adaptation, the method is capable of learning complex uncertainty structure beyond a point estimate or a simple Gaussian approximation. In addition, a robust Bayesian meta-update mechanism with a new meta-loss prevents overfitting during meta-update. Remaining an efficient gradient-based meta-learner, the method is also model-agnostic and simple to implement. Experiment results show the accuracy and robustness of the proposed method in various tasks: sinusoidal regression, image classification, active learning, and reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-11T07:11:28Z</published>
+    <arxiv:comment>First two authors contributed equally. 15 pages with appendix including experimental details. Accepted in NIPS 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Taesup Kim</name>
+    </author>
+    <author>
+      <name>Jaesik Yoon</name>
+    </author>
+    <author>
+      <name>Ousmane Dia</name>
+    </author>
+    <author>
+      <name>Sungwoong Kim</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sungjin Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01984v2</id>
+    <title>Learning to rank for censored survival data</title>
+    <updated>2018-06-08T18:55:36Z</updated>
+    <link href="https://arxiv.org/abs/1806.01984v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01984v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Survival analysis is a type of semi-supervised ranking task where the target output (the survival time) is often right-censored. Utilizing this information is a challenge because it is not obvious how to correctly incorporate these censored examples into a model. We study how three categories of loss functions, namely partial likelihood methods, rank methods, and our classification method based on a Wasserstein metric (WM) and the non-parametric Kaplan Meier estimate of the probability density to impute the labels of censored examples, can take advantage of this information. The proposed method allows us to have a model that predict the probability distribution of an event. If a clinician had access to the detailed probability of an event over time this would help in treatment planning. For example, determining if the risk of kidney graft rejection is constant or peaked after some time. Also, we demonstrate that this approach directly optimizes the expected C-index which is the most common evaluation metric for ranking survival models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-06T02:30:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Margaux Luck</name>
+    </author>
+    <author>
+      <name>Tristan Sylvain</name>
+    </author>
+    <author>
+      <name>Joseph Paul Cohen</name>
+    </author>
+    <author>
+      <name>Heloise Cardinal</name>
+    </author>
+    <author>
+      <name>Andrea Lodi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.09730v3</id>
+    <title>Image-to-image translation for cross-domain disentanglement</title>
+    <updated>2018-11-04T17:27:04Z</updated>
+    <link href="https://arxiv.org/abs/1805.09730v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.09730v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep image translation methods have recently shown excellent results, outputting high-quality images covering multiple modes of the data distribution. There has also been increased interest in disentangling the internal representations learned by deep methods to further improve their performance and achieve a finer control. In this paper, we bridge these two objectives and introduce the concept of cross-domain disentanglement. We aim to separate the internal representation into three parts. The shared part contains information for both domains. The exclusive parts, on the other hand, contain only factors of variation that are particular to each domain. We achieve this through bidirectional image translation based on Generative Adversarial Networks and cross-domain autoencoders, a novel network component. Our model offers multiple advantages. We can output diverse samples covering multiple modes of the distributions of both domains, perform domain-specific image transfer and interpolation, and cross-domain retrieval without the need of labeled data, only paired images. We compare our model to the state-of-the-art in multi-modal image translation and achieve better results for translation on challenging datasets as well as for cross-domain retrieval on realistic datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-24T15:30:23Z</published>
+    <arxiv:comment>Accepted to NIPS 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Abel Gonzalez-Garcia</name>
+    </author>
+    <author>
+      <name>Joost van de Weijer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.11332v1</id>
+    <title>On the iterative refinement of densely connected representation levels for semantic segmentation</title>
+    <updated>2018-04-30T17:26:49Z</updated>
+    <link href="https://arxiv.org/abs/1804.11332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.11332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art semantic segmentation approaches increase the receptive field of their models by using either a downsampling path composed of poolings/strided convolutions or successive dilated convolutions. However, it is not clear which operation leads to best results. In this paper, we systematically study the differences introduced by distinct receptive field enlargement methods and their impact on the performance of a novel architecture, called Fully Convolutional DenseResNet (FC-DRN). FC-DRN has a densely connected backbone composed of residual networks. Following standard image segmentation architectures, receptive field enlargement operations that change the representation level are interleaved among residual networks. This allows the model to exploit the benefits of both residual and dense connectivity patterns, namely: gradient flow, iterative refinement of representations, multi-scale feature combination and deep supervision. In order to highlight the potential of our model, we test it on the challenging CamVid urban scene understanding benchmark and make the following observations: 1) downsampling operations outperform dilations when the model is trained from scratch, 2) dilations are useful during the finetuning step of the model, 3) coarser representations require less refinement steps, and 4) ResNets (by model construction) are good regularizers, since they can reduce the model capacity when needed. Finally, we compare our architecture to alternative methods and report state-of-the-art result on the Camvid dataset, with at least twice fewer parameters.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-30T17:26:49Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Arantxa Casanova</name>
+    </author>
+    <author>
+      <name>Guillem Cucurull</name>
+    </author>
+    <author>
+      <name>Michal Drozdzal</name>
+    </author>
+    <author>
+      <name>Adriana Romero</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10727v2</id>
+    <title>Low-memory convolutional neural networks through incremental depth-first processing</title>
+    <updated>2019-05-20T21:06:44Z</updated>
+    <link href="https://arxiv.org/abs/1804.10727v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.10727v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an incremental processing scheme for convolutional neural network (CNN) inference, targeted at embedded applications with limited memory budgets. Instead of processing layers one by one, individual input pixels are propagated through all parts of the network they can influence under the given structural constraints. This depth-first updating scheme comes with hard bounds on the memory footprint: the memory required is constant in the case of 1D input and proportional to the square root of the input dimension in the case of 2D input.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-28T03:03:45Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Jonathan Binas</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.09259v1</id>
+    <title>Commonsense mining as knowledge base completion? A study on the impact of novelty</title>
+    <updated>2018-04-24T21:07:04Z</updated>
+    <link href="https://arxiv.org/abs/1804.09259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.09259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Commonsense knowledge bases such as ConceptNet represent knowledge in the form of relational triples. Inspired by the recent work by Li et al., we analyse if knowledge base completion models can be used to mine commonsense knowledge from raw text. We propose novelty of predicted triples with respect to the training set as an important factor in interpreting results. We critically analyse the difficulty of mining novel commonsense knowledge, and show that a simple baseline method outperforms the previous state of the art on predicting more novel.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-24T21:07:04Z</published>
+    <arxiv:comment>Published in Workshop on New Forms of Generalization in Deep Learning and Natural Language Processing (NAACL 2018)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Stanisław Jastrzębski</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Seyedarian Hosseini</name>
+    </author>
+    <author>
+      <name>Michael Noukhovitch</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jackie Chi Kit Cheung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05374v2</id>
+    <title>Twin Regularization for online speech recognition</title>
+    <updated>2018-06-12T01:00:03Z</updated>
+    <link href="https://arxiv.org/abs/1804.05374v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.05374v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Online speech recognition is crucial for developing natural human-machine interfaces. This modality, however, is significantly more challenging than off-line ASR, since real-time/low-latency constraints inevitably hinder the use of future information, that is known to be very helpful to perform robust predictions. A popular solution to mitigate this issue consists of feeding neural acoustic models with context windows that gather some future frames. This introduces a latency which depends on the number of employed look-ahead features. This paper explores a different approach, based on estimating the future rather than waiting for it. Our technique encourages the hidden representations of a unidirectional recurrent network to embed some useful information about the future. Inspired by a recently proposed technique called Twin Networks, we add a regularization term that forces forward hidden states to be as close as possible to cotemporal backward ones, computed by a "twin" neural network running backwards in time. The experiments, conducted on a number of datasets, recurrent architectures, input features, and acoustic conditions, have shown the effectiveness of this approach. One important advantage is that our method does not introduce any additional computation at test time if compared to standard unidirectional recurrent networks.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-15T15:52:16Z</published>
+    <arxiv:comment>Accepted at INTESPEECH 2018</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Mirco Ravanelli</name>
+    </author>
+    <author>
+      <name>Dmitriy Serdyuk</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.03758v1</id>
+    <title>Universal Successor Representations for Transfer Reinforcement Learning</title>
+    <updated>2018-04-11T00:06:36Z</updated>
+    <link href="https://arxiv.org/abs/1804.03758v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.03758v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The objective of transfer reinforcement learning is to generalize from a set of previous tasks to unseen new tasks. In this work, we focus on the transfer scenario where the dynamics among tasks are the same, but their goals differ. Although general value function (Sutton et al., 2011) has been shown to be useful for knowledge transfer, learning a universal value function can be challenging in practice. To attack this, we propose (1) to use universal successor representations (USR) to represent the transferable knowledge and (2) a USR approximator (USRA) that can be trained by interacting with the environment. Our experiments show that USR can be effectively applied to new tasks, and the agent initialized by the trained USRA can achieve the goal considerably faster than random initialization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-11T00:06:36Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chen Ma</name>
+    </author>
+    <author>
+      <name>Junfeng Wen</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.02485v1</id>
+    <title>Fortified Networks: Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations</title>
+    <updated>2018-04-07T00:11:05Z</updated>
+    <link href="https://arxiv.org/abs/1804.02485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.02485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep networks have achieved impressive results across a variety of important tasks. However a known weakness is a failure to perform well when evaluated on data which differ from the training distribution, even if these differences are very small, as is the case with adversarial examples. We propose Fortified Networks, a simple transformation of existing networks, which fortifies the hidden layers in a deep network by identifying when the hidden states are off of the data manifold, and maps these hidden states back to parts of the data manifold where the network performs well. Our principal contribution is to show that fortifying these hidden states improves the robustness of deep networks and our experiments (i) demonstrate improved robustness to standard adversarial attacks in both black-box and white-box threat models; (ii) suggest that our improvements are not primarily due to the gradient masking problem and (iii) show the advantage of doing this fortification in the hidden layers instead of the input space.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-07T00:11:05Z</published>
+    <arxiv:comment>Under Review ICML 2018</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Jonathan Binas</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Dmitriy Serdyuk</name>
+    </author>
+    <author>
+      <name>Sandeep Subramanian</name>
+    </author>
+    <author>
+      <name>Ioannis Mitliagkas</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00379v2</id>
+    <title>Recall Traces: Backtracking Models for Efficient Reinforcement Learning</title>
+    <updated>2019-01-28T22:56:28Z</updated>
+    <link href="https://arxiv.org/abs/1804.00379v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00379v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many environments only a tiny subset of all states yield high reward. In these cases, few of the interactions with the environment provide a relevant learning signal. Hence, we may want to preferentially train on those high-reward states and the probable trajectories leading to them. To this end, we advocate for the use of a backtracking model that predicts the preceding states that terminate at a given high-reward state. We can train a model which, starting from a high value state (or one that is estimated to have high value), predicts and sample for which the (state, action)-tuples may have led to that high value state. These traces of (state, action) pairs, which we refer to as Recall Traces, sampled from this backtracking model starting from a high value state, are informative as they terminate in good states, and hence we can use these traces to improve a policy. We provide a variational interpretation for this idea and a practical algorithm in which the backtracking model samples from an approximate posterior distribution over trajectories which lead to large rewards. Our method improves the sample efficiency of both on- and off-policy RL algorithms across several environments and tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-02T03:02:33Z</published>
+    <arxiv:comment>Accepted at ICLR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Philemon Brakel</name>
+    </author>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Soumye Singhal</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00079v1</id>
+    <title>Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning</title>
+    <updated>2018-03-30T23:05:15Z</updated>
+    <link href="https://arxiv.org/abs/1804.00079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A lot of the recent success in natural language processing (NLP) has been driven by distributed vector representations of words trained on large amounts of text in an unsupervised manner. These representations are typically used as general purpose features for words across a range of NLP problems. However, extending this success to learning representations of sequences of words, such as sentences, remains an open problem. Recent work has explored unsupervised as well as supervised learning techniques with different training objectives to learn general purpose fixed-length sentence representations. In this work, we present a simple, effective multi-task learning framework for sentence representations that combines the inductive biases of diverse training objectives in a single model. We train this model on several data sources with multiple training objectives on over 100 million sentences. Extensive experiments demonstrate that sharing a single recurrent sentence encoder across weakly related tasks leads to consistent improvements over previous methods. We present substantial improvements in the context of transfer learning and low-resource settings using our learned general-purpose representations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-30T23:05:15Z</published>
+    <arxiv:comment>Accepted at ICLR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sandeep Subramanian</name>
+    </author>
+    <author>
+      <name>Adam Trischler</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Christopher J Pal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.11407v2</id>
+    <title>Fine-Grained Attention Mechanism for Neural Machine Translation</title>
+    <updated>2018-04-03T07:07:32Z</updated>
+    <link href="https://arxiv.org/abs/1803.11407v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.11407v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural machine translation (NMT) has been a new paradigm in machine translation, and the attention mechanism has become the dominant approach with the state-of-the-art records in many language pairs. While there are variants of the attention mechanism, all of them use only temporal attention where one scalar value is assigned to one context vector corresponding to a source word. In this paper, we propose a fine-grained (or 2D) attention mechanism where each dimension of a context vector will receive a separate attention score. In experiments with the task of En-De and En-Fi translation, the fine-grained attention method improves the translation quality in terms of BLEU score. In addition, our alignment analysis reveals how the fine-grained attention mechanism exploits the internal structure of context vectors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-30T10:38:33Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Neurocomputing 2018</arxiv:journal_ref>
+    <author>
+      <name>Heeyoul Choi</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.10225v1</id>
+    <title>Light Gated Recurrent Units for Speech Recognition</title>
+    <updated>2018-03-26T17:48:18Z</updated>
+    <link href="https://arxiv.org/abs/1803.10225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.10225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A field that has directly benefited from the recent advances in deep learning is Automatic Speech Recognition (ASR). Despite the great achievements of the past decades, however, a natural and robust human-machine speech interaction still appears to be out of reach, especially in challenging environments characterized by significant noise and reverberation. To improve robustness, modern speech recognizers often employ acoustic models based on Recurrent Neural Networks (RNNs), that are naturally able to exploit large time contexts and long-term speech modulations. It is thus of great interest to continue the study of proper techniques for improving the effectiveness of RNNs in processing speech signals.
+  In this paper, we revise one of the most popular RNN models, namely Gated Recurrent Units (GRUs), and propose a simplified architecture that turned out to be very effective for ASR. The contribution of this work is two-fold: First, we analyze the role played by the reset gate, showing that a significant redundancy with the update gate occurs. As a result, we propose to remove the former from the GRU design, leading to a more efficient and compact single-gate model. Second, we propose to replace hyperbolic tangent with ReLU activations. This variation couples well with batch normalization and could help the model learn long-term dependencies without numerical issues.
+  Results show that the proposed architecture, called Light GRU (Li-GRU), not only reduces the per-epoch training time by more than 30% over a standard GRU, but also consistently improves the recognition accuracy across different tasks, input features, noisy conditions, as well as across different ASR paradigms, ranging from standard DNN-HMM speech recognizers to end-to-end CTC models.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-26T17:48:18Z</published>
+    <arxiv:comment>Copyright 2018 IEEE</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <arxiv:journal_ref>IEEE Transactions on Emerging Topics in Computational Intelligence, vol. 2, no. 2, pp. 92-102, April 2018</arxiv:journal_ref>
+    <author>
+      <name>Mirco Ravanelli</name>
+    </author>
+    <author>
+      <name>Philemon Brakel</name>
+    </author>
+    <author>
+      <name>Maurizio Omologo</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <arxiv:doi>10.1109/TETCI.2017.2762739</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TETCI.2017.2762739" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09484v1</id>
+    <title>Disentangling the independently controllable factors of variation by interacting with the world</title>
+    <updated>2018-02-26T18:03:56Z</updated>
+    <link href="https://arxiv.org/abs/1802.09484v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09484v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been postulated that a good representation is one that disentangles the underlying explanatory factors of variation. However, it remains an open question what kind of training framework could potentially achieve that. Whereas most previous work focuses on the static setting (e.g., with images), we postulate that some of the causal factors could be discovered if the learner is allowed to interact with its environment. The agent can experiment with different actions and observe their effects. More specifically, we hypothesize that some of these factors correspond to aspects of the environment which are independently controllable, i.e., that there exists a policy and a learnable feature for each such aspect of the environment, such that this policy can yield changes in that feature with minimal changes to other features that explain the statistical variations in the observed data. We propose a specific objective function to find such factors, and verify experimentally that it can indeed disentangle independently controllable aspects of the environment without any extrinsic reward signal.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-26T18:03:56Z</published>
+    <arxiv:comment>Presented at NIPS 2017 Learning Disentangling Representations Workshop</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Valentin Thomas</name>
+    </author>
+    <author>
+      <name>Emmanuel Bengio</name>
+    </author>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Jules Pondard</name>
+    </author>
+    <author>
+      <name>Philippe Beaudoin</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Joelle Pineau</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09386v1</id>
+    <title>Learning Anonymized Representations with Adversarial Neural Networks</title>
+    <updated>2018-02-26T15:14:51Z</updated>
+    <link href="https://arxiv.org/abs/1802.09386v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09386v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Statistical methods protecting sensitive information or the identity of the data owner have become critical to ensure privacy of individuals as well as of organizations. This paper investigates anonymization methods based on representation learning and deep neural networks, and motivated by novel information theoretical bounds. We introduce a novel training objective for simultaneously training a predictor over target variables of interest (the regular labels) while preventing an intermediate representation to be predictive of the private labels. The architecture is based on three sub-networks: one going from input to representation, one from representation to predicted regular labels, and one from representation to predicted private labels. The training procedure aims at learning representations that preserve the relevant part of the information (about regular labels) while dismissing information about the private labels which correspond to the identity of a person. We demonstrate the success of this approach for two distinct classification versus anonymization tasks (handwritten digits and sentiment analysis).</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-26T15:14:51Z</published>
+    <arxiv:comment>20 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Clément Feutry</name>
+    </author>
+    <author>
+      <name>Pablo Piantanida</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Pierre Duhamel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08770v4</id>
+    <title>A Walk with SGD</title>
+    <updated>2018-05-30T01:15:02Z</updated>
+    <link href="https://arxiv.org/abs/1802.08770v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08770v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present novel empirical observations regarding how stochastic gradient descent (SGD) navigates the loss landscape of over-parametrized deep neural networks (DNNs). These observations expose the qualitatively different roles of learning rate and batch-size in DNN optimization and generalization. Specifically we study the DNN loss surface along the trajectory of SGD by interpolating the loss surface between parameters from consecutive \textit{iterations} and tracking various metrics during training. We find that the loss interpolation between parameters before and after each training iteration's update is roughly convex with a minimum (\textit{valley floor}) in between for most of the training. Based on this and other metrics, we deduce that for most of the training update steps, SGD moves in valley like regions of the loss surface by jumping from one valley wall to another at a height above the valley floor. This 'bouncing between walls at a height' mechanism helps SGD traverse larger distance for small batch sizes and large learning rates which we find play qualitatively different roles in the dynamics. While a large learning rate maintains a large height from the valley floor, a small batch size injects noise facilitating exploration. We find this mechanism is crucial for generalization because the valley floor has barriers and this exploration above the valley floor allows SGD to quickly travel far away from the initialization point (without being affected by barriers) and find flatter regions, corresponding to better generalization.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-24T00:21:10Z</published>
+    <arxiv:comment>First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Chen Xing</name>
+    </author>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Christos Tsirigotis</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08395v1</id>
+    <title>Towards end-to-end spoken language understanding</title>
+    <updated>2018-02-23T05:39:46Z</updated>
+    <link href="https://arxiv.org/abs/1802.08395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spoken language understanding system is traditionally designed as a pipeline of a number of components. First, the audio signal is processed by an automatic speech recognizer for transcription or n-best hypotheses. With the recognition results, a natural language understanding system classifies the text to structured data as domain, intent and slots for down-streaming consumers, such as dialog system, hands-free applications. These components are usually developed and optimized independently. In this paper, we present our study on an end-to-end learning system for spoken language understanding. With this unified approach, we can infer the semantic meaning directly from audio features without the intermediate text representation. This study showed that the trained model can achieve reasonable good result and demonstrated that the model can capture the semantic attention directly from the audio features.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-23T05:39:46Z</published>
+    <arxiv:comment>submitted to ICASSP 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dmitriy Serdyuk</name>
+    </author>
+    <author>
+      <name>Yongqiang Wang</name>
+    </author>
+    <author>
+      <name>Christian Fuegen</name>
+    </author>
+    <author>
+      <name>Anuj Kumar</name>
+    </author>
+    <author>
+      <name>Baiyang Liu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08216v1</id>
+    <title>ChatPainter: Improving Text to Image Generation using Dialogue</title>
+    <updated>2018-02-22T18:15:40Z</updated>
+    <link href="https://arxiv.org/abs/1802.08216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Synthesizing realistic images from text descriptions on a dataset like Microsoft Common Objects in Context (MS COCO), where each image can contain several objects, is a challenging task. Prior work has used text captions to generate images. However, captions might not be informative enough to capture the entire image and insufficient for the model to be able to understand which objects in the images correspond to which words in the captions. We show that adding a dialogue that further describes the scene leads to significant improvement in the inception score and in the quality of generated images on the MS COCO dataset.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-22T18:15:40Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shikhar Sharma</name>
+    </author>
+    <author>
+      <name>Dendi Suhubdy</name>
+    </author>
+    <author>
+      <name>Vincent Michalski</name>
+    </author>
+    <author>
+      <name>Samira Ebrahimi Kahou</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.07426v3</id>
+    <title>Generalization in Machine Learning via Analytical Learning Theory</title>
+    <updated>2019-03-06T22:23:14Z</updated>
+    <link href="https://arxiv.org/abs/1802.07426v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.07426v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a novel measure-theoretic theory for machine learning that does not require statistical assumptions. Based on this theory, a new regularization method in deep learning is derived and shown to outperform previous methods in CIFAR-10, CIFAR-100, and SVHN. Moreover, the proposed theory provides a theoretical basis for a family of practically successful regularization methods in deep learning. We discuss several consequences of our results on one-shot learning, representation learning, deep learning, and curriculum learning. Unlike statistical learning theory, the proposed learning theory analyzes each problem instance individually via measure theory, rather than a set of problem instances via statistics. As a result, it provides different types of results and insights when compared to statistical learning theory.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-21T05:03:52Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Vikas Verma</name>
+    </author>
+    <author>
+      <name>Leslie Pack Kaelbling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00300v1</id>
+    <title>MaD TwinNet: Masker-Denoiser Architecture with Twin Networks for Monaural Sound Source Separation</title>
+    <updated>2018-02-01T14:31:36Z</updated>
+    <link href="https://arxiv.org/abs/1802.00300v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00300v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monaural singing voice separation task focuses on the prediction of the singing voice from a single channel music mixture signal. Current state of the art (SOTA) results in monaural singing voice separation are obtained with deep learning based methods. In this work we present a novel deep learning based method that learns long-term temporal patterns and structures of a musical piece. We build upon the recently proposed Masker-Denoiser (MaD) architecture and we enhance it with the Twin Networks, a technique to regularize a recurrent generative network using a backward running copy of the network. We evaluate our method using the Demixing Secret Dataset and we obtain an increment to signal-to-distortion ratio (SDR) of 0.37 dB and to signal-to-interference ratio (SIR) of 0.23 dB, compared to previous SOTA results.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-01T14:31:36Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Konstantinos Drossos</name>
+    </author>
+    <author>
+      <name>Stylianos Ioannis Mimilakis</name>
+    </author>
+    <author>
+      <name>Dmitriy Serdyuk</name>
+    </author>
+    <author>
+      <name>Gerald Schuller</name>
+    </author>
+    <author>
+      <name>Tuomas Virtanen</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.06700v1</id>
+    <title>A Deep Reinforcement Learning Chatbot (Short Version)</title>
+    <updated>2018-01-20T17:22:06Z</updated>
+    <link href="https://arxiv.org/abs/1801.06700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.06700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present MILABOT: a deep reinforcement learning chatbot developed by the Montreal Institute for Learning Algorithms (MILA) for the Amazon Alexa Prize competition. MILABOT is capable of conversing with humans on popular small talk topics through both speech and text. The system consists of an ensemble of natural language generation and retrieval models, including neural network and template-based models. By applying reinforcement learning to crowdsourced data and real-world user interactions, the system has been trained to select an appropriate response from the models in its ensemble. The system has been evaluated through A/B testing with real-world users, where it performed significantly better than other systems. The results highlight the potential of coupling ensemble systems with deep reinforcement learning as a fruitful path for developing real-world, open-domain conversational agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-20T17:22:06Z</published>
+    <arxiv:comment>9 pages, 1 figure, 2 tables; presented at NIPS 2017, Conversational AI: "Today's Practice and Tomorrow's Potential" Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Iulian V. Serban</name>
+    </author>
+    <author>
+      <name>Chinnadhurai Sankar</name>
+    </author>
+    <author>
+      <name>Mathieu Germain</name>
+    </author>
+    <author>
+      <name>Saizheng Zhang</name>
+    </author>
+    <author>
+      <name>Zhouhan Lin</name>
+    </author>
+    <author>
+      <name>Sandeep Subramanian</name>
+    </author>
+    <author>
+      <name>Taesup Kim</name>
+    </author>
+    <author>
+      <name>Michael Pieper</name>
+    </author>
+    <author>
+      <name>Sarath Chandar</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Sai Rajeswar</name>
+    </author>
+    <author>
+      <name>Alexandre de Brebisson</name>
+    </author>
+    <author>
+      <name>Jose M. R. Sotelo</name>
+    </author>
+    <author>
+      <name>Dendi Suhubdy</name>
+    </author>
+    <author>
+      <name>Vincent Michalski</name>
+    </author>
+    <author>
+      <name>Alexandre Nguyen</name>
+    </author>
+    <author>
+      <name>Joelle Pineau</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.06252v1</id>
+    <title>Deep convolutional networks for quality assessment of protein folds</title>
+    <updated>2018-01-18T23:37:27Z</updated>
+    <link href="https://arxiv.org/abs/1801.06252v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.06252v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The computational prediction of a protein structure from its sequence generally relies on a method to assess the quality of protein models. Most assessment methods rank candidate models using heavily engineered structural features, defined as complex functions of the atomic coordinates. However, very few methods have attempted to learn these features directly from the data. We show that deep convolutional networks can be used to predict the ranking of model structures solely on the basis of their raw three-dimensional atomic densities, without any feature tuning. We develop a deep neural network that performs on par with state-of-the-art algorithms from the literature. The network is trained on decoys from the CASP7 to CASP10 datasets and its performance is tested on the CASP11 dataset. On the CASP11 stage 2 dataset, it achieves a loss of 0.064, whereas the best performing method achieves a loss of 0.063. Additional testing on decoys from the CASP12, CAMEO, and 3DRobot datasets confirms that the network performs consistently well across a variety of protein structures. While the network learns to assess structural decoys globally and does not rely on any predefined features, it can be analyzed to show that it implicitly identifies regions that deviate from the native structure.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-18T23:37:27Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Georgy Derevyanko</name>
+    </author>
+    <author>
+      <name>Sergei Grudinin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Lamoureux</name>
+    </author>
+    <arxiv:doi>10.1093/bioinformatics/bty494</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/bioinformatics/bty494" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04062v5</id>
+    <title>MINE: Mutual Information Neural Estimation</title>
+    <updated>2021-08-14T18:35:05Z</updated>
+    <link href="https://arxiv.org/abs/1801.04062v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.04062v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that the estimation of mutual information between high dimensional continuous random variables can be achieved by gradient descent over neural networks. We present a Mutual Information Neural Estimator (MINE) that is linearly scalable in dimensionality as well as in sample size, trainable through back-prop, and strongly consistent. We present a handful of applications on which MINE can be used to minimize or maximize mutual information. We apply MINE to improve adversarially trained generative models. We also use MINE to implement Information Bottleneck, applying it to supervised classification; our results demonstrate substantial improvement in flexibility and performance in these settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-12T05:42:58Z</published>
+    <arxiv:comment>19 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ICML 2018</arxiv:journal_ref>
+    <author>
+      <name>Mohamed Ishmael Belghazi</name>
+    </author>
+    <author>
+      <name>Aristide Baratin</name>
+    </author>
+    <author>
+      <name>Sai Rajeswar</name>
+    </author>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>R Devon Hjelm</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04055v1</id>
+    <title>A3T: Adversarially Augmented Adversarial Training</title>
+    <updated>2018-01-12T04:34:17Z</updated>
+    <link href="https://arxiv.org/abs/1801.04055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.04055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research showed that deep neural networks are highly sensitive to so-called adversarial perturbations, which are tiny perturbations of the input data purposely designed to fool a machine learning classifier. Most classification models, including deep learning models, are highly vulnerable to adversarial attacks. In this work, we investigate a procedure to improve adversarial robustness of deep neural networks through enforcing representation invariance. The idea is to train the classifier jointly with a discriminator attached to one of its hidden layer and trained to filter the adversarial noise. We perform preliminary experiments to test the viability of the approach and to compare it to other standard adversarial training methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-12T04:34:17Z</published>
+    <arxiv:comment>accepted for an oral presentation in Machine Deception Workshop, NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akram Erraqabi</name>
+    </author>
+    <author>
+      <name>Aristide Baratin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Simon Lacoste-Julien</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.00062v1</id>
+    <title>Dendritic error backpropagation in deep cortical microcircuits</title>
+    <updated>2017-12-30T00:16:56Z</updated>
+    <link href="https://arxiv.org/abs/1801.00062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.00062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Animal behaviour depends on learning to associate sensory stimuli with the desired motor command. Understanding how the brain orchestrates the necessary synaptic modifications across different brain areas has remained a longstanding puzzle. Here, we introduce a multi-area neuronal network model in which synaptic plasticity continuously adapts the network towards a global desired output. In this model synaptic learning is driven by a local dendritic prediction error that arises from a failure to predict the top-down input given the bottom-up activities. Such errors occur at apical dendrites of pyramidal neurons where both long-range excitatory feedback and local inhibitory predictions are integrated. When local inhibition fails to match excitatory feedback an error occurs which triggers plasticity at bottom-up synapses at basal dendrites of the same pyramidal neurons. We demonstrate the learning capabilities of the model in a number of tasks and show that it approximates the classical error backpropagation algorithm. Finally, complementing this cortical circuit with a disinhibitory mechanism enables attention-like stimulus denoising and generation. Our framework makes several experimental predictions on the function of dendritic integration and cortical microcircuits, is consistent with recent observations of cross-area learning, and suggests a biological implementation of deep learning.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-30T00:16:56Z</published>
+    <arxiv:comment>27 pages, 5 figures, 10 pages supplementary information</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>João Sacramento</name>
+    </author>
+    <author>
+      <name>Rui Ponte Costa</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Walter Senn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.04120v1</id>
+    <title>GibbsNet: Iterative Adversarial Inference for Deep Graphical Models</title>
+    <updated>2017-12-12T04:16:52Z</updated>
+    <link href="https://arxiv.org/abs/1712.04120v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.04120v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Directed latent variable models that formulate the joint distribution as $p(x,z) = p(z) p(x \mid z)$ have the advantage of fast and exact sampling. However, these models have the weakness of needing to specify $p(z)$, often with a simple fixed prior that limits the expressiveness of the model. Undirected latent variable models discard the requirement that $p(z)$ be specified with a prior, yet sampling from them generally requires an iterative procedure such as blocked Gibbs-sampling that may require many steps to draw samples from the joint distribution $p(x, z)$. We propose a novel approach to learning the joint distribution between the data and a latent code which uses an adversarially learned iterative procedure to gradually refine the joint distribution, $p(x, z)$, to better match with the data distribution on each step. GibbsNet is the best of both worlds both in theory and in practice. Achieving the speed and simplicity of a directed latent variable model, it is guaranteed (assuming the adversarial game reaches the virtual training criteria global minimum) to produce samples from $p(x, z)$ with only a few sampling iterations. Achieving the expressiveness and flexibility of an undirected latent variable model, GibbsNet does away with the need for an explicit $p(z)$ and has the ability to do attribute prediction, class-conditional generation, and joint image-attribute modeling in a single model which is not trained for any of these specific tasks. We show empirically that GibbsNet is able to learn a more complex $p(z)$ and show that this leads to improved inpainting and iterative refinement of $p(x, z)$ for dozens of steps and stable generation without collapse for thousands of steps, despite being trained on only a few steps.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-12T04:16:52Z</published>
+    <arxiv:comment>NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Yaroslav Ganin</name>
+    </author>
+    <author>
+      <name>Joseph Paul Cohen</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01442v1</id>
+    <title>ObamaNet: Photo-realistic lip-sync from text</title>
+    <updated>2017-12-06T16:18:31Z</updated>
+    <link href="https://arxiv.org/abs/1801.01442v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.01442v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present ObamaNet, the first architecture that generates both audio and synchronized photo-realistic lip-sync videos from any new text. Contrary to other published lip-sync approaches, ours is only composed of fully trainable neural modules and does not rely on any traditional computer graphics methods. More precisely, we use three main modules: a text-to-speech network based on Char2Wav, a time-delayed LSTM to generate mouth-keypoints synced to the audio, and a network based on Pix2Pix to generate the video frames conditioned on the keypoints.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-06T16:18:31Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Rithesh Kumar</name>
+    </author>
+    <author>
+      <name>Jose Sotelo</name>
+    </author>
+    <author>
+      <name>Kundan Kumar</name>
+    </author>
+    <author>
+      <name>Alexandre de Brebisson</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11561v1</id>
+    <title>Measuring the tendency of CNNs to Learn Surface Statistical Regularities</title>
+    <updated>2017-11-30T18:30:49Z</updated>
+    <link href="https://arxiv.org/abs/1711.11561v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.11561v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep CNNs are known to exhibit the following peculiarity: on the one hand they generalize extremely well to a test set, while on the other hand they are extremely sensitive to so-called adversarial perturbations. The extreme sensitivity of high performance CNNs to adversarial examples casts serious doubt that these networks are learning high level abstractions in the dataset. We are concerned with the following question: How can a deep CNN that does not learn any high level semantics of the dataset manage to generalize so well? The goal of this article is to measure the tendency of CNNs to learn surface statistical regularities of the dataset. To this end, we use Fourier filtering to construct datasets which share the exact same high level abstractions but exhibit qualitatively different surface statistical regularities. For the SVHN and CIFAR-10 datasets, we present two Fourier filtered variants: a low frequency variant and a randomly filtered variant. Each of the Fourier filtering schemes is tuned to preserve the recognizability of the objects. Our main finding is that CNNs exhibit a tendency to latch onto the Fourier image statistics of the training dataset, sometimes exhibiting up to a 28% generalization gap across the various test sets. Moreover, we observe that significantly increasing the depth of a network has a very marginal impact on closing the aforementioned generalization gap. Thus we provide quantitative evidence supporting the hypothesis that deep CNNs tend to learn surface statistical regularities in the dataset rather than higher-level abstract concepts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T18:30:49Z</published>
+    <arxiv:comment>Submitted</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jason Jo</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.10462v1</id>
+    <title>Plan, Attend, Generate: Planning for Sequence-to-Sequence Models</title>
+    <updated>2017-11-28T18:50:05Z</updated>
+    <link href="https://arxiv.org/abs/1711.10462v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.10462v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the integration of a planning mechanism into sequence-to-sequence models using attention. We develop a model which can plan ahead in the future when it computes its alignments between input and output sequences, constructing a matrix of proposed future alignments and a commitment vector that governs whether to follow or recompute the plan. This mechanism is inspired by the recently proposed strategic attentive reader and writer (STRAW) model for Reinforcement Learning. Our proposed model is end-to-end trainable using primarily differentiable operations. We show that it outperforms a strong baseline on character-level translation tasks from WMT'15, the algorithmic task of finding Eulerian circuits of graphs, and question generation from the text. Our analysis demonstrates that the model computes qualitatively intuitive alignments, converges faster than the baselines, and achieves superior performance with fewer parameters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-28T18:50:05Z</published>
+    <arxiv:comment>NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Francis Dutil</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Adam Trischler</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.08416v2</id>
+    <title>Equivalence of Equilibrium Propagation and Recurrent Backpropagation</title>
+    <updated>2018-05-22T18:19:12Z</updated>
+    <link href="https://arxiv.org/abs/1711.08416v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.08416v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent Backpropagation and Equilibrium Propagation are supervised learning algorithms for fixed point recurrent neural networks which differ in their second phase. In the first phase, both algorithms converge to a fixed point which corresponds to the configuration where the prediction is made. In the second phase, Equilibrium Propagation relaxes to another nearby fixed point corresponding to smaller prediction error, whereas Recurrent Backpropagation uses a side network to compute error derivatives iteratively. In this work we establish a close connection between these two algorithms. We show that, at every moment in the second phase, the temporal derivatives of the neural activities in Equilibrium Propagation are equal to the error derivatives computed iteratively by Recurrent Backpropagation in the side network. This work shows that it is not required to have a side network for the computation of error derivatives, and supports the hypothesis that, in biological neural networks, temporal derivatives of neural activities may code for error signals.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-22T17:49:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Scellier</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.05717v1</id>
+    <title>Variational Bi-LSTMs</title>
+    <updated>2017-11-15T18:30:05Z</updated>
+    <link href="https://arxiv.org/abs/1711.05717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.05717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent neural networks like long short-term memory (LSTM) are important architectures for sequential prediction tasks. LSTMs (and RNNs in general) model sequences along the forward time direction. Bidirectional LSTMs (Bi-LSTMs) on the other hand model sequences along both forward and backward directions and are generally known to perform better at such tasks because they capture a richer representation of the data. In the training of Bi-LSTMs, the forward and backward paths are learned independently. We propose a variant of the Bi-LSTM architecture, which we call Variational Bi-LSTM, that creates a channel between the two paths (during training, but which may be omitted during inference); thus optimizing the two paths jointly. We arrive at this joint objective for our model by minimizing a variational lower bound of the joint likelihood of the data sequence. Our model acts as a regularizer and encourages the two networks to inform each other in making their respective predictions using distinct information. We perform ablation studies to better understand the different components of our model and evaluate the method on various benchmarks, showing state-of-the-art performance.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-15T18:30:05Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Samira Shabanian</name>
+    </author>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Adam Trischler</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.05411v2</id>
+    <title>Z-Forcing: Training Stochastic Recurrent Networks</title>
+    <updated>2017-11-16T05:10:54Z</updated>
+    <link href="https://arxiv.org/abs/1711.05411v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.05411v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many efforts have been devoted to training generative latent variable models with autoregressive decoders, such as recurrent neural networks (RNN). Stochastic recurrent models have been successful in capturing the variability observed in natural sequential data such as speech. We unify successful ideas from recently proposed architectures into a stochastic recurrent model: each step in the sequence is associated with a latent variable that is used to condition the recurrent dynamics for future steps. Training is performed with amortized variational inference where the approximate posterior is augmented with a RNN that runs backward through the sequence. In addition to maximizing the variational lower bound, we ease training of the latent variables by adding an auxiliary cost which forces them to reconstruct the state of the backward recurrent network. This provides the latent variables with a task-independent objective that enhances the performance of the overall model. We found this strategy to perform better than alternative approaches such as KL annealing. Although being conceptually simple, our model achieves state-of-the-art results on standard speech benchmarks such as TIMIT and Blizzard and competitive performance on sequential MNIST. Finally, we apply our model to language modeling on the IMDB dataset where the auxiliary cost helps in learning interpretable latent variables. Source Code: \url{https://github.com/anirudh9119/zforcing_nips17}</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-15T05:16:49Z</published>
+    <arxiv:comment>To appear in NIPS'17</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Alessandro Sordoni</name>
+    </author>
+    <author>
+      <name>Marc-Alexandre Côté</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.04755v1</id>
+    <title>ACtuAL: Actor-Critic Under Adversarial Learning</title>
+    <updated>2017-11-13T18:49:06Z</updated>
+    <link href="https://arxiv.org/abs/1711.04755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.04755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Adversarial Networks (GANs) are a powerful framework for deep generative modeling. Posed as a two-player minimax problem, GANs are typically trained end-to-end on real-valued data and can be used to train a generator of high-dimensional and realistic images. However, a major limitation of GANs is that training relies on passing gradients from the discriminator through the generator via back-propagation. This makes it fundamentally difficult to train GANs with discrete data, as generation in this case typically involves a non-differentiable function. These difficulties extend to the reinforcement learning setting when the action space is composed of discrete decisions. We address these issues by reframing the GAN framework so that the generator is no longer trained using gradients through the discriminator, but is instead trained using a learned critic in the actor-critic framework with a Temporal Difference (TD) objective. This is a natural fit for sequence modeling and we use it to achieve improvements on language modeling tasks over the standard Teacher-Forcing methods.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-13T18:49:06Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>R Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Chris Pal</name>
+    </author>
+    <author>
+      <name>Joelle Pineau</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.04623v3</id>
+    <title>Three Factors Influencing Minima in SGD</title>
+    <updated>2018-09-13T09:29:55Z</updated>
+    <link href="https://arxiv.org/abs/1711.04623v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.04623v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the dynamical and convergent properties of stochastic gradient descent (SGD) applied to Deep Neural Networks (DNNs). Characterizing the relation between learning rate, batch size and the properties of the final minima, such as width or generalization, remains an open question. In order to tackle this problem we investigate the previously proposed approximation of SGD by a stochastic differential equation (SDE). We theoretically argue that three factors - learning rate, batch size and gradient covariance - influence the minima found by SGD. In particular we find that the ratio of learning rate to batch size is a key determinant of SGD dynamics and of the width of the final minima, and that higher values of the ratio lead to wider minima and often better generalization. We confirm these findings experimentally. Further, we include experiments which show that learning rate schedules can be replaced with batch size schedules and that the ratio of learning rate to batch size is an important factor influencing the memorization process.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-13T15:11:56Z</published>
+    <arxiv:comment>First two authors contributed equally. Short version accepted into ICLR workshop. Accepted to Artificial Neural Networks and Machine Learning, ICANN 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Stanisław Jastrzębski</name>
+    </author>
+    <author>
+      <name>Zachary Kenton</name>
+    </author>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Asja Fischer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Amos Storkey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.02326v1</id>
+    <title>Sparse Attentive Backtracking: Long-Range Credit Assignment in Recurrent Networks</title>
+    <updated>2017-11-07T07:52:12Z</updated>
+    <link href="https://arxiv.org/abs/1711.02326v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.02326v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A major drawback of backpropagation through time (BPTT) is the difficulty of learning long-term dependencies, coming from having to propagate credit information backwards through every single step of the forward computation. This makes BPTT both computationally impractical and biologically implausible. For this reason, full backpropagation through time is rarely used on long sequences, and truncated backpropagation through time is used as a heuristic. However, this usually leads to biased estimates of the gradient in which longer term dependencies are ignored. Addressing this issue, we propose an alternative algorithm, Sparse Attentive Backtracking, which might also be related to principles used by brains to learn long-term dependencies. Sparse Attentive Backtracking learns an attention mechanism over the hidden states of the past and selectively backpropagates through paths with high attention weights. This allows the model to learn long term dependencies while only backtracking for a small number of time steps, not just from the recent past but also from attended relevant past states.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-07T07:52:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Olexa Bilaniuk</name>
+    </author>
+    <author>
+      <name>Jonathan Binas</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Chris Pal</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.02282v1</id>
+    <title>Variational Walkback: Learning a Transition Operator as a Stochastic Recurrent Net</title>
+    <updated>2017-11-07T04:45:13Z</updated>
+    <link href="https://arxiv.org/abs/1711.02282v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.02282v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel method to directly learn a stochastic transition operator whose repeated application provides generated samples. Traditional undirected graphical models approach this problem indirectly by learning a Markov chain model whose stationary distribution obeys detailed balance with respect to a parameterized energy function. The energy function is then modified so the model and data distributions match, with no guarantee on the number of steps required for the Markov chain to converge. Moreover, the detailed balance condition is highly restrictive: energy based models corresponding to neural networks must have symmetric weights, unlike biological neural circuits. In contrast, we develop a method for directly learning arbitrarily parameterized transition operators capable of expressing non-equilibrium stationary distributions that violate detailed balance, thereby enabling us to learn more biologically plausible asymmetric neural networks and more general non-energy based dynamical systems. The proposed training objective, which we derive via principled variational methods, encourages the transition operator to "walk back" in multi-step trajectories that start at data-points, as quickly as possible back to the original data points. We present a series of experimental results illustrating the soundness of the proposed approach, Variational Walkback (VW), on the MNIST, CIFAR-10, SVHN and CelebA datasets, demonstrating superior samples compared to earlier attempts to learn a transition operator. We also show that although each rapid training trajectory is limited to a finite but variable number of steps, our transition operator continues to generate good samples well past the length of such trajectories, thereby demonstrating the match of its non-equilibrium stationary distribution to the data distribution. Source Code: http://github.com/anirudh9119/walkback_nips17</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-07T04:45:13Z</published>
+    <arxiv:comment>To appear at NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Nan Rosemary Ke</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.01437v2</id>
+    <title>Monaural Singing Voice Separation with Skip-Filtering Connections and Recurrent Inference of Time-Frequency Mask</title>
+    <updated>2018-02-13T10:26:50Z</updated>
+    <link href="https://arxiv.org/abs/1711.01437v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.01437v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Singing voice separation based on deep learning relies on the usage of time-frequency masking. In many cases the masking process is not a learnable function or is not encapsulated into the deep learning optimization. Consequently, most of the existing methods rely on a post processing step using the generalized Wiener filtering. This work proposes a method that learns and optimizes (during training) a source-dependent mask and does not need the aforementioned post processing step. We introduce a recurrent inference algorithm, a sparse transformation step to improve the mask generation process, and a learned denoising filter. Obtained results show an increase of 0.49 dB for the signal to distortion ratio and 0.30 dB for the signal to interference ratio, compared to previous state-of-the-art approaches for monaural singing voice separation.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-04T13:46:10Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Stylianos Ioannis Mimilakis</name>
+    </author>
+    <author>
+      <name>Konstantinos Drossos</name>
+    </author>
+    <author>
+      <name>João F. Santos</name>
+    </author>
+    <author>
+      <name>Gerald Schuller</name>
+    </author>
+    <author>
+      <name>Tuomas Virtanen</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.00066v4</id>
+    <title>Fraternal Dropout</title>
+    <updated>2018-03-28T15:50:58Z</updated>
+    <link href="https://arxiv.org/abs/1711.00066v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.00066v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent neural networks (RNNs) are important class of architectures among neural networks useful for language modeling and sequential prediction. However, optimizing RNNs is known to be harder compared to feed-forward neural networks. A number of techniques have been proposed in literature to address this problem. In this paper we propose a simple technique called fraternal dropout that takes advantage of dropout to achieve this goal. Specifically, we propose to train two identical copies of an RNN (that share parameters) with different dropout masks while minimizing the difference between their (pre-softmax) predictions. In this way our regularization encourages the representations of RNNs to be invariant to dropout mask, thus being robust. We show that our regularization term is upper bounded by the expectation-linear dropout objective which has been shown to address the gap due to the difference between the train and inference phases of dropout. We evaluate our model and achieve state-of-the-art results in sequence modeling tasks on two benchmark datasets - Penn Treebank and Wikitext-2. We also show that our approach leads to performance improvement by a significant margin in image captioning (Microsoft COCO) and semi-supervised (CIFAR-10) tasks.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-31T19:32:45Z</published>
+    <arxiv:comment>Accepted to ICLR 2018. Extended appendix. Added official GitHub code for replication: https://github.com/kondiz/fraternal-dropout . Added references. Corrected typos</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Konrad Zolna</name>
+    </author>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Dendi Suhubdy</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.10903v3</id>
+    <title>Graph Attention Networks</title>
+    <updated>2018-02-04T19:13:29Z</updated>
+    <link href="https://arxiv.org/abs/1710.10903v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.10903v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-the-art results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-30T12:41:12Z</published>
+    <arxiv:comment>To appear at ICLR 2018. 12 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Petar Veličković</name>
+    </author>
+    <author>
+      <name>Guillem Cucurull</name>
+    </author>
+    <author>
+      <name>Arantxa Casanova</name>
+    </author>
+    <author>
+      <name>Adriana Romero</name>
+    </author>
+    <author>
+      <name>Pietro Liò</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.07300v2</id>
+    <title>FigureQA: An Annotated Figure Dataset for Visual Reasoning</title>
+    <updated>2018-02-22T22:50:42Z</updated>
+    <link href="https://arxiv.org/abs/1710.07300v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.07300v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce FigureQA, a visual reasoning corpus of over one million question-answer pairs grounded in over 100,000 images. The images are synthetic, scientific-style figures from five classes: line plots, dot-line plots, vertical and horizontal bar graphs, and pie charts. We formulate our reasoning task by generating questions from 15 templates; questions concern various relationships between plot elements and examine characteristics like the maximum, the minimum, area-under-the-curve, smoothness, and intersection. To resolve, such questions often require reference to multiple plot elements and synthesis of information distributed spatially throughout a figure. To facilitate the training of machine learning systems, the corpus also includes side data that can be used to formulate auxiliary objectives. In particular, we provide the numerical data used to generate each figure as well as bounding-box annotations for all plot elements. We study the proposed visual reasoning task by training several models, including the recently proposed Relation Network as a strong baseline. Preliminary results indicate that the task poses a significant machine learning challenge. We envision FigureQA as a first step towards developing models that can intuitively recognize patterns from visual representations of data.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-19T18:01:38Z</published>
+    <arxiv:comment>workshop paper at ICLR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Samira Ebrahimi Kahou</name>
+    </author>
+    <author>
+      <name>Vincent Michalski</name>
+    </author>
+    <author>
+      <name>Adam Atkinson</name>
+    </author>
+    <author>
+      <name>Akos Kadar</name>
+    </author>
+    <author>
+      <name>Adam Trischler</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05468v9</id>
+    <title>Generalization in Deep Learning</title>
+    <updated>2023-08-22T03:04:22Z</updated>
+    <link href="https://arxiv.org/abs/1710.05468v9" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05468v9" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper provides theoretical insights into why and how deep learning can generalize well, despite its large capacity, complexity, possible algorithmic instability, nonrobustness, and sharp minima, responding to an open question in the literature. We also discuss approaches to provide non-vacuous generalization guarantees for deep learning. Based on theoretical observations, we propose new open problems and discuss the limitations of our results.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T02:21:24Z</published>
+    <arxiv:comment>Published by Cambridge University Press. BibTeX of this paper is available at: https://people.csail.mit.edu/kawaguch/bibtex.html</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>In Mathematical Aspects of Deep Learning. Cambridge University Press, 2022</arxiv:journal_ref>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Leslie Pack Kaelbling</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <arxiv:doi>10.1017/9781009025096.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/9781009025096.003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05050v1</id>
+    <title>Learning Independent Features with Adversarial Nets for Non-linear ICA</title>
+    <updated>2017-10-13T18:29:56Z</updated>
+    <link href="https://arxiv.org/abs/1710.05050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable measures of statistical dependence could be useful tools for learning independent features and performing tasks like source separation using Independent Component Analysis (ICA). Unfortunately, many of such measures, like the mutual information, are hard to estimate and optimize directly. We propose to learn independent features with adversarial objectives which optimize such measures implicitly. These objectives compare samples from the joint distribution and the product of the marginals without the need to compute any probability densities. We also propose two methods for obtaining samples from the product of the marginals using either a simple resampling trick or a separate parametric distribution. Our experiments show that this strategy can easily be applied to different types of model architectures and solve both linear and non-linear ICA problems.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-13T18:29:56Z</published>
+    <arxiv:comment>A preliminary version of this work was presented at the ICML 2017 workshop on implicit models</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Philemon Brakel</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.04773v2</id>
+    <title>Residual Connections Encourage Iterative Inference</title>
+    <updated>2018-03-08T18:45:27Z</updated>
+    <link href="https://arxiv.org/abs/1710.04773v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.04773v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Residual networks (Resnets) have become a prominent architecture in deep learning. However, a comprehensive understanding of Resnets is still a topic of ongoing research.
+  A recent view argues that Resnets perform iterative refinement of features. We attempt to further expose properties of this aspect. To this end, we study Resnets both analytically and empirically. We formalize the notion of iterative refinement in Resnets by showing that residual connections naturally encourage features of residual blocks to move along the negative gradient of loss as we go from one block to the next. In addition, our empirical analysis suggests that Resnets are able to perform both representation learning and iterative refinement. In general, a Resnet block tends to concentrate representation learning behavior in the first few layers while higher layers perform iterative refinement of features. Finally we observe that sharing residual layers naively leads to representation explosion and counterintuitively, overfitting, and we show that simple existing strategies can help alleviating this problem.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-13T01:39:32Z</published>
+    <arxiv:comment>First two authors contributed equally. Published in ICLR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Stanisław Jastrzębski</name>
+    </author>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Vikas Verma</name>
+    </author>
+    <author>
+      <name>Tong Che</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+</feed>

@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 
 import requests
 from tqdm import tqdm
@@ -32,10 +32,8 @@ USER_AGENTS = [
     "Gecko/20100101 Firefox/122.0",
 ]
 RETRY_DELAYS = [5, 15, 30]
-API_SLEEP_MIN = 4.0
-API_SLEEP_MAX = 8.0
-HTML_SLEEP_MIN = 1.1
-HTML_SLEEP_MAX = 3.3
+ARXIV_REQUEST_DELAY_MIN = 3.1
+ARXIV_REQUEST_DELAY_MAX = 6.9
 
 NAMESPACES = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -66,6 +64,29 @@ class Entry:
     authors: list[str]
 
 
+@dataclass
+class RateLimiter:
+    min_delay: float
+    max_delay: float
+    last_request_at: float | None = None
+
+    def wait(self) -> None:
+        if self.last_request_at is None:
+            self.last_request_at = time.monotonic()
+            return
+        target_delay = random.uniform(self.min_delay, self.max_delay)
+        elapsed = time.monotonic() - self.last_request_at
+        if elapsed < target_delay:
+            time.sleep(target_delay - elapsed)
+        self.last_request_at = time.monotonic()
+
+
+ARXIV_RATE_LIMITER = RateLimiter(
+    min_delay=ARXIV_REQUEST_DELAY_MIN,
+    max_delay=ARXIV_REQUEST_DELAY_MAX,
+)
+
+
 def build_api_url(
     last_name: str,
     first_name: str,
@@ -94,6 +115,11 @@ def build_headers(referer: str | None = None, accept: str | None = None) -> dict
     return headers
 
 
+def is_arxiv_url(url: str) -> bool:
+    host = urlparse(url).hostname or ""
+    return host == "arxiv.org" or host.endswith(".arxiv.org")
+
+
 def fetch_text(
     session: requests.Session,
     url: str,
@@ -107,6 +133,8 @@ def fetch_text(
     max_attempts = len(delays) + 1
     for attempt in range(1, max_attempts + 1):
         try:
+            if is_arxiv_url(url):
+                ARXIV_RATE_LIMITER.wait()
             headers = build_headers(referer, accept)
             response = session.get(url, headers=headers, timeout=30)
             if 500 <= response.status_code <= 599:
@@ -174,13 +202,6 @@ def safe_write_text(path: Path, text: str) -> None:
     tmp_path = path.with_suffix(path.suffix + ".tmp")
     tmp_path.write_text(text, encoding="utf-8")
     tmp_path.replace(path)
-
-
-def rand_sleep(min_seconds: float, max_seconds: float) -> None:
-    if max_seconds < min_seconds:
-        min_seconds, max_seconds = max_seconds, min_seconds
-    delay = random.uniform(min_seconds, max_seconds)
-    time.sleep(delay)
 
 
 def sanitize_id(arxiv_id: str) -> str:
@@ -267,10 +288,6 @@ def download_author(
     first_name: str,
     *,
     root: Path,
-    api_sleep_min: float = API_SLEEP_MIN,
-    api_sleep_max: float = API_SLEEP_MAX,
-    html_sleep_min: float = HTML_SLEEP_MIN,
-    html_sleep_max: float = HTML_SLEEP_MAX,
     max_request_seconds: float | None = None,
     max_total_seconds: float | None = None,
     retry_delays: list[int] | None = None,
@@ -292,7 +309,6 @@ def download_author(
         while True:
             api_pages += 1
             api_path = api_dir / f"page-{api_pages}.xml"
-            api_fetched = False
             parsed = load_api_page(api_path)
 
             if parsed is None:
@@ -311,7 +327,6 @@ def download_author(
                         f"API request exceeded {max_request_seconds:.1f}s: {api_url}"
                     )
                 safe_write_text(api_path, api_xml)
-                api_fetched = True
                 try:
                     parsed = parse_api_feed(api_xml)
                 except ET.ParseError as exc:
@@ -363,8 +378,6 @@ def download_author(
                         )
 
                     safe_write_text(html_path, html)
-                    rand_sleep(html_sleep_min, html_sleep_max)
-
             start += PAGE_SIZE
             if total_results and start >= total_results:
                 break
@@ -375,9 +388,6 @@ def download_author(
                     raise SlowDownloadError(
                         f"Author exceeded {max_total_seconds:.1f}s total"
                     )
-
-            if api_fetched:
-                rand_sleep(api_sleep_min, api_sleep_max)
 
     if bar is not None:
         bar.close()
