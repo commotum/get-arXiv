@@ -292,6 +292,7 @@ def download_author(
         while True:
             api_pages += 1
             api_path = api_dir / f"page-{api_pages}.xml"
+            api_fetched = False
             parsed = load_api_page(api_path)
 
             if parsed is None:
@@ -310,6 +311,7 @@ def download_author(
                         f"API request exceeded {max_request_seconds:.1f}s: {api_url}"
                     )
                 safe_write_text(api_path, api_xml)
+                api_fetched = True
                 try:
                     parsed = parse_api_feed(api_xml)
                 except ET.ParseError as exc:
@@ -374,7 +376,8 @@ def download_author(
                         f"Author exceeded {max_total_seconds:.1f}s total"
                     )
 
-            rand_sleep(api_sleep_min, api_sleep_max)
+            if api_fetched:
+                rand_sleep(api_sleep_min, api_sleep_max)
 
     if bar is not None:
         bar.close()
