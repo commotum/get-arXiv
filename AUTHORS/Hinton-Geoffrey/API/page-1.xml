@@ -1,0 +1,2169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Z2xztUEZ2sD2rbII3YWOw678YhY</id>
+  <title>arXiv Query: search_query=au:"Geoffrey Hinton"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T23:08:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Geoffrey+Hinton%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>57</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19863v1</id>
+    <title>International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management</title>
+    <updated>2025-11-25T03:12:56Z</updated>
+    <link href="https://arxiv.org/abs/2511.19863v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19863v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This second update to the 2025 International AI Safety Report assesses new developments in general-purpose AI risk management over the past year. It examines how researchers, public institutions, and AI developers are approaching risk management for general-purpose AI. In recent months, for example, three leading AI developers applied enhanced safeguards to their new models, as their internal pre-deployment testing could not rule out the possibility that these models could be misused to help create biological weapons. Beyond specific precautionary measures, there have been a range of other advances in techniques for making AI models and systems more reliable and resistant to misuse. These include new approaches in adversarial training, data curation, and monitoring systems. In parallel, institutional frameworks that operationalise and formalise these technical capabilities are starting to emerge: the number of companies publishing Frontier AI Safety Frameworks more than doubled in 2025, and governments and international organisations have established a small number of governance frameworks for general-purpose AI, focusing largely on transparency and risk assessment.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T03:12:56Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stephen Clare</name>
+    </author>
+    <author>
+      <name>Carina Prunkl</name>
+    </author>
+    <author>
+      <name>Maksym Andriushchenko</name>
+    </author>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Philip Fox</name>
+    </author>
+    <author>
+      <name>Nestor Maslej</name>
+    </author>
+    <author>
+      <name>Conor McGlynn</name>
+    </author>
+    <author>
+      <name>Malcolm Murray</name>
+    </author>
+    <author>
+      <name>Shalaleh Rismani</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Jessica Newman</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daron Acemoglu</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Fredrik Heintz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Susan Leavy</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John McDermid</name>
+    </author>
+    <author>
+      <name>Jane Munga</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Clara Neppel</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Alavaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Leandro Aguirre</name>
+    </author>
+    <author>
+      <name>Olubunmi Ajala</name>
+    </author>
+    <author>
+      <name>Fahad Albalawi</name>
+    </author>
+    <author>
+      <name>Noora AlMalek</name>
+    </author>
+    <author>
+      <name>Christian Busch</name>
+    </author>
+    <author>
+      <name>André Carvalho</name>
+    </author>
+    <author>
+      <name>Jonathan Collas</name>
+    </author>
+    <author>
+      <name>Amandeep Gill</name>
+    </author>
+    <author>
+      <name>Ahmet Hatip</name>
+    </author>
+    <author>
+      <name>Juha Heikkilä</name>
+    </author>
+    <author>
+      <name>Chris Johnson</name>
+    </author>
+    <author>
+      <name>Gill Jolly</name>
+    </author>
+    <author>
+      <name>Ziv Katzir</name>
+    </author>
+    <author>
+      <name>Mary Kerema</name>
+    </author>
+    <author>
+      <name>Hiroaki Kitano</name>
+    </author>
+    <author>
+      <name>Antonio Krüger</name>
+    </author>
+    <author>
+      <name>Aoife McLysaght</name>
+    </author>
+    <author>
+      <name>Oleksii Molchanovskyi</name>
+    </author>
+    <author>
+      <name>Andrea Monti</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+    <author>
+      <name>Mona Nemer</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+    <author>
+      <name>Raquel Pezoa</name>
+    </author>
+    <author>
+      <name>Audrey Plonk</name>
+    </author>
+    <author>
+      <name>José Portillo</name>
+    </author>
+    <author>
+      <name>Balaraman Ravindran</name>
+    </author>
+    <author>
+      <name>Hammam Riza</name>
+    </author>
+    <author>
+      <name>Crystal Rugege</name>
+    </author>
+    <author>
+      <name>Haroon Sheikh</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Liming Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13653v1</id>
+    <title>International AI Safety Report 2025: First Key Update: Capabilities and Risk Implications</title>
+    <updated>2025-10-15T15:13:49Z</updated>
+    <link href="https://arxiv.org/abs/2510.13653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the publication of the first International AI Safety Report, AI capabilities have continued to improve across key domains. New training techniques that teach AI systems to reason step-by-step and inference-time enhancements have primarily driven these advances, rather than simply training larger models. As a result, general-purpose AI systems can solve more complex problems in a range of domains, from scientific research to software development. Their performance on benchmarks that measure performance in coding, mathematics, and answering expert-level science questions has continued to improve, though reliability challenges persist, with systems excelling on some tasks while failing completely on others. These capability improvements also have implications for multiple risks, including risks from biological weapons and cyber attacks. Finally, they pose new challenges for monitoring and controllability. This update examines how AI capabilities have improved since the first Report, then focuses on key risk areas where substantial new evidence warrants updated assessments.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T15:13:49Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stephen Clare</name>
+    </author>
+    <author>
+      <name>Carina Prunkl</name>
+    </author>
+    <author>
+      <name>Shalaleh Rismani</name>
+    </author>
+    <author>
+      <name>Maksym Andriushchenko</name>
+    </author>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Philip Fox</name>
+    </author>
+    <author>
+      <name>Tiancheng Hu</name>
+    </author>
+    <author>
+      <name>Cameron Jones</name>
+    </author>
+    <author>
+      <name>Sam Manning</name>
+    </author>
+    <author>
+      <name>Nestor Maslej</name>
+    </author>
+    <author>
+      <name>Vasilios Mavroudis</name>
+    </author>
+    <author>
+      <name>Conor McGlynn</name>
+    </author>
+    <author>
+      <name>Malcolm Murray</name>
+    </author>
+    <author>
+      <name>Charlotte Stix</name>
+    </author>
+    <author>
+      <name>Lucia Velasco</name>
+    </author>
+    <author>
+      <name>Nicole Wheeler</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daron Acemoglu</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Fredrik Heintz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Susan Leavy</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John McDermid</name>
+    </author>
+    <author>
+      <name>Jane Munga</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Clara Neppel</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Alavaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Leandro Aguirre</name>
+    </author>
+    <author>
+      <name>Olubunmi Ajala</name>
+    </author>
+    <author>
+      <name>Fahad Albalawi Noora AlMalek</name>
+    </author>
+    <author>
+      <name>Christian Busch</name>
+    </author>
+    <author>
+      <name>André Carvalho</name>
+    </author>
+    <author>
+      <name>Jonathan Collas</name>
+    </author>
+    <author>
+      <name>Amandeep Gill</name>
+    </author>
+    <author>
+      <name>Ahmet Hatip</name>
+    </author>
+    <author>
+      <name>Juha Heikkilä</name>
+    </author>
+    <author>
+      <name>Chris Johnson</name>
+    </author>
+    <author>
+      <name>Gill Jolly</name>
+    </author>
+    <author>
+      <name>Ziv Katzir</name>
+    </author>
+    <author>
+      <name>Mary Kerema</name>
+    </author>
+    <author>
+      <name>Hiroaki Kitano</name>
+    </author>
+    <author>
+      <name>Antonio Krüger</name>
+    </author>
+    <author>
+      <name>Aoife McLysaght</name>
+    </author>
+    <author>
+      <name>Oleksii Molchanovskyi</name>
+    </author>
+    <author>
+      <name>Andrea Monti</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+    <author>
+      <name>Mona Nemer</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+    <author>
+      <name>Raquel Pezoa</name>
+    </author>
+    <author>
+      <name>Audrey Plonk</name>
+    </author>
+    <author>
+      <name>José Portillo</name>
+    </author>
+    <author>
+      <name>Balaraman Ravindran</name>
+    </author>
+    <author>
+      <name>Hammam Riza</name>
+    </author>
+    <author>
+      <name>Crystal Rugege</name>
+    </author>
+    <author>
+      <name>Haroon Sheikh</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Liming Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.17805v1</id>
+    <title>International AI Safety Report</title>
+    <updated>2025-01-29T17:47:36Z</updated>
+    <link href="https://arxiv.org/abs/2501.17805v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.17805v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first International AI Safety Report comprehensively synthesizes the current evidence on the capabilities, risks, and safety of advanced AI systems. The report was mandated by the nations attending the AI Safety Summit in Bletchley, UK. Thirty nations, the UN, the OECD, and the EU each nominated a representative to the report's Expert Advisory Panel. A total of 100 AI experts contributed, representing diverse perspectives and disciplines. Led by the report's Chair, these independent experts collectively had full discretion over the report's content.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-29T17:47:36Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Daniel Privitera</name>
+    </author>
+    <author>
+      <name>Tamay Besiroglu</name>
+    </author>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Philip Fox</name>
+    </author>
+    <author>
+      <name>Ben Garfinkel</name>
+    </author>
+    <author>
+      <name>Danielle Goldfarb</name>
+    </author>
+    <author>
+      <name>Hoda Heidari</name>
+    </author>
+    <author>
+      <name>Anson Ho</name>
+    </author>
+    <author>
+      <name>Sayash Kapoor</name>
+    </author>
+    <author>
+      <name>Leila Khalatbari</name>
+    </author>
+    <author>
+      <name>Shayne Longpre</name>
+    </author>
+    <author>
+      <name>Sam Manning</name>
+    </author>
+    <author>
+      <name>Vasilios Mavroudis</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Julian Michael</name>
+    </author>
+    <author>
+      <name>Jessica Newman</name>
+    </author>
+    <author>
+      <name>Kwan Yee Ng</name>
+    </author>
+    <author>
+      <name>Chinasa T. Okolo</name>
+    </author>
+    <author>
+      <name>Deborah Raji</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Elizabeth Seger</name>
+    </author>
+    <author>
+      <name>Theodora Skeadas</name>
+    </author>
+    <author>
+      <name>Tobin South</name>
+    </author>
+    <author>
+      <name>Emma Strubell</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Lucia Velasco</name>
+    </author>
+    <author>
+      <name>Nicole Wheeler</name>
+    </author>
+    <author>
+      <name>Daron Acemoglu</name>
+    </author>
+    <author>
+      <name>Olubayo Adekanmbi</name>
+    </author>
+    <author>
+      <name>David Dalrymple</name>
+    </author>
+    <author>
+      <name>Thomas G. Dietterich</name>
+    </author>
+    <author>
+      <name>Edward W. Felten</name>
+    </author>
+    <author>
+      <name>Pascale Fung</name>
+    </author>
+    <author>
+      <name>Pierre-Olivier Gourinchas</name>
+    </author>
+    <author>
+      <name>Fredrik Heintz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Nick Jennings</name>
+    </author>
+    <author>
+      <name>Andreas Krause</name>
+    </author>
+    <author>
+      <name>Susan Leavy</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Teresa Ludermir</name>
+    </author>
+    <author>
+      <name>Vidushi Marda</name>
+    </author>
+    <author>
+      <name>Helen Margetts</name>
+    </author>
+    <author>
+      <name>John McDermid</name>
+    </author>
+    <author>
+      <name>Jane Munga</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Clara Neppel</name>
+    </author>
+    <author>
+      <name>Alice Oh</name>
+    </author>
+    <author>
+      <name>Gopal Ramchurn</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Marietje Schaake</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Alvaro Soto</name>
+    </author>
+    <author>
+      <name>Lee Tiedrich</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Fahad Albalawi</name>
+    </author>
+    <author>
+      <name>Marwan Alserkal</name>
+    </author>
+    <author>
+      <name>Olubunmi Ajala</name>
+    </author>
+    <author>
+      <name>Guillaume Avrin</name>
+    </author>
+    <author>
+      <name>Christian Busch</name>
+    </author>
+    <author>
+      <name>André Carlos Ponce de Leon Ferreira de Carvalho</name>
+    </author>
+    <author>
+      <name>Bronwyn Fox</name>
+    </author>
+    <author>
+      <name>Amandeep Singh Gill</name>
+    </author>
+    <author>
+      <name>Ahmet Halit Hatip</name>
+    </author>
+    <author>
+      <name>Juha Heikkilä</name>
+    </author>
+    <author>
+      <name>Gill Jolly</name>
+    </author>
+    <author>
+      <name>Ziv Katzir</name>
+    </author>
+    <author>
+      <name>Hiroaki Kitano</name>
+    </author>
+    <author>
+      <name>Antonio Krüger</name>
+    </author>
+    <author>
+      <name>Chris Johnson</name>
+    </author>
+    <author>
+      <name>Saif M. Khan</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+    <author>
+      <name>Dominic Vincent Ligot</name>
+    </author>
+    <author>
+      <name>Oleksii Molchanovskyi</name>
+    </author>
+    <author>
+      <name>Andrea Monti</name>
+    </author>
+    <author>
+      <name>Nusu Mwamanzi</name>
+    </author>
+    <author>
+      <name>Mona Nemer</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+    <author>
+      <name>José Ramón López Portillo</name>
+    </author>
+    <author>
+      <name>Balaraman Ravindran</name>
+    </author>
+    <author>
+      <name>Raquel Pezoa Rivera</name>
+    </author>
+    <author>
+      <name>Hammam Riza</name>
+    </author>
+    <author>
+      <name>Crystal Rugege</name>
+    </author>
+    <author>
+      <name>Ciarán Seoighe</name>
+    </author>
+    <author>
+      <name>Jerry Sheehan</name>
+    </author>
+    <author>
+      <name>Haroon Sheikh</name>
+    </author>
+    <author>
+      <name>Denise Wong</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.17688v3</id>
+    <title>Managing extreme AI risks amid rapid progress</title>
+    <updated>2024-05-22T16:19:38Z</updated>
+    <link href="https://arxiv.org/abs/2310.17688v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.17688v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial Intelligence (AI) is progressing rapidly, and companies are shifting their focus to developing generalist AI systems that can autonomously act and pursue goals. Increases in capabilities and autonomy may soon massively amplify AI's impact, with risks that include large-scale social harms, malicious uses, and an irreversible loss of human control over autonomous AI systems. Although researchers have warned of extreme risks from AI, there is a lack of consensus about how exactly such risks arise, and how to manage them. Society's response, despite promising first steps, is incommensurate with the possibility of rapid, transformative progress that is expected by many experts. AI safety research is lagging. Present governance initiatives lack the mechanisms and institutions to prevent misuse and recklessness, and barely address autonomous systems. In this short consensus paper, we describe extreme risks from upcoming, advanced AI systems. Drawing on lessons learned from other safety-critical technologies, we then outline a comprehensive plan combining technical research and development with proactive, adaptive governance mechanisms for a more commensurate preparation.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-26T17:59:06Z</published>
+    <arxiv:comment>Published in Science: https://www.science.org/doi/10.1126/science.adn0117</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Andrew Yao</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Yuval Noah Harari</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Lan Xue</name>
+    </author>
+    <author>
+      <name>Shai Shalev-Shwartz</name>
+    </author>
+    <author>
+      <name>Gillian Hadfield</name>
+    </author>
+    <author>
+      <name>Jeff Clune</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Frank Hutter</name>
+    </author>
+    <author>
+      <name>Atılım Güneş Baydin</name>
+    </author>
+    <author>
+      <name>Sheila McIlraith</name>
+    </author>
+    <author>
+      <name>Qiqi Gao</name>
+    </author>
+    <author>
+      <name>Ashwin Acharya</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+    <author>
+      <name>Anca Dragan</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Daniel Kahneman</name>
+    </author>
+    <author>
+      <name>Jan Brauner</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <arxiv:doi>10.1126/science.adn0117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.adn0117" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.13345v1</id>
+    <title>The Forward-Forward Algorithm: Some Preliminary Investigations</title>
+    <updated>2022-12-27T02:54:46Z</updated>
+    <link href="https://arxiv.org/abs/2212.13345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.13345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this paper is to introduce a new learning procedure for neural networks and to demonstrate that it works well enough on a few small problems to be worth further investigation. The Forward-Forward algorithm replaces the forward and backward passes of backpropagation by two forward passes, one with positive (i.e. real) data and the other with negative data which could be generated by the network itself. Each layer has its own objective function which is simply to have high goodness for positive data and low goodness for negative data. The sum of the squared activities in a layer can be used as the goodness but there are many other possibilities, including minus the sum of the squared activities. If the positive and negative passes could be separated in time, the negative passes could be done offline, which would make the learning much simpler in the positive pass and allow video to be pipelined through the network without ever storing activities or stopping to propagate derivatives.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-27T02:54:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.02475v1</id>
+    <title>Meta-Learning Fast Weight Language Models</title>
+    <updated>2022-12-05T18:37:09Z</updated>
+    <link href="https://arxiv.org/abs/2212.02475v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.02475v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic evaluation of language models (LMs) adapts model parameters at test time using gradient information from previous tokens and substantially improves LM performance. However, it requires over 3x more compute than standard inference. We present Fast Weight Layers (FWLs), a neural component that provides the benefits of dynamic evaluation much more efficiently by expressing gradient updates as linear attention. A key improvement over dynamic evaluation is that FWLs can also be applied at training time so the model learns to make good use of gradient updates. FWLs can easily be added on top of existing transformer models, require relatively little extra compute or memory to run, and significantly improve language modeling perplexity.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-05T18:37:09Z</published>
+    <arxiv:comment>EMNLP 2022 short paper</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kevin Clark</name>
+    </author>
+    <author>
+      <name>Kelvin Guu</name>
+    </author>
+    <author>
+      <name>Ming-Wei Chang</name>
+    </author>
+    <author>
+      <name>Panupong Pasupat</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.16564v1</id>
+    <title>Testing GLOM's ability to infer wholes from ambiguous parts</title>
+    <updated>2022-11-29T19:55:11Z</updated>
+    <link href="https://arxiv.org/abs/2211.16564v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.16564v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The GLOM architecture proposed by Hinton [2021] is a recurrent neural network for parsing an image into a hierarchy of wholes and parts. When a part is ambiguous, GLOM assumes that the ambiguity can be resolved by allowing the part to make multi-modal predictions for the pose and identity of the whole to which it belongs and then using attention to similar predictions coming from other possibly ambiguous parts to settle on a common mode that is predicted by several different parts. In this study, we describe a highly simplified version of GLOM that allows us to assess the effectiveness of this way of dealing with ambiguity. Our results show that, with supervised training, GLOM is able to successfully form islands of very similar embedding vectors for all of the locations occupied by the same object and it is also robust to strong noise injections in the input and to out-of-distribution input transformations.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-29T19:55:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Laura Culp</name>
+    </author>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10318v1</id>
+    <title>Gaussian-Bernoulli RBMs Without Tears</title>
+    <updated>2022-10-19T06:22:55Z</updated>
+    <link href="https://arxiv.org/abs/2210.10318v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.10318v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit the challenging problem of training Gaussian-Bernoulli restricted Boltzmann machines (GRBMs), introducing two innovations. We propose a novel Gibbs-Langevin sampling algorithm that outperforms existing methods like Gibbs sampling. We propose a modified contrastive divergence (CD) algorithm so that one can generate images with GRBMs starting from noise. This enables direct comparison of GRBMs with deep generative models, improving evaluation protocols in the RBM literature. Moreover, we show that modified CD and gradient clipping are enough to robustly train GRBMs with large learning rates, thus removing the necessity of various tricks in the literature. Experiments on Gaussian Mixtures, MNIST, FashionMNIST, and CelebA show GRBMs can generate good samples, despite their single-hidden-layer architecture. Our code is released at: \url{https://github.com/lrjconan/GRBM}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-19T06:22:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Renjie Liao</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Mengye Ren</name>
+    </author>
+    <author>
+      <name>David J. Fleet</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06366v4</id>
+    <title>A Generalist Framework for Panoptic Segmentation of Images and Videos</title>
+    <updated>2023-10-12T22:25:43Z</updated>
+    <link href="https://arxiv.org/abs/2210.06366v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06366v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Panoptic segmentation assigns semantic and instance ID labels to every pixel of an image. As permutations of instance IDs are also valid solutions, the task requires learning of high-dimensional one-to-many mapping. As a result, state-of-the-art approaches use customized architectures and task-specific loss functions. We formulate panoptic segmentation as a discrete data generation problem, without relying on inductive bias of the task. A diffusion model is proposed to model panoptic masks, with a simple architecture and generic loss function. By simply adding past predictions as a conditioning signal, our method is capable of modeling video (in a streaming setting) and thereby learns to track object instances automatically. With extensive experiments, we demonstrate that our simple approach can perform competitively to state-of-the-art specialist methods in similar settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-12T16:18:25Z</published>
+    <arxiv:comment>ICCV'23. Code at https://github.com/google-research/pix2seq</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Lala Li</name>
+    </author>
+    <author>
+      <name>Saurabh Saxena</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>David J. Fleet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.03310v3</id>
+    <title>Scaling Forward Gradient With Local Losses</title>
+    <updated>2023-03-02T03:08:10Z</updated>
+    <link href="https://arxiv.org/abs/2210.03310v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.03310v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forward gradient learning computes a noisy directional gradient and is a biologically plausible alternative to backprop for learning deep neural networks. However, the standard forward gradient algorithm, when applied naively, suffers from high variance when the number of parameters to be learned is large. In this paper, we propose a series of architectural and algorithmic modifications that together make forward gradient learning practical for standard deep learning benchmark tasks. We show that it is possible to substantially reduce the variance of the forward gradient estimator by applying perturbations to activations rather than weights. We further improve the scalability of forward gradient by introducing a large number of local greedy loss functions, each of which involves only a small number of learnable parameters, and a new MLPMixer-inspired architecture, LocalMixer, that is more suitable for local learning. Our approach matches backprop on MNIST and CIFAR-10 and significantly outperforms previously proposed backprop-free algorithms on ImageNet.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-07T03:52:27Z</published>
+    <arxiv:comment>31 pages, ICLR 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mengye Ren</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Renjie Liao</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.04202v2</id>
+    <title>Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning</title>
+    <updated>2023-03-01T00:18:33Z</updated>
+    <link href="https://arxiv.org/abs/2208.04202v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.04202v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Bit Diffusion: a simple and generic approach for generating discrete data with continuous state and continuous time diffusion models. The main idea behind our approach is to first represent the discrete data as binary bits, and then train a continuous diffusion model to model these bits as real numbers which we call analog bits. To generate samples, the model first generates the analog bits, which are then thresholded to obtain the bits that represent the discrete variables. We further propose two simple techniques, namely Self-Conditioning and Asymmetric Time Intervals, which lead to a significant improvement in sample quality. Despite its simplicity, the proposed approach can achieve strong performance in both discrete image generation and image captioning tasks. For discrete image generation, we significantly improve previous state-of-the-art on both CIFAR-10 (which has 3K discrete 8-bit tokens) and ImageNet-64x64 (which has 12K discrete 8-bit tokens), outperforming the best autoregressive model in both sample quality (measured by FID) and efficiency. For image captioning on MS-COCO dataset, our approach achieves competitive results compared to autoregressive models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-08T15:08:40Z</published>
+    <arxiv:comment>ICLR'23</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Ruixiang Zhang</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.07669v2</id>
+    <title>A Unified Sequence Interface for Vision Tasks</title>
+    <updated>2022-10-16T02:41:15Z</updated>
+    <link href="https://arxiv.org/abs/2206.07669v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.07669v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While language tasks are naturally expressed in a single, unified, modeling framework, i.e., generating sequences of tokens, this has not been the case in computer vision. As a result, there is a proliferation of distinct architectures and loss functions for different vision tasks. In this work we show that a diverse set of "core" computer vision tasks can also be unified if formulated in terms of a shared pixel-to-sequence interface. We focus on four tasks, namely, object detection, instance segmentation, keypoint detection, and image captioning, all with diverse types of outputs, e.g., bounding boxes or dense masks. Despite that, by formulating the output of each task as a sequence of discrete tokens with a unified interface, we show that one can train a neural network with a single model architecture and loss function on all these tasks, with no task-specific customization. To solve a specific task, we use a short prompt as task description, and the sequence output adapts to the prompt so it can produce task-specific output. We show that such a model can achieve competitive performance compared to well-established task-specific models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-15T17:08:53Z</published>
+    <arxiv:comment>The first three authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Saurabh Saxena</name>
+    </author>
+    <author>
+      <name>Lala Li</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Lin</name>
+    </author>
+    <author>
+      <name>David J. Fleet</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09723v2</id>
+    <title>Robust and Efficient Medical Imaging with Self-Supervision</title>
+    <updated>2022-07-03T19:28:10Z</updated>
+    <link href="https://arxiv.org/abs/2205.09723v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09723v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress in Medical Artificial Intelligence (AI) has delivered systems that can reach clinical expert level performance. However, such systems tend to demonstrate sub-optimal "out-of-distribution" performance when evaluated in clinical settings different from the training environment. A common mitigation strategy is to develop separate systems for each clinical setting using site-specific data [1]. However, this quickly becomes impractical as medical data is time-consuming to acquire and expensive to annotate [2]. Thus, the problem of "data-efficient generalization" presents an ongoing difficulty for Medical AI development. Although progress in representation learning shows promise, their benefits have not been rigorously studied, specifically for out-of-distribution settings. To meet these challenges, we present REMEDIS, a unified representation learning strategy to improve robustness and data-efficiency of medical imaging AI. REMEDIS uses a generic combination of large-scale supervised transfer learning with self-supervised learning and requires little task-specific customization. We study a diverse range of medical imaging tasks and simulate three realistic application scenarios using retrospective data. REMEDIS exhibits significantly improved in-distribution performance with up to 11.5% relative improvement in diagnostic accuracy over a strong supervised baseline. More importantly, our strategy leads to strong data-efficient generalization of medical imaging AI, matching strong supervised baselines using between 1% to 33% of retraining data across tasks. These results suggest that REMEDIS can significantly accelerate the life-cycle of medical imaging AI development thereby presenting an important step forward for medical imaging AI to deliver broad impact.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-19T17:34:18Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shekoofeh Azizi</name>
+    </author>
+    <author>
+      <name>Laura Culp</name>
+    </author>
+    <author>
+      <name>Jan Freyberg</name>
+    </author>
+    <author>
+      <name>Basil Mustafa</name>
+    </author>
+    <author>
+      <name>Sebastien Baur</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Patricia MacWilliams</name>
+    </author>
+    <author>
+      <name>S. Sara Mahdavi</name>
+    </author>
+    <author>
+      <name>Ellery Wulczyn</name>
+    </author>
+    <author>
+      <name>Boris Babenko</name>
+    </author>
+    <author>
+      <name>Megan Wilson</name>
+    </author>
+    <author>
+      <name>Aaron Loh</name>
+    </author>
+    <author>
+      <name>Po-Hsuan Cameron Chen</name>
+    </author>
+    <author>
+      <name>Yuan Liu</name>
+    </author>
+    <author>
+      <name>Pinal Bavishi</name>
+    </author>
+    <author>
+      <name>Scott Mayer McKinney</name>
+    </author>
+    <author>
+      <name>Jim Winkens</name>
+    </author>
+    <author>
+      <name>Abhijit Guha Roy</name>
+    </author>
+    <author>
+      <name>Zach Beaver</name>
+    </author>
+    <author>
+      <name>Fiona Ryan</name>
+    </author>
+    <author>
+      <name>Justin Krogue</name>
+    </author>
+    <author>
+      <name>Mozziyar Etemadi</name>
+    </author>
+    <author>
+      <name>Umesh Telang</name>
+    </author>
+    <author>
+      <name>Yun Liu</name>
+    </author>
+    <author>
+      <name>Lily Peng</name>
+    </author>
+    <author>
+      <name>Greg S. Corrado</name>
+    </author>
+    <author>
+      <name>Dale R. Webster</name>
+    </author>
+    <author>
+      <name>David Fleet</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Neil Houlsby</name>
+    </author>
+    <author>
+      <name>Alan Karthikesalingam</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+    <author>
+      <name>Vivek Natarajan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.10852v2</id>
+    <title>Pix2seq: A Language Modeling Framework for Object Detection</title>
+    <updated>2022-03-27T14:44:00Z</updated>
+    <link href="https://arxiv.org/abs/2109.10852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.10852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Pix2Seq, a simple and generic framework for object detection. Unlike existing approaches that explicitly integrate prior knowledge about the task, we cast object detection as a language modeling task conditioned on the observed pixel inputs. Object descriptions (e.g., bounding boxes and class labels) are expressed as sequences of discrete tokens, and we train a neural network to perceive the image and generate the desired sequence. Our approach is based mainly on the intuition that if a neural network knows about where and what the objects are, we just need to teach it how to read them out. Beyond the use of task-specific data augmentations, our approach makes minimal assumptions about the task, yet it achieves competitive results on the challenging COCO dataset, compared to highly specialized and well optimized detection algorithms.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-22T17:26:36Z</published>
+    <arxiv:comment>ICLR'22. Code and pretrained models at https://github.com/google-research/pix2seq</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Saurabh Saxena</name>
+    </author>
+    <author>
+      <name>Lala Li</name>
+    </author>
+    <author>
+      <name>David J. Fleet</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.12627v1</id>
+    <title>How to represent part-whole hierarchies in a neural network</title>
+    <updated>2021-02-25T01:51:22Z</updated>
+    <link href="https://arxiv.org/abs/2102.12627v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.12627v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper does not describe a working system. Instead, it presents a single idea about representation which allows advances made by several different groups to be combined into an imaginary system called GLOM. The advances include transformers, neural fields, contrastive representation learning, distillation and capsules. GLOM answers the question: How can a neural network with a fixed architecture parse an image into a part-whole hierarchy which has a different structure for each image? The idea is simply to use islands of identical vectors to represent the nodes in the parse tree. If GLOM can be made to work, it should significantly improve the interpretability of the representations produced by transformer-like systems when applied to vision or language</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-25T01:51:22Z</published>
+    <arxiv:comment>43 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.04718v2</id>
+    <title>Canonical Capsules: Self-Supervised Capsules in Canonical Pose</title>
+    <updated>2021-11-24T19:06:50Z</updated>
+    <link href="https://arxiv.org/abs/2012.04718v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.04718v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a self-supervised capsule architecture for 3D point clouds. We compute capsule decompositions of objects through permutation-equivariant attention, and self-supervise the process by training with pairs of randomly rotated objects. Our key idea is to aggregate the attention masks into semantic keypoints, and use these to supervise a decomposition that satisfies the capsule invariance/equivariance properties. This not only enables the training of a semantically consistent decomposition, but also allows us to learn a canonicalization operation that enables object-centric reasoning. To train our neural network we require neither classification labels nor manually-aligned training datasets. Yet, by learning an object-centric representation in a self-supervised manner, our method outperforms the state-of-the-art on 3D point cloud reconstruction, canonicalization, and unsupervised classification.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-08T20:13:28Z</published>
+    <arxiv:comment>NeurIPS 2021; The first two authors contributed equally; Project website: https://canonical-capsules.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Weiwei Sun</name>
+    </author>
+    <author>
+      <name>Andrea Tagliasacchi</name>
+    </author>
+    <author>
+      <name>Boyang Deng</name>
+    </author>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Soroosh Yazdani</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Kwang Moo Yi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.13920v2</id>
+    <title>Unsupervised part representation by Flow Capsules</title>
+    <updated>2021-02-19T18:07:46Z</updated>
+    <link href="https://arxiv.org/abs/2011.13920v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.13920v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Capsule networks aim to parse images into a hierarchy of objects, parts and relations. While promising, they remain limited by an inability to learn effective low level part descriptions. To address this issue we propose a way to learn primary capsule encoders that detect atomic parts from a single image. During training we exploit motion as a powerful perceptual cue for part definition, with an expressive decoder for part generation within a layered image model with occlusion. Experiments demonstrate robust part discovery in the presence of multiple objects, cluttered backgrounds, and occlusion. The part decoder infers the underlying shape masks, effectively filling in occluded regions of the detected shapes. We evaluate FlowCapsules on unsupervised part segmentation and unsupervised image classification.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-27T18:59:42Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Andrea Tagliasacchi</name>
+    </author>
+    <author>
+      <name>Soroosh Yazdani</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+    <author>
+      <name>David J. Fleet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.03037v2</id>
+    <title>Teaching with Commentaries</title>
+    <updated>2021-03-12T00:37:38Z</updated>
+    <link href="https://arxiv.org/abs/2011.03037v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.03037v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective training of deep neural networks can be challenging, and there remain many open questions on how to best learn these models. Recently developed methods to improve neural network training examine teaching: providing learned information during the training process to improve downstream model performance. In this paper, we take steps towards extending the scope of teaching. We propose a flexible teaching framework using commentaries, learned meta-information helpful for training on a particular task. We present gradient-based methods to learn commentaries, leveraging recent work on implicit differentiation for scalability. We explore diverse applications of commentaries, from weighting training examples, to parameterising label-dependent data augmentation policies, to representing attention masks that highlight salient image regions. We find that commentaries can improve training speed and/or performance, and provide insights about the dataset and training process. We also observe that commentaries generalise: they can be reused when training new models to obtain performance benefits, suggesting a use-case where commentaries are stored with a dataset and leveraged in future for improved model training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-05T18:52:46Z</published>
+    <arxiv:comment>ICLR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aniruddh Raghu</name>
+    </author>
+    <author>
+      <name>Maithra Raghu</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>David Duvenaud</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.10029v2</id>
+    <title>Big Self-Supervised Models are Strong Semi-Supervised Learners</title>
+    <updated>2020-10-26T03:09:28Z</updated>
+    <link href="https://arxiv.org/abs/2006.10029v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.10029v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One paradigm for learning from few labeled examples while making best use of a large amount of unlabeled data is unsupervised pretraining followed by supervised fine-tuning. Although this paradigm uses unlabeled data in a task-agnostic way, in contrast to common approaches to semi-supervised learning for computer vision, we show that it is surprisingly effective for semi-supervised learning on ImageNet. A key ingredient of our approach is the use of big (deep and wide) networks during pretraining and fine-tuning. We find that, the fewer the labels, the more this approach (task-agnostic use of unlabeled data) benefits from a bigger network. After fine-tuning, the big network can be further improved and distilled into a much smaller one with little loss in classification accuracy by using the unlabeled examples for a second time, but in a task-specific way. The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2, supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge. This procedure achieves 73.9% ImageNet top-1 accuracy with just 1% of the labels ($\le$13 labeled images per class) using ResNet-50, a $10\times$ improvement in label efficiency over the previous state-of-the-art. With 10% of labels, ResNet-50 trained with our method achieves 77.5% top-1 accuracy, outperforming standard supervised training with all of the labels.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-17T17:48:22Z</published>
+    <arxiv:comment>NeurIPS'2020. Code and pretrained models at https://github.com/google-research/simclr</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Kevin Swersky</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.13912v2</id>
+    <title>Neural Additive Models: Interpretable Machine Learning with Neural Nets</title>
+    <updated>2021-10-24T19:24:59Z</updated>
+    <link href="https://arxiv.org/abs/2004.13912v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.13912v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks (DNNs) are powerful black-box predictors that have achieved impressive performance on a wide variety of tasks. However, their accuracy comes at the cost of intelligibility: it is usually unclear how they make their decisions. This hinders their applicability to high stakes decision-making domains such as healthcare. We propose Neural Additive Models (NAMs) which combine some of the expressivity of DNNs with the inherent intelligibility of generalized additive models. NAMs learn a linear combination of neural networks that each attend to a single input feature. These networks are trained jointly and can learn arbitrarily complex relationships between their input feature and the output. Our experiments on regression and classification datasets show that NAMs are more accurate than widely used intelligible models such as logistic regression and shallow decision trees. They perform similarly to existing state-of-the-art generalized additive models in accuracy, but are more flexible because they are based on neural nets instead of boosted trees. To demonstrate this, we show how NAMs can be used for multitask learning on synthetic data and on the COMPAS recidivism data due to their composability, and demonstrate that the differentiability of NAMs allows them to train more complex interpretable models for COVID-19.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-29T01:28:32Z</published>
+    <arxiv:comment>Spotlight (Top 3%) at NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rishabh Agarwal</name>
+    </author>
+    <author>
+      <name>Levi Melnick</name>
+    </author>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Xuezhou Zhang</name>
+    </author>
+    <author>
+      <name>Ben Lengerich</name>
+    </author>
+    <author>
+      <name>Rich Caruana</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.08926v2</id>
+    <title>Imputer: Sequence Modelling via Imputation and Dynamic Programming</title>
+    <updated>2020-04-22T17:32:18Z</updated>
+    <link href="https://arxiv.org/abs/2002.08926v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.08926v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the Imputer, a neural sequence model that generates output sequences iteratively via imputations. The Imputer is an iterative generative model, requiring only a constant number of generation steps independent of the number of input or output tokens. The Imputer can be trained to approximately marginalize over all possible alignments between the input and output sequences, and all possible generation orders. We present a tractable dynamic programming training algorithm, which yields a lower bound on the log marginal likelihood. When applied to end-to-end speech recognition, the Imputer outperforms prior non-autoregressive models and achieves competitive results to autoregressive models. On LibriSpeech test-other, the Imputer achieves 11.1 WER, outperforming CTC at 13.0 WER and seq2seq at 12.5 WER.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-20T18:21:30Z</published>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>William Chan</name>
+    </author>
+    <author>
+      <name>Chitwan Saharia</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+    <author>
+      <name>Navdeep Jaitly</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.07405v1</id>
+    <title>Deflecting Adversarial Attacks</title>
+    <updated>2020-02-18T06:59:13Z</updated>
+    <link href="https://arxiv.org/abs/2002.07405v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.07405v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There has been an ongoing cycle where stronger defenses against adversarial attacks are subsequently broken by a more advanced defense-aware attack. We present a new approach towards ending this cycle where we "deflect'' adversarial attacks by causing the attacker to produce an input that semantically resembles the attack's target class. To this end, we first propose a stronger defense based on Capsule Networks that combines three detection mechanisms to achieve state-of-the-art detection performance on both standard and defense-aware attacks. We then show that undetected attacks against our defense often perceptually resemble the adversarial target class by performing a human study where participants are asked to label images produced by the attack. These attack images can no longer be called "adversarial'' because our network classifies them the same way as humans do.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-18T06:59:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao Qin</name>
+    </author>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Garrison Cottrell</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05709v3</id>
+    <title>A Simple Framework for Contrastive Learning of Visual Representations</title>
+    <updated>2020-07-01T00:09:08Z</updated>
+    <link href="https://arxiv.org/abs/2002.05709v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05709v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-13T18:50:45Z</published>
+    <arxiv:comment>ICML'2020. Code and pretrained models at https://github.com/google-research/simclr</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.03936v2</id>
+    <title>Subclass Distillation</title>
+    <updated>2020-06-10T18:32:14Z</updated>
+    <link href="https://arxiv.org/abs/2002.03936v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.03936v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After a large "teacher" neural network has been trained on labeled data, the probabilities that the teacher assigns to incorrect classes reveal a lot of information about the way in which the teacher generalizes. By training a small "student" model to match these probabilities, it is possible to transfer most of the generalization ability of the teacher to the student, often producing a much better small model than directly training the student on the training data. The transfer works best when there are many possible classes because more is then revealed about the function learned by the teacher, but in cases where there are only a few possible classes we show that we can improve the transfer by forcing the teacher to divide each class into many subclasses that it invents during the supervised training. The student is then trained to match the subclass probabilities. For datasets where there are known, natural subclasses we demonstrate that the teacher learns similar subclasses and these improve distillation. For clickthrough datasets where the subclasses are unknown we demonstrate that subclass distillation allows the student to learn faster and better.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-10T16:45:30Z</published>
+    <arxiv:comment>Under review, corrected citation spelling</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rafael Müller</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03207v5</id>
+    <title>NASA: Neural Articulated Shape Approximation</title>
+    <updated>2022-07-21T19:48:00Z</updated>
+    <link href="https://arxiv.org/abs/1912.03207v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.03207v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient representation of articulated objects such as human bodies is an important problem in computer vision and graphics. To efficiently simulate deformation, existing approaches represent 3D objects using polygonal meshes and deform them using skinning techniques. This paper introduces neural articulated shape approximation (NASA), an alternative framework that enables efficient representation of articulated deformable objects using neural indicator functions that are conditioned on pose. Occupancy testing using NASA is straightforward, circumventing the complexity of meshes and the issue of water-tightness. We demonstrate the effectiveness of NASA for 3D tracking applications, and discuss other potential extensions.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-06T16:18:35Z</published>
+    <arxiv:comment>ECCV 2020; Project Page: https://nasa-eccv20.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Boyang Deng</name>
+    </author>
+    <author>
+      <name>JP Lewis</name>
+    </author>
+    <author>
+      <name>Timothy Jeruzalski</name>
+    </author>
+    <author>
+      <name>Gerard Pons-Moll</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+    <author>
+      <name>Andrea Tagliasacchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.05736v4</id>
+    <title>CvxNet: Learnable Convex Decomposition</title>
+    <updated>2020-04-12T23:43:12Z</updated>
+    <link href="https://arxiv.org/abs/1909.05736v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.05736v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Any solid object can be decomposed into a collection of convex polytopes (in short, convexes). When a small number of convexes are used, such a decomposition can be thought of as a piece-wise approximation of the geometry. This decomposition is fundamental in computer graphics, where it provides one of the most common ways to approximate geometry, for example, in real-time physics simulation. A convex object also has the property of being simultaneously an explicit and implicit representation: one can interpret it explicitly as a mesh derived by computing the vertices of a convex hull, or implicitly as the collection of half-space constraints or support functions. Their implicit representation makes them particularly well suited for neural network training, as they abstract away from the topology of the geometry they need to represent. However, at testing time, convexes can also generate explicit representations -- polygonal meshes -- which can then be used in any downstream application. We introduce a network architecture to represent a low dimensional family of convexes. This family is automatically derived via an auto-encoding process. We investigate the applications of this architecture including automatic convex decomposition, image to 3D reconstruction, and part-based shape retrieval.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-12T14:59:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Boyang Deng</name>
+    </author>
+    <author>
+      <name>Kyle Genova</name>
+    </author>
+    <author>
+      <name>Soroosh Yazdani</name>
+    </author>
+    <author>
+      <name>Sofien Bouaziz</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Andrea Tagliasacchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.08610v2</id>
+    <title>Lookahead Optimizer: k steps forward, 1 step back</title>
+    <updated>2019-12-03T15:55:38Z</updated>
+    <link href="https://arxiv.org/abs/1907.08610v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.08610v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vast majority of successful deep neural networks are trained using variants of stochastic gradient descent (SGD) algorithms. Recent attempts to improve SGD can be broadly categorized into two approaches: (1) adaptive learning rate schemes, such as AdaGrad and Adam, and (2) accelerated schemes, such as heavy-ball and Nesterov momentum. In this paper, we propose a new optimization algorithm, Lookahead, that is orthogonal to these previous approaches and iteratively updates two sets of weights. Intuitively, the algorithm chooses a search direction by looking ahead at the sequence of fast weights generated by another optimizer. We show that Lookahead improves the learning stability and lowers the variance of its inner optimizer with negligible computation and memory cost. We empirically demonstrate Lookahead can significantly improve the performance of SGD and Adam, even with their default hyperparameter settings on ImageNet, CIFAR-10/100, neural machine translation, and Penn Treebank.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-19T17:59:50Z</published>
+    <arxiv:comment>Accepted to Neural Information Processing Systems 2019. Code available at: https://github.com/michaelrzhang/lookahead</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael R. Zhang</name>
+    </author>
+    <author>
+      <name>James Lucas</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.02957v2</id>
+    <title>Detecting and Diagnosing Adversarial Images with Class-Conditional Capsule Reconstructions</title>
+    <updated>2020-02-18T05:05:45Z</updated>
+    <link href="https://arxiv.org/abs/1907.02957v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.02957v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial examples raise questions about whether neural network models are sensitive to the same visual features as humans. In this paper, we first detect adversarial examples or otherwise corrupted images based on a class-conditional reconstruction of the input. To specifically attack our detection mechanism, we propose the Reconstructive Attack which seeks both to cause a misclassification and a low reconstruction error. This reconstructive attack produces undetected adversarial examples but with much smaller success rate. Among all these attacks, we find that CapsNets always perform better than convolutional networks. Then, we diagnose the adversarial examples for CapsNets and find that the success of the reconstructive attack is highly related to the visual similarity between the source and target class. Additionally, the resulting perturbations can cause the input image to appear visually more like the target class and hence become non-adversarial. This suggests that CapsNets use features that are more aligned with human perception and have the potential to address the central issue raised by adversarial examples.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-05T17:57:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ICLR 2020</arxiv:journal_ref>
+    <author>
+      <name>Yao Qin</name>
+    </author>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Garrison Cottrell</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06818v2</id>
+    <title>Stacked Capsule Autoencoders</title>
+    <updated>2019-12-02T16:29:43Z</updated>
+    <link href="https://arxiv.org/abs/1906.06818v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06818v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Objects are composed of a set of geometrically organized parts. We introduce an unsupervised capsule autoencoder (SCAE), which explicitly uses geometric relationships between parts to reason about objects. Since these relationships do not depend on the viewpoint, our model is robust to viewpoint changes. SCAE consists of two stages. In the first stage, the model predicts presences and poses of part templates directly from the image and tries to reconstruct the image by appropriately arranging the templates. In the second stage, SCAE predicts parameters of a few object capsules, which are then used to reconstruct part poses. Inference in this model is amortized and performed by off-the-shelf neural encoders, unlike in previous capsule networks. We find that object capsule presences are highly informative of the object class, which leads to state-of-the-art results for unsupervised classification on SVHN (55%) and MNIST (98.7%). The code is available at https://github.com/google-research/google-research/tree/master/stacked_capsule_autoencoders</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-17T02:31:37Z</published>
+    <arxiv:comment>NeurIPS 2019; 14 pages, 7 figures, 4 tables, code is available at https://github.com/google-research/google-research/tree/master/stacked_capsule_autoencoders</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Adam R. Kosiorek</name>
+    </author>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Yee Whye Teh</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.02629v3</id>
+    <title>When Does Label Smoothing Help?</title>
+    <updated>2020-06-10T18:18:17Z</updated>
+    <link href="https://arxiv.org/abs/1906.02629v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.02629v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generalization and learning speed of a multi-class neural network can often be significantly improved by using soft targets that are a weighted average of the hard targets and the uniform distribution over labels. Smoothing the labels in this way prevents the network from becoming over-confident and label smoothing has been used in many state-of-the-art models, including image classification, language translation and speech recognition. Despite its widespread use, label smoothing is still poorly understood. Here we show empirically that in addition to improving generalization, label smoothing improves model calibration which can significantly improve beam-search. However, we also observe that if a teacher network is trained with label smoothing, knowledge distillation into a student network is much less effective. To explain these observations, we visualize how label smoothing changes the representations learned by the penultimate layer of the network. We show that label smoothing encourages the representations of training examples from the same class to group in tight clusters. This results in loss of information in the logits about resemblances between instances of different classes, which is necessary for distillation, but does not hurt generalization or calibration of the model's predictions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-06T15:03:11Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2019, corrected mutual information formulas</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rafael Müller</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.13678v5</id>
+    <title>Learning Sparse Networks Using Targeted Dropout</title>
+    <updated>2019-09-09T11:27:36Z</updated>
+    <link href="https://arxiv.org/abs/1905.13678v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.13678v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks are easier to optimise when they have many more weights than are required for modelling the mapping from inputs to outputs. This suggests a two-stage learning procedure that first learns a large net and then prunes away connections or hidden units. But standard training does not necessarily encourage nets to be amenable to pruning. We introduce targeted dropout, a method for training a neural network so that it is robust to subsequent pruning. Before computing the gradients for each weight update, targeted dropout stochastically selects a set of units or weights to be dropped using a simple self-reinforcing sparsity criterion and then computes the gradients for the remaining weights. The resulting network is robust to post hoc pruning of weights or units that frequently occur in the dropped sets. The method improves upon more complicated sparsifying regularisers while being simple to implement and easy to tune.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-31T15:40:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aidan N. Gomez</name>
+    </author>
+    <author>
+      <name>Ivan Zhang</name>
+    </author>
+    <author>
+      <name>Siddhartha Rao Kamalakara</name>
+    </author>
+    <author>
+      <name>Divyam Madaan</name>
+    </author>
+    <author>
+      <name>Kevin Swersky</name>
+    </author>
+    <author>
+      <name>Yarin Gal</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.11940v1</id>
+    <title>Cerberus: A Multi-headed Derenderer</title>
+    <updated>2019-05-28T17:00:03Z</updated>
+    <link href="https://arxiv.org/abs/1905.11940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.11940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To generalize to novel visual scenes with new viewpoints and new object poses, a visual system needs representations of the shapes of the parts of an object that are invariant to changes in viewpoint or pose. 3D graphics representations disentangle visual factors such as viewpoints and lighting from object structure in a natural way. It is possible to learn to invert the process that converts 3D graphics representations into 2D images, provided the 3D graphics representations are available as labels. When only the unlabeled images are available, however, learning to derender is much harder. We consider a simple model which is just a set of free floating parts. Each part has its own relation to the camera and its own triangular mesh which can be deformed to model the shape of the part. At test time, a neural network looks at a single image and extracts the shapes of the parts and their relations to the camera. Each part can be viewed as one head of a multi-headed derenderer. During training, the extracted parts are used as input to a differentiable 3D renderer and the reconstruction error is backpropagated to train the neural net. We make the learning task easier by encouraging the deformations of the part meshes to be invariant to changes in viewpoint and invariant to the changes in the relative positions of the parts that occur when the pose of an articulated body changes. Cerberus, our multi-headed derenderer, outperforms previous methods for extracting 3D parts from single images without part annotations, and it does quite well at extracting natural parts of human figures.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-28T17:00:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Boyang Deng</name>
+    </author>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.00414v4</id>
+    <title>Similarity of Neural Network Representations Revisited</title>
+    <updated>2019-07-19T14:59:45Z</updated>
+    <link href="https://arxiv.org/abs/1905.00414v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.00414v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has sought to understand the behavior of neural networks by comparing representations between layers and between different trained models. We examine methods for comparing neural network representations based on canonical correlation analysis (CCA). We show that CCA belongs to a family of statistics for measuring multivariate similarity, but that neither CCA nor any other statistic that is invariant to invertible linear transformation can measure meaningful similarities between representations of higher dimension than the number of data points. We introduce a similarity index that measures the relationship between representational similarity matrices and does not suffer from this limitation. This similarity index is equivalent to centered kernel alignment (CKA) and is also closely connected to CCA. Unlike CCA, CKA can reliably identify correspondences between representations in networks trained from different initializations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-01T17:57:26Z</published>
+    <arxiv:comment>ICML 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Simon Kornblith</name>
+    </author>
+    <author>
+      <name>Mohammad Norouzi</name>
+    </author>
+    <author>
+      <name>Honglak Lee</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01889v1</id>
+    <title>Analyzing and Improving Representations with the Soft Nearest Neighbor Loss</title>
+    <updated>2019-02-05T19:58:31Z</updated>
+    <link href="https://arxiv.org/abs/1902.01889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore and expand the $\textit{Soft Nearest Neighbor Loss}$ to measure the $\textit{entanglement}$ of class manifolds in representation space: i.e., how close pairs of points from the same class are relative to pairs of points from different classes. We demonstrate several use cases of the loss. As an analytical tool, it provides insights into the evolution of class similarity structures during learning. Surprisingly, we find that $\textit{maximizing}$ the entanglement of representations of different classes in the hidden layers is beneficial for discrimination in the final layer, possibly because it encourages representations to identify class-independent similarity structures. Maximizing the soft nearest neighbor loss in the hidden layers leads not only to improved generalization but also to better-calibrated estimates of uncertainty on outlier data. Data that is not from the training distribution can be recognized by observing that in the hidden layers, it has fewer than the normal number of neighbors from the predicted class.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-05T19:58:31Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.06969v1</id>
+    <title>DARCCC: Detecting Adversaries by Reconstruction from Class Conditional Capsules</title>
+    <updated>2018-11-16T18:52:58Z</updated>
+    <link href="https://arxiv.org/abs/1811.06969v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.06969v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a simple technique that allows capsule models to detect adversarial images. In addition to being trained to classify images, the capsule model is trained to reconstruct the images from the pose parameters and identity of the correct top-level capsule. Adversarial images do not look like a typical member of the predicted class and they have much larger reconstruction errors when the reconstruction is produced from the top-level capsule for that class. We show that setting a threshold on the $l2$ distance between the input image and its reconstruction from the winning capsule is very effective at detecting adversarial images for three different datasets. The same technique works quite well for CNNs that have been trained to reconstruct the image from all or part of the last hidden layer before the softmax. We then explore a stronger, white-box attack that takes the reconstruction error into account. This attack is able to fool our detection technique but in order to make the model change its prediction to another class, the attack must typically make the "adversarial" image resemble images of the other class.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-16T18:52:58Z</published>
+    <arxiv:comment>To be presented at NIPS 2018 Workshop on Security in Machine Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.04587v2</id>
+    <title>Assessing the Scalability of Biologically-Motivated Deep Learning Algorithms and Architectures</title>
+    <updated>2018-11-20T14:26:44Z</updated>
+    <link href="https://arxiv.org/abs/1807.04587v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.04587v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The backpropagation of error algorithm (BP) is impossible to implement in a real brain. The recent success of deep networks in machine learning and AI, however, has inspired proposals for understanding how the brain might learn across multiple layers, and hence how it might approximate BP. As of yet, none of these proposals have been rigorously evaluated on tasks where BP-guided deep learning has proved critical, or in architectures more structured than simple fully-connected networks. Here we present results on scaling up biologically motivated models of deep learning on datasets which need deep networks with appropriate architectures to achieve good performance. We present results on the MNIST, CIFAR-10, and ImageNet datasets and explore variants of target-propagation (TP) and feedback alignment (FA) algorithms, and explore performance in both fully- and locally-connected architectures. We also introduce weight-transport-free variants of difference target propagation (DTP) modified to remove backpropagation from the penultimate layer. Many of these algorithms perform well for MNIST, but for CIFAR and ImageNet we find that TP and FA variants perform significantly worse than BP, especially for networks composed of locally connected units, opening questions about whether new architectures and algorithms are required to scale these approaches. Our results and implementation details help establish baselines for biologically motivated deep learning schemes going forward.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-12T12:53:50Z</published>
+    <arxiv:comment>NIPS 2018. Version 2 contains more experimental data including best hyperparameters found</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sergey Bartunov</name>
+    </author>
+    <author>
+      <name>Adam Santoro</name>
+    </author>
+    <author>
+      <name>Blake A. Richards</name>
+    </author>
+    <author>
+      <name>Luke Marris</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.03235v2</id>
+    <title>Large scale distributed neural network training through online distillation</title>
+    <updated>2020-08-20T22:04:36Z</updated>
+    <link href="https://arxiv.org/abs/1804.03235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.03235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Techniques such as ensembling and distillation promise model quality improvements when paired with almost any base model. However, due to increased test-time cost (for ensembles) and increased complexity of the training pipeline (for distillation), these techniques are challenging to use in industrial settings. In this paper we explore a variant of distillation which is relatively straightforward to use as it does not require a complicated multi-stage setup or many new hyperparameters. Our first claim is that online distillation enables us to use extra parallelism to fit very large datasets about twice as fast. Crucially, we can still speed up training even after we have already reached the point at which additional parallelism provides no benefit for synchronous or asynchronous stochastic gradient descent. Two neural networks trained on disjoint subsets of the data can share knowledge by encouraging each model to agree with the predictions the other model would have made. These predictions can come from a stale version of the other model so they can be safely computed using weights that only rarely get transmitted. Our second claim is that online distillation is a cost-effective way to make the exact predictions of a model dramatically more reproducible. We support our claims using experiments on the Criteo Display Ad Challenge dataset, ImageNet, and the largest to-date dataset used for neural language modeling, containing $6\times 10^{11}$ tokens and based on the Common Crawl repository of web data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-09T20:56:03Z</published>
+    <arxiv:comment>Clarify that implementations should use available parallelism in pseudo-code</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rohan Anil</name>
+    </author>
+    <author>
+      <name>Gabriel Pereyra</name>
+    </author>
+    <author>
+      <name>Alexandre Passos</name>
+    </author>
+    <author>
+      <name>Robert Ormandi</name>
+    </author>
+    <author>
+      <name>George E. Dahl</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.09784v1</id>
+    <title>Distilling a Neural Network Into a Soft Decision Tree</title>
+    <updated>2017-11-27T15:50:50Z</updated>
+    <link href="https://arxiv.org/abs/1711.09784v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.09784v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks have proved to be a very effective way to perform classification tasks. They excel when the input data is high dimensional, the relationship between the input and the output is complicated, and the number of labeled training examples is large. But it is hard to explain why a learned network makes a particular classification decision on a particular test case. This is due to their reliance on distributed hierarchical representations. If we could take the knowledge acquired by the neural net and express the same knowledge in a model that relies on hierarchical decisions instead, explaining a particular decision would be much easier. We describe a way of using a trained neural net to create a type of soft decision tree that generalizes better than one learned directly from the training data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-27T15:50:50Z</published>
+    <arxiv:comment>presented at the CEX workshop at AI*IA 2017 conference</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.09829v2</id>
+    <title>Dynamic Routing Between Capsules</title>
+    <updated>2017-11-07T19:26:38Z</updated>
+    <link href="https://arxiv.org/abs/1710.09829v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.09829v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A capsule is a group of neurons whose activity vector represents the instantiation parameters of a specific type of entity such as an object or an object part. We use the length of the activity vector to represent the probability that the entity exists and its orientation to represent the instantiation parameters. Active capsules at one level make predictions, via transformation matrices, for the instantiation parameters of higher-level capsules. When multiple predictions agree, a higher level capsule becomes active. We show that a discrimininatively trained, multi-layer capsule system achieves state-of-the-art performance on MNIST and is considerably better than a convolutional net at recognizing highly overlapping digits. To achieve these results we use an iterative routing-by-agreement mechanism: A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-26T17:49:04Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sara Sabour</name>
+    </author>
+    <author>
+      <name>Nicholas Frosst</name>
+    </author>
+    <author>
+      <name>Geoffrey E Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.08774v2</id>
+    <title>Who Said What: Modeling Individual Labelers Improves Classification</title>
+    <updated>2018-01-04T21:46:22Z</updated>
+    <link href="https://arxiv.org/abs/1703.08774v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.08774v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data are often labeled by many different experts with each expert only labeling a small fraction of the data and each data point being labeled by several experts. This reduces the workload on individual experts and also gives a better estimate of the unobserved ground truth. When experts disagree, the standard approaches are to treat the majority opinion as the correct label or to model the correct label as a distribution. These approaches, however, do not make any use of potentially valuable information about which expert produced which label. To make use of this extra information, we propose modeling the experts individually and then learning averaging weights for combining them, possibly in sample-specific ways. This allows us to give more weight to more reliable experts and take advantage of the unique strengths of individual experts at classifying certain types of data. Here we show that our approach leads to improvements in computer-aided diagnosis of diabetic retinopathy. We also show that our method performs better than competing algorithms by Welinder and Perona (2010), and by Mnih and Hinton (2012). Our work offers an innovative approach for dealing with the myriad real-world settings that use expert opinions to define labels for training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-26T06:34:45Z</published>
+    <arxiv:comment>AAAI 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Melody Y. Guan</name>
+    </author>
+    <author>
+      <name>Varun Gulshan</name>
+    </author>
+    <author>
+      <name>Andrew M. Dai</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.06548v1</id>
+    <title>Regularizing Neural Networks by Penalizing Confident Output Distributions</title>
+    <updated>2017-01-23T18:35:28Z</updated>
+    <link href="https://arxiv.org/abs/1701.06548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.06548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We systematically explore regularizing neural networks by penalizing low entropy output distributions. We show that penalizing low entropy output distributions, which has been shown to improve exploration in reinforcement learning, acts as a strong regularizer in supervised learning. Furthermore, we connect a maximum entropy based confidence penalty to label smoothing through the direction of the KL divergence. We exhaustively evaluate the proposed confidence penalty and label smoothing on 6 common benchmarks: image classification (MNIST and Cifar-10), language modeling (Penn Treebank), machine translation (WMT'14 English-to-German), and speech recognition (TIMIT and WSJ). We find that both label smoothing and the confidence penalty improve state-of-the-art models across benchmarks without modifying existing hyperparameters, suggesting the wide applicability of these regularizers.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-23T18:35:28Z</published>
+    <arxiv:comment>Submitted to ICLR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Gabriel Pereyra</name>
+    </author>
+    <author>
+      <name>George Tucker</name>
+    </author>
+    <author>
+      <name>Jan Chorowski</name>
+    </author>
+    <author>
+      <name>Łukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.06538v1</id>
+    <title>Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer</title>
+    <updated>2017-01-23T18:10:00Z</updated>
+    <link href="https://arxiv.org/abs/1701.06538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.06538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The capacity of a neural network to absorb information is limited by its number of parameters. Conditional computation, where parts of the network are active on a per-example basis, has been proposed in theory as a way of dramatically increasing model capacity without a proportional increase in computation. In practice, however, there are significant algorithmic and performance challenges. In this work, we address these challenges and finally realize the promise of conditional computation, achieving greater than 1000x improvements in model capacity with only minor losses in computational efficiency on modern GPU clusters. We introduce a Sparsely-Gated Mixture-of-Experts layer (MoE), consisting of up to thousands of feed-forward sub-networks. A trainable gating network determines a sparse combination of these experts to use for each example. We apply the MoE to the tasks of language modeling and machine translation, where model capacity is critical for absorbing the vast quantities of knowledge available in the training corpora. We present model architectures in which a MoE with up to 137 billion parameters is applied convolutionally between stacked LSTM layers. On large language modeling and machine translation benchmarks, these models achieve significantly better results than state-of-the-art at lower computational cost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-23T18:10:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Azalia Mirhoseini</name>
+    </author>
+    <author>
+      <name>Krzysztof Maziarz</name>
+    </author>
+    <author>
+      <name>Andy Davis</name>
+    </author>
+    <author>
+      <name>Quoc Le</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Jeff Dean</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.06258v3</id>
+    <title>Using Fast Weights to Attend to the Recent Past</title>
+    <updated>2016-12-05T00:14:01Z</updated>
+    <link href="https://arxiv.org/abs/1610.06258v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.06258v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Until recently, research on artificial neural networks was largely restricted to systems with only two types of variable: Neural activities that represent the current or recent input and weights that learn to capture regularities among inputs, outputs and payoffs. There is no good reason for this restriction. Synapses have dynamics at many different time-scales and this suggests that artificial neural networks might benefit from variables that change slower than activities but much faster than the standard weights. These "fast weights" can be used to store temporary memories of the recent past and they provide a neurally plausible way of implementing the type of attention to the past that has recently proved very helpful in sequence-to-sequence models. By using fast weights we can avoid the need to store copies of neural activity patterns.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-20T01:03:20Z</published>
+    <arxiv:comment>Added [Schmidhuber 1993] citation to the last paragraph of the introduction. Fixed typo appendix A.1 uniform initialization to 1/\sqrt{H}</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Volodymyr Mnih</name>
+    </author>
+    <author>
+      <name>Joel Z. Leibo</name>
+    </author>
+    <author>
+      <name>Catalin Ionescu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.06450v1</id>
+    <title>Layer Normalization</title>
+    <updated>2016-07-21T19:57:52Z</updated>
+    <link href="https://arxiv.org/abs/1607.06450v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.06450v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-21T19:57:52Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Jimmy Lei Ba</name>
+    </author>
+    <author>
+      <name>Jamie Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.08575v3</id>
+    <title>Attend, Infer, Repeat: Fast Scene Understanding with Generative Models</title>
+    <updated>2016-08-12T16:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1603.08575v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.08575v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a framework for efficient inference in structured image models that explicitly reason about objects. We achieve this by performing probabilistic inference using a recurrent neural network that attends to scene elements and processes them one at a time. Crucially, the model itself learns to choose the appropriate number of inference steps. We use this scheme to learn to perform inference in partially specified 2D models (variable-sized variational auto-encoders) and fully specified 3D models (probabilistic renderers). We show that such models learn to identify multiple objects - counting, locating and classifying the elements of a scene - without any supervision, e.g., decomposing 3D images with various numbers of objects in a single forward pass of a neural network. We further show that the networks produce accurate inferences when compared to supervised counterparts, and that their structure leads to improved generalization.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-28T21:59:08Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>S. M. Ali Eslami</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Theophane Weber</name>
+    </author>
+    <author>
+      <name>Yuval Tassa</name>
+    </author>
+    <author>
+      <name>David Szepesvari</name>
+    </author>
+    <author>
+      <name>Koray Kavukcuoglu</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.00941v2</id>
+    <title>A Simple Way to Initialize Recurrent Networks of Rectified Linear Units</title>
+    <updated>2015-04-07T22:39:18Z</updated>
+    <link href="https://arxiv.org/abs/1504.00941v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.00941v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning long term dependencies in recurrent networks is difficult due to vanishing and exploding gradients. To overcome this difficulty, researchers have developed sophisticated optimization techniques and network architectures. In this paper, we propose a simpler solution that use recurrent neural networks composed of rectified linear units. Key to our solution is the use of the identity matrix or its scaled version to initialize the recurrent weight matrix. We find that our solution is comparable to LSTM on our four benchmarks: two toy problems involving long-range temporal structures, a large language modeling problem and a benchmark speech recognition problem.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-03T21:22:52Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Quoc V. Le</name>
+    </author>
+    <author>
+      <name>Navdeep Jaitly</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.02531v1</id>
+    <title>Distilling the Knowledge in a Neural Network</title>
+    <updated>2015-03-09T15:44:49Z</updated>
+    <link href="https://arxiv.org/abs/1503.02531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.02531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-09T15:44:49Z</published>
+    <arxiv:comment>NIPS 2014 Deep Learning Workshop</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Jeff Dean</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7449v3</id>
+    <title>Grammar as a Foreign Language</title>
+    <updated>2015-06-09T22:41:07Z</updated>
+    <link href="https://arxiv.org/abs/1412.7449v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.7449v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Syntactic constituency parsing is a fundamental problem in natural language processing and has been the subject of intensive research and engineering for decades. As a result, the most accurate parsers are domain specific, complex, and inefficient. In this paper we show that the domain agnostic attention-enhanced sequence-to-sequence model achieves state-of-the-art results on the most widely used syntactic constituency parsing dataset, when trained on a large synthetic corpus that was annotated using existing parsers. It also matches the performance of standard parsers when trained only on a small human-annotated dataset, which shows that this model is highly data-efficient, in contrast to sequence-to-sequence models without the attention mechanism. Our parser is also fast, processing over a hundred sentences per second with an unoptimized CPU implementation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-23T17:16:24Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Lukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Terry Koo</name>
+    </author>
+    <author>
+      <name>Slav Petrov</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.6865v1</id>
+    <title>Modeling Documents with Deep Boltzmann Machines</title>
+    <updated>2013-09-26T12:50:54Z</updated>
+    <link href="https://arxiv.org/abs/1309.6865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.6865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a Deep Boltzmann Machine model suitable for modeling and extracting latent semantic representations from a large unstructured collection of documents. We overcome the apparent difficulty of training a DBM with judicious parameter tying. This parameter tying enables an efficient pretraining algorithm and a state initialization scheme that aids inference. The model can be trained just as efficiently as a standard Restricted Boltzmann Machine. Our experiments show that the model assigns better log probability to unseen data than the Replicated Softmax model. Features extracted from our model outperform LDA, Replicated Softmax, and DocNADE models on document retrieval and document classification tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-26T12:50:54Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Ninth Conference on Uncertainty in Artificial Intelligence (UAI2013)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Ruslan R Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.5778v1</id>
+    <title>Speech Recognition with Deep Recurrent Neural Networks</title>
+    <updated>2013-03-22T20:55:48Z</updated>
+    <link href="https://arxiv.org/abs/1303.5778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.5778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent neural networks (RNNs) are a powerful model for sequential data. End-to-end training methods such as Connectionist Temporal Classification make it possible to train RNNs for sequence labelling problems where the input-output alignment is unknown. The combination of these methods with the Long Short-term Memory RNN architecture has proved particularly fruitful, delivering state-of-the-art results in cursive handwriting recognition. However RNN performance in speech recognition has so far been disappointing, with better results returned by deep feedforward networks. This paper investigates \emph{deep recurrent neural networks}, which combine the multiple levels of representation that have proved so effective in deep networks with the flexible use of long range context that empowers RNNs. When trained end-to-end with suitable regularisation, we find that deep Long Short-term Memory RNNs achieve a test set error of 17.7% on the TIMIT phoneme recognition benchmark, which to our knowledge is the best recorded score.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-22T20:55:48Z</published>
+    <arxiv:comment>To appear in ICASSP 2013</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Abdel-rahman Mohamed</name>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+    </author>
+  </entry>
+</feed>

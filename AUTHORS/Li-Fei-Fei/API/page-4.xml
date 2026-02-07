@@ -1,0 +1,1474 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oOkGY0XREew+j1NY8ycP7Y6Sx9I</id>
+  <title>arXiv Query: search_query=au:"Fei-Fei Li"&amp;id_list=&amp;start=150&amp;max_results=50</title>
+  <updated>2026-02-06T23:34:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Fei-Fei+Li%22&amp;start=150&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>218</opensearch:totalResults>
+  <opensearch:startIndex>150</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1807.09937v1</id>
+    <title>HiDDeN: Hiding Data With Deep Networks</title>
+    <updated>2018-07-26T03:25:15Z</updated>
+    <link href="https://arxiv.org/abs/1807.09937v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.09937v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has shown that deep neural networks are highly sensitive to tiny perturbations of input images, giving rise to adversarial examples. Though this property is usually considered a weakness of learned models, we explore whether it can be beneficial. We find that neural networks can learn to use invisible perturbations to encode a rich amount of useful information. In fact, one can exploit this capability for the task of data hiding. We jointly train encoder and decoder networks, where given an input message and cover image, the encoder produces a visually indistinguishable encoded image, from which the decoder can recover the original message. We show that these encodings are competitive with existing data hiding algorithms, and further that they can be made robust to noise: our models learn to reconstruct hidden information in an encoded image despite the presence of Gaussian blurring, pixel-wise dropout, cropping, and JPEG compression. Even though JPEG is non-differentiable, we show that a robust model can be trained using differentiable approximations. Finally, we demonstrate that adversarial training improves the visual quality of encoded images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-26T03:25:15Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiren Zhu</name>
+    </author>
+    <author>
+      <name>Russell Kaplan</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03480v2</id>
+    <title>Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration</title>
+    <updated>2019-03-06T21:56:52Z</updated>
+    <link href="https://arxiv.org/abs/1807.03480v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.03480v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our goal is to generate a policy to complete an unseen task given just a single video demonstration of the task in a given domain. We hypothesize that to successfully generalize to unseen complex tasks from a single video demonstration, it is necessary to explicitly incorporate the compositional structure of the tasks into the model. To this end, we propose Neural Task Graph (NTG) Networks, which use conjugate task graph as the intermediate representation to modularize both the video demonstration and the derived policy. We empirically show NTG achieves inter-task generalization on two complex tasks: Block Stacking in BulletPhysics and Object Collection in AI2-THOR. NTG improves data efficiency with visual input as well as achieve strong generalization without the need for dense hierarchical supervision. We further show that similar performance trends hold when applied to real-world data. We show that NTG can effectively predict task structure on the JIGSAWS surgical dataset and generalize to unseen tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-10T04:55:45Z</published>
+    <arxiv:comment>CVPR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09266v1</id>
+    <title>Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision</title>
+    <updated>2018-06-25T03:08:28Z</updated>
+    <link href="https://arxiv.org/abs/1806.09266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool manipulation is vital for facilitating robots to complete challenging task goals. It requires reasoning about the desired effect of the task and thus properly grasping and manipulating the tool to achieve the task. Task-agnostic grasping optimizes for grasp robustness while ignoring crucial task-specific constraints. In this paper, we propose the Task-Oriented Grasping Network (TOG-Net) to jointly optimize both task-oriented grasping of a tool and the manipulation policy for that tool. The training process of the model is based on large-scale simulated self-supervision with procedurally generated tool objects. We perform both simulated and real-world experiments on two tool-based manipulation tasks: sweeping and hammering. Our model achieves overall 71.1% task success rate for sweeping and 80.0% task success rate for hammering. Supplementary material is available at: bit.ly/task-oriented-grasp</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-25T03:08:28Z</published>
+    <arxiv:comment>RSS 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Andrey Kurenkov</name>
+    </author>
+    <author>
+      <name>Viraj Mehta</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.08047v2</id>
+    <title>Flexible Neural Representation for Physics Prediction</title>
+    <updated>2018-10-27T05:28:48Z</updated>
+    <link href="https://arxiv.org/abs/1806.08047v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.08047v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans have a remarkable capacity to understand the physical dynamics of objects in their environment, flexibly capturing complex structures and interactions at multiple levels of detail. Inspired by this ability, we propose a hierarchical particle-based object representation that covers a wide variety of types of three-dimensional objects, including both arbitrary rigid geometrical shapes and deformable materials. We then describe the Hierarchical Relation Network (HRN), an end-to-end differentiable neural network based on hierarchical graph convolution, that learns to predict physical dynamics in this representation. Compared to other neural network baselines, the HRN accurately handles complex collisions and nonrigid deformations, generating plausible dynamics predictions at long time scales in novel settings, and scaling to large scene configurations. These results demonstrate an architecture with the potential to form the basis of next-generation physics predictors for use in computer vision, robotics, and quantitative cognitive science.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-21T02:19:50Z</published>
+    <arxiv:comment>23 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Damian Mrowca</name>
+    </author>
+    <author>
+      <name>Chengxu Zhuang</name>
+    </author>
+    <author>
+      <name>Elias Wang</name>
+    </author>
+    <author>
+      <name>Nick Haber</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Daniel L. K. Yamins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04166v2</id>
+    <title>Learning to Decompose and Disentangle Representations for Video Prediction</title>
+    <updated>2018-10-17T18:44:19Z</updated>
+    <link href="https://arxiv.org/abs/1806.04166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our goal is to predict future video frames given a sequence of input frames. Despite large amounts of video data, this remains a challenging task because of the high-dimensionality of video frames. We address this challenge by proposing the Decompositional Disentangled Predictive Auto-Encoder (DDPAE), a framework that combines structured probabilistic models and deep networks to automatically (i) decompose the high-dimensional video that we aim to predict into components, and (ii) disentangle each component to have low-dimensional temporal dynamics that are easier to predict. Crucially, with an appropriately specified generative model of video frames, our DDPAE is able to learn both the latent decomposition and disentanglement without explicit supervision. For the Moving MNIST dataset, we show that DDPAE is able to recover the underlying components (individual digits) and disentanglement (appearance and location) as we would intuitively do. We further demonstrate that DDPAE can be applied to the Bouncing Balls dataset involving complex interactions between multiple objects to predict the video frame directly from the pixels and recover physical states without explicit supervision.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-11T18:12:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jun-Ting Hsieh</name>
+    </author>
+    <author>
+      <name>Bingbin Liu</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01622v1</id>
+    <title>Image Generation from Scene Graphs</title>
+    <updated>2018-04-04T22:59:08Z</updated>
+    <link href="https://arxiv.org/abs/1804.01622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.01622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To truly understand the visual world our models should be able not only to recognize images but also generate them. To this end, there has been exciting recent progress on generating images from natural language descriptions. These methods give stunning results on limited domains such as descriptions of birds or flowers, but struggle to faithfully reproduce complex sentences with many objects and relationships. To overcome this limitation we propose a method for generating images from scene graphs, enabling explicitly reasoning about objects and their relationships. Our model uses graph convolution to process input graphs, computes a scene layout by predicting bounding boxes and segmentation masks for objects, and converts the layout to an image with a cascaded refinement network. The network is trained adversarially against a pair of discriminators to ensure realistic outputs. We validate our approach on Visual Genome and COCO-Stuff, where qualitative results, ablations, and user studies demonstrate our method's ability to generate complex images with multiple objects.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-04T22:59:08Z</published>
+    <arxiv:comment>To appear at CVPR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.11361v1</id>
+    <title>DDRprog: A CLEVR Differentiable Dynamic Reasoning Programmer</title>
+    <updated>2018-03-30T06:49:30Z</updated>
+    <link href="https://arxiv.org/abs/1803.11361v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.11361v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel Dynamic Differentiable Reasoning (DDR) framework for jointly learning branching programs and the functions composing them; this resolves a significant nondifferentiability inhibiting recent dynamic architectures. We apply our framework to two settings in two highly compact and data efficient architectures: DDRprog for CLEVR Visual Question Answering and DDRstack for reverse Polish notation expression evaluation. DDRprog uses a recurrent controller to jointly predict and execute modular neural programs that directly correspond to the underlying question logic; it explicitly forks subprocesses to handle logical branching. By effectively leveraging additional structural supervision, we achieve a large improvement over previous approaches in subtask consistency and a small improvement in overall accuracy. We further demonstrate the benefits of structural supervision in the RPN setting: the inclusion of a stack assumption in DDRstack allows our approach to generalize to long expressions where an LSTM fails the task.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-30T06:49:30Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Joseph Suarez</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.11189v1</id>
+    <title>Iterative Visual Reasoning Beyond Convolutions</title>
+    <updated>2018-03-29T17:59:03Z</updated>
+    <link href="https://arxiv.org/abs/1803.11189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.11189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel framework for iterative visual reasoning. Our framework goes beyond current recognition systems that lack the capability to reason beyond stack of convolutions. The framework consists of two core modules: a local module that uses spatial memory to store previous beliefs with parallel updates; and a global graph-reasoning module. Our graph module has three components: a) a knowledge graph where we represent classes as nodes and build edges to encode different types of semantic relationships between them; b) a region graph of the current image where regions in the image are nodes and spatial relationships between these regions are edges; c) an assignment graph that assigns regions to classes. Both the local module and the global module roll-out iteratively and cross-feed predictions to each other to refine estimates. The final predictions are made by combining the best of both modules with an attention mechanism. We show strong performance over plain ConvNets, \eg achieving an $8.4\%$ absolute improvement on ADE measured by per-class average precision. Analysis also shows that the framework is resilient to missing regions for reasoning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-29T17:59:03Z</published>
+    <arxiv:comment>CVPR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.10892v1</id>
+    <title>Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks</title>
+    <updated>2018-03-29T01:24:02Z</updated>
+    <link href="https://arxiv.org/abs/1803.10892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.10892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding human motion behavior is critical for autonomous moving platforms (like self-driving cars and social robots) if they are to navigate human-centric environments. This is challenging because human motion is inherently multimodal: given a history of human motion paths, there are many socially plausible ways that people could move in the future. We tackle this problem by combining tools from sequence prediction and generative adversarial networks: a recurrent sequence-to-sequence model observes motion histories and predicts future behavior, using a novel pooling mechanism to aggregate information across people. We predict socially plausible futures by training adversarially against a recurrent discriminator, and encourage diverse predictions with a novel variety loss. Through experiments on several datasets we demonstrate that our approach outperforms prior work in terms of accuracy, variety, collision avoidance, and computational complexity.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-29T01:24:02Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.10362v2</id>
+    <title>Referring Relationships</title>
+    <updated>2018-03-29T05:37:25Z</updated>
+    <link href="https://arxiv.org/abs/1803.10362v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.10362v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Images are not simply sets of objects: each image represents a web of interconnected relationships. These relationships between entities carry semantic meaning and help a viewer differentiate between instances of an entity. For example, in an image of a soccer match, there may be multiple persons present, but each participates in different relationships: one is kicking the ball, and the other is guarding the goal. In this paper, we formulate the task of utilizing these "referring relationships" to disambiguate between entities of the same category. We introduce an iterative model that localizes the two entities in the referring relationship, conditioned on one another. We formulate the cyclic condition between the entities in a relationship by modelling predicates that connect the entities as shifts in attention from one entity to another. We demonstrate that our model can not only outperform existing approaches on three datasets --- CLEVR, VRD and Visual Genome --- but also that it produces visually meaningful predicate shifts, as an instance of interpretable neural networks. Finally, we show that by modelling predicates as attention shifts, we can even localize entities in the absence of their category, allowing our model to find completely unseen categories.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-28T00:32:57Z</published>
+    <arxiv:comment>CVPR 2018, 19 pages, 12 figures, includes supplementary material</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Ines Chami</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08774v2</id>
+    <title>Tool Detection and Operative Skill Assessment in Surgical Videos Using Region-Based Convolutional Neural Networks</title>
+    <updated>2018-07-22T00:54:59Z</updated>
+    <link href="https://arxiv.org/abs/1802.08774v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08774v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Five billion people in the world lack access to quality surgical care. Surgeon skill varies dramatically, and many surgical patients suffer complications and avoidable harm. Improving surgical training and feedback would help to reduce the rate of complications, half of which have been shown to be preventable. To do this, it is essential to assess operative skill, a process that currently requires experts and is manual, time consuming, and subjective. In this work, we introduce an approach to automatically assess surgeon performance by tracking and analyzing tool movements in surgical videos, leveraging region-based convolutional neural networks. In order to study this problem, we also introduce a new dataset, m2cai16-tool-locations, which extends the m2cai16-tool dataset with spatial bounds of tools. While previous methods have addressed tool presence detection, ours is the first to not only detect presence but also spatially localize surgical tools in real-world laparoscopic surgical videos. We show that our method both effectively detects the spatial bounds of tools as well as significantly outperforms existing methods on tool presence detection. We further demonstrate the ability of our method to assess surgical quality through analysis of tool usage patterns, movement range, and economy of motion.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-24T00:55:34Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1806.02031 by other authors</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Amy Jin</name>
+    </author>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Jeffrey Jopling</name>
+    </author>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Dan Azagury</name>
+    </author>
+    <author>
+      <name>Arnold Milstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.07461v1</id>
+    <title>Emergence of Structured Behaviors from Curiosity-Based Intrinsic Motivation</title>
+    <updated>2018-02-21T08:13:12Z</updated>
+    <link href="https://arxiv.org/abs/1802.07461v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.07461v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Infants are experts at playing, with an amazing ability to generate novel structured behaviors in unstructured environments that lack clear extrinsic reward signals. We seek to replicate some of these abilities with a neural network that implements curiosity-driven intrinsic motivation. Using a simple but ecologically naturalistic simulated environment in which the agent can move and interact with objects it sees, the agent learns a world model predicting the dynamic consequences of its actions. Simultaneously, the agent learns to take actions that adversarially challenge the developing world model, pushing the agent to explore novel and informative interactions with its environment. We demonstrate that this policy leads to the self-supervised emergence of a spectrum of complex behaviors, including ego motion prediction, object attention, and object gathering. Moreover, the world model that the agent learns supports improved performance on object dynamics prediction and localization tasks. Our results are a proof-of-principle that computational models of intrinsic motivation might account for key features of developmental visuomotor learning in infants.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-21T08:13:12Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nick Haber</name>
+    </author>
+    <author>
+      <name>Damian Mrowca</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Daniel L. K. Yamins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.07442v2</id>
+    <title>Learning to Play with Intrinsically-Motivated Self-Aware Agents</title>
+    <updated>2018-10-30T20:08:46Z</updated>
+    <link href="https://arxiv.org/abs/1802.07442v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.07442v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Infants are experts at playing, with an amazing ability to generate novel structured behaviors in unstructured environments that lack clear extrinsic reward signals. We seek to mathematically formalize these abilities using a neural network that implements curiosity-driven intrinsic motivation. Using a simple but ecologically naturalistic simulated environment in which an agent can move and interact with objects it sees, we propose a "world-model" network that learns to predict the dynamic consequences of the agent's actions. Simultaneously, we train a separate explicit "self-model" that allows the agent to track the error map of its own world-model, and then uses the self-model to adversarially challenge the developing world-model. We demonstrate that this policy causes the agent to explore novel and informative interactions with its environment, leading to the generation of a spectrum of complex behaviors, including ego-motion prediction, object attention, and object gathering. Moreover, the world-model that the agent learns supports improved performance on object dynamics prediction, detection, localization and recognition tasks. Taken together, our results are initial steps toward creating flexible autonomous agents that self-supervise in complex novel physical environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-21T07:01:43Z</published>
+    <arxiv:comment>In NIPS 2018. 10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nick Haber</name>
+    </author>
+    <author>
+      <name>Damian Mrowca</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Daniel L. K. Yamins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.01811v1</id>
+    <title>Topological light-trapping on a dislocation</title>
+    <updated>2018-02-06T06:15:02Z</updated>
+    <link href="https://arxiv.org/abs/1802.01811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.01811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Topology has been revealed to play a fundamental role in physics in the past decades. Topological insulators have unconventional gapless edge states where disorder-induced back-scattering is suppressed. In photonics, such edge states lead to unidirectional waveguides which are useful for integrated photonic chips. Cavity modes, another type of fundamental components in photonic chips, however, are not protected by band topology because of their lower dimensions. Here we demonstrate that concurrent wavevector-space and real-space topology, dubbed as the "dual-topology", can lead to light-trapping in lower-dimensions. The resultant photonic bound state emerges as a Jackiw-Rebbi soliton mode localized on a dislocation in a two-dimensional (2D) photonic crystal, as predicted theoretically and discovered experimentally. Such a strongly-confined 0D localized mode, which is solely due to the topological mechanism, is found to be robust against perturbations. Our study unveils a new mechanism for topological light-trapping in lower-dimensions, which is valuable for fundamental physics and a variety of applications in photonics.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-06T06:15:02Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Nature Communications 9, 2462 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+    <author>
+      <name>Hai-Xiao Wang</name>
+    </author>
+    <author>
+      <name>Zhan Xiong</name>
+    </author>
+    <author>
+      <name>Qun Lou</name>
+    </author>
+    <author>
+      <name>Ping Chen</name>
+    </author>
+    <author>
+      <name>Rui-Xin Wu</name>
+    </author>
+    <author>
+      <name>Yin Poo</name>
+    </author>
+    <author>
+      <name>Jian-Hua Jiang</name>
+    </author>
+    <author>
+      <name>Sajeev John</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-018-04861-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-018-04861-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05055v2</id>
+    <title>MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels</title>
+    <updated>2018-08-13T21:27:39Z</updated>
+    <link href="https://arxiv.org/abs/1712.05055v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.05055v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent deep networks are capable of memorizing the entire data even when the labels are completely random. To overcome the overfitting on corrupted labels, we propose a novel technique of learning another neural network, called MentorNet, to supervise the training of the base deep networks, namely, StudentNet. During training, MentorNet provides a curriculum (sample weighting scheme) for StudentNet to focus on the sample the label of which is probably correct. Unlike the existing curriculum that is usually predefined by human experts, MentorNet learns a data-driven curriculum dynamically with StudentNet. Experimental results demonstrate that our approach can significantly improve the generalization performance of deep networks trained on corrupted training data. Notably, to the best of our knowledge, we achieve the best-published result on WebVision, a large benchmark containing 2.2 million images of real-world noisy labels. The code are at https://github.com/google/mentornet</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-14T00:02:37Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>published at ICML 2018</arxiv:journal_ref>
+    <author>
+      <name>Lu Jiang</name>
+    </author>
+    <author>
+      <name>Zhengyuan Zhou</name>
+    </author>
+    <author>
+      <name>Thomas Leung</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00559v3</id>
+    <title>Progressive Neural Architecture Search</title>
+    <updated>2018-07-26T19:51:26Z</updated>
+    <link href="https://arxiv.org/abs/1712.00559v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00559v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new method for learning the structure of convolutional neural networks (CNNs) that is more efficient than recent state-of-the-art methods based on reinforcement learning and evolutionary algorithms. Our approach uses a sequential model-based optimization (SMBO) strategy, in which we search for structures in order of increasing complexity, while simultaneously learning a surrogate model to guide the search through structure space. Direct comparison under the same search space shows that our method is up to 5 times more efficient than the RL method of Zoph et al. (2018) in terms of number of models evaluated, and 8 times faster in terms of total compute. The structures we discover in this way achieve state of the art classification accuracies on CIFAR-10 and ImageNet.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-02T06:23:16Z</published>
+    <arxiv:comment>To appear in ECCV 2018 as oral. The code and checkpoint for PNASNet-5 trained on ImageNet (both Mobile and Large) can now be downloaded from https://github.com/tensorflow/models/tree/master/research/slim#Pretrained. Also see https://github.com/chenxi116/PNASNet.TF for refactored and simplified TensorFlow code; see https://github.com/chenxi116/PNASNet.pytorch for exact conversion to PyTorch</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenxi Liu</name>
+    </author>
+    <author>
+      <name>Barret Zoph</name>
+    </author>
+    <author>
+      <name>Maxim Neumann</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Wei Hua</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Alan Yuille</name>
+    </author>
+    <author>
+      <name>Jonathan Huang</name>
+    </author>
+    <author>
+      <name>Kevin Murphy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00123v1</id>
+    <title>Label Efficient Learning of Transferable Representations across Domains and Tasks</title>
+    <updated>2017-11-30T23:31:28Z</updated>
+    <link href="https://arxiv.org/abs/1712.00123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a framework that learns a representation transferable across different domains and tasks in a label efficient manner. Our approach battles domain shift with a domain adversarial loss, and generalizes the embedding to novel task using a metric learning-based approach. Our model is simultaneously optimized on labeled source data and unlabeled or sparsely labeled data in the target domain. Our method shows compelling results on novel classes within a new domain even when only a few labeled examples per class are available, outperforming the prevalent fine-tuning approach. In addition, we demonstrate the effectiveness of our framework on the transfer learning task from image object recognition to video action recognition.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T23:31:28Z</published>
+    <arxiv:comment>NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Yuliang Zou</name>
+    </author>
+    <author>
+      <name>Judy Hoffman</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00108v2</id>
+    <title>Graph Distillation for Action Detection with Privileged Modalities</title>
+    <updated>2018-07-27T22:03:03Z</updated>
+    <link href="https://arxiv.org/abs/1712.00108v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00108v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a technique that tackles action detection in multimodal videos under a realistic and challenging condition in which only limited training data and partially observed modalities are available. Common methods in transfer learning do not take advantage of the extra modalities potentially available in the source domain. On the other hand, previous work on multimodal learning only focuses on a single domain or task and does not handle the modality discrepancy between training and testing. In this work, we propose a method termed graph distillation that incorporates rich privileged information from a large-scale multimodal dataset in the source domain, and improves the learning in the target domain where training data and modalities are scarce. We evaluate our approach on action classification and detection tasks in multimodal videos, and show that our model outperforms the state-of-the-art by a large margin on the NTU RGB+D and PKU-MMD benchmarks. The code is released at http://alan.vision/eccv18_graph/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T22:40:59Z</published>
+    <arxiv:comment>ECCV 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Jun-Ting Hsieh</name>
+    </author>
+    <author>
+      <name>Lu Jiang</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06373v6</id>
+    <title>Thoracic Disease Identification and Localization with Limited Supervision</title>
+    <updated>2018-06-20T23:24:24Z</updated>
+    <link href="https://arxiv.org/abs/1711.06373v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06373v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate identification and localization of abnormalities from radiology images play an integral part in clinical diagnosis and treatment planning. Building a highly accurate prediction model for these tasks usually requires a large number of images manually annotated with labels and finding sites of abnormalities. In reality, however, such annotated data are expensive to acquire, especially the ones with location annotations. We need methods that can work well with only a small amount of location annotations. To address this challenge, we present a unified approach that simultaneously performs disease identification and localization through the same underlying model for all images. We demonstrate that our approach can effectively leverage both class information as well as limited location annotation, and significantly outperforms the comparative reference baseline in both classification and localization tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T01:52:56Z</published>
+    <arxiv:comment>Conference on Computer Vision and Pattern Recognition 2018 (CVPR 2018). V1: CVPR submission; V2: +supplementary; V3: CVPR camera-ready; V4: correction, update reference baseline results according to their latest post; V5: minor correction; V6: Identification results using NIH data splits and various image models</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhe Li</name>
+    </author>
+    <author>
+      <name>Chong Wang</name>
+    </author>
+    <author>
+      <name>Mei Han</name>
+    </author>
+    <author>
+      <name>Yuan Xue</name>
+    </author>
+    <author>
+      <name>Wei Wei</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01813v2</id>
+    <title>Neural Task Programming: Learning to Generalize Across Hierarchical Tasks</title>
+    <updated>2018-03-14T22:04:25Z</updated>
+    <link href="https://arxiv.org/abs/1710.01813v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01813v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we propose a novel robot learning framework called Neural Task Programming (NTP), which bridges the idea of few-shot learning from demonstration and neural program induction. NTP takes as input a task specification (e.g., video demonstration of a task) and recursively decomposes it into finer sub-task specifications. These specifications are fed to a hierarchical neural program, where bottom-level programs are callable subroutines that interact with the environment. We validate our method in three robot manipulation tasks. NTP achieves strong generalization across sequential tasks that exhibit hierarchal and compositional structures. The experimental results show that NTP learns to generalize well to- wards unseen tasks with increasing lengths, variable topologies, and changing objectives.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-04T21:31:49Z</published>
+    <arxiv:comment>ICRA 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Julian Gao</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.02482v1</id>
+    <title>Scalable Annotation of Fine-Grained Categories Without Experts</title>
+    <updated>2017-09-07T23:08:26Z</updated>
+    <link href="https://arxiv.org/abs/1709.02482v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.02482v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a crowdsourcing workflow to collect image annotations for visually similar synthetic categories without requiring experts. In animals, there is a direct link between taxonomy and visual similarity: e.g. a collie (type of dog) looks more similar to other collies (e.g. smooth collie) than a greyhound (another type of dog). However, in synthetic categories such as cars, objects with similar taxonomy can have very different appearance: e.g. a 2011 Ford F-150 Supercrew-HD looks the same as a 2011 Ford F-150 Supercrew-LL but very different from a 2011 Ford F-150 Supercrew-SVT. We introduce a graph based crowdsourcing algorithm to automatically group visually indistinguishable objects together. Using our workflow, we label 712,430 images by ~1,000 Amazon Mechanical Turk workers; resulting in the largest fine-grained visual dataset reported to date with 2,657 categories of cars annotated at 1/20th the cost of hiring experts.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-07T23:08:26Z</published>
+    <arxiv:comment>CHI 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Timnit Gebru</name>
+    </author>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.02480v1</id>
+    <title>Fine-Grained Car Detection for Visual Census Estimation</title>
+    <updated>2017-09-07T22:56:21Z</updated>
+    <link href="https://arxiv.org/abs/1709.02480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.02480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Targeted socioeconomic policies require an accurate understanding of a country's demographic makeup. To that end, the United States spends more than 1 billion dollars a year gathering census data such as race, gender, education, occupation and unemployment rates. Compared to the traditional method of collecting surveys across many years which is costly and labor intensive, data-driven, machine learning driven approaches are cheaper and faster--with the potential ability to detect trends in close to real time. In this work, we leverage the ubiquity of Google Street View images and develop a computer vision pipeline to predict income, per capita carbon emission, crime rates and other city attributes from a single source of publicly available visual data. We first detect cars in 50 million images across 200 of the largest US cities and train a model to predict demographic attributes using the detected cars. To facilitate our work, we have collected the largest and most challenging fine-grained dataset reported to date consisting of over 2600 classes of cars comprised of images from Google Street View and other web sources, classified by car experts to account for even the most subtle of visual differences. We use this data to construct the largest scale fine-grained detection system reported to date. Our prediction results correlate well with ground truth income data (r=0.82), Massachusetts department of vehicle registration, and sources investigating crime rates, income segregation, per capita carbon emission, and other market research. Finally, we learn interesting relationships between cars and neighborhoods allowing us to perform the first large scale sociological analysis of cities using computer vision techniques.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-07T22:56:21Z</published>
+    <arxiv:comment>AAAI 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Timnit Gebru</name>
+    </author>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Yilun Wang</name>
+    </author>
+    <author>
+      <name>Duyun Chen</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.02476v1</id>
+    <title>Fine-grained Recognition in the Wild: A Multi-Task Domain Adaptation Approach</title>
+    <updated>2017-09-07T22:31:45Z</updated>
+    <link href="https://arxiv.org/abs/1709.02476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.02476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While fine-grained object recognition is an important problem in computer vision, current models are unlikely to accurately classify objects in the wild. These fully supervised models need additional annotated images to classify objects in every new scenario, a task that is infeasible. However, sources such as e-commerce websites and field guides provide annotated images for many classes. In this work, we study fine-grained domain adaptation as a step towards overcoming the dataset shift between easily acquired annotated images and the real world. Adaptation has not been studied in the fine-grained setting where annotations such as attributes could be used to increase performance. Our work uses an attribute based multi-task adaptation loss to increase accuracy from a baseline of 4.1% to 19.1% in the semi-supervised adaptation case. Prior do- main adaptation works have been benchmarked on small datasets such as [46] with a total of 795 images for some domains, or simplistic datasets such as [41] consisting of digits. We perform experiments on a subset of a new challenging fine-grained dataset consisting of 1,095,021 images of 2, 657 car categories drawn from e-commerce web- sites and Google Street View.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-07T22:31:45Z</published>
+    <arxiv:comment>ICCV 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Timnit Gebru</name>
+    </author>
+    <author>
+      <name>Judy Hoffman</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.00163v3</id>
+    <title>Towards Vision-Based Smart Hospitals: A System for Tracking and Monitoring Hand Hygiene Compliance</title>
+    <updated>2018-04-24T05:06:13Z</updated>
+    <link href="https://arxiv.org/abs/1708.00163v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.00163v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One in twenty-five patients admitted to a hospital will suffer from a hospital acquired infection. If we can intelligently track healthcare staff, patients, and visitors, we can better understand the sources of such infections. We envision a smart hospital capable of increasing operational efficiency and improving patient care with less spending. In this paper, we propose a non-intrusive vision-based system for tracking people's activity in hospitals. We evaluate our method for the problem of measuring hand hygiene compliance. Empirically, our method outperforms existing solutions such as proximity-based techniques and covert in-person observational studies. We present intuitive, qualitative results that analyze human movement patterns and conduct spatial analytics which convey our method's interpretability. This work is a step towards a computer-vision based smart hospital and demonstrates promising results for reducing hospital acquired infections.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-01T05:21:08Z</published>
+    <arxiv:comment>Machine Learning for Healthcare Conference (MLHC)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>PMLR 68:75-87, 2017</arxiv:journal_ref>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Michelle Guo</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Alisha Rege</name>
+    </author>
+    <author>
+      <name>Jeffrey Jopling</name>
+    </author>
+    <author>
+      <name>Lance Downing</name>
+    </author>
+    <author>
+      <name>William Beninati</name>
+    </author>
+    <author>
+      <name>Amit Singh</name>
+    </author>
+    <author>
+      <name>Terry Platchek</name>
+    </author>
+    <author>
+      <name>Arnold Milstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.04674v2</id>
+    <title>ADAPT: Zero-Shot Adaptive Policy Transfer for Stochastic Dynamical Systems</title>
+    <updated>2017-11-08T22:41:31Z</updated>
+    <link href="https://arxiv.org/abs/1707.04674v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.04674v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model-free policy learning has enabled robust performance of complex tasks with relatively simple algorithms. However, this simplicity comes at the cost of requiring an Oracle and arguably very poor sample complexity. This renders such methods unsuitable for physical systems. Variants of model-based methods address this problem through the use of simulators, however, this gives rise to the problem of policy transfer from simulated to the physical system. Model mismatch due to systematic parameter shift and unmodelled dynamics error may cause sub-optimal or unsafe behavior upon direct transfer. We introduce the Adaptive Policy Transfer for Stochastic Dynamics (ADAPT) algorithm that achieves provably safe and robust, dynamically-feasible zero-shot transfer of RL-policies to new domains with dynamics error. ADAPT combines the strengths of offline policy learning in a black-box source simulator with online tube-based MPC to attenuate bounded model mismatch between the source and target dynamics. ADAPT allows online transfer of policy, trained solely in a simulation offline, to a family of unknown targets without fine-tuning. We also formally show that (i) ADAPT guarantees state and control safety through state-action tubes under the assumption of Lipschitz continuity of the divergence in dynamics and, (ii) ADAPT results in a bounded loss of reward accumulation relative to a policy trained and evaluated in the source environment. We evaluate ADAPT on 2 continuous, non-holonomic simulated dynamical systems with 4 different disturbance models, and find that ADAPT performs between 50%-300% better on mean reward accrual than direct policy transfer.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-15T01:16:44Z</published>
+    <arxiv:comment>International Symposium on Robotics Research (ISRR), 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>James Harrison</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Boris Ivanovic</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Marco Pavone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.02884v1</id>
+    <title>Learning to Learn from Noisy Web Videos</title>
+    <updated>2017-06-09T10:25:05Z</updated>
+    <link href="https://arxiv.org/abs/1706.02884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.02884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the simultaneously very diverse and intricately fine-grained set of possible human actions is a critical open problem in computer vision. Manually labeling training videos is feasible for some action classes but doesn't scale to the full long-tailed distribution of actions. A promising way to address this is to leverage noisy data from web queries to learn new actions, using semi-supervised or "webly-supervised" approaches. However, these methods typically do not learn domain-specific knowledge, or rely on iterative hand-tuned data labeling policies. In this work, we instead propose a reinforcement learning-based formulation for selecting the right examples for training a classifier from noisy web search results. Our method uses Q-learning to learn a data labeling policy on a small labeled training dataset, and then uses this to automatically label noisy web data for new visual concepts. Experiments on the challenging Sports-1M action recognition benchmark as well as on additional fine-grained and newly emerging action classes demonstrate that our method is able to learn good labeling policies for noisy data and use this to learn accurate visual concept classifiers.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-09T10:25:05Z</published>
+    <arxiv:comment>To appear in CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Vignesh Ramanathan</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <author>
+      <name>Liyue Shen</name>
+    </author>
+    <author>
+      <name>Greg Mori</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03643v2</id>
+    <title>Tackling Over-pruning in Variational Autoencoders</title>
+    <updated>2017-08-07T01:13:29Z</updated>
+    <link href="https://arxiv.org/abs/1706.03643v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03643v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Variational autoencoders (VAE) are directed generative models that learn factorial latent variables. As noted by Burda et al. (2015), these models exhibit the problem of factor over-pruning where a significant number of stochastic factors fail to learn anything and become inactive. This can limit their modeling power and their ability to learn diverse and meaningful latent representations. In this paper, we evaluate several methods to address this problem and propose a more effective model-based approach called the epitomic variational autoencoder (eVAE). The so-called epitomes of this model are groups of mutually exclusive latent factors that compete to explain the data. This approach helps prevent inactive units since each group is pressured to explain the data. We compare the approaches with qualitative and quantitative results on MNIST and TFD datasets. Our results show that eVAE makes efficient use of model capacity and generalizes better than VAE.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-09T10:13:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Anitha Kannan</name>
+    </author>
+    <author>
+      <name>Yann Dauphin</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.08080v2</id>
+    <title>Visual Semantic Planning using Deep Successor Representations</title>
+    <updated>2017-08-15T21:13:49Z</updated>
+    <link href="https://arxiv.org/abs/1705.08080v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.08080v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A crucial capability of real-world intelligent agents is their ability to plan a sequence of actions to achieve their goals in the visual world. In this work, we address the problem of visual semantic planning: the task of predicting a sequence of actions from visual observations that transform a dynamic environment from an initial state to a goal state. Doing so entails knowledge about objects and their affordances, as well as actions and their preconditions and effects. We propose learning these through interacting with a visual and dynamic environment. Our proposed solution involves bootstrapping reinforcement learning with imitation learning. To ensure cross task generalization, we develop a deep predictive model based on successor representations. Our experimental results show near optimal results across a wide range of tasks in the challenging THOR environment.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-23T05:22:47Z</published>
+    <arxiv:comment>ICCV 2017 camera ready</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Daniel Gordon</name>
+    </author>
+    <author>
+      <name>Eric Kolve</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Roozbeh Mottaghi</name>
+    </author>
+    <author>
+      <name>Ali Farhadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03633v1</id>
+    <title>Inferring and Executing Programs for Visual Reasoning</title>
+    <updated>2017-05-10T07:08:23Z</updated>
+    <link href="https://arxiv.org/abs/1705.03633v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.03633v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing methods for visual reasoning attempt to directly map inputs to outputs using black-box architectures without explicitly modeling the underlying reasoning processes. As a result, these black-box models often learn to exploit biases in the data rather than learning to perform visual reasoning. Inspired by module networks, this paper proposes a model for visual reasoning that consists of a program generator that constructs an explicit representation of the reasoning process to be performed, and an execution engine that executes the resulting program to produce an answer. Both the program generator and the execution engine are implemented by neural networks, and are trained using a combination of backpropagation and REINFORCE. Using the CLEVR benchmark for visual reasoning, we show that our model significantly outperforms strong baselines and generalizes better in a variety of settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-10T07:08:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Bharath Hariharan</name>
+    </author>
+    <author>
+      <name>Laurens van der Maaten</name>
+    </author>
+    <author>
+      <name>Judy Hoffman</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>C. Lawrence Zitnick</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.02092v1</id>
+    <title>Characterizing and Improving Stability in Neural Style Transfer</title>
+    <updated>2017-05-05T05:54:05Z</updated>
+    <link href="https://arxiv.org/abs/1705.02092v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.02092v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress in style transfer on images has focused on improving the quality of stylized images and speed of methods. However, real-time methods are highly unstable resulting in visible flickering when applied to videos. In this work we characterize the instability of these methods by examining the solution set of the style transfer objective. We show that the trace of the Gram matrix representing style is inversely related to the stability of the method. Then, we present a recurrent convolutional network for real-time video style transfer which incorporates a temporal consistency loss and overcomes the instability of prior methods. Our networks can be applied at any resolution, do not re- quire optical flow at test time, and produce high quality, temporally consistent stylized videos in real-time.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-05T05:54:05Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.00754v1</id>
+    <title>Dense-Captioning Events in Videos</title>
+    <updated>2017-05-02T01:21:58Z</updated>
+    <link href="https://arxiv.org/abs/1705.00754v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.00754v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most natural videos contain numerous events. For example, in a video of a "man playing a piano", the video might also contain "another man dancing" or "a crowd clapping". We introduce the task of dense-captioning events, which involves both detecting and describing events in a video. We propose a new model that is able to identify all events in a single pass of the video while simultaneously describing the detected events with natural language. Our model introduces a variant of an existing proposal module that is designed to capture both short as well as long events that span minutes. To capture the dependencies between the events in a video, our model introduces a new captioning module that uses contextual information from past and future events to jointly describe all events. We also introduce ActivityNet Captions, a large-scale benchmark for dense-captioning events. ActivityNet Captions contains 20k videos amounting to 849 video hours with 100k total descriptions, each with it's unique start and end time. Finally, we report performances of our model for dense-captioning events, video retrieval and localization.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-02T01:21:58Z</published>
+    <arxiv:comment>16 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Kenji Hata</name>
+    </author>
+    <author>
+      <name>Frederic Ren</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02521v2</id>
+    <title>Unsupervised Visual-Linguistic Reference Resolution in Instructional Videos</title>
+    <updated>2017-05-20T22:33:54Z</updated>
+    <link href="https://arxiv.org/abs/1703.02521v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.02521v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose an unsupervised method for reference resolution in instructional videos, where the goal is to temporally link an entity (e.g., "dressing") to the action (e.g., "mix yogurt") that produced it. The key challenge is the inevitable visual-linguistic ambiguities arising from the changes in both visual appearance and referring expression of an entity in the video. This challenge is amplified by the fact that we aim to resolve references with no supervision. We address these challenges by learning a joint visual-linguistic model, where linguistic cues can help resolve visual ambiguities and vice versa. We verify our approach by learning our model unsupervisedly using more than two thousand unstructured cooking videos from YouTube, and show that our visual-linguistic model can substantially improve upon state-of-the-art linguistic only model on reference resolution in instructional videos.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-07T18:40:27Z</published>
+    <arxiv:comment>CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Joseph J. Lim</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.06683v2</id>
+    <title>Using Deep Learning and Google Street View to Estimate the Demographic Makeup of the US</title>
+    <updated>2017-03-02T05:11:11Z</updated>
+    <link href="https://arxiv.org/abs/1702.06683v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.06683v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The United States spends more than $1B each year on initiatives such as the American Community Survey (ACS), a labor-intensive door-to-door study that measures statistics relating to race, gender, education, occupation, unemployment, and other demographic factors. Although a comprehensive source of data, the lag between demographic changes and their appearance in the ACS can exceed half a decade. As digital imagery becomes ubiquitous and machine vision techniques improve, automated data analysis may provide a cheaper and faster alternative. Here, we present a method that determines socioeconomic trends from 50 million images of street scenes, gathered in 200 American cities by Google Street View cars. Using deep learning-based computer vision techniques, we determined the make, model, and year of all motor vehicles encountered in particular neighborhoods. Data from this census of motor vehicles, which enumerated 22M automobiles in total (8% of all automobiles in the US), was used to accurately estimate income, race, education, and voting patterns, with single-precinct resolution. (The average US precinct contains approximately 1000 people.) The resulting associations are surprisingly simple and powerful. For instance, if the number of sedans encountered during a 15-minute drive through a city is higher than the number of pickup trucks, the city is likely to vote for a Democrat during the next Presidential election (88% chance); otherwise, it is likely to vote Republican (82%). Our results suggest that automated systems for monitoring demographic trends may effectively complement labor-intensive approaches, with the potential to detect trends with fine spatial resolution, in close to real time.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-22T06:20:13Z</published>
+    <arxiv:comment>41 pages including supplementary material. Under review at PNAS</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Timnit Gebru</name>
+    </author>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Yilun Wang</name>
+    </author>
+    <author>
+      <name>Duyun Chen</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Erez Lieberman Aiden</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1700035114</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1700035114" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.02426v2</id>
+    <title>Scene Graph Generation by Iterative Message Passing</title>
+    <updated>2017-04-12T04:11:32Z</updated>
+    <link href="https://arxiv.org/abs/1701.02426v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.02426v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding a visual scene goes beyond recognizing individual objects in isolation. Relationships between objects also constitute rich semantic information about the scene. In this work, we explicitly model the objects and their relationships using scene graphs, a visually-grounded graphical structure of an image. We propose a novel end-to-end model that generates such structured scene representation from an input image. The model solves the scene graph inference problem using standard RNNs and learns to iteratively improves its predictions via message passing. Our joint inference model can take advantage of contextual cues to make better predictions on objects and their relationships. The experiments show that our model significantly outperforms previous methods for generating scene graphs using Visual Genome dataset and inferring support relations with NYU Depth v2 dataset.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-10T03:06:58Z</published>
+    <arxiv:comment>CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Christopher B. Choy</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.01821v3</id>
+    <title>Unsupervised Learning of Long-Term Motion Dynamics for Videos</title>
+    <updated>2017-04-11T22:09:03Z</updated>
+    <link href="https://arxiv.org/abs/1701.01821v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.01821v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an unsupervised representation learning approach that compactly encodes the motion dependencies in videos. Given a pair of images from a video clip, our framework learns to predict the long-term 3D motions. To reduce the complexity of the learning framework, we propose to describe the motion as a sequence of atomic 3D flows computed with RGB-D modality. We use a Recurrent Neural Network based Encoder-Decoder framework to predict these sequences of flows. We argue that in order for the decoder to reconstruct these sequences, the encoder must learn a robust video representation that captures long-term motion dependencies and spatial-temporal relations. We demonstrate the effectiveness of our learned temporal representations on activity classification across multiple modalities and datasets such as NTU RGB+D and MSR Daily Activity 3D. Our framework is generic to any input modality, i.e., RGB, Depth, and RGB-D videos.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-07T12:03:11Z</published>
+    <arxiv:comment>CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Boya Peng</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06890v1</id>
+    <title>CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning</title>
+    <updated>2016-12-20T21:40:40Z</updated>
+    <link href="https://arxiv.org/abs/1612.06890v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06890v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When building artificial intelligence systems that can reason and answer questions about visual data, we need diagnostic tests to analyze our progress and discover shortcomings. Existing benchmarks for visual question answering can help, but have strong biases that models can exploit to correctly answer questions without reasoning. They also conflate multiple sources of error, making it hard to pinpoint model weaknesses. We present a diagnostic dataset that tests a range of visual reasoning abilities. It contains minimal biases and has detailed annotations describing the kind of reasoning each question requires. We use this dataset to analyze a variety of modern visual reasoning systems, providing novel insights into their abilities and limitations.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-20T21:40:40Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Bharath Hariharan</name>
+    </author>
+    <author>
+      <name>Laurens van der Maaten</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>C. Lawrence Zitnick</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.07212v1</id>
+    <title>Recurrent Attention Models for Depth-Based Person Identification</title>
+    <updated>2016-11-22T09:27:30Z</updated>
+    <link href="https://arxiv.org/abs/1611.07212v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.07212v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an attention-based model that reasons on human body shape and motion dynamics to identify individuals in the absence of RGB information, hence in the dark. Our approach leverages unique 4D spatio-temporal signatures to address the identification problem across days. Formulated as a reinforcement learning task, our model is based on a combination of convolutional and recurrent neural networks with the goal of identifying small, discriminative regions indicative of human identity. We demonstrate that our model produces state-of-the-art results on several published datasets given only depth images. We further study the robustness of our model towards viewpoint, appearance, and volumetric changes. Finally, we share insights gleaned from interpretable 2D, 3D, and 4D visualizations of our model's spatio-temporal attention.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-22T09:27:30Z</published>
+    <arxiv:comment>Computer Vision and Pattern Recognition (CVPR) 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.06607v2</id>
+    <title>A Hierarchical Approach for Generating Descriptive Image Paragraphs</title>
+    <updated>2017-04-10T17:59:15Z</updated>
+    <link href="https://arxiv.org/abs/1611.06607v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.06607v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress on image captioning has made it possible to generate novel sentences describing images in natural language, but compressing an image into a single sentence can describe visual content in only coarse detail. While one new captioning approach, dense captioning, can potentially describe images in finer levels of detail by captioning many regions within an image, it in turn is unable to produce a coherent story for an image. In this paper we overcome these limitations by generating entire paragraphs for describing images, which can tell detailed, unified stories. We develop a model that decomposes both images and paragraphs into their constituent parts, detecting semantic regions in images and using a hierarchical recurrent neural network to reason about language. Linguistic analysis confirms the complexity of the paragraph generation task, and thorough experiments on a new dataset of image and paragraph pairs demonstrate the effectiveness of our approach.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-20T23:10:51Z</published>
+    <arxiv:comment>CVPR 2017 spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.02145v1</id>
+    <title>Crowdsourcing in Computer Vision</title>
+    <updated>2016-11-07T16:11:19Z</updated>
+    <link href="https://arxiv.org/abs/1611.02145v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.02145v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer vision systems require large amounts of manually annotated data to properly learn challenging visual concepts. Crowdsourcing platforms offer an inexpensive method to capture human knowledge and understanding, for a vast number of visual perception tasks. In this survey, we describe the types of annotations computer vision researchers have collected using crowdsourcing, and how they have ensured that this data is of high quality while annotation effort is minimized. We begin by discussing data collection on both classic (e.g., object recognition) and recent (e.g., visual story-telling) vision tasks. We then summarize key design decisions for creating effective data collection interfaces and workflows, and present strategies for intelligently selecting the most important data instances to annotate. Finally, we conclude with some thoughts on the future of crowdsourcing in computer vision.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-07T16:11:19Z</published>
+    <arxiv:comment>A 69-page meta review of the field, Foundations and Trends in Computer Graphics and Vision, 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Adriana Kovashka</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Kristen Grauman</name>
+    </author>
+    <arxiv:doi>10.1561/0600000073</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1561/0600000073" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05143v1</id>
+    <title>Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning</title>
+    <updated>2016-09-16T17:16:49Z</updated>
+    <link href="https://arxiv.org/abs/1609.05143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.05143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two less addressed issues of deep reinforcement learning are (1) lack of generalization capability to new target goals, and (2) data inefficiency i.e., the model requires several (and often costly) episodes of trial and error to converge, which makes it impractical to be applied to real-world scenarios. In this paper, we address these two issues and apply our model to the task of target-driven visual navigation. To address the first issue, we propose an actor-critic model whose policy is a function of the goal as well as the current state, which allows to better generalize. To address the second issue, we propose AI2-THOR framework, which provides an environment with high-quality 3D scenes and physics engine. Our framework enables agents to take actions and interact with objects. Hence, we can collect a huge number of training samples efficiently.
+  We show that our proposed method (1) converges faster than the state-of-the-art deep reinforcement learning methods, (2) generalizes across targets and across scenes, (3) generalizes to a real robot scenario with a small amount of fine-tuning (although the model is trained in simulation), (4) is end-to-end trainable and does not need feature engineering, feature matching between frames or 3D reconstruction of the environment.
+  The supplementary video can be accessed at the following link: https://youtu.be/SmBxMDiOrvs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-16T17:16:49Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Roozbeh Mottaghi</name>
+    </author>
+    <author>
+      <name>Eric Kolve</name>
+    </author>
+    <author>
+      <name>Joseph J. Lim</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ali Farhadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.04855v2</id>
+    <title>A Glimpse Far into the Future: Understanding Long-term Crowd Worker Quality</title>
+    <updated>2016-11-01T17:34:10Z</updated>
+    <link href="https://arxiv.org/abs/1609.04855v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.04855v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Microtask crowdsourcing is increasingly critical to the creation of extremely large datasets. As a result, crowd workers spend weeks or months repeating the exact same tasks, making it necessary to understand their behavior over these long periods of time. We utilize three large, longitudinal datasets of nine million annotations collected from Amazon Mechanical Turk to examine claims that workers fatigue or satisfice over these long periods, producing lower quality work. We find that, contrary to these claims, workers are extremely stable in their quality over the entire period. To understand whether workers set their quality based on the task's requirements for acceptance, we then perform an experiment where we vary the required quality for a large crowdsourcing task. Workers did not adjust their quality based on the acceptance threshold: workers who were above the threshold continued working at their usual quality level, and workers below the threshold self-selected themselves out of the task. Capitalizing on this consistency, we demonstrate that it is possible to predict workers' long-term quality using just a glimpse of their quality on the first five tasks.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-15T20:47:51Z</published>
+    <arxiv:comment>10 pages, 11 figures, accepted CSCW 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Kenji Hata</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+    <arxiv:doi>10.1145/2998181.2998248</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/2998181.2998248" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00187v1</id>
+    <title>Visual Relationship Detection with Language Priors</title>
+    <updated>2016-07-31T05:54:13Z</updated>
+    <link href="https://arxiv.org/abs/1608.00187v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00187v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual relationships capture a wide variety of interactions between pairs of objects in images (e.g. "man riding bicycle" and "man pushing bicycle"). Consequently, the set of possible relationships is extremely large and it is difficult to obtain sufficient training examples for all possible relationships. Because of this limitation, previous work on visual relationship detection has concentrated on predicting only a handful of relationships. Though most relationships are infrequent, their objects (e.g. "man" and "bicycle") and predicates (e.g. "riding" and "pushing") independently occur more frequently. We propose a model that uses this insight to train visual models for objects and predicates individually and later combines them together to predict multiple relationships per image. We improve on prior work by leveraging language priors from semantic word embeddings to finetune the likelihood of a predicted relationship. Our model can scale to predict thousands of types of relationships from a few examples. Additionally, we localize the objects in the predicted relationships as bounding boxes in the image. We further demonstrate that understanding relationships can improve content based image retrieval.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-31T05:54:13Z</published>
+    <arxiv:comment>ECCV 2016 Oral</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Cewu Lu</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.08584v1</id>
+    <title>Connectionist Temporal Modeling for Weakly Supervised Action Labeling</title>
+    <updated>2016-07-28T19:35:50Z</updated>
+    <link href="https://arxiv.org/abs/1607.08584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.08584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a weakly-supervised framework for action labeling in video, where only the order of occurring actions is required during training time. The key challenge is that the per-frame alignments between the input (video) and label (action) sequences are unknown during training. We address this by introducing the Extended Connectionist Temporal Classification (ECTC) framework to efficiently evaluate all possible alignments via dynamic programming and explicitly enforce their consistency with frame-to-frame visual similarities. This protects the model from distractions of visually inconsistent or degenerated alignments without the need of temporal supervision. We further extend our framework to the semi-supervised case when a few frames are sparsely annotated in a video. With less than 1% of labeled frames per video, our method is able to outperform existing semi-supervised approaches and achieve comparable performance to that of fully supervised approaches.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-28T19:35:50Z</published>
+    <arxiv:comment>To appear in ECCV 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.02349v1</id>
+    <title>Locally-Optimized Inter-Subject Alignment of Functional Cortical Regions</title>
+    <updated>2016-06-07T22:40:30Z</updated>
+    <link href="https://arxiv.org/abs/1606.02349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.02349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inter-subject registration of cortical areas is necessary in functional imaging (fMRI) studies for making inferences about equivalent brain function across a population. However, many high-level visual brain areas are defined as peaks of functional contrasts whose cortical position is highly variable. As such, most alignment methods fail to accurately map functional regions of interest (ROIs) across participants. To address this problem, we propose a locally optimized registration method that directly predicts the location of a seed ROI on a separate target cortical sheet by maximizing the functional correlation between their time courses, while simultaneously allowing for non-smooth local deformations in region topology. Our method outperforms the two most commonly used alternatives (anatomical landmark-based AFNI alignment and cortical convexity-based FreeSurfer alignment) in overlap between predicted region and functionally-defined LOC. Furthermore, the maps obtained using our method are more consistent across subjects than both baseline measures. Critically, our method represents an important step forward towards predicting brain regions without explicit localizer scans and deciphering the poorly understood relationship between the location of functional regions, their anatomical extent, and the consistency of computations those regions perform across people.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-07T22:40:30Z</published>
+    <arxiv:comment>Presented at MLINI-2015 workshop, 2015 (arXiv:cs/0101200)</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Marius Cătălin Iordan</name>
+    </author>
+    <author>
+      <name>Armand Joulin</name>
+    </author>
+    <author>
+      <name>Diane M. Beck</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.08155v1</id>
+    <title>Perceptual Losses for Real-Time Style Transfer and Super-Resolution</title>
+    <updated>2016-03-27T01:04:27Z</updated>
+    <link href="https://arxiv.org/abs/1603.08155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.08155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider image transformation problems, where an input image is transformed into an output image. Recent methods for such problems typically train feed-forward convolutional neural networks using a \emph{per-pixel} loss between the output and ground-truth images. Parallel work has shown that high-quality images can be generated by defining and optimizing \emph{perceptual} loss functions based on high-level features extracted from pretrained networks. We combine the benefits of both approaches, and propose the use of perceptual loss functions for training feed-forward networks for image transformation tasks. We show results on image style transfer, where a feed-forward network is trained to solve the optimization problem proposed by Gatys et al in real-time. Compared to the optimization-based method, our network gives similar qualitative results but is three orders of magnitude faster. We also experiment with single-image super-resolution, where replacing a per-pixel loss with a perceptual loss gives visually pleasing results.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-27T01:04:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.07076v3</id>
+    <title>Towards Viewpoint Invariant 3D Human Pose Estimation</title>
+    <updated>2016-07-26T06:59:37Z</updated>
+    <link href="https://arxiv.org/abs/1603.07076v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.07076v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a viewpoint invariant model for 3D human pose estimation from a single depth image. To achieve this, our discriminative model embeds local regions into a learned viewpoint invariant feature space. Formulated as a multi-task learning problem, our model is able to selectively predict partial poses in the presence of noise and occlusion. Our approach leverages a convolutional and recurrent network architecture with a top-down error feedback mechanism to self-correct previous pose estimates in an end-to-end manner. We evaluate our model on a previously published depth dataset and a newly collected human pose dataset containing 100K annotated depth images from extreme viewpoints. Experiments show that our model achieves competitive performance on frontal views while achieving state-of-the-art performance on alternate viewpoints.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-23T06:24:19Z</published>
+    <arxiv:comment>European Conference on Computer Vision (ECCV) 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Boya Peng</name>
+    </author>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Alexandre Alahi</name>
+    </author>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07332v1</id>
+    <title>Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations</title>
+    <updated>2016-02-23T22:00:40Z</updated>
+    <link href="https://arxiv.org/abs/1602.07332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.07332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite progress in perceptual tasks such as image classification, computers still perform poorly on cognitive tasks such as image description and question answering. Cognition is core to tasks that involve not just recognizing, but reasoning about our visual world. However, models used to tackle the rich content in images for cognitive tasks are still being trained using the same datasets designed for perceptual tasks. To achieve success at cognitive tasks, models need to understand the interactions and relationships between objects in an image. When asked "What vehicle is the person riding?", computers will need to identify the objects in an image as well as the relationships riding(man, carriage) and pulling(horse, carriage) in order to answer correctly that "the person is riding a horse-drawn carriage".
+  In this paper, we present the Visual Genome dataset to enable the modeling of such relationships. We collect dense annotations of objects, attributes, and relationships within each image to learn these models. Specifically, our dataset contains over 100K images where each image has an average of 21 objects, 18 attributes, and 18 pairwise relationships between objects. We canonicalize the objects, attributes, relationships, and noun phrases in region descriptions and questions answer pairs to WordNet synsets. Together, these annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answers.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-23T22:00:40Z</published>
+    <arxiv:comment>44 pages, 37 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Oliver Groth</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Kenji Hata</name>
+    </author>
+    <author>
+      <name>Joshua Kravitz</name>
+    </author>
+    <author>
+      <name>Stephanie Chen</name>
+    </author>
+    <author>
+      <name>Yannis Kalantidis</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>David A. Shamma</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.04506v1</id>
+    <title>Embracing Error to Enable Rapid Crowdsourcing</title>
+    <updated>2016-02-14T20:56:01Z</updated>
+    <link href="https://arxiv.org/abs/1602.04506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.04506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Microtask crowdsourcing has enabled dataset advances in social science and machine learning, but existing crowdsourcing schemes are too expensive to scale up with the expanding volume of data. To scale and widen the applicability of crowdsourcing, we present a technique that produces extremely rapid judgments for binary and categorical labels. Rather than punishing all errors, which causes workers to proceed slowly and deliberately, our technique speeds up workers' judgments to the point where errors are acceptable and even expected. We demonstrate that it is possible to rectify these errors by randomizing task order and modeling response latency. We evaluate our technique on a breadth of common labeling tasks such as image verification, word similarity, sentiment analysis and topic classification. Where prior work typically achieves a 0.25x to 1x speedup over fixed majority vote, our approach often achieves an order of magnitude (10x) speedup.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-14T20:56:01Z</published>
+    <arxiv:comment>10 pages, 7 figures, CHI '16, CHI: ACM Conference on Human Factors in Computing Systems (2016)</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Kenji Hata</name>
+    </author>
+    <author>
+      <name>Stephanie Chen</name>
+    </author>
+    <author>
+      <name>Joshua Kravitz</name>
+    </author>
+    <author>
+      <name>David A. Shamma</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+    <arxiv:doi>10.1145/2858036.2858115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/2858036.2858115" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07571v1</id>
+    <title>DenseCap: Fully Convolutional Localization Networks for Dense Captioning</title>
+    <updated>2015-11-24T05:13:54Z</updated>
+    <link href="https://arxiv.org/abs/1511.07571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the dense captioning task, which requires a computer vision system to both localize and describe salient regions in images in natural language. The dense captioning task generalizes object detection when the descriptions consist of a single word, and Image Captioning when one predicted region covers the full image. To address the localization and description task jointly we propose a Fully Convolutional Localization Network (FCLN) architecture that processes an image with a single, efficient forward pass, requires no external regions proposals, and can be trained end-to-end with a single round of optimization. The architecture is composed of a Convolutional Network, a novel dense localization layer, and Recurrent Neural Network language model that generates the label sequences. We evaluate our network on the Visual Genome dataset, which comprises 94,000 images and 4,100,000 region-grounded captions. We observe both speed and accuracy improvements over baselines based on current state of the art approaches in both generation and retrieval settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-24T05:13:54Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Andrej Karpathy</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06984v2</id>
+    <title>End-to-end Learning of Action Detection from Frame Glimpses in Videos</title>
+    <updated>2017-03-13T07:33:15Z</updated>
+    <link href="https://arxiv.org/abs/1511.06984v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06984v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we introduce a fully end-to-end approach for action detection in videos that learns to directly predict the temporal bounds of actions. Our intuition is that the process of detecting actions is naturally one of observation and refinement: observing moments in video, and refining hypotheses about when an action is occurring. Based on this insight, we formulate our model as a recurrent neural network-based agent that interacts with a video over time. The agent observes video frames and decides both where to look next and when to emit a prediction. Since backpropagation is not adequate in this non-differentiable setting, we use REINFORCE to learn the agent's decision policy. Our model achieves state-of-the-art results on the THUMOS'14 and ActivityNet datasets while observing only a fraction (2% or less) of the video frames.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-22T09:41:50Z</published>
+    <arxiv:comment>Update to version in CVPR 2016 proceedings</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <author>
+      <name>Greg Mori</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+</feed>

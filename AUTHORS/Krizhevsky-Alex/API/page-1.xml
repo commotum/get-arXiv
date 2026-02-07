@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/C9Qnp9HUC4C9sgH1RludA3nB4ag</id>
+  <title>arXiv Query: search_query=au:"Alex Krizhevsky"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T23:20:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Alex+Krizhevsky%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1812.03079v1</id>
+    <title>ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst</title>
+    <updated>2018-12-07T16:04:00Z</updated>
+    <link href="https://arxiv.org/abs/1812.03079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.03079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our goal is to train a policy for autonomous driving via imitation learning that is robust enough to drive a real vehicle. We find that standard behavior cloning is insufficient for handling complex driving scenarios, even when we leverage a perception system for preprocessing the input and a controller for executing the output on the car: 30 million examples are still not enough. We propose exposing the learner to synthesized data in the form of perturbations to the expert's driving, which creates interesting situations such as collisions and/or going off the road. Rather than purely imitating all data, we augment the imitation loss with additional losses that penalize undesirable events and encourage progress -- the perturbations then provide an important signal for these losses and lead to robustness of the learned model. We show that the ChauffeurNet model can handle complex situations in simulation, and present ablation experiments that emphasize the importance of each of our proposed changes and show that the model is responding to the appropriate causal factors. Finally, we demonstrate the model driving a car in the real world.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-07T16:04:00Z</published>
+    <arxiv:comment>Video results: https://sites.google.com/view/waymo-learn-to-drive</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Mayank Bansal</name>
+    </author>
+    <author>
+      <name>Alex Krizhevsky</name>
+    </author>
+    <author>
+      <name>Abhijit Ogale</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.02199v4</id>
+    <title>Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection</title>
+    <updated>2016-08-28T23:32:37Z</updated>
+    <link href="https://arxiv.org/abs/1603.02199v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.02199v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a learning-based approach to hand-eye coordination for robotic grasping from monocular images. To learn hand-eye coordination for grasping, we trained a large convolutional neural network to predict the probability that task-space motion of the gripper will result in successful grasps, using only monocular camera images and independently of camera calibration or the current robot pose. This requires the network to observe the spatial relationship between the gripper and objects in the scene, thus learning hand-eye coordination. We then use this network to servo the gripper in real time to achieve successful grasps. To train our network, we collected over 800,000 grasp attempts over the course of two months, using between 6 and 14 robotic manipulators at any given time, with differences in camera placement and hardware. Our experimental evaluation demonstrates that our method achieves effective real-time control, can successfully grasp novel objects, and corrects mistakes by continuous servoing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-07T18:53:00Z</published>
+    <arxiv:comment>This is an extended version of "Learning Hand-Eye Coordination for Robotic Grasping with Large-Scale Data Collection," ISER 2016. Draft modified to correct typo in Algorithm 1 and add a link to the publicly available dataset</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Peter Pastor</name>
+    </author>
+    <author>
+      <name>Alex Krizhevsky</name>
+    </author>
+    <author>
+      <name>Deirdre Quillen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.5997v2</id>
+    <title>One weird trick for parallelizing convolutional neural networks</title>
+    <updated>2014-04-26T23:10:51Z</updated>
+    <link href="https://arxiv.org/abs/1404.5997v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.5997v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I present a new way to parallelize the training of convolutional neural networks across multiple GPUs. The method scales significantly better than all alternatives when applied to modern convolutional neural networks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-23T22:37:56Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Alex Krizhevsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.0580v1</id>
+    <title>Improving neural networks by preventing co-adaptation of feature detectors</title>
+    <updated>2012-07-03T06:35:15Z</updated>
+    <link href="https://arxiv.org/abs/1207.0580v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.0580v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This "overfitting" is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random "dropout" gives big improvements on many benchmark tasks and sets new records for speech and object recognition.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-03T06:35:15Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Alex Krizhevsky</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Ruslan R. Salakhutdinov</name>
+    </author>
+  </entry>
+</feed>

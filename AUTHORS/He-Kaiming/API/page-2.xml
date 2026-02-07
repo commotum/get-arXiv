@@ -1,0 +1,658 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R4NWlf/DEcDjAHMwF1vsUDtrq3c</id>
+  <title>arXiv Query: search_query=au:"Kaiming He"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T23:06:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Kaiming+He%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>76</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1711.07971v3</id>
+    <title>Non-local Neural Networks</title>
+    <updated>2018-04-13T06:40:44Z</updated>
+    <link href="https://arxiv.org/abs/1711.07971v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.07971v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Both convolutional and recurrent operations are building blocks that process one local neighborhood at a time. In this paper, we present non-local operations as a generic family of building blocks for capturing long-range dependencies. Inspired by the classical non-local means method in computer vision, our non-local operation computes the response at a position as a weighted sum of the features at all positions. This building block can be plugged into many computer vision architectures. On the task of video classification, even without any bells and whistles, our non-local models can compete or outperform current competition winners on both Kinetics and Charades datasets. In static image recognition, our non-local models improve object detection/segmentation and pose estimation on the COCO suite of tasks. Code is available at https://github.com/facebookresearch/video-nonlocal-net .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-21T18:51:16Z</published>
+    <arxiv:comment>CVPR 2018, code is available at: https://github.com/facebookresearch/video-nonlocal-net</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaolong Wang</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.02901v3</id>
+    <title>Transitive Invariance for Self-supervised Visual Representation Learning</title>
+    <updated>2017-08-15T02:34:50Z</updated>
+    <link href="https://arxiv.org/abs/1708.02901v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.02901v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning visual representations with self-supervised learning has become popular in computer vision. The idea is to design auxiliary tasks where labels are free to obtain. Most of these tasks end up providing data to learn specific kinds of invariance useful for recognition. In this paper, we propose to exploit different self-supervised approaches to learn representations invariant to (i) inter-instance variations (two objects in the same class should have similar features) and (ii) intra-instance variations (viewpoint, pose, deformations, illumination, etc). Instead of combining two approaches with multi-task learning, we argue to organize and reason the data with multiple variations. Specifically, we propose to generate a graph with millions of objects mined from hundreds of thousands of videos. The objects are connected by two types of edges which correspond to two types of invariance: "different instances but a similar viewpoint and category" and "different viewpoints of the same instance". By applying simple transitivity on the graph with these edges, we can obtain pairs of images exhibiting richer visual invariance. We use this data to train a Triplet-Siamese network with VGG16 as the base architecture and apply the learned representations to different recognition tasks. For object detection, we achieve 63.2% mAP on PASCAL VOC 2007 using Fast R-CNN (compare to 67.3% with ImageNet pre-training). For the challenging COCO dataset, our method is surprisingly close (23.5%) to the ImageNet-supervised counterpart (24.4%) using the Faster R-CNN framework. We also show that our network can perform significantly better than the ImageNet network in the surface normal estimation task.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-09T16:32:44Z</published>
+    <arxiv:comment>ICCV 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaolong Wang</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.02002v2</id>
+    <title>Focal Loss for Dense Object Detection</title>
+    <updated>2018-02-07T18:44:44Z</updated>
+    <link href="https://arxiv.org/abs/1708.02002v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.02002v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The highest accuracy object detectors to date are based on a two-stage approach popularized by R-CNN, where a classifier is applied to a sparse set of candidate object locations. In contrast, one-stage detectors that are applied over a regular, dense sampling of possible object locations have the potential to be faster and simpler, but have trailed the accuracy of two-stage detectors thus far. In this paper, we investigate why this is the case. We discover that the extreme foreground-background class imbalance encountered during training of dense detectors is the central cause. We propose to address this class imbalance by reshaping the standard cross entropy loss such that it down-weights the loss assigned to well-classified examples. Our novel Focal Loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. To evaluate the effectiveness of our loss, we design and train a simple dense detector we call RetinaNet. Our results show that when trained with the focal loss, RetinaNet is able to match the speed of previous one-stage detectors while surpassing the accuracy of all existing state-of-the-art two-stage detectors. Code is at: https://github.com/facebookresearch/Detectron.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-07T06:32:42Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tsung-Yi Lin</name>
+    </author>
+    <author>
+      <name>Priya Goyal</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Piotr Dollár</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.02677v2</id>
+    <title>Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour</title>
+    <updated>2018-04-30T21:53:41Z</updated>
+    <link href="https://arxiv.org/abs/1706.02677v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.02677v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning thrives with large neural networks and large datasets. However, larger networks and larger datasets result in longer training times that impede research and development progress. Distributed synchronous SGD offers a potential solution to this problem by dividing SGD minibatches over a pool of parallel workers. Yet to make this scheme efficient, the per-worker workload must be large, which implies nontrivial growth in the SGD minibatch size. In this paper, we empirically show that on the ImageNet dataset large minibatches cause optimization difficulties, but when these are addressed the trained networks exhibit good generalization. Specifically, we show no loss of accuracy when training with large minibatch sizes up to 8192 images. To achieve this result, we adopt a hyper-parameter-free linear scaling rule for adjusting learning rates as a function of minibatch size and develop a new warmup scheme that overcomes optimization challenges early in training. With these simple techniques, our Caffe2-based system trains ResNet-50 with a minibatch size of 8192 on 256 GPUs in one hour, while matching small minibatch accuracy. Using commodity hardware, our implementation achieves ~90% scaling efficiency when moving from 8 to 256 GPUs. Our findings enable training visual recognition models on internet-scale data with high efficiency.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-08T16:51:53Z</published>
+    <arxiv:comment>Tech report (v2: correct typos)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Priya Goyal</name>
+    </author>
+    <author>
+      <name>Piotr Dollár</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Pieter Noordhuis</name>
+    </author>
+    <author>
+      <name>Lukasz Wesolowski</name>
+    </author>
+    <author>
+      <name>Aapo Kyrola</name>
+    </author>
+    <author>
+      <name>Andrew Tulloch</name>
+    </author>
+    <author>
+      <name>Yangqing Jia</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.07333v3</id>
+    <title>Detecting and Recognizing Human-Object Interactions</title>
+    <updated>2018-03-27T02:57:19Z</updated>
+    <link href="https://arxiv.org/abs/1704.07333v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.07333v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To understand the visual world, a machine must not only recognize individual object instances but also how they interact. Humans are often at the center of such interactions and detecting human-object interactions is an important practical and scientific problem. In this paper, we address the task of detecting &lt;human, verb, object&gt; triplets in challenging everyday photos. We propose a novel model that is driven by a human-centric approach. Our hypothesis is that the appearance of a person -- their pose, clothing, action -- is a powerful cue for localizing the objects they are interacting with. To exploit this cue, our model learns to predict an action-specific density over target object locations based on the appearance of a detected person. Our model also jointly learns to detect people and objects, and by fusing these predictions it efficiently infers interaction triplets in a clean, jointly trained end-to-end system we call InteractNet. We validate our approach on the recently introduced Verbs in COCO (V-COCO) and HICO-DET datasets, where we show quantitatively compelling results.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-24T17:14:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Georgia Gkioxari</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Piotr Dollár</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.06870v3</id>
+    <title>Mask R-CNN</title>
+    <updated>2018-01-24T07:54:08Z</updated>
+    <link href="https://arxiv.org/abs/1703.06870v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.06870v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a conceptually simple, flexible, and general framework for object instance segmentation. Our approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, Mask R-CNN is easy to generalize to other tasks, e.g., allowing us to estimate human poses in the same framework. We show top results in all three tracks of the COCO suite of challenges, including instance segmentation, bounding-box object detection, and person keypoint detection. Without bells and whistles, Mask R-CNN outperforms all existing, single-model entries on every task, including the COCO 2016 challenge winners. We hope our simple and effective approach will serve as a solid baseline and help ease future research in instance-level recognition. Code has been made available at: https://github.com/facebookresearch/Detectron</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-20T17:53:38Z</published>
+    <arxiv:comment>open source; appendix on more results</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Georgia Gkioxari</name>
+    </author>
+    <author>
+      <name>Piotr Dollár</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03144v2</id>
+    <title>Feature Pyramid Networks for Object Detection</title>
+    <updated>2017-04-19T22:46:32Z</updated>
+    <link href="https://arxiv.org/abs/1612.03144v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03144v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feature pyramids are a basic component in recognition systems for detecting objects at different scales. But recent deep learning object detectors have avoided pyramid representations, in part because they are compute and memory intensive. In this paper, we exploit the inherent multi-scale, pyramidal hierarchy of deep convolutional networks to construct feature pyramids with marginal extra cost. A top-down architecture with lateral connections is developed for building high-level semantic feature maps at all scales. This architecture, called a Feature Pyramid Network (FPN), shows significant improvement as a generic feature extractor in several applications. Using FPN in a basic Faster R-CNN system, our method achieves state-of-the-art single-model results on the COCO detection benchmark without bells and whistles, surpassing all existing single-model entries including those from the COCO 2016 challenge winners. In addition, our method can run at 5 FPS on a GPU and thus is a practical and accurate solution to multi-scale object detection. Code will be made publicly available.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-09T19:55:54Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tsung-Yi Lin</name>
+    </author>
+    <author>
+      <name>Piotr Dollár</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Bharath Hariharan</name>
+    </author>
+    <author>
+      <name>Serge Belongie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.05431v2</id>
+    <title>Aggregated Residual Transformations for Deep Neural Networks</title>
+    <updated>2017-04-11T01:53:41Z</updated>
+    <link href="https://arxiv.org/abs/1611.05431v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.05431v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call "cardinality" (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy. Moreover, increasing cardinality is more effective than going deeper or wider when we increase the capacity. Our models, named ResNeXt, are the foundations of our entry to the ILSVRC 2016 classification task in which we secured 2nd place. We further investigate ResNeXt on an ImageNet-5K set and the COCO detection set, also showing better results than its ResNet counterpart. The code and models are publicly available online.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-16T20:34:42Z</published>
+    <arxiv:comment>Accepted to CVPR 2017. Code and models: https://github.com/facebookresearch/ResNeXt</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Piotr Dollár</name>
+    </author>
+    <author>
+      <name>Zhuowen Tu</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07032v2</id>
+    <title>Is Faster R-CNN Doing Well for Pedestrian Detection?</title>
+    <updated>2016-07-27T03:35:19Z</updated>
+    <link href="https://arxiv.org/abs/1607.07032v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.07032v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detecting pedestrian has been arguably addressed as a special topic beyond general object detection. Although recent deep learning object detectors such as Fast/Faster R-CNN [1, 2] have shown excellent performance for general object detection, they have limited success for detecting pedestrian, and previous leading pedestrian detectors were in general hybrid methods combining hand-crafted and deep convolutional features. In this paper, we investigate issues involving Faster R-CNN [2] for pedestrian detection. We discover that the Region Proposal Network (RPN) in Faster R-CNN indeed performs well as a stand-alone pedestrian detector, but surprisingly, the downstream classifier degrades the results. We argue that two reasons account for the unsatisfactory accuracy: (i) insufficient resolution of feature maps for handling small instances, and (ii) lack of any bootstrapping strategy for mining hard negative examples. Driven by these observations, we propose a very simple but effective baseline for pedestrian detection, using an RPN followed by boosted forests on shared, high-resolution convolutional feature maps. We comprehensively evaluate this method on several benchmarks (Caltech, INRIA, ETH, and KITTI), presenting competitive accuracy and good speed. Code will be made publicly available.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-24T11:56:13Z</published>
+    <arxiv:comment>To appear in ECCV 2016, 15 pages, 5 figures (v2: fixed some typos)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Liliang Zhang</name>
+    </author>
+    <author>
+      <name>Liang Lin</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.06409v3</id>
+    <title>R-FCN: Object Detection via Region-based Fully Convolutional Networks</title>
+    <updated>2023-12-11T13:28:51Z</updated>
+    <link href="https://arxiv.org/abs/1605.06409v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.06409v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present region-based, fully convolutional networks for accurate and efficient object detection. In contrast to previous region-based detectors such as Fast/Faster R-CNN that apply a costly per-region subnetwork hundreds of times, our region-based detector is fully convolutional with almost all computation shared on the entire image. To achieve this goal, we propose position-sensitive score maps to address a dilemma between translation-invariance in image classification and translation-variance in object detection. Our method can thus naturally adopt fully convolutional image classifier backbones, such as the latest Residual Networks (ResNets), for object detection. We show competitive results on the PASCAL VOC datasets (e.g., 83.6% mAP on the 2007 set) with the 101-layer ResNet. Meanwhile, our result is achieved at a test-time speed of 170ms per image, 2.5-20x faster than the Faster R-CNN counterpart. Code is made publicly available at: https://github.com/daijifeng001/r-fcn</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-20T15:50:11Z</published>
+    <arxiv:comment>Tech report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jifeng Dai</name>
+    </author>
+    <author>
+      <name>Yi Li</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.05144v1</id>
+    <title>ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation</title>
+    <updated>2016-04-18T13:46:23Z</updated>
+    <link href="https://arxiv.org/abs/1604.05144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.05144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale data is of crucial importance for learning semantic segmentation models, but annotating per-pixel masks is a tedious and inefficient procedure. We note that for the topic of interactive image segmentation, scribbles are very widely used in academic research and commercial software, and are recognized as one of the most user-friendly ways of interacting. In this paper, we propose to use scribbles to annotate images, and develop an algorithm to train convolutional networks for semantic segmentation supervised by scribbles. Our algorithm is based on a graphical model that jointly propagates information from scribbles to unmarked pixels and learns network parameters. We present competitive object semantic segmentation results on the PASCAL VOC dataset by using scribbles as annotations. Scribbles are also favored for annotating stuff (e.g., water, sky, grass) that has no well-defined shape, and our method shows excellent results on the PASCAL-CONTEXT dataset thanks to extra inexpensive scribble annotations. Our scribble annotations on PASCAL VOC are available at http://research.microsoft.com/en-us/um/people/jifdai/downloads/scribble_sup</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-18T13:46:23Z</published>
+    <arxiv:comment>accepted by CVPR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Di Lin</name>
+    </author>
+    <author>
+      <name>Jifeng Dai</name>
+    </author>
+    <author>
+      <name>Jiaya Jia</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.08678v1</id>
+    <title>Instance-sensitive Fully Convolutional Networks</title>
+    <updated>2016-03-29T08:37:26Z</updated>
+    <link href="https://arxiv.org/abs/1603.08678v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.08678v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fully convolutional networks (FCNs) have been proven very successful for semantic segmentation, but the FCN outputs are unaware of object instances. In this paper, we develop FCNs that are capable of proposing instance-level segment candidates. In contrast to the previous FCN that generates one score map, our FCN is designed to compute a small set of instance-sensitive score maps, each of which is the outcome of a pixel-wise classifier of a relative position to instances. On top of these instance-sensitive score maps, a simple assembling module is able to output instance candidate at each position. In contrast to the recent DeepMask method for segmenting instances, our method does not have any high-dimensional layer related to the mask resolution, but instead exploits image local coherence for estimating instances. We present competitive results of instance segment proposal on both PASCAL VOC and MS COCO.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-29T08:37:26Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jifeng Dai</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Yi Li</name>
+    </author>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.05027v3</id>
+    <title>Identity Mappings in Deep Residual Networks</title>
+    <updated>2016-07-25T15:18:32Z</updated>
+    <link href="https://arxiv.org/abs/1603.05027v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.05027v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep residual networks have emerged as a family of extremely deep architectures showing compelling accuracy and nice convergence behaviors. In this paper, we analyze the propagation formulations behind the residual building blocks, which suggest that the forward and backward signals can be directly propagated from one block to any other block, when using identity mappings as the skip connections and after-addition activation. A series of ablation experiments support the importance of these identity mappings. This motivates us to propose a new residual unit, which makes training easier and improves generalization. We report improved results using a 1001-layer ResNet on CIFAR-10 (4.62% error) and CIFAR-100, and a 200-layer ResNet on ImageNet. Code is available at: https://github.com/KaimingHe/resnet-1k-layers</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-16T10:53:56Z</published>
+    <arxiv:comment>ECCV 2016 camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.04412v1</id>
+    <title>Instance-aware Semantic Segmentation via Multi-task Network Cascades</title>
+    <updated>2015-12-14T17:17:23Z</updated>
+    <link href="https://arxiv.org/abs/1512.04412v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.04412v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Semantic segmentation research has recently witnessed rapid progress, but many leading methods are unable to identify object instances. In this paper, we present Multi-task Network Cascades for instance-aware semantic segmentation. Our model consists of three networks, respectively differentiating instances, estimating masks, and categorizing objects. These networks form a cascaded structure, and are designed to share their convolutional features. We develop an algorithm for the nontrivial end-to-end training of this causal, cascaded structure. Our solution is a clean, single-step training framework and can be generalized to cascades that have more stages. We demonstrate state-of-the-art instance-aware semantic segmentation accuracy on PASCAL VOC. Meanwhile, our method takes only 360ms testing an image using VGG-16, which is two orders of magnitude faster than previous systems for this challenging problem. As a by product, our method also achieves compelling object detection results which surpass the competitive Fast/Faster R-CNN systems.
+  The method described in this paper is the foundation of our submissions to the MS COCO 2015 segmentation competition, where we won the 1st place.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-14T17:17:23Z</published>
+    <arxiv:comment>Tech report. 1st-place winner of MS COCO 2015 segmentation competition</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jifeng Dai</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.03385v1</id>
+    <title>Deep Residual Learning for Image Recognition</title>
+    <updated>2015-12-10T19:51:55Z</updated>
+    <link href="https://arxiv.org/abs/1512.03385v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.03385v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers.
+  The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC &amp; COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-10T19:51:55Z</published>
+    <arxiv:comment>Tech report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.01497v3</id>
+    <title>Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks</title>
+    <updated>2016-01-06T06:30:17Z</updated>
+    <link href="https://arxiv.org/abs/1506.01497v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.01497v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-04T07:58:34Z</published>
+    <arxiv:comment>Extended tech report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.06798v2</id>
+    <title>Accelerating Very Deep Convolutional Networks for Classification and Detection</title>
+    <updated>2015-11-18T06:16:59Z</updated>
+    <link href="https://arxiv.org/abs/1505.06798v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.06798v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper aims to accelerate the test-time computation of convolutional neural networks (CNNs), especially very deep CNNs that have substantially impacted the computer vision community. Unlike previous methods that are designed for approximating linear filters or linear responses, our method takes the nonlinear units into account. We develop an effective solution to the resulting nonlinear optimization problem without the need of stochastic gradient descent (SGD). More importantly, while previous methods mainly focus on optimizing one or two layers, our nonlinear method enables an asymmetric reconstruction that reduces the rapidly accumulated error when multiple (e.g., &gt;=10) layers are approximated. For the widely used very deep VGG-16 model, our method achieves a whole-model speedup of 4x with merely a 0.3% increase of top-5 error in ImageNet classification. Our 4x accelerated VGG-16 model also shows a graceful accuracy degradation for object detection when plugged into the Fast R-CNN detector.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-26T03:30:59Z</published>
+    <arxiv:comment>TPAMI, accepted. arXiv admin note: substantial text overlap with arXiv:1411.4229</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Jianhua Zou</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.00996v1</id>
+    <title>Fast Guided Filter</title>
+    <updated>2015-05-05T13:10:53Z</updated>
+    <link href="https://arxiv.org/abs/1505.00996v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.00996v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The guided filter is a technique for edge-aware image filtering. Because of its nice visual quality, fast speed, and ease of implementation, the guided filter has witnessed various applications in real products, such as image editing apps in phones and stereo reconstruction, and has been included in official MATLAB and OpenCV. In this note, we remind that the guided filter can be simply sped up from O(N) time to O(N/s^2) time for a subsampling ratio s. In a variety of applications, this leads to a speedup of &gt;10x with almost no visible degradation. We hope this acceleration will improve performance of current applications and further popularize this filter. Code is released.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-05T13:10:53Z</published>
+    <arxiv:comment>Technical report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.06066v2</id>
+    <title>Object Detection Networks on Convolutional Feature Maps</title>
+    <updated>2016-08-17T15:51:13Z</updated>
+    <link href="https://arxiv.org/abs/1504.06066v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.06066v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most object detectors contain two important components: a feature extractor and an object classifier. The feature extractor has rapidly evolved with significant research efforts leading to better deep convolutional architectures. The object classifier, however, has not received much attention and many recent systems (like SPPnet and Fast/Faster R-CNN) use simple multi-layer perceptrons. This paper demonstrates that carefully designing deep networks for object classification is just as important. We experiment with region-wise classifier networks that use shared, region-independent convolutional features. We call them "Networks on Convolutional feature maps" (NoCs). We discover that aside from deep feature maps, a deep and convolutional per-region classifier is of particular importance for object detection, whereas latest superior image classification models (such as ResNets and GoogLeNets) do not directly lead to good detection accuracy without using such a per-region classifier. We show by experiments that despite the effective ResNets and Faster R-CNN systems, the design of NoCs is an essential element for the 1st-place winning entries in ImageNet and MS COCO challenges 2015.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-23T07:15:10Z</published>
+    <arxiv:comment>To appear in TPAMI; substantial re-writing over the original post at arXiv of April 2015. COCO competition results included</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Ross Girshick</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.01640v2</id>
+    <title>BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation</title>
+    <updated>2015-05-18T09:00:40Z</updated>
+    <link href="https://arxiv.org/abs/1503.01640v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.01640v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent leading approaches to semantic segmentation rely on deep convolutional networks trained with human-annotated, pixel-level segmentation masks. Such pixel-accurate supervision demands expensive labeling effort and limits the performance of deep networks that usually benefit from more training data. In this paper, we propose a method that achieves competitive accuracy but only requires easily obtained bounding box annotations. The basic idea is to iterate between automatically generating region proposals and training convolutional networks. These two steps gradually recover segmentation masks for improving the networks, and vise versa. Our method, called BoxSup, produces competitive results supervised by boxes only, on par with strong baselines fully supervised by masks under the same setting. By leveraging a large amount of bounding boxes, BoxSup further unleashes the power of deep convolutional networks and yields state-of-the-art results on PASCAL VOC 2012 and PASCAL-CONTEXT.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-05T14:06:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jifeng Dai</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.01852v1</id>
+    <title>Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification</title>
+    <updated>2015-02-06T10:44:00Z</updated>
+    <link href="https://arxiv.org/abs/1502.01852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.01852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rectified activation units (rectifiers) are essential for state-of-the-art neural networks. In this work, we study rectifier neural networks for image classification from two aspects. First, we propose a Parametric Rectified Linear Unit (PReLU) that generalizes the traditional rectified unit. PReLU improves model fitting with nearly zero extra computational cost and little overfitting risk. Second, we derive a robust initialization method that particularly considers the rectifier nonlinearities. This method enables us to train extremely deep rectified models directly from scratch and to investigate deeper or wider network architectures. Based on our PReLU networks (PReLU-nets), we achieve 4.94% top-5 test error on the ImageNet 2012 classification dataset. This is a 26% relative improvement over the ILSVRC 2014 winner (GoogLeNet, 6.66%). To our knowledge, our result is the first to surpass human-level performance (5.1%, Russakovsky et al.) on this visual recognition challenge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-06T10:44:00Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00092v3</id>
+    <title>Image Super-Resolution Using Deep Convolutional Networks</title>
+    <updated>2015-07-31T09:13:32Z</updated>
+    <link href="https://arxiv.org/abs/1501.00092v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.00092v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a deep learning method for single image super-resolution (SR). Our method directly learns an end-to-end mapping between the low/high-resolution images. The mapping is represented as a deep convolutional neural network (CNN) that takes the low-resolution image as the input and outputs the high-resolution one. We further show that traditional sparse-coding-based SR methods can also be viewed as a deep convolutional network. But unlike traditional methods that handle each component separately, our method jointly optimizes all layers. Our deep CNN has a lightweight structure, yet demonstrates state-of-the-art restoration quality, and achieves fast speed for practical on-line usage. We explore different network structures and parameter settings to achieve trade-offs between performance and speed. Moreover, we extend our network to cope with three color channels simultaneously, and show better overall reconstruction quality.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-31T08:35:09Z</published>
+    <arxiv:comment>14 pages, 14 figures, journal</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chao Dong</name>
+    </author>
+    <author>
+      <name>Chen Change Loy</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Xiaoou Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1710v1</id>
+    <title>Convolutional Neural Networks at Constrained Time Cost</title>
+    <updated>2014-12-04T16:00:47Z</updated>
+    <link href="https://arxiv.org/abs/1412.1710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Though recent advanced convolutional neural networks (CNNs) have been improving the image recognition accuracy, the models are getting more complex and time-consuming. For real-world applications in industrial and commercial scenarios, engineers and developers are often faced with the requirement of constrained time budget. In this paper, we investigate the accuracy of CNNs under constrained time cost. Under this constraint, the designs of the network architectures should exhibit as trade-offs among the factors like depth, numbers of filters, filter sizes, etc. With a series of controlled comparisons, we progressively modify a baseline model while preserving its time complexity. This is also helpful for understanding the importance of the factors in network designs. We present an architecture that achieves very competitive accuracy in the ImageNet dataset (11.8% top-5 error, 10-view test), yet is 20% faster than "AlexNet" (16.0% top-5 error, 10-view test).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-04T16:00:47Z</published>
+    <arxiv:comment>8-page technical report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1283v4</id>
+    <title>Convolutional Feature Masking for Joint Object and Stuff Segmentation</title>
+    <updated>2015-04-02T04:12:26Z</updated>
+    <link href="https://arxiv.org/abs/1412.1283v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1283v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The topic of semantic segmentation has witnessed considerable progress due to the powerful features learned by convolutional neural networks (CNNs). The current leading approaches for semantic segmentation exploit shape information by extracting CNN features from masked image regions. This strategy introduces artificial boundaries on the images and may impact the quality of the extracted features. Besides, the operations on the raw image domain require to compute thousands of networks on a single image, which is time-consuming. In this paper, we propose to exploit shape information via masking convolutional features. The proposal segments (e.g., super-pixels) are treated as masks on the convolutional feature maps. The CNN features of segments are directly masked out from these maps and used to train classifiers for recognition. We further propose a joint method to handle objects and "stuff" (e.g., grass, sky, water) in the same framework. State-of-the-art results are demonstrated on benchmarks of PASCAL VOC and new PASCAL-CONTEXT, with a compelling computational speed.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-03T11:45:34Z</published>
+    <arxiv:comment>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jifeng Dai</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <arxiv:doi>10.1109/CVPR.2015.7299025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CVPR.2015.7299025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.4229v1</id>
+    <title>Efficient and Accurate Approximations of Nonlinear Convolutional Networks</title>
+    <updated>2014-11-16T08:37:25Z</updated>
+    <link href="https://arxiv.org/abs/1411.4229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.4229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper aims to accelerate the test-time computation of deep convolutional neural networks (CNNs). Unlike existing methods that are designed for approximating linear filters or linear responses, our method takes the nonlinear units into account. We minimize the reconstruction error of the nonlinear responses, subject to a low-rank constraint which helps to reduce the complexity of filters. We develop an effective solution to this constrained nonlinear optimization problem. An algorithm is also presented for reducing the accumulated error when multiple layers are approximated. A whole-model speedup ratio of 4x is demonstrated on a large network trained for ImageNet, while the top-5 error rate is only increased by 0.9%. Our accelerated model has a comparably fast speed as the "AlexNet", but is 4.7% more accurate.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-16T08:37:25Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Jianhua Zou</name>
+    </author>
+    <author>
+      <name>Xiang Ming</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.4729v4</id>
+    <title>Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition</title>
+    <updated>2015-04-23T07:33:24Z</updated>
+    <link href="https://arxiv.org/abs/1406.4729v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.4729v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 224x224) input image. This requirement is "artificial" and may reduce the recognition accuracy for the images or sub-images of an arbitrary size/scale. In this work, we equip the networks with another pooling strategy, "spatial pyramid pooling", to eliminate the above requirement. The new network structure, called SPP-net, can generate a fixed-length representation regardless of image size/scale. Pyramid pooling is also robust to object deformations. With these advantages, SPP-net should in general improve all CNN-based image classification methods. On the ImageNet 2012 dataset, we demonstrate that SPP-net boosts the accuracy of a variety of CNN architectures despite their different designs. On the Pascal VOC 2007 and Caltech101 datasets, SPP-net achieves state-of-the-art classification results using a single full-image representation and no fine-tuning.
+  The power of SPP-net is also significant in object detection. Using SPP-net, we compute the feature maps from the entire image only once, and then pool features in arbitrary regions (sub-images) to generate fixed-length representations for training the detectors. This method avoids repeatedly computing the convolutional features. In processing test images, our method is 24-102x faster than the R-CNN method, while achieving better or comparable accuracy on Pascal VOC 2007.
+  In ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2014, our methods rank #2 in object detection and #3 in image classification among all 38 teams. This manuscript also introduces the improvement made for this competition.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-18T14:24:17Z</published>
+    <arxiv:comment>This manuscript is the accepted version for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2015. See Changelog</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Shaoqing Ren</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-319-10578-9_23</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-319-10578-9_23" title="doi"/>
+  </entry>
+</feed>

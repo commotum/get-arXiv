@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Z24yxklj7YOanJI92epeQy9RUeE</id>
+  <title>arXiv Query: search_query=au:"Tom Brown"&amp;id_list=&amp;start=100&amp;max_results=50</title>
+  <updated>2026-02-06T22:52:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Tom+Brown%22&amp;start=100&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>103</opensearch:totalResults>
+  <opensearch:startIndex>100</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0706.4420v1</id>
+    <title>Bounds on Van der Waerden Numbers and Some Related Functions</title>
+    <updated>2007-06-29T13:56:47Z</updated>
+    <link href="https://arxiv.org/abs/0706.4420v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0706.4420v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For positive integers $s$ and $k_1, k_2, ..., k_s$, let $w(k_1,k_2,...,k_s)$ be the minimum integer $n$ such that any $s$-coloring $\{1,2,...,n\} \to \{1,2,...,s\}$ admits a $k_i$-term arithmetic progression of color $i$ for some $i$, $1 \leq i \leq s$. In the case when $k_1=k_2=...=k_s=k$ we simply write $w(k;s)$.
+  That such a minimum integer exists follows from van der Waerden's theorem on arithmetic progressions.
+  In the present paper we give a lower bound for $w(k,m)$ for each fixed $m$. We include a table with values of $w(k,3)$ which match this lower bound closely for $5 \leq k \leq 16$. We also give an upper bound for $w(k,4)$, an upper bound for $w(4;s)$, and a lower bound for $w(k;s)$ for an arbitrary fixed $k$. We discuss a number of other functions that are closely related to the van der Waerden function.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-06-29T13:56:47Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Bruce M. Landman</name>
+    </author>
+    <author>
+      <name>Aaron Robertson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0703202v2</id>
+    <title>Half-BPS SU(N) Correlators in N=4 SYM</title>
+    <updated>2008-04-03T16:38:37Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0703202v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0703202v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note we study half-BPS operators in N=4 super Yang-Mills for gauge group SU(N) at finite N. In particular we elaborate on the results of hep-th/0410236, providing an exact formula for the null basis operators algorithmically constructed there. For gauge groups U(N) and SU(N) we show that this basis is dual to the basis of multi-trace operators with respect to the two point function. We use this to extend the results of hep-th/0611290 concerning factorisation and probabilities from U(N) to SU(N). We also give a construction for a separate diagonal basis of the SU(N) operators in terms of the higher Hamiltonians of the complex matrix model reduction of this sector.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-22T19:12:20Z</published>
+    <arxiv:comment>LaTeX, 15 pages; comments added on large N limit</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0807:044,2008</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/07/044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/07/044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0611290v2</id>
+    <title>Correlators, Probabilities and Topologies in N=4 SYM</title>
+    <updated>2006-12-15T20:25:14Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0611290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0611290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We calculate transition probabilities for various processes involving giant gravitons and small gravitons in AdS space, using the dual N=4 SYM theory. The normalization factors for these probabilities involve, in general, correlators for manifolds of non-trivial topology which are obtained by gluing simpler four-manifolds. This follows from the factorization properties which relate CFT correlators for different topologies. These points are illustrated, in the first instance, in the simpler example of a two dimensional Matrix CFT. We give the bulk five dimensional interpretation, involving neighborhoods of Witten graphs, of these gluing properties of the four dimensional boundary CFT. As a corollary we give a simple description, based on Witten graphs, of a multiplicity of bulk topologies corresponding to a fixed boundary topology. We also propose to interpret the correlators as topology-changing transition amplitudes between LLM geometries.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-27T18:12:30Z</published>
+    <arxiv:comment>LaTeX : 55 pages + Appendices (30 figures) version 2 : minor typos corrected + minor comments + acknowledgements added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0703:072,2007</arxiv:journal_ref>
+    <author>
+      <name>T. Brown</name>
+    </author>
+    <author>
+      <name>R. de Mello Koch</name>
+    </author>
+    <author>
+      <name>S. Ramgoolam</name>
+    </author>
+    <author>
+      <name>N. Toumbas</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2007/03/072</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2007/03/072" title="doi"/>
+  </entry>
+</feed>

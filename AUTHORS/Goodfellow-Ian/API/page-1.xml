@@ -1,0 +1,1958 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g9uBWvZnhj+ClLmH/KaaTe2FGQ0</id>
+  <title>arXiv Query: search_query=au:"Ian Goodfellow"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T22:55:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ian+Goodfellow%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>69</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.13011v2</id>
+    <title>MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking</title>
+    <updated>2025-04-10T16:25:31Z</updated>
+    <link href="https://arxiv.org/abs/2501.13011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.13011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Future advanced AI systems may learn sophisticated strategies through reinforcement learning (RL) that humans cannot understand well enough to safely evaluate. We propose a training method which avoids agents learning undesired multi-step plans that receive high reward (multi-step "reward hacks") even if humans are not able to detect that the behaviour is undesired. The method, Myopic Optimization with Non-myopic Approval (MONA), works by combining short-sighted optimization with far-sighted reward. We demonstrate that MONA can prevent multi-step reward hacking that ordinary RL causes, even without being able to detect the reward hacking and without any extra information that ordinary RL does not get access to. We study MONA empirically in three settings which model different misalignment failure modes including 2-step environments with LLMs representing delegated oversight and encoded reasoning and longer-horizon gridworld environments representing sensor tampering.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-22T16:53:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sebastian Farquhar</name>
+    </author>
+    <author>
+      <name>Vikrant Varma</name>
+    </author>
+    <author>
+      <name>David Lindner</name>
+    </author>
+    <author>
+      <name>David Elson</name>
+    </author>
+    <author>
+      <name>Caleb Biddulph</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Rohin Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.06718v3</id>
+    <title>TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX</title>
+    <updated>2024-12-07T15:41:14Z</updated>
+    <link href="https://arxiv.org/abs/2406.06718v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.06718v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present TORAX, a new, open-source, differentiable tokamak core transport simulator implemented in Python using the JAX framework. TORAX solves the coupled equations for ion heat transport, electron heat transport, particle transport, and current diffusion, incorporating modular physics-based and ML models. JAX's just-in-time compilation ensures fast runtimes, while its automatic differentiation capability enables gradient-based optimization workflows and simplifies the use of Jacobian-based PDE solvers. Coupling to ML-surrogates of physics models is greatly facilitated by JAX's intrinsic support for neural network development and inference. TORAX is verified against the established RAPTOR code, demonstrating agreement in simulated plasma profiles. TORAX provides a powerful and versatile tool for accelerating research in tokamak scenario modeling, pulse design, and control.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-10T18:28:01Z</published>
+    <arxiv:comment>16 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jonathan Citrin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Akhil Raju</name>
+    </author>
+    <author>
+      <name>Jeremy Chen</name>
+    </author>
+    <author>
+      <name>Jonas Degrave</name>
+    </author>
+    <author>
+      <name>Craig Donner</name>
+    </author>
+    <author>
+      <name>Federico Felici</name>
+    </author>
+    <author>
+      <name>Philippe Hamel</name>
+    </author>
+    <author>
+      <name>Andrea Huber</name>
+    </author>
+    <author>
+      <name>Dmitry Nikulin</name>
+    </author>
+    <author>
+      <name>David Pfau</name>
+    </author>
+    <author>
+      <name>Brendan Tracey</name>
+    </author>
+    <author>
+      <name>Martin Riedmiller</name>
+    </author>
+    <author>
+      <name>Pushmeet Kohli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.11645v2</id>
+    <title>Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming</title>
+    <updated>2020-11-03T17:48:49Z</updated>
+    <link href="https://arxiv.org/abs/2010.11645v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.11645v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Convex relaxations have emerged as a promising approach for verifying desirable properties of neural networks like robustness to adversarial perturbations. Widely used Linear Programming (LP) relaxations only work well when networks are trained to facilitate verification. This precludes applications that involve verification-agnostic networks, i.e., networks not specially trained for verification. On the other hand, semidefinite programming (SDP) relaxations have successfully be applied to verification-agnostic networks, but do not currently scale beyond small networks due to poor time and space asymptotics. In this work, we propose a first-order dual SDP algorithm that (1) requires memory only linear in the total number of network activations, (2) only requires a fixed number of forward/backward passes through the network per iteration. By exploiting iterative eigenvector methods, we express all solver operations in terms of forward and backward passes through the network, enabling efficient use of hardware like GPUs/TPUs. For two verification-agnostic networks on MNIST and CIFAR-10, we significantly improve L-inf verified robust accuracy from 1% to 88% and 6% to 40% respectively. We also demonstrate tight verification of a quadratic stability specification for the decoder of a variational autoencoder.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-22T12:32:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sumanth Dathathri</name>
+    </author>
+    <author>
+      <name>Krishnamurthy Dvijotham</name>
+    </author>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+    <author>
+      <name>Jonathan Uesato</name>
+    </author>
+    <author>
+      <name>Rudy Bunel</name>
+    </author>
+    <author>
+      <name>Shreya Shankar</name>
+    </author>
+    <author>
+      <name>Jacob Steinhardt</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Pushmeet Kohli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.02365v1</id>
+    <title>Creating High Resolution Images with a Latent Adversarial Generator</title>
+    <updated>2020-03-04T23:23:08Z</updated>
+    <link href="https://arxiv.org/abs/2003.02365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.02365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generating realistic images is difficult, and many formulations for this task have been proposed recently. If we restrict the task to that of generating a particular class of images, however, the task becomes more tractable. That is to say, instead of generating an arbitrary image as a sample from the manifold of natural images, we propose to sample images from a particular "subspace" of natural images, directed by a low-resolution image from the same subspace. The problem we address, while close to the formulation of the single-image super-resolution problem, is in fact rather different. Single image super-resolution is the task of predicting the image closest to the ground truth from a relatively low resolution image. We propose to produce samples of high resolution images given extremely small inputs with a new method called Latent Adversarial Generator (LAG). In our generative sampling framework, we only use the input (possibly of very low-resolution) to direct what class of samples the network should produce. As such, the output of our algorithm is not a unique image that relates to the input, but rather a possible se} of related images sampled from the manifold of natural images. Our method learns exclusively in the latent space of the adversary using perceptual loss -- it does not have a pixel loss.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-04T23:23:08Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>David Berthelot</name>
+    </author>
+    <author>
+      <name>Peyman Milanfar</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.02249v2</id>
+    <title>MixMatch: A Holistic Approach to Semi-Supervised Learning</title>
+    <updated>2019-10-23T18:47:34Z</updated>
+    <link href="https://arxiv.org/abs/1905.02249v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.02249v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Semi-supervised learning has proven to be a powerful paradigm for leveraging unlabeled data to mitigate the reliance on large labeled datasets. In this work, we unify the current dominant approaches for semi-supervised learning to produce a new algorithm, MixMatch, that works by guessing low-entropy labels for data-augmented unlabeled examples and mixing labeled and unlabeled data using MixUp. We show that MixMatch obtains state-of-the-art results by a large margin across many datasets and labeled data amounts. For example, on CIFAR-10 with 250 labels, we reduce error rate by a factor of 4 (from 38% to 11%) and by a factor of 2 on STL-10. We also demonstrate how MixMatch can help achieve a dramatically better accuracy-privacy trade-off for differential privacy. Finally, we perform an ablation study to tease apart which components of MixMatch are most important for its success.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-06T19:56:03Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Berthelot</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Avital Oliver</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.10346v2</id>
+    <title>Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition</title>
+    <updated>2019-06-07T17:43:09Z</updated>
+    <link href="https://arxiv.org/abs/1903.10346v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.10346v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial examples are inputs to machine learning models designed by an adversary to cause an incorrect output. So far, adversarial examples have been studied most extensively in the image domain. In this domain, adversarial examples can be constructed by imperceptibly modifying images to cause misclassification, and are practical in the physical world. In contrast, current targeted adversarial examples applied to speech recognition systems have neither of these properties: humans can easily identify the adversarial perturbations, and they are not effective when played over-the-air. This paper makes advances on both of these fronts. First, we develop effectively imperceptible audio adversarial examples (verified through a human study) by leveraging the psychoacoustic principle of auditory masking, while retaining 100% targeted success rate on arbitrary full-sentence targets. Next, we make progress towards physical-world over-the-air audio adversarial examples by constructing perturbations which remain effective even after applying realistic simulated environmental distortions.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-22T17:46:35Z</published>
+    <arxiv:comment>International Conference on Machine Learning (ICML), 2019</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Yao Qin</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Garrison Cottrell</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.06293v1</id>
+    <title>A Research Agenda: Dynamic Models to Defend Against Correlated Attacks</title>
+    <updated>2019-03-14T23:07:48Z</updated>
+    <link href="https://arxiv.org/abs/1903.06293v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.06293v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article I describe a research agenda for securing machine learning models against adversarial inputs at test time. This article does not present results but instead shares some of my thoughts about where I think that the field needs to go. Modern machine learning works very well on I.I.D. data: data for which each example is drawn {\em independently} and for which the distribution generating each example is {\em identical}. When these assumptions are relaxed, modern machine learning can perform very poorly. When machine learning is used in contexts where security is a concern, it is desirable to design models that perform well even when the input is designed by a malicious adversary. So far most research in this direction has focused on an adversary who violates the {\em identical} assumption, and imposes some kind of restricted worst-case distribution shift. I argue that machine learning security researchers should also address the problem of relaxing the {\em independence} assumption and that current strategies designed for robustness to distribution shift will not do so. I recommend {\em dynamic models} that change each time they are run as a potential solution path to this problem, and show an example of a simple attack using correlated data that can be mitigated by a simple dynamic defense. This is not intended as a real-world security measure, but as a recommendation to explore this research direction and develop more realistic defenses.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-14T23:07:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.06705v2</id>
+    <title>On Evaluating Adversarial Robustness</title>
+    <updated>2019-02-20T17:38:32Z</updated>
+    <link href="https://arxiv.org/abs/1902.06705v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.06705v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Correctly evaluating defenses against adversarial examples has proven to be extremely difficult. Despite the significant amount of recent work attempting to design defenses that withstand adaptive attacks, few have succeeded; most papers that propose defenses are quickly shown to be incorrect.
+  We believe a large contributing factor is the difficulty of performing security evaluations. In this paper, we discuss the methodological foundations, review commonly accepted best practices, and suggest new methods for evaluating defenses to adversarial examples. We hope that both researchers developing defenses as well as readers and reviewers who wish to understand the completeness of an evaluation consider our advice in order to avoid common pitfalls.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-18T18:18:27Z</published>
+    <arxiv:comment>Living document; source available at https://github.com/evaluating-adversarial-robustness/adv-eval-paper/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Anish Athalye</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Wieland Brendel</name>
+    </author>
+    <author>
+      <name>Jonas Rauber</name>
+    </author>
+    <author>
+      <name>Dimitris Tsipras</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Aleksander Madry</name>
+    </author>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.05512v2</id>
+    <title>A domain agnostic measure for monitoring and evaluating GANs</title>
+    <updated>2020-07-15T09:44:56Z</updated>
+    <link href="https://arxiv.org/abs/1811.05512v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.05512v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Adversarial Networks (GANs) have shown remarkable results in modeling complex distributions, but their evaluation remains an unsettled issue. Evaluations are essential for: (i) relative assessment of different models and (ii) monitoring the progress of a single model throughout training. The latter cannot be determined by simply inspecting the generator and discriminator loss curves as they behave non-intuitively. We leverage the notion of duality gap from game theory to propose a measure that addresses both (i) and (ii) at a low computational cost. Extensive experiments show the effectiveness of this measure to rank different GAN models and capture the typical GAN failure scenarios, including mode collapse and non-convergent behaviours. This evaluation metric also provides meaningful monitoring on the progression of the loss during training. It highly correlates with FID on natural image datasets, and with domain specific scores for text, sound and cosmology data where FID is not directly suitable. In particular, our proposed metric requires no labels or a pretrained classifier, making it domain agnostic.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-13T19:49:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paulina Grnarova</name>
+    </author>
+    <author>
+      <name>Kfir Y Levy</name>
+    </author>
+    <author>
+      <name>Aurelien Lucchi</name>
+    </author>
+    <author>
+      <name>Nathanael Perraudin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Thomas Hofmann</name>
+    </author>
+    <author>
+      <name>Andreas Krause</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.03685v1</id>
+    <title>New CleverHans Feature: Better Adversarial Robustness Evaluations with Attack Bundling</title>
+    <updated>2018-11-08T21:30:57Z</updated>
+    <link href="https://arxiv.org/abs/1811.03685v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.03685v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This technical report describes a new feature of the CleverHans library called "attack bundling". Many papers about adversarial examples present lists of error rates corresponding to different attack algorithms. A common approach is to take the maximum across this list and compare defenses against that error rate. We argue that a better approach is to use attack bundling: the max should be taken across many examples at the level of individual examples, then the error rate should be calculated by averaging after this maximization operation. Reporting the bundled attacker error rate provides a lower bound on the true worst-case error rate. The traditional approach of reporting the maximum error rate across attacks can underestimate the true worst-case error rate by an amount approaching 100\% as the number of attacks approaches infinity. Attack bundling can be used with different prioritization schemes to optimize quantities such as error rate on adversarial examples, perturbation size needed to cause misclassification, or failure rate when using a specific confidence threshold.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-08T21:30:57Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.06758v3</id>
+    <title>Discriminator Rejection Sampling</title>
+    <updated>2019-02-26T09:06:47Z</updated>
+    <link href="https://arxiv.org/abs/1810.06758v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.06758v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a rejection sampling scheme using the discriminator of a GAN to approximately correct errors in the GAN generator distribution. We show that under quite strict assumptions, this will allow us to recover the data distribution exactly. We then examine where those strict assumptions break down and design a practical algorithm - called Discriminator Rejection Sampling (DRS) - that can be used on real data-sets. Finally, we demonstrate the efficacy of DRS on a mixture of Gaussians and on the SAGAN model, state-of-the-art in the image generation task at the time of developing this work. On ImageNet, we train an improved baseline that increases the Inception Score from 52.52 to 62.36 and reduces the Frechet Inception Distance from 18.65 to 14.79. We then use DRS to further improve on this baseline, improving the Inception Score to 76.08 and the FID to 13.75.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-16T00:06:54Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2019</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Samaneh Azadi</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.03307v1</id>
+    <title>Local Explanation Methods for Deep Neural Networks Lack Sensitivity to Parameter Values</title>
+    <updated>2018-10-08T08:18:14Z</updated>
+    <link href="https://arxiv.org/abs/1810.03307v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.03307v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Explaining the output of a complicated machine learning model like a deep neural network (DNN) is a central challenge in machine learning. Several proposed local explanation methods address this issue by identifying what dimensions of a single input are most responsible for a DNN's output. The goal of this work is to assess the sensitivity of local explanations to DNN parameter values. Somewhat surprisingly, we find that DNNs with randomly-initialized weights produce explanations that are both visually and quantitatively similar to those produced by DNNs with learned weights. Our conjecture is that this phenomenon occurs because these explanations are dominated by the lower level features of a DNN, and that a DNN's architecture provides a strong prior which significantly affects the representations learned at these lower layers. NOTE: This work is now subsumed by our recent manuscript, Sanity Checks for Saliency Maps (to appear NIPS 2018), where we expand on findings and address concerns raised in Sundararajan et. al. (2018).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-08T08:18:14Z</published>
+    <arxiv:comment>Workshop Track International Conference on Learning Representations (ICLR)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Julius Adebayo</name>
+    </author>
+    <author>
+      <name>Justin Gilmer</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Been Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.03292v3</id>
+    <title>Sanity Checks for Saliency Maps</title>
+    <updated>2020-11-06T13:40:14Z</updated>
+    <link href="https://arxiv.org/abs/1810.03292v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.03292v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Saliency methods have emerged as a popular tool to highlight features in an input deemed relevant for the prediction of a learned model. Several saliency methods have been proposed, often guided by visual appeal on image data. In this work, we propose an actionable methodology to evaluate what kinds of explanations a given method can and cannot provide. We find that reliance, solely, on visual assessment can be misleading. Through extensive experiments we show that some existing saliency methods are independent both of the model and of the data generating process. Consequently, methods that fail the proposed tests are inadequate for tasks that are sensitive to either data or model, such as, finding outliers in the data, explaining the relationship between inputs and outputs that the model learned, and debugging the model. We interpret our findings through an analogy with edge detection in images, a technique that requires neither training data nor model. Theory in the case of a linear model and a single-layer convolutional neural network supports our experimental findings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-08T07:27:11Z</published>
+    <arxiv:comment>Updating Guided Backprop experiments due to bug. The results and conclusions remain the same</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Julius Adebayo</name>
+    </author>
+    <author>
+      <name>Justin Gilmer</name>
+    </author>
+    <author>
+      <name>Michael Muelly</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Moritz Hardt</name>
+    </author>
+    <author>
+      <name>Been Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.08352v1</id>
+    <title>Unrestricted Adversarial Examples</title>
+    <updated>2018-09-22T00:16:18Z</updated>
+    <link href="https://arxiv.org/abs/1809.08352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.08352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a two-player contest for evaluating the safety and robustness of machine learning systems, with a large prize pool. Unlike most prior work in ML robustness, which studies norm-constrained adversaries, we shift our focus to unconstrained adversaries. Defenders submit machine learning models, and try to achieve high accuracy and coverage on non-adversarial data while making no confident mistakes on adversarial inputs. Attackers try to subvert defenses by finding arbitrary unambiguous inputs where the model assigns an incorrect label with high confidence. We propose a simple unambiguous dataset ("bird-or- bicycle") to use as part of this contest. We hope this contest will help to more comprehensively evaluate the worst-case adversarial risk of machine learning models.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-22T00:16:18Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Chiyuan Zhang</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04888v1</id>
+    <title>Skill Rating for Generative Models</title>
+    <updated>2018-08-14T20:39:17Z</updated>
+    <link href="https://arxiv.org/abs/1808.04888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore a new way to evaluate generative models using insights from evaluation of competitive games between human players. We show experimentally that tournaments between generators and discriminators provide an effective way to evaluate generative models. We introduce two methods for summarizing tournament outcomes: tournament win rate and skill rating. Evaluations are useful in different contexts, including monitoring the progress of a single model as it learns during the training process, and comparing the capabilities of two different fully trained models. We show that a tournament consisting of a single model playing against past and future versions of itself produces a useful measure of training progress. A tournament containing multiple separate models (using different seeds, hyperparameters, and architectures) provides a useful relative comparison between different trained GANs. Tournament-based rating methods are conceptually distinct from numerous previous categories of approaches to evaluation of generative models, and have complementary advantages and disadvantages.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-14T20:39:17Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Surya Bhupatiraju</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.10875v1</id>
+    <title>TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing</title>
+    <updated>2018-07-28T02:11:40Z</updated>
+    <link href="https://arxiv.org/abs/1807.10875v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.10875v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning models are notoriously difficult to interpret and debug. This is particularly true of neural networks. In this work, we introduce automated software testing techniques for neural networks that are well-suited to discovering errors which occur only for rare inputs. Specifically, we develop coverage-guided fuzzing (CGF) methods for neural networks. In CGF, random mutations of inputs to a neural network are guided by a coverage metric toward the goal of satisfying user-specified constraints. We describe how fast approximate nearest neighbor algorithms can provide this coverage metric. We then discuss the application of CGF to the following goals: finding numerical errors in trained neural networks, generating disagreements between neural networks and quantized versions of those networks, and surfacing undesirable behavior in character level language models. Finally, we release an open source library called TensorFuzz that implements the described techniques.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-28T02:11:40Z</published>
+    <arxiv:comment>Preprint - work in progress</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.07543v2</id>
+    <title>Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer</title>
+    <updated>2018-07-23T18:26:40Z</updated>
+    <link href="https://arxiv.org/abs/1807.07543v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.07543v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autoencoders provide a powerful framework for learning compressed representations by encoding all of the information needed to reconstruct a data point in a latent code. In some cases, autoencoders can "interpolate": By decoding the convex combination of the latent codes for two datapoints, the autoencoder can produce an output which semantically mixes characteristics from the datapoints. In this paper, we propose a regularization procedure which encourages interpolated outputs to appear more realistic by fooling a critic network which has been trained to recover the mixing coefficient from interpolated data. We then develop a simple benchmark task where we can quantitatively measure the extent to which various autoencoders can interpolate and show that our regularizer dramatically improves interpolation in this setting. We also demonstrate empirically that our regularizer produces latent codes which are more effective on downstream tasks, suggesting a possible link between interpolation abilities and learning useful representations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-19T17:17:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Berthelot</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.06732v2</id>
+    <title>Motivating the Rules of the Game for Adversarial Example Research</title>
+    <updated>2018-07-20T01:57:37Z</updated>
+    <link href="https://arxiv.org/abs/1807.06732v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.06732v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in machine learning have led to broad deployment of systems with impressive performance on important problems. Nonetheless, these systems can be induced to make errors on data that are surprisingly similar to examples the learned system handles correctly. The existence of these errors raises a variety of questions about out-of-sample generalization and whether bad actors might use such examples to abuse deployed systems. As a result of these security concerns, there has been a flurry of recent papers proposing algorithms to defend against such malicious perturbations of correctly handled examples. It is unclear how such misclassifications represent a different kind of security problem than other errors, or even other attacker-produced examples that have no specific relationship to an uncorrupted input. In this paper, we argue that adversarial example defense papers have, to date, mostly considered abstract, toy games that do not relate to any specific security concern. Furthermore, defense papers have not yet precisely described all the abilities and limitations of attackers that would be relevant in practical security. Towards this end, we establish a taxonomy of motivations, constraints, and abilities for more plausible adversaries. Finally, we provide a series of recommendations outlining a path forward for future work to more clearly articulate the threat model and perform more meaningful evaluation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-18T01:17:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Justin Gilmer</name>
+    </author>
+    <author>
+      <name>Ryan P. Adams</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>David Andersen</name>
+    </author>
+    <author>
+      <name>George E. Dahl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.11146v2</id>
+    <title>Adversarial Reprogramming of Neural Networks</title>
+    <updated>2018-11-29T22:50:01Z</updated>
+    <link href="https://arxiv.org/abs/1806.11146v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.11146v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks are susceptible to \emph{adversarial} attacks. In computer vision, well-crafted perturbations to images can cause neural networks to make mistakes such as confusing a cat with a computer. Previous adversarial attacks have been designed to degrade performance of models or cause machine learning models to produce specific outputs chosen ahead of time by the attacker. We introduce attacks that instead {\em reprogram} the target model to perform a task chosen by the attacker---without the attacker needing to specify or compute the desired output for each test-time input. This attack finds a single adversarial perturbation, that can be added to all test-time inputs to a machine learning model in order to cause the model to perform a task chosen by the adversary---even if the model was not trained to do this task. These perturbations can thus be considered a program for the new task. We demonstrate adversarial reprogramming on six ImageNet classification models, repurposing these models to perform a counting task, as well as classification tasks: classification of MNIST and CIFAR-10 examples presented as inputs to the ImageNet model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-28T19:06:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>International Conference on Learning Representations 2019</arxiv:journal_ref>
+    <author>
+      <name>Gamaleldin F. Elsayed</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Jascha Sohl-Dickstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04169v1</id>
+    <title>Defense Against the Dark Arts: An overview of adversarial example security research and future research directions</title>
+    <updated>2018-06-11T18:22:45Z</updated>
+    <link href="https://arxiv.org/abs/1806.04169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article presents a summary of a keynote lecture at the Deep Learning Security workshop at IEEE Security and Privacy 2018. This lecture summarizes the state of the art in defenses against adversarial examples and provides recommendations for future research directions on this topic.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-11T18:22:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.08318v2</id>
+    <title>Self-Attention Generative Adversarial Networks</title>
+    <updated>2019-06-14T18:20:10Z</updated>
+    <link href="https://arxiv.org/abs/1805.08318v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.08318v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose the Self-Attention Generative Adversarial Network (SAGAN) which allows attention-driven, long-range dependency modeling for image generation tasks. Traditional convolutional GANs generate high-resolution details as a function of only spatially local points in lower-resolution feature maps. In SAGAN, details can be generated using cues from all feature locations. Moreover, the discriminator can check that highly detailed features in distant portions of the image are consistent with each other. Furthermore, recent work has shown that generator conditioning affects GAN performance. Leveraging this insight, we apply spectral normalization to the GAN generator and find that this improves training dynamics. The proposed SAGAN achieves the state-of-the-art results, boosting the best published Inception score from 36.8 to 52.52 and reducing Frechet Inception distance from 27.62 to 18.65 on the challenging ImageNet dataset. Visualization of the attention layers shows that the generator leverages neighborhoods that correspond to object shapes rather than local regions of fixed shape.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-21T23:10:35Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Han Zhang</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Dimitris Metaxas</name>
+    </author>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.09170v4</id>
+    <title>Realistic Evaluation of Deep Semi-Supervised Learning Algorithms</title>
+    <updated>2019-06-17T11:48:53Z</updated>
+    <link href="https://arxiv.org/abs/1804.09170v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.09170v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Semi-supervised learning (SSL) provides a powerful framework for leveraging unlabeled data when labels are limited or expensive to obtain. SSL algorithms based on deep neural networks have recently proven successful on standard benchmark tasks. However, we argue that these benchmarks fail to address many issues that these algorithms would face in real-world applications. After creating a unified reimplementation of various widely-used SSL techniques, we test them in a suite of experiments designed to address these issues. We find that the performance of simple baselines which do not use unlabeled data is often underreported, that SSL methods differ in sensitivity to the amount of labeled and unlabeled data, and that performance can degrade substantially when the unlabeled dataset contains out-of-class examples. To help guide SSL research towards real-world applicability, we make our unified reimplemention and evaluation platform publicly available.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-24T17:54:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>NeurIPS 2018 Proceedings</arxiv:journal_ref>
+    <author>
+      <name>Avital Oliver</name>
+    </author>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Ekin D. Cubuk</name>
+    </author>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.07870v1</id>
+    <title>Gradient Masking Causes CLEVER to Overestimate Adversarial Perturbation Size</title>
+    <updated>2018-04-21T00:38:33Z</updated>
+    <link href="https://arxiv.org/abs/1804.07870v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.07870v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key problem in research on adversarial examples is that vulnerability to adversarial examples is usually measured by running attack algorithms. Because the attack algorithms are not optimal, the attack algorithms are prone to overestimating the size of perturbation needed to fool the target model. In other words, the attack-based methodology provides an upper-bound on the size of a perturbation that will fool the model, but security guarantees require a lower bound. CLEVER is a proposed scoring method to estimate a lower bound. Unfortunately, an estimate of a bound is not a bound. In this report, we show that gradient masking, a common problem that causes attack methodologies to provide only a very loose upper bound, causes CLEVER to overestimate the size of perturbation needed to fool the model. In other words, CLEVER does not resolve the key problem with the attack-based methodology, because it fails to provide a lower bound.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-21T00:38:33Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00097v1</id>
+    <title>Adversarial Attacks and Defences Competition</title>
+    <updated>2018-03-31T00:52:20Z</updated>
+    <link href="https://arxiv.org/abs/1804.00097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To accelerate research on adversarial examples and robustness of machine learning classifiers, Google Brain organized a NIPS 2017 competition that encouraged researchers to develop new methods to generate adversarial examples as well as to develop new ways to defend against them. In this chapter, we describe the structure and organization of the competition and the solutions developed by several of the top-placing teams.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-31T00:52:20Z</published>
+    <arxiv:comment>36 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Samy Bengio</name>
+    </author>
+    <author>
+      <name>Yinpeng Dong</name>
+    </author>
+    <author>
+      <name>Fangzhou Liao</name>
+    </author>
+    <author>
+      <name>Ming Liang</name>
+    </author>
+    <author>
+      <name>Tianyu Pang</name>
+    </author>
+    <author>
+      <name>Jun Zhu</name>
+    </author>
+    <author>
+      <name>Xiaolin Hu</name>
+    </author>
+    <author>
+      <name>Cihang Xie</name>
+    </author>
+    <author>
+      <name>Jianyu Wang</name>
+    </author>
+    <author>
+      <name>Zhishuai Zhang</name>
+    </author>
+    <author>
+      <name>Zhou Ren</name>
+    </author>
+    <author>
+      <name>Alan Yuille</name>
+    </author>
+    <author>
+      <name>Sangxia Huang</name>
+    </author>
+    <author>
+      <name>Yao Zhao</name>
+    </author>
+    <author>
+      <name>Yuzhe Zhao</name>
+    </author>
+    <author>
+      <name>Zhonglin Han</name>
+    </author>
+    <author>
+      <name>Junjiajia Long</name>
+    </author>
+    <author>
+      <name>Yerkebulan Berdibekov</name>
+    </author>
+    <author>
+      <name>Takuya Akiba</name>
+    </author>
+    <author>
+      <name>Seiya Tokui</name>
+    </author>
+    <author>
+      <name>Motoki Abe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.06373v1</id>
+    <title>Adversarial Logit Pairing</title>
+    <updated>2018-03-16T19:03:45Z</updated>
+    <link href="https://arxiv.org/abs/1803.06373v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.06373v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we develop improved techniques for defending against adversarial examples at scale. First, we implement the state of the art version of adversarial training at unprecedented scale on ImageNet and investigate whether it remains effective in this setting - an important open scientific question (Athalye et al., 2018). Next, we introduce enhanced defenses using a technique we call logit pairing, a method that encourages logits for pairs of examples to be similar. When applied to clean examples and their adversarial counterparts, logit pairing improves accuracy on adversarial examples over vanilla adversarial training; we also find that logit pairing on clean examples only is competitive with adversarial training in terms of accuracy on two datasets. Finally, we show that adversarial logit pairing achieves the state of the art defense on ImageNet against PGD white box attacks, with an accuracy improvement from 1.5% to 27.9%. Adversarial logit pairing also successfully damages the current state of the art defense against black box attacks on ImageNet (Tramer et al., 2018), dropping its accuracy from 66.6% to 47.1%. With this new accuracy drop, adversarial logit pairing ties with Tramer et al.(2018) for the state of the art on black box attacks on ImageNet.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-16T19:03:45Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Harini Kannan</name>
+    </author>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08768v2</id>
+    <title>Is Generator Conditioning Causally Related to GAN Performance?</title>
+    <updated>2018-06-19T00:06:57Z</updated>
+    <link href="https://arxiv.org/abs/1802.08768v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08768v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work (Pennington et al, 2017) suggests that controlling the entire distribution of Jacobian singular values is an important design consideration in deep learning. Motivated by this, we study the distribution of singular values of the Jacobian of the generator in Generative Adversarial Networks (GANs). We find that this Jacobian generally becomes ill-conditioned at the beginning of training. Moreover, we find that the average (with z from p(z)) conditioning of the generator is highly predictive of two other ad-hoc metrics for measuring the 'quality' of trained GANs: the Inception Score and the Frechet Inception Distance (FID). We test the hypothesis that this relationship is causal by proposing a 'regularization' technique (called Jacobian Clamping) that softly penalizes the condition number of the generator Jacobian. Jacobian Clamping improves the mean Inception Score and the mean FID for GANs trained on several datasets. It also greatly reduces inter-run variance of the aforementioned scores, addressing (at least partially) one of the main criticisms of GANs.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-23T23:48:01Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+    <author>
+      <name>Jacob Buckman</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08195v3</id>
+    <title>Adversarial Examples that Fool both Computer Vision and Time-Limited Humans</title>
+    <updated>2018-05-22T03:02:41Z</updated>
+    <link href="https://arxiv.org/abs/1802.08195v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08195v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning models are vulnerable to adversarial examples: small changes to images can cause computer vision models to make mistakes such as identifying a school bus as an ostrich. However, it is still an open question whether humans are prone to similar mistakes. Here, we address this question by leveraging recent techniques that transfer adversarial examples from computer vision models with known parameters and architecture to other models with unknown parameters and architecture, and by matching the initial processing of the human visual system. We find that adversarial examples that strongly transfer across computer vision models influence the classifications made by time-limited human observers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-22T17:40:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems, 2018</arxiv:journal_ref>
+    <author>
+      <name>Gamaleldin F. Elsayed</name>
+    </author>
+    <author>
+      <name>Shreya Shankar</name>
+    </author>
+    <author>
+      <name>Brian Cheung</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Alex Kurakin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Jascha Sohl-Dickstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.07736v3</id>
+    <title>MaskGAN: Better Text Generation via Filling in the______</title>
+    <updated>2018-03-01T15:30:09Z</updated>
+    <link href="https://arxiv.org/abs/1801.07736v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.07736v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural text generation models are often autoregressive language models or seq2seq models. These models generate text by sampling words sequentially, with each word conditioned on the previous word, and are state-of-the-art for several machine translation and summarization benchmarks. These benchmarks are often defined by validation perplexity even though this is not a direct measure of the quality of the generated text. Additionally, these models are typically trained via maxi- mum likelihood and teacher forcing. These methods are well-suited to optimizing perplexity but can result in poor sample quality since generating text requires conditioning on sequences of words that may have never been observed at training time. We propose to improve sample quality using Generative Adversarial Networks (GANs), which explicitly train the generator to produce high quality samples and have shown a lot of success in image generation. GANs were originally designed to output differentiable values, so discrete language generation is challenging for them. We claim that validation perplexity alone is not indicative of the quality of text generated by a model. We introduce an actor-critic conditional GAN that fills in missing text conditioned on the surrounding context. We show qualitatively and quantitatively, evidence that this produces more realistic conditional and unconditional text samples compared to a maximum likelihood trained model.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-23T19:22:21Z</published>
+    <arxiv:comment>16 pages, ICLR 2018</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Andrew M. Dai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.02774v3</id>
+    <title>Adversarial Spheres</title>
+    <updated>2018-09-10T17:08:27Z</updated>
+    <link href="https://arxiv.org/abs/1801.02774v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.02774v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State of the art computer vision models have been shown to be vulnerable to small adversarial perturbations of the input. In other words, most images in the data distribution are both correctly classified by the model and are very close to a visually similar misclassified image. Despite substantial research interest, the cause of the phenomenon is still poorly understood and remains unsolved. We hypothesize that this counter intuitive behavior is a naturally occurring result of the high dimensional geometry of the data manifold. As a first step towards exploring this hypothesis, we study a simple synthetic dataset of classifying between two concentric high dimensional spheres. For this dataset we show a fundamental tradeoff between the amount of test error and the average distance to nearest error. In particular, we prove that any model which misclassifies a small constant fraction of a sphere will be vulnerable to adversarial perturbations of size $O(1/\sqrt{d})$. Surprisingly, when we train several different architectures on this dataset, all of their error sets naturally approach this theoretical bound. As a result of the theory, the vulnerability of neural networks to small adversarial perturbations is a logical consequence of the amount of test error observed. We hope that our theoretical analysis of this very simple case will point the way forward to explore how the geometry of complex real-world data sets leads to adversarial examples.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-09T03:24:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Gilmer</name>
+    </author>
+    <author>
+      <name>Luke Metz</name>
+    </author>
+    <author>
+      <name>Fartash Faghri</name>
+    </author>
+    <author>
+      <name>Samuel S. Schoenholz</name>
+    </author>
+    <author>
+      <name>Maithra Raghu</name>
+    </author>
+    <author>
+      <name>Martin Wattenberg</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.08446v3</id>
+    <title>Many Paths to Equilibrium: GANs Do Not Need to Decrease a Divergence At Every Step</title>
+    <updated>2018-02-20T22:10:33Z</updated>
+    <link href="https://arxiv.org/abs/1710.08446v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.08446v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative adversarial networks (GANs) are a family of generative models that do not minimize a single training criterion. Unlike other generative models, the data distribution is learned via a game between a generator (the generative model) and a discriminator (a teacher providing training signal) that each minimize their own cost. GANs are designed to reach a Nash equilibrium at which each player cannot reduce their cost without changing the other players' parameters. One useful approach for the theory of GANs is to show that a divergence between the training distribution and the model distribution obtains its minimum value at equilibrium. Several recent research directions have been motivated by the idea that this divergence is the primary guide for the learning process and that every step of learning should decrease the divergence. We show that this view is overly restrictive. During GAN training, the discriminator provides learning signal in situations where the gradients of the divergences between distributions would not be useful. We provide empirical counterexamples to the view of GAN training as divergence minimization. Specifically, we demonstrate that GANs are able to learn distributions in situations where the divergence minimization point of view predicts they would fail. We also show that gradient penalties motivated from the divergence minimization perspective are equally helpful when applied in other contexts in which the divergence minimization perspective does not predict they would be helpful. This contributes to a growing body of evidence that GAN training may be more usefully viewed as approaching Nash equilibria via trajectories that do not necessarily minimize a specific divergence at each step.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-23T18:30:56Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Mihaela Rosca</name>
+    </author>
+    <author>
+      <name>Balaji Lakshminarayanan</name>
+    </author>
+    <author>
+      <name>Andrew M. Dai</name>
+    </author>
+    <author>
+      <name>Shakir Mohamed</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.08022v1</id>
+    <title>On the Protection of Private Information in Machine Learning Systems: Two Recent Approaches</title>
+    <updated>2017-08-26T23:23:39Z</updated>
+    <link href="https://arxiv.org/abs/1708.08022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.08022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent, remarkable growth of machine learning has led to intense interest in the privacy of the data on which machine learning relies, and to new techniques for preserving privacy. However, older ideas about privacy may well remain valid and useful. This note reviews two recent works on privacy in the light of the wisdom of some of the early literature, in particular the principles distilled by Saltzer and Schroeder in the 1970s.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-26T23:23:39Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>IEEE 30th Computer Security Foundations Symposium (CSF), pages 1--6, 2017</arxiv:journal_ref>
+    <author>
+      <name>Martín Abadi</name>
+    </author>
+    <author>
+      <name>Úlfar Erlingsson</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>H. Brendan McMahan</name>
+    </author>
+    <author>
+      <name>Ilya Mironov</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Kunal Talwar</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <arxiv:doi>10.1109/CSF.2017.10</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CSF.2017.10" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07204v5</id>
+    <title>Ensemble Adversarial Training: Attacks and Defenses</title>
+    <updated>2020-04-26T22:20:25Z</updated>
+    <link href="https://arxiv.org/abs/1705.07204v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07204v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial examples are perturbed inputs designed to fool machine learning models. Adversarial training injects such examples into training data to increase robustness. To scale this technique to large datasets, perturbations are crafted using fast single-step methods that maximize a linear approximation of the model's loss. We show that this form of adversarial training converges to a degenerate global minimum, wherein small curvature artifacts near the data points obfuscate a linear approximation of the loss. The model thus learns to generate weak perturbations, rather than defend against strong ones. As a result, we find that adversarial training remains vulnerable to black-box attacks, where we transfer perturbations computed on undefended models, as well as to a powerful novel single-step attack that escapes the non-smooth vicinity of the input data via a small random step. We further introduce Ensemble Adversarial Training, a technique that augments training data with perturbations transferred from other models. On ImageNet, Ensemble Adversarial Training yields models with strong robustness to black-box attacks. In particular, our most robust model won the first round of the NIPS 2017 competition on Defenses against Adversarial Attacks. However, subsequent work found that more elaborate black-box attacks could significantly enhance transferability and reduce the accuracy of our models.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-19T21:56:43Z</published>
+    <arxiv:comment>22 pages, 5 figures, International Conference on Learning Representations (ICLR) 2018 (amended in April 2020 to include subsequent attacks that significantly reduced the robustness of our models)</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Dan Boneh</name>
+    </author>
+    <author>
+      <name>Patrick McDaniel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.03453v2</id>
+    <title>The Space of Transferable Adversarial Examples</title>
+    <updated>2017-05-23T18:14:30Z</updated>
+    <link href="https://arxiv.org/abs/1704.03453v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.03453v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial examples are maliciously perturbed inputs designed to mislead machine learning (ML) models at test-time. They often transfer: the same adversarial example fools more than one model.
+  In this work, we propose novel methods for estimating the previously unknown dimensionality of the space of adversarial inputs. We find that adversarial examples span a contiguous subspace of large (~25) dimensionality. Adversarial subspaces with higher dimensionality are more likely to intersect. We find that for two different models, a significant fraction of their subspaces is shared, thus enabling transferability.
+  In the first quantitative analysis of the similarity of different models' decision boundaries, we show that these boundaries are actually close in arbitrary directions, whether adversarial or benign. We conclude by formally studying the limits of transferability. We derive (1) sufficient conditions on the data distribution that imply transferability for simple model classes and (2) examples of scenarios in which transfer does not occur. These findings indicate that it may be possible to design defenses against transfer-based attacks, even for models that are vulnerable to direct attacks.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-11T17:59:12Z</published>
+    <arxiv:comment>15 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Dan Boneh</name>
+    </author>
+    <author>
+      <name>Patrick McDaniel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.02284v1</id>
+    <title>Adversarial Attacks on Neural Network Policies</title>
+    <updated>2017-02-08T04:33:55Z</updated>
+    <link href="https://arxiv.org/abs/1702.02284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.02284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning classifiers are known to be vulnerable to inputs maliciously constructed by adversaries to force misclassification. Such adversarial examples have been extensively studied in the context of computer vision applications. In this work, we show adversarial attacks are also effective when targeting neural network policies in reinforcement learning. Specifically, we show existing adversarial example crafting techniques can be used to significantly degrade test-time performance of trained policies. Our threat model considers adversaries capable of introducing small perturbations to the raw input of the policy. We characterize the degree of vulnerability across tasks and training algorithms, for a subclass of adversarial-example attacks in white-box and black-box settings. Regardless of the learned task or training algorithm, we observe a significant drop in performance, even with small adversarial perturbations that do not interfere with human perception. Videos are available at http://rll.berkeley.edu/adversarial.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-08T04:33:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sandy Huang</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Yan Duan</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.00160v4</id>
+    <title>NIPS 2016 Tutorial: Generative Adversarial Networks</title>
+    <updated>2017-04-03T21:57:48Z</updated>
+    <link href="https://arxiv.org/abs/1701.00160v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.00160v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This report summarizes the tutorial presented by the author at NIPS 2016 on generative adversarial networks (GANs). The tutorial describes: (1) Why generative modeling is a topic worth studying, (2) how generative models work, and how GANs compare to other generative models, (3) the details of how GANs work, (4) research frontiers in GANs, and (5) state-of-the-art image models that combine GANs with other methods. Finally, the tutorial contains three exercises for readers to complete, and the solutions to these exercises.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-31T19:17:17Z</published>
+    <arxiv:comment>v2-v4 are all typo fixes. No substantive changes relative to v1</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.01236v2</id>
+    <title>Adversarial Machine Learning at Scale</title>
+    <updated>2017-02-11T00:15:46Z</updated>
+    <link href="https://arxiv.org/abs/1611.01236v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.01236v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial examples are malicious inputs designed to fool machine learning models. They often transfer from one model to another, allowing attackers to mount black box attacks without knowledge of the target model's parameters. Adversarial training is the process of explicitly training a model on adversarial examples, in order to make it more robust to attack or to reduce its test error on clean inputs. So far, adversarial training has primarily been applied to small problems. In this research, we apply adversarial training to ImageNet. Our contributions include: (1) recommendations for how to succesfully scale adversarial training to large models and datasets, (2) the observation that adversarial training confers robustness to single-step attack methods, (3) the finding that multi-step attack methods are somewhat less transferable than single-step attack methods, so single-step attacks are the best for mounting black-box attacks, and (4) resolution of a "label leaking" effect that causes adversarially trained models to perform better on adversarial examples than on clean examples, because the adversarial example construction process uses the true label and the model can learn to exploit regularities in the construction process.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-04T01:11:02Z</published>
+    <arxiv:comment>17 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Samy Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05755v4</id>
+    <title>Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data</title>
+    <updated>2017-03-03T18:56:43Z</updated>
+    <link href="https://arxiv.org/abs/1610.05755v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.05755v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some machine learning applications involve training data that is sensitive, such as the medical histories of patients in a clinical trial. A model may inadvertently and implicitly store some of its training data; careful analysis of the model may therefore reveal sensitive information.
+  To address this problem, we demonstrate a generally applicable approach to providing strong privacy guarantees for training data: Private Aggregation of Teacher Ensembles (PATE). The approach combines, in a black-box fashion, multiple models trained with disjoint datasets, such as records from different subsets of users. Because they rely directly on sensitive data, these models are not published, but instead used as "teachers" for a "student" model. The student learns to predict an output chosen by noisy voting among all of the teachers, and cannot directly access an individual teacher or the underlying data or parameters. The student's privacy properties can be understood both intuitively (since no single teacher and thus no single dataset dictates the student's training) and formally, in terms of differential privacy. These properties hold even if an adversary can not only query the student but also inspect its internal workings.
+  Compared with previous work, the approach imposes only weak assumptions on how teachers are trained: it applies to any model, including non-convex models like DNNs. We achieve state-of-the-art privacy/utility trade-offs on MNIST and SVHN thanks to an improved privacy analysis and semi-supervised learning.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-18T19:37:37Z</published>
+    <arxiv:comment>Accepted to ICLR 17 as an oral</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Martín Abadi</name>
+    </author>
+    <author>
+      <name>Úlfar Erlingsson</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Kunal Talwar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.00768v6</id>
+    <title>Technical Report on the CleverHans v2.1.0 Adversarial Examples Library</title>
+    <updated>2018-06-27T21:06:06Z</updated>
+    <link href="https://arxiv.org/abs/1610.00768v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.00768v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>CleverHans is a software library that provides standardized reference implementations of adversarial example construction techniques and adversarial training. The library may be used to develop more robust machine learning models and to provide standardized benchmarks of models' performance in the adversarial setting. Benchmarks constructed without a standardized implementation of adversarial example construction are not comparable to each other, because a good result may indicate a robust model or it may merely indicate a weak implementation of the adversarial example construction procedure.
+  This technical report is structured as follows. Section 1 provides an overview of adversarial examples in machine learning and of the CleverHans software. Section 2 presents the core functionalities of the library: namely the attacks based on adversarial examples and defenses to improve the robustness of machine learning models to these attacks. Section 3 describes how to report benchmark results using the library. Section 4 describes the versioning system.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-03T22:04:07Z</published>
+    <arxiv:comment>Technical report for https://github.com/tensorflow/cleverhans</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Fartash Faghri</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Reuben Feinman</name>
+    </author>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Cihang Xie</name>
+    </author>
+    <author>
+      <name>Yash Sharma</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Alexander Matyasko</name>
+    </author>
+    <author>
+      <name>Vahid Behzadan</name>
+    </author>
+    <author>
+      <name>Karen Hambardzumyan</name>
+    </author>
+    <author>
+      <name>Zhishuai Zhang</name>
+    </author>
+    <author>
+      <name>Yi-Lin Juang</name>
+    </author>
+    <author>
+      <name>Zhi Li</name>
+    </author>
+    <author>
+      <name>Ryan Sheatsley</name>
+    </author>
+    <author>
+      <name>Abhibhav Garg</name>
+    </author>
+    <author>
+      <name>Jonathan Uesato</name>
+    </author>
+    <author>
+      <name>Willi Gierke</name>
+    </author>
+    <author>
+      <name>Yinpeng Dong</name>
+    </author>
+    <author>
+      <name>David Berthelot</name>
+    </author>
+    <author>
+      <name>Paul Hendricks</name>
+    </author>
+    <author>
+      <name>Jonas Rauber</name>
+    </author>
+    <author>
+      <name>Rujun Long</name>
+    </author>
+    <author>
+      <name>Patrick McDaniel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.02533v4</id>
+    <title>Adversarial examples in the physical world</title>
+    <updated>2017-02-11T00:39:39Z</updated>
+    <link href="https://arxiv.org/abs/1607.02533v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.02533v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most existing machine learning classifiers are highly vulnerable to adversarial examples. An adversarial example is a sample of input data which has been modified very slightly in a way that is intended to cause a machine learning classifier to misclassify it. In many cases, these modifications can be so subtle that a human observer does not even notice the modification at all, yet the classifier still makes a mistake. Adversarial examples pose security concerns because they could be used to perform an attack on machine learning systems, even if the adversary has no access to the underlying model. Up to now, all previous work have assumed a threat model in which the adversary can feed data directly into the machine learning classifier. This is not always the case for systems operating in the physical world, for example those which are using signals from cameras and other sensors as an input. This paper shows that even in such physical world scenarios, machine learning systems are vulnerable to adversarial examples. We demonstrate this by feeding adversarial images obtained from cell-phone camera to an ImageNet Inception classifier and measuring the classification accuracy of the system. We find that a large fraction of adversarial examples are classified incorrectly even when perceived through the camera.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-08T21:12:11Z</published>
+    <arxiv:comment>14 pages, 6 figures. Demo available at https://youtu.be/zQ_uMenoBCk</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Samy Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00133v2</id>
+    <title>Deep Learning with Differential Privacy</title>
+    <updated>2016-10-24T11:59:40Z</updated>
+    <link href="https://arxiv.org/abs/1607.00133v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.00133v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning techniques based on neural networks are achieving remarkable results in a wide variety of domains. Often, the training of models requires large, representative datasets, which may be crowdsourced and contain sensitive information. The models should not expose private information in these datasets. Addressing this goal, we develop new algorithmic techniques for learning and a refined analysis of privacy costs within the framework of differential privacy. Our implementation and experiments demonstrate that we can train deep neural networks with non-convex objectives, under a modest privacy budget, and at a manageable cost in software complexity, training efficiency, and model quality.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-01T07:29:10Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security (ACM CCS), pp. 308-318, 2016</arxiv:journal_ref>
+    <author>
+      <name>Martín Abadi</name>
+    </author>
+    <author>
+      <name>Andy Chu</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>H. Brendan McMahan</name>
+    </author>
+    <author>
+      <name>Ilya Mironov</name>
+    </author>
+    <author>
+      <name>Kunal Talwar</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <arxiv:doi>10.1145/2976749.2978318</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/2976749.2978318" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03498v1</id>
+    <title>Improved Techniques for Training GANs</title>
+    <updated>2016-06-10T22:53:35Z</updated>
+    <link href="https://arxiv.org/abs/1606.03498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.03498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a variety of new architectural features and training procedures that we apply to the generative adversarial networks (GANs) framework. We focus on two applications of GANs: semi-supervised learning, and the generation of images that humans find visually realistic. Unlike most work on generative models, our primary goal is not to train a model that assigns high likelihood to test data, nor do we require the model to be able to learn well without using any labels. Using our new techniques, we achieve state-of-the-art results in semi-supervised classification on MNIST, CIFAR-10 and SVHN. The generated images are of high quality as confirmed by a visual Turing test: our model generates MNIST samples that humans cannot distinguish from real data, and CIFAR-10 samples that yield a human error rate of 21.3%. We also present ImageNet samples with unprecedented resolution and show that our methods enable the model to learn recognizable features of ImageNet classes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-10T22:53:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tim Salimans</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Vicki Cheung</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07725v4</id>
+    <title>Adversarial Training Methods for Semi-Supervised Text Classification</title>
+    <updated>2021-11-16T07:16:21Z</updated>
+    <link href="https://arxiv.org/abs/1605.07725v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.07725v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial training provides a means of regularizing supervised learning algorithms while virtual adversarial training is able to extend supervised learning algorithms to the semi-supervised setting. However, both methods require making small perturbations to numerous entries of the input vector, which is inappropriate for sparse high-dimensional inputs such as one-hot word representations. We extend adversarial and virtual adversarial training to the text domain by applying perturbations to the word embeddings in a recurrent neural network rather than to the original input itself. The proposed method achieves state of the art results on multiple benchmark semi-supervised and purely supervised tasks. We provide visualizations and analysis showing that the learned word embeddings have improved in quality and that while training, the model is less prone to overfitting. Code is available at https://github.com/tensorflow/models/tree/master/research/adversarial_text.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-25T04:25:45Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2017</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Takeru Miyato</name>
+    </author>
+    <author>
+      <name>Andrew M. Dai</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07277v1</id>
+    <title>Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples</title>
+    <updated>2016-05-24T03:27:48Z</updated>
+    <link href="https://arxiv.org/abs/1605.07277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.07277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many machine learning models are vulnerable to adversarial examples: inputs that are specially crafted to cause a machine learning model to produce an incorrect output. Adversarial examples that affect one model often affect another model, even if the two models have different architectures or were trained on different training sets, so long as both models were trained to perform the same task. An attacker may therefore train their own substitute model, craft adversarial examples against the substitute, and transfer them to a victim model, with very little information about the victim. Recent work has further developed a technique that uses the victim model as an oracle to label a synthetic training set for the substitute, so the attacker need not even collect a training set to mount the attack. We extend these recent techniques using reservoir sampling to greatly enhance the efficiency of the training procedure for the substitute model. We introduce new transferability attacks between previously unexplored (substitute, victim) pairs of machine learning model classes, most notably SVMs and decision trees. We demonstrate our attacks on two commercial machine learning classification systems from Amazon (96.19% misclassification rate) and Google (88.94%) using only 800 queries of the victim model, thereby showing that existing machine learning approaches are in general vulnerable to systematic black-box attacks regardless of their structure.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-24T03:27:48Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Patrick McDaniel</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07157v4</id>
+    <title>Unsupervised Learning for Physical Interaction through Video Prediction</title>
+    <updated>2016-10-17T20:09:56Z</updated>
+    <link href="https://arxiv.org/abs/1605.07157v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.07157v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A core challenge for an agent learning to interact with the world is to predict how its actions affect objects in its environment. Many existing methods for learning the dynamics of physical interactions require labeled object information. However, to scale real-world interaction learning to a variety of scenes and objects, acquiring labeled data becomes increasingly impractical. To learn about physical object motion without labels, we develop an action-conditioned video prediction model that explicitly models pixel motion, by predicting a distribution over pixel motion from previous frames. Because our model explicitly predicts motion, it is partially invariant to object appearance, enabling it to generalize to previously unseen objects. To explore video prediction for real-world interactive agents, we also introduce a dataset of 59,000 robot interactions involving pushing motions, including a test set with novel objects. In this dataset, accurate prediction of videos conditioned on the robot's future actions amounts to learning a "visual imagination" of different futures based on different courses of action. Our experiments show that our proposed method produces more accurate video predictions both quantitatively and qualitatively, when compared to prior methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-23T19:45:55Z</published>
+    <arxiv:comment>To appear in NIPS '16; Video results, code, and data available at: http://www.sites.google.com/site/robotprediction</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.02688v1</id>
+    <title>Theano: A Python framework for fast computation of mathematical expressions</title>
+    <updated>2016-05-09T18:32:34Z</updated>
+    <link href="https://arxiv.org/abs/1605.02688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.02688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theano is a Python library that allows to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. Since its introduction, it has been one of the most used CPU and GPU mathematical compilers - especially in the machine learning community - and has shown steady performance improvements. Theano is being actively and continuously developed since 2008, multiple frameworks have been built on top of it and it has been used to produce many state-of-the-art machine learning models.
+  The present article is structured as follows. Section I provides an overview of the Theano software and its community. Section II presents the principal features of Theano and how to use them, and compares them with other similar projects. Section III focuses on recently-introduced functionalities and improvements. Section IV compares the performance of Theano against Torch7 and TensorFlow on several machine learning models. Section V discusses current limitations of Theano and potential ways of improving it.</summary>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-09T18:32:34Z</published>
+    <arxiv:comment>19 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SC"/>
+    <author>
+      <name> The Theano Development Team</name>
+    </author>
+    <author>
+      <name>Rami Al-Rfou</name>
+    </author>
+    <author>
+      <name>Guillaume Alain</name>
+    </author>
+    <author>
+      <name>Amjad Almahairi</name>
+    </author>
+    <author>
+      <name>Christof Angermueller</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Frédéric Bastien</name>
+    </author>
+    <author>
+      <name>Justin Bayer</name>
+    </author>
+    <author>
+      <name>Anatoly Belikov</name>
+    </author>
+    <author>
+      <name>Alexander Belopolsky</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Arnaud Bergeron</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Valentin Bisson</name>
+    </author>
+    <author>
+      <name>Josh Bleecher Snyder</name>
+    </author>
+    <author>
+      <name>Nicolas Bouchard</name>
+    </author>
+    <author>
+      <name>Nicolas Boulanger-Lewandowski</name>
+    </author>
+    <author>
+      <name>Xavier Bouthillier</name>
+    </author>
+    <author>
+      <name>Alexandre de Brébisson</name>
+    </author>
+    <author>
+      <name>Olivier Breuleux</name>
+    </author>
+    <author>
+      <name>Pierre-Luc Carrier</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Jan Chorowski</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>Tim Cooijmans</name>
+    </author>
+    <author>
+      <name>Marc-Alexandre Côté</name>
+    </author>
+    <author>
+      <name>Myriam Côté</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yann N. Dauphin</name>
+    </author>
+    <author>
+      <name>Olivier Delalleau</name>
+    </author>
+    <author>
+      <name>Julien Demouth</name>
+    </author>
+    <author>
+      <name>Guillaume Desjardins</name>
+    </author>
+    <author>
+      <name>Sander Dieleman</name>
+    </author>
+    <author>
+      <name>Laurent Dinh</name>
+    </author>
+    <author>
+      <name>Mélanie Ducoffe</name>
+    </author>
+    <author>
+      <name>Vincent Dumoulin</name>
+    </author>
+    <author>
+      <name>Samira Ebrahimi Kahou</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Ziye Fan</name>
+    </author>
+    <author>
+      <name>Orhan Firat</name>
+    </author>
+    <author>
+      <name>Mathieu Germain</name>
+    </author>
+    <author>
+      <name>Xavier Glorot</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Matt Graham</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Philippe Hamel</name>
+    </author>
+    <author>
+      <name>Iban Harlouchet</name>
+    </author>
+    <author>
+      <name>Jean-Philippe Heng</name>
+    </author>
+    <author>
+      <name>Balázs Hidasi</name>
+    </author>
+    <author>
+      <name>Sina Honari</name>
+    </author>
+    <author>
+      <name>Arjun Jain</name>
+    </author>
+    <author>
+      <name>Sébastien Jean</name>
+    </author>
+    <author>
+      <name>Kai Jia</name>
+    </author>
+    <author>
+      <name>Mikhail Korobov</name>
+    </author>
+    <author>
+      <name>Vivek Kulkarni</name>
+    </author>
+    <author>
+      <name>Alex Lamb</name>
+    </author>
+    <author>
+      <name>Pascal Lamblin</name>
+    </author>
+    <author>
+      <name>Eric Larsen</name>
+    </author>
+    <author>
+      <name>César Laurent</name>
+    </author>
+    <author>
+      <name>Sean Lee</name>
+    </author>
+    <author>
+      <name>Simon Lefrancois</name>
+    </author>
+    <author>
+      <name>Simon Lemieux</name>
+    </author>
+    <author>
+      <name>Nicholas Léonard</name>
+    </author>
+    <author>
+      <name>Zhouhan Lin</name>
+    </author>
+    <author>
+      <name>Jesse A. Livezey</name>
+    </author>
+    <author>
+      <name>Cory Lorenz</name>
+    </author>
+    <author>
+      <name>Jeremiah Lowin</name>
+    </author>
+    <author>
+      <name>Qianli Ma</name>
+    </author>
+    <author>
+      <name>Pierre-Antoine Manzagol</name>
+    </author>
+    <author>
+      <name>Olivier Mastropietro</name>
+    </author>
+    <author>
+      <name>Robert T. McGibbon</name>
+    </author>
+    <author>
+      <name>Roland Memisevic</name>
+    </author>
+    <author>
+      <name>Bart van Merriënboer</name>
+    </author>
+    <author>
+      <name>Vincent Michalski</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Alberto Orlandi</name>
+    </author>
+    <author>
+      <name>Christopher Pal</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Mohammad Pezeshki</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Daniel Renshaw</name>
+    </author>
+    <author>
+      <name>Matthew Rocklin</name>
+    </author>
+    <author>
+      <name>Adriana Romero</name>
+    </author>
+    <author>
+      <name>Markus Roth</name>
+    </author>
+    <author>
+      <name>Peter Sadowski</name>
+    </author>
+    <author>
+      <name>John Salvatier</name>
+    </author>
+    <author>
+      <name>François Savard</name>
+    </author>
+    <author>
+      <name>Jan Schlüter</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Gabriel Schwartz</name>
+    </author>
+    <author>
+      <name>Iulian Vlad Serban</name>
+    </author>
+    <author>
+      <name>Dmitriy Serdyuk</name>
+    </author>
+    <author>
+      <name>Samira Shabanian</name>
+    </author>
+    <author>
+      <name>Étienne Simon</name>
+    </author>
+    <author>
+      <name>Sigurd Spieckermann</name>
+    </author>
+    <author>
+      <name>S. Ramana Subramanyam</name>
+    </author>
+    <author>
+      <name>Jakub Sygnowski</name>
+    </author>
+    <author>
+      <name>Jérémie Tanguay</name>
+    </author>
+    <author>
+      <name>Gijs van Tulder</name>
+    </author>
+    <author>
+      <name>Joseph Turian</name>
+    </author>
+    <author>
+      <name>Sebastian Urban</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+    <author>
+      <name>Francesco Visin</name>
+    </author>
+    <author>
+      <name>Harm de Vries</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Dustin J. Webb</name>
+    </author>
+    <author>
+      <name>Matthew Willson</name>
+    </author>
+    <author>
+      <name>Kelvin Xu</name>
+    </author>
+    <author>
+      <name>Lijun Xue</name>
+    </author>
+    <author>
+      <name>Li Yao</name>
+    </author>
+    <author>
+      <name>Saizheng Zhang</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.04326v1</id>
+    <title>Improving the Robustness of Deep Neural Networks via Stability Training</title>
+    <updated>2016-04-15T01:15:18Z</updated>
+    <link href="https://arxiv.org/abs/1604.04326v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.04326v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we address the issue of output instability of deep neural networks: small perturbations in the visual input can significantly distort the feature embeddings and output of a neural network. Such instability affects many deep architectures with state-of-the-art performance on a wide range of computer vision tasks. We present a general stability training method to stabilize deep networks against small input distortions that result from various types of common image processing, such as compression, rescaling, and cropping. We validate our method by stabilizing the state-of-the-art Inception architecture against these types of distortions. In addition, we demonstrate that our stabilized model gives robust state-of-the-art performance on large-scale near-duplicate detection, similar-image ranking, and classification on noisy datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-15T01:15:18Z</published>
+    <arxiv:comment>Published in CVPR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Stephan Zheng</name>
+    </author>
+    <author>
+      <name>Yang Song</name>
+    </author>
+    <author>
+      <name>Thomas Leung</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.04467v2</id>
+    <title>TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems</title>
+    <updated>2016-03-16T16:57:12Z</updated>
+    <link href="https://arxiv.org/abs/1603.04467v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.04467v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>TensorFlow is an interface for expressing machine learning algorithms, and an implementation for executing such algorithms. A computation expressed using TensorFlow can be executed with little or no change on a wide variety of heterogeneous systems, ranging from mobile devices such as phones and tablets up to large-scale distributed systems of hundreds of machines and thousands of computational devices such as GPU cards. The system is flexible and can be used to express a wide variety of algorithms, including training and inference algorithms for deep neural network models, and it has been used for conducting research and for deploying machine learning systems into production across more than a dozen areas of computer science and other fields, including speech recognition, computer vision, robotics, information retrieval, natural language processing, geographic information extraction, and computational drug discovery. This paper describes the TensorFlow interface and an implementation of that interface that we have built at Google. The TensorFlow API and a reference implementation were released as an open-source package under the Apache 2.0 license in November, 2015 and are available at www.tensorflow.org.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-14T20:50:20Z</published>
+    <arxiv:comment>Version 2 updates only the metadata, to correct the formatting of Martín Abadi's name</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Martín Abadi</name>
+    </author>
+    <author>
+      <name>Ashish Agarwal</name>
+    </author>
+    <author>
+      <name>Paul Barham</name>
+    </author>
+    <author>
+      <name>Eugene Brevdo</name>
+    </author>
+    <author>
+      <name>Zhifeng Chen</name>
+    </author>
+    <author>
+      <name>Craig Citro</name>
+    </author>
+    <author>
+      <name>Greg S. Corrado</name>
+    </author>
+    <author>
+      <name>Andy Davis</name>
+    </author>
+    <author>
+      <name>Jeffrey Dean</name>
+    </author>
+    <author>
+      <name>Matthieu Devin</name>
+    </author>
+    <author>
+      <name>Sanjay Ghemawat</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Andrew Harp</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+    <author>
+      <name>Michael Isard</name>
+    </author>
+    <author>
+      <name>Yangqing Jia</name>
+    </author>
+    <author>
+      <name>Rafal Jozefowicz</name>
+    </author>
+    <author>
+      <name>Lukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Manjunath Kudlur</name>
+    </author>
+    <author>
+      <name>Josh Levenberg</name>
+    </author>
+    <author>
+      <name>Dan Mane</name>
+    </author>
+    <author>
+      <name>Rajat Monga</name>
+    </author>
+    <author>
+      <name>Sherry Moore</name>
+    </author>
+    <author>
+      <name>Derek Murray</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Mike Schuster</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Benoit Steiner</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Kunal Talwar</name>
+    </author>
+    <author>
+      <name>Paul Tucker</name>
+    </author>
+    <author>
+      <name>Vincent Vanhoucke</name>
+    </author>
+    <author>
+      <name>Vijay Vasudevan</name>
+    </author>
+    <author>
+      <name>Fernanda Viegas</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Pete Warden</name>
+    </author>
+    <author>
+      <name>Martin Wattenberg</name>
+    </author>
+    <author>
+      <name>Martin Wicke</name>
+    </author>
+    <author>
+      <name>Yuan Yu</name>
+    </author>
+    <author>
+      <name>Xiaoqiang Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.02697v4</id>
+    <title>Practical Black-Box Attacks against Machine Learning</title>
+    <updated>2017-03-19T14:50:18Z</updated>
+    <link href="https://arxiv.org/abs/1602.02697v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.02697v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning (ML) models, e.g., deep neural networks (DNNs), are vulnerable to adversarial examples: malicious inputs modified to yield erroneous model outputs, while appearing unmodified to human observers. Potential attacks include having malicious content like malware identified as legitimate or controlling vehicle behavior. Yet, all existing adversarial example attacks require knowledge of either the model internals or its training data. We introduce the first practical demonstration of an attacker controlling a remotely hosted DNN with no such knowledge. Indeed, the only capability of our black-box adversary is to observe labels given by the DNN to chosen inputs. Our attack strategy consists in training a local model to substitute for the target DNN, using inputs synthetically generated by an adversary and labeled by the target DNN. We use the local substitute to craft adversarial examples, and find that they are misclassified by the targeted DNN. To perform a real-world and properly-blinded evaluation, we attack a DNN hosted by MetaMind, an online deep learning API. We find that their DNN misclassifies 84.24% of the adversarial examples crafted with our substitute. We demonstrate the general applicability of our strategy to many ML techniques by conducting the same attack against models hosted by Amazon and Google, using logistic regression substitutes. They yield adversarial examples misclassified by Amazon and Google at rates of 96.19% and 88.94%. We also find that this black-box attack strategy is capable of evading defense strategies previously found to make adversarial example crafting harder.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-08T19:12:25Z</published>
+    <arxiv:comment>Proceedings of the 2017 ACM Asia Conference on Computer and Communications Security, Abu Dhabi, UAE</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Patrick McDaniel</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Somesh Jha</name>
+    </author>
+    <author>
+      <name>Z. Berkay Celik</name>
+    </author>
+    <author>
+      <name>Ananthram Swami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05644v2</id>
+    <title>Adversarial Autoencoders</title>
+    <updated>2016-05-25T00:17:45Z</updated>
+    <link href="https://arxiv.org/abs/1511.05644v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05644v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose the "adversarial autoencoder" (AAE), which is a probabilistic autoencoder that uses the recently proposed generative adversarial networks (GAN) to perform variational inference by matching the aggregated posterior of the hidden code vector of the autoencoder with an arbitrary prior distribution. Matching the aggregated posterior to the prior ensures that generating from any part of prior space results in meaningful samples. As a result, the decoder of the adversarial autoencoder learns a deep generative model that maps the imposed prior to the data distribution. We show how the adversarial autoencoder can be used in applications such as semi-supervised classification, disentangling style and content of images, unsupervised clustering, dimensionality reduction and data visualization. We performed experiments on MNIST, Street View House Numbers and Toronto Face datasets and show that adversarial autoencoders achieve competitive results in generative modeling and semi-supervised classification tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-18T02:32:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alireza Makhzani</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Navdeep Jaitly</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Brendan Frey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05641v4</id>
+    <title>Net2Net: Accelerating Learning via Knowledge Transfer</title>
+    <updated>2016-04-23T23:14:39Z</updated>
+    <link href="https://arxiv.org/abs/1511.05641v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05641v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce techniques for rapidly transferring the information stored in one neural net into another neural net. The main purpose is to accelerate the training of a significantly larger neural net. During real-world workflows, one often trains very many different neural networks during the experimentation and design process. This is a wasteful process in which each new model is trained from scratch. Our Net2Net technique accelerates the experimentation process by instantaneously transferring the knowledge from a previous network to each new deeper or wider network. Our techniques are based on the concept of function-preserving transformations between neural network specifications. This differs from previous approaches to pre-training that altered the function represented by a neural net when adding layers to it. Using our knowledge transfer mechanism to add depth to Inception modules, we demonstrate a new state of the art accuracy rating on the ImageNet dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-18T02:09:20Z</published>
+    <arxiv:comment>ICLR 2016 submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianqi Chen</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+  </entry>
+</feed>

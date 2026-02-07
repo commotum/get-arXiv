@@ -1,0 +1,1456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6yRCEvDurA3+Euk1yxjP23vevlE</id>
+  <title>arXiv Query: search_query=au:"Sepp Hochreiter"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T23:17:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Sepp+Hochreiter%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>87</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01261v1</id>
+    <title>Entangled Residual Mappings</title>
+    <updated>2022-06-02T19:36:03Z</updated>
+    <link href="https://arxiv.org/abs/2206.01261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Residual mappings have been shown to perform representation learning in the first layers and iterative feature refinement in higher layers. This interplay, combined with their stabilizing effect on the gradient norms, enables them to train very deep networks. In this paper, we take a step further and introduce entangled residual mappings to generalize the structure of the residual connections and evaluate their role in iterative learning representations. An entangled residual mapping replaces the identity skip connections with specialized entangled mappings such as orthogonal, sparse, and structural correlation matrices that share key attributes (eigenvalues, structure, and Jacobian norm) with identity mappings. We show that while entangled mappings can preserve the iterative refinement of features across various deep models, they influence the representation learning process in convolutional networks differently than attention-based models and recurrent neural networks. In general, we find that for CNNs and Vision Transformers entangled sparse mapping can help generalization while orthogonal mappings hurt performance. For recurrent networks, orthogonal residual mappings form an inductive bias for time-variant sequences, which degrades accuracy on time-invariant tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-02T19:36:03Z</published>
+    <arxiv:comment>21 Pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mathias Lechner</name>
+    </author>
+    <author>
+      <name>Ramin Hasani</name>
+    </author>
+    <author>
+      <name>Zahra Babaiee</name>
+    </author>
+    <author>
+      <name>Radu Grosu</name>
+    </author>
+    <author>
+      <name>Daniela Rus</name>
+    </author>
+    <author>
+      <name>Thomas A. Henzinger</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.00664v1</id>
+    <title>Hopular: Modern Hopfield Networks for Tabular Data</title>
+    <updated>2022-06-01T17:57:44Z</updated>
+    <link href="https://arxiv.org/abs/2206.00664v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.00664v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Deep Learning excels in structured data as encountered in vision and natural language processing, it failed to meet its expectations on tabular data. For tabular data, Support Vector Machines (SVMs), Random Forests, and Gradient Boosting are the best performing techniques with Gradient Boosting in the lead. Recently, we saw a surge of Deep Learning methods that were tailored to tabular data but still underperform compared to Gradient Boosting on small-sized datasets. We suggest "Hopular", a novel Deep Learning architecture for medium- and small-sized datasets, where each layer is equipped with continuous modern Hopfield networks. The modern Hopfield networks use stored data to identify feature-feature, feature-target, and sample-sample dependencies. Hopular's novelty is that every layer can directly access the original input as well as the whole training set via stored data in the Hopfield networks. Therefore, Hopular can step-wise update its current model and the resulting prediction at every layer like standard iterative learning algorithms. In experiments on small-sized tabular datasets with less than 1,000 samples, Hopular surpasses Gradient Boosting, Random Forests, SVMs, and in particular several Deep Learning methods. In experiments on medium-sized tabular data with about 10,000 samples, Hopular outperforms XGBoost, CatBoost, LightGBM and a state-of-the art Deep Learning method designed for tabular data. Thus, Hopular is a strong alternative to these methods on tabular data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-01T17:57:44Z</published>
+    <arxiv:comment>9 pages (+ appendix); 5 figures; source code available at: https://github.com/ml-jku/hopular ; blog post available at: https://ml-jku.github.io/hopular/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bernhard Schäfl</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Angela Bitto-Nemling</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.12258v4</id>
+    <title>History Compression via Language Models in Reinforcement Learning</title>
+    <updated>2023-02-21T12:53:24Z</updated>
+    <link href="https://arxiv.org/abs/2205.12258v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.12258v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a partially observable Markov decision process (POMDP), an agent typically uses a representation of the past to approximate the underlying MDP. We propose to utilize a frozen Pretrained Language Transformer (PLT) for history representation and compression to improve sample efficiency. To avoid training of the Transformer, we introduce FrozenHopfield, which automatically associates observations with pretrained token embeddings. To form these associations, a modern Hopfield network stores these token embeddings, which are retrieved by queries that are obtained by a random but fixed projection of observations. Our new method, HELM, enables actor-critic network architectures that contain a pretrained language Transformer for history representation as a memory module. Since a representation of the past need not be learned, HELM is much more sample efficient than competitors. On Minigrid and Procgen environments HELM achieves new state-of-the-art results. Our code is available at https://github.com/ml-jku/helm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-24T17:59:29Z</published>
+    <arxiv:comment>ICML 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Angela Bitto-Nemling</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+    <author>
+      <name>Hamid Eghbal-zadeh</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.17070v2</id>
+    <title>Traffic4cast at NeurIPS 2021 -- Temporal and Spatial Few-Shot Transfer Learning in Gridded Geo-Spatial Processes</title>
+    <updated>2022-04-01T10:06:33Z</updated>
+    <link href="https://arxiv.org/abs/2203.17070v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.17070v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The IARAI Traffic4cast competitions at NeurIPS 2019 and 2020 showed that neural networks can successfully predict future traffic conditions 1 hour into the future on simply aggregated GPS probe data in time and space bins. We thus reinterpreted the challenge of forecasting traffic conditions as a movie completion task. U-Nets proved to be the winning architecture, demonstrating an ability to extract relevant features in this complex real-world geo-spatial process. Building on the previous competitions, Traffic4cast 2021 now focuses on the question of model robustness and generalizability across time and space. Moving from one city to an entirely different city, or moving from pre-COVID times to times after COVID hit the world thus introduces a clear domain shift. We thus, for the first time, release data featuring such domain shifts. The competition now covers ten cities over 2 years, providing data compiled from over 10^12 GPS probe data. Winning solutions captured traffic dynamics sufficiently well to even cope with these complex domain shifts. Surprisingly, this seemed to require only the previous 1h traffic dynamic history and static road graph as input.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-31T14:40:01Z</published>
+    <arxiv:comment>Pre-print under review, submitted to Proceedings of Machine Learning Research</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christian Eichenberger</name>
+    </author>
+    <author>
+      <name>Moritz Neun</name>
+    </author>
+    <author>
+      <name>Henry Martin</name>
+    </author>
+    <author>
+      <name>Pedro Herruzo</name>
+    </author>
+    <author>
+      <name>Markus Spanring</name>
+    </author>
+    <author>
+      <name>Yichao Lu</name>
+    </author>
+    <author>
+      <name>Sungbin Choi</name>
+    </author>
+    <author>
+      <name>Vsevolod Konyakhin</name>
+    </author>
+    <author>
+      <name>Nina Lukashina</name>
+    </author>
+    <author>
+      <name>Aleksei Shpilman</name>
+    </author>
+    <author>
+      <name>Nina Wiedemann</name>
+    </author>
+    <author>
+      <name>Martin Raubal</name>
+    </author>
+    <author>
+      <name>Bo Wang</name>
+    </author>
+    <author>
+      <name>Hai L. Vu</name>
+    </author>
+    <author>
+      <name>Reza Mohajerpoor</name>
+    </author>
+    <author>
+      <name>Chen Cai</name>
+    </author>
+    <author>
+      <name>Inhi Kim</name>
+    </author>
+    <author>
+      <name>Luca Hermes</name>
+    </author>
+    <author>
+      <name>Andrew Melnik</name>
+    </author>
+    <author>
+      <name>Riza Velioglu</name>
+    </author>
+    <author>
+      <name>Markus Vieth</name>
+    </author>
+    <author>
+      <name>Malte Schilling</name>
+    </author>
+    <author>
+      <name>Alabi Bojesomo</name>
+    </author>
+    <author>
+      <name>Hasan Al Marzouqi</name>
+    </author>
+    <author>
+      <name>Panos Liatsis</name>
+    </author>
+    <author>
+      <name>Jay Santokhi</name>
+    </author>
+    <author>
+      <name>Dylan Hillier</name>
+    </author>
+    <author>
+      <name>Yiming Yang</name>
+    </author>
+    <author>
+      <name>Joned Sarwar</name>
+    </author>
+    <author>
+      <name>Anna Jordan</name>
+    </author>
+    <author>
+      <name>Emil Hewage</name>
+    </author>
+    <author>
+      <name>David Jonietz</name>
+    </author>
+    <author>
+      <name>Fei Tang</name>
+    </author>
+    <author>
+      <name>Aleksandra Gruca</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>David Kreil</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.04714v2</id>
+    <title>A Dataset Perspective on Offline Reinforcement Learning</title>
+    <updated>2022-07-12T14:34:31Z</updated>
+    <link href="https://arxiv.org/abs/2111.04714v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.04714v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The application of Reinforcement Learning (RL) in real world environments can be expensive or risky due to sub-optimal policies during training. In Offline RL, this problem is avoided since interactions with an environment are prohibited. Policies are learned from a given dataset, which solely determines their performance. Despite this fact, how dataset characteristics influence Offline RL algorithms is still hardly investigated. The dataset characteristics are determined by the behavioral policy that samples this dataset. Therefore, we define characteristics of behavioral policies as exploratory for yielding high expected information in their interaction with the Markov Decision Process (MDP) and as exploitative for having high expected return. We implement two corresponding empirical measures for the datasets sampled by the behavioral policy in deterministic MDPs. The first empirical measure SACo is defined by the normalized unique state-action pairs and captures exploration. The second empirical measure TQ is defined by the normalized average trajectory return and captures exploitation. Empirical evaluations show the effectiveness of TQ and SACo. In large-scale experiments using our proposed measures, we show that the unconstrained off-policy Deep Q-Network family requires datasets with high SACo to find a good policy. Furthermore, experiments show that policy constraint algorithms perform well on datasets with high TQ and SACo. Finally, the experiments show, that purely dataset-constrained Behavioral Cloning performs competitively to the best Offline RL algorithms for datasets with high TQ.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-08T18:48:43Z</published>
+    <arxiv:comment>Code: https://github.com/ml-jku/OfflineRL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Andreas Radler</name>
+    </author>
+    <author>
+      <name>Marius-Constantin Dinu</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Angela Bitto-Nemling</name>
+    </author>
+    <author>
+      <name>Hamid Eghbal-zadeh</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.11316v4</id>
+    <title>CLOOB: Modern Hopfield Networks with InfoLOOB Outperform CLIP</title>
+    <updated>2022-11-07T13:57:43Z</updated>
+    <link href="https://arxiv.org/abs/2110.11316v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.11316v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>CLIP yielded impressive results on zero-shot transfer learning tasks and is considered as a foundation model like BERT or GPT3. CLIP vision models that have a rich representation are pre-trained using the InfoNCE objective and natural language supervision before they are fine-tuned on particular tasks. Though CLIP excels at zero-shot transfer learning, it suffers from an explaining away problem, that is, it focuses on one or few features, while neglecting other relevant features. This problem is caused by insufficiently extracting the covariance structure in the original multi-modal data. We suggest to use modern Hopfield networks to tackle the problem of explaining away. Their retrieved embeddings have an enriched covariance structure derived from co-occurrences of features in the stored embeddings. However, modern Hopfield networks increase the saturation effect of the InfoNCE objective which hampers learning. We propose to use the InfoLOOB objective to mitigate this saturation effect. We introduce the novel "Contrastive Leave One Out Boost" (CLOOB), which uses modern Hopfield networks for covariance enrichment together with the InfoLOOB objective. In experiments we compare CLOOB to CLIP after pre-training on the Conceptual Captions and the YFCC dataset with respect to their zero-shot transfer learning performance on other datasets. CLOOB consistently outperforms CLIP at zero-shot transfer learning across all considered architectures and datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-21T17:50:48Z</published>
+    <arxiv:comment>Published at NeurIPS 2022; Blog: https://ml-jku.github.io/cloob; GitHub: https://github.com/ml-jku/cloob</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Fürst</name>
+    </author>
+    <author>
+      <name>Elisabeth Rumetshofer</name>
+    </author>
+    <author>
+      <name>Johannes Lehner</name>
+    </author>
+    <author>
+      <name>Viet Tran</name>
+    </author>
+    <author>
+      <name>Fei Tang</name>
+    </author>
+    <author>
+      <name>Hubert Ramsauer</name>
+    </author>
+    <author>
+      <name>David Kreil</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Angela Bitto-Nemling</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.11299v7</id>
+    <title>Boundary Graph Neural Networks for 3D Simulations</title>
+    <updated>2023-04-20T17:55:47Z</updated>
+    <link href="https://arxiv.org/abs/2106.11299v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.11299v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The abundance of data has given machine learning considerable momentum in natural sciences and engineering, though modeling of physical processes is often difficult. A particularly tough problem is the efficient representation of geometric boundaries. Triangularized geometric boundaries are well understood and ubiquitous in engineering applications. However, it is notoriously difficult to integrate them into machine learning approaches due to their heterogeneity with respect to size and orientation. In this work, we introduce an effective theory to model particle-boundary interactions, which leads to our new Boundary Graph Neural Networks (BGNNs) that dynamically modify graph structures to obey boundary conditions. The new BGNNs are tested on complex 3D granular flow processes of hoppers, rotating drums and mixers, which are all standard components of modern industrial machinery but still have complicated geometry. BGNNs are evaluated in terms of computational efficiency as well as prediction accuracy of particle flows and mixing entropies. BGNNs are able to accurately reproduce 3D granular flows within simulation uncertainties over hundreds of thousands of simulation timesteps. Most notably, in our experiments, particles stay within the geometric objects without using handcrafted conditions or restrictions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-21T17:56:07Z</published>
+    <arxiv:comment>accepted for presentation at the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+    <author>
+      <name>Arno Mayrhofer</name>
+    </author>
+    <author>
+      <name>Christoph Kloss</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01636v1</id>
+    <title>Learning 3D Granular Flow Simulations</title>
+    <updated>2021-05-04T17:27:59Z</updated>
+    <link href="https://arxiv.org/abs/2105.01636v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01636v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, the application of machine learning models has gained momentum in natural sciences and engineering, which is a natural fit due to the abundance of data in these fields. However, the modeling of physical processes from simulation data without first principle solutions remains difficult. Here, we present a Graph Neural Networks approach towards accurate modeling of complex 3D granular flow simulation processes created by the discrete element method LIGGGHTS and concentrate on simulations of physical systems found in real world applications like rotating drums and hoppers. We discuss how to implement Graph Neural Networks that deal with 3D objects, boundary conditions, particle - particle, and particle - boundary interactions such that an accurate modeling of relevant physical quantities is made possible. Finally, we compare the machine learning based trajectories to LIGGGHTS trajectories in terms of particle flows and mixing entropies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-04T17:27:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+    <author>
+      <name>Arno Mayrhofer</name>
+    </author>
+    <author>
+      <name>Christoph Kloss</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.03279v3</id>
+    <title>Modern Hopfield Networks for Few- and Zero-Shot Reaction Template Prediction</title>
+    <updated>2021-06-15T13:24:02Z</updated>
+    <link href="https://arxiv.org/abs/2104.03279v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.03279v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding synthesis routes for molecules of interest is an essential step in the discovery of new drugs and materials. To find such routes, computer-assisted synthesis planning (CASP) methods are employed which rely on a model of chemical reactivity. In this study, we model single-step retrosynthesis in a template-based approach using modern Hopfield networks (MHNs). We adapt MHNs to associate different modalities, reaction templates and molecules, which allows the model to leverage structural information about reaction templates. This approach significantly improves the performance of template relevance prediction, especially for templates with few or zero training examples. With inference speed several times faster than that of baseline methods, we improve predictive performance for top-k exact match accuracy for $\mathrm{k}\geq5$ in the retrosynthesis benchmark USPTO-50k.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-07T17:35:00Z</published>
+    <arxiv:comment>14 pages + 12 pages appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Philipp Seidl</name>
+    </author>
+    <author>
+      <name>Philipp Renz</name>
+    </author>
+    <author>
+      <name>Natalia Dyubankova</name>
+    </author>
+    <author>
+      <name>Paulo Neves</name>
+    </author>
+    <author>
+      <name>Jonas Verhoeven</name>
+    </author>
+    <author>
+      <name>Marwin Segler</name>
+    </author>
+    <author>
+      <name>Jörg K. Wegner</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.16910v1</id>
+    <title>Trusted Artificial Intelligence: Towards Certification of Machine Learning Applications</title>
+    <updated>2021-03-31T08:59:55Z</updated>
+    <link href="https://arxiv.org/abs/2103.16910v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.16910v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial Intelligence is one of the fastest growing technologies of the 21st century and accompanies us in our daily lives when interacting with technical applications. However, reliance on such technical systems is crucial for their widespread applicability and acceptance. The societal tools to express reliance are usually formalized by lawful regulations, i.e., standards, norms, accreditations, and certificates. Therefore, the TÜV AUSTRIA Group in cooperation with the Institute for Machine Learning at the Johannes Kepler University Linz, proposes a certification process and an audit catalog for Machine Learning applications. We are convinced that our approach can serve as the foundation for the certification of applications that use Machine Learning and Deep Learning, the techniques that drive the current revolution in Artificial Intelligence. While certain high-risk areas, such as fully autonomous robots in workspaces shared with humans, are still some time away from certification, we aim to cover low-risk applications with our certification procedure. Our holistic approach attempts to analyze Machine Learning applications from multiple perspectives to evaluate and verify the aspects of secure software development, functional requirements, data quality, data protection, and ethics. Inspired by existing work, we introduce four criticality levels to map the criticality of a Machine Learning application regarding the impact of its decisions on people, environment, and organizations. Currently, the audit catalog can be applied to low-risk applications within the scope of supervised learning as commonly encountered in industry. Guided by field experience, scientific developments, and market demands, the audit catalog will be extended and modified accordingly.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-31T08:59:55Z</published>
+    <arxiv:comment>48 pages, 11 figures, soft-review</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Philip Matthias Winter</name>
+    </author>
+    <author>
+      <name>Sebastian Eder</name>
+    </author>
+    <author>
+      <name>Johannes Weissenböck</name>
+    </author>
+    <author>
+      <name>Christoph Schwald</name>
+    </author>
+    <author>
+      <name>Thomas Doms</name>
+    </author>
+    <author>
+      <name>Tom Vogt</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Bernhard Nessler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.05186v3</id>
+    <title>MC-LSTM: Mass-Conserving LSTM</title>
+    <updated>2021-06-10T15:33:23Z</updated>
+    <link href="https://arxiv.org/abs/2101.05186v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.05186v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The success of Convolutional Neural Networks (CNNs) in computer vision is mainly driven by their strong inductive bias, which is strong enough to allow CNNs to solve vision-related tasks with random weights, meaning without learning. Similarly, Long Short-Term Memory (LSTM) has a strong inductive bias towards storing information over time. However, many real-world systems are governed by conservation laws, which lead to the redistribution of particular quantities -- e.g. in physical and economical systems. Our novel Mass-Conserving LSTM (MC-LSTM) adheres to these conservation laws by extending the inductive bias of LSTM to model the redistribution of those stored quantities. MC-LSTMs set a new state-of-the-art for neural arithmetic units at learning arithmetic operations, such as addition tasks, which have a strong conservation law, as the sum is constant over time. Further, MC-LSTM is applied to traffic forecasting, modelling a pendulum, and a large benchmark dataset in hydrology, where it sets a new state-of-the-art for predicting peak flows. In the hydrology example, we show that MC-LSTM states correlate with real-world processes and are therefore interpretable.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-13T16:40:48Z</published>
+    <arxiv:comment>13 pages (8.5 without references) + 17 pages appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pieter-Jan Hoedt</name>
+    </author>
+    <author>
+      <name>Frederik Kratzert</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Christina Halmich</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Grey Nearing</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14295v1</id>
+    <title>Uncertainty Estimation with Deep Learning for Rainfall-Runoff Modelling</title>
+    <updated>2020-12-15T20:52:19Z</updated>
+    <link href="https://arxiv.org/abs/2012.14295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.14295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning is becoming an increasingly important way to produce accurate hydrological predictions across a wide range of spatial and temporal scales. Uncertainty estimations are critical for actionable hydrological forecasting, and while standardized community benchmarks are becoming an increasingly important part of hydrological model development and research, similar tools for benchmarking uncertainty estimation are lacking. We establish an uncertainty estimation benchmarking procedure and present four Deep Learning baselines, out of which three are based on Mixture Density Networks and one is based on Monte Carlo dropout. Additionally, we provide a post-hoc model analysis to put forward some qualitative understanding of the resulting models. Most importantly however, we show that accurate, precise, and reliable uncertainty estimation can be achieved with Deep Learning.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-15T20:52:19Z</published>
+    <arxiv:comment>32 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Frederik Kratzert</name>
+    </author>
+    <author>
+      <name>Martin Gauch</name>
+    </author>
+    <author>
+      <name>Alden Keefe Sampson</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Grey Nearing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.01399v1</id>
+    <title>Convergence Proof for Actor-Critic Methods Applied to PPO and RUDDER</title>
+    <updated>2020-12-02T18:47:06Z</updated>
+    <link href="https://arxiv.org/abs/2012.01399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.01399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove under commonly used assumptions the convergence of actor-critic reinforcement learning algorithms, which simultaneously learn a policy function, the actor, and a value function, the critic. Both functions can be deep neural networks of arbitrary complexity. Our framework allows showing convergence of the well known Proximal Policy Optimization (PPO) and of the recently introduced RUDDER. For the convergence proof we employ recently introduced techniques from the two time-scale stochastic approximation theory. Our results are valid for actor-critic methods that use episodic samples and that have a policy that becomes more greedy during learning. Previous convergence proofs assume linear function approximation, cannot treat episodic examples, or do not consider that policies become greedy. The latter is relevant since optimal policies are typically deterministic.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-02T18:47:06Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>José Arjona-Medina</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.07921v1</id>
+    <title>Rainfall-Runoff Prediction at Multiple Timescales with a Single Long Short-Term Memory Network</title>
+    <updated>2020-10-15T17:52:16Z</updated>
+    <link href="https://arxiv.org/abs/2010.07921v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.07921v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long Short-Term Memory Networks (LSTMs) have been applied to daily discharge prediction with remarkable success. Many practical scenarios, however, require predictions at more granular timescales. For instance, accurate prediction of short but extreme flood peaks can make a life-saving difference, yet such peaks may escape the coarse temporal resolution of daily predictions. Naively training an LSTM on hourly data, however, entails very long input sequences that make learning hard and computationally expensive. In this study, we propose two Multi-Timescale LSTM (MTS-LSTM) architectures that jointly predict multiple timescales within one model, as they process long-past inputs at a single temporal resolution and branch out into each individual timescale for more recent input steps. We test these models on 516 basins across the continental United States and benchmark against the US National Water Model. Compared to naive prediction with a distinct LSTM per timescale, the multi-timescale architectures are computationally more efficient with no loss in accuracy. Beyond prediction quality, the multi-timescale LSTM can process different input variables at different timescales, which is especially relevant to operational applications where the lead time of meteorological forcings depends on their temporal resolution.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-15T17:52:16Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Hydrol. Earth Syst. Sci., 25, 2045-2062, 2021</arxiv:journal_ref>
+    <author>
+      <name>Martin Gauch</name>
+    </author>
+    <author>
+      <name>Frederik Kratzert</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Grey Nearing</name>
+    </author>
+    <author>
+      <name>Jimmy Lin</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <arxiv:doi>10.5194/hess-25-2045-2021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5194/hess-25-2045-2021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.06498v2</id>
+    <title>Cross-Domain Few-Shot Learning by Representation Fusion</title>
+    <updated>2021-02-16T18:41:50Z</updated>
+    <link href="https://arxiv.org/abs/2010.06498v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.06498v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to quickly adapt to new data, few-shot learning aims at learning from few examples, often by using already acquired knowledge. The new data often differs from the previously seen data due to a domain shift, that is, a change of the input-target distribution. While several methods perform well on small domain shifts like new target classes with similar inputs, larger domain shifts are still challenging. Large domain shifts may result in high-level concepts that are not shared between the original and the new domain, whereas low-level concepts like edges in images might still be shared and useful. For cross-domain few-shot learning, we suggest representation fusion to unify different abstraction levels of a deep neural network into one representation. We propose Cross-domain Hebbian Ensemble Few-shot learning (CHEF), which achieves representation fusion by an ensemble of Hebbian learners acting on different layers of a deep neural network. Ablation studies show that representation fusion is a decisive factor to boost cross-domain few-shot learning. On the few-shot datasets miniImagenet and tieredImagenet with small domain shifts, CHEF is competitive with state-of-the-art methods. On cross-domain few-shot benchmark challenges with larger domain shifts, CHEF establishes novel state-of-the-art results in all categories. We further apply CHEF on a real-world cross-domain application in drug discovery. We consider a domain shift from bioactive molecules to environmental chemicals and drugs with twelve associated toxicity prediction tasks. On these tasks, that are highly relevant for computational drug discovery, CHEF significantly outperforms all its competitors. Github: https://github.com/ml-jku/chef</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-13T15:57:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>David Kreil</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.14108v2</id>
+    <title>Align-RUDDER: Learning From Few Demonstrations by Reward Redistribution</title>
+    <updated>2022-06-28T18:39:18Z</updated>
+    <link href="https://arxiv.org/abs/2009.14108v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.14108v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning algorithms require many samples when solving complex hierarchical tasks with sparse and delayed rewards. For such complex tasks, the recently proposed RUDDER uses reward redistribution to leverage steps in the Q-function that are associated with accomplishing sub-tasks. However, often only few episodes with high rewards are available as demonstrations since current exploration strategies cannot discover them in reasonable time. In this work, we introduce Align-RUDDER, which utilizes a profile model for reward redistribution that is obtained from multiple sequence alignment of demonstrations. Consequently, Align-RUDDER employs reward redistribution effectively and, thereby, drastically improves learning on few demonstrations. Align-RUDDER outperforms competitors on complex artificial tasks with delayed rewards and few demonstrations. On the Minecraft ObtainDiamond task, Align-RUDDER is able to mine a diamond, though not frequently. Code is available at https://github.com/ml-jku/align-rudder. YouTube: https://youtu.be/HO-_8ZUl-UY</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-29T15:48:02Z</published>
+    <arxiv:comment>Github: https://github.com/ml-jku/align-rudder, YouTube: https://youtu.be/HO-_8ZUl-UY</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vihang P. Patil</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Marius-Constantin Dinu</name>
+    </author>
+    <author>
+      <name>Matthias Dorfer</name>
+    </author>
+    <author>
+      <name>Patrick M. Blies</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Jose A. Arjona-Medina</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.13505v1</id>
+    <title>Modern Hopfield Networks and Attention for Immune Repertoire Classification</title>
+    <updated>2020-07-16T20:35:46Z</updated>
+    <link href="https://arxiv.org/abs/2007.13505v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.13505v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A central mechanism in machine learning is to identify, store, and recognize patterns. How to learn, access, and retrieve such patterns is crucial in Hopfield networks and the more recent transformer architectures. We show that the attention mechanism of transformer architectures is actually the update rule of modern Hopfield networks that can store exponentially many patterns. We exploit this high storage capacity of modern Hopfield networks to solve a challenging multiple instance learning (MIL) problem in computational biology: immune repertoire classification. Accurate and interpretable machine learning methods solving this problem could pave the way towards new vaccines and therapies, which is currently a very relevant research topic intensified by the COVID-19 crisis. Immune repertoire classification based on the vast number of immunosequences of an individual is a MIL problem with an unprecedentedly massive number of instances, two orders of magnitude larger than currently considered problems, and with an extremely low witness rate. In this work, we present our novel method DeepRC that integrates transformer-like attention, or equivalently modern Hopfield networks, into deep learning architectures for massive MIL such as immune repertoire classification. We demonstrate that DeepRC outperforms all other methods with respect to predictive performance on large-scale experiments, including simulated and real-world virus infection data, and enables the extraction of sequence motifs that are connected to a given disease class. Source code and datasets: https://github.com/ml-jku/DeepRC</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-16T20:35:46Z</published>
+    <arxiv:comment>10 pages (+appendix); Source code and datasets: https://github.com/ml-jku/DeepRC</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 33 (NeurIPS 2020)</arxiv:journal_ref>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Bernhard Schäfl</name>
+    </author>
+    <author>
+      <name>Hubert Ramsauer</name>
+    </author>
+    <author>
+      <name>Milena Pavlović</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Geir Kjetil Sandve</name>
+    </author>
+    <author>
+      <name>Victor Greiff</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.02217v3</id>
+    <title>Hopfield Networks is All You Need</title>
+    <updated>2021-04-28T07:24:49Z</updated>
+    <link href="https://arxiv.org/abs/2008.02217v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.02217v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a modern Hopfield network with continuous states and a corresponding update rule. The new Hopfield network can store exponentially (with the dimension of the associative space) many patterns, retrieves the pattern with one update, and has exponentially small retrieval errors. It has three types of energy minima (fixed points of the update): (1) global fixed point averaging over all patterns, (2) metastable states averaging over a subset of patterns, and (3) fixed points which store a single pattern. The new update rule is equivalent to the attention mechanism used in transformers. This equivalence enables a characterization of the heads of transformer models. These heads perform in the first layers preferably global averaging and in higher layers partial averaging via metastable states. The new modern Hopfield network can be integrated into deep learning architectures as layers to allow the storage of and access to raw input data, intermediate results, or learned prototypes. These Hopfield layers enable new ways of deep learning, beyond fully-connected, convolutional, or recurrent networks, and provide pooling, memory, association, and attention mechanisms. We demonstrate the broad applicability of the Hopfield layers across various domains. Hopfield layers improved state-of-the-art on three out of four considered multiple instance learning problems as well as on immune repertoire classification with several hundreds of thousands of instances. On the UCI benchmark collections of small classification tasks, where deep learning methods typically struggle, Hopfield layers yielded a new state-of-the-art when compared to different machine learning methods. Finally, Hopfield layers achieved state-of-the-art on two drug design datasets. The implementation is available at: https://github.com/ml-jku/hopfield-layers</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-16T17:52:37Z</published>
+    <arxiv:comment>10 pages (+ appendix); 12 figures; Blog: https://ml-jku.github.io/hopfield-layers/; GitHub: https://github.com/ml-jku/hopfield-layers</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Hubert Ramsauer</name>
+    </author>
+    <author>
+      <name>Bernhard Schäfl</name>
+    </author>
+    <author>
+      <name>Johannes Lehner</name>
+    </author>
+    <author>
+      <name>Philipp Seidl</name>
+    </author>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Milena Pavlović</name>
+    </author>
+    <author>
+      <name>Geir Kjetil Sandve</name>
+    </author>
+    <author>
+      <name>Victor Greiff</name>
+    </author>
+    <author>
+      <name>David Kreil</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.00979v3</id>
+    <title>Large-scale ligand-based virtual screening for SARS-CoV-2 inhibitors using deep neural networks</title>
+    <updated>2020-08-17T15:58:09Z</updated>
+    <link href="https://arxiv.org/abs/2004.00979v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.00979v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Due to the current severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic, there is an urgent need for novel therapies and drugs. We conducted a large-scale virtual screening for small molecules that are potential CoV-2 inhibitors. To this end, we utilized "ChemAI", a deep neural network trained on more than 220M data points across 3.6M molecules from three public drug-discovery databases. With ChemAI, we screened and ranked one billion molecules from the ZINC database for favourable effects against CoV-2. We then reduced the result to the 30,000 top-ranked compounds, which are readily accessible and purchasable via the ZINC database. Additionally, we screened the DrugBank using ChemAI to allow for drug repurposing, which would be a fast way towards a therapy. We provide these top-ranked compounds of ZINC and DrugBank as a library for further screening with bioassays at https://github.com/ml-jku/sars-cov-inhibitors-chemai.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-25T15:24:09Z</published>
+    <arxiv:comment>Additional results added. Various corrections to formulations and typos</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Elisabeth Rumetshofer</name>
+    </author>
+    <author>
+      <name>Peter Ruch</name>
+    </author>
+    <author>
+      <name>Philipp Renz</name>
+    </author>
+    <author>
+      <name>Johannes Schimunek</name>
+    </author>
+    <author>
+      <name>Philipp Seidl</name>
+    </author>
+    <author>
+      <name>Andreu Vall</name>
+    </author>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.06616v3</id>
+    <title>Detecting cutaneous basal cell carcinomas in ultra-high resolution and weakly labelled histopathological images</title>
+    <updated>2019-12-02T10:35:25Z</updated>
+    <link href="https://arxiv.org/abs/1911.06616v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.06616v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diagnosing basal cell carcinomas (BCC), one of the most common cutaneous malignancies in humans, is a task regularly performed by pathologists and dermato-pathologists. Improving histological diagnosis by providing diagnosis suggestions, i.e. computer-assisted diagnoses is actively researched to improve safety, quality and efficiency. Increasingly, machine learning methods are applied due to their superior performance. However, typical images obtained by scanning histological sections often have a resolution that is prohibitive for processing with current state-of-the-art neural networks. Furthermore, the data pose a problem of weak labels, since only a tiny fraction of the image is indicative of the disease class, whereas a large fraction of the image is highly similar to the non-disease class. The aim of this study is to evaluate whether it is possible to detect basal cell carcinomas in histological sections using attention-based deep learning models and to overcome the ultra-high resolution and the weak labels of whole slide images. We demonstrate that attention-based models can indeed yield almost perfect classification performance with an AUC of 0.99.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-14T17:45:59Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) at NeurIPS 2019</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Susanne Kimeswenger</name>
+    </author>
+    <author>
+      <name>Elisabeth Rumetshofer</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Philipp Tschandl</name>
+    </author>
+    <author>
+      <name>Harald Kittler</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Wolfram Hötzenecker</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.03941v2</id>
+    <title>Using LSTMs for climate change assessment studies on droughts and floods</title>
+    <updated>2019-11-28T09:36:48Z</updated>
+    <link href="https://arxiv.org/abs/1911.03941v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.03941v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Climate change affects occurrences of floods and droughts worldwide. However, predicting climate impacts over individual watersheds is difficult, primarily because accurate hydrological forecasts require models that are calibrated to past data. In this work we present a large-scale LSTM-based modeling approach that -- by training on large data sets -- learns a diversity of hydrological behaviors. Previous work shows that this model is more accurate than current state-of-the-art models, even when the LSTM-based approach operates out-of-sample and the latter in-sample. In this work, we show how this model can assess the sensitivity of the underlying systems with regard to extreme (high and low) flows in individual watersheds over the continental US.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-10T14:50:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Frederik Kratzert</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Pieter-Jan Hoedt</name>
+    </author>
+    <author>
+      <name>Grey Nearing</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.13804v1</id>
+    <title>Quantum Optical Experiments Modeled by Long Short-Term Memory</title>
+    <updated>2019-10-30T12:35:46Z</updated>
+    <link href="https://arxiv.org/abs/1910.13804v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.13804v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate how machine learning is able to model experiments in quantum physics. Quantum entanglement is a cornerstone for upcoming quantum technologies such as quantum computation and quantum cryptography. Of particular interest are complex quantum states with more than two particles and a large number of entangled quantum levels. Given such a multiparticle high-dimensional quantum state, it is usually impossible to reconstruct an experimental setup that produces it. To search for interesting experiments, one thus has to randomly create millions of setups on a computer and calculate the respective output states. In this work, we show that machine learning models can provide significant improvement over random search. We demonstrate that a long short-term memory (LSTM) neural network can successfully learn to model quantum experiments by correctly predicting output state characteristics for given setups without the necessity of computing the states themselves. This approach not only allows for faster search but is also an essential step towards automated design of multiparticle high-dimensional quantum experiments using generative machine learning models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-30T12:35:46Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Photonics 8(12), 535 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Manuel Erhard</name>
+    </author>
+    <author>
+      <name>Mario Krenn</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Johannes Kofler</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <arxiv:doi>10.3390/photonics8120535</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/photonics8120535" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.04093v1</id>
+    <title>Patch Refinement -- Localized 3D Object Detection</title>
+    <updated>2019-10-09T16:11:17Z</updated>
+    <link href="https://arxiv.org/abs/1910.04093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.04093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Patch Refinement a two-stage model for accurate 3D object detection and localization from point cloud data. Patch Refinement is composed of two independently trained Voxelnet-based networks, a Region Proposal Network (RPN) and a Local Refinement Network (LRN). We decompose the detection task into a preliminary Bird's Eye View (BEV) detection step and a local 3D detection step. Based on the proposed BEV locations by the RPN, we extract small point cloud subsets ("patches"), which are then processed by the LRN, which is less limited by memory constraints due to the small area of each patch. Therefore, we can apply encoding with a higher voxel resolution locally. The independence of the LRN enables the use of additional augmentation techniques and allows for an efficient, regression focused training as it uses only a small fraction of each scene. Evaluated on the KITTI 3D object detection benchmark, our submission from January 28, 2019, outperformed all previous entries on all three difficulties of the class car, using only 50 % of the available training data and only LiDAR information.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-09T16:11:17Z</published>
+    <arxiv:comment>Machine Learning for Autonomous Driving Workshop at the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Johannes Lehner</name>
+    </author>
+    <author>
+      <name>Andreas Mitterecker</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Bernhard Nessler</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.12114v1</id>
+    <title>Explaining and Interpreting LSTMs</title>
+    <updated>2019-09-25T11:45:43Z</updated>
+    <link href="https://arxiv.org/abs/1909.12114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.12114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While neural networks have acted as a strong unifying force in the design of modern AI systems, the neural network architectures themselves remain highly heterogeneous due to the variety of tasks to be solved. In this chapter, we explore how to adapt the Layer-wise Relevance Propagation (LRP) technique used for explaining the predictions of feed-forward networks to the LSTM architecture used for sequential data modeling and forecasting. The special accumulators and gated interactions present in the LSTM require both a new propagation scheme and an extension of the underlying theoretical framework to deliver faithful explanations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-25T11:45:43Z</published>
+    <arxiv:comment>28 pages, 7 figures, book chapter, In: Explainable AI: Interpreting, Explaining and Visualizing Deep Learning, LNCS volume 11700, Springer 2019. arXiv admin note: text overlap with arXiv:1806.07857</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Leila Arras</name>
+    </author>
+    <author>
+      <name>Jose A. Arjona-Medina</name>
+    </author>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Grégoire Montavon</name>
+    </author>
+    <author>
+      <name>Michael Gillhofer</name>
+    </author>
+    <author>
+      <name>Klaus-Robert Müller</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Wojciech Samek</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-28954-6_11</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-28954-6_11" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.08456v2</id>
+    <title>Towards Learning Universal, Regional, and Local Hydrological Behaviors via Machine-Learning Applied to Large-Sample Datasets</title>
+    <updated>2019-11-10T15:03:52Z</updated>
+    <link href="https://arxiv.org/abs/1907.08456v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.08456v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regional rainfall-runoff modeling is an old but still mostly out-standing problem in Hydrological Sciences. The problem currently is that traditional hydrological models degrade significantly in performance when calibrated for multiple basins together instead of for a single basin alone. In this paper, we propose a novel, data-driven approach using Long Short-Term Memory networks (LSTMs), and demonstrate that under a 'big data' paradigm, this is not necessarily the case. By training a single LSTM model on 531 basins from the CAMELS data set using meteorological time series data and static catchment attributes, we were able to significantly improve performance compared to a set of several different hydrological benchmark models. Our proposed approach not only significantly outperforms hydrological models that were calibrated regionally but also achieves better performance than hydrological models that were calibrated for each basin individually. Furthermore, we propose an adaption to the standard LSTM architecture, which we call an Entity-Aware-LSTM (EA-LSTM), that allows for learning, and embedding as a feature layer in a deep learning model, catchment similarities. We show that this learned catchment similarity corresponds well with what we would expect from prior hydrological understanding.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-19T10:52:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Frederik Kratzert</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Guy Shalev</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Grey Nearing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.07903v2</id>
+    <title>NeuralHydrology -- Interpreting LSTMs in Hydrology</title>
+    <updated>2019-11-12T07:17:36Z</updated>
+    <link href="https://arxiv.org/abs/1903.07903v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.07903v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the huge success of Long Short-Term Memory networks, their applications in environmental sciences are scarce. We argue that one reason is the difficulty to interpret the internals of trained networks. In this study, we look at the application of LSTMs for rainfall-runoff forecasting, one of the central tasks in the field of hydrology, in which the river discharge has to be predicted from meteorological observations. LSTMs are particularly well-suited for this problem since memory cells can represent dynamic reservoirs and storages, which are essential components in state-space modelling approaches of the hydrological system. On basis of two different catchments, one with snow influence and one without, we demonstrate how the trained model can be analyzed and interpreted. In the process, we show that the network internally learns to represent patterns that are consistent with our qualitative understanding of the hydrological system.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-19T09:38:37Z</published>
+    <arxiv:comment>Pre-print of published book chapter. See journal reference and DOI for more info</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>In: Samek W., Montavon G., Vedaldi A., Hansen L., Muller KR. (eds) Explainable AI: Interpreting, Explaining and Visualizing Deep Learning. Lecture Notes in Computer Science, vol 11700. Springer, Cham, 2019</arxiv:journal_ref>
+    <author>
+      <name>Frederik Kratzert</name>
+    </author>
+    <author>
+      <name>Mathew Herrnegger</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-28954-6_19</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-28954-6_19" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.02788v2</id>
+    <title>Interpretable Deep Learning in Drug Discovery</title>
+    <updated>2019-03-18T15:34:48Z</updated>
+    <link href="https://arxiv.org/abs/1903.02788v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.02788v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Without any means of interpretation, neural networks that predict molecular properties and bioactivities are merely black boxes. We will unravel these black boxes and will demonstrate approaches to understand the learned representations which are hidden inside these models. We show how single neurons can be interpreted as classifiers which determine the presence or absence of pharmacophore- or toxicophore-like structures, thereby generating new insights and relevant knowledge for chemistry, pharmacology and biochemistry. We further discuss how these novel pharmacophores/toxicophores can be determined from the network by identifying the most relevant components of a compound for the prediction of the network. Additionally, we propose a method which can be used to extract new pharmacophores from a model and will show that these extracted structures are consistent with literature findings. We envision that having access to such interpretable knowledge is a crucial aid in the development and design of new pharmaceutically active molecules, and helps to investigate and understand failures and successes of current methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-07T09:39:08Z</published>
+    <arxiv:comment>Code available at https://github.com/bioinf-jku/interpretable_ml_drug_discovery</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kristina Preuer</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Friedrich Rippmann</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.07857v3</id>
+    <title>RUDDER: Return Decomposition for Delayed Rewards</title>
+    <updated>2019-09-10T16:27:52Z</updated>
+    <link href="https://arxiv.org/abs/1806.07857v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.07857v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose RUDDER, a novel reinforcement learning approach for delayed rewards in finite Markov decision processes (MDPs). In MDPs the Q-values are equal to the expected immediate reward plus the expected future rewards. The latter are related to bias problems in temporal difference (TD) learning and to high variance problems in Monte Carlo (MC) learning. Both problems are even more severe when rewards are delayed. RUDDER aims at making the expected future rewards zero, which simplifies Q-value estimation to computing the mean of the immediate reward. We propose the following two new concepts to push the expected future rewards toward zero. (i) Reward redistribution that leads to return-equivalent decision processes with the same optimal policies and, when optimal, zero expected future rewards. (ii) Return decomposition via contribution analysis which transforms the reinforcement learning task into a regression task at which deep learning excels. On artificial tasks with delayed rewards, RUDDER is significantly faster than MC and exponentially faster than Monte Carlo Tree Search (MCTS), TD(λ), and reward shaping approaches. At Atari games, RUDDER on top of a Proximal Policy Optimization (PPO) baseline improves the scores, which is most prominent at games with delayed rewards. Source code is available at \url{https://github.com/ml-jku/rudder} and demonstration videos at \url{https://goo.gl/EQerZV}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-20T17:34:07Z</published>
+    <arxiv:comment>9 Pages plus appendix. For videos https://goo.gl/EQerZV</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jose A. Arjona-Medina</name>
+    </author>
+    <author>
+      <name>Michael Gillhofer</name>
+    </author>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.09518v3</id>
+    <title>Fréchet ChemNet Distance: A metric for generative models for molecules in drug discovery</title>
+    <updated>2018-08-01T14:20:53Z</updated>
+    <link href="https://arxiv.org/abs/1803.09518v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.09518v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The new wave of successful generative models in machine learning has increased the interest in deep learning driven de novo drug design. However, assessing the performance of such generative models is notoriously difficult. Metrics that are typically used to assess the performance of such generative models are the percentage of chemically valid molecules or the similarity to real molecules in terms of particular descriptors, such as the partition coefficient (logP) or druglikeness. However, method comparison is difficult because of the inconsistent use of evaluation metrics, the necessity for multiple metrics, and the fact that some of these measures can easily be tricked by simple rule-based systems. We propose a novel distance measure between two sets of molecules, called Fréchet ChemNet distance (FCD), that can be used as an evaluation metric for generative models. The FCD is similar to a recently established performance metric for comparing image generation methods, the Fréchet Inception Distance (FID). Whereas the FID uses one of the hidden layers of InceptionNet, the FCD utilizes the penultimate layer of a deep neural network called ChemNet, which was trained to predict drug activities. Thus, the FCD metric takes into account chemically and biologically relevant information about molecules, and also measures the diversity of the set via the distribution of generated molecules. The FCD's advantage over previous metrics is that it can detect if generated molecules are a) diverse and have similar b) chemical and c) biological properties as real molecules. We further provide an easy-to-use implementation that only requires the SMILES representation of the generated molecules as input to calculate the FCD. Implementations are available at: https://www.github.com/bioinf-jku/FCD</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-26T11:36:24Z</published>
+    <arxiv:comment>Implementations are available at: https://www.github.com/bioinf-jku/FCD</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kristina Preuer</name>
+    </author>
+    <author>
+      <name>Philipp Renz</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04591v2</id>
+    <title>First Order Generative Adversarial Networks</title>
+    <updated>2018-06-07T14:16:05Z</updated>
+    <link href="https://arxiv.org/abs/1802.04591v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.04591v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GANs excel at learning high dimensional distributions, but they can update generator parameters in directions that do not correspond to the steepest descent direction of the objective. Prominent examples of problematic update directions include those used in both Goodfellow's original GAN and the WGAN-GP. To formally describe an optimal update direction, we introduce a theoretical framework which allows the derivation of requirements on both the divergence and corresponding method for determining an update direction, with these requirements guaranteeing unbiased mini-batch updates in the direction of steepest descent. We propose a novel divergence which approximates the Wasserstein distance while regularizing the critic's first order information. Together with an accompanying update direction, this divergence fulfills the requirements for unbiased steepest descent updates. We verify our method, the First Order GAN, with image generation on CelebA, LSUN and CIFAR-10 and set a new state of the art on the One Billion Word language generation task. Code to reproduce experiments is available.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-13T12:42:58Z</published>
+    <arxiv:comment>Accepted to 35th International Conference on Machine Learning (ICML). Code to reproduce experiments is available https://github.com/zalandoresearch/first_order_gan</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Calvin Seward</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Urs Bergmann</name>
+    </author>
+    <author>
+      <name>Nikolay Jetchev</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.08819v3</id>
+    <title>Coulomb GANs: Provably Optimal Nash Equilibria via Potential Fields</title>
+    <updated>2018-01-30T11:54:35Z</updated>
+    <link href="https://arxiv.org/abs/1708.08819v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.08819v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative adversarial networks (GANs) evolved into one of the most successful unsupervised techniques for generating realistic images. Even though it has recently been shown that GAN training converges, GAN models often end up in local Nash equilibria that are associated with mode collapse or otherwise fail to model the target distribution. We introduce Coulomb GANs, which pose the GAN learning problem as a potential field of charged particles, where generated samples are attracted to training set samples but repel each other. The discriminator learns a potential field while the generator decreases the energy by moving its samples along the vector (force) field determined by the gradient of the potential field. Through decreasing the energy, the GAN model learns to generate samples according to the whole target distribution and does not only cover some of its modes. We prove that Coulomb GANs possess only one Nash equilibrium which is optimal in the sense that the model distribution equals the target distribution. We show the efficacy of Coulomb GANs on a variety of image datasets. On LSUN and celebA, Coulomb GANs set a new state of the art and produce a previously unseen variety of different samples.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-29T15:22:03Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR (International Conference on Learning Representations) 2018. Implementation available at https://github.com/bioinf-jku/coulomb_gan</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Bernhard Nessler</name>
+    </author>
+    <author>
+      <name>Calvin Seward</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Martin Heusel</name>
+    </author>
+    <author>
+      <name>Hubert Ramsauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.08500v6</id>
+    <title>GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium</title>
+    <updated>2018-01-12T14:05:44Z</updated>
+    <link href="https://arxiv.org/abs/1706.08500v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.08500v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Adversarial Networks (GANs) excel at creating realistic images with complex models for which maximum likelihood is infeasible. However, the convergence of GAN training has still not been proved. We propose a two time-scale update rule (TTUR) for training GANs with stochastic gradient descent on arbitrary GAN loss functions. TTUR has an individual learning rate for both the discriminator and the generator. Using the theory of stochastic approximation, we prove that the TTUR converges under mild assumptions to a stationary local Nash equilibrium. The convergence carries over to the popular Adam optimization, for which we prove that it follows the dynamics of a heavy ball with friction and thus prefers flat minima in the objective landscape. For the evaluation of the performance of GANs at image generation, we introduce the "Fréchet Inception Distance" (FID) which captures the similarity of generated images to real ones better than the Inception Score. In experiments, TTUR improves learning for DCGANs and Improved Wasserstein GANs (WGAN-GP) outperforming conventional GAN training on CelebA, CIFAR-10, SVHN, LSUN Bedrooms, and the One Billion Word Benchmark.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-26T17:45:23Z</published>
+    <arxiv:comment>Implementations are available at: https://github.com/bioinf-jku/TTUR</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 30 (NIPS 2017)</arxiv:journal_ref>
+    <author>
+      <name>Martin Heusel</name>
+    </author>
+    <author>
+      <name>Hubert Ramsauer</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Bernhard Nessler</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.02515v5</id>
+    <title>Self-Normalizing Neural Networks</title>
+    <updated>2017-09-07T10:39:00Z</updated>
+    <link href="https://arxiv.org/abs/1706.02515v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.02515v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning has revolutionized vision via convolutional neural networks (CNNs) and natural language processing via recurrent neural networks (RNNs). However, success stories of Deep Learning with standard feed-forward neural networks (FNNs) are rare. FNNs that perform well are typically shallow and, therefore cannot exploit many levels of abstract representations. We introduce self-normalizing neural networks (SNNs) to enable high-level abstract representations. While batch normalization requires explicit normalization, neuron activations of SNNs automatically converge towards zero mean and unit variance. The activation function of SNNs are "scaled exponential linear units" (SELUs), which induce self-normalizing properties. Using the Banach fixed-point theorem, we prove that activations close to zero mean and unit variance that are propagated through many network layers will converge towards zero mean and unit variance -- even under the presence of noise and perturbations. This convergence property of SNNs allows to (1) train deep networks with many layers, (2) employ strong regularization, and (3) to make learning highly robust. Furthermore, for activations not close to unit variance, we prove an upper and lower bound on the variance, thus, vanishing and exploding gradients are impossible. We compared SNNs on (a) 121 tasks from the UCI machine learning repository, on (b) drug discovery benchmarks, and on (c) astronomy tasks with standard FNNs and other machine learning methods such as random forests and support vector machines. SNNs significantly outperformed all competing FNN methods at 121 UCI tasks, outperformed all competing methods at the Tox21 dataset, and set a new record at an astronomy data set. The winning SNN architectures are often very deep. Implementations are available at: github.com/bioinf-jku/SNNs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-08T11:14:24Z</published>
+    <arxiv:comment>9 pages (+ 93 pages appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 30 (NIPS 2017)</arxiv:journal_ref>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07289v5</id>
+    <title>Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)</title>
+    <updated>2016-02-22T07:02:58Z</updated>
+    <link href="https://arxiv.org/abs/1511.07289v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07289v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the "exponential linear unit" (ELU) which speeds up learning in deep neural networks and leads to higher classification accuracies. Like rectified linear units (ReLUs), leaky ReLUs (LReLUs) and parametrized ReLUs (PReLUs), ELUs alleviate the vanishing gradient problem via the identity for positive values. However, ELUs have improved learning characteristics compared to the units with other activation functions. In contrast to ReLUs, ELUs have negative values which allows them to push mean unit activations closer to zero like batch normalization but with lower computational complexity. Mean shifts toward zero speed up learning by bringing the normal gradient closer to the unit natural gradient because of a reduced bias shift effect. While LReLUs and PReLUs have negative values, too, they do not ensure a noise-robust deactivation state. ELUs saturate to a negative value with smaller inputs and thereby decrease the forward propagated variation and information. Therefore, ELUs code the degree of presence of particular phenomena in the input, while they do not quantitatively model the degree of their absence. In experiments, ELUs lead not only to faster learning, but also to significantly better generalization performance than ReLUs and LReLUs on networks with more than 5 layers. On CIFAR-100 ELUs networks significantly outperform ReLU networks with batch normalization while batch normalization does not improve ELU networks. ELU networks are among the top 10 reported CIFAR-10 results and yield the best published result on CIFAR-100, without resorting to multi-view evaluation or model averaging. On ImageNet, ELU networks considerably speed up learning compared to a ReLU network with the same architecture, obtaining less than 10% classification error for a single crop, single model network.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-23T15:58:05Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Djork-Arné Clevert</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.01445v1</id>
+    <title>Toxicity Prediction using Deep Learning</title>
+    <updated>2015-03-04T20:18:55Z</updated>
+    <link href="https://arxiv.org/abs/1503.01445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.01445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Everyday we are exposed to various chemicals via food additives, cleaning and cosmetic products and medicines -- and some of them might be toxic. However testing the toxicity of all existing compounds by biological experiments is neither financially nor logistically feasible. Therefore the government agencies NIH, EPA and FDA launched the Tox21 Data Challenge within the "Toxicology in the 21st Century" (Tox21) initiative. The goal of this challenge was to assess the performance of computational methods in predicting the toxicity of chemical compounds. State of the art toxicity prediction methods build upon specifically-designed chemical descriptors developed over decades. Though Deep Learning is new to the field and was never applied to toxicity prediction before, it clearly outperformed all other participating methods. In this application paper we show that deep nets automatically learn features resembling well-established toxicophores. In total, our Deep Learning approach won both of the panel-challenges (nuclear receptors and stress response) as well as the overall Grand Challenge, and thereby sets a new standard in tox prediction.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-04T20:18:55Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.06464v2</id>
+    <title>Rectified Factor Networks</title>
+    <updated>2015-06-11T21:27:53Z</updated>
+    <link href="https://arxiv.org/abs/1502.06464v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.06464v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose rectified factor networks (RFNs) to efficiently construct very sparse, non-linear, high-dimensional representations of the input. RFN models identify rare and small events in the input, have a low interference between code units, have a small reconstruction error, and explain the data covariance structure. RFN learning is a generalized alternating minimization algorithm derived from the posterior regularization method which enforces non-negative and normalized posterior means. We proof convergence and correctness of the RFN learning algorithm. On benchmarks, RFNs are compared to other unsupervised methods like autoencoders, RBMs, factor analysis, ICA, and PCA. In contrast to previous sparse coding methods, RFNs yield sparser codes, capture the data's covariance structure more precisely, and have a significantly smaller reconstruction error. We test RFNs as pretraining technique for deep networks on different vision datasets, where RFNs were superior to RBMs and autoencoders. On gene expression data from two pharmaceutical drug discovery studies, RFNs detected small and rare gene modules that revealed highly relevant new biological insights which were so far missed by other unsupervised methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-23T15:44:37Z</published>
+    <arxiv:comment>9 pages + 49 pages supplement</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 28 (NIPS 2015)</arxiv:journal_ref>
+    <author>
+      <name>Djork-Arné Clevert</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Thomas Unterthiner</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.4893v1</id>
+    <title>Assessing Technical Performance in Differential Gene Expression Experiments with External Spike-in RNA Control Ratio Mixtures</title>
+    <updated>2014-06-18T21:23:28Z</updated>
+    <link href="https://arxiv.org/abs/1406.4893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.4893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a critical need for standard approaches to assess, report, and compare the technical performance of genome-scale differential gene expression experiments. We assess technical performance with a proposed "standard" dashboard of metrics derived from analysis of external spike-in RNA control ratio mixtures. These control ratio mixtures with defined abundance ratios enable assessment of diagnostic performance of differentially expressed transcript lists, limit of detection of ratio (LODR) estimates, and expression ratio variability and measurement bias. The performance metrics suite is applicable to analysis of a typical experiment, and here we also apply these metrics to evaluate technical performance among laboratories. An interlaboratory study using identical samples shared amongst 12 laboratories with three different measurement processes demonstrated generally consistent diagnostic power across 11 laboratories. Ratio measurement variability and bias were also comparable amongst laboratories for the same measurement process. Different biases were observed for measurement processes using different mRNA enrichment protocols.</summary>
+    <category term="q-bio.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-18T21:23:28Z</published>
+    <arxiv:comment>65 pages, 6 Main Figures, 33 Supplementary Figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.GN"/>
+    <arxiv:journal_ref>Nat. Commun. (2014) 5:5125</arxiv:journal_ref>
+    <author>
+      <name>Sarah A. Munro</name>
+    </author>
+    <author>
+      <name>Steve P. Lund</name>
+    </author>
+    <author>
+      <name>P. Scott Pine</name>
+    </author>
+    <author>
+      <name>Hans Binder</name>
+    </author>
+    <author>
+      <name>Djork-Arné Clevert</name>
+    </author>
+    <author>
+      <name>Ana Conesa</name>
+    </author>
+    <author>
+      <name>Joaquin Dopazo</name>
+    </author>
+    <author>
+      <name>Mario Fasold</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Huixiao Hong</name>
+    </author>
+    <author>
+      <name>Nederah Jafari</name>
+    </author>
+    <author>
+      <name>David P. Kreil</name>
+    </author>
+    <author>
+      <name>Paweł P. Łabaj</name>
+    </author>
+    <author>
+      <name>Sheng Li</name>
+    </author>
+    <author>
+      <name>Yang Liao</name>
+    </author>
+    <author>
+      <name>Simon Lin</name>
+    </author>
+    <author>
+      <name>Joseph Meehan</name>
+    </author>
+    <author>
+      <name>Christopher E. Mason</name>
+    </author>
+    <author>
+      <name>Javier Santoyo</name>
+    </author>
+    <author>
+      <name>Robert A. Setterquist</name>
+    </author>
+    <author>
+      <name>Leming Shi</name>
+    </author>
+    <author>
+      <name>Wei Shi</name>
+    </author>
+    <author>
+      <name>Gordon K. Smyth</name>
+    </author>
+    <author>
+      <name>Nancy Stralis-Pavese</name>
+    </author>
+    <author>
+      <name>Zhenqiang Su</name>
+    </author>
+    <author>
+      <name>Weida Tong</name>
+    </author>
+    <author>
+      <name>Charles Wang</name>
+    </author>
+    <author>
+      <name>Jian Wang</name>
+    </author>
+    <author>
+      <name>Joshua Xu</name>
+    </author>
+    <author>
+      <name>Zhan Ye</name>
+    </author>
+    <author>
+      <name>Yong Yang</name>
+    </author>
+    <author>
+      <name>Ying Yu</name>
+    </author>
+    <author>
+      <name>Marc Salit</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms6125</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms6125" title="doi"/>
+  </entry>
+</feed>

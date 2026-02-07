@@ -1,0 +1,1759 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ryvx4g/Iw6GgUNWaMRkB0Bkwkl4</id>
+  <title>arXiv Query: search_query=au:"Tom Brown"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T22:47:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Tom+Brown%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>103</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04305v1</id>
+    <title>Measuring the Algorithmic Efficiency of Neural Networks</title>
+    <updated>2020-05-08T22:26:37Z</updated>
+    <link href="https://arxiv.org/abs/2005.04305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.04305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Three factors drive the advance of AI: algorithmic innovation, data, and the amount of compute available for training. Algorithmic progress has traditionally been more difficult to quantify than compute and data. In this work, we argue that algorithmic progress has an aspect that is both straightforward to measure and interesting: reductions over time in the compute needed to reach past capabilities. We show that the number of floating-point operations required to train a classifier to AlexNet-level performance on ImageNet has decreased by a factor of 44x between 2012 and 2019. This corresponds to algorithmic efficiency doubling every 16 months over a period of 7 years. By contrast, Moore's Law would only have yielded an 11x cost improvement. We observe that hardware and algorithmic efficiency gains multiply and can be on a similar scale over meaningful horizons, which suggests that a good model of AI progress should integrate measures from both.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-08T22:26:37Z</published>
+    <arxiv:comment>20 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.11009v3</id>
+    <title>Early decarbonisation of the European energy system pays off</title>
+    <updated>2020-12-04T17:04:25Z</updated>
+    <link href="https://arxiv.org/abs/2004.11009v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.11009v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a given carbon budget over several decades, different transformation rates for the energy system yield starkly different results. Here we consider a budget of 33 GtCO2 for the cumulative carbon dioxide emissions from the European electricity, heating, and transport sectors between 2020 and 2050, which represents Europe's contribution to the Paris Agreement. We have found that following an early and steady path in which emissions are strongly reduced in the first decade is more cost-effective than following a late and rapid path in which low initial reduction targets quickly deplete the carbon budget and require a sharp reduction later. We show that solar photovoltaic, onshore and offshore wind can become the cornerstone of a fully decarbonised energy system and that installation rates similar to historical maxima are required to achieve timely decarbonisation. Key to those results is a proper representation of existing balancing strategies through an open, hourly-resolved, networked model of the sector-coupled European energy system.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-23T07:27:45Z</published>
+    <arxiv:comment>10 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Nature Communications 2020</arxiv:journal_ref>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Kun Zhu</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Gorm B. Andresen</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-020-20015-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-020-20015-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08702v1</id>
+    <title>Transmission Expansion Planning Using Cycle Flows</title>
+    <updated>2020-04-18T20:44:31Z</updated>
+    <link href="https://arxiv.org/abs/2004.08702v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08702v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The common linear optimal power flow (LOPF) formulation that underlies most transmission expansion planning (TEP) formulations uses bus voltage angles as auxiliary optimization variables to describe Kirchhoff's voltage law. As well as introducing a large number of auxiliary variables, the angle-based formulation has the disadvantage that it is not well-suited to considering the connection of multiple disconnected networks, It is, however, possible to circumvent these auxiliary variables and reduce the required number of constraints by expressing Kirchhoff's voltage law directly in terms of the power flows, based on a cycle decomposition of the network graph. In computationally challenging benchmarks such as generation capacity expansion with multi-period LOPF, this equivalent reformulation was shown in previous work to reduce solving times for LOPF problems by an order of magnitude. Allowing line capacity to be co-optimized in a discrete TEP problem makes it a non-convex mixed-integer problem. This paper develops a novel cycle-based reformulation for the TEP problem with LOPF and compares it to the standard angle-based formulation. The combinatorics of the connection of multiple disconnected networks is formalized for both formulations, a topic which has not received attention in the literature. The cycle-based formulation is shown to conveniently accommodate synchronization options. Since both formulations use the big-$M$ disjunctive relaxation, useful derivations for suitable big-$M$ values are provided. The competing formulations are benchmarked on a realistic generation and transmission expansion model of the European transmission system at varying spatial and temporal resolutions. The cycle-based formulation solves up to 31 times faster for particular cases, while averaging at a speed-up of factor 4.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-18T20:44:31Z</published>
+    <arxiv:comment>Accepted for ACM e-Energy 2020, 11 pages, 12 Figures, 2 Tables</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1145/3396851.3397688</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3396851.3397688" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05209v3</id>
+    <title>Decreasing market value of variable renewables can be avoided by policy action</title>
+    <updated>2021-05-30T17:29:57Z</updated>
+    <link href="https://arxiv.org/abs/2002.05209v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05209v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although recent studies have shown that electricity systems with shares of wind and solar above 80% can be affordable, economists have raised concerns about market integration. Correlated generation from variable renewable sources depresses market prices, which can cause wind and solar to cannibalise their own revenues and prevent them from covering their costs from the market. This cannibalisation appears to set limits on the integration of wind and solar, and thus to contradict studies that show that high shares are cost effective. Here we show from theory and with simulation examples how market incentives interact with prices, revenue and costs for renewable electricity systems. The decline in average revenue seen in some recent literature is due to an implicit policy assumption that technologies are forced into the system, whether it be with subsidies or quotas. This decline is mathematically guaranteed regardless of whether the subsidised technology is variable or not. If instead the driving policy is a carbon dioxide cap or tax, wind and solar shares can rise without cannibalising their own market revenue, even at penetrations of wind and solar above 80%. The strong dependence of market value on the policy regime means that market value needs to be used with caution as a measure of market integration. Declining market value is not necessarily a sign of integration problems, but rather a result of policy choices.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-07T11:34:05Z</published>
+    <arxiv:comment>24 pages, 29 figures; accepted to Energy Economics</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <arxiv:journal_ref>Energy Economics, Volume 100, August 2021, 105354</arxiv:journal_ref>
+    <author>
+      <name>T. Brown</name>
+    </author>
+    <author>
+      <name>L. Reichenberg</name>
+    </author>
+    <arxiv:doi>10.1016/j.eneco.2021.105354</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.eneco.2021.105354" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.08361v1</id>
+    <title>Scaling Laws for Neural Language Models</title>
+    <updated>2020-01-23T03:59:20Z</updated>
+    <link href="https://arxiv.org/abs/2001.08361v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.08361v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-23T03:59:20Z</published>
+    <arxiv:comment>19 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Benjamin Chess</name>
+    </author>
+    <author>
+      <name>Rewon Child</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.06629v1</id>
+    <title>The role of photovoltaics in a sustainable European energy system under variable CO2 emissions targets, transmission capacities, and costs assumptions</title>
+    <updated>2019-11-15T13:42:30Z</updated>
+    <link href="https://arxiv.org/abs/1911.06629v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.06629v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>PyPSA-Eur-Sec-30 is an open-source, hourly-resolved, networked model of the European energy system which includes one node per country as well as electricity, heating, and transport sectors. The capacity and dispatch of generation and storage technologies in every country can be cost-optimised under different CO2 emissions constraints. This paper presents an overview of the most relevant results previously obtained with the model, highlighting the influence of solar photovoltaic (PV) generation on them. For 95% CO2 emissions reduction, relative to 1990 level, PV generation supplies in average 33% of the electricity demand. Southern European countries install large PV capacities together with electric batteries, while northern countries install onshore and offshore wind capacities and use hydrogen storage and reinforced interconnections to deal with wind fluctuations. The strong daily generation profile of solar PV heavily impacts the dispatch time series of backup generation and storage technologies. The optimal PV and wind capacities are investigated for variable CO2 emissions, transmission interconnection among neighbouring countries, and cost assumptions.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-15T13:42:30Z</published>
+    <arxiv:comment>11 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Progress in Photovoltaics, EUPVSEC paper, 2019</arxiv:journal_ref>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Kun Zhu</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Gorm B. Andresen</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1002/pip.3198</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/pip.3198" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01891v2</id>
+    <title>The Near-Optimal Feasible Space of a Renewable Power System Model</title>
+    <updated>2020-04-17T10:00:23Z</updated>
+    <link href="https://arxiv.org/abs/1910.01891v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01891v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Models for long-term investment planning of the power system typically return a single optimal solution per set of cost assumptions. However, typically there are many near-optimal alternatives that stand out due to other attractive properties like social acceptance. Understanding features that persist across many cost-efficient alternatives enhances policy advice and acknowledges structural model uncertainties. We apply the modeling-to-generate-alternatives (MGA) methodology to systematically explore the near-optimal feasible space of a completely renewable European electricity system model. While accounting for complex spatio-temporal patterns, we allow simultaneous capacity expansion of generation, storage and transmission infrastructure subject to linearized multi-period optimal power flow. Many similarly costly, but technologically diverse solutions exist. Already a cost deviation of 0.5% offers a large range of possible investments. However, either offshore or onshore wind energy along with some hydrogen storage and transmission network reinforcement are essential to keep costs within 10% of the optimum.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-04T12:12:00Z</published>
+    <arxiv:comment>Accepted to the 21st Power Systems Computation Conference (PSCC 2020); 9 pages, 8 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.epsr.2020.106690</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.epsr.2020.106690" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.08593v2</id>
+    <title>Fine-Tuning Language Models from Human Preferences</title>
+    <updated>2020-01-08T23:02:36Z</updated>
+    <link href="https://arxiv.org/abs/1909.08593v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.08593v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward learning enables the application of reinforcement learning (RL) to tasks where reward is defined by human judgment, building a model of reward by asking humans questions. Most work on reward learning has used simulated environments, but complex information about values is often expressed in natural language, and we believe reward learning for language is a key to making RL practical and safe for real-world tasks. In this paper, we build on advances in generative pretraining of language models to apply reward learning to four natural language tasks: continuing text with positive sentiment or physically descriptive language, and summarization tasks on the TL;DR and CNN/Daily Mail datasets. For stylistic continuation we achieve good results with only 5,000 comparisons evaluated by humans. For summarization, models trained with 60,000 comparisons copy whole sentences from the input but skip irrelevant preamble; this leads to reasonable ROUGE scores and very good performance according to our human labelers, but may be exploiting the fact that labelers rely on simple heuristics.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-18T17:33:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>Nisan Stiennon</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.08016v4</id>
+    <title>Testing Robustness Against Unforeseen Adversaries</title>
+    <updated>2023-10-30T14:42:29Z</updated>
+    <link href="https://arxiv.org/abs/1908.08016v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.08016v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial robustness research primarily focuses on L_p perturbations, and most defenses are developed with identical training-time and test-time adversaries. However, in real-world applications developers are unlikely to have access to the full range of attacks or corruptions their system will face. Furthermore, worst-case inputs are likely to be diverse and need not be constrained to the L_p ball. To narrow in on this discrepancy between research and reality we introduce ImageNet-UA, a framework for evaluating model robustness against a range of unforeseen adversaries, including eighteen new non-L_p attacks. To perform well on ImageNet-UA, defenses must overcome a generalization gap and be robust to a diverse attacks not encountered during training. In extensive experiments, we find that existing robustness measures do not capture unforeseen robustness, that standard robustness techniques are beat by alternative training strategies, and that novel methods can improve unforeseen robustness. We present ImageNet-UA as a useful tool for the community for improving the worst-case behavior of machine learning systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-21T17:36:48Z</published>
+    <arxiv:comment>Datasets available at https://github.com/centerforaisafety/adversarial-corruptions</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Max Kaufmann</name>
+    </author>
+    <author>
+      <name>Daniel Kang</name>
+    </author>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Steven Basart</name>
+    </author>
+    <author>
+      <name>Xuwang Yin</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Akul Arora</name>
+    </author>
+    <author>
+      <name>Adam Dziedzic</name>
+    </author>
+    <author>
+      <name>Franziska Boenisch</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jacob Steinhardt</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.10548v1</id>
+    <title>Heuristics for Transmission Expansion Planning in Low-Carbon Energy System Models</title>
+    <updated>2019-07-24T16:38:47Z</updated>
+    <link href="https://arxiv.org/abs/1907.10548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.10548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Governments across the world are planning to increase the share of renewables in their energy systems. The siting of new wind and solar power plants requires close coordination with grid planning, and hence co-optimization of investment in generation and transmission expansion in spatially and temporally resolved models is an indispensable but complex problem. Particularly considerations of transmission expansion planning (TEP) add to the problem's complexity. Even if the power flow equations are linearized, the optimization problem is still bilinear and mixed-integer due to the dependence of line expansion on line impedance and a discrete set of line expansion options. While it is possible to linearize this mixed-integer nonlinear program (MINLP) by applying a big-M disjunctive relaxation, the resulting MILP is still hard to solve using state-of-the-art solvers for large-scale energy system models. In this paper we therefore develop heuristics to incorporate integer transmission expansion and responsive line impedances in energy system models, while retaining the lower computational effort of continuous linear programming (LP) by applying sequential linear programming (SLP) techniques, relaxation and discretization approaches. We benchmark their performance against the results of the exact formulation for a policy-relevant case study of the German transmission system in terms of their speed-up in computation time, deviation from optimal total system cost, and similarity of line expansion. Using heuristics we reduce computation times of joint generation and transmission optimisation by 82% with a maximal total system cost deviation of only 1.5%. The heuristics closely mirror optimal integer line investment of the exact MINLP with considerable time savings for policy-relevant low-carbon energy system optimization models.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-24T16:38:47Z</published>
+    <arxiv:comment>8 pages, 7 figures, conference, EEM 2019</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1109/EEM.2019.8916411</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EEM.2019.8916411" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06936v2</id>
+    <title>The role of storage technologies throughout the decarbonisation of the sector-coupled European energy system</title>
+    <updated>2019-10-18T09:06:56Z</updated>
+    <link href="https://arxiv.org/abs/1906.06936v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06936v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use an open, hourly-resolved, networked model of the European energy system to investigate the storage requirements under decreasing CO$_2$ emissions targets and several sector-coupling scenarios. For the power system, significant storage capacities only emerge for CO$_2$ reductions higher than 80% of 1990 level in that sector. For 95% CO$_2$ reductions, the optimal system includes electric batteries and hydrogen storage energy capacities equivalent to 1.4 and 19.4 times the average hourly electricity demand. Coupling heating and transport sectors enables deeper global CO$_2$ reductions before the required storage capacities become significant, which highlights the importance of sector coupling strategies in the transition to low carbon energy systems. A binary selection of storage technologies is consistently found, i.e., electric batteries act as short-term storage to counterbalance solar photovoltaic generation while hydrogen storage smooths wind fluctuations. Flexibility from the electric vehicle batteries provided by coupling the transport sector avoid the need for additional stationary batteries and reduce the usage of pumped hydro storage. Coupling the heating sector brings to the system large capacities of thermal energy storage to compensate for the significant seasonal variation in heating demand.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-17T10:36:00Z</published>
+    <arxiv:comment>22 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Energy Conversion and Management (2019)</arxiv:journal_ref>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Kun Zhu</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Gorm B. Andresen</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.enconman.2019.111977</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.enconman.2019.111977" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.01034v1</id>
+    <title>Transfer of Adversarial Robustness Between Perturbation Types</title>
+    <updated>2019-05-03T04:51:07Z</updated>
+    <link href="https://arxiv.org/abs/1905.01034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.01034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the transfer of adversarial robustness of deep neural networks between different perturbation types. While most work on adversarial examples has focused on $L_\infty$ and $L_2$-bounded perturbations, these do not capture all types of perturbations available to an adversary. The present work evaluates 32 attacks of 5 different types against models adversarially trained on a 100-class subset of ImageNet. Our empirical results suggest that evaluating on a wide range of perturbation sizes is necessary to understand whether adversarial robustness transfers between perturbation types. We further demonstrate that robustness against one perturbation type may not always imply and may sometimes hurt robustness against other perturbation types. In light of these results, we recommend evaluation of adversarial defenses take place on a diverse range of perturbation types and sizes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-03T04:51:07Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Daniel Kang</name>
+    </author>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+    <author>
+      <name>Jacob Steinhardt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.08476v1</id>
+    <title>A validated high-resolution hydro power time-series model for energy systems analysis</title>
+    <updated>2019-01-14T11:15:40Z</updated>
+    <link href="https://arxiv.org/abs/1901.08476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.08476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We expand the renewable technology model palette and present a validated high resolution hydro power time series model for energy systems analysis. Among the popular renewables, hydroelectricity shows unique storage-like flexibility, which is particularly important given the high variability of wind and solar power. Often limited by data availability or computational performance, a high resolution, globally applicable and validated hydro power time series model has not been available. For a demonstration, we focus on 41 Chinese reservoir-based hydro stations as a demo, determine their upstream basin areas, estimate their inflow based on gridded surface runoff data and validate their daily inflow time series in terms of both flow volume and potential power generation. Furthermore, we showcase an application of these time series with hydro cascades in energy system long term investment planning. Our method's novelty lies in:it is based on highly resolved spatial-temporal datasets; both data and algorithms used here are globally applicable; it includes a hydro cascade model that can be integrated into energy system simulations.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-14T11:15:40Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1810.10347</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>MethodsX 6 (2019) 1370-1378</arxiv:journal_ref>
+    <author>
+      <name>Hailiang Liu</name>
+    </author>
+    <author>
+      <name>Gorm Bruun Andresen</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.mex.2019.05.024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.mex.2019.05.024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10347v4</id>
+    <title>The role of hydro power, storage and transmission in the decarbonization of the Chinese power system</title>
+    <updated>2019-02-15T10:51:30Z</updated>
+    <link href="https://arxiv.org/abs/1810.10347v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10347v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep decarbonization of the electricity sector can be provided by a high penetration of renewable sources such as wind, solar PV and hydro power. Flexibility from hydro and storage complements the high temporal variability of wind and solar, and transmission infrastructure helps the power balancing by moving electricity in the spatial dimension. We study cost-optimal highly-renewable Chinese power systems under ambitious CO$ _2 $ emission reduction targets, by deploying a 31-node hourly-resolved techno-economic optimization model supported by a validated weather-converted 38-year-long renewable power generation and electricity demand dataset. With a new realistic reservoir hydro model, we find that if CO$_2$ emission reduction goes beyond 70\%, storage facilities such as hydro, battery and hydrogen become necessary for a moderate system cost. Numerical results show that these flexibility components can lower renewable curtailment by two thirds, allow higher solar PV share by a factor of two and contribute to covering summer cooling demand. We show that expanding unidirectional high-voltage DC lines on top of the regional inter-connections is technically sufficient and more economical than ultra-high-voltage-AC-connected "One-Net" grid. Finally, constraining transmission volume from the optimum by up to 25\% does not push total costs much higher, while the significant need for battery storage remains even with abundant interconnectivity.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-24T12:31:21Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Applied Energy 239 (2019) pp. 1308-1321</arxiv:journal_ref>
+    <author>
+      <name>Hailiang Liu</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Gorm Bruun Andresen</name>
+    </author>
+    <author>
+      <name>David P. Schlachtberger</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2019.02.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2019.02.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.10369v2</id>
+    <title>Impact of CO2 prices on the design of a highly decarbonised coupled electricity and heating system in Europe</title>
+    <updated>2018-11-09T13:01:34Z</updated>
+    <link href="https://arxiv.org/abs/1809.10369v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.10369v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ambitious targets for renewable energy and CO2 taxation both represent political instruments for decarbonisation of the energy system. We model a high number of coupled electricity and heating systems, where the primary sources of CO2 neutral energy are from variable renewable energy sources (VRES), i.e., wind and solar generators. The model includes hourly dispatch of all technologies for a full year for every country in Europe. In each model run, the amount of renewable energy and the level of CO2 tax are fixed exogenously, while the cost-optimal composition of energy generation, conversion, transmission and storage technologies and the corresponding CO2 emissions are calculated. We show that even for high penetrations of VRES, a significant CO2 tax of more than 100 euro/tCO2 is required to limit the combined CO2 emissions from the sectors to less than 5% of 1990 levels, because curtailment of VRES, combustion of fossil fuels and inefficient conversion technologies are economically favoured despite the presence of abundant VRES. A sufficiently high CO2 tax results in the more efficient use of VRES by means of heat pumps and hot water storage, in particular. We conclude that a renewable energy target on its own is not sufficient; in addition, a CO2 tax is required to decarbonise the electricity and heating sectors and incentivise the least cost combination of flexible and efficient energy conversion and storage.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-27T06:40:54Z</published>
+    <arxiv:comment>20 pages and 9 figures in total</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>K. Zhu</name>
+    </author>
+    <author>
+      <name>M. Victoria</name>
+    </author>
+    <author>
+      <name>T. Brown</name>
+    </author>
+    <author>
+      <name>G. B. Andresen</name>
+    </author>
+    <author>
+      <name>M. Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2018.12.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2018.12.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.08352v1</id>
+    <title>Unrestricted Adversarial Examples</title>
+    <updated>2018-09-22T00:16:18Z</updated>
+    <link href="https://arxiv.org/abs/1809.08352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.08352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a two-player contest for evaluating the safety and robustness of machine learning systems, with a large prize pool. Unlike most prior work in ML robustness, which studies norm-constrained adversaries, we shift our focus to unconstrained adversaries. Defenders submit machine learning models, and try to achieve high accuracy and coverage on non-adversarial data while making no confident mistakes on adversarial inputs. Attackers try to subvert defenses by finding arbitrary unambiguous inputs where the model assigns an incorrect label with high confidence. We propose a simple unambiguous dataset ("bird-or- bicycle") to use as part of this contest. We hope this contest will help to more comprehensively evaluate the worst-case adversarial risk of machine learning models.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-22T00:16:18Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Chiyuan Zhang</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.03157v1</id>
+    <title>Counter-intuitive behaviour of energy system models under CO2 caps and prices</title>
+    <updated>2018-09-10T07:06:25Z</updated>
+    <link href="https://arxiv.org/abs/1809.03157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.03157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The mitigation of climate change requires a fundamental transition of the energy system. Affordability, reliability and the reduction of greenhouse gas emissions constitute central but often conflicting targets for this energy transition. Against this context, we reveal limitations and counter-intuitive results in the model-based optimization of energy systems, which are often applied for policy advice. When system costs are minimized in the presence of a CO2 cap, efficiency gains free a part of the CO2 cap, allowing cheap technologies to replace expensive low-emission technologies. Even more striking results are observed in a setup where emissions are minimized in the presence of a budget constraint. Increasing CO2 prices can oust clean, but expensive technologies out of the system, and eventually lead to higher emissions. These effects robustly occur in models of different scope and complexity. Hence, extreme care is necessary in the application of energy system optimization models to avoid misleading policy advice.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-10T07:06:25Z</published>
+    <arxiv:comment>10 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Energy 179, 22-30 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Juliane Weber</name>
+    </author>
+    <author>
+      <name>Heidi Ursula Heinrichs</name>
+    </author>
+    <author>
+      <name>Bastian Gillessen</name>
+    </author>
+    <author>
+      <name>Diana Schumann</name>
+    </author>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Dirk Witthaut</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2018.12.052</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2018.12.052" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04888v1</id>
+    <title>Skill Rating for Generative Models</title>
+    <updated>2018-08-14T20:39:17Z</updated>
+    <link href="https://arxiv.org/abs/1808.04888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore a new way to evaluate generative models using insights from evaluation of competitive games between human players. We show experimentally that tournaments between generators and discriminators provide an effective way to evaluate generative models. We introduce two methods for summarizing tournament outcomes: tournament win rate and skill rating. Evaluations are useful in different contexts, including monitoring the progress of a single model as it learns during the training process, and comparing the capabilities of two different fully trained models. We show that a tournament consisting of a single model playing against past and future versions of itself produces a useful measure of training progress. A tournament containing multiple separate models (using different seeds, hyperparameters, and architectures) provides a useful relative comparison between different trained GANs. Tournament-based rating methods are conceptually distinct from numerous previous categories of approaches to evaluation of generative models, and have complementary advantages and disadvantages.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-14T20:39:17Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Surya Bhupatiraju</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.07771v2</id>
+    <title>Principal Flow Patterns across renewable electricity networks</title>
+    <updated>2018-10-08T09:53:39Z</updated>
+    <link href="https://arxiv.org/abs/1807.07771v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.07771v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using Principal Component Analysis (PCA), the nodal injection and line flow patterns in a network model of a future highly renewable European electricity system are investigated. It is shown that the number of principal components needed to describe 95$\%$ of the nodal power injection variance first increases with the spatial resolution of the system representation. The number of relevant components then saturates at around 76 components for network sizes larger than 512 nodes, which can be related to the correlation length of wind patterns over Europe. Remarkably, the application of PCA to the transmission line power flow statistics shows that irrespective of the spatial scale of the system representation a very low number of only 8 principal flow patterns is sufficient to capture 95$\%$ of the corresponding spatio-temporal variance. This result can be theoretically explained by a particular alignment of some principal injection patterns with topological patterns inherent to the network structure of the European transmission system.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-20T10:15:44Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Fabian Hofmann</name>
+    </author>
+    <author>
+      <name>Mirko Schäfer</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Stefan Schramm</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1209/0295-5075/124/18005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1209/0295-5075/124/18005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02549v1</id>
+    <title>Flow-based analysis of storage usage in a low-carbon European electricity scenario</title>
+    <updated>2018-06-07T07:40:20Z</updated>
+    <link href="https://arxiv.org/abs/1806.02549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.02549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The application of the flow tracing method to power flows in and out of storage units allows to analyse the usage of this technology option in large-scale interconnected electricity systems. We apply this method to a data-driven model of the European electricity network, which uses a techno-economic optimisation to determine generation and storage capacities and dispatch, assuming a 95% reduction of CO2 emission compared to 1990 levels. A flow-based analysis of the power inflow into the different storage technologies confirms the intuition that longer-term hydrogen storage is mainly utilised for wind, whereas short-term battery storage mostly receives inflow from solar power generation. The usage of storage technologies in general shows a local-but-global behaviour: Whereas on average the power outflow from these capacities is predominantly consumed locally inside the same node, when exported it is also transmitted over long distances as a global flexibility option for the entire system.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-07T07:40:20Z</published>
+    <arxiv:comment>15th International Conference on the European Energy Market - EEM 2018</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Bo Tranberg</name>
+    </author>
+    <author>
+      <name>Mirko Schäfer</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1109/EEM.2018.8469951</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EEM.2018.8469951" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01613v3</id>
+    <title>PyPSA-Eur: An Open Optimisation Model of the European Transmission System</title>
+    <updated>2018-10-02T09:28:09Z</updated>
+    <link href="https://arxiv.org/abs/1806.01613v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01613v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>PyPSA-Eur, the first open model dataset of the European power system at the transmission network level to cover the full ENTSO-E area, is presented. It contains 6001 lines (alternating current lines at and above 220 kV voltage level and all high voltage direct current lines), 3657 substations, a new open database of conventional power plants, time series for electrical demand and variable renewable generator availability, and geographic potentials for the expansion of wind and solar power. The model is suitable both for operational studies and generation and transmission expansion planning studies. The continental scope and highly resolved spatial scale enables a proper description of the long-range smoothing effects for renewable power generation and their varying resource availability. The restriction to freely available and open data encourages the open exchange of model data developments and eases the comparison of model results. A further novelty of the dataset is the publication of the full, automated software pipeline to assemble the load-flow-ready model from the original datasets, which enables easy replacement and improvement of the individual parts. This paper focuses on the description of the network topology, the compilation of a European power plant database and a top-down load time-series regionalisation. It summarises the derivation of renewable wind and solar availability time-series from re-analysis weather datasets and the estimation of renewable capacity potentials restricted by land-use. Finally, validations of the dataset are presented, including a new methodology to compare geo-referenced network datasets to one another.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-05T11:27:38Z</published>
+    <arxiv:comment>20 pages, 6 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Energy Strategy Reviews, Volume 22, November 2018, Pages 207-215</arxiv:journal_ref>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Fabian Hofmann</name>
+    </author>
+    <author>
+      <name>David Schlachtberger</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.esr.2018.08.012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.esr.2018.08.012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.11673v2</id>
+    <title>The Impact of Climate Change on a Cost-Optimal Highly Renewable European Electricity Network</title>
+    <updated>2018-11-08T11:33:48Z</updated>
+    <link href="https://arxiv.org/abs/1805.11673v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.11673v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use three ensemble members of the EURO-CORDEX project and their data on surface wind speeds, solar irradiation as well as water runoff with a spatial resolution of 12 km and a temporal resolution of 3 hours under representative concentration pathway 8.5 (associated with a temperature increase of 2.6 to 4.8 degrees C until the end of the century) until 2100 to investigate the impact of climate change on wind, solar and hydro resources and consequently on a highly renewable and cost-optimal European power system. The weather data is transformed into power, different aspects such as capacity factors and correlation lengths are investigated and the resulting implications for the European power system are discussed. In addition, we compare a 30-node model of Europe with historical and climate change-affected data, where investments in generation, transmission and storage facilities are optimised for deep carbon dioxide reductions. Differences in capacity factors among European countries are more strongly emphasized at the end of the century compared to historic data. This results in a significantly increased photovoltaic share in the cost-optimal power system. System costs increase by 5% until the end of the century and the impact of climate change on these costs is of similar magnitude as differences between the ensemble members.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-27T16:44:53Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Applied Energy 230, 1645-1659, 2018</arxiv:journal_ref>
+    <author>
+      <name>Markus Schlott</name>
+    </author>
+    <author>
+      <name>Alexander Kies</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Stefan Schramm</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2018.09.084</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2018.09.084" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.09711v2</id>
+    <title>Cost optimal scenarios of a future highly renewable European electricity system: Exploring the influence of weather data, cost parameters and policy constraints</title>
+    <updated>2018-08-18T18:58:58Z</updated>
+    <link href="https://arxiv.org/abs/1803.09711v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.09711v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cost optimal scenarios derived from models of a highly renewable electricity system depend on the specific input data, cost assumptions and system constraints. Here this influence is studied using a techno-economic optimisation model for a networked system of 30 European countries, taking into account the capacity investment and operation of wind, solar, hydroelectricity, natural gas power generation, transmission, and different storage options. A considerable robustness of total system costs to the input weather data and to moderate changes in the cost assumptions is observed. Flat directions in the optimisation landscape around cost-optimal configurations often allow system planners to choose between different technology options without a significant increase in total costs, for instance by replacing onshore with offshore wind power capacity in case of public acceptance issues. Exploring a range of carbon dioxide emission limits shows that for scenarios with moderate transmission expansion, a reduction of around 57% compared to 1990 levels is already cost optimal. For stricter carbon dioxide limits, power generated from gas turbines is at first replaced by generation from increasing renewable capacities. Non-hydro storage capacities are only built for low-emission scenarios, in order to provide the necessary flexibility to meet peaks in the residual load.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-26T17:00:03Z</published>
+    <arxiv:comment>18 pages, 23 figures, 2 tables, accepted to Energy</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>David P. Schlachtberger</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Mirko Schäfer</name>
+    </author>
+    <author>
+      <name>Stefan Schramm</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2018.08.070</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2018.08.070" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08768v2</id>
+    <title>Is Generator Conditioning Causally Related to GAN Performance?</title>
+    <updated>2018-06-19T00:06:57Z</updated>
+    <link href="https://arxiv.org/abs/1802.08768v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08768v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work (Pennington et al, 2017) suggests that controlling the entire distribution of Jacobian singular values is an important design consideration in deep learning. Motivated by this, we study the distribution of singular values of the Jacobian of the generator in Generative Adversarial Networks (GANs). We find that this Jacobian generally becomes ill-conditioned at the beginning of training. Moreover, we find that the average (with z from p(z)) conditioning of the generator is highly predictive of two other ad-hoc metrics for measuring the 'quality' of trained GANs: the Inception Score and the Frechet Inception Distance (FID). We test the hypothesis that this relationship is causal by proposing a 'regularization' technique (called Jacobian Clamping) that softly penalizes the condition number of the generator Jacobian. Jacobian Clamping improves the mean Inception Score and the mean FID for GANs trained on several datasets. It also greatly reduces inter-run variance of the aforementioned scores, addressing (at least partially) one of the main criticisms of GANs.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-23T23:48:01Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Augustus Odena</name>
+    </author>
+    <author>
+      <name>Jacob Buckman</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.05290v2</id>
+    <title>Synergies of sector coupling and transmission reinforcement in a cost-optimised, highly renewable European energy system</title>
+    <updated>2018-07-12T15:19:10Z</updated>
+    <link href="https://arxiv.org/abs/1801.05290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.05290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are two competing concepts in the literature for the integration of high shares of renewable energy: the coupling of electricity to other energy sectors, such as transport and heating, and the reinforcement of continent-wide transmission networks. In this paper both cross-sector and cross-border integration are considered in the model PyPSA-Eur-Sec-30, the first open, spatially-resolved, temporally-resolved and sector-coupled energy model of Europe. Using a simplified network with one node per country, the cost-optimal system is calculated for a 95% reduction in carbon dioxide emissions compared to 1990, incorporating electricity, transport and heat demand. Flexibility from battery electric vehicles (BEV), power-to-gas units (P2G) and long-term thermal energy storage (LTES) make a significant contribution to the smoothing of variability from wind and solar and to the reduction of total system costs. The cost-minimising integration of BEV pairs well with the daily variations of solar power, while P2G and LTES balance the synoptic and seasonal variations of demand and renewables. In all scenarios, an expansion of cross-border transmission reduces system costs, but the more tightly the energy sectors are coupled, the weaker the benefit of transmission reinforcement becomes.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-16T15:19:20Z</published>
+    <arxiv:comment>24 pages, 13 figures; accepted to Energy</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Energy, 2018</arxiv:journal_ref>
+    <author>
+      <name>T. Brown</name>
+    </author>
+    <author>
+      <name>D. Schlachtberger</name>
+    </author>
+    <author>
+      <name>A. Kies</name>
+    </author>
+    <author>
+      <name>S. Schramm</name>
+    </author>
+    <author>
+      <name>M. Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2018.06.222</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2018.06.222" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.09665v2</id>
+    <title>Adversarial Patch</title>
+    <updated>2018-05-17T01:44:59Z</updated>
+    <link href="https://arxiv.org/abs/1712.09665v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.09665v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a method to create universal, robust, targeted adversarial image patches in the real world. The patches are universal because they can be used to attack any scene, robust because they work under a wide variety of transformations, and targeted because they can cause a classifier to output any target class. These adversarial patches can be printed, added to any scene, photographed, and presented to image classifiers; even when the patches are small, they cause the classifiers to ignore the other items in the scene and report a chosen target class.
+  To reproduce the results from the paper, our code is available at https://github.com/tensorflow/cleverhans/tree/master/examples/adversarial_patch</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-27T20:03:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Dandelion Mané</name>
+    </author>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Martín Abadi</name>
+    </author>
+    <author>
+      <name>Justin Gilmer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.05716v3</id>
+    <title>Response to 'Burden of proof: A comprehensive review of the feasibility of 100% renewable-electricity systems'</title>
+    <updated>2018-05-12T14:41:37Z</updated>
+    <link href="https://arxiv.org/abs/1709.05716v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.05716v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A recent article 'Burden of proof: A comprehensive review of the feasibility of 100% renewable-electricity systems' claims that many studies of 100% renewable electricity systems do not demonstrate sufficient technical feasibility, according to the criteria of the article's authors (henceforth 'the authors'). Here we analyse the authors' methodology and find it problematic. The feasibility criteria chosen by the authors are important, but are also easily addressed at low economic cost, while not affecting the main conclusions of the reviewed studies and certainly not affecting their technical feasibility. A more thorough review reveals that all of the issues have already been addressed in the engineering and modelling literature. Nuclear power, which the authors have evaluated positively elsewhere, faces other, genuine feasibility problems, such as the finiteness of uranium resources and a reliance on unproven technologies in the medium- to long-term. Energy systems based on renewables, on the other hand, are not only feasible, but already economically viable and decreasing in cost every year.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-17T21:02:49Z</published>
+    <arxiv:comment>11+7 pages, 2 figures; version 2 contains clarifications and further references; version 3 is the accepted manuscript</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Renewable and Sustainable Energy Reviews, Volume 92, September 2018, Pages 834-847</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <author>
+      <name>T. Bischof-Niemz</name>
+    </author>
+    <author>
+      <name>K. Blok</name>
+    </author>
+    <author>
+      <name>C. Breyer</name>
+    </author>
+    <author>
+      <name>H. Lund</name>
+    </author>
+    <author>
+      <name>B. V. Mathiesen</name>
+    </author>
+    <arxiv:doi>10.1016/j.rser.2018.04.113</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.rser.2018.04.113" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.09913v3</id>
+    <title>PyPSA: Python for Power System Analysis</title>
+    <updated>2018-01-17T15:54:11Z</updated>
+    <link href="https://arxiv.org/abs/1707.09913v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.09913v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Python for Power System Analysis (PyPSA) is a free software toolbox for simulating and optimising modern electrical power systems over multiple periods. PyPSA includes models for conventional generators with unit commitment, variable renewable generation, storage units, coupling to other energy sectors, and mixed alternating and direct current networks. It is designed to be easily extensible and to scale well with large networks and long time series. In this paper the basic functionality of PyPSA is described, including the formulation of the full power flow equations and the multi-period optimisation of operation and investment with linear power flow equations. PyPSA is positioned in the existing free software landscape as a bridge between traditional power flow analysis tools for steady-state analysis and full multi-period energy system models. The functionality is demonstrated on two open datasets of the transmission system in Germany (based on SciGRID) and Europe (based on GridKit).</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-31T15:12:36Z</published>
+    <arxiv:comment>10 pages, 5 figures; version 2 includes table comparison with other software; version 3 is the final accepted journal version</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Journal of Open Research Software, 2018, Volume 6, Issue 1, Article 4</arxiv:journal_ref>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>David Schlachtberger</name>
+    </author>
+    <arxiv:doi>10.5334/jors.188</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5334/jors.188" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.08164v2</id>
+    <title>Opening the black box of energy modelling: Strategies and lessons learned</title>
+    <updated>2018-01-16T14:59:32Z</updated>
+    <link href="https://arxiv.org/abs/1707.08164v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.08164v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The global energy system is undergoing a major transition, and in energy planning and decision-making across governments, industry and academia, models play a crucial role. Because of their policy relevance and contested nature, the transparency and open availability of energy models and data are of particular importance. Here we provide a practical how-to guide based on the collective experience of members of the Open Energy Modelling Initiative (Openmod). We discuss key steps to consider when opening code and data, including determining intellectual property ownership, choosing a licence and appropriate modelling languages, distributing code and data, and providing support and building communities. After illustrating these decisions with examples and lessons learned from the community, we conclude that even though individual researchers' choices are important, institutional changes are still also necessary for more openness and transparency in energy research.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-20T08:39:29Z</published>
+    <arxiv:comment>9 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>Energy Strategy Reviews, Volume 19, January 2018, Pages 63-71</arxiv:journal_ref>
+    <author>
+      <name>Stefan Pfenninger</name>
+    </author>
+    <author>
+      <name>Lion Hirth</name>
+    </author>
+    <author>
+      <name>Ingmar Schlecht</name>
+    </author>
+    <author>
+      <name>Eva Schmid</name>
+    </author>
+    <author>
+      <name>Frauke Wiese</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Chris Davis</name>
+    </author>
+    <author>
+      <name>Birgit Fais</name>
+    </author>
+    <author>
+      <name>Matthew Gidden</name>
+    </author>
+    <author>
+      <name>Heidi Heinrichs</name>
+    </author>
+    <author>
+      <name>Clara Heuberger</name>
+    </author>
+    <author>
+      <name>Simon Hilpert</name>
+    </author>
+    <author>
+      <name>Uwe Krien</name>
+    </author>
+    <author>
+      <name>Carsten Matke</name>
+    </author>
+    <author>
+      <name>Arjuna Nebel</name>
+    </author>
+    <author>
+      <name>Robbie Morrison</name>
+    </author>
+    <author>
+      <name>Berit Müller</name>
+    </author>
+    <author>
+      <name>Guido Pleßmann</name>
+    </author>
+    <author>
+      <name>Matthias Reeg</name>
+    </author>
+    <author>
+      <name>Jörn C. Richstein</name>
+    </author>
+    <author>
+      <name>Abhishek Shivakumar</name>
+    </author>
+    <author>
+      <name>Iain Staffell</name>
+    </author>
+    <author>
+      <name>Tim Tröndle</name>
+    </author>
+    <author>
+      <name>Clemens Wingenbach</name>
+    </author>
+    <arxiv:doi>10.1016/j.esr.2017.12.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.esr.2017.12.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03741v4</id>
+    <title>Deep reinforcement learning from human preferences</title>
+    <updated>2023-02-17T17:00:34Z</updated>
+    <link href="https://arxiv.org/abs/1706.03741v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03741v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-12T17:23:59Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Miljan Martic</name>
+    </author>
+    <author>
+      <name>Shane Legg</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.00463v1</id>
+    <title>Optimal heterogeneity in a simplified highly renewable European electricity system</title>
+    <updated>2017-06-01T19:10:31Z</updated>
+    <link href="https://arxiv.org/abs/1706.00463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.00463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The resource quality and the temporal generation pattern of variable renewable energy sources vary significantly across Europe. In this paper spatial distributions of renewable assets are explored which exploit this heterogeneity to lower the total system costs for a high level of renewable electricity in Europe. Several intuitive heuristic algorithms, optimal portfolio theory and a local search algorithm are used to find optimal distributions of renewable generation capacities that minimise the total costs of backup, transmission and renewable capacity simultaneously. Using current cost projections, an optimal heterogeneous distribution favours onshore wind, particularly in countries bordering the North Sea, which results in average electricity costs that are up to 11% lower than for a homogeneous reference distribution of renewables proportional to each country's mean load. The reduction becomes even larger, namely 18%, once the transmission capacities are put to zero in the homogeneous reference distribution. Heuristic algorithms to distribute renewable capacity based on each country's wind and solar capacity factors are shown to provide a satisfactory approximation to fully optimised renewable distributions, while maintaining the benefits of transparency and comprehensibility. The sensitivities of the results to changing costs of solar generation and gas supply as well as to the possible cross-sectoral usage of unavoidable curtailment energy are also examined.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-01T19:10:31Z</published>
+    <arxiv:comment>16 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Emil H. Eriksen</name>
+    </author>
+    <author>
+      <name>Leon J. Schwenk-Nebbe</name>
+    </author>
+    <author>
+      <name>Bo Tranberg</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2017.05.170</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2017.05.170" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07617v2</id>
+    <title>The role of spatial scale in joint optimisations of generation and transmission for European highly renewable scenarios</title>
+    <updated>2017-05-24T12:42:23Z</updated>
+    <link href="https://arxiv.org/abs/1705.07617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effects of the spatial scale on the results of the optimisation of transmission and generation capacity in Europe are quantified under a 95% CO2 reduction compared to 1990 levels, interpolating between one-node-per-country solutions and many-nodes-per-country. The trade-offs that come with higher spatial detail between better exposure of transmission bottlenecks, exploitation of sites with good renewable resources (particularly wind power) and computational limitations are discussed. It is shown that solutions with no grid expansion beyond today's capacities are only around 20% more expensive than with cost-optimal grid expansion.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-22T09:03:07Z</published>
+    <arxiv:comment>8 pages, 7 figures, 14th International Conference on the European Energy Market - EEM 2017, version 2: small adjustments to figures to improve readability</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>2017 14th International Conference on the European Energy Market (EEM)</arxiv:journal_ref>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1109/EEM.2017.7982024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EEM.2017.7982024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.05492v2</id>
+    <title>The Benefits of Cooperation in a Highly Renewable European Electricity Network</title>
+    <updated>2017-06-16T11:36:10Z</updated>
+    <link href="https://arxiv.org/abs/1704.05492v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.05492v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To reach ambitious European CO$_2$ emission reduction targets, most scenarios of future European electricity systems rely on large shares of wind and solar photovoltaic power generation. We interpolate between two concepts for balancing the variability of these renewable sources: balancing at continental scales using the transmission grid and balancing locally with storage. This interpolation is done by systematically restricting transmission capacities from the optimum level to zero. We run techno-economic cost optimizations for the capacity investment and dispatch of wind, solar, hydroelectricity, natural gas power generation and transmission, as well as storage options such as pumped-hydro, battery, and hydrogen storage. The simulations assume a 95% CO$_2$ emission reduction compared to 1990, and are run over a full historical year of weather and electricity demand for 30 European countries. In the cost-optimal system with high levels of transmission expansion, energy generation is dominated by wind (65%) and hydro (15%), with average system costs comparable to today's system. Restricting transmission shifts the balance in favour of solar and storage, driving up costs by a third. As the restriction is relaxed, 85% of the cost benefits of the optimal grid expansion can be captured already with only 44% of the transmission volume.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-18T18:39:00Z</published>
+    <arxiv:comment>15 pages, 10 figures, accepted by Energy</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>David P. Schlachtberger</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Stefan Schramm</name>
+    </author>
+    <author>
+      <name>Martin Greiner</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2017.06.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2017.06.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01881v3</id>
+    <title>Linear Optimal Power Flow Using Cycle Flows</title>
+    <updated>2018-01-31T15:47:50Z</updated>
+    <link href="https://arxiv.org/abs/1704.01881v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.01881v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Linear optimal power flow (LOPF) algorithms use a linearization of the alternating current (AC) load flow equations to optimize generator dispatch in a network subject to the loading constraints of the network branches. Common algorithms use the voltage angles at the buses as optimization variables, but alternatives can be computationally advantageous. In this article we provide a review of existing methods and describe a new formulation that expresses the loading constraints directly in terms of the flows themselves, using a decomposition of the network graph into a spanning tree and closed cycles. We provide a comprehensive study of the computational performance of the various formulations, in settings that include computationally challenging applications such as multi-period LOPF with storage dispatch and generation capacity expansion. We show that the new formulation of the LOPF solves up to 7 times faster than the angle formulation using a commercial linear programming solver, while another existing cycle-based formulation solves up to 20 times faster, with an average speed-up of factor 3 for the standard networks considered here. If generation capacities are also optimized, the average speed-up rises to a factor of 12, reaching up to factor 213 in a particular instance. The speed-up is largest for networks with many buses and decentral generators throughout the network, which is highly relevant given the rise of distributed renewable generation and the computational challenge of operation and planning in such networks.</summary>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-06T15:10:12Z</published>
+    <arxiv:comment>11 pages, 5 figures; version 2 includes results for generation capacity optimization; version 3 is the final accepted journal version</arxiv:comment>
+    <arxiv:primary_category term="nlin.AO"/>
+    <arxiv:journal_ref>Electric Power Systems Research, 2018, Volume 158, Pages 126-135</arxiv:journal_ref>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Henrik Ronellenfitsch</name>
+    </author>
+    <author>
+      <name>Dirk Witthaut</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.epsr.2017.12.034</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.epsr.2017.12.034" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.00768v6</id>
+    <title>Technical Report on the CleverHans v2.1.0 Adversarial Examples Library</title>
+    <updated>2018-06-27T21:06:06Z</updated>
+    <link href="https://arxiv.org/abs/1610.00768v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.00768v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>CleverHans is a software library that provides standardized reference implementations of adversarial example construction techniques and adversarial training. The library may be used to develop more robust machine learning models and to provide standardized benchmarks of models' performance in the adversarial setting. Benchmarks constructed without a standardized implementation of adversarial example construction are not comparable to each other, because a good result may indicate a robust model or it may merely indicate a weak implementation of the adversarial example construction procedure.
+  This technical report is structured as follows. Section 1 provides an overview of adversarial examples in machine learning and of the CleverHans software. Section 2 presents the core functionalities of the library: namely the attacks based on adversarial examples and defenses to improve the robustness of machine learning models to these attacks. Section 3 describes how to report benchmark results using the library. Section 4 describes the versioning system.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-03T22:04:07Z</published>
+    <arxiv:comment>Technical report for https://github.com/tensorflow/cleverhans</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Fartash Faghri</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Reuben Feinman</name>
+    </author>
+    <author>
+      <name>Alexey Kurakin</name>
+    </author>
+    <author>
+      <name>Cihang Xie</name>
+    </author>
+    <author>
+      <name>Yash Sharma</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Alexander Matyasko</name>
+    </author>
+    <author>
+      <name>Vahid Behzadan</name>
+    </author>
+    <author>
+      <name>Karen Hambardzumyan</name>
+    </author>
+    <author>
+      <name>Zhishuai Zhang</name>
+    </author>
+    <author>
+      <name>Yi-Lin Juang</name>
+    </author>
+    <author>
+      <name>Zhi Li</name>
+    </author>
+    <author>
+      <name>Ryan Sheatsley</name>
+    </author>
+    <author>
+      <name>Abhibhav Garg</name>
+    </author>
+    <author>
+      <name>Jonathan Uesato</name>
+    </author>
+    <author>
+      <name>Willi Gierke</name>
+    </author>
+    <author>
+      <name>Yinpeng Dong</name>
+    </author>
+    <author>
+      <name>David Berthelot</name>
+    </author>
+    <author>
+      <name>Paul Hendricks</name>
+    </author>
+    <author>
+      <name>Jonas Rauber</name>
+    </author>
+    <author>
+      <name>Rujun Long</name>
+    </author>
+    <author>
+      <name>Patrick McDaniel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.07276v2</id>
+    <title>Dual theory of transmission line outages</title>
+    <updated>2017-01-22T13:58:57Z</updated>
+    <link href="https://arxiv.org/abs/1606.07276v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.07276v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new graph dual formalism is presented for the analysis of line outages in electricity networks. The dual formalism is based on a consideration of the flows around closed cycles in the network. After some exposition of the theory is presented, a new formula for the computation of Line Outage Distribution Factors (LODFs) is derived, which is not only computationally faster than existing methods, but also generalizes easily for multiple line outages and arbitrary changes to line series reactance. In addition, the dual formalism provides new physical insight for how the effects of line outages propagate through the network. For example, in a planar network a single line outage can be shown to induce monotonically decreasing flow changes, which are mathematically equivalent to an electrostatic dipole field.</summary>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-23T11:56:26Z</published>
+    <arxiv:comment>8 pages, 3 figures, 1 table; Accepted at IEEE Transactions on Power Systems</arxiv:comment>
+    <arxiv:primary_category term="nlin.AO"/>
+    <author>
+      <name>Henrik Ronellenfitsch</name>
+    </author>
+    <author>
+      <name>Debsankha Manik</name>
+    </author>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Dirk Witthaut</name>
+    </author>
+    <arxiv:doi>10.1109/TPWRS.2017.2658022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TPWRS.2017.2658022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04865v1</id>
+    <title>A new method for deriving the stellar birth function of resolved stellar populations</title>
+    <updated>2015-04-19T18:01:22Z</updated>
+    <link href="https://arxiv.org/abs/1504.04865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.04865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new method for deriving the stellar birth function (SBF) of resolved stellar populations. The SBF (stars born per unit mass, time, and metallicity) is the combination of the initial mass function (IMF), the star-formation history (SFH), and the metallicity distribution function (MDF). The framework of our analysis is that of Poisson Point Processes (PPPs), a class of statistical models suitable when dealing with points (stars) in a multidimensional space (the measurement space of multiple photometric bands). The theory of PPPs easily accommodates the modeling of measurement errors as well as that of incompleteness. Compared to most of the tools used to study resolved stellar populations, our method avoids binning stars in the color-magnitude diagram and uses the entirety of the information (i.e., the whole likelihood function) for each data point; the proper combination of the individual likelihoods allows the computation of the posterior probability for the global population parameters. This includes unknowns such as the IMF slope and combination of SFH and MDF, which are rarely solved for simultaneously in the literature, however entangled and correlated they might be. Our method also allows proper inclusion of nuisance parameters, such as distance and extinction distributions. The aim of this paper, is to assess the validity of this new approach under a range of assumptions, using only simulated data. Forthcoming work will show applications to real data. Although it has a broad scope of possible applications, we have developed this method to study multi-band HST observations of the Milky Way Bulge. Therefore we will focus on simulations with characteristics similar to those of the Galactic Bulge.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-19T18:01:22Z</published>
+    <arxiv:comment>Accepted for publication in ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Mario Gennaro</name>
+      <arxiv:affiliation>STScI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kirill Tchernyshyov</name>
+      <arxiv:affiliation>JHU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+      <arxiv:affiliation>STScI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karl Gordon</name>
+      <arxiv:affiliation>STScI, Univ. Gent</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/808/1/45</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/808/1/45" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.1116v1</id>
+    <title>Suppression of amplitude-to-phase noise conversion in balanced optical-microwave phase detectors</title>
+    <updated>2013-09-04T17:50:25Z</updated>
+    <link href="https://arxiv.org/abs/1309.1116v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.1116v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate an amplitude-to-phase (AM-PM) conversion coefficient for a balanced optical-microwave phase detector (BOM-PD) of 0.001 rad, corresponding to AM-PM induced phase noise 60 dB below the single-sideband relative intensity noise of the laser. This enables us to generate 8 GHz microwave signals from a commercial Er-fibre comb with a single-sideband residual phase noise of -131 dBc/Hz at 1 Hz offset frequency and -148 dBc/Hz at 1 kHz offset frequency.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-04T17:50:25Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Maurice Lessing</name>
+    </author>
+    <author>
+      <name>Helen S. Margolis</name>
+    </author>
+    <author>
+      <name>C. Tom A. Brown</name>
+    </author>
+    <author>
+      <name>Patrick Gill</name>
+    </author>
+    <author>
+      <name>Giuseppe Marra</name>
+    </author>
+    <arxiv:doi>10.1364/OE.21.027057</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OE.21.027057" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.1829v3</id>
+    <title>On Double 3-Term Arithmetic Progressions</title>
+    <updated>2013-11-16T17:01:53Z</updated>
+    <link href="https://arxiv.org/abs/1304.1829v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.1829v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note we are interested in the problem of whether or not every increasing sequence of positive integers $x_1x_2x_3...$ with bounded gaps must contain a double 3-term arithmetic progression, i.e., three terms $x_i$, $x_j$, and $x_k$ such that $i + k = 2j$ and $x_i + x_k = 2x_j$. We consider a few variations of the problem, discuss some related properties of double arithmetic progressions, and present several results obtained by using RamseyScript, a high-level scripting language.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-05T22:02:39Z</published>
+    <arxiv:comment>16 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Veselin Jungić</name>
+    </author>
+    <author>
+      <name>Andrew Poelstra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.6864v1</id>
+    <title>The M31 Velocity Vector. II. Radial Orbit Towards the Milky Way and Implied Local Group Mass</title>
+    <updated>2012-05-31T00:59:24Z</updated>
+    <link href="https://arxiv.org/abs/1205.6864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.6864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We determine the velocity vector of M31 with respect to the Milky Way and use this to constrain the mass of the Local Group, based on HST proper-motion measurements presented in Paper I. We construct N-body models for M31 to correct the measurements for the contributions from stellar motions internal to M31. We also estimate the center-of-mass motion independently, using the kinematics of satellite galaxies of M31 and the Local Group. All estimates are mutually consistent, and imply a weighted average M31 heliocentric transverse velocity of (v_W,v_N) = (-125.2+/-30.8, -73.8+/-28.4) km/s. We correct for the reflex motion of the Sun using the most recent insights into the solar motion within the Milky Way. This implies a radial velocity of M31 with respect to the Milky Way of V_rad = -109.3+/-4.4 km/s, and a tangential velocity V_tan = 17.0 km/s (&lt;34.3 km/s at 1-sigma confidence). Hence, the velocity vector of M31 is statistically consistent with a radial (head-on collision) orbit towards the Milky Way. We revise prior estimates for the Local Group timing mass, including corrections for cosmic bias and scatter. Bayesian combination with other mass estimates yields M_LG = M_MW(vir) + M_M31(vir) = (3.17 +/- 0.57) x 10^12 solar masses. The velocity and mass results imply at 95% confidence that M33 is bound to M31, consistent with expectation from observed tidal deformations. (Abridged)</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-31T00:59:24Z</published>
+    <arxiv:comment>38 pages, 4 figures, to be published in ApJ. Version with high resolution figures and N-body movies available at http://www.stsci.edu/~marel/M31 . Press materials, graphics, and visualizations available at http://hubblesite.org/newscenter/archive/releases/2012/20</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Roeland P. van der Marel</name>
+      <arxiv:affiliation>STScI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mark Fardal</name>
+      <arxiv:affiliation>U of Massachusetts</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gurtina Besla</name>
+      <arxiv:affiliation>Columbia U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rachael L. Beaton</name>
+      <arxiv:affiliation>U of Virginia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sangmo Tony Sohn</name>
+      <arxiv:affiliation>STScI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jay Anderson</name>
+      <arxiv:affiliation>STScI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+      <arxiv:affiliation>STScI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Puragra Guhathakurta</name>
+      <arxiv:affiliation>UC Santa Cruz</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/753/1/8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/753/1/8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.0739v1</id>
+    <title>Approximations of additive squares in infinite words</title>
+    <updated>2011-08-03T05:11:58Z</updated>
+    <link href="https://arxiv.org/abs/1108.0739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.0739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that every infinite word $ω$ on a finite subset of $\mathbb{Z}$ must contain arbitrarily large factors $B_1B_2$ which are "close" to being \textit{additive squares}. We also show that for all $k&gt;1, \ ω$ must contain a factor $U_1U_2 ... U_k$ where $U_1,U_2,..., U_k$ all have the same \textit{average.}</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-03T05:11:58Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4654v1</id>
+    <title>On abelian and additive complexity in infinite words</title>
+    <updated>2011-07-23T04:05:16Z</updated>
+    <link href="https://arxiv.org/abs/1107.4654v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.4654v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The study of the structure of infinite words having bounded abelian complexity was initiated by G. Richomme, K. Saari, and L. Q. Zamboni. In this note we define bounded additive complexity for infinite words over a finite subset of Z^m. We provide an alternative proof of one of the results of Richomme, Saari, and Zamboni.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-23T04:05:16Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Hayri Ardal</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Veselin Jungić</name>
+    </author>
+    <author>
+      <name>Julian Sahasrabudhe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.2060v2</id>
+    <title>UV friendly T-parity in the SU(6)/Sp(6) little Higgs model</title>
+    <updated>2011-07-08T21:06:48Z</updated>
+    <link href="https://arxiv.org/abs/1012.2060v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.2060v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electroweak precision tests put stringent constraints on the parameter space of little Higgs models. Tree-level exchange of TeV scale particles in a generic little Higgs model produce higher dimensional operators that make contributions to electroweak observables that are typically too large. To avoid this problem a discrete symmetry dubbed T-parity can be introduced to forbid the dangerous couplings. However, it was realized that in simple group models such as the littlest Higgs model, the implementation of T-parity in a UV completion could present some challenges. The situation is analogous to the one in QCD where the pion can easily be defined as being odd under a new $Z_2$ symmetry in the chiral Lagrangian, but this $Z_2$ is not a symmetry of the quark Lagrangian. In this paper we examine the possibility of implementing a T-parity in the low energy $SU(6)/Sp(6)$ model that might be easier to realize in the UV. In our model, the T-parity acts on the low energy non-linear sigma model field in way which is different to what was originally proposed for the Littlest Higgs, and lead to a different low energy theory. In particular, the Higgs sector of this model is a inert two Higgs doublets model with an approximate custodial symmetry. We examine the contributions of the various sectors of the model to electroweak precision data, and to the dark matter abundance.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-09T17:51:49Z</published>
+    <arxiv:comment>21 pages,4 figures. Clarifications added, typos corrected and references added. Published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP06(2011)108</arxiv:journal_ref>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Claudia Frugiuele</name>
+    </author>
+    <author>
+      <name>Thomas Gregoire</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP06(2011)108</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP06(2011)108" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0674v3</id>
+    <title>Complex matrix model duality</title>
+    <updated>2011-10-10T12:52:18Z</updated>
+    <link href="https://arxiv.org/abs/1009.0674v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0674v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The same complex matrix model calculates both tachyon scattering for the c=1 non-critical string at the self-dual radius and certain correlation functions of half-BPS operators in N=4 super-Yang-Mills. It is dual to another complex matrix model where the couplings of the first model are encoded in the Kontsevich-like variables of the second. The duality between the theories is mirrored by the duality of their Feynman diagrams. Analogously to the Hermitian Kontsevich-Penner model, the correlation functions of the second model can be written as sums over discrete points in subspaces of the moduli space of punctured Riemann surfaces.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-03T14:04:09Z</published>
+    <arxiv:comment>35 pages, 9 figures; minor clarifications and typos fixed</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D83:085002,2011</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.83.085002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.83.085002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.1942v1</id>
+    <title>Science drivers and requirements for an Advanced Technology Large Aperture Space Telescope (ATLAST): Implications for technology development and synergies with other future facilities</title>
+    <updated>2010-08-11T15:46:40Z</updated>
+    <link href="https://arxiv.org/abs/1008.1942v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.1942v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Advanced Technology Large-Aperture Space Telescope (ATLAST) is a concept for an 8-meter to 16-meter UVOIR space observatory for launch in the 2025-2030 era. ATLAST will allow astronomers to answer fundamental questions at the forefront of modern astronphysics, including "Is there life elsewhere in the Galaxy?" We present a range of science drivers that define the main performance requirements for ATLAST (8 to 16 milliarcsec angular resolution, diffraction limited imaging at 0.5 μm wavelength, minimum collecting area of 45 square meters, high sensitivity to light wavelengths from 0.1 μm to 2.4 μm, high stability in wavefront sensing and control). We will also discuss the synergy between ATLAST and other anticipated future facilities (e.g., TMT, EELT, ALMA) and the priorities for technology development that will enable the construction for a cost that is comparable to current generation observatory-class space missions.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-11T15:46:40Z</published>
+    <arxiv:comment>12 pages, 4 figures, to appear in "Space Telescopes and Instrumentation 2010: Optical, Infrared, and Millimeter Wave," edited by Jacobus M. Oschmann Jr., Mark C. Clampin, Howard A. MacEwen, Proc. of SPIE, Vol. 7731, 77312K</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Marc Postman</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Kenneth Sembach</name>
+    </author>
+    <author>
+      <name>Mauro Giavalisco</name>
+    </author>
+    <author>
+      <name>Wesley Traub</name>
+    </author>
+    <author>
+      <name>Karl Stapelfeldt</name>
+    </author>
+    <author>
+      <name>Daniela Calzetti</name>
+    </author>
+    <author>
+      <name>William Oegerle</name>
+    </author>
+    <author>
+      <name>R. Michael Rich</name>
+    </author>
+    <author>
+      <name>H. Phillip Stahl</name>
+    </author>
+    <author>
+      <name>Jason Tumlinson</name>
+    </author>
+    <author>
+      <name>Matt Mountain</name>
+    </author>
+    <author>
+      <name>Rémi Soummer</name>
+    </author>
+    <author>
+      <name>Tupper Hyde</name>
+    </author>
+    <arxiv:doi>10.1117/12.857044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1117/12.857044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.2099v3</id>
+    <title>Cut-and-join operators and N=4 super Yang-Mills</title>
+    <updated>2010-05-06T15:18:33Z</updated>
+    <link href="https://arxiv.org/abs/1002.2099v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.2099v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary> We show which multi-trace structures are compatible with the symmetrisation of local operators in \cN=4 super Yang-Mills when they are organised into representations of the global symmetry group. Cut-and-join operators give the non-planar expansion of correlation functions of these operators in the free theory. Using these techniques we find the 1/N corrections to the quarter-BPS operators which remain protected at weak coupling. We also present a new way of counting these chiral ring operators using the Weyl group S_N.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-10T14:24:55Z</published>
+    <arxiv:comment>44 pages, 3 figures; minor clarifications and typos fixed</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1005:058,2010</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2010)058</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2010)058" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.0941v2</id>
+    <title>Advanced Technology Large-Aperture Space Telescope (ATLAST): A Technology Roadmap for the Next Decade</title>
+    <updated>2009-05-08T13:17:03Z</updated>
+    <link href="https://arxiv.org/abs/0904.0941v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.0941v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Advanced Technology Large-Aperture Space Telescope (ATLAST) is a set of mission concepts for the next generation of UVOIR space observatory with a primary aperture diameter in the 8-m to 16-m range that will allow us to perform some of the most challenging observations to answer some of our most compelling questions, including "Is there life elsewhere in the Galaxy?" We have identified two different telescope architectures, but with similar optical designs, that span the range in viable technologies. The architectures are a telescope with a monolithic primary mirror and two variations of a telescope with a large segmented primary mirror. This approach provides us with several pathways to realizing the mission, which will be narrowed to one as our technology development progresses. The concepts invoke heritage from HST and JWST design, but also take significant departures from these designs to minimize complexity, mass, or both.
+  Our report provides details on the mission concepts, shows the extraordinary scientific progress they would enable, and describes the most important technology development items. These are the mirrors, the detectors, and the high-contrast imaging technologies, whether internal to the observatory, or using an external occulter. Experience with JWST has shown that determined competitors, motivated by the development contracts and flight opportunities of the new observatory, are capable of achieving huge advances in technical and operational performance while keeping construction costs on the same scale as prior great observatories.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-06T19:09:44Z</published>
+    <arxiv:comment>22 pages, RFI submitted to Astro2010 Decadal Committee</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Marc Postman</name>
+    </author>
+    <author>
+      <name>Vic Argabright</name>
+    </author>
+    <author>
+      <name>Bill Arnold</name>
+    </author>
+    <author>
+      <name>David Aronstein</name>
+    </author>
+    <author>
+      <name>Paul Atcheson</name>
+    </author>
+    <author>
+      <name>Morley Blouke</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Daniela Calzetti</name>
+    </author>
+    <author>
+      <name>Webster Cash</name>
+    </author>
+    <author>
+      <name>Mark Clampin</name>
+    </author>
+    <author>
+      <name>Dave Content</name>
+    </author>
+    <author>
+      <name>Dean Dailey</name>
+    </author>
+    <author>
+      <name>Rolf Danner</name>
+    </author>
+    <author>
+      <name>Rodger Doxsey</name>
+    </author>
+    <author>
+      <name>Dennis Ebbets</name>
+    </author>
+    <author>
+      <name>Peter Eisenhardt</name>
+    </author>
+    <author>
+      <name>Lee Feinberg</name>
+    </author>
+    <author>
+      <name>Andrew Fruchter</name>
+    </author>
+    <author>
+      <name>Mauro Giavalisco</name>
+    </author>
+    <author>
+      <name>Tiffany Glassman</name>
+    </author>
+    <author>
+      <name>Qian Gong</name>
+    </author>
+    <author>
+      <name>James Green</name>
+    </author>
+    <author>
+      <name>John Grunsfeld</name>
+    </author>
+    <author>
+      <name>Ted Gull</name>
+    </author>
+    <author>
+      <name>Greg Hickey</name>
+    </author>
+    <author>
+      <name>Randall Hopkins</name>
+    </author>
+    <author>
+      <name>John Hraba</name>
+    </author>
+    <author>
+      <name>Tupper Hyde</name>
+    </author>
+    <author>
+      <name>Ian Jordan</name>
+    </author>
+    <author>
+      <name>Jeremy Kasdin</name>
+    </author>
+    <author>
+      <name>Steve Kendrick</name>
+    </author>
+    <author>
+      <name>Steve Kilston</name>
+    </author>
+    <author>
+      <name>Anton Koekemoer</name>
+    </author>
+    <author>
+      <name>Bob Korechoff</name>
+    </author>
+    <author>
+      <name>John Krist</name>
+    </author>
+    <author>
+      <name>John Mather</name>
+    </author>
+    <author>
+      <name>Chuck Lillie</name>
+    </author>
+    <author>
+      <name>Amy Lo</name>
+    </author>
+    <author>
+      <name>Rick Lyon</name>
+    </author>
+    <author>
+      <name>Peter McCullough</name>
+    </author>
+    <author>
+      <name>Gary Mosier</name>
+    </author>
+    <author>
+      <name>Matt Mountain</name>
+    </author>
+    <author>
+      <name>Bill Oegerle</name>
+    </author>
+    <author>
+      <name>Bert Pasquale</name>
+    </author>
+    <author>
+      <name>Lloyd Purves</name>
+    </author>
+    <author>
+      <name>Cecelia Penera</name>
+    </author>
+    <author>
+      <name>Ron Polidan</name>
+    </author>
+    <author>
+      <name>Dave Redding</name>
+    </author>
+    <author>
+      <name>Kailash Sahu</name>
+    </author>
+    <author>
+      <name>Babak Saif</name>
+    </author>
+    <author>
+      <name>Ken Sembach</name>
+    </author>
+    <author>
+      <name>Mike Shull</name>
+    </author>
+    <author>
+      <name>Scott Smith</name>
+    </author>
+    <author>
+      <name>George Sonneborn</name>
+    </author>
+    <author>
+      <name>David Spergel</name>
+    </author>
+    <author>
+      <name>Phil Stahl</name>
+    </author>
+    <author>
+      <name>Karl Stapelfeldt</name>
+    </author>
+    <author>
+      <name>Harley Thronson</name>
+    </author>
+    <author>
+      <name>Gary Thronton</name>
+    </author>
+    <author>
+      <name>Jackie Townsend</name>
+    </author>
+    <author>
+      <name>Wesley Traub</name>
+    </author>
+    <author>
+      <name>Steve Unwin</name>
+    </author>
+    <author>
+      <name>Jeff Valenti</name>
+    </author>
+    <author>
+      <name>Robert Vanderbei</name>
+    </author>
+    <author>
+      <name>Michael Werner</name>
+    </author>
+    <author>
+      <name>Richard Wesenberg</name>
+    </author>
+    <author>
+      <name>Jennifer Wiseman</name>
+    </author>
+    <author>
+      <name>Bruce Woodgate</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.1911v2</id>
+    <title>Diagonal free field matrix correlators, global symmetries and giant gravitons</title>
+    <updated>2008-08-08T17:16:13Z</updated>
+    <link href="https://arxiv.org/abs/0806.1911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.1911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We obtain a basis of diagonal free field multi-matrix 2-point correlators in a theory with global symmetry group G. The operators fall into irreducible representations of G. This applies for gauge group U(N) at finite N. For composites made of n fundamental fields, this is expressed in terms of Clebsch-Gordan coefficients for the decomposition of the n-fold tensor products of the fundamental field representation in terms of G \times S_n representations. We use this general construction in the case of the SL(2) sector of \cN=4 SYM. In this case, by using oscillator constructions, we reduce the computation of the relevant Clebsch-Gordans coupling infinite dimensional discrete series irreps of SL(2) to a problem in symmetric groups. Applying these constructions we write down gauge invariant operators with a Fock space structure similar to that arising in a large angular momentum limit of worldvolume excitations of giant gravitons. The Fock space structure emerges from Clebsch multiplicities of tensor products of symmetric group representations. We also give the action of the 1-loop dilatation operator of \cN=4 SYM on this basis of multi-matrix operators.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-11T16:58:39Z</published>
+    <arxiv:comment>42 pages, no figures, comments and refs added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0904:089,2009</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <author>
+      <name>P. J. Heslop</name>
+    </author>
+    <author>
+      <name>S. Ramgoolam</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2009/04/089</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2009/04/089" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.2094v2</id>
+    <title>Permutations and the Loop</title>
+    <updated>2008-05-07T18:14:19Z</updated>
+    <link href="https://arxiv.org/abs/0801.2094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.2094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the one-loop two-point function for multi-trace operators in the U(2) sector of \cN=4 supersymmetric Yang-Mills at finite N. We derive an expression for it in terms of U(N) and S_{n+1} group theory data, where n is the length of the operators. The Clebsch-Gordan operators constructed in 0711.0176, which are diagonal at tree level, only mix at one loop if you can reach the same (n+1)-box Young diagram by adding a single box to each of the n-box Young diagrams of their U(N) representations (which organise their multi-trace structure). Similar results are expected for higher loops and for other sectors of the global symmetry group.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-14T15:38:16Z</published>
+    <arxiv:comment>13+7 pages, 9 figures; references added, minor clarification</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0806:008,2008</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/06/008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/06/008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.0176v3</id>
+    <title>Diagonal multi-matrix correlators and BPS operators in N=4 SYM</title>
+    <updated>2008-02-01T18:43:33Z</updated>
+    <link href="https://arxiv.org/abs/0711.0176v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.0176v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a complete basis of multi-trace multi-matrix operators that has a diagonal two point function for the free matrix field theory at finite N. This generalises to multiple matrices the single matrix diagonalisation by Schur polynomials. Crucially, it involves intertwining the gauge group U(N) and the global symmetry group U(M) with Clebsch-Gordan coefficients of symmetric groups S_n. When applied to N=4 super Yang-Mills we consider the U(3) subgroup of the full symmetry group. The diagonalisation allows the description of a dual basis to multi-traces, which permits the characterisation of the metric on operators transforming in short representations at weak coupling. This gives a framework for the comparison of quarter and eighth-BPS giant gravitons of AdS_5 x S^5 spacetime to gauge invariant operators of the dual N=4 SYM.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-01T18:03:55Z</published>
+    <arxiv:comment>36+12 pages, 7 figures, typos corrected, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0802:030,2008</arxiv:journal_ref>
+    <author>
+      <name>T. W. Brown</name>
+    </author>
+    <author>
+      <name>P. J. Heslop</name>
+    </author>
+    <author>
+      <name>S. Ramgoolam</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/02/030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/02/030" title="doi"/>
+  </entry>
+</feed>

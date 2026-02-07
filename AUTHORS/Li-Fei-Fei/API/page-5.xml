@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8+dXIBbfxs3/NLJc3dU1ZPa6a34</id>
+  <title>arXiv Query: search_query=au:"Fei-Fei Li"&amp;id_list=&amp;start=200&amp;max_results=50</title>
+  <updated>2026-02-06T23:38:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Fei-Fei+Li%22&amp;start=200&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>218</opensearch:totalResults>
+  <opensearch:startIndex>200</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06789v3</id>
+    <title>The Unreasonable Effectiveness of Noisy Data for Fine-Grained Recognition</title>
+    <updated>2016-10-18T18:35:31Z</updated>
+    <link href="https://arxiv.org/abs/1511.06789v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06789v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current approaches for fine-grained recognition do the following: First, recruit experts to annotate a dataset of images, optionally also collecting more structured data in the form of part annotations and bounding boxes. Second, train a model utilizing this data. Toward the goal of solving fine-grained recognition, we introduce an alternative approach, leveraging free, noisy data from the web and simple, generic methods of recognition. This approach has benefits in both performance and scalability. We demonstrate its efficacy on four fine-grained datasets, greatly exceeding existing state of the art without the manual collection of even a single label, and furthermore show first results at scaling to more than 10,000 fine-grained categories. Quantitatively, we achieve top-1 accuracies of 92.3% on CUB-200-2011, 85.4% on Birdsnap, 93.4% on FGVC-Aircraft, and 80.8% on Stanford Dogs without using their annotated training sets. We compare our approach to an active learning approach for expanding fine-grained datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-20T22:40:30Z</published>
+    <arxiv:comment>ECCV 2016, data is released</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Benjamin Sapp</name>
+    </author>
+    <author>
+      <name>Andrew Howard</name>
+    </author>
+    <author>
+      <name>Howard Zhou</name>
+    </author>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+    <author>
+      <name>Tom Duerig</name>
+    </author>
+    <author>
+      <name>James Philbin</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.03416v4</id>
+    <title>Visual7W: Grounded Question Answering in Images</title>
+    <updated>2016-04-09T07:18:10Z</updated>
+    <link href="https://arxiv.org/abs/1511.03416v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.03416v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have seen great progress in basic perceptual tasks such as object recognition and detection. However, AI models still fail to match humans in high-level vision tasks due to the lack of capacities for deeper reasoning. Recently the new task of visual question answering (QA) has been proposed to evaluate a model's capacity for deep image understanding. Previous works have established a loose, global association between QA sentences and images. However, many questions and answers, in practice, relate to local regions in the images. We establish a semantic link between textual descriptions and image regions by object-level grounding. It enables a new type of QA with visual answers, in addition to textual answers used in previous work. We study the visual QA tasks in a grounded setting with a large collection of 7W multiple-choice QA pairs. Furthermore, we evaluate human performance and several baseline models on the QA tasks. Finally, we propose a novel LSTM model with spatial attention to tackle the 7W QA tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-11T08:29:14Z</published>
+    <arxiv:comment>CVPR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Oliver Groth</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.02917v2</id>
+    <title>Detecting events and key actors in multi-person videos</title>
+    <updated>2016-03-17T00:02:03Z</updated>
+    <link href="https://arxiv.org/abs/1511.02917v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.02917v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-person event recognition is a challenging task, often with many people active in the scene but only a small subset contributing to an actual event. In this paper, we propose a model which learns to detect events in such videos while automatically "attending" to the people responsible for the event. Our model does not use explicit annotations regarding who or where those people are during training and testing. In particular, we track people in videos and use a recurrent neural network (RNN) to represent the track features. We learn time-varying attention weights to combine these features at each time-instant. The attended features are then processed using another RNN for event detection/classification. Since most video datasets with multiple people are restricted to a small number of videos, we also collected a new basketball dataset comprising 257 basketball games with 14K event annotations corresponding to 11 event classes. Our model outperforms state-of-the-art methods for both event classification and detection on this new dataset. Additionally, we show that the attention mechanism is able to consistently localize the relevant players.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-09T22:30:19Z</published>
+    <arxiv:comment>Accepted for publication in CVPR'16</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Vignesh Ramanathan</name>
+    </author>
+    <author>
+      <name>Jonathan Huang</name>
+    </author>
+    <author>
+      <name>Sami Abu-El-Haija</name>
+    </author>
+    <author>
+      <name>Alexander Gorban</name>
+    </author>
+    <author>
+      <name>Kevin Murphy</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.07647v2</id>
+    <title>Love Thy Neighbors: Image Annotation by Exploiting Image Metadata</title>
+    <updated>2015-09-22T00:12:06Z</updated>
+    <link href="https://arxiv.org/abs/1508.07647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.07647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some images that are difficult to recognize on their own may become more clear in the context of a neighborhood of related images with similar social-network metadata. We build on this intuition to improve multilabel image annotation. Our model uses image metadata nonparametrically to generate neighborhoods of related images using Jaccard similarities, then uses a deep neural network to blend visual information from the image and its neighbors. Prior work typically models image metadata parametrically, in contrast, our nonparametric treatment allows our model to perform well even when the vocabulary of metadata changes between training and testing. We perform comprehensive experiments on the NUS-WIDE dataset, where we show that our model outperforms state-of-the-art methods for multilabel image annotation even when our model is forced to generalize to new types of metadata.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-30T23:34:13Z</published>
+    <arxiv:comment>Accepted to ICCV 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Lamberto Ballan</name>
+    </author>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.07053v1</id>
+    <title>SentenceRacer: A Game with a Purpose for Image Sentence Annotation</title>
+    <updated>2015-08-27T23:03:17Z</updated>
+    <link href="https://arxiv.org/abs/1508.07053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.07053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently datasets that contain sentence descriptions of images have enabled models that can automatically generate image captions. However, collecting these datasets are still very expensive. Here, we present SentenceRacer, an online game that gathers and verifies descriptions of images at no cost. Similar to the game hangman, players compete to uncover words in a sentence that ultimately describes an image. SentenceRacer both generates and verifies that the sentences are accurate descriptions. We show that SentenceRacer generates annotations of higher quality than those generated on Amazon Mechanical Turk (AMT).</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-27T23:03:17Z</published>
+    <arxiv:comment>2 pages, 2 figures, 2 tables, potential CSCW poster submission</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Kenji Hata</name>
+    </author>
+    <author>
+      <name>Sherman Leung</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.05738v3</id>
+    <title>Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos</title>
+    <updated>2017-06-09T10:42:09Z</updated>
+    <link href="https://arxiv.org/abs/1507.05738v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.05738v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Every moment counts in action recognition. A comprehensive understanding of human activity in video requires labeling every frame according to the actions occurring, placing multiple labels densely over a video sequence. To study this problem we extend the existing THUMOS dataset and introduce MultiTHUMOS, a new dataset of dense labels over unconstrained internet videos. Modeling multiple, dense labels benefits from temporal relations within and across classes. We define a novel variant of long short-term memory (LSTM) deep networks for modeling these temporal relations via multiple input and output connections. We show that this model improves action labeling accuracy and further enables deeper understanding tasks ranging from structured retrieval to action prediction.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-21T08:07:50Z</published>
+    <arxiv:comment>To appear in IJCV</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <author>
+      <name>Ning Jin</name>
+    </author>
+    <author>
+      <name>Mykhaylo Andriluka</name>
+    </author>
+    <author>
+      <name>Greg Mori</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.05670v2</id>
+    <title>Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries</title>
+    <updated>2015-11-09T22:52:22Z</updated>
+    <link href="https://arxiv.org/abs/1507.05670v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.05670v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The complexity of the visual world creates significant challenges for comprehensive visual understanding. In spite of recent successes in visual recognition, today's vision systems would still struggle to deal with visual queries that require a deeper reasoning. We propose a knowledge base (KB) framework to handle an assortment of visual queries, without the need to train new classifiers for new tasks. Building such a large-scale multimodal KB presents a major challenge of scalability. We cast a large-scale MRF into a KB representation, incorporating visual, textual and structured data, as well as their diverse relations. We introduce a scalable knowledge base construction system that is capable of building a KB with half billion variables and millions of parameters in a few hours. Our system achieves competitive results compared to purpose-built models on standard recognition and retrieval tasks, while exhibiting greater flexibility in answering richer visual queries.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-20T22:43:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Ce Zhang</name>
+    </author>
+    <author>
+      <name>Christopher Ré</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02106v5</id>
+    <title>What's the Point: Semantic Segmentation with Point Supervision</title>
+    <updated>2016-07-23T17:41:43Z</updated>
+    <link href="https://arxiv.org/abs/1506.02106v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02106v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The semantic image segmentation task presents a trade-off between test time accuracy and training-time annotation cost. Detailed per-pixel annotations enable training accurate models but are very time-consuming to obtain, image-level class labels are an order of magnitude cheaper but result in less accurate models. We take a natural step from image-level annotation towards stronger supervision: we ask annotators to point to an object if one exists. We incorporate this point supervision along with a novel objectness potential in the training loss function of a CNN model. Experimental results on the PASCAL VOC 2012 benchmark reveal that the combined effect of point-level supervision and objectness potential yields an improvement of 12.9% mIOU over image-level supervision. Further, we demonstrate that models trained with point-level supervision are more accurate than models trained with image-level, squiggle-level or full supervision given a fixed annotation budget.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-06T02:45:48Z</published>
+    <arxiv:comment>ECCV (2016) submission</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Amy Bearman</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <author>
+      <name>Vittorio Ferrari</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02078v2</id>
+    <title>Visualizing and Understanding Recurrent Networks</title>
+    <updated>2015-11-17T02:42:24Z</updated>
+    <link href="https://arxiv.org/abs/1506.02078v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02078v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent Neural Networks (RNNs), and specifically a variant with Long Short-Term Memory (LSTM), are enjoying renewed interest as a result of successful applications in a wide range of machine learning problems that involve sequential data. However, while LSTMs provide exceptional results in practice, the source of their performance and their limitations remain rather poorly understood. Using character-level language models as an interpretable testbed, we aim to bridge this gap by providing an analysis of their representations, predictions and error types. In particular, our experiments reveal the existence of interpretable cells that keep track of long-range dependencies such as line lengths, quotes and brackets. Moreover, our comparative analysis with finite horizon n-gram models traces the source of the LSTM improvements to long-range structural dependencies. Finally, we provide analysis of the remaining errors and suggests areas for further study.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-05T22:33:04Z</published>
+    <arxiv:comment>changing style, adding references, minor changes to text</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andrej Karpathy</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.03873v1</id>
+    <title>Improving Image Classification with Location Context</title>
+    <updated>2015-05-14T20:13:34Z</updated>
+    <link href="https://arxiv.org/abs/1505.03873v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.03873v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the widespread availability of cellphones and cameras that have GPS capabilities, it is common for images being uploaded to the Internet today to have GPS coordinates associated with them. In addition to research that tries to predict GPS coordinates from visual features, this also opens up the door to problems that are conditioned on the availability of GPS coordinates. In this work, we tackle the problem of performing image classification with location context, in which we are given the GPS coordinates for images in both the train and test phases. We explore different ways of encoding and extracting features from the GPS coordinates, and show how to naturally incorporate these features into a Convolutional Neural Network (CNN), the current state-of-the-art for most image classification and recognition problems. We also show how it is possible to simultaneously learn the optimal pooling radii for a subset of our features within the CNN framework. To evaluate our model and to help promote research in this area, we identify a set of location-sensitive concepts and annotate a subset of the Yahoo Flickr Creative Commons 100M dataset that has GPS coordinates with these concepts, which we make publicly available. By leveraging location context, we are able to achieve almost a 7% gain in mean average precision.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-14T20:13:34Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kevin Tang</name>
+    </author>
+    <author>
+      <name>Manohar Paluri</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+    <author>
+      <name>Lubomir Bourdev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.00315v1</id>
+    <title>Learning Temporal Embeddings for Complex Video Analysis</title>
+    <updated>2015-05-02T06:43:28Z</updated>
+    <link href="https://arxiv.org/abs/1505.00315v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.00315v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose to learn temporal embeddings of video frames for complex video analysis. Large quantities of unlabeled video data can be easily obtained from the Internet. These videos possess the implicit weak label that they are sequences of temporally and semantically coherent images. We leverage this information to learn temporal embeddings for video frames by associating frames with the temporal context that they appear in. To do this, we propose a scheme for incorporating temporal context based on past and future frames in videos, and compare this to other contextual representations. In addition, we show how data augmentation using multi-resolution samples and hard negatives helps to significantly improve the quality of the learned embeddings. We evaluate various design decisions for learning temporal embeddings, and show that our embeddings can improve performance for multiple video tasks such as retrieval, classification, and temporal order recovery in unconstrained Internet video.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-02T06:43:28Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Vignesh Ramanathan</name>
+    </author>
+    <author>
+      <name>Kevin Tang</name>
+    </author>
+    <author>
+      <name>Greg Mori</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.2306v2</id>
+    <title>Deep Visual-Semantic Alignments for Generating Image Descriptions</title>
+    <updated>2015-04-14T05:02:53Z</updated>
+    <link href="https://arxiv.org/abs/1412.2306v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.2306v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a model that generates natural language descriptions of images and their regions. Our approach leverages datasets of images and their sentence descriptions to learn about the inter-modal correspondences between language and visual data. Our alignment model is based on a novel combination of Convolutional Neural Networks over image regions, bidirectional Recurrent Neural Networks over sentences, and a structured objective that aligns the two modalities through a multimodal embedding. We then describe a Multimodal Recurrent Neural Network architecture that uses the inferred alignments to learn to generate novel descriptions of image regions. We demonstrate that our alignment model produces state of the art results in retrieval experiments on Flickr8K, Flickr30K and MSCOCO datasets. We then show that the generated descriptions significantly outperform retrieval baselines on both full images and on a new dataset of region-level annotations.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-07T02:36:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Andrej Karpathy</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5340v1</id>
+    <title>Affordances Provide a Fundamental Categorization Principle for Visual Scenes</title>
+    <updated>2014-11-19T19:58:59Z</updated>
+    <link href="https://arxiv.org/abs/1411.5340v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.5340v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How do we know that a kitchen is a kitchen by looking? Relatively little is known about how we conceptualize and categorize different visual environments. Traditional models of visual perception posit that scene categorization is achieved through the recognition of a scene's objects, yet these models cannot account for the mounting evidence that human observers are relatively insensitive to the local details in an image. Psychologists have long theorized that the affordances, or actionable possibilities of a stimulus are pivotal to its perception. To what extent are scene categories created from similar affordances? Using a large-scale experiment using hundreds of scene categories, we show that the activities afforded by a visual scene provide a fundamental categorization principle. Affordance-based similarity explained the majority of the structure in the human scene categorization patterns, outperforming alternative similarities based on objects or visual features. We all models were combined, affordances provided the majority of the predictive power in the combined model, and nearly half of the total explained variance is captured only by affordances. These results challenge many existing models of high-level visual perception, and provide immediately testable hypotheses for the functional organization of the human perceptual system.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-19T19:58:59Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Michelle R. Greene</name>
+    </author>
+    <author>
+      <name>Christopher Baldassano</name>
+    </author>
+    <author>
+      <name>Andre Esteva</name>
+    </author>
+    <author>
+      <name>Diane M. Beck</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5331v1</id>
+    <title>Visual Noise from Natural Scene Statistics Reveals Human Scene Category Representations</title>
+    <updated>2014-11-19T19:38:50Z</updated>
+    <link href="https://arxiv.org/abs/1411.5331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.5331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our perceptions are guided both by the bottom-up information entering our eyes, as well as our top-down expectations of what we will see. Although bottom-up visual processing has been extensively studied, comparatively little is known about top-down signals. Here, we describe REVEAL (Representations Envisioned Via Evolutionary ALgorithm), a method for visualizing an observer's internal representation of a complex, real-world scene, allowing us to, for the first time, visualize the top-down information in an observer's mind. REVEAL rests on two innovations for solving this high dimensional problem: visual noise that samples from natural image statistics, and a computer algorithm that collaborates with human observers to efficiently obtain a solution. In this work, we visualize observers' internal representations of a visual scene category (street) using an experiment in which the observer views the naturalistic visual noise and collaborates with the algorithm to externalize his internal representation. As no scene information was presented, observers had to use their internal knowledge of the target, matching it with the visual features in the noise. We matched reconstructed images with images of real-world street scenes to enhance visualization. Critically, we show that the visualized mental images can be used to predict rapid scene detection performance, as each observer had faster and more accurate responses to detecting real-world images that were the most similar to his reconstructed street templates. These results show that it is possible to visualize previously unobservable mental representations of real world stimuli. More broadly, REVEAL provides a general method for objectively examining the content of previously private, subjective mental experiences.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-19T19:38:50Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michelle R. Greene</name>
+    </author>
+    <author>
+      <name>Abraham P. Botros</name>
+    </author>
+    <author>
+      <name>Diane M. Beck</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.0575v3</id>
+    <title>ImageNet Large Scale Visual Recognition Challenge</title>
+    <updated>2015-01-30T01:23:59Z</updated>
+    <link href="https://arxiv.org/abs/1409.0575v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.0575v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ImageNet Large Scale Visual Recognition Challenge is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions.
+  This paper describes the creation of this benchmark dataset and the advances in object recognition that have been possible as a result. We discuss the challenges of collecting large-scale ground truth annotation, highlight key breakthroughs in categorical object recognition, provide a detailed analysis of the current state of the field of large-scale image classification and object detection, and compare the state-of-the-art computer vision accuracy with human accuracy. We conclude with lessons learned in the five years of the challenge, and propose future directions and improvements.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-01T22:29:38Z</published>
+    <arxiv:comment>43 pages, 16 figures. v3 includes additional comparisons with PASCAL VOC (per-category comparisons in Table 3, distribution of localization difficulty in Fig 16), a list of queries used for obtaining object detection images (Appendix C), and some additional references</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Hao Su</name>
+    </author>
+    <author>
+      <name>Jonathan Krause</name>
+    </author>
+    <author>
+      <name>Sanjeev Satheesh</name>
+    </author>
+    <author>
+      <name>Sean Ma</name>
+    </author>
+    <author>
+      <name>Zhiheng Huang</name>
+    </author>
+    <author>
+      <name>Andrej Karpathy</name>
+    </author>
+    <author>
+      <name>Aditya Khosla</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Alexander C. Berg</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5824v1</id>
+    <title>VideoSET: Video Summary Evaluation through Text</title>
+    <updated>2014-06-23T07:56:23Z</updated>
+    <link href="https://arxiv.org/abs/1406.5824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.5824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we present VideoSET, a method for Video Summary Evaluation through Text that can evaluate how well a video summary is able to retain the semantic information contained in its original video. We observe that semantics is most easily expressed in words, and develop a text-based approach for the evaluation. Given a video summary, a text representation of the video summary is first generated, and an NLP-based metric is then used to measure its semantic distance to ground-truth text summaries written by humans. We show that our technique has higher agreement with human judgment than pixel-based distance metrics. We also release text annotations and ground-truth text summaries for a number of publicly available video datasets, for use by the computer vision community.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-23T07:56:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Alireza Fathi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5679v1</id>
+    <title>Deep Fragment Embeddings for Bidirectional Image Sentence Mapping</title>
+    <updated>2014-06-22T06:22:50Z</updated>
+    <link href="https://arxiv.org/abs/1406.5679v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.5679v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a model for bidirectional retrieval of images and sentences through a multi-modal embedding of visual and natural language data. Unlike previous models that directly map images or sentences into a common embedding space, our model works on a finer level and embeds fragments of images (objects) and fragments of sentences (typed dependency tree relations) into a common space. In addition to a ranking objective seen in previous work, this allows us to add a new fragment alignment objective that learns to directly associate these fragments across modalities. Extensive experimental evaluation shows that reasoning on both the global level of images and sentences and the finer level of their respective fragments significantly improves performance on image-sentence retrieval tasks. Additionally, our model provides interpretable predictions since the inferred inter-modal fragment alignment is explicit.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-22T06:22:50Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Andrej Karpathy</name>
+    </author>
+    <author>
+      <name>Armand Joulin</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.4638v1</id>
+    <title>Efficient Euclidean Projections onto the Intersection of Norm Balls</title>
+    <updated>2012-06-18T15:16:28Z</updated>
+    <link href="https://arxiv.org/abs/1206.4638v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.4638v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using sparse-inducing norms to learn robust models has received increasing attention from many fields for its attractive properties. Projection-based methods have been widely applied to learning tasks constrained by such norms. As a key building block of these methods, an efficient operator for Euclidean projection onto the intersection of $\ell_1$ and $\ell_{1,q}$ norm balls $(q=2\text{or}\infty)$ is proposed in this paper. We prove that the projection can be reduced to finding the root of an auxiliary function which is piecewise smooth and monotonic. Hence, a bisection algorithm is sufficient to solve the problem. We show that the time complexity of our solution is $O(n+g\log g)$ for $q=2$ and $O(n\log n)$ for $q=\infty$, where $n$ is the dimensionality of the vector to be projected and $g$ is the number of disjoint groups; we confirm this complexity by experimentation. Empirical study reveals that our method achieves significantly better performance than classical methods in terms of running time and memory usage. We further show that embedded with our efficient projection operator, projection-based algorithms can solve regression problems with composite norm constraints more efficiently than other methods and give superior accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-18T15:16:28Z</published>
+    <arxiv:comment>ICML2012</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adams Wei Yu</name>
+      <arxiv:affiliation>The University of Hong Kong</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hao Su</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

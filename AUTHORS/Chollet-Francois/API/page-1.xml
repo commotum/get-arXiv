@@ -1,0 +1,2137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/a1dWiPrYjclrZbZsKEfU3/kCBYM</id>
+  <title>arXiv Query: search_query=au:"Francois Chollet"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T22:52:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Francois+Chollet%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10904v1</id>
+    <title>ARC Prize 2025: Technical Report</title>
+    <updated>2026-01-15T23:23:56Z</updated>
+    <link href="https://arxiv.org/abs/2601.10904v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10904v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ARC-AGI benchmark series serves as a critical measure of few-shot generalization on novel tasks, a core aspect of intelligence. The ARC Prize 2025 global competition targeted the newly released ARC-AGI-2 dataset, which features greater task complexity compared to its predecessor. The Kaggle competition attracted 1,455 teams and 15,154 entries, with the top score reaching 24% on the ARC-AGI-2 private evaluation set. Paper submissions nearly doubled year-over-year to 90 entries, reflecting the growing research interest in fluid intelligence and abstract reasoning. The defining theme of 2025 is the emergence of the refinement loop -- a per-task iterative program optimization loop guided by a feedback signal. Refinement loops come in a variety of forms, in particular evolutionary program synthesis approaches and application-layer refinements to commercial AI systems. Such refinement loops are also possible in weight space, as evidenced by zero-pretraining deep learning methods which are now achieving competitive performance with remarkably small networks (7M parameters). In parallel, four frontier AI labs (Anthropic, Google DeepMind, OpenAI, and xAI) reported ARC-AGI performance in public model cards in 2025, establishing ARC-AGI as an industry standard benchmark for AI reasoning. However, our analysis indicates that current frontier AI reasoning performance remains fundamentally constrained to knowledge coverage, giving rise to new forms of benchmark contamination. In this paper, we survey the top-performing methods, examine the role of refinement loops in AGI progress, discuss knowledge-dependent overfitting, and preview ARC-AGI-3, which introduces interactive reasoning challenges that require exploration, planning, memory, goal acquisition, and alignment capabilities.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T23:23:56Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>François Chollet</name>
+    </author>
+    <author>
+      <name>Mike Knoop</name>
+    </author>
+    <author>
+      <name>Gregory Kamradt</name>
+    </author>
+    <author>
+      <name>Bryan Landers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.12821v2</id>
+    <title>Assessing Adaptive World Models in Machines with Novel Games</title>
+    <updated>2025-07-22T17:07:08Z</updated>
+    <link href="https://arxiv.org/abs/2507.12821v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.12821v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human intelligence exhibits a remarkable capacity for rapid adaptation and effective problem-solving in novel and unfamiliar contexts. We argue that this profound adaptability is fundamentally linked to the efficient construction and refinement of internal representations of the environment, commonly referred to as world models, and we refer to this adaptation mechanism as world model induction. However, current understanding and evaluation of world models in artificial intelligence (AI) remains narrow, often focusing on static representations learned from training on massive corpora of data, instead of the efficiency and efficacy in learning these representations through interaction and exploration within a novel environment. In this Perspective, we provide a view of world model induction drawing on decades of research in cognitive science on how humans learn and adapt so efficiently; we then call for a new evaluation framework for assessing adaptive world models in AI. Concretely, we propose a new benchmarking paradigm based on suites of carefully designed games with genuine, deep and continually refreshing novelty in the underlying game structures -- we refer to this class of games as novel games. We detail key desiderata for constructing these games and propose appropriate metrics to explicitly challenge and evaluate the agent's ability for rapid world model induction. We hope that this new evaluation framework will inspire future evaluation efforts on world models in AI and provide a crucial step towards developing AI systems capable of human-like rapid adaptation and robust generalization -- a critical component of artificial general intelligence.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-17T06:28:14Z</published>
+    <arxiv:comment>17 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lance Ying</name>
+    </author>
+    <author>
+      <name>Katherine M. Collins</name>
+    </author>
+    <author>
+      <name>Prafull Sharma</name>
+    </author>
+    <author>
+      <name>Cedric Colas</name>
+    </author>
+    <author>
+      <name>Kaiya Ivy Zhao</name>
+    </author>
+    <author>
+      <name>Adrian Weller</name>
+    </author>
+    <author>
+      <name>Zenna Tavares</name>
+    </author>
+    <author>
+      <name>Phillip Isola</name>
+    </author>
+    <author>
+      <name>Samuel J. Gershman</name>
+    </author>
+    <author>
+      <name>Jacob D. Andreas</name>
+    </author>
+    <author>
+      <name>Thomas L. Griffiths</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Kelsey R. Allen</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11831v2</id>
+    <title>ARC-AGI-2: A New Challenge for Frontier AI Reasoning Systems</title>
+    <updated>2026-01-15T23:30:35Z</updated>
+    <link href="https://arxiv.org/abs/2505.11831v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11831v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI), introduced in 2019, established a challenging benchmark for evaluating the general fluid intelligence of artificial systems via a set of unique, novel tasks only requiring minimal prior knowledge. While ARC-AGI has spurred significant research activity over the past five years, recent AI progress calls for benchmarks capable of finer-grained evaluation at higher levels of cognitive complexity. We introduce ARC-AGI-2, an upgraded version of the benchmark. ARC-AGI-2 preserves the input-output pair task format of its predecessor, ensuring continuity for researchers. It incorporates a newly curated and expanded set of tasks specifically designed to provide a more granular signal to assess abstract reasoning and problem-solving abilities at higher levels of fluid intelligence. To contextualize the difficulty and characteristics of ARC-AGI-2, we present extensive results from human testing, providing a robust baseline that highlights the benchmark's accessibility to human intelligence, yet difficulty for current AI systems. ARC-AGI-2 aims to serve as a next-generation tool for rigorously measuring progress towards more general and human-like AI capabilities.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-17T04:34:48Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Mike Knoop</name>
+    </author>
+    <author>
+      <name>Gregory Kamradt</name>
+    </author>
+    <author>
+      <name>Bryan Landers</name>
+    </author>
+    <author>
+      <name>Henry Pinkard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.04604v2</id>
+    <title>ARC Prize 2024: Technical Report</title>
+    <updated>2025-01-08T05:24:50Z</updated>
+    <link href="https://arxiv.org/abs/2412.04604v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.04604v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As of December 2024, the ARC-AGI benchmark is five years old and remains unbeaten. We believe it is currently the most important unsolved AI benchmark in the world because it seeks to measure generalization on novel tasks -- the essence of intelligence -- as opposed to skill at tasks that can be prepared for in advance. This year, we launched ARC Prize, a global competition to inspire new ideas and drive open progress towards AGI by reaching a target benchmark score of 85\%. As a result, the state-of-the-art score on the ARC-AGI private evaluation set increased from 33\% to 55.5\%, propelled by several frontier AGI reasoning techniques including deep learning-guided program synthesis and test-time training. In this paper, we survey top approaches, review new open-source implementations, discuss the limitations of the ARC-AGI-1 dataset, and share key insights gained from the competition.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-05T20:40:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Mike Knoop</name>
+    </author>
+    <author>
+      <name>Gregory Kamradt</name>
+    </author>
+    <author>
+      <name>Bryan Landers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.20247v3</id>
+    <title>KerasCV and KerasNLP: Vision and Language Power-Ups</title>
+    <updated>2024-06-05T07:52:07Z</updated>
+    <link href="https://arxiv.org/abs/2405.20247v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.20247v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the Keras domain packages KerasCV and KerasNLP, extensions of the Keras API for Computer Vision and Natural Language Processing workflows, capable of running on either JAX, TensorFlow, or PyTorch. These domain packages are designed to enable fast experimentation, with a focus on ease-of-use and performance. We adopt a modular, layered design: at the library's lowest level of abstraction, we provide building blocks for creating models and data preprocessing pipelines, and at the library's highest level of abstraction, we provide pretrained ``task" models for popular architectures such as Stable Diffusion, YOLOv8, GPT2, BERT, Mistral, CLIP, Gemma, T5, etc. Task models have built-in preprocessing, pretrained weights, and can be fine-tuned on raw inputs. To enable efficient training, we support XLA compilation for all models, and run all preprocessing via a compiled graph of TensorFlow operations using the tf.data API. The libraries are fully open-source (Apache 2.0 license) and available on GitHub.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-30T16:58:34Z</published>
+    <arxiv:comment>Submitted to Journal of Machine Learning Open Source Software</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Matthew Watson</name>
+    </author>
+    <author>
+      <name>Divyashree Shivakumar Sreepathihalli</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Martin Gorner</name>
+    </author>
+    <author>
+      <name>Kiranbir Sodhia</name>
+    </author>
+    <author>
+      <name>Ramesh Sampath</name>
+    </author>
+    <author>
+      <name>Tirth Patel</name>
+    </author>
+    <author>
+      <name>Haifeng Jin</name>
+    </author>
+    <author>
+      <name>Neel Kovelamudi</name>
+    </author>
+    <author>
+      <name>Gabriel Rasskin</name>
+    </author>
+    <author>
+      <name>Samaneh Saadat</name>
+    </author>
+    <author>
+      <name>Luke Wood</name>
+    </author>
+    <author>
+      <name>Chen Qian</name>
+    </author>
+    <author>
+      <name>Jonathan Bischof</name>
+    </author>
+    <author>
+      <name>Ian Stenbit</name>
+    </author>
+    <author>
+      <name>Abheesht Sharma</name>
+    </author>
+    <author>
+      <name>Anshuman Mishra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.12120v1</id>
+    <title>Efficient Graph-Friendly COCO Metric Computation for Train-Time Model Evaluation</title>
+    <updated>2022-07-21T22:39:00Z</updated>
+    <link href="https://arxiv.org/abs/2207.12120v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.12120v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluating the COCO mean average precision (MaP) and COCO recall metrics as part of the static computation graph of modern deep learning frameworks poses a unique set of challenges. These challenges include the need for maintaining a dynamic-sized state to compute mean average precision, reliance on global dataset-level statistics to compute the metrics, and managing differing numbers of bounding boxes between images in a batch. As a consequence, it is common practice for researchers and practitioners to evaluate COCO metrics as a post training evaluation step. With a graph-friendly algorithm to compute COCO Mean Average Precision and recall, these metrics could be evaluated at training time, improving visibility into the evolution of the metrics through training curve plots, and decreasing iteration time when prototyping new model versions.
+  Our contributions include an accurate approximation algorithm for Mean Average Precision, an open source implementation of both COCO mean average precision and COCO recall, extensive numerical benchmarks to verify the accuracy of our implementations, and an open-source training loop that include train-time evaluation of mean average precision and recall.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-21T22:39:00Z</published>
+    <arxiv:comment>7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Luke Wood</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.04615v3</id>
+    <title>Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models</title>
+    <updated>2023-06-12T17:51:15Z</updated>
+    <link href="https://arxiv.org/abs/2206.04615v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.04615v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models demonstrate both quantitative improvement and new qualitative capabilities with increasing scale. Despite their potentially transformative impact, these new capabilities are as yet poorly characterized. In order to inform future research, prepare for disruptive new model capabilities, and ameliorate socially harmful effects, it is vital that we understand the present and near-future capabilities and limitations of language models. To address this challenge, we introduce the Beyond the Imitation Game benchmark (BIG-bench). BIG-bench currently consists of 204 tasks, contributed by 450 authors across 132 institutions. Task topics are diverse, drawing problems from linguistics, childhood development, math, common-sense reasoning, biology, physics, social bias, software development, and beyond. BIG-bench focuses on tasks that are believed to be beyond the capabilities of current language models. We evaluate the behavior of OpenAI's GPT models, Google-internal dense transformer architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters. In addition, a team of human expert raters performed all tasks in order to provide a strong baseline. Findings include: model performance and calibration both improve with scale, but are poor in absolute terms (and when compared with rater performance); performance is remarkably similar across model classes, though with benefits from sparsity; tasks that improve gradually and predictably commonly involve a large knowledge or memorization component, whereas tasks that exhibit "breakthrough" behavior at a critical scale often involve multiple steps or components, or brittle metrics; social bias typically increases with scale in settings with ambiguous context, but this can be improved with prompting.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-09T17:05:34Z</published>
+    <arxiv:comment>27 pages, 17 figures + references and appendices, repo: https://github.com/google/BIG-bench</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Transactions on Machine Learning Research, May/2022, https://openreview.net/forum?id=uyTL5Bvosj</arxiv:journal_ref>
+    <author>
+      <name>Aarohi Srivastava</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abhinav Rastogi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abhishek Rao</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abu Awal Md Shoeb</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abubakar Abid</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam Fisch</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam R. Brown</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam Santoro</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aditya Gupta</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adrià Garriga-Alonso</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Agnieszka Kluska</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aitor Lewkowycz</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Akshat Agarwal</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alethea Power</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Ray</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alex Warstadt</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander W. Kocurek</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ali Safaya</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ali Tazarv</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alice Xiang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alicia Parrish</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Allen Nie</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aman Hussain</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amanda Dsouza</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ambrose Slone</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ameet Rahane</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anantharaman S. Iyer</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anders Andreassen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrea Madotto</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrea Santilli</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andreas Stuhlmüller</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Dai</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew La</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Lampinen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andy Zou</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angela Jiang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angelica Chen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anh Vuong</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Animesh Gupta</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anna Gottardi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Antonio Norelli</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anu Venkatesh</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arash Gholamidavoodi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arfa Tabassum</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arul Menezes</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arun Kirubarajan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Asher Mullokandov</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ashish Sabharwal</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Austin Herrick</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Avia Efrat</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aykut Erdem</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ayla Karakaş</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Ryan Roberts</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bao Sheng Loe</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Barret Zoph</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bartłomiej Bojanowski</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Batuhan Özyurt</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Behnam Hedayatnia</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Behnam Neyshabur</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Benjamin Inden</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Benno Stein</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Berk Ekmekci</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bill Yuchen Lin</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Blake Howald</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bryan Orinion</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cameron Diao</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cameron Dour</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Catherine Stinson</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cedrick Argueta</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>César Ferri Ramírez</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chandan Singh</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Charles Rathkopf</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chenlin Meng</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chitta Baral</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chiyu Wu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Callison-Burch</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chris Waites</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Voigt</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christopher Potts</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cindy Ramirez</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Clara E. Rivera</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Clemencia Siro</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Courtney Ashcraft</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cristina Garbacea</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Damien Sileo</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dan Garrette</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dan Kilman</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dan Roth</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Freeman</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Khashabi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Levy</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Moseguí González</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Danielle Perszyk</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Danqi Chen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daphne Ippolito</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dar Gilboa</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Dohan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Drakard</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Jurgens</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Debajyoti Datta</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Denis Emelin</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Denis Kleyko</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Deniz Yuret</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Derek Chen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Derek Tam</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dieuwke Hupkes</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Diganta Misra</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dilyar Buzan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dimitri Coelho Mollo</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Diyi Yang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dong-Ho Lee</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dylan Schrader</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ekaterina Shutova</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ekin Dogus Cubuk</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elad Segal</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eleanor Hagerman</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elizabeth Barnes</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elizabeth Donoway</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ellie Pavlick</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Emanuele Rodola</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Emma Lam</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Chu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Tang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Erkut Erdem</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ernie Chang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ethan A. Chi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ethan Dyer</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ethan Jerzak</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ethan Kim</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eunice Engefu Manyasi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Evgenii Zheltonozhskii</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fanyue Xia</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fatemeh Siar</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fernando Martínez-Plumed</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francesca Happé</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Frieda Rong</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gaurav Mishra</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Genta Indra Winata</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gerard de Melo</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Germán Kruszewski</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Giambattista Parascandolo</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Giorgio Mariani</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gloria Wang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gonzalo Jaimovitch-López</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gregor Betz</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Guy Gur-Ari</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hana Galijasevic</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hannah Kim</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hannah Rashkin</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hannaneh Hajishirzi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Harsh Mehta</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hayden Bogar</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Henry Shevlin</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hinrich Schütze</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hiromu Yakura</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hongming Zhang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hugh Mee Wong</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ian Ng</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Isaac Noble</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jaap Jumelet</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jack Geissinger</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacob Hilton</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jaehoon Lee</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jaime Fernández Fisac</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James B. Simon</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Koppel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Zheng</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James Zou</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jan Kocoń</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jana Thompson</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Janelle Wingfield</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jarema Radom</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jascha Sohl-Dickstein</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Phang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Wei</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jason Yosinski</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jekaterina Novikova</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jelle Bosscher</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jennifer Marsh</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeremy Kim</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeroen Taal</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jesse Engel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jesujoba Alabi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiacheng Xu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiaming Song</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jillian Tang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joan Waweru</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John Burden</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John Miller</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John U. Balis</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan Batchelder</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jonathan Berant</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jörg Frohberg</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jos Rozen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jose Hernandez-Orallo</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joseph Boudeman</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joseph Guerr</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joseph Jones</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joshua S. Rule</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joyce Chua</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kamil Kanclerz</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karen Livescu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karl Krauth</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karthik Gopalakrishnan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katerina Ignatyeva</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katja Markert</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kaustubh D. Dhole</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kevin Gimpel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kevin Omondi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kory Mathewson</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kristen Chiafullo</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ksenia Shkaruta</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kumar Shridhar</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kyle McDonell</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kyle Richardson</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laria Reynolds</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Leo Gao</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Liam Dugan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lianhui Qin</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lidia Contreras-Ochando</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luca Moschella</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lucas Lam</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lucy Noble</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ludwig Schmidt</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luheng He</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luis Oliveros Colón</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Luke Metz</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lütfi Kerem Şenel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maarten Bosma</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maarten Sap</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maartje ter Hoeve</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maheen Farooqi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Manaal Faruqui</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marco Baturan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marco Marelli</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marco Maru</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maria Jose Ramírez Quintana</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marie Tolkiehn</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mario Giulianelli</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martha Lewis</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martin Potthast</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matthew L. Leavitt</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matthias Hagen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mátyás Schubert</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Medina Orduna Baitemirova</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Melody Arnaud</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Melvin McElrath</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael A. Yee</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Cohen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Gu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Ivanitskiy</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Starritt</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Strube</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michał Swędrowski</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michele Bevilacqua</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michihiro Yasunaga</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mihir Kale</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mike Cain</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mimee Xu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mirac Suzgun</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mitch Walker</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mo Tiwari</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Moin Aminnaseri</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mor Geva</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mozhdeh Gheini</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mukund Varma T</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nanyun Peng</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nathan A. Chi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nayeon Lee</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Neta Gur-Ari Krakover</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nicholas Cameron</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nicholas Roberts</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nick Doiron</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nicole Martinez</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nikita Nangia</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Niklas Deckers</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Niklas Muennighoff</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nitish Shirish Keskar</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Niveditha S. Iyer</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Noah Constant</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Noah Fiedel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nuan Wen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Oliver Zhang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Omar Agha</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Omar Elbaghdadi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Omer Levy</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Owain Evans</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pablo Antonio Moreno Casares</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Parth Doshi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascale Fung</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Vicol</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pegah Alipoormolabashi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peiyuan Liao</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Chang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Eckersley</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Phu Mon Htut</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pinyu Hwang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Piotr Miłkowski</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Piyush Patil</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pouya Pezeshkpour</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Priti Oli</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qiaozhu Mei</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qing Lyu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qinlang Chen</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rabin Banjade</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rachel Etta Rudolph</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raefer Gabriel</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rahel Habacker</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ramon Risco</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raphaël Millière</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rhythm Garg</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Richard Barnes</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rif A. Saurous</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Riku Arakawa</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robbe Raymaekers</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robert Frank</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rohan Sikand</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Roman Novak</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Roman Sitelew</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ronan LeBras</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rosanne Liu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rowan Jacobs</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rui Zhang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Chi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Lee</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Stovall</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ryan Teehan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rylan Yang</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sahib Singh</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Saif M. Mohammad</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sajant Anand</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Dillavou</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Shleifer</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sam Wiseman</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samuel Gruetter</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samuel S. Schoenholz</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sanghyun Han</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sanjeev Kwatra</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sarah A. Rous</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sarik Ghazarian</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sayan Ghosh</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sean Casey</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sebastian Bischoff</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sebastian Gehrmann</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sebastian Schuster</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sepideh Sadeghi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shadi Hamdan</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sharon Zhou</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shashank Srivastava</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sherry Shi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shikhar Singh</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shima Asaadi</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shixiang Shane Gu</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shubh Pachchigar</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shubham Toshniwal</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shyam Upadhyay</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Shyamolima</name>
+      <arxiv:affiliation>Shammie</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Debnath</name>
+    </author>
+    <author>
+      <name>Siamak Shakeri</name>
+    </author>
+    <author>
+      <name>Simon Thormeyer</name>
+    </author>
+    <author>
+      <name>Simone Melzi</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+    <author>
+      <name>Sneha Priscilla Makini</name>
+    </author>
+    <author>
+      <name>Soo-Hwan Lee</name>
+    </author>
+    <author>
+      <name>Spencer Torene</name>
+    </author>
+    <author>
+      <name>Sriharsha Hatwar</name>
+    </author>
+    <author>
+      <name>Stanislas Dehaene</name>
+    </author>
+    <author>
+      <name>Stefan Divic</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+    <author>
+      <name>Stella Biderman</name>
+    </author>
+    <author>
+      <name>Stephanie Lin</name>
+    </author>
+    <author>
+      <name>Stephen Prasad</name>
+    </author>
+    <author>
+      <name>Steven T. Piantadosi</name>
+    </author>
+    <author>
+      <name>Stuart M. Shieber</name>
+    </author>
+    <author>
+      <name>Summer Misherghi</name>
+    </author>
+    <author>
+      <name>Svetlana Kiritchenko</name>
+    </author>
+    <author>
+      <name>Swaroop Mishra</name>
+    </author>
+    <author>
+      <name>Tal Linzen</name>
+    </author>
+    <author>
+      <name>Tal Schuster</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Tao Yu</name>
+    </author>
+    <author>
+      <name>Tariq Ali</name>
+    </author>
+    <author>
+      <name>Tatsu Hashimoto</name>
+    </author>
+    <author>
+      <name>Te-Lin Wu</name>
+    </author>
+    <author>
+      <name>Théo Desbordes</name>
+    </author>
+    <author>
+      <name>Theodore Rothschild</name>
+    </author>
+    <author>
+      <name>Thomas Phan</name>
+    </author>
+    <author>
+      <name>Tianle Wang</name>
+    </author>
+    <author>
+      <name>Tiberius Nkinyili</name>
+    </author>
+    <author>
+      <name>Timo Schick</name>
+    </author>
+    <author>
+      <name>Timofei Kornev</name>
+    </author>
+    <author>
+      <name>Titus Tunduny</name>
+    </author>
+    <author>
+      <name>Tobias Gerstenberg</name>
+    </author>
+    <author>
+      <name>Trenton Chang</name>
+    </author>
+    <author>
+      <name>Trishala Neeraj</name>
+    </author>
+    <author>
+      <name>Tushar Khot</name>
+    </author>
+    <author>
+      <name>Tyler Shultz</name>
+    </author>
+    <author>
+      <name>Uri Shaham</name>
+    </author>
+    <author>
+      <name>Vedant Misra</name>
+    </author>
+    <author>
+      <name>Vera Demberg</name>
+    </author>
+    <author>
+      <name>Victoria Nyamai</name>
+    </author>
+    <author>
+      <name>Vikas Raunak</name>
+    </author>
+    <author>
+      <name>Vinay Ramasesh</name>
+    </author>
+    <author>
+      <name>Vinay Uday Prabhu</name>
+    </author>
+    <author>
+      <name>Vishakh Padmakumar</name>
+    </author>
+    <author>
+      <name>Vivek Srikumar</name>
+    </author>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>William Saunders</name>
+    </author>
+    <author>
+      <name>William Zhang</name>
+    </author>
+    <author>
+      <name>Wout Vossen</name>
+    </author>
+    <author>
+      <name>Xiang Ren</name>
+    </author>
+    <author>
+      <name>Xiaoyu Tong</name>
+    </author>
+    <author>
+      <name>Xinran Zhao</name>
+    </author>
+    <author>
+      <name>Xinyi Wu</name>
+    </author>
+    <author>
+      <name>Xudong Shen</name>
+    </author>
+    <author>
+      <name>Yadollah Yaghoobzadeh</name>
+    </author>
+    <author>
+      <name>Yair Lakretz</name>
+    </author>
+    <author>
+      <name>Yangqiu Song</name>
+    </author>
+    <author>
+      <name>Yasaman Bahri</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Yichi Yang</name>
+    </author>
+    <author>
+      <name>Yiding Hao</name>
+    </author>
+    <author>
+      <name>Yifu Chen</name>
+    </author>
+    <author>
+      <name>Yonatan Belinkov</name>
+    </author>
+    <author>
+      <name>Yu Hou</name>
+    </author>
+    <author>
+      <name>Yufang Hou</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Zachary Seid</name>
+    </author>
+    <author>
+      <name>Zhuoye Zhao</name>
+    </author>
+    <author>
+      <name>Zijian Wang</name>
+    </author>
+    <author>
+      <name>Zijie J. Wang</name>
+    </author>
+    <author>
+      <name>Zirui Wang</name>
+    </author>
+    <author>
+      <name>Ziyi Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.01547v2</id>
+    <title>On the Measure of Intelligence</title>
+    <updated>2019-11-25T13:02:04Z</updated>
+    <link href="https://arxiv.org/abs/1911.01547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.01547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To make deliberate progress towards more intelligent and more human-like artificial systems, we need to be following an appropriate feedback signal: we need to be able to define and evaluate intelligence in a way that enables comparisons between two systems, as well as comparisons with humans. Over the past hundred years, there has been an abundance of attempts to define and measure intelligence, across both the fields of psychology and AI. We summarize and critically assess these definitions and evaluation approaches, while making apparent the two historical conceptions of intelligence that have implicitly guided them. We note that in practice, the contemporary AI community still gravitates towards benchmarking intelligence by comparing the skill exhibited by AIs and humans at specific tasks such as board games and video games. We argue that solely measuring skill at any given task falls short of measuring intelligence, because skill is heavily modulated by prior knowledge and experience: unlimited priors or unlimited training data allow experimenters to "buy" arbitrary levels of skills for a system, in a way that masks the system's own generalization power. We then articulate a new formal definition of intelligence based on Algorithmic Information Theory, describing intelligence as skill-acquisition efficiency and highlighting the concepts of scope, generalization difficulty, priors, and experience. Using this definition, we propose a set of guidelines for what a general AI benchmark should look like. Finally, we present a benchmark closely following these guidelines, the Abstraction and Reasoning Corpus (ARC), built upon an explicit set of priors designed to be as close as possible to innate human priors. We argue that ARC can be used to measure a human-like form of general fluid intelligence and that it enables fair general intelligence comparisons between AI systems and humans.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-05T00:31:38Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>François Chollet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.07416v1</id>
+    <title>Tensor2Tensor for Neural Machine Translation</title>
+    <updated>2018-03-16T18:49:22Z</updated>
+    <link href="https://arxiv.org/abs/1803.07416v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.07416v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tensor2Tensor is a library for deep learning models that is well-suited for neural machine translation and includes the reference implementation of the state-of-the-art Transformer model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-16T18:49:22Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1706.03762</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Samy Bengio</name>
+    </author>
+    <author>
+      <name>Eugene Brevdo</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Aidan N. Gomez</name>
+    </author>
+    <author>
+      <name>Stephan Gouws</name>
+    </author>
+    <author>
+      <name>Llion Jones</name>
+    </author>
+    <author>
+      <name>Łukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Nal Kalchbrenner</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Ryan Sepassi</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03059v2</id>
+    <title>Depthwise Separable Convolutions for Neural Machine Translation</title>
+    <updated>2017-06-16T02:35:48Z</updated>
+    <link href="https://arxiv.org/abs/1706.03059v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03059v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Depthwise separable convolutions reduce the number of parameters and computation used in convolutional operations while increasing representational efficiency. They have been shown to be successful in image classification models, both in obtaining better models than previously possible for a given parameter count (the Xception architecture) and considerably reducing the number of parameters required to perform at a given level (the MobileNets family of architectures). Recently, convolutional sequence-to-sequence networks have been applied to machine translation tasks with good results. In this work, we study how depthwise separable convolutions can be applied to neural machine translation. We introduce a new architecture inspired by Xception and ByteNet, called SliceNet, which enables a significant reduction of the parameter count and amount of computation needed to obtain results like ByteNet, and, with a similar parameter count, achieves new state-of-the-art results. In addition to showing that depthwise separable convolutions perform well for machine translation, we investigate the architectural changes that they enable: we observe that thanks to depthwise separability, we can increase the length of convolution windows, removing the need for filter dilation. We also introduce a new "super-separable" convolution operation that further reduces the number of parameters and computational cost for obtaining state-of-the-art results.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-09T17:59:16Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Aidan N. Gomez</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.00426v1</id>
+    <title>HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving</title>
+    <updated>2017-03-01T18:20:19Z</updated>
+    <link href="https://arxiv.org/abs/1703.00426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.00426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large computer-understandable proofs consist of millions of intermediate logical steps. The vast majority of such steps originate from manually selected and manually guided heuristics applied to intermediate goals. So far, machine learning has generally not been used to filter or generate these steps. In this paper, we introduce a new dataset based on Higher-Order Logic (HOL) proofs, for the purpose of developing new machine learning-based theorem-proving strategies. We make this dataset publicly available under the BSD license. We propose various machine learning tasks that can be performed on this dataset, and discuss their significance for theorem proving. We also benchmark a set of simple baseline machine learning models suited for the tasks (including logistic regression, convolutional neural networks and recurrent neural networks). The results of our baseline models show the promise of applying machine learning to HOL theorem proving.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-01T18:20:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Cezary Kaliszyk</name>
+    </author>
+    <author>
+      <name>François Chollet</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02357v3</id>
+    <title>Xception: Deep Learning with Depthwise Separable Convolutions</title>
+    <updated>2017-04-04T18:40:27Z</updated>
+    <link href="https://arxiv.org/abs/1610.02357v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.02357v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an interpretation of Inception modules in convolutional neural networks as being an intermediate step in-between regular convolution and the depthwise separable convolution operation (a depthwise convolution followed by a pointwise convolution). In this light, a depthwise separable convolution can be understood as an Inception module with a maximally large number of towers. This observation leads us to propose a novel deep convolutional neural network architecture inspired by Inception, where Inception modules have been replaced with depthwise separable convolutions. We show that this architecture, dubbed Xception, slightly outperforms Inception V3 on the ImageNet dataset (which Inception V3 was designed for), and significantly outperforms Inception V3 on a larger image classification dataset comprising 350 million images and 17,000 classes. Since the Xception architecture has the same number of parameters as Inception V3, the performance gains are not due to increased capacity but rather to a more efficient use of model parameters.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-07T17:51:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>François Chollet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05691v1</id>
+    <title>Information-theoretical label embeddings for large-scale image classification</title>
+    <updated>2016-07-19T18:40:01Z</updated>
+    <link href="https://arxiv.org/abs/1607.05691v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.05691v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a method for training multi-label, massively multi-class image classification models, that is faster and more accurate than supervision via a sigmoid cross-entropy loss (logistic regression). Our method consists in embedding high-dimensional sparse labels onto a lower-dimensional dense sphere of unit-normed vectors, and treating the classification problem as a cosine proximity regression problem on this sphere. We test our method on a dataset of 300 million high-resolution images with 17,000 labels, where it yields considerably faster convergence, as well as a 7% higher mean average precision compared to logistic regression.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-19T18:40:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>François Chollet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.04442v2</id>
+    <title>DeepMath - Deep Sequence Models for Premise Selection</title>
+    <updated>2017-01-26T19:35:16Z</updated>
+    <link href="https://arxiv.org/abs/1606.04442v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.04442v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the effectiveness of neural sequence models for premise selection in automated theorem proving, one of the main bottlenecks in the formalization of mathematics. We propose a two stage approach for this task that yields good results for the premise selection task on the Mizar corpus while avoiding the hand-engineered features of existing state-of-the-art models. To our knowledge, this is the first time deep learning has been applied to theorem proving on a large scale.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-14T16:27:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Alex A. Alemi</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Niklas Een</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Josef Urban</name>
+    </author>
+  </entry>
+</feed>

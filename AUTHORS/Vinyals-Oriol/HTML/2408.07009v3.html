@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  <title>[2408.07009v3] Imagen 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/browse/0.3.4/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/browse/0.3.4/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/browse/0.3.4/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/browse/0.3.4/images/icons/site.webmanifest">
+  <link rel="mask-icon" href="/static/browse/0.3.4/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/arXiv.css?v=20241206" />
+  <link rel="stylesheet" type="text/css" media="print" href="/static/browse/0.3.4/css/arXiv-print.css?v=20200611" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/browse_search.css" />
+  <script language="javascript" src="/static/browse/0.3.4/js/accordion.js" ></script>
+  <script language="javascript" src="/static/browse/0.3.4/js/optin-modal.js?v=20250819"></script>
+  
+  <link rel="canonical" href="https://arxiv.org/abs/2408.07009"/>
+  <meta name="description" content="Abstract page for arXiv paper 2408.07009v3: Imagen 3"><meta property="og:type" content="website" />
+<meta property="og:site_name" content="arXiv.org" />
+<meta property="og:title" content="Imagen 3" />
+<meta property="og:url" content="https://arxiv.org/abs/2408.07009v3" />
+<meta property="og:image" content="/static/browse/0.3.4/images/arxiv-logo-fb.png" />
+<meta property="og:image:secure_url" content="/static/browse/0.3.4/images/arxiv-logo-fb.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="700" />
+<meta property="og:image:alt" content="arXiv logo"/>
+<meta property="og:description" content="We introduce Imagen 3, a latent diffusion model that generates high quality images from text prompts. We describe our quality and responsibility evaluations. Imagen 3 is preferred over other state-of-the-art (SOTA) models at the time of evaluation. In addition, we discuss issues around safety and representation, as well as methods we used to minimize the potential harm of our models."/>
+<meta name="twitter:site" content="@arxiv"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Imagen 3"/>
+<meta name="twitter:description" content="We introduce Imagen 3, a latent diffusion model that generates high quality images from text prompts. We describe our quality and responsibility evaluations. Imagen 3 is preferred over other..."/>
+<meta name="twitter:image" content="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"/>
+<meta name="twitter:image:alt" content="arXiv logo"/>
+  <link rel="stylesheet" media="screen" type="text/css" href="/static/browse/0.3.4/css/tooltip.css"/><link rel="stylesheet" media="screen" type="text/css" href="https://static.arxiv.org/js/bibex-dev/bibex.css?20200709"/>  <script src="/static/browse/0.3.4/js/mathjaxToggle.min.js" type="text/javascript"></script>  <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/npm/dompurify@2.3.5/dist/purify.min.js"></script>
+  <script src="/static/browse/0.3.4/js/toggle-labs.js?20241022" type="text/javascript"></script>
+  <script src="/static/browse/0.3.4/js/cite.js" type="text/javascript"></script><meta name="citation_title" content="Imagen 3" /><meta name="citation_author" content="Imagen-Team-Google" /><meta name="citation_author" content=":" /><meta name="citation_author" content="Baldridge, Jason" /><meta name="citation_author" content="Bauer, Jakob" /><meta name="citation_author" content="Bhutani, Mukul" /><meta name="citation_author" content="Brichtova, Nicole" /><meta name="citation_author" content="Bunner, Andrew" /><meta name="citation_author" content="Castrejon, Lluis" /><meta name="citation_author" content="Chan, Kelvin" /><meta name="citation_author" content="Chen, Yichang" /><meta name="citation_author" content="Dieleman, Sander" /><meta name="citation_author" content="Du, Yuqing" /><meta name="citation_author" content="Eaton-Rosen, Zach" /><meta name="citation_author" content="Fei, Hongliang" /><meta name="citation_author" content="de Freitas, Nando" /><meta name="citation_author" content="Gao, Yilin" /><meta name="citation_author" content="Gladchenko, Evgeny" /><meta name="citation_author" content="Colmenarejo, Sergio Gómez" /><meta name="citation_author" content="Guo, Mandy" /><meta name="citation_author" content="Haig, Alex" /><meta name="citation_author" content="Hawkins, Will" /><meta name="citation_author" content="Hu, Hexiang" /><meta name="citation_author" content="Huang, Huilian" /><meta name="citation_author" content="Igwe, Tobenna Peter" /><meta name="citation_author" content="Kaplanis, Christos" /><meta name="citation_author" content="Khodadadeh, Siavash" /><meta name="citation_author" content="Kim, Yelin" /><meta name="citation_author" content="Konyushkova, Ksenia" /><meta name="citation_author" content="Langner, Karol" /><meta name="citation_author" content="Lau, Eric" /><meta name="citation_author" content="Lawton, Rory" /><meta name="citation_author" content="Luo, Shixin" /><meta name="citation_author" content="Mokrá, Soňa" /><meta name="citation_author" content="Nandwani, Henna" /><meta name="citation_author" content="Onoe, Yasumasa" /><meta name="citation_author" content="Oord, Aäron van den" /><meta name="citation_author" content="Parekh, Zarana" /><meta name="citation_author" content="Pont-Tuset, Jordi" /><meta name="citation_author" content="Qi, Hang" /><meta name="citation_author" content="Qian, Rui" /><meta name="citation_author" content="Ramachandran, Deepak" /><meta name="citation_author" content="Rane, Poorva" /><meta name="citation_author" content="Rashwan, Abdullah" /><meta name="citation_author" content="Razavi, Ali" /><meta name="citation_author" content="Riachi, Robert" /><meta name="citation_author" content="Srinivasan, Hansa" /><meta name="citation_author" content="Srinivasan, Srivatsan" /><meta name="citation_author" content="Strudel, Robin" /><meta name="citation_author" content="Uria, Benigno" /><meta name="citation_author" content="Wang, Oliver" /><meta name="citation_author" content="Wang, Su" /><meta name="citation_author" content="Waters, Austin" /><meta name="citation_author" content="Wolff, Chris" /><meta name="citation_author" content="Wright, Auriel" /><meta name="citation_author" content="Xiao, Zhisheng" /><meta name="citation_author" content="Xiong, Hao" /><meta name="citation_author" content="Xu, Keyang" /><meta name="citation_author" content="van Zee, Marc" /><meta name="citation_author" content="Zhang, Junlin" /><meta name="citation_author" content="Zhang, Katie" /><meta name="citation_author" content="Zhou, Wenlei" /><meta name="citation_author" content="Zolna, Konrad" /><meta name="citation_author" content="Aboubakar, Ola" /><meta name="citation_author" content="Akbulut, Canfer" /><meta name="citation_author" content="Akerlund, Oscar" /><meta name="citation_author" content="Albuquerque, Isabela" /><meta name="citation_author" content="Anderson, Nina" /><meta name="citation_author" content="Andreetto, Marco" /><meta name="citation_author" content="Aroyo, Lora" /><meta name="citation_author" content="Bariach, Ben" /><meta name="citation_author" content="Barker, David" /><meta name="citation_author" content="Ben, Sherry" /><meta name="citation_author" content="Berman, Dana" /><meta name="citation_author" content="Biles, Courtney" /><meta name="citation_author" content="Blok, Irina" /><meta name="citation_author" content="Botadra, Pankil" /><meta name="citation_author" content="Brennan, Jenny" /><meta name="citation_author" content="Brown, Karla" /><meta name="citation_author" content="Buckley, John" /><meta name="citation_author" content="Bunel, Rudy" /><meta name="citation_author" content="Bursztein, Elie" /><meta name="citation_author" content="Butterfield, Christina" /><meta name="citation_author" content="Caine, Ben" /><meta name="citation_author" content="Carpenter, Viral" /><meta name="citation_author" content="Casagrande, Norman" /><meta name="citation_author" content="Chang, Ming-Wei" /><meta name="citation_author" content="Chang, Solomon" /><meta name="citation_author" content="Chaudhuri, Shamik" /><meta name="citation_author" content="Chen, Tony" /><meta name="citation_author" content="Choi, John" /><meta name="citation_author" content="Churbanau, Dmitry" /><meta name="citation_author" content="Clement, Nathan" /><meta name="citation_author" content="Cohen, Matan" /><meta name="citation_author" content="Cole, Forrester" /><meta name="citation_author" content="Dektiarev, Mikhail" /><meta name="citation_author" content="Du, Vincent" /><meta name="citation_author" content="Dutta, Praneet" /><meta name="citation_author" content="Eccles, Tom" /><meta name="citation_author" content="Elue, Ndidi" /><meta name="citation_author" content="Feden, Ashley" /><meta name="citation_author" content="Fruchter, Shlomi" /><meta name="citation_author" content="Garcia, Frankie" /><meta name="citation_author" content="Garg, Roopal" /><meta name="citation_author" content="Ge, Weina" /><meta name="citation_author" content="Ghazy, Ahmed" /><meta name="citation_author" content="Gipson, Bryant" /><meta name="citation_author" content="Goodman, Andrew" /><meta name="citation_author" content="Górny, Dawid" /><meta name="citation_author" content="Gowal, Sven" /><meta name="citation_author" content="Gupta, Khyatti" /><meta name="citation_author" content="Halpern, Yoni" /><meta name="citation_author" content="Han, Yena" /><meta name="citation_author" content="Hao, Susan" /><meta name="citation_author" content="Hayes, Jamie" /><meta name="citation_author" content="Heek, Jonathan" /><meta name="citation_author" content="Hertz, Amir" /><meta name="citation_author" content="Hirst, Ed" /><meta name="citation_author" content="Hoogeboom, Emiel" /><meta name="citation_author" content="Hou, Tingbo" /><meta name="citation_author" content="Howard, Heidi" /><meta name="citation_author" content="Ibrahim, Mohamed" /><meta name="citation_author" content="Ike-Njoku, Dirichi" /><meta name="citation_author" content="Iljazi, Joana" /><meta name="citation_author" content="Ionescu, Vlad" /><meta name="citation_author" content="Isaac, William" /><meta name="citation_author" content="Jana, Reena" /><meta name="citation_author" content="Jennings, Gemma" /><meta name="citation_author" content="Jenson, Donovon" /><meta name="citation_author" content="Jia, Xuhui" /><meta name="citation_author" content="Jones, Kerry" /><meta name="citation_author" content="Ju, Xiaoen" /><meta name="citation_author" content="Kajic, Ivana" /><meta name="citation_author" content="Kaplanis, Christos" /><meta name="citation_author" content="Ayan, Burcu Karagol" /><meta name="citation_author" content="Kelly, Jacob" /><meta name="citation_author" content="Kothawade, Suraj" /><meta name="citation_author" content="Kouridi, Christina" /><meta name="citation_author" content="Ktena, Ira" /><meta name="citation_author" content="Kumakaw, Jolanda" /><meta name="citation_author" content="Kurniawan, Dana" /><meta name="citation_author" content="Lagun, Dmitry" /><meta name="citation_author" content="Lavitas, Lily" /><meta name="citation_author" content="Lee, Jason" /><meta name="citation_author" content="Li, Tao" /><meta name="citation_author" content="Liang, Marco" /><meta name="citation_author" content="Li-Calis, Maggie" /><meta name="citation_author" content="Liu, Yuchi" /><meta name="citation_author" content="Alberca, Javier Lopez" /><meta name="citation_author" content="Lorrain, Matthieu Kim" /><meta name="citation_author" content="Lu, Peggy" /><meta name="citation_author" content="Lum, Kristian" /><meta name="citation_author" content="Ma, Yukun" /><meta name="citation_author" content="Malik, Chase" /><meta name="citation_author" content="Mellor, John" /><meta name="citation_author" content="Mensink, Thomas" /><meta name="citation_author" content="Mosseri, Inbar" /><meta name="citation_author" content="Murray, Tom" /><meta name="citation_author" content="Nematzadeh, Aida" /><meta name="citation_author" content="Nicholas, Paul" /><meta name="citation_author" content="Nørly, Signe" /><meta name="citation_author" content="Oliveira, João Gabriel" /><meta name="citation_author" content="Ortiz-Jimenez, Guillermo" /><meta name="citation_author" content="Paganini, Michela" /><meta name="citation_author" content="Paine, Tom Le" /><meta name="citation_author" content="Paiss, Roni" /><meta name="citation_author" content="Parrish, Alicia" /><meta name="citation_author" content="Peckham, Anne" /><meta name="citation_author" content="Peswani, Vikas" /><meta name="citation_author" content="Petrovski, Igor" /><meta name="citation_author" content="Pfaff, Tobias" /><meta name="citation_author" content="Pirozhenko, Alex" /><meta name="citation_author" content="Poplin, Ryan" /><meta name="citation_author" content="Prabhu, Utsav" /><meta name="citation_author" content="Qi, Yuan" /><meta name="citation_author" content="Rahtz, Matthew" /><meta name="citation_author" content="Rashtchian, Cyrus" /><meta name="citation_author" content="Rastogi, Charvi" /><meta name="citation_author" content="Raul, Amit" /><meta name="citation_author" content="Razavi, Ali" /><meta name="citation_author" content="Rebuffi, Sylvestre-Alvise" /><meta name="citation_author" content="Ricco, Susanna" /><meta name="citation_author" content="Riedel, Felix" /><meta name="citation_author" content="Robinson, Dirk" /><meta name="citation_author" content="Rohatgi, Pankaj" /><meta name="citation_author" content="Rosgen, Bill" /><meta name="citation_author" content="Rumbley, Sarah" /><meta name="citation_author" content="Ryu, Moonkyung" /><meta name="citation_author" content="Salgado, Anthony" /><meta name="citation_author" content="Salimans, Tim" /><meta name="citation_author" content="Singla, Sahil" /><meta name="citation_author" content="Schroff, Florian" /><meta name="citation_author" content="Schumann, Candice" /><meta name="citation_author" content="Shah, Tanmay" /><meta name="citation_author" content="Shaw, Eleni" /><meta name="citation_author" content="Shaw, Gregory" /><meta name="citation_author" content="Shillingford, Brendan" /><meta name="citation_author" content="Shivakumar, Kaushik" /><meta name="citation_author" content="Shtatnov, Dennis" /><meta name="citation_author" content="Singer, Zach" /><meta name="citation_author" content="Sluzhaev, Evgeny" /><meta name="citation_author" content="Sokolov, Valerii" /><meta name="citation_author" content="Sottiaux, Thibault" /><meta name="citation_author" content="Stimberg, Florian" /><meta name="citation_author" content="Stone, Brad" /><meta name="citation_author" content="Stutz, David" /><meta name="citation_author" content="Su, Yu-Chuan" /><meta name="citation_author" content="Tabellion, Eric" /><meta name="citation_author" content="Tang, Shuai" /><meta name="citation_author" content="Tao, David" /><meta name="citation_author" content="Thomas, Kurt" /><meta name="citation_author" content="Thornton, Gregory" /><meta name="citation_author" content="Toor, Andeep" /><meta name="citation_author" content="Udrescu, Cristian" /><meta name="citation_author" content="Upadhyay, Aayush" /><meta name="citation_author" content="Vasconcelos, Cristina" /><meta name="citation_author" content="Vasiloff, Alex" /><meta name="citation_author" content="Voynov, Andrey" /><meta name="citation_author" content="Walker, Amanda" /><meta name="citation_author" content="Wang, Luyu" /><meta name="citation_author" content="Wang, Miaosen" /><meta name="citation_author" content="Wang, Simon" /><meta name="citation_author" content="Wang, Stanley" /><meta name="citation_author" content="Wang, Qifei" /><meta name="citation_author" content="Wang, Yuxiao" /><meta name="citation_author" content="Weisz, Ágoston" /><meta name="citation_author" content="Wiles, Olivia" /><meta name="citation_author" content="Wu, Chenxia" /><meta name="citation_author" content="Xu, Xingyu Federico" /><meta name="citation_author" content="Xue, Andrew" /><meta name="citation_author" content="Yang, Jianbo" /><meta name="citation_author" content="Yu, Luo" /><meta name="citation_author" content="Yurtoglu, Mete" /><meta name="citation_author" content="Zand, Ali" /><meta name="citation_author" content="Zhang, Han" /><meta name="citation_author" content="Zhang, Jiageng" /><meta name="citation_author" content="Zhao, Catherine" /><meta name="citation_author" content="Zhaxybay, Adilet" /><meta name="citation_author" content="Zhou, Miao" /><meta name="citation_author" content="Zhu, Shengqi" /><meta name="citation_author" content="Zhu, Zhenkai" /><meta name="citation_author" content="Bloxwich, Dawn" /><meta name="citation_author" content="Bordbar, Mahyar" /><meta name="citation_author" content="Cobo, Luis C." /><meta name="citation_author" content="Collins, Eli" /><meta name="citation_author" content="Dai, Shengyang" /><meta name="citation_author" content="Doshi, Tulsee" /><meta name="citation_author" content="Dragan, Anca" /><meta name="citation_author" content="Eck, Douglas" /><meta name="citation_author" content="Hassabis, Demis" /><meta name="citation_author" content="Hsiao, Sissie" /><meta name="citation_author" content="Hume, Tom" /><meta name="citation_author" content="Kavukcuoglu, Koray" /><meta name="citation_author" content="King, Helen" /><meta name="citation_author" content="Krawczyk, Jack" /><meta name="citation_author" content="Li, Yeqing" /><meta name="citation_author" content="Meier-Hellstern, Kathy" /><meta name="citation_author" content="Orban, Andras" /><meta name="citation_author" content="Pinsky, Yury" /><meta name="citation_author" content="Subramanya, Amar" /><meta name="citation_author" content="Vinyals, Oriol" /><meta name="citation_author" content="Yu, Ting" /><meta name="citation_author" content="Zwols, Yori" /><meta name="citation_date" content="2024/08/13" /><meta name="citation_online_date" content="2024/12/21" /><meta name="citation_pdf_url" content="https://arxiv.org/pdf/2408.07009" /><meta name="citation_arxiv_id" content="2408.07009" /><meta name="citation_abstract" content="We introduce Imagen 3, a latent diffusion model that generates high quality images from text prompts. We describe our quality and responsibility evaluations. Imagen 3 is preferred over other state-of-the-art (SOTA) models at the time of evaluation. In addition, we discuss issues around safety and representation, as well as methods we used to minimize the potential harm of our models." />
+</head>
+
+<body  class="with-cu-identity">
+  
+  
+  <div class="flex-wrap-footer">
+    <header>
+      <a href="#content" class="is-sr-only">Skip to main content</a>
+      <!-- start desktop header -->
+      <div class="columns is-vcentered is-hidden-mobile" id="cu-identity">
+        <div class="column" id="cu-logo">
+          <a href="https://www.cornell.edu/"><img src="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg" alt="Cornell University" /></a>
+        </div><!-- /from April 7 at 1:00 AM to May 29 at 21:40 --><!-- /from May 2 at 1:00 AM to May 5 at 9:45 AM --><div class="column" id="support-ack">
+          <span id="support-ack-url">We gratefully acknowledge support from the Simons Foundation, <a href="https://info.arxiv.org/about/ourmembers.html">member institutions</a>, and all contributors.</span>
+          <a href="https://info.arxiv.org/about/donate.html" class="btn-header-donate">Donate</a>
+        </div>
+      </div>
+
+      <div id="header" class="is-hidden-mobile">
+<a aria-hidden="true" tabindex="-1" href="/IgnoreMe"></a>
+  <div class="header-breadcrumbs is-hidden-mobile">
+    <a href="/"><img src="/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg" alt="arxiv logo" style="height:40px;"/></a> <span>&gt;</span> <a href="/list/cs/recent">cs</a> <span>&gt;</span> arXiv:2408.07009v3
+  </div>
+
+        <div class="columns is-vcentered is-mobile" style="justify-content: flex-end;">
+        </div>
+
+          <div class="search-block level-right">
+    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+      <div class="field has-addons">
+        <div class="control">
+          <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+          <p class="help"><a href="https://info.arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+        </div>
+        <div class="control">
+          <div class="select is-small">
+            <select name="searchtype" aria-label="Field to search">
+              <option value="all" selected="selected">All fields</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="abstract">Abstract</option>
+              <option value="comments">Comments</option>
+              <option value="journal_ref">Journal reference</option>
+              <option value="acm_class">ACM classification</option>
+              <option value="msc_class">MSC classification</option>
+              <option value="report_num">Report number</option>
+              <option value="paper_id">arXiv identifier</option>
+              <option value="doi">DOI</option>
+              <option value="orcid">ORCID</option>
+              <option value="author_id">arXiv author ID</option>
+              <option value="help">Help pages</option>
+              <option value="full_text">Full text</option>
+            </select>
+          </div>
+        </div>
+        <input type="hidden" name="source" value="header">
+        <button class="button is-small is-cul-darker">Search</button>
+      </div>
+    </form>
+  </div>
+     </div><!-- /end desktop header -->
+
+      <div class="mobile-header">
+        <div class="columns is-mobile">
+          <div class="column logo-arxiv"><a href="https://arxiv.org/"><img src="/static/browse/0.3.4/images/arxiv-logomark-small-white.svg" alt="arXiv logo" style="height:60px;" /></a></div>
+          <div class="column logo-cornell"><a href="https://www.cornell.edu/">
+            <picture>
+              <source media="(min-width: 501px)"
+                srcset="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg  400w"
+                sizes="400w" />
+              <source srcset="/static/browse/0.3.4/images/icons/cu/cornell_seal_simple_black.svg 2x" />
+              <img src="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg" alt="Cornell University Logo" />
+            </picture>
+          </a></div>
+          <div class="column nav" id="toggle-container" role="menubar">
+            <button class="toggle-control"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-white"><title>open search</title><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></button>
+            <div class="mobile-toggle-block toggle-target">
+              <form class="mobile-search-form" method="GET" action="https://arxiv.org/search">
+                <div class="field has-addons">
+                  <input class="input" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                  <input type="hidden" name="source" value="header">
+                  <input type="hidden" name="searchtype" value="all">
+                  <button class="button">GO</button>
+                </div>
+              </form>
+            </div>
+
+            <button class="toggle-control"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-white" role="menu"><title>open navigation menu</title><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/ ></svg></button>
+            <div class="mobile-toggle-block toggle-target">
+              <nav class="mobile-menu" aria-labelledby="mobilemenulabel">
+                <h2 id="mobilemenulabel">quick links</h2>
+                <ul>
+                    <li><a href="https://arxiv.org/login">Login</a></li>
+                    <li><a href="https://info.arxiv.org/help">Help Pages</a></li>
+                    <li><a href="https://info.arxiv.org/about">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div><!-- /end mobile-header -->
+    </header>
+
+    <main>
+      <div id="content">
+<!--
+rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+        rdf:about="/abs/2408.07009"
+        dc:identifier="/abs/2408.07009"
+        dc:title="Imagen 3"
+        trackback:ping="/trackback/2408.07009" />
+    </rdf:RDF>
+--><div id="abs-outer">
+
+  <div class="leftcolumn">
+    <div class="subheader">
+      <h1>Computer Science > Computer Vision and Pattern Recognition</h1>
+    </div>
+
+    <div class="header-breadcrumbs-mobile">
+      <strong>arXiv:2408.07009v3</strong> (cs)
+    </div>
+<link rel="stylesheet" type="text/css" href="/static/base/1.0.1/css/abs.css">
+<div id="content-inner">
+  <div id="abs">
+    <div class="dateline">
+  [Submitted on 13 Aug 2024 (<a href="https://arxiv.org/abs/2408.07009v1">v1</a>), last revised 21 Dec 2024 (this version, v3)]</div>
+    <h1 class="title mathjax"><span class="descriptor">Title:</span>Imagen 3</h1>
+    <div class="authors"><span class="descriptor">Authors:</span><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Imagen-Team-Google" rel="nofollow">Imagen-Team-Google</a>: <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Baldridge,+J" rel="nofollow">Jason Baldridge</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bauer,+J" rel="nofollow">Jakob Bauer</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bhutani,+M" rel="nofollow">Mukul Bhutani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Brichtova,+N" rel="nofollow">Nicole Brichtova</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bunner,+A" rel="nofollow">Andrew Bunner</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Castrejon,+L" rel="nofollow">Lluis Castrejon</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chan,+K" rel="nofollow">Kelvin Chan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+Y" rel="nofollow">Yichang Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dieleman,+S" rel="nofollow">Sander Dieleman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Du,+Y" rel="nofollow">Yuqing Du</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Eaton-Rosen,+Z" rel="nofollow">Zach Eaton-Rosen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fei,+H" rel="nofollow">Hongliang Fei</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=de+Freitas,+N" rel="nofollow">Nando de Freitas</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gao,+Y" rel="nofollow">Yilin Gao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gladchenko,+E" rel="nofollow">Evgeny Gladchenko</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Colmenarejo,+S+G" rel="nofollow">Sergio Gómez Colmenarejo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guo,+M" rel="nofollow">Mandy Guo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Haig,+A" rel="nofollow">Alex Haig</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hawkins,+W" rel="nofollow">Will Hawkins</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hu,+H" rel="nofollow">Hexiang Hu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Huang,+H" rel="nofollow">Huilian Huang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Igwe,+T+P" rel="nofollow">Tobenna Peter Igwe</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kaplanis,+C" rel="nofollow">Christos Kaplanis</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Khodadadeh,+S" rel="nofollow">Siavash Khodadadeh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kim,+Y" rel="nofollow">Yelin Kim</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Konyushkova,+K" rel="nofollow">Ksenia Konyushkova</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Langner,+K" rel="nofollow">Karol Langner</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lau,+E" rel="nofollow">Eric Lau</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lawton,+R" rel="nofollow">Rory Lawton</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Luo,+S" rel="nofollow">Shixin Luo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mokr%C3%A1,+S" rel="nofollow">Soňa Mokrá</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Nandwani,+H" rel="nofollow">Henna Nandwani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Onoe,+Y" rel="nofollow">Yasumasa Onoe</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=van+den+Oord,+A" rel="nofollow">Aäron van den Oord</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Parekh,+Z" rel="nofollow">Zarana Parekh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pont-Tuset,+J" rel="nofollow">Jordi Pont-Tuset</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Qi,+H" rel="nofollow">Hang Qi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Qian,+R" rel="nofollow">Rui Qian</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ramachandran,+D" rel="nofollow">Deepak Ramachandran</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rane,+P" rel="nofollow">Poorva Rane</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rashwan,+A" rel="nofollow">Abdullah Rashwan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Razavi,+A" rel="nofollow">Ali Razavi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Riachi,+R" rel="nofollow">Robert Riachi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hansa" rel="nofollow">Hansa Srinivasan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Srivatsan" rel="nofollow">Srivatsan Srinivasan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Strudel,+R" rel="nofollow">Robin Strudel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Uria,+B" rel="nofollow">Benigno Uria</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+O" rel="nofollow">Oliver Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+S" rel="nofollow">Su Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Waters,+A" rel="nofollow">Austin Waters</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wolff,+C" rel="nofollow">Chris Wolff</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wright,+A" rel="nofollow">Auriel Wright</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xiao,+Z" rel="nofollow">Zhisheng Xiao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xiong,+H" rel="nofollow">Hao Xiong</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xu,+K" rel="nofollow">Keyang Xu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=van+Zee,+M" rel="nofollow">Marc van Zee</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+J" rel="nofollow">Junlin Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+K" rel="nofollow">Katie Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhou,+W" rel="nofollow">Wenlei Zhou</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zolna,+K" rel="nofollow">Konrad Zolna</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Aboubakar,+O" rel="nofollow">Ola Aboubakar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Akbulut,+C" rel="nofollow">Canfer Akbulut</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Akerlund,+O" rel="nofollow">Oscar Akerlund</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Albuquerque,+I" rel="nofollow">Isabela Albuquerque</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Anderson,+N" rel="nofollow">Nina Anderson</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Andreetto,+M" rel="nofollow">Marco Andreetto</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Aroyo,+L" rel="nofollow">Lora Aroyo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bariach,+B" rel="nofollow">Ben Bariach</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Barker,+D" rel="nofollow">David Barker</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ben,+S" rel="nofollow">Sherry Ben</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Berman,+D" rel="nofollow">Dana Berman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Biles,+C" rel="nofollow">Courtney Biles</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Blok,+I" rel="nofollow">Irina Blok</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Botadra,+P" rel="nofollow">Pankil Botadra</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Brennan,+J" rel="nofollow">Jenny Brennan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Brown,+K" rel="nofollow">Karla Brown</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Buckley,+J" rel="nofollow">John Buckley</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bunel,+R" rel="nofollow">Rudy Bunel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bursztein,+E" rel="nofollow">Elie Bursztein</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Butterfield,+C" rel="nofollow">Christina Butterfield</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Caine,+B" rel="nofollow">Ben Caine</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Carpenter,+V" rel="nofollow">Viral Carpenter</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Casagrande,+N" rel="nofollow">Norman Casagrande</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chang,+M" rel="nofollow">Ming-Wei Chang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chang,+S" rel="nofollow">Solomon Chang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chaudhuri,+S" rel="nofollow">Shamik Chaudhuri</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+T" rel="nofollow">Tony Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Choi,+J" rel="nofollow">John Choi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Churbanau,+D" rel="nofollow">Dmitry Churbanau</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Clement,+N" rel="nofollow">Nathan Clement</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Cohen,+M" rel="nofollow">Matan Cohen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Cole,+F" rel="nofollow">Forrester Cole</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dektiarev,+M" rel="nofollow">Mikhail Dektiarev</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Du,+V" rel="nofollow">Vincent Du</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dutta,+P" rel="nofollow">Praneet Dutta</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Eccles,+T" rel="nofollow">Tom Eccles</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Elue,+N" rel="nofollow">Ndidi Elue</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Feden,+A" rel="nofollow">Ashley Feden</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fruchter,+S" rel="nofollow">Shlomi Fruchter</a>
+<script type="text/javascript">
+<!--
+function toggleAuthorList(whichLayer,toggleThis)
+{
+  var elem, vis, tempToggle;
+  tempToggle=toggleThis;
+  if( document.getElementById ) // standard
+      elem = document.getElementById( whichLayer );
+  else if( document.all ) // old msie versions
+      elem = document.all[whichLayer];
+  else if( document.layers ) // nn4
+      elem = document.layers[whichLayer];
+  vis = elem.style;
+  // if the style.display value is blank we try to figure it out here
+  if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
+    vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'inline':'none';
+  vis.display = (vis.display==''||vis.display=='inline')?'none':'inline';
+
+  // toggle link inner text
+  status = vis.display;
+  if(status=='none'){
+      document.getElementById('toggle').innerHTML = tempToggle ;
+      document.getElementById('toggle').title = "Show Entire Author List";
+  }
+  else if(status=='inline'){
+      document.getElementById('toggle').innerHTML = "(collapse list)";
+      document.getElementById('toggle').title = "Collapse Author List";
+  }
+}
+//-->
+</script>
+
+  <div id="long-author-list" style="display: none;">
+        , <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Garcia,+F" rel="nofollow">Frankie Garcia</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Garg,+R" rel="nofollow">Roopal Garg</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ge,+W" rel="nofollow">Weina Ge</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ghazy,+A" rel="nofollow">Ahmed Ghazy</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gipson,+B" rel="nofollow">Bryant Gipson</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Goodman,+A" rel="nofollow">Andrew Goodman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=G%C3%B3rny,+D" rel="nofollow">Dawid Górny</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gowal,+S" rel="nofollow">Sven Gowal</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gupta,+K" rel="nofollow">Khyatti Gupta</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Halpern,+Y" rel="nofollow">Yoni Halpern</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Han,+Y" rel="nofollow">Yena Han</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hao,+S" rel="nofollow">Susan Hao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hayes,+J" rel="nofollow">Jamie Hayes</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Heek,+J" rel="nofollow">Jonathan Heek</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hertz,+A" rel="nofollow">Amir Hertz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hirst,+E" rel="nofollow">Ed Hirst</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hoogeboom,+E" rel="nofollow">Emiel Hoogeboom</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hou,+T" rel="nofollow">Tingbo Hou</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Howard,+H" rel="nofollow">Heidi Howard</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ibrahim,+M" rel="nofollow">Mohamed Ibrahim</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ike-Njoku,+D" rel="nofollow">Dirichi Ike-Njoku</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Iljazi,+J" rel="nofollow">Joana Iljazi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ionescu,+V" rel="nofollow">Vlad Ionescu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Isaac,+W" rel="nofollow">William Isaac</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jana,+R" rel="nofollow">Reena Jana</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jennings,+G" rel="nofollow">Gemma Jennings</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jenson,+D" rel="nofollow">Donovon Jenson</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jia,+X" rel="nofollow">Xuhui Jia</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jones,+K" rel="nofollow">Kerry Jones</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ju,+X" rel="nofollow">Xiaoen Ju</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kajic,+I" rel="nofollow">Ivana Kajic</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kaplanis,+C" rel="nofollow">Christos Kaplanis</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ayan,+B+K" rel="nofollow">Burcu Karagol Ayan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kelly,+J" rel="nofollow">Jacob Kelly</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kothawade,+S" rel="nofollow">Suraj Kothawade</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kouridi,+C" rel="nofollow">Christina Kouridi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ktena,+I" rel="nofollow">Ira Ktena</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kumakaw,+J" rel="nofollow">Jolanda Kumakaw</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kurniawan,+D" rel="nofollow">Dana Kurniawan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lagun,+D" rel="nofollow">Dmitry Lagun</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lavitas,+L" rel="nofollow">Lily Lavitas</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lee,+J" rel="nofollow">Jason Lee</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+T" rel="nofollow">Tao Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liang,+M" rel="nofollow">Marco Liang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li-Calis,+M" rel="nofollow">Maggie Li-Calis</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+Y" rel="nofollow">Yuchi Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Alberca,+J+L" rel="nofollow">Javier Lopez Alberca</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lorrain,+M+K" rel="nofollow">Matthieu Kim Lorrain</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lu,+P" rel="nofollow">Peggy Lu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lum,+K" rel="nofollow">Kristian Lum</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ma,+Y" rel="nofollow">Yukun Ma</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Malik,+C" rel="nofollow">Chase Malik</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mellor,+J" rel="nofollow">John Mellor</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mensink,+T" rel="nofollow">Thomas Mensink</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mosseri,+I" rel="nofollow">Inbar Mosseri</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Murray,+T" rel="nofollow">Tom Murray</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Nematzadeh,+A" rel="nofollow">Aida Nematzadeh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Nicholas,+P" rel="nofollow">Paul Nicholas</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=N%C3%B8rly,+S" rel="nofollow">Signe Nørly</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Oliveira,+J+G" rel="nofollow">João Gabriel Oliveira</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ortiz-Jimenez,+G" rel="nofollow">Guillermo Ortiz-Jimenez</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Paganini,+M" rel="nofollow">Michela Paganini</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Paine,+T+L" rel="nofollow">Tom Le Paine</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Paiss,+R" rel="nofollow">Roni Paiss</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Parrish,+A" rel="nofollow">Alicia Parrish</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Peckham,+A" rel="nofollow">Anne Peckham</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Peswani,+V" rel="nofollow">Vikas Peswani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Petrovski,+I" rel="nofollow">Igor Petrovski</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pfaff,+T" rel="nofollow">Tobias Pfaff</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pirozhenko,+A" rel="nofollow">Alex Pirozhenko</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Poplin,+R" rel="nofollow">Ryan Poplin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Prabhu,+U" rel="nofollow">Utsav Prabhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Qi,+Y" rel="nofollow">Yuan Qi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rahtz,+M" rel="nofollow">Matthew Rahtz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rashtchian,+C" rel="nofollow">Cyrus Rashtchian</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rastogi,+C" rel="nofollow">Charvi Rastogi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Raul,+A" rel="nofollow">Amit Raul</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Razavi,+A" rel="nofollow">Ali Razavi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rebuffi,+S" rel="nofollow">Sylvestre-Alvise Rebuffi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ricco,+S" rel="nofollow">Susanna Ricco</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Riedel,+F" rel="nofollow">Felix Riedel</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Robinson,+D" rel="nofollow">Dirk Robinson</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rohatgi,+P" rel="nofollow">Pankaj Rohatgi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rosgen,+B" rel="nofollow">Bill Rosgen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rumbley,+S" rel="nofollow">Sarah Rumbley</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ryu,+M" rel="nofollow">Moonkyung Ryu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Salgado,+A" rel="nofollow">Anthony Salgado</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Salimans,+T" rel="nofollow">Tim Salimans</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Singla,+S" rel="nofollow">Sahil Singla</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Schroff,+F" rel="nofollow">Florian Schroff</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Schumann,+C" rel="nofollow">Candice Schumann</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shah,+T" rel="nofollow">Tanmay Shah</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shaw,+E" rel="nofollow">Eleni Shaw</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shaw,+G" rel="nofollow">Gregory Shaw</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shillingford,+B" rel="nofollow">Brendan Shillingford</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shivakumar,+K" rel="nofollow">Kaushik Shivakumar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shtatnov,+D" rel="nofollow">Dennis Shtatnov</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Singer,+Z" rel="nofollow">Zach Singer</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sluzhaev,+E" rel="nofollow">Evgeny Sluzhaev</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sokolov,+V" rel="nofollow">Valerii Sokolov</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sottiaux,+T" rel="nofollow">Thibault Sottiaux</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stimberg,+F" rel="nofollow">Florian Stimberg</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stone,+B" rel="nofollow">Brad Stone</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stutz,+D" rel="nofollow">David Stutz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Su,+Y" rel="nofollow">Yu-Chuan Su</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tabellion,+E" rel="nofollow">Eric Tabellion</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tang,+S" rel="nofollow">Shuai Tang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tao,+D" rel="nofollow">David Tao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Thomas,+K" rel="nofollow">Kurt Thomas</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Thornton,+G" rel="nofollow">Gregory Thornton</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Toor,+A" rel="nofollow">Andeep Toor</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Udrescu,+C" rel="nofollow">Cristian Udrescu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Upadhyay,+A" rel="nofollow">Aayush Upadhyay</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vasconcelos,+C" rel="nofollow">Cristina Vasconcelos</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vasiloff,+A" rel="nofollow">Alex Vasiloff</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Voynov,+A" rel="nofollow">Andrey Voynov</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Walker,+A" rel="nofollow">Amanda Walker</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+L" rel="nofollow">Luyu Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+M" rel="nofollow">Miaosen Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+S" rel="nofollow">Simon Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+S" rel="nofollow">Stanley Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Q" rel="nofollow">Qifei Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Y" rel="nofollow">Yuxiao Wang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Weisz,+%C3%81" rel="nofollow">Ágoston Weisz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wiles,+O" rel="nofollow">Olivia Wiles</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wu,+C" rel="nofollow">Chenxia Wu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xu,+X+F" rel="nofollow">Xingyu Federico Xu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xue,+A" rel="nofollow">Andrew Xue</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yang,+J" rel="nofollow">Jianbo Yang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yu,+L" rel="nofollow">Luo Yu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yurtoglu,+M" rel="nofollow">Mete Yurtoglu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zand,+A" rel="nofollow">Ali Zand</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+H" rel="nofollow">Han Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+J" rel="nofollow">Jiageng Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhao,+C" rel="nofollow">Catherine Zhao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhaxybay,+A" rel="nofollow">Adilet Zhaxybay</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhou,+M" rel="nofollow">Miao Zhou</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+S" rel="nofollow">Shengqi Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Z" rel="nofollow">Zhenkai Zhu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bloxwich,+D" rel="nofollow">Dawn Bloxwich</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bordbar,+M" rel="nofollow">Mahyar Bordbar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Cobo,+L+C" rel="nofollow">Luis C. Cobo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Collins,+E" rel="nofollow">Eli Collins</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dai,+S" rel="nofollow">Shengyang Dai</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Doshi,+T" rel="nofollow">Tulsee Doshi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dragan,+A" rel="nofollow">Anca Dragan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Eck,+D" rel="nofollow">Douglas Eck</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hassabis,+D" rel="nofollow">Demis Hassabis</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hsiao,+S" rel="nofollow">Sissie Hsiao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hume,+T" rel="nofollow">Tom Hume</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kavukcuoglu,+K" rel="nofollow">Koray Kavukcuoglu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=King,+H" rel="nofollow">Helen King</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Krawczyk,+J" rel="nofollow">Jack Krawczyk</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+Y" rel="nofollow">Yeqing Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Meier-Hellstern,+K" rel="nofollow">Kathy Meier-Hellstern</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Orban,+A" rel="nofollow">Andras Orban</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pinsky,+Y" rel="nofollow">Yury Pinsky</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Subramanya,+A" rel="nofollow">Amar Subramanya</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vinyals,+O" rel="nofollow">Oriol Vinyals</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yu,+T" rel="nofollow">Ting Yu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zwols,+Y" rel="nofollow">Yori Zwols</a>
+  </div>
+  <a href="javascript:toggleAuthorList('long-author-list','et al. (161 additional authors not shown)');"
+     title="Show Entire Author List" id="toggle">
+    et al. (161 additional authors not shown)</a>
+  <noscript>&nbsp;You must enable JavaScript to view entire author list.</noscript></div>            <div id="download-button-info" hidden>View a PDF of the paper titled Imagen 3, by Imagen-Team-Google: Jason Baldridge and 259 other authors</div>
+    <a class="mobile-submission-download" href="/pdf/2408.07009v3">View PDF</a>
+
+
+
+    <blockquote class="abstract mathjax">
+            <span class="descriptor">Abstract:</span>We introduce Imagen 3, a latent diffusion model that generates high quality images from text prompts. We describe our quality and responsibility evaluations. Imagen 3 is preferred over other state-of-the-art (SOTA) models at the time of evaluation. In addition, we discuss issues around safety and representation, as well as methods we used to minimize the potential harm of our models.
+    </blockquote>
+
+    <!--CONTEXT-->
+    <div class="metatable">
+      <table summary="Additional metadata"><tr>
+          <td class="tablecell label">Subjects:</td>
+          <td class="tablecell subjects">
+            <span class="primary-subject">Computer Vision and Pattern Recognition (cs.CV)</span></td>
+        </tr><tr>
+          <td class="tablecell label">Cite as:</td>
+          <td class="tablecell arxivid"><span class="arxivid"><a href="https://arxiv.org/abs/2408.07009">arXiv:2408.07009</a> [cs.CV]</span></td>
+        </tr>
+        <tr>
+          <td class="tablecell label">&nbsp;</td>
+          <td class="tablecell arxividv">(or <span class="arxivid">
+              <a href="https://arxiv.org/abs/2408.07009v3">arXiv:2408.07009v3</a> [cs.CV]</span> for this version)
+          </td>
+        </tr>
+        <tr>
+          <td class="tablecell label">&nbsp;</td>
+          <td class="tablecell arxivdoi">              <a href="https://doi.org/10.48550/arXiv.2408.07009"  id="arxiv-doi-link">https://doi.org/10.48550/arXiv.2408.07009</a><div class="button-and-tooltip">
+              <button class="more-info" aria-describedby="more-info-desc-1">
+                <svg height="15" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z" class=""></path></svg>
+                <span class="visually-hidden">Focus to learn more</span>
+              </button>
+              <!-- tooltip description -->
+              <div role="tooltip" id="more-info-desc-1">
+                <span class="left-corner"></span>                  arXiv-issued DOI via DataCite</div>
+            </div>
+          </td>
+        </tr></table>
+    </div>
+  </div>
+</div>
+    <div class="submission-history">
+      <h2>Submission history</h2> From: Jordi Pont-Tuset [<a href="/show-email/9af240a6/2408.07009" rel="nofollow">view email</a>]      <br/>            <strong><a href="/abs/2408.07009v1" rel="nofollow">[v1]</a></strong>
+        Tue, 13 Aug 2024 16:15:50 UTC (48,685 KB)<br/>
+            <strong><a href="/abs/2408.07009v2" rel="nofollow">[v2]</a></strong>
+        Fri, 13 Dec 2024 13:56:20 UTC (29,948 KB)<br/>
+    <strong>[v3]</strong>
+        Sat, 21 Dec 2024 20:22:43 UTC (29,948 KB)<br/>
+</div>
+  </div>
+  <!--end leftcolumn-->
+<div class="extra-services">    <div class="full-text">
+      <a name="other"></a>
+      <span class="descriptor">Full-text links:</span>
+      <h2>Access Paper:</h2>
+      <ul>
+  <div id="download-button-info" hidden>
+View a PDF of the paper titled Imagen 3, by Imagen-Team-Google: Jason Baldridge and 259 other authors</div><li><a href="/pdf/2408.07009v3" aria-describedby="download-button-info" accesskey="f" class="abs-button download-pdf">View PDF</a></li><li><a href="/src/2408.07009v3" class="abs-button download-eprint">TeX Source
+ </a></li></ul>
+      <div class="abs-license"><a href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article" class="has_license">
+          <img alt="license icon" role="presentation" src="https://arxiv.org/icons/licenses/by-4.0.png"/>
+          <span>view license</span>
+        </a></div>
+    </div>
+    <!--end full-text-->    <div class="browse">
+    Current browse context: <div class="current">cs.CV</div>
+
+  <div class="prevnext">
+<span class="arrow">
+      <a class="abs-button prev-url" href="/prevnext?id=2408.07009&amp;function=prev&amp;context=cs.CV"
+         accesskey="p" title="previous in cs.CV (accesskey p)" rel="nofollow">&lt;&nbsp;prev</a>
+    </span>
+    <span class="is-hidden-mobile">&nbsp; | &nbsp;</span>    <span class="arrow">
+      <a class="abs-button next-url" href="/prevnext?id=2408.07009&amp;function=next&amp;context=cs.CV" accesskey="n"
+         title="next in cs.CV (accesskey n)"  rel="nofollow">next&nbsp;&gt;</a>
+    </span><br/>
+  </div><div class="list">
+    <a class="abs-button abs-button-grey abs-button-small context-new" href="/list/cs.CV/new"  rel="nofollow">new</a>
+    <span class="is-hidden-mobile"> | </span>
+    <a class="abs-button abs-button-grey abs-button-small context-recent" href="/list/cs.CV/recent" rel="nofollow">recent</a>
+    <span class="is-hidden-mobile"> | </span><a class="abs-button abs-button-grey abs-button-small context-id" href="/list/cs.CV/2024-08" rel="nofollow">2024-08</a>
+  </div><div class="abs-switch-cat">
+    Change to browse by:
+    <div class="switch context-change">
+        <a href="/abs/2408.07009?context=cs" rel="nofollow">cs</a><br class="is-hidden-mobile">
+    </div>
+  </div>
+
+    </div>
+      <div class="extra-ref-cite">
+        <h3>References &amp; Citations</h3>
+        <ul>
+          <li><a  class="abs-button abs-button-small cite-ads" href="https://ui.adsabs.harvard.edu/abs/arXiv:2408.07009">NASA ADS</a></li><li><a  class="abs-button abs-button-small cite-google-scholar" href="https://scholar.google.com/scholar_lookup?arxiv_id=2408.07009" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a  class="abs-button abs-button-small cite-semantic-scholar" href="https://api.semanticscholar.org/arXiv:2408.07009" target="_blank" rel="noopener">Semantic Scholar</a></li>
+        </ul>
+        <div style="clear:both;"></div>
+      </div>
+
+<div class='extra-ref-cite'>
+    <span id='bib-cite-trigger' class="bib-cite-button abs-button">export BibTeX citation</span>
+    <span id='bib-cite-loading' hidden='true'>Loading...</span>
+</div>
+
+<div id='bib-cite-modal' class='bib-modal' hidden='true'>
+    <div class='bib-modal-content'>
+        <div class='bib-modal-title'>
+            <h2>BibTeX formatted citation</h2>
+            <span class='bib-modal-close' >&times;</span>
+        </div>
+        <div>
+            <textarea id='bib-cite-target' class="bib-citation-content" aria-label="loading the citation">loading...</textarea>
+        </div>
+        <div>
+            <span>Data provided by: </span>
+            <a id='bib-cite-source-api'></a>
+        </div>
+    </div>
+</div><div class="bookmarks">
+  <div><h3>Bookmark</h3></div><a class="abs-button abs-button-grey abs-button-small" href="http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2408.07009&amp;description=Imagen 3"
+     title="Bookmark on BibSonomy">
+    <img src="/static/browse/0.3.4/images/icons/social/bibsonomy.png"
+         alt="BibSonomy logo"/>
+  </a>
+  <a class="abs-button abs-button-grey abs-button-small" href="https://reddit.com/submit?url=https://arxiv.org/abs/2408.07009&amp;title=Imagen 3"
+     title="Bookmark on Reddit">
+    <img src="/static/browse/0.3.4/images/icons/social/reddit.png"
+         alt="Reddit logo"/>
+  </a>
+</div>  </div>
+  <!--end extra-services-->
+<!-- LABS AREA -->
+<div id="labstabs">
+  <div class="labstabs"><input type="radio" name="tabs" id="tabone"checked="checked">
+    <label for="tabone">Bibliographic Tools</label>
+    <div class="tab labs-display-bib">
+      <h1>Bibliographic and Citation Tools</h1>
+      <div class="toggle">
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="bibex-toggle" type="checkbox" class="lab-toggle"
+                     data-script-url="/static/browse/0.3.4/bibex/bibex.js?20241202">
+              <span class="slider"></span>
+              <span class="is-sr-only">Bibliographic Explorer Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-bibex">Bibliographic Explorer</span> <em>(<a href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em>
+          </div>
+        </div>
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="connectedpapers-toggle"
+                type="checkbox"
+                class="lab-toggle"
+                data-script-url="/static/browse/0.3.4/js/connectedpapers.js"
+                aria-labelledby="label-for-connected-papers">
+              <span class="slider"></span>
+              <span class="is-sr-only">Connected Papers Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-connected-papers">Connected Papers</span> <em>(<a href="https://www.connectedpapers.com/about" target="_blank">What is Connected Papers?</a>)</em>
+          </div>
+        </div><div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="litmaps-toggle"
+                type="checkbox"
+                class="lab-toggle"
+                data-script-url="/static/browse/0.3.4/js/litmaps.js?20210617"
+                aria-labelledby="label-for-litmaps">
+              <span class="slider"></span>
+              <span class="is-sr-only">Litmaps Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-litmaps">Litmaps</span> <em>(<a href="https://www.litmaps.co/" target="_blank">What is Litmaps?</a>)</em>
+          </div>
+        </div>
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="scite-toggle"
+                type="checkbox"
+                class="lab-toggle"
+                data-script-url="/static/browse/0.3.4/js/scite.js?20210617"
+                aria-labelledby="label-for-scite">
+              <span class="slider"></span>
+              <span class="is-sr-only">scite.ai Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-scite">scite Smart Citations</span> <em>(<a href="https://www.scite.ai/" target="_blank">What are Smart Citations?</a>)</em>
+          </div>
+        </div>
+      </div>
+        <div class="labs-content-placeholder labs-display" style="display: none;"></div>
+        <div style="min-height: 15px" id="connectedpapers-output"></div>
+        <div style="min-height: 15px" id="litmaps-open-in"></div>
+        <div style="min-height: 15px" id="scite-open-in"></div>
+    </div>
+
+
+    <input type="radio" name="tabs" id="tabtwo">
+    <label for="tabtwo">Code, Data, Media</label>
+    <div class="tab">
+      <h1>Code, Data and Media Associated with this Article</h1>
+      <div class="toggle">
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="alphaxiv-toggle"
+                data-script-url="/static/browse/0.3.4/js/alphaxiv.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-alphaxiv">
+              <span class="slider"></span>
+              <span class="is-sr-only">alphaXiv Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-alphaxiv">alphaXiv</span> <em>(<a href="https://alphaxiv.org/" target="_blank">What is alphaXiv?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input        
+                id="catalyzex-toggle"
+                data-script-url="/static/browse/0.3.4/js/catalyzex.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-cx">
+              <span class="slider"></span>
+              <span class="is-sr-only">Links to Code Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-cx">CatalyzeX Code Finder for Papers</span> <em>(<a href="https://www.catalyzex.com" target="_blank">What is CatalyzeX?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="dagshub-toggle"
+                data-script-url="/static/browse/0.3.4/js/dagshub.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-dagshub">
+              <span class="slider"></span>
+              <span class="is-sr-only">DagsHub Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-dagshub">DagsHub</span> <em>(<a href="https://dagshub.com/" target="_blank">What is DagsHub?</a>)</em>
+          </div>
+        </div>
+  
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="gotitpub-toggle"
+                data-script-url="/static/browse/0.3.4/js/gotitpub.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-gotitpub">
+              <span class="slider"></span>
+              <span class="is-sr-only">GotitPub Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-gotitpub">Gotit.pub</span> <em>(<a href="http://gotit.pub/faq" target="_blank">What is GotitPub?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="huggingface-toggle"
+                data-script-url="/static/browse/0.3.4/js/huggingface.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-huggingface">
+              <span class="slider"></span>
+              <span class="is-sr-only">Huggingface Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-huggingface">Hugging Face</span> <em>(<a href="https://huggingface.co/huggingface" target="_blank">What is Huggingface?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="paperwithcode-toggle"
+                data-script-url="/static/browse/0.3.4/js/paperswithcode.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-pwc">
+              <span class="slider"></span>
+              <span class="is-sr-only">Links to Code Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-pwc">Papers with Code</span> <em>(<a href="https://paperswithcode.com/" target="_blank">What is Papers with Code?</a>)</em>
+          </div>
+        </div>
+
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="sciencecast-toggle"
+                data-script-url="/static/browse/0.3.4/js/sciencecast.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-sciencecast">
+              <span class="slider"></span>
+              <span class="is-sr-only">ScienceCast Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-sciencecast">ScienceCast</span> <em>(<a href="https://sciencecast.org/welcome" target="_blank">What is ScienceCast?</a>)</em>
+          </div>
+        </div>
+      </div>
+
+      <div id="alphaxiv-output" style="display:none"></div>
+      <div id="catalyzex-output" style="display:none"></div>
+      <div id="dagshub-output" style="display:none"></div>
+      <div id="gotitpub-output" style="display:none"></div>
+      <div id="pwc-output" style="display:none"></div>
+      <div id="pwc-data-output" style="display:none"></div>
+      <div id="sciencecast-output" style="display:none"></div>
+      <div id="huggingface-output" style="display:none"></div>
+    </div>
+
+
+      <input type="radio" name="tabs" id="labstabs-demos-input">
+      <label for="labstabs-demos-input" id="labstabs-demos-label">Demos</label>
+      <div class="tab">
+        <h1>Demos</h1>
+        <div class="toggle">
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input
+                  id="replicate-toggle"
+                  data-script-url="/static/browse/0.3.4/js/replicate.js"
+                  type="checkbox" class="lab-toggle" aria-labelledby="label-for-replicate">
+                <span class="slider"></span>
+                <span class="is-sr-only">Replicate Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-replicate">Replicate</span> <em>(<a href="https://replicate.com/docs/arxiv/about" target="_blank">What is Replicate?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input
+                  id="spaces-toggle"
+                  data-script-url="/static/browse/0.3.4/js/spaces.js"
+                  type="checkbox" class="lab-toggle" aria-labelledby="label-for-spaces">
+                <span class="slider"></span>
+                <span class="is-sr-only">Spaces Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-spaces">Hugging Face Spaces</span> <em>(<a href="https://huggingface.co/docs/hub/spaces" target="_blank">What is Spaces?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input
+                  id="txyz-toggle"
+                  data-script-url="/static/browse/0.3.4/js/txyz.js"
+                  type="checkbox" class="lab-toggle" aria-labelledby="label-for-txyz">
+                <span class="slider"></span>
+                <span class="is-sr-only">Spaces Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-txyz">TXYZ.AI</span> <em>(<a href="https://txyz.ai" target="_blank">What is TXYZ.AI?</a>)</em>
+            </div>
+          </div>
+        </div>
+        <div id="replicate-output"></div>
+        <div id="spaces-output"></div>
+        <div id="txyz-output"></div>
+      </div>
+      <input type="radio" name="tabs" id="tabfour">
+      <label for="tabfour">Related Papers</label>
+      <div class="tab">
+        <h1>Recommenders and Search Tools</h1>
+        <div class="toggle">
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="influenceflower-toggle"
+                data-script-url="/static/browse/0.3.4/js/influenceflower.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-influenceflower">
+                <span class="slider"></span>
+                <span class="is-sr-only">Link to Influence Flower</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-influenceflower">Influence Flower</span> <em>(<a href="https://influencemap.cmlab.dev/" target="_blank">What are Influence Flowers?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="core-recommender-toggle" type="checkbox" class="lab-toggle" aria-labelledby="label-for-core">
+                <span class="slider"></span>
+                <span class="is-sr-only">Core recommender toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-core">CORE Recommender</span> <em>(<a href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em>
+            </div>
+          </div></div>
+        <div id="influenceflower-output"></div>
+        <div id="influenceflower-output-graph" style="display:none">
+          <ul class="flower-tabs">
+            <li class="active"><a class="btn tab-btn" onclick="openTab(event, 'tab-author')">Author</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, 'tab-venue')">Venue</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, 'tab-inst')">Institution</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, 'tab-topic')">Topic</a></li>
+          </ul>
+          <div class="flower-tab-content">
+            <div class="tab-flower active" id="tab-author"><svg id="flower-graph-author"></svg></div>
+            <div class="tab-flower" id="tab-venue"><svg id="flower-graph-venue"></svg></div>
+            <div class="tab-flower" id="tab-inst"><svg id="flower-graph-inst"></svg></div>
+            <div class="tab-flower" id="tab-topic"><svg id="flower-graph-topic"></svg></div>
+          </div>
+        </div>
+        <div id="coreRecommenderOutput"></div>
+        <div id="iarxivOutput"></div>
+      </div>
+
+      <input type="radio" name="tabs" id="tabfive">
+      <label for="tabfive">
+        About arXivLabs
+      </label>
+      <div class="tab">
+        <div class="columns">
+          <div class="column">
+            <h1>arXivLabs: experimental projects with community collaborators</h1>
+            <p>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+            <p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+            <p>Have an idea for a project that will add value for arXiv's community? <a href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+          </div>
+          <div class="column is-narrow is-full-mobile">
+            <p class="icon-labs"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 635.572 811"><path d="M175.6 676v27h-27v-27zm-54 27v27h27v-27zm-27 27v27h27v-27zm396-54v27h-27v-27zm0 27v27h27v-27zm27 27v27h27v-27zm-27-414h27v27h-27zm27 0h27v-27h-27zm27-27h27v-27h-27zm-396 45h-27v-27h27zm-27-54h-27v27h27zm-27-27h-27v27h27z"/><path d="M94.6 730v27h-27v-27zm477 0v27h-27v-27zm-27-495h27v27h-27zm-450 18h-27v-27h27zm477 9h27v27h-27zm-54 495h27v27h-27zm-423 0h27v27h-27zm-54-504h27v27h-27z" fill="#666"/><path d="M67.6 730v27h-27v-27zm54 54v27h-27v-27zm0-108v27h27v-27zm-27 27v27h27v-27zm-81 0v27h27v-27zm585 27v27h-27v-27zm-108-54v27h27v-27zm27 27v27h27v-27zm81 0v27h27v-27zm-54-495h27v27h-27zm-54 108h27v-27h-27zm27-27h27v-27h-27zm0-81h27v-27h-27zm-423 18h-27v-27h27zm54 54h-27v27h27zm-27-27h-27v27h27zm0-81h-27v27h27zm423 612v27h-27v-27zm81-522v27h-27v-27zm-585-9v27h-27v-27z" fill="#999"/><path d="M94.6 784v27h-27v-27zm-27-27v27h27v-27zm-27-54v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm-108 81v27h27v-27zm558 54v27h-27v-27zm-27-27v27h27v-27zm27-54v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm108 81v27h27v-27zm0-495h27v27h-27zm-27 27h27v-27h-27zm-54-27h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm81-108h27v-27h-27zm-504 45h-27v-27h27zm27-27h-27v27h27zm54-27h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm-81-108h-27v27h27z" fill="#ccc"/><path d="M598.6 665.1H41.5C-76.5 667 176 280.2 176 280.2h53a46.5 46.5 0 0162.8-56.3 29.2 29.2 0 1128.5 35.9h-1a46.5 46.5 0 01-1.5 20.3l142.5-.1s255.3 387 138.3 385.1zM291 181a29.3 29.3 0 10-29.2-29.3A29.3 29.3 0 00291 181zm65.4-66.8a22.4 22.4 0 10-22.5-22.4 22.4 22.4 0 0022.5 22.4z" fill="#fc0"/><path d="M245.5 172V10h153v162s324 495 198 495h-558c-126 0 207-495 207-495zm126 54h56m-13 72h56m-9 72h56m-20 72h56m-22 72h56m-29 72h56m-457-45c20.8 41.7 87.3 81 160.7 81 72.1 0 142.1-38.2 163.4-81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="20"/><path d="M273.3 421.7c0 31-9.8 56.3-21.9 56.3s-21.8-25.2-21.8-56.3 9.8-56.3 21.8-56.3 21.9 25.2 21.9 56.3zm114.4-56.3c-12 0-21.8 25.2-21.8 56.3s9.7 56.3 21.8 56.3 21.9-25.2 21.9-56.3-9.8-56.3-21.9-56.3zM150.1 526.6c-18.2 6.7-27.5 22.9-23.2 30.2s14.8-5.5 33-12.2 37.4-4.9 33-12.2-24.5-12.6-42.8-5.8zm296 5.8c-4.2 7.3 14.9 5.5 33.1 12.2s28.7 19.5 33 12.2-5-23.5-23.2-30.2-38.5-1.5-42.8 5.8z"/></svg></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+<!-- END LABS AREA -->
+  <div class="endorsers">
+    <a href="/auth/show-endorsers/2408.07009" class="endorser-who" rel="nofollow">Which authors of this paper are endorsers?</a> |
+    <a id="mathjax_toggle" href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)
+    <span class="help" style="font-style: normal; float: right; margin-top: 0; margin-right: 1em;"></span>
+  </div>
+  <script type="text/javascript" language="javascript">mathjaxToggle();</script>
+</div>
+      </div>
+    </main>
+
+    <footer style="clear: both;">
+      <div class="columns is-desktop" role="navigation" aria-label="Secondary" style="margin: -0.75em -0.75em 0.75em -0.75em">
+        <!-- Macro-Column 1 -->
+        <div class="column" style="padding: 0;">
+          <div class="columns">
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/about">About</a></li>
+                <li><a href="https://info.arxiv.org/help">Help</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                  <a href="https://info.arxiv.org/help/contact.html"> Contact</a>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                  <a href="https://info.arxiv.org/help/subscribe"> Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Macro-Column 1 -->
+        <!-- Macro-Column 2 -->
+        <div class="column" style="padding: 0;">
+          <div class="columns">
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/help/license/index.html">Copyright</a></li>
+                <li><a href="https://info.arxiv.org/help/policies/privacy_policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="column sorry-app-links">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/help/web_accessibility.html">Web Accessibility Assistance</a></li>
+                <li>
+                  <p class="help">
+                    <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- end MetaColumn 2 -->
+        <!-- End Macro-Column 2 -->
+      </div>
+    </footer>
+  </div>
+
+  <script src="/static/base/1.0.1/js/member_acknowledgement.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,3014 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T9O6vfIjlpRhf/i+N4e376sMV0w</id>
+  <title>arXiv Query: search_query=au:"Fei-Fei Li"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T23:25:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Fei-Fei+Li%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>218</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.17994v2</id>
+    <title>ZeroNVS: Zero-Shot 360-Degree View Synthesis from a Single Image</title>
+    <updated>2024-04-24T01:08:12Z</updated>
+    <link href="https://arxiv.org/abs/2310.17994v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.17994v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a 3D-aware diffusion model, ZeroNVS, for single-image novel view synthesis for in-the-wild scenes. While existing methods are designed for single objects with masked backgrounds, we propose new techniques to address challenges introduced by in-the-wild multi-object scenes with complex backgrounds. Specifically, we train a generative prior on a mixture of data sources that capture object-centric, indoor, and outdoor scenes. To address issues from data mixture such as depth-scale ambiguity, we propose a novel camera conditioning parameterization and normalization scheme. Further, we observe that Score Distillation Sampling (SDS) tends to truncate the distribution of complex backgrounds during distillation of 360-degree scenes, and propose "SDS anchoring" to improve the diversity of synthesized novel views. Our model sets a new state-of-the-art result in LPIPS on the DTU dataset in the zero-shot setting, even outperforming methods specifically trained on DTU. We further adapt the challenging Mip-NeRF 360 dataset as a new benchmark for single-image novel view synthesis, and demonstrate strong performance in this setting. Our code and data are at http://kylesargent.github.io/zeronvs/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-27T09:06:43Z</published>
+    <arxiv:comment>Accepted to CVPR 2024. 12 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kyle Sargent</name>
+    </author>
+    <author>
+      <name>Zizhang Li</name>
+    </author>
+    <author>
+      <name>Tanmay Shah</name>
+    </author>
+    <author>
+      <name>Charles Herrmann</name>
+    </author>
+    <author>
+      <name>Hong-Xing Yu</name>
+    </author>
+    <author>
+      <name>Yunzhi Zhang</name>
+    </author>
+    <author>
+      <name>Eric Ryan Chan</name>
+    </author>
+    <author>
+      <name>Dmitry Lagun</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Deqing Sun</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08864v9</id>
+    <title>Open X-Embodiment: Robotic Learning Datasets and RT-X Models</title>
+    <updated>2025-05-14T15:22:36Z</updated>
+    <link href="https://arxiv.org/abs/2310.08864v9" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08864v9" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large, high-capacity models trained on diverse datasets have shown remarkable successes on efficiently tackling downstream applications. In domains from NLP to Computer Vision, this has led to a consolidation of pretrained models, with general pretrained backbones serving as a starting point for many applications. Can such a consolidation happen in robotics? Conventionally, robotic learning methods train a separate model for every application, every robot, and even every environment. Can we instead train generalist X-robot policy that can be adapted efficiently to new robots, tasks, and environments? In this paper, we provide datasets in standardized data formats and models to make it possible to explore this possibility in the context of robotic manipulation, alongside experimental results that provide an example of effective X-robot policies. We assemble a dataset from 22 different robots collected through a collaboration between 21 institutions, demonstrating 527 skills (160266 tasks). We show that a high-capacity model trained on this data, which we call RT-X, exhibits positive transfer and improves the capabilities of multiple robots by leveraging experience from other platforms. More details can be found on the project website https://robotics-transformer-x.github.io.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-13T05:20:40Z</published>
+    <arxiv:comment>Project website: https://robotics-transformer-x.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Open X-Embodiment Collaboration</name>
+    </author>
+    <author>
+      <name>Abby O'Neill</name>
+    </author>
+    <author>
+      <name>Abdul Rehman</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Abhiram Maddukuri</name>
+    </author>
+    <author>
+      <name>Abhishek Gupta</name>
+    </author>
+    <author>
+      <name>Abhishek Padalkar</name>
+    </author>
+    <author>
+      <name>Abraham Lee</name>
+    </author>
+    <author>
+      <name>Acorn Pooley</name>
+    </author>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Ajinkya Jain</name>
+    </author>
+    <author>
+      <name>Albert Tung</name>
+    </author>
+    <author>
+      <name>Alex Bewley</name>
+    </author>
+    <author>
+      <name>Alex Herzog</name>
+    </author>
+    <author>
+      <name>Alex Irpan</name>
+    </author>
+    <author>
+      <name>Alexander Khazatsky</name>
+    </author>
+    <author>
+      <name>Anant Rai</name>
+    </author>
+    <author>
+      <name>Anchit Gupta</name>
+    </author>
+    <author>
+      <name>Andrew Wang</name>
+    </author>
+    <author>
+      <name>Andrey Kolobov</name>
+    </author>
+    <author>
+      <name>Anikait Singh</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Aniruddha Kembhavi</name>
+    </author>
+    <author>
+      <name>Annie Xie</name>
+    </author>
+    <author>
+      <name>Anthony Brohan</name>
+    </author>
+    <author>
+      <name>Antonin Raffin</name>
+    </author>
+    <author>
+      <name>Archit Sharma</name>
+    </author>
+    <author>
+      <name>Arefeh Yavary</name>
+    </author>
+    <author>
+      <name>Arhan Jain</name>
+    </author>
+    <author>
+      <name>Ashwin Balakrishna</name>
+    </author>
+    <author>
+      <name>Ayzaan Wahid</name>
+    </author>
+    <author>
+      <name>Ben Burgess-Limerick</name>
+    </author>
+    <author>
+      <name>Beomjoon Kim</name>
+    </author>
+    <author>
+      <name>Bernhard Schölkopf</name>
+    </author>
+    <author>
+      <name>Blake Wulfe</name>
+    </author>
+    <author>
+      <name>Brian Ichter</name>
+    </author>
+    <author>
+      <name>Cewu Lu</name>
+    </author>
+    <author>
+      <name>Charles Xu</name>
+    </author>
+    <author>
+      <name>Charlotte Le</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Chenfeng Xu</name>
+    </author>
+    <author>
+      <name>Cheng Chi</name>
+    </author>
+    <author>
+      <name>Chenguang Huang</name>
+    </author>
+    <author>
+      <name>Christine Chan</name>
+    </author>
+    <author>
+      <name>Christopher Agia</name>
+    </author>
+    <author>
+      <name>Chuer Pan</name>
+    </author>
+    <author>
+      <name>Chuyuan Fu</name>
+    </author>
+    <author>
+      <name>Coline Devin</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Daniel Morton</name>
+    </author>
+    <author>
+      <name>Danny Driess</name>
+    </author>
+    <author>
+      <name>Daphne Chen</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+    <author>
+      <name>Dhruv Shah</name>
+    </author>
+    <author>
+      <name>Dieter Büchler</name>
+    </author>
+    <author>
+      <name>Dinesh Jayaraman</name>
+    </author>
+    <author>
+      <name>Dmitry Kalashnikov</name>
+    </author>
+    <author>
+      <name>Dorsa Sadigh</name>
+    </author>
+    <author>
+      <name>Edward Johns</name>
+    </author>
+    <author>
+      <name>Ethan Foster</name>
+    </author>
+    <author>
+      <name>Fangchen Liu</name>
+    </author>
+    <author>
+      <name>Federico Ceola</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Feiyu Zhao</name>
+    </author>
+    <author>
+      <name>Felipe Vieira Frujeri</name>
+    </author>
+    <author>
+      <name>Freek Stulp</name>
+    </author>
+    <author>
+      <name>Gaoyue Zhou</name>
+    </author>
+    <author>
+      <name>Gaurav S. Sukhatme</name>
+    </author>
+    <author>
+      <name>Gautam Salhotra</name>
+    </author>
+    <author>
+      <name>Ge Yan</name>
+    </author>
+    <author>
+      <name>Gilbert Feng</name>
+    </author>
+    <author>
+      <name>Giulio Schiavi</name>
+    </author>
+    <author>
+      <name>Glen Berseth</name>
+    </author>
+    <author>
+      <name>Gregory Kahn</name>
+    </author>
+    <author>
+      <name>Guangwen Yang</name>
+    </author>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>Hao Su</name>
+    </author>
+    <author>
+      <name>Hao-Shu Fang</name>
+    </author>
+    <author>
+      <name>Haochen Shi</name>
+    </author>
+    <author>
+      <name>Henghui Bao</name>
+    </author>
+    <author>
+      <name>Heni Ben Amor</name>
+    </author>
+    <author>
+      <name>Henrik I Christensen</name>
+    </author>
+    <author>
+      <name>Hiroki Furuta</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Homer Walke</name>
+    </author>
+    <author>
+      <name>Hongjie Fang</name>
+    </author>
+    <author>
+      <name>Huy Ha</name>
+    </author>
+    <author>
+      <name>Igor Mordatch</name>
+    </author>
+    <author>
+      <name>Ilija Radosavovic</name>
+    </author>
+    <author>
+      <name>Isabel Leal</name>
+    </author>
+    <author>
+      <name>Jacky Liang</name>
+    </author>
+    <author>
+      <name>Jad Abou-Chakra</name>
+    </author>
+    <author>
+      <name>Jaehyung Kim</name>
+    </author>
+    <author>
+      <name>Jaimyn Drake</name>
+    </author>
+    <author>
+      <name>Jan Peters</name>
+    </author>
+    <author>
+      <name>Jan Schneider</name>
+    </author>
+    <author>
+      <name>Jasmine Hsu</name>
+    </author>
+    <author>
+      <name>Jay Vakil</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+    <author>
+      <name>Jeffrey Bingham</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Jensen Gao</name>
+    </author>
+    <author>
+      <name>Jiaheng Hu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Jialin Wu</name>
+    </author>
+    <author>
+      <name>Jiankai Sun</name>
+    </author>
+    <author>
+      <name>Jianlan Luo</name>
+    </author>
+    <author>
+      <name>Jiayuan Gu</name>
+    </author>
+    <author>
+      <name>Jie Tan</name>
+    </author>
+    <author>
+      <name>Jihoon Oh</name>
+    </author>
+    <author>
+      <name>Jimmy Wu</name>
+    </author>
+    <author>
+      <name>Jingpei Lu</name>
+    </author>
+    <author>
+      <name>Jingyun Yang</name>
+    </author>
+    <author>
+      <name>Jitendra Malik</name>
+    </author>
+    <author>
+      <name>João Silvério</name>
+    </author>
+    <author>
+      <name>Joey Hejna</name>
+    </author>
+    <author>
+      <name>Jonathan Booher</name>
+    </author>
+    <author>
+      <name>Jonathan Tompson</name>
+    </author>
+    <author>
+      <name>Jonathan Yang</name>
+    </author>
+    <author>
+      <name>Jordi Salvador</name>
+    </author>
+    <author>
+      <name>Joseph J. Lim</name>
+    </author>
+    <author>
+      <name>Junhyek Han</name>
+    </author>
+    <author>
+      <name>Kaiyuan Wang</name>
+    </author>
+    <author>
+      <name>Kanishka Rao</name>
+    </author>
+    <author>
+      <name>Karl Pertsch</name>
+    </author>
+    <author>
+      <name>Karol Hausman</name>
+    </author>
+    <author>
+      <name>Keegan Go</name>
+    </author>
+    <author>
+      <name>Keerthana Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Ken Goldberg</name>
+    </author>
+    <author>
+      <name>Kendra Byrne</name>
+    </author>
+    <author>
+      <name>Kenneth Oslund</name>
+    </author>
+    <author>
+      <name>Kento Kawaharazuka</name>
+    </author>
+    <author>
+      <name>Kevin Black</name>
+    </author>
+    <author>
+      <name>Kevin Lin</name>
+    </author>
+    <author>
+      <name>Kevin Zhang</name>
+    </author>
+    <author>
+      <name>Kiana Ehsani</name>
+    </author>
+    <author>
+      <name>Kiran Lekkala</name>
+    </author>
+    <author>
+      <name>Kirsty Ellis</name>
+    </author>
+    <author>
+      <name>Krishan Rana</name>
+    </author>
+    <author>
+      <name>Krishnan Srinivasan</name>
+    </author>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Kunal Pratap Singh</name>
+    </author>
+    <author>
+      <name>Kuo-Hao Zeng</name>
+    </author>
+    <author>
+      <name>Kyle Hatch</name>
+    </author>
+    <author>
+      <name>Kyle Hsu</name>
+    </author>
+    <author>
+      <name>Laurent Itti</name>
+    </author>
+    <author>
+      <name>Lawrence Yunliang Chen</name>
+    </author>
+    <author>
+      <name>Lerrel Pinto</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Liam Tan</name>
+    </author>
+    <author>
+      <name>Linxi "Jim" Fan</name>
+    </author>
+    <author>
+      <name>Lionel Ott</name>
+    </author>
+    <author>
+      <name>Lisa Lee</name>
+    </author>
+    <author>
+      <name>Luca Weihs</name>
+    </author>
+    <author>
+      <name>Magnum Chen</name>
+    </author>
+    <author>
+      <name>Marion Lepert</name>
+    </author>
+    <author>
+      <name>Marius Memmel</name>
+    </author>
+    <author>
+      <name>Masayoshi Tomizuka</name>
+    </author>
+    <author>
+      <name>Masha Itkina</name>
+    </author>
+    <author>
+      <name>Mateo Guaman Castro</name>
+    </author>
+    <author>
+      <name>Max Spero</name>
+    </author>
+    <author>
+      <name>Maximilian Du</name>
+    </author>
+    <author>
+      <name>Michael Ahn</name>
+    </author>
+    <author>
+      <name>Michael C. Yip</name>
+    </author>
+    <author>
+      <name>Mingtong Zhang</name>
+    </author>
+    <author>
+      <name>Mingyu Ding</name>
+    </author>
+    <author>
+      <name>Minho Heo</name>
+    </author>
+    <author>
+      <name>Mohan Kumar Srirama</name>
+    </author>
+    <author>
+      <name>Mohit Sharma</name>
+    </author>
+    <author>
+      <name>Moo Jin Kim</name>
+    </author>
+    <author>
+      <name>Muhammad Zubair Irshad</name>
+    </author>
+    <author>
+      <name>Naoaki Kanazawa</name>
+    </author>
+    <author>
+      <name>Nicklas Hansen</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Nikhil J Joshi</name>
+    </author>
+    <author>
+      <name>Niko Suenderhauf</name>
+    </author>
+    <author>
+      <name>Ning Liu</name>
+    </author>
+    <author>
+      <name>Norman Di Palo</name>
+    </author>
+    <author>
+      <name>Nur Muhammad Mahi Shafiullah</name>
+    </author>
+    <author>
+      <name>Oier Mees</name>
+    </author>
+    <author>
+      <name>Oliver Kroemer</name>
+    </author>
+    <author>
+      <name>Osbert Bastani</name>
+    </author>
+    <author>
+      <name>Pannag R Sanketi</name>
+    </author>
+    <author>
+      <name>Patrick "Tree" Miller</name>
+    </author>
+    <author>
+      <name>Patrick Yin</name>
+    </author>
+    <author>
+      <name>Paul Wohlhart</name>
+    </author>
+    <author>
+      <name>Peng Xu</name>
+    </author>
+    <author>
+      <name>Peter David Fagan</name>
+    </author>
+    <author>
+      <name>Peter Mitrano</name>
+    </author>
+    <author>
+      <name>Pierre Sermanet</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Priya Sundaresan</name>
+    </author>
+    <author>
+      <name>Qiuyu Chen</name>
+    </author>
+    <author>
+      <name>Quan Vuong</name>
+    </author>
+    <author>
+      <name>Rafael Rafailov</name>
+    </author>
+    <author>
+      <name>Ran Tian</name>
+    </author>
+    <author>
+      <name>Ria Doshi</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Rohan Baijal</name>
+    </author>
+    <author>
+      <name>Rosario Scalise</name>
+    </author>
+    <author>
+      <name>Rose Hendrix</name>
+    </author>
+    <author>
+      <name>Roy Lin</name>
+    </author>
+    <author>
+      <name>Runjia Qian</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Russell Mendonca</name>
+    </author>
+    <author>
+      <name>Rutav Shah</name>
+    </author>
+    <author>
+      <name>Ryan Hoque</name>
+    </author>
+    <author>
+      <name>Ryan Julian</name>
+    </author>
+    <author>
+      <name>Samuel Bustamante</name>
+    </author>
+    <author>
+      <name>Sean Kirmani</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Shan Lin</name>
+    </author>
+    <author>
+      <name>Sherry Moore</name>
+    </author>
+    <author>
+      <name>Shikhar Bahl</name>
+    </author>
+    <author>
+      <name>Shivin Dass</name>
+    </author>
+    <author>
+      <name>Shubham Sonawani</name>
+    </author>
+    <author>
+      <name>Shubham Tulsiani</name>
+    </author>
+    <author>
+      <name>Shuran Song</name>
+    </author>
+    <author>
+      <name>Sichun Xu</name>
+    </author>
+    <author>
+      <name>Siddhant Haldar</name>
+    </author>
+    <author>
+      <name>Siddharth Karamcheti</name>
+    </author>
+    <author>
+      <name>Simeon Adebola</name>
+    </author>
+    <author>
+      <name>Simon Guist</name>
+    </author>
+    <author>
+      <name>Soroush Nasiriany</name>
+    </author>
+    <author>
+      <name>Stefan Schaal</name>
+    </author>
+    <author>
+      <name>Stefan Welker</name>
+    </author>
+    <author>
+      <name>Stephen Tian</name>
+    </author>
+    <author>
+      <name>Subramanian Ramamoorthy</name>
+    </author>
+    <author>
+      <name>Sudeep Dasari</name>
+    </author>
+    <author>
+      <name>Suneel Belkhale</name>
+    </author>
+    <author>
+      <name>Sungjae Park</name>
+    </author>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Suvir Mirchandani</name>
+    </author>
+    <author>
+      <name>Takayuki Osa</name>
+    </author>
+    <author>
+      <name>Tanmay Gupta</name>
+    </author>
+    <author>
+      <name>Tatsuya Harada</name>
+    </author>
+    <author>
+      <name>Tatsuya Matsushima</name>
+    </author>
+    <author>
+      <name>Ted Xiao</name>
+    </author>
+    <author>
+      <name>Thomas Kollar</name>
+    </author>
+    <author>
+      <name>Tianhe Yu</name>
+    </author>
+    <author>
+      <name>Tianli Ding</name>
+    </author>
+    <author>
+      <name>Todor Davchev</name>
+    </author>
+    <author>
+      <name>Tony Z. Zhao</name>
+    </author>
+    <author>
+      <name>Travis Armstrong</name>
+    </author>
+    <author>
+      <name>Trevor Darrell</name>
+    </author>
+    <author>
+      <name>Trinity Chung</name>
+    </author>
+    <author>
+      <name>Vidhi Jain</name>
+    </author>
+    <author>
+      <name>Vikash Kumar</name>
+    </author>
+    <author>
+      <name>Vincent Vanhoucke</name>
+    </author>
+    <author>
+      <name>Vitor Guizilini</name>
+    </author>
+    <author>
+      <name>Wei Zhan</name>
+    </author>
+    <author>
+      <name>Wenxuan Zhou</name>
+    </author>
+    <author>
+      <name>Wolfram Burgard</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+    <author>
+      <name>Xiangyu Chen</name>
+    </author>
+    <author>
+      <name>Xiaolong Wang</name>
+    </author>
+    <author>
+      <name>Xinghao Zhu</name>
+    </author>
+    <author>
+      <name>Xinyang Geng</name>
+    </author>
+    <author>
+      <name>Xiyuan Liu</name>
+    </author>
+    <author>
+      <name>Xu Liangwei</name>
+    </author>
+    <author>
+      <name>Xuanlin Li</name>
+    </author>
+    <author>
+      <name>Yansong Pang</name>
+    </author>
+    <author>
+      <name>Yao Lu</name>
+    </author>
+    <author>
+      <name>Yecheng Jason Ma</name>
+    </author>
+    <author>
+      <name>Yejin Kim</name>
+    </author>
+    <author>
+      <name>Yevgen Chebotar</name>
+    </author>
+    <author>
+      <name>Yifan Zhou</name>
+    </author>
+    <author>
+      <name>Yifeng Zhu</name>
+    </author>
+    <author>
+      <name>Yilin Wu</name>
+    </author>
+    <author>
+      <name>Ying Xu</name>
+    </author>
+    <author>
+      <name>Yixuan Wang</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Yongqiang Dou</name>
+    </author>
+    <author>
+      <name>Yoonyoung Cho</name>
+    </author>
+    <author>
+      <name>Youngwoon Lee</name>
+    </author>
+    <author>
+      <name>Yuchen Cui</name>
+    </author>
+    <author>
+      <name>Yue Cao</name>
+    </author>
+    <author>
+      <name>Yueh-Hua Wu</name>
+    </author>
+    <author>
+      <name>Yujin Tang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Yunchu Zhang</name>
+    </author>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Yunshuang Li</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Yusuke Iwasawa</name>
+    </author>
+    <author>
+      <name>Yutaka Matsuo</name>
+    </author>
+    <author>
+      <name>Zehan Ma</name>
+    </author>
+    <author>
+      <name>Zhuo Xu</name>
+    </author>
+    <author>
+      <name>Zichen Jeff Cui</name>
+    </author>
+    <author>
+      <name>Zichen Zhang</name>
+    </author>
+    <author>
+      <name>Zipeng Fu</name>
+    </author>
+    <author>
+      <name>Zipeng Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01824v2</id>
+    <title>Mini-BEHAVIOR: A Procedurally Generated Benchmark for Long-horizon Decision-Making in Embodied AI</title>
+    <updated>2023-12-27T20:49:35Z</updated>
+    <link href="https://arxiv.org/abs/2310.01824v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01824v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Mini-BEHAVIOR, a novel benchmark for embodied AI that challenges agents to use reasoning and decision-making skills to solve complex activities that resemble everyday human challenges. The Mini-BEHAVIOR environment is a fast, realistic Gridworld environment that offers the benefits of rapid prototyping and ease of use while preserving a symbolic level of physical realism and complexity found in complex embodied AI benchmarks. We introduce key features such as procedural generation, to enable the creation of countless task variations and support open-ended learning. Mini-BEHAVIOR provides implementations of various household tasks from the original BEHAVIOR benchmark, along with starter code for data collection and reinforcement learning agent training. In essence, Mini-BEHAVIOR offers a fast, open-ended benchmark for evaluating decision-making and planning solutions in embodied AI. It serves as a user-friendly entry point for research and facilitates the evaluation and development of solutions, simplifying their assessment and development while advancing the field of embodied AI. Code is publicly available at https://github.com/StanfordVL/mini_behavior.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-03T06:41:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Emily Jin</name>
+    </author>
+    <author>
+      <name>Jiaheng Hu</name>
+    </author>
+    <author>
+      <name>Zhuoyi Huang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.16118v3</id>
+    <title>D$^3$Fields: Dynamic 3D Descriptor Fields for Zero-Shot Generalizable Rearrangement</title>
+    <updated>2024-10-16T20:30:58Z</updated>
+    <link href="https://arxiv.org/abs/2309.16118v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.16118v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scene representation is a crucial design choice in robotic manipulation systems. An ideal representation is expected to be 3D, dynamic, and semantic to meet the demands of diverse manipulation tasks. However, previous works often lack all three properties simultaneously. In this work, we introduce D$^3$Fields -- dynamic 3D descriptor fields. These fields are implicit 3D representations that take in 3D points and output semantic features and instance masks. They can also capture the dynamics of the underlying 3D environments. Specifically, we project arbitrary 3D points in the workspace onto multi-view 2D visual observations and interpolate features derived from visual foundational models. The resulting fused descriptor fields allow for flexible goal specifications using 2D images with varied contexts, styles, and instances. To evaluate the effectiveness of these descriptor fields, we apply our representation to rearrangement tasks in a zero-shot manner. Through extensive evaluation in real worlds and simulations, we demonstrate that D$^3$Fields are effective for zero-shot generalizable rearrangement tasks. We also compare D$^3$Fields with state-of-the-art implicit 3D representations and show significant improvements in effectiveness and efficiency.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-28T02:50:16Z</published>
+    <arxiv:comment>Accepted to Conference on Robot Learning (CoRL 2024) as Oral Presentation. The first three authors contributed equally. Project Page: https://robopil.github.io/d3fields/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yixuan Wang</name>
+    </author>
+    <author>
+      <name>Mingtong Zhang</name>
+    </author>
+    <author>
+      <name>Zhuoran Li</name>
+    </author>
+    <author>
+      <name>Tarik Kelestemur</name>
+    </author>
+    <author>
+      <name>Katherine Driggs-Campbell</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.09971v2</id>
+    <title>MindAgent: Emergent Gaming Interaction</title>
+    <updated>2023-09-19T14:36:53Z</updated>
+    <link href="https://arxiv.org/abs/2309.09971v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.09971v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have the capacity of performing complex scheduling in a multi-agent system and can coordinate these agents into completing sophisticated tasks that require extensive collaboration. However, despite the introduction of numerous gaming frameworks, the community has insufficient benchmarks towards building general multi-agents collaboration infrastructure that encompass both LLM and human-NPCs collaborations. In this work, we propose a novel infrastructure - MindAgent - to evaluate planning and coordination emergent capabilities for gaming interaction. In particular, our infrastructure leverages existing gaming framework, to i) require understanding of the coordinator for a multi-agent system, ii) collaborate with human players via un-finetuned proper instructions, and iii) establish an in-context learning on few-shot prompt with feedback. Furthermore, we introduce CUISINEWORLD, a new gaming scenario and related benchmark that dispatch a multi-agent collaboration efficiency and supervise multiple agents playing the game simultaneously. We conduct comprehensive evaluations with new auto-metric CoS for calculating the collaboration efficiency. Finally, our infrastructure can be deployed into real-world gaming scenarios in a customized VR version of CUISINEWORLD and adapted in existing broader Minecraft gaming domain. We hope our findings on LLMs and the new infrastructure for general-purpose scheduling and coordination can help shed light on how such skills can be obtained by learning from large language corpora.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-18T17:52:22Z</published>
+    <arxiv:comment>The first three authors contributed equally. 28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ran Gong</name>
+    </author>
+    <author>
+      <name>Qiuyuan Huang</name>
+    </author>
+    <author>
+      <name>Xiaojian Ma</name>
+    </author>
+    <author>
+      <name>Hoi Vo</name>
+    </author>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Yusuke Noda</name>
+    </author>
+    <author>
+      <name>Zilong Zheng</name>
+    </author>
+    <author>
+      <name>Song-Chun Zhu</name>
+    </author>
+    <author>
+      <name>Demetri Terzopoulos</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00987v2</id>
+    <title>Sequential Dexterity: Chaining Dexterous Policies for Long-Horizon Manipulation</title>
+    <updated>2023-10-16T05:05:56Z</updated>
+    <link href="https://arxiv.org/abs/2309.00987v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00987v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many real-world manipulation tasks consist of a series of subtasks that are significantly different from one another. Such long-horizon, complex tasks highlight the potential of dexterous hands, which possess adaptability and versatility, capable of seamlessly transitioning between different modes of functionality without the need for re-grasping or external tools. However, the challenges arise due to the high-dimensional action space of dexterous hand and complex compositional dynamics of the long-horizon tasks. We present Sequential Dexterity, a general system based on reinforcement learning (RL) that chains multiple dexterous policies for achieving long-horizon task goals. The core of the system is a transition feasibility function that progressively finetunes the sub-policies for enhancing chaining success rate, while also enables autonomous policy-switching for recovery from failures and bypassing redundant stages. Despite being trained only in simulation with a few task objects, our system demonstrates generalization capability to novel object shapes and is able to zero-shot transfer to a real-world robot equipped with a dexterous hand. Code and videos are available at https://sequential-dexterity.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-02T16:55:48Z</published>
+    <arxiv:comment>7th Conference on Robot Learning (CoRL 2023)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuanpei Chen</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.04622v1</id>
+    <title>Rendering Humans from Object-Occluded Monocular Videos</title>
+    <updated>2023-08-08T23:12:33Z</updated>
+    <link href="https://arxiv.org/abs/2308.04622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.04622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>3D understanding and rendering of moving humans from monocular videos is a challenging task. Despite recent progress, the task remains difficult in real-world scenarios, where obstacles may block the camera view and cause partial occlusions in the captured videos. Existing methods cannot handle such defects due to two reasons. First, the standard rendering strategy relies on point-point mapping, which could lead to dramatic disparities between the visible and occluded areas of the body. Second, the naive direct regression approach does not consider any feasibility criteria (ie, prior information) for rendering under occlusions. To tackle the above drawbacks, we present OccNeRF, a neural rendering method that achieves better rendering of humans in severely occluded scenes. As direct solutions to the two drawbacks, we propose surface-based rendering by integrating geometry and visibility priors. We validate our method on both simulated and real-world occlusions and demonstrate our method's superiority.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-08T23:12:33Z</published>
+    <arxiv:comment>ICCV 2023, project page: https://cs.stanford.edu/~xtiange/projects/occnerf/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tiange Xiang</name>
+    </author>
+    <author>
+      <name>Adam Sun</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.15801v2</id>
+    <title>Primitive Skill-based Robot Learning from Human Evaluative Feedback</title>
+    <updated>2023-08-02T06:22:24Z</updated>
+    <link href="https://arxiv.org/abs/2307.15801v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.15801v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) algorithms face significant challenges when dealing with long-horizon robot manipulation tasks in real-world environments due to sample inefficiency and safety issues. To overcome these challenges, we propose a novel framework, SEED, which leverages two approaches: reinforcement learning from human feedback (RLHF) and primitive skill-based reinforcement learning. Both approaches are particularly effective in addressing sparse reward issues and the complexities involved in long-horizon tasks. By combining them, SEED reduces the human effort required in RLHF and increases safety in training robot manipulation with RL in real-world settings. Additionally, parameterized skills provide a clear view of the agent's high-level intentions, allowing humans to evaluate skill choices before they are executed. This feature makes the training process even safer and more efficient. To evaluate the performance of SEED, we conducted extensive experiments on five manipulation tasks with varying levels of complexity. Our results show that SEED significantly outperforms state-of-the-art RL algorithms in sample efficiency and safety. In addition, SEED also exhibits a substantial reduction of human effort compared to other RLHF methods. Further details and video results can be found at https://seediros23.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-28T20:48:30Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ayano Hiranaka</name>
+    </author>
+    <author>
+      <name>Minjune Hwang</name>
+    </author>
+    <author>
+      <name>Sharon Lee</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05973v2</id>
+    <title>VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models</title>
+    <updated>2023-11-02T06:53:37Z</updated>
+    <link href="https://arxiv.org/abs/2307.05973v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05973v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are shown to possess a wealth of actionable knowledge that can be extracted for robot manipulation in the form of reasoning and planning. Despite the progress, most still rely on pre-defined motion primitives to carry out the physical interactions with the environment, which remains a major bottleneck. In this work, we aim to synthesize robot trajectories, i.e., a dense sequence of 6-DoF end-effector waypoints, for a large variety of manipulation tasks given an open-set of instructions and an open-set of objects. We achieve this by first observing that LLMs excel at inferring affordances and constraints given a free-form language instruction. More importantly, by leveraging their code-writing capabilities, they can interact with a vision-language model (VLM) to compose 3D value maps to ground the knowledge into the observation space of the agent. The composed value maps are then used in a model-based planning framework to zero-shot synthesize closed-loop robot trajectories with robustness to dynamic perturbations. We further demonstrate how the proposed framework can benefit from online experiences by efficiently learning a dynamics model for scenes that involve contact-rich interactions. We present a large-scale study of the proposed method in both simulated and real-robot environments, showcasing the ability to perform a large variety of everyday manipulation tasks specified in free-form natural language. Videos and code at https://voxposer.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-12T07:40:48Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.16700v2</id>
+    <title>Dynamic-Resolution Model Learning for Object Pile Manipulation</title>
+    <updated>2023-06-30T02:24:08Z</updated>
+    <link href="https://arxiv.org/abs/2306.16700v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.16700v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamics models learned from visual observations have shown to be effective in various robotic manipulation tasks. One of the key questions for learning such dynamics models is what scene representation to use. Prior works typically assume representation at a fixed dimension or resolution, which may be inefficient for simple tasks and ineffective for more complicated tasks. In this work, we investigate how to learn dynamic and adaptive representations at different levels of abstraction to achieve the optimal trade-off between efficiency and effectiveness. Specifically, we construct dynamic-resolution particle representations of the environment and learn a unified dynamics model using graph neural networks (GNNs) that allows continuous selection of the abstraction level. During test time, the agent can adaptively determine the optimal resolution at each model-predictive control (MPC) step. We evaluate our method in object pile manipulation, a task we commonly encounter in cooking, agriculture, manufacturing, and pharmaceutical applications. Through comprehensive evaluations both in the simulation and the real world, we show that our method achieves significantly better performance than state-of-the-art fixed-resolution baselines at the gathering, sorting, and redistribution of granular object piles made with various instances like coffee beans, almonds, corn, etc.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-29T05:51:44Z</published>
+    <arxiv:comment>Accepted to Robotics: Science and Systems (RSS) 2023. The first two authors contributed equally. Project Page: https://robopil.github.io/dyn-res-pile-manip</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yixuan Wang</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Katherine Driggs-Campbell</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15742v1</id>
+    <title>Differentially Private Video Activity Recognition</title>
+    <updated>2023-06-27T18:47:09Z</updated>
+    <link href="https://arxiv.org/abs/2306.15742v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15742v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, differential privacy has seen significant advancements in image classification; however, its application to video activity recognition remains under-explored. This paper addresses the challenges of applying differential privacy to video activity recognition, which primarily stem from: (1) a discrepancy between the desired privacy level for entire videos and the nature of input data processed by contemporary video architectures, which are typically short, segmented clips; and (2) the complexity and sheer size of video datasets relative to those in image classification, which render traditional differential privacy methods inadequate. To tackle these issues, we propose Multi-Clip DP-SGD, a novel framework for enforcing video-level differential privacy through clip-based classification models. This method samples multiple clips from each video, averages their gradients, and applies gradient clipping in DP-SGD without incurring additional privacy loss. Moreover, we incorporate a parameter-efficient transfer learning strategy to make the model scalable for large-scale video datasets. Through extensive evaluations on the UCF-101 and HMDB-51 datasets, our approach exhibits impressive performance, achieving 81% accuracy with a privacy budget of epsilon=5 on UCF-101, marking a 76% improvement compared to a direct application of DP-SGD. Furthermore, we demonstrate that our transfer learning strategy is versatile and can enhance differentially private image classification across an array of datasets including CheXpert, ImageNet, CIFAR-10, and CIFAR-100.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T18:47:09Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Yuliang Zou</name>
+    </author>
+    <author>
+      <name>Yijin Yang</name>
+    </author>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Zhiding Yu</name>
+    </author>
+    <author>
+      <name>Chaowei Xiao</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Animashree Anandkumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.13760v1</id>
+    <title>Task-Driven Graph Attention for Hierarchical Relational Object Navigation</title>
+    <updated>2023-06-23T19:50:48Z</updated>
+    <link href="https://arxiv.org/abs/2306.13760v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.13760v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied AI agents in large scenes often need to navigate to find objects. In this work, we study a naturally emerging variant of the object navigation task, hierarchical relational object navigation (HRON), where the goal is to find objects specified by logical predicates organized in a hierarchical structure - objects related to furniture and then to rooms - such as finding an apple on top of a table in the kitchen. Solving such a task requires an efficient representation to reason about object relations and correlate the relations in the environment and in the task goal. HRON in large scenes (e.g. homes) is particularly challenging due to its partial observability and long horizon, which invites solutions that can compactly store the past information while effectively exploring the scene. We demonstrate experimentally that scene graphs are the best-suited representation compared to conventional representations such as images or 2D maps. We propose a solution that uses scene graphs as part of its input and integrates graph neural networks as its backbone, with an integrated task-driven attention mechanism, and demonstrate its better scalability and learning efficiency than state-of-the-art baselines.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-23T19:50:48Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Michael Lingelbach</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Minjune Hwang</name>
+    </author>
+    <author>
+      <name>Andrey Kurenkov</name>
+    </author>
+    <author>
+      <name>Alan Lou</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.01623v1</id>
+    <title>HomE: Homography-Equivariant Video Representation Learning</title>
+    <updated>2023-06-02T15:37:43Z</updated>
+    <link href="https://arxiv.org/abs/2306.01623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.01623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in self-supervised representation learning have enabled more efficient and robust model performance without relying on extensive labeled data. However, most works are still focused on images, with few working on videos and even fewer on multi-view videos, where more powerful inductive biases can be leveraged for self-supervision. In this work, we propose a novel method for representation learning of multi-view videos, where we explicitly model the representation space to maintain Homography Equivariance (HomE). Our method learns an implicit mapping between different views, culminating in a representation space that maintains the homography relationship between neighboring views. We evaluate our HomE representation via action recognition and pedestrian intent prediction as downstream tasks. On action classification, our method obtains 96.4% 3-fold accuracy on the UCF101 dataset, better than most state-of-the-art self-supervised learning methods. Similarly, on the STIP dataset, we outperform the state-of-the-art by 6% for pedestrian intent prediction one second into the future while also obtaining an accuracy of 91.2% for pedestrian action (cross vs. not-cross) classification. Code is available at https://github.com/anirudhs123/HomE.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-02T15:37:43Z</published>
+    <arxiv:comment>10 pages, 4 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Anirudh Sriram</name>
+    </author>
+    <author>
+      <name>Adrien Gaidon</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.00956v1</id>
+    <title>The ObjectFolder Benchmark: Multisensory Learning with Neural and Real Objects</title>
+    <updated>2023-06-01T17:51:22Z</updated>
+    <link href="https://arxiv.org/abs/2306.00956v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.00956v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the ObjectFolder Benchmark, a benchmark suite of 10 tasks for multisensory object-centric learning, centered around object recognition, reconstruction, and manipulation with sight, sound, and touch. We also introduce the ObjectFolder Real dataset, including the multisensory measurements for 100 real-world household objects, building upon a newly designed pipeline for collecting the 3D meshes, videos, impact sounds, and tactile readings of real-world objects. We conduct systematic benchmarking on both the 1,000 multisensory neural objects from ObjectFolder, and the real multisensory data from ObjectFolder Real. Our results demonstrate the importance of multisensory perception and reveal the respective roles of vision, audio, and touch for different object-centric learning tasks. By publicly releasing our dataset and benchmark suite, we hope to catalyze and enable new research in multisensory object-centric learning in computer vision, robotics, and beyond. Project page: https://objectfolder.stanford.edu</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-01T17:51:22Z</published>
+    <arxiv:comment>In CVPR 2023. Project page: https://objectfolder.stanford.edu/. ObjectFolder Real demo: https://www.objectfolder.org/swan_vis/. Gao, Dou, and Li contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Yiming Dou</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Tanmay Agarwal</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.00923v2</id>
+    <title>Sonicverse: A Multisensory Simulation Platform for Embodied Household Agents that See and Hear</title>
+    <updated>2023-09-16T22:10:40Z</updated>
+    <link href="https://arxiv.org/abs/2306.00923v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.00923v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Developing embodied agents in simulation has been a key research topic in recent years. Exciting new tasks, algorithms, and benchmarks have been developed in various simulators. However, most of them assume deaf agents in silent environments, while we humans perceive the world with multiple senses. We introduce Sonicverse, a multisensory simulation platform with integrated audio-visual simulation for training household agents that can both see and hear. Sonicverse models realistic continuous audio rendering in 3D environments in real-time. Together with a new audio-visual VR interface that allows humans to interact with agents with audio, Sonicverse enables a series of embodied AI tasks that need audio-visual perception. For semantic audio-visual navigation in particular, we also propose a new multi-task learning model that achieves state-of-the-art performance. In addition, we demonstrate Sonicverse's realism via sim-to-real transfer, which has not been achieved by other simulators: an agent trained in Sonicverse can successfully perform audio-visual navigation in real-world environments. Sonicverse is available at: https://github.com/StanfordVL/Sonicverse.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-01T17:24:01Z</published>
+    <arxiv:comment>In ICRA 2023. Project page: https://ai.stanford.edu/~rhgao/sonicverse/. Code: https://github.com/StanfordVL/sonicverse. Gao and Li contributed equally to this work and are in alphabetical order</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Gokul Dharan</name>
+    </author>
+    <author>
+      <name>Zhuzhu Wang</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17537v4</id>
+    <title>Modeling Dynamic Environments with Scene Graph Memory</title>
+    <updated>2023-06-12T17:25:06Z</updated>
+    <link href="https://arxiv.org/abs/2305.17537v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17537v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied AI agents that search for objects in large environments such as households often need to make efficient decisions by predicting object locations based on partial information. We pose this as a new type of link prediction problem: link prediction on partially observable dynamic graphs. Our graph is a representation of a scene in which rooms and objects are nodes, and their relationships are encoded in the edges; only parts of the changing graph are known to the agent at each timestep. This partial observability poses a challenge to existing link prediction approaches, which we address. We propose a novel state representation -- Scene Graph Memory (SGM) -- with captures the agent's accumulated set of observations, as well as a neural net architecture called a Node Edge Predictor (NEP) that extracts information from the SGM to search efficiently. We evaluate our method in the Dynamic House Simulator, a new benchmark that creates diverse dynamic graphs following the semantic patterns typically seen at homes, and show that NEP can be trained to predict the locations of objects in a variety of environments with diverse object movement dynamics, outperforming baselines both in terms of new scene adaptability and overall accuracy. The codebase and more can be found at https://www.scenegraphmemory.com.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-27T17:39:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andrey Kurenkov</name>
+    </author>
+    <author>
+      <name>Michael Lingelbach</name>
+    </author>
+    <author>
+      <name>Tanmay Agarwal</name>
+    </author>
+    <author>
+      <name>Emily Jin</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14344v1</id>
+    <title>Siamese Masked Autoencoders</title>
+    <updated>2023-05-23T17:59:46Z</updated>
+    <link href="https://arxiv.org/abs/2305.14344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Establishing correspondence between images or scenes is a significant challenge in computer vision, especially given occlusions, viewpoint changes, and varying object appearances. In this paper, we present Siamese Masked Autoencoders (SiamMAE), a simple extension of Masked Autoencoders (MAE) for learning visual correspondence from videos. SiamMAE operates on pairs of randomly sampled video frames and asymmetrically masks them. These frames are processed independently by an encoder network, and a decoder composed of a sequence of cross-attention layers is tasked with predicting the missing patches in the future frame. By masking a large fraction ($95\%$) of patches in the future frame while leaving the past frame unchanged, SiamMAE encourages the network to focus on object motion and learn object-centric representations. Despite its conceptual simplicity, features learned via SiamMAE outperform state-of-the-art self-supervised methods on video object segmentation, pose keypoint propagation, and semantic part propagation tasks. SiamMAE achieves competitive results without relying on data augmentation, handcrafted tracking-based pretext tasks, or other techniques to prevent representational collapse.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T17:59:46Z</published>
+    <arxiv:comment>Project page https://siam-mae-video.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13567v1</id>
+    <title>M-EMBER: Tackling Long-Horizon Mobile Manipulation via Factorized Domain Transfer</title>
+    <updated>2023-05-23T00:53:30Z</updated>
+    <link href="https://arxiv.org/abs/2305.13567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a method to create visuomotor mobile manipulation solutions for long-horizon activities. We propose to leverage the recent advances in simulation to train visual solutions for mobile manipulation. While previous works have shown success applying this procedure to autonomous visual navigation and stationary manipulation, applying it to long-horizon visuomotor mobile manipulation is still an open challenge that demands both perceptual and compositional generalization of multiple skills. In this work, we develop Mobile-EMBER, or M-EMBER, a factorized method that decomposes a long-horizon mobile manipulation activity into a repertoire of primitive visual skills, reinforcement-learns each skill, and composes these skills to a long-horizon mobile manipulation activity. On a mobile manipulation robot, we find that M-EMBER completes a long-horizon mobile manipulation activity, cleaning_kitchen, achieving a 53% success rate. This requires successfully planning and executing five factorized, learned visual skills.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T00:53:30Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Bohan Wu</name>
+    </author>
+    <author>
+      <name>Roberto Martin-Martin</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.12422v2</id>
+    <title>MimicPlay: Long-Horizon Imitation Learning by Watching Human Play</title>
+    <updated>2023-10-13T05:44:37Z</updated>
+    <link href="https://arxiv.org/abs/2302.12422v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.12422v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation learning from human demonstrations is a promising paradigm for teaching robots manipulation skills in the real world. However, learning complex long-horizon tasks often requires an unattainable amount of demonstrations. To reduce the high data requirement, we resort to human play data - video sequences of people freely interacting with the environment using their hands. Even with different morphologies, we hypothesize that human play data contain rich and salient information about physical interactions that can readily facilitate robot policy learning. Motivated by this, we introduce a hierarchical learning framework named MimicPlay that learns latent plans from human play data to guide low-level visuomotor control trained on a small number of teleoperated demonstrations. With systematic evaluations of 14 long-horizon manipulation tasks in the real world, we show that MimicPlay outperforms state-of-the-art imitation learning methods in task success rate, generalization ability, and robustness to disturbances. Code and videos are available at https://mimic-play.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-24T02:54:15Z</published>
+    <arxiv:comment>7th Conference on Robot Learning (CoRL 2023 oral presentation)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Jiankai Sun</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Anima Anandkumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.03858v2</id>
+    <title>See, Hear, and Feel: Smart Sensory Fusion for Robotic Manipulation</title>
+    <updated>2022-12-08T05:52:16Z</updated>
+    <link href="https://arxiv.org/abs/2212.03858v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.03858v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans use all of their senses to accomplish different tasks in everyday activities. In contrast, existing work on robotic manipulation mostly relies on one, or occasionally two modalities, such as vision and touch. In this work, we systematically study how visual, auditory, and tactile perception can jointly help robots to solve complex manipulation tasks. We build a robot system that can see with a camera, hear with a contact microphone, and feel with a vision-based tactile sensor, with all three sensory modalities fused with a self-attention model. Results on two challenging tasks, dense packing and pouring, demonstrate the necessity and power of multisensory perception for robotic manipulation: vision displays the global status of the robot but can often suffer from occlusion, audio provides immediate feedback of key moments that are even invisible, and touch offers precise local geometry for decision making. Leveraging all three modalities, our robotic system significantly outperforms prior methods.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-07T18:55:53Z</published>
+    <arxiv:comment>In CoRL 2022. Li and Zhang equal contribution; Gao and Wu equal advising. Project page: https://ai.stanford.edu/~rhgao/see_hear_feel/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Yizhi Zhang</name>
+    </author>
+    <author>
+      <name>Junzhe Zhu</name>
+    </author>
+    <author>
+      <name>Shaoxiong Wang</name>
+    </author>
+    <author>
+      <name>Michelle A Lee</name>
+    </author>
+    <author>
+      <name>Huazhe Xu</name>
+    </author>
+    <author>
+      <name>Edward Adelson</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.06134v2</id>
+    <title>Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks</title>
+    <updated>2023-04-18T07:34:55Z</updated>
+    <link href="https://arxiv.org/abs/2211.06134v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.06134v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solving real-world manipulation tasks requires robots to have a repertoire of skills applicable to a wide range of circumstances. When using learning-based methods to acquire such skills, the key challenge is to obtain training data that covers diverse and feasible variations of the task, which often requires non-trivial manual labor and domain knowledge. In this work, we introduce Active Task Randomization (ATR), an approach that learns robust skills through the unsupervised generation of training tasks. ATR selects suitable tasks, which consist of an initial environment state and manipulation goal, for learning robust skills by balancing the diversity and feasibility of the tasks. We propose to predict task diversity and feasibility by jointly learning a compact task representation. The selected tasks are then procedurally generated in simulation using graph-based parameterization. The active selection of these training tasks enables skill policies trained with our framework to robustly handle a diverse range of objects and arrangements at test time. We demonstrate that the learned skills can be composed by a task planner to solve unseen sequential manipulation problems based on visual inputs. Compared to baseline methods, ATR can achieve superior success rates in single-step and sequential manipulation tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-11T11:24:55Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Toki Migimatsu</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06849v3</id>
+    <title>Retrospectives on the Embodied AI Workshop</title>
+    <updated>2022-12-05T04:52:40Z</updated>
+    <link href="https://arxiv.org/abs/2210.06849v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06849v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a retrospective on the state of Embodied AI research. Our analysis focuses on 13 challenges presented at the Embodied AI Workshop at CVPR. These challenges are grouped into three themes: (1) visual navigation, (2) rearrangement, and (3) embodied vision-and-language. We discuss the dominant datasets within each theme, evaluation metrics for the challenges, and the performance of state-of-the-art models. We highlight commonalities between top approaches to the challenges and identify potential future directions for Embodied AI research.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-13T09:00:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Matt Deitke</name>
+    </author>
+    <author>
+      <name>Dhruv Batra</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Tommaso Campari</name>
+    </author>
+    <author>
+      <name>Angel X. Chang</name>
+    </author>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Changan Chen</name>
+    </author>
+    <author>
+      <name>Claudia Pérez D'Arpino</name>
+    </author>
+    <author>
+      <name>Kiana Ehsani</name>
+    </author>
+    <author>
+      <name>Ali Farhadi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Anthony Francis</name>
+    </author>
+    <author>
+      <name>Chuang Gan</name>
+    </author>
+    <author>
+      <name>Kristen Grauman</name>
+    </author>
+    <author>
+      <name>David Hall</name>
+    </author>
+    <author>
+      <name>Winson Han</name>
+    </author>
+    <author>
+      <name>Unnat Jain</name>
+    </author>
+    <author>
+      <name>Aniruddha Kembhavi</name>
+    </author>
+    <author>
+      <name>Jacob Krantz</name>
+    </author>
+    <author>
+      <name>Stefan Lee</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Sagnik Majumder</name>
+    </author>
+    <author>
+      <name>Oleksandr Maksymets</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Roozbeh Mottaghi</name>
+    </author>
+    <author>
+      <name>Sonia Raychaudhuri</name>
+    </author>
+    <author>
+      <name>Mike Roberts</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Manolis Savva</name>
+    </author>
+    <author>
+      <name>Mohit Shridhar</name>
+    </author>
+    <author>
+      <name>Niko Sünderhauf</name>
+    </author>
+    <author>
+      <name>Andrew Szot</name>
+    </author>
+    <author>
+      <name>Ben Talbot</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Jesse Thomason</name>
+    </author>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+    <author>
+      <name>Joanne Truong</name>
+    </author>
+    <author>
+      <name>Luca Weihs</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04365v2</id>
+    <title>ELIGN: Expectation Alignment as a Multi-Agent Intrinsic Reward</title>
+    <updated>2022-11-09T19:15:06Z</updated>
+    <link href="https://arxiv.org/abs/2210.04365v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04365v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern multi-agent reinforcement learning frameworks rely on centralized training and reward shaping to perform well. However, centralized training and dense rewards are not readily available in the real world. Current multi-agent algorithms struggle to learn in the alternative setup of decentralized training or sparse rewards. To address these issues, we propose a self-supervised intrinsic reward ELIGN - expectation alignment - inspired by the self-organization principle in Zoology. Similar to how animals collaborate in a decentralized manner with those in their vicinity, agents trained with expectation alignment learn behaviors that match their neighbors' expectations. This allows the agents to learn collaborative behaviors without any external reward or centralized training. We demonstrate the efficacy of our approach across 6 tasks in the multi-agent particle and the complex Google Research football environments, comparing ELIGN to sparse and curiosity-based intrinsic rewards. When the number of agents increases, ELIGN scales well in all multi-agent tasks except for one where agents have different capabilities. We show that agent coordination improves through expectation alignment because agents learn to divide tasks amongst themselves, break coordination symmetries, and confuse adversaries. These results identify tasks where expectation alignment is a more useful strategy than curiosity-driven exploration for multi-agent coordination, enabling agents to do zero-shot coordination.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-09T22:24:44Z</published>
+    <arxiv:comment>This paper will be published in Neurips 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Zixian Ma</name>
+    </author>
+    <author>
+      <name>Rose Wang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.03094v2</id>
+    <title>VIMA: General Robot Manipulation with Multimodal Prompts</title>
+    <updated>2023-05-28T07:32:38Z</updated>
+    <link href="https://arxiv.org/abs/2210.03094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.03094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt-based learning has emerged as a successful paradigm in natural language processing, where a single general-purpose language model can be instructed to perform any task specified by input prompts. Yet task specification in robotics comes in various forms, such as imitating one-shot demonstrations, following language instructions, and reaching visual goals. They are often considered different tasks and tackled by specialized models. We show that a wide spectrum of robot manipulation tasks can be expressed with multimodal prompts, interleaving textual and visual tokens. Accordingly, we develop a new simulation benchmark that consists of thousands of procedurally-generated tabletop tasks with multimodal prompts, 600K+ expert trajectories for imitation learning, and a four-level evaluation protocol for systematic generalization. We design a transformer-based robot agent, VIMA, that processes these prompts and outputs motor actions autoregressively. VIMA features a recipe that achieves strong model scalability and data efficiency. It outperforms alternative designs in the hardest zero-shot generalization setting by up to $2.9\times$ task success rate given the same training data. With $10\times$ less training data, VIMA still performs $2.7\times$ better than the best competing variant. Code and video demos are available at https://vimalabs.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-06T17:50:11Z</published>
+    <arxiv:comment>ICML 2023 Camera-ready version. Project website: https://vimalabs.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Zichen Zhang</name>
+    </author>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>Yongqiang Dou</name>
+    </author>
+    <author>
+      <name>Yanjun Chen</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Anima Anandkumar</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00106v1</id>
+    <title>GaitForeMer: Self-Supervised Pre-Training of Transformers via Human Motion Forecasting for Few-Shot Gait Impairment Severity Estimation</title>
+    <updated>2022-06-30T21:29:47Z</updated>
+    <link href="https://arxiv.org/abs/2207.00106v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00106v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Parkinson's disease (PD) is a neurological disorder that has a variety of observable motor-related symptoms such as slow movement, tremor, muscular rigidity, and impaired posture. PD is typically diagnosed by evaluating the severity of motor impairments according to scoring systems such as the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS). Automated severity prediction using video recordings of individuals provides a promising route for non-intrusive monitoring of motor impairments. However, the limited size of PD gait data hinders model ability and clinical potential. Because of this clinical data scarcity and inspired by the recent advances in self-supervised large-scale language models like GPT-3, we use human motion forecasting as an effective self-supervised pre-training task for the estimation of motor impairment severity. We introduce GaitForeMer, Gait Forecasting and impairment estimation transforMer, which is first pre-trained on public datasets to forecast gait movements and then applied to clinical data to predict MDS-UPDRS gait impairment severity. Our method outperforms previous approaches that rely solely on clinical data by a large margin, achieving an F1 score of 0.76, precision of 0.79, and recall of 0.75. Using GaitForeMer, we show how public human movement data repositories can assist clinical use cases through learning universal motion representations. The code is available at https://github.com/markendo/GaitForeMer .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-30T21:29:47Z</published>
+    <arxiv:comment>Accepted as a conference paper at MICCAI (Medical Image Computing and Computer Assisted Intervention) 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mark Endo</name>
+    </author>
+    <author>
+      <name>Kathleen L. Poston</name>
+    </author>
+    <author>
+      <name>Edith V. Sullivan</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Kilian M. Pohl</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.11894v2</id>
+    <title>MaskViT: Masked Visual Pre-Training for Video Prediction</title>
+    <updated>2022-08-06T10:09:47Z</updated>
+    <link href="https://arxiv.org/abs/2206.11894v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.11894v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to predict future visual observations conditioned on past observations and motor commands can enable embodied agents to plan solutions to a variety of tasks in complex environments. This work shows that we can create good video prediction models by pre-training transformers via masked visual modeling. Our approach, named MaskViT, is based on two simple design decisions. First, for memory and training efficiency, we use two types of window attention: spatial and spatiotemporal. Second, during training, we mask a variable percentage of tokens instead of a fixed mask ratio. For inference, MaskViT generates all tokens via iterative refinement where we incrementally decrease the masking ratio following a mask scheduling function. On several datasets we demonstrate that MaskViT outperforms prior works in video prediction, is parameter efficient, and can generate high-resolution videos (256x256). Further, we demonstrate the benefits of inference speedup (up to 512x) due to iterative decoding by using MaskViT for planning on a real robot. Our work suggests that we can endow embodied agents with powerful predictive models by leveraging the general framework of masked visual modeling with minimal domain knowledge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-23T17:59:33Z</published>
+    <arxiv:comment>Project page: https://maskedvit.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Stephen Tian</name>
+    </author>
+    <author>
+      <name>Yunzhi Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.06489v1</id>
+    <title>BEHAVIOR in Habitat 2.0: Simulator-Independent Logical Task Description for Benchmarking Embodied AI Agents</title>
+    <updated>2022-06-13T21:37:31Z</updated>
+    <link href="https://arxiv.org/abs/2206.06489v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.06489v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robots excel in performing repetitive and precision-sensitive tasks in controlled environments such as warehouses and factories, but have not been yet extended to embodied AI agents providing assistance in household tasks. Inspired by the catalyzing effect that benchmarks have played in the AI fields such as computer vision and natural language processing, the community is looking for new benchmarks for embodied AI. Prior work in embodied AI benchmark defines tasks using a different formalism, often specific to one environment, simulator or domain, making it hard to develop general and comparable solutions. In this work, we bring a subset of BEHAVIOR activities into Habitat 2.0 to benefit from its fast simulation speed, as a first step towards demonstrating the ease of adapting activities defined in the logic space into different simulators.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-13T21:37:31Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ziang Liu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.03891v2</id>
+    <title>PrivHAR: Recognizing Human Actions From Privacy-preserving Lens</title>
+    <updated>2023-01-29T15:49:27Z</updated>
+    <link href="https://arxiv.org/abs/2206.03891v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.03891v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The accelerated use of digital cameras prompts an increasing concern about privacy and security, particularly in applications such as action recognition. In this paper, we propose an optimizing framework to provide robust visual privacy protection along the human action recognition pipeline. Our framework parameterizes the camera lens to successfully degrade the quality of the videos to inhibit privacy attributes and protect against adversarial attacks while maintaining relevant features for activity recognition. We validate our approach with extensive simulations and hardware experiments.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-08T13:43:29Z</published>
+    <arxiv:comment>Oral paper presented at European Conference on Computer Vision (ECCV) 2022, in Tel Aviv, Israel</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part IV</arxiv:journal_ref>
+    <author>
+      <name>Carlos Hinojosa</name>
+    </author>
+    <author>
+      <name>Miguel Marquez</name>
+    </author>
+    <author>
+      <name>Henry Arguello</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-19772-7_19</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-19772-7_19" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01720v1</id>
+    <title>Revisiting the "Video" in Video-Language Understanding</title>
+    <updated>2022-06-03T17:57:33Z</updated>
+    <link href="https://arxiv.org/abs/2206.01720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>What makes a video task uniquely suited for videos, beyond what can be understood from a single image? Building on recent progress in self-supervised image-language models, we revisit this question in the context of video and language tasks. We propose the atemporal probe (ATP), a new model for video-language analysis which provides a stronger bound on the baseline accuracy of multimodal models constrained by image-level understanding. By applying this model to standard discriminative video and language tasks, such as video question answering and text-to-video retrieval, we characterize the limitations and potential of current video-language benchmarks. We find that understanding of event temporality is often not necessary to achieve strong or state-of-the-art performance, even compared with recent large-scale video-language models and in contexts intended to benchmark deeper video-level understanding. We also demonstrate how ATP can improve both video-language dataset and model design. We describe a technique for leveraging ATP to better disentangle dataset subsets with a higher concentration of temporally challenging data, improving benchmarking efficacy for causal and temporal understanding. Further, we show that effectively integrating ATP into full video-level temporal models can improve efficiency and state-of-the-art accuracy.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-03T17:57:33Z</published>
+    <arxiv:comment>CVPR 2022 (Oral)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shyamal Buch</name>
+    </author>
+    <author>
+      <name>Cristóbal Eyzaguirre</name>
+    </author>
+    <author>
+      <name>Adrien Gaidon</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.07993v1</id>
+    <title>Generalizable Task Planning through Representation Pretraining</title>
+    <updated>2022-05-16T21:19:07Z</updated>
+    <link href="https://arxiv.org/abs/2205.07993v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.07993v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to plan for multi-step manipulation tasks in unseen situations is crucial for future home robots. But collecting sufficient experience data for end-to-end learning is often infeasible in the real world, as deploying robots in many environments can be prohibitively expensive. On the other hand, large-scale scene understanding datasets contain diverse and rich semantic and geometric information. But how to leverage such information for manipulation remains an open problem. In this paper, we propose a learning-to-plan method that can generalize to new object instances by leveraging object-level representations extracted from a synthetic scene understanding dataset. We evaluate our method with a suite of challenging multi-step manipulation tasks inspired by household activities and show that our model achieves measurably better success rate than state-of-the-art end-to-end approaches. Additional information can be found at https://sites.google.com/view/gentp</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-16T21:19:07Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.02389v1</id>
+    <title>ObjectFolder 2.0: A Multisensory Object Dataset for Sim2Real Transfer</title>
+    <updated>2022-04-05T17:55:01Z</updated>
+    <link href="https://arxiv.org/abs/2204.02389v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.02389v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Objects play a crucial role in our everyday activities. Though multisensory object-centric learning has shown great potential lately, the modeling of objects in prior work is rather unrealistic. ObjectFolder 1.0 is a recent dataset that introduces 100 virtualized objects with visual, acoustic, and tactile sensory data. However, the dataset is small in scale and the multisensory data is of limited quality, hampering generalization to real-world scenarios. We present ObjectFolder 2.0, a large-scale, multisensory dataset of common household objects in the form of implicit neural representations that significantly enhances ObjectFolder 1.0 in three aspects. First, our dataset is 10 times larger in the amount of objects and orders of magnitude faster in rendering time. Second, we significantly improve the multisensory rendering quality for all three modalities. Third, we show that models learned from virtual objects in our dataset successfully transfer to their real-world counterparts in three challenging tasks: object scale estimation, contact localization, and shape reconstruction. ObjectFolder 2.0 offers a new path and testbed for multisensory learning in computer vision and robotics. The dataset is available at https://github.com/rhgao/ObjectFolder.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-05T17:55:01Z</published>
+    <arxiv:comment>In CVPR 2022. Gao, Si, and Chang contributed equally to this work. Project page: https://ai.stanford.edu/~rhgao/objectfolder2.0/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Zilin Si</name>
+    </author>
+    <author>
+      <name>Yen-Yu Chang</name>
+    </author>
+    <author>
+      <name>Samuel Clarke</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Wenzhen Yuan</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.11931v1</id>
+    <title>MetaMorph: Learning Universal Controllers with Transformers</title>
+    <updated>2022-03-22T17:58:31Z</updated>
+    <link href="https://arxiv.org/abs/2203.11931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.11931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multiple domains like vision, natural language, and audio are witnessing tremendous progress by leveraging Transformers for large scale pre-training followed by task specific fine tuning. In contrast, in robotics we primarily train a single robot for a single task. However, modular robot systems now allow for the flexible combination of general-purpose building blocks into task optimized morphologies. However, given the exponentially large number of possible robot morphologies, training a controller for each new design is impractical. In this work, we propose MetaMorph, a Transformer based approach to learn a universal controller over a modular robot design space. MetaMorph is based on the insight that robot morphology is just another modality on which we can condition the output of a Transformer. Through extensive experiments we demonstrate that large scale pre-training on a variety of robot morphologies results in policies with combinatorial generalization capabilities, including zero shot generalization to unseen robot morphologies. We further demonstrate that our pre-trained policy can be used for sample-efficient transfer to completely new robot morphologies and tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-22T17:58:31Z</published>
+    <arxiv:comment>ICLR 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.00206v2</id>
+    <title>Observation of fractional topological numbers at photonic edges and corners</title>
+    <updated>2022-11-21T21:44:25Z</updated>
+    <link href="https://arxiv.org/abs/2203.00206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.00206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Topological phases of matter are featured with exotic edge states. However, the fractional topological numbers at edges, though predicted long ago by Jackiw and Rebbi, remain elusive in topological photonic systems. Here, we report on the observation of fractional topological numbers at the topological edges and corners in one- and two-dimensional photonic crystals. The fractional topological numbers are determined via the measurements of the photonic local density-of-states. In one-dimensional photonic crystals, we witness a rapid change of the fractional topological number at the edges rising from 0 to 1/2 when the photonic band gap experiences a topological transition, confirming the well-known prediction of Jackiw and Rebbi. In two-dimensional systems, we discover that the fractional topological number in the corner region varies from 0 to 1/2 and 1/4 in different photonic band gap phases. Our study paves the way toward topological manipulation of fractional quantum numbers in photonics.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-01T03:25:14Z</published>
+    <arxiv:comment>All comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Chengpeng Liang</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+    <author>
+      <name>Shuwai Leung</name>
+    </author>
+    <author>
+      <name>Yin Poo</name>
+    </author>
+    <author>
+      <name>Jian-Hua Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.05251v1</id>
+    <title>Error-Aware Imitation Learning from Teleoperation Data for Mobile Manipulation</title>
+    <updated>2021-12-09T23:54:59Z</updated>
+    <link href="https://arxiv.org/abs/2112.05251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.05251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In mobile manipulation (MM), robots can both navigate within and interact with their environment and are thus able to complete many more tasks than robots only capable of navigation or manipulation. In this work, we explore how to apply imitation learning (IL) to learn continuous visuo-motor policies for MM tasks. Much prior work has shown that IL can train visuo-motor policies for either manipulation or navigation domains, but few works have applied IL to the MM domain. Doing this is challenging for two reasons: on the data side, current interfaces make collecting high-quality human demonstrations difficult, and on the learning side, policies trained on limited data can suffer from covariate shift when deployed. To address these problems, we first propose Mobile Manipulation RoboTurk (MoMaRT), a novel teleoperation framework allowing simultaneous navigation and manipulation of mobile manipulators, and collect a first-of-its-kind large scale dataset in a realistic simulated kitchen setting. We then propose a learned error detection system to address the covariate shift by detecting when an agent is in a potential failure state. We train performant IL policies and error detectors from this data, and achieve over 45% task success rate and 85% error detection success rate across multiple multi-stage tasks when trained on expert data. Codebase, datasets, visualization, and more available at https://sites.google.com/view/il-for-mm/home.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-09T23:54:59Z</published>
+    <arxiv:comment>CoRL 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Albert Tung</name>
+    </author>
+    <author>
+      <name>Andrey Kurenkov</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.06913v1</id>
+    <title>Visual Intelligence through Human Interaction</title>
+    <updated>2021-11-12T19:37:17Z</updated>
+    <link href="https://arxiv.org/abs/2111.06913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.06913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Over the last decade, Computer Vision, the branch of Artificial Intelligence aimed at understanding the visual world, has evolved from simply recognizing objects in images to describing pictures, answering questions about images, aiding robots maneuver around physical spaces and even generating novel visual content. As these tasks and applications have modernized, so too has the reliance on more data, either for model training or for evaluation. In this chapter, we demonstrate that novel interaction strategies can enable new forms of data collection and evaluation for Computer Vision. First, we present a crowdsourcing interface for speeding up paid data collection by an order of magnitude, feeding the data-hungry nature of modern vision models. Second, we explore a method to increase volunteer contributions using automated social interventions. Third, we develop a system to ensure human evaluation of generative vision models are reliable, affordable and grounded in psychophysics theory. We conclude with future opportunities for Human-Computer Interaction to aid Computer Vision.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-12T19:37:17Z</published>
+    <arxiv:comment>This is a preprint of the following chapter: Ranjay Krishna, Mitchell Gordon, Li Fei-Fei, Michael Bernstein, Visual Intelligence through Human Interaction, published in Artificial Intelligence for Human Computer Interaction: A Modern Approach, edited by Yang Li and Otmar Hilliges, 2021, Springer reproduced with permission of Springer Nature. arXiv admin note: substantial text overlap with arXiv:1602.04506, arXiv:1904.01121</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Mitchell Gordon</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-82681-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-82681-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.10312v2</id>
+    <title>Example-Driven Model-Based Reinforcement Learning for Solving Long-Horizon Visuomotor Tasks</title>
+    <updated>2022-09-19T04:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2109.10312v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.10312v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the problem of learning a repertoire of low-level skills from raw images that can be sequenced to complete long-horizon visuomotor tasks. Reinforcement learning (RL) is a promising approach for acquiring short-horizon skills autonomously. However, the focus of RL algorithms has largely been on the success of those individual skills, more so than learning and grounding a large repertoire of skills that can be sequenced to complete extended multi-stage tasks. The latter demands robustness and persistence, as errors in skills can compound over time, and may require the robot to have a number of primitive skills in its repertoire, rather than just one. To this end, we introduce EMBER, a model-based RL method for learning primitive skills that are suitable for completing long-horizon visuomotor tasks. EMBER learns and plans using a learned model, critic, and success classifier, where the success classifier serves both as a reward function for RL and as a grounding mechanism to continuously detect if the robot should retry a skill when unsuccessful or under perturbations. Further, the learned model is task-agnostic and trained using data from all skills, enabling the robot to efficiently learn a number of distinct primitives. These visuomotor primitive skills and their associated pre- and post-conditions can then be directly combined with off-the-shelf symbolic planners to complete long-horizon tasks. On a Franka Emika robot arm, we find that EMBER enables the robot to complete three long-horizon visuomotor tasks at 85% success rate, such as organizing an office desk, a file cabinet, and drawers, which require sequencing up to 12 skills, involve 14 unique learned primitives, and demand generalization to novel objects.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-21T16:48:07Z</published>
+    <arxiv:comment>Equal advising and contribution for last two authors</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Bohan Wu</name>
+    </author>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.07991v3</id>
+    <title>ObjectFolder: A Dataset of Objects with Implicit Visual, Auditory, and Tactile Representations</title>
+    <updated>2021-11-08T00:54:20Z</updated>
+    <link href="https://arxiv.org/abs/2109.07991v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.07991v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multisensory object-centric perception, reasoning, and interaction have been a key research topic in recent years. However, the progress in these directions is limited by the small set of objects available -- synthetic objects are not realistic enough and are mostly centered around geometry, while real object datasets such as YCB are often practically challenging and unstable to acquire due to international shipping, inventory, and financial cost. We present ObjectFolder, a dataset of 100 virtualized objects that addresses both challenges with two key innovations. First, ObjectFolder encodes the visual, auditory, and tactile sensory data for all objects, enabling a number of multisensory object recognition tasks, beyond existing datasets that focus purely on object geometry. Second, ObjectFolder employs a uniform, object-centric, and implicit representation for each object's visual textures, acoustic simulations, and tactile readings, making the dataset flexible to use and easy to share. We demonstrate the usefulness of our dataset as a testbed for multisensory perception and control by evaluating it on a variety of benchmark tasks, including instance recognition, cross-sensory retrieval, 3D reconstruction, and robotic grasping.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-16T14:00:59Z</published>
+    <arxiv:comment>In CoRL 2021. Chang and Mall contributed equally to this work. Project page: https://ai.stanford.edu/~rhgao/objectfolder/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Yen-Yu Chang</name>
+    </author>
+    <author>
+      <name>Shivani Mall</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.07258v3</id>
+    <title>On the Opportunities and Risks of Foundation Models</title>
+    <updated>2022-07-12T23:45:14Z</updated>
+    <link href="https://arxiv.org/abs/2108.07258v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.07258v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E, GPT-3) that are trained on broad data at scale and are adaptable to a wide range of downstream tasks. We call these models foundation models to underscore their critically central yet incomplete character. This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities (e.g., language, vision, robotics, reasoning, human interaction) and technical principles(e.g., model architectures, training procedures, data, systems, security, evaluation, theory) to their applications (e.g., law, healthcare, education) and societal impact (e.g., inequity, misuse, economic and environmental impact, legal and ethical considerations). Though foundation models are based on standard deep learning and transfer learning, their scale results in new emergent capabilities,and their effectiveness across so many tasks incentivizes homogenization. Homogenization provides powerful leverage but demands caution, as the defects of the foundation model are inherited by all the adapted models downstream. Despite the impending widespread deployment of foundation models, we currently lack a clear understanding of how they work, when they fail, and what they are even capable of due to their emergent properties. To tackle these questions, we believe much of the critical research on foundation models will require deep interdisciplinary collaboration commensurate with their fundamentally sociotechnical nature.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-16T17:50:08Z</published>
+    <arxiv:comment>Authored by the Center for Research on Foundation Models (CRFM) at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Report page with citation guidelines: https://crfm.stanford.edu/report.html</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Drew A. Hudson</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Russ Altman</name>
+    </author>
+    <author>
+      <name>Simran Arora</name>
+    </author>
+    <author>
+      <name>Sydney von Arx</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+    <author>
+      <name>Antoine Bosselut</name>
+    </author>
+    <author>
+      <name>Emma Brunskill</name>
+    </author>
+    <author>
+      <name>Erik Brynjolfsson</name>
+    </author>
+    <author>
+      <name>Shyamal Buch</name>
+    </author>
+    <author>
+      <name>Dallas Card</name>
+    </author>
+    <author>
+      <name>Rodrigo Castellon</name>
+    </author>
+    <author>
+      <name>Niladri Chatterji</name>
+    </author>
+    <author>
+      <name>Annie Chen</name>
+    </author>
+    <author>
+      <name>Kathleen Creel</name>
+    </author>
+    <author>
+      <name>Jared Quincy Davis</name>
+    </author>
+    <author>
+      <name>Dora Demszky</name>
+    </author>
+    <author>
+      <name>Chris Donahue</name>
+    </author>
+    <author>
+      <name>Moussa Doumbouya</name>
+    </author>
+    <author>
+      <name>Esin Durmus</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+    <author>
+      <name>John Etchemendy</name>
+    </author>
+    <author>
+      <name>Kawin Ethayarajh</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Trevor Gale</name>
+    </author>
+    <author>
+      <name>Lauren Gillespie</name>
+    </author>
+    <author>
+      <name>Karan Goel</name>
+    </author>
+    <author>
+      <name>Noah Goodman</name>
+    </author>
+    <author>
+      <name>Shelby Grossman</name>
+    </author>
+    <author>
+      <name>Neel Guha</name>
+    </author>
+    <author>
+      <name>Tatsunori Hashimoto</name>
+    </author>
+    <author>
+      <name>Peter Henderson</name>
+    </author>
+    <author>
+      <name>John Hewitt</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Jenny Hong</name>
+    </author>
+    <author>
+      <name>Kyle Hsu</name>
+    </author>
+    <author>
+      <name>Jing Huang</name>
+    </author>
+    <author>
+      <name>Thomas Icard</name>
+    </author>
+    <author>
+      <name>Saahil Jain</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>Pratyusha Kalluri</name>
+    </author>
+    <author>
+      <name>Siddharth Karamcheti</name>
+    </author>
+    <author>
+      <name>Geoff Keeling</name>
+    </author>
+    <author>
+      <name>Fereshte Khani</name>
+    </author>
+    <author>
+      <name>Omar Khattab</name>
+    </author>
+    <author>
+      <name>Pang Wei Koh</name>
+    </author>
+    <author>
+      <name>Mark Krass</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Rohith Kuditipudi</name>
+    </author>
+    <author>
+      <name>Ananya Kumar</name>
+    </author>
+    <author>
+      <name>Faisal Ladhak</name>
+    </author>
+    <author>
+      <name>Mina Lee</name>
+    </author>
+    <author>
+      <name>Tony Lee</name>
+    </author>
+    <author>
+      <name>Jure Leskovec</name>
+    </author>
+    <author>
+      <name>Isabelle Levent</name>
+    </author>
+    <author>
+      <name>Xiang Lisa Li</name>
+    </author>
+    <author>
+      <name>Xuechen Li</name>
+    </author>
+    <author>
+      <name>Tengyu Ma</name>
+    </author>
+    <author>
+      <name>Ali Malik</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+    <author>
+      <name>Suvir Mirchandani</name>
+    </author>
+    <author>
+      <name>Eric Mitchell</name>
+    </author>
+    <author>
+      <name>Zanele Munyikwa</name>
+    </author>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Avanika Narayan</name>
+    </author>
+    <author>
+      <name>Deepak Narayanan</name>
+    </author>
+    <author>
+      <name>Ben Newman</name>
+    </author>
+    <author>
+      <name>Allen Nie</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Hamed Nilforoshan</name>
+    </author>
+    <author>
+      <name>Julian Nyarko</name>
+    </author>
+    <author>
+      <name>Giray Ogut</name>
+    </author>
+    <author>
+      <name>Laurel Orr</name>
+    </author>
+    <author>
+      <name>Isabel Papadimitriou</name>
+    </author>
+    <author>
+      <name>Joon Sung Park</name>
+    </author>
+    <author>
+      <name>Chris Piech</name>
+    </author>
+    <author>
+      <name>Eva Portelance</name>
+    </author>
+    <author>
+      <name>Christopher Potts</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+    <author>
+      <name>Rob Reich</name>
+    </author>
+    <author>
+      <name>Hongyu Ren</name>
+    </author>
+    <author>
+      <name>Frieda Rong</name>
+    </author>
+    <author>
+      <name>Yusuf Roohani</name>
+    </author>
+    <author>
+      <name>Camilo Ruiz</name>
+    </author>
+    <author>
+      <name>Jack Ryan</name>
+    </author>
+    <author>
+      <name>Christopher Ré</name>
+    </author>
+    <author>
+      <name>Dorsa Sadigh</name>
+    </author>
+    <author>
+      <name>Shiori Sagawa</name>
+    </author>
+    <author>
+      <name>Keshav Santhanam</name>
+    </author>
+    <author>
+      <name>Andy Shih</name>
+    </author>
+    <author>
+      <name>Krishnan Srinivasan</name>
+    </author>
+    <author>
+      <name>Alex Tamkin</name>
+    </author>
+    <author>
+      <name>Rohan Taori</name>
+    </author>
+    <author>
+      <name>Armin W. Thomas</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Rose E. Wang</name>
+    </author>
+    <author>
+      <name>William Wang</name>
+    </author>
+    <author>
+      <name>Bohan Wu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Sang Michael Xie</name>
+    </author>
+    <author>
+      <name>Michihiro Yasunaga</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+    <author>
+      <name>Matei Zaharia</name>
+    </author>
+    <author>
+      <name>Michael Zhang</name>
+    </author>
+    <author>
+      <name>Tianyi Zhang</name>
+    </author>
+    <author>
+      <name>Xikun Zhang</name>
+    </author>
+    <author>
+      <name>Yuhui Zhang</name>
+    </author>
+    <author>
+      <name>Lucia Zheng</name>
+    </author>
+    <author>
+      <name>Kaitlyn Zhou</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.06038v2</id>
+    <title>Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration</title>
+    <updated>2023-09-20T16:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2108.06038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.06038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a method for learning a human-robot collaboration policy from human-human collaboration demonstrations. An effective robot assistant must learn to handle diverse human behaviors shown in the demonstrations and be robust when the humans adjust their strategies during online task execution. Our method co-optimizes a human policy and a robot policy in an interactive learning process: the human policy learns to generate diverse and plausible collaborative behaviors from demonstrations while the robot policy learns to assist by estimating the unobserved latent strategy of its human collaborator. Across a 2D strategy game, a human-robot handover task, and a multi-step collaborative manipulation task, our method outperforms the alternatives in both simulated evaluations and when executing the tasks with a real human operator in-the-loop. Supplementary materials and videos at https://sites.google.com/view/co-gail-web/home</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-13T03:14:43Z</published>
+    <arxiv:comment>CoRL 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Claudia Pérez-D'Arpino</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03332v1</id>
+    <title>BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments</title>
+    <updated>2021-08-06T23:36:23Z</updated>
+    <link href="https://arxiv.org/abs/2108.03332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce BEHAVIOR, a benchmark for embodied AI with 100 activities in simulation, spanning a range of everyday household chores such as cleaning, maintenance, and food preparation. These activities are designed to be realistic, diverse, and complex, aiming to reproduce the challenges that agents must face in the real world. Building such a benchmark poses three fundamental difficulties for each activity: definition (it can differ by time, place, or person), instantiation in a simulator, and evaluation. BEHAVIOR addresses these with three innovations. First, we propose an object-centric, predicate logic-based description language for expressing an activity's initial and goal conditions, enabling generation of diverse instances for any activity. Second, we identify the simulator-agnostic features required by an underlying environment to support BEHAVIOR, and demonstrate its realization in one such simulator. Third, we introduce a set of metrics to measure task progress and efficiency, absolute and relative to human demonstrators. We include 500 human demonstrations in virtual reality (VR) to serve as the human ground truth. Our experiments demonstrate that even state of the art embodied AI solutions struggle with the level of realism, diversity, and complexity imposed by the activities in our benchmark. We make BEHAVIOR publicly available at behavior.stanford.edu to facilitate and calibrate the development of new embodied AI solutions.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-06T23:36:23Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Michael Lingelbach</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Kent Vainio</name>
+    </author>
+    <author>
+      <name>Zheng Lian</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Shyamal Buch</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Hyowon Gweon</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03298v2</id>
+    <title>What Matters in Learning from Offline Human Demonstrations for Robot Manipulation</title>
+    <updated>2021-09-25T00:37:01Z</updated>
+    <link href="https://arxiv.org/abs/2108.03298v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03298v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitating human demonstrations is a promising approach to endow robots with various manipulation capabilities. While recent advances have been made in imitation learning and batch (offline) reinforcement learning, a lack of open-source human datasets and reproducible learning methods make assessing the state of the field difficult. In this paper, we conduct an extensive study of six offline learning algorithms for robot manipulation on five simulated and three real-world multi-stage manipulation tasks of varying complexity, and with datasets of varying quality. Our study analyzes the most critical challenges when learning from offline human data for manipulation. Based on the study, we derive a series of lessons including the sensitivity to different algorithmic design choices, the dependence on the quality of the demonstrations, and the variability based on the stopping criteria due to the different objectives in training and evaluation. We also highlight opportunities for learning from human datasets, such as the ability to learn proficient policies on challenging, multi-stage tasks beyond the scope of current reinforcement learning methods, and the ability to easily scale to natural, real-world manipulation scenarios where only raw sensory signals are available. We have open-sourced our datasets and all algorithm implementations to facilitate future research and fair comparisons in learning from human demonstration data. Codebase, datasets, trained models, and more available at https://arise-initiative.github.io/robomimic-web/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-06T20:48:30Z</published>
+    <arxiv:comment>CoRL 2021 (Oral)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Soroush Nasiriany</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Rohun Kulkarni</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03272v4</id>
+    <title>iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks</title>
+    <updated>2021-11-03T18:51:07Z</updated>
+    <link href="https://arxiv.org/abs/2108.03272v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03272v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research in embodied AI has been boosted by the use of simulation environments to develop and train robot learning approaches. However, the use of simulation has skewed the attention to tasks that only require what robotics simulators can simulate: motion and physical contact. We present iGibson 2.0, an open-source simulation environment that supports the simulation of a more diverse set of household tasks through three key innovations. First, iGibson 2.0 supports object states, including temperature, wetness level, cleanliness level, and toggled and sliced states, necessary to cover a wider range of tasks. Second, iGibson 2.0 implements a set of predicate logic functions that map the simulator states to logic states like Cooked or Soaked. Additionally, given a logic state, iGibson 2.0 can sample valid physical states that satisfy it. This functionality can generate potentially infinite instances of tasks with minimal effort from the users. The sampling mechanism allows our scenes to be more densely populated with small objects in semantically meaningful locations. Third, iGibson 2.0 includes a virtual reality (VR) interface to immerse humans in its scenes to collect demonstrations. As a result, we can collect demonstrations from humans on these new types of tasks, and use them for imitation learning. We evaluate the new capabilities of iGibson 2.0 to enable robot learning of novel tasks, in the hope of demonstrating the potential of this new simulator to support new research in embodied AI. iGibson 2.0 and its new dataset are publicly available at http://svl.stanford.edu/igibson/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-06T18:41:39Z</published>
+    <arxiv:comment>Accepted at Conference on Robot Learning (CoRL) 2021. Project website: http://svl.stanford.edu/igibson/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Michael Lingelbach</name>
+    </author>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Bokui Shen</name>
+    </author>
+    <author>
+      <name>Kent Vainio</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Gokul Dharan</name>
+    </author>
+    <author>
+      <name>Tanish Jain</name>
+    </author>
+    <author>
+      <name>Andrey Kurenkov</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+    <author>
+      <name>Hyowon Gweon</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.09285v1</id>
+    <title>Neural Abstructions: Abstractions that Support Construction for Grounded Language Learning</title>
+    <updated>2021-07-20T07:01:15Z</updated>
+    <link href="https://arxiv.org/abs/2107.09285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.09285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although virtual agents are increasingly situated in environments where natural language is the most effective mode of interaction with humans, these exchanges are rarely used as an opportunity for learning. Leveraging language interactions effectively requires addressing limitations in the two most common approaches to language grounding: semantic parsers built on top of fixed object categories are precise but inflexible and end-to-end models are maximally expressive, but fickle and opaque. Our goal is to develop a system that balances the strengths of each approach so that users can teach agents new instructions that generalize broadly from a single example. We introduce the idea of neural abstructions: a set of constraints on the inference procedure of a label-conditioned generative model that can affect the meaning of the label in context. Starting from a core programming language that operates over abstructions, users can define increasingly complex mappings from natural language to actions. We show that with this method a user population is able to build a semantic parser for an open-ended house modification task in Minecraft. The semantic parser that results is both flexible and expressive: the percentage of utterances sourced from redefinitions increases steadily over the course of 191 total exchanges, achieving a final value of 28%.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-20T07:01:15Z</published>
+    <arxiv:comment>17 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kaylee Burns</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.02331v1</id>
+    <title>Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering</title>
+    <updated>2021-07-06T00:52:11Z</updated>
+    <link href="https://arxiv.org/abs/2107.02331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.02331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Active learning promises to alleviate the massive data needs of supervised machine learning: it has successfully improved sample efficiency by an order of magnitude on traditional tasks like topic classification and object recognition. However, we uncover a striking contrast to this promise: across 5 models and 4 datasets on the task of visual question answering, a wide variety of active learning approaches fail to outperform random selection. To understand this discrepancy, we profile 8 active learning methods on a per-example basis, and identify the problem as collective outliers -- groups of examples that active learning methods prefer to acquire but models fail to learn (e.g., questions that ask about text in images or require external knowledge). Through systematic ablation experiments and qualitative visualizations, we verify that collective outliers are a general phenomenon responsible for degrading pool-based active learning. Notably, we show that active learning sample efficiency increases significantly as the number of collective outliers in the active learning pool decreases. We conclude with a discussion and prescriptive recommendations for mitigating the effects of these outliers in future work.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-06T00:52:11Z</published>
+    <arxiv:comment>Accepted at ACL-IJCNLP 2021. 17 pages, 16 Figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Siddharth Karamcheti</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13935v1</id>
+    <title>Discovering Generalizable Skills via Automated Generation of Diverse Tasks</title>
+    <updated>2021-06-26T03:41:51Z</updated>
+    <link href="https://arxiv.org/abs/2106.13935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.13935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The learning efficiency and generalization ability of an intelligent agent can be greatly improved by utilizing a useful set of skills. However, the design of robot skills can often be intractable in real-world applications due to the prohibitive amount of effort and expertise that it requires. In this work, we introduce Skill Learning In Diversified Environments (SLIDE), a method to discover generalizable skills via automated generation of a diverse set of tasks. As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. To encourage generalizable skills to emerge, our method trains each skill to specialize in the paired task and maximizes the diversity of the generated tasks. A task discriminator defined on the robot behaviors in the generated tasks is jointly trained to estimate the evidence lower bound of the diversity objective. The learned skills can then be composed in a hierarchical reinforcement learning algorithm to solve unseen target tasks. We demonstrate that the proposed method can effectively learn a variety of robot skills in two tabletop manipulation domains. Our results suggest that the learned skills can effectively improve the robot's performance in various unseen target tasks compared to existing reinforcement learning and skill learning methods.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-26T03:41:51Z</published>
+    <arxiv:comment>RSS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.09678v1</id>
+    <title>SECANT: Self-Expert Cloning for Zero-Shot Generalization of Visual Policies</title>
+    <updated>2021-06-17T17:28:18Z</updated>
+    <link href="https://arxiv.org/abs/2106.09678v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.09678v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalization has been a long-standing challenge for reinforcement learning (RL). Visual RL, in particular, can be easily distracted by irrelevant factors in high-dimensional observation space. In this work, we consider robust policy learning which targets zero-shot generalization to unseen visual environments with large distributional shift. We propose SECANT, a novel self-expert cloning technique that leverages image augmentation in two stages to decouple robust representation learning from policy optimization. Specifically, an expert policy is first trained by RL from scratch with weak augmentations. A student network then learns to mimic the expert policy by supervised learning with strong augmentations, making its representation more robust against visual variations compared to the expert. Extensive experiments demonstrate that SECANT significantly advances the state of the art in zero-shot generalization across 4 challenging domains. Our average reward improvements over prior SOTAs are: DeepMind Control (+26.5%), robotic manipulation (+337.8%), vision-based autonomous driving (+47.7%), and indoor object navigation (+15.8%). Code release and video are available at https://linxifan.github.io/secant-site/.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-17T17:28:18Z</published>
+    <arxiv:comment>ICML 2021. Website: https://linxifan.github.io/secant-site/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Zhiding Yu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Anima Anandkumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.08261v3</id>
+    <title>Physion: Evaluating Physical Prediction from Vision in Humans and Machines</title>
+    <updated>2022-06-20T14:27:21Z</updated>
+    <link href="https://arxiv.org/abs/2106.08261v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.08261v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While current vision algorithms excel at many challenging tasks, it is unclear how well they understand the physical dynamics of real-world environments. Here we introduce Physion, a dataset and benchmark for rigorously evaluating the ability to predict how physical scenarios will evolve over time. Our dataset features realistic simulations of a wide range of physical phenomena, including rigid and soft-body collisions, stable multi-object configurations, rolling, sliding, and projectile motion, thus providing a more comprehensive challenge than previous benchmarks. We used Physion to benchmark a suite of models varying in their architecture, learning objective, input-output structure, and training data. In parallel, we obtained precise measurements of human prediction behavior on the same set of scenarios, allowing us to directly evaluate how well any model could approximate human behavior. We found that vision algorithms that learn object-centric representations generally outperform those that do not, yet still fall far short of human performance. On the other hand, graph neural networks with direct access to physical state information both perform substantially better and make predictions that are more similar to those made by humans. These results suggest that extracting physical representations of scenes is the main bottleneck to achieving human-level and human-like physical understanding in vision algorithms. We have publicly released all data and code to facilitate the use of Physion to benchmark additional models in a fully reproducible manner, enabling systematic evaluation of progress towards vision algorithms that understand physical environments as robustly as people do.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-15T16:13:39Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Daniel M. Bear</name>
+    </author>
+    <author>
+      <name>Elias Wang</name>
+    </author>
+    <author>
+      <name>Damian Mrowca</name>
+    </author>
+    <author>
+      <name>Felix J. Binder</name>
+    </author>
+    <author>
+      <name>Hsiao-Yu Fish Tung</name>
+    </author>
+    <author>
+      <name>R. T. Pramod</name>
+    </author>
+    <author>
+      <name>Cameron Holdaway</name>
+    </author>
+    <author>
+      <name>Sirui Tao</name>
+    </author>
+    <author>
+      <name>Kevin Smith</name>
+    </author>
+    <author>
+      <name>Fan-Yun Sun</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Nancy Kanwisher</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Daniel L. K. Yamins</name>
+    </author>
+    <author>
+      <name>Judith E. Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06047v2</id>
+    <title>Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning</title>
+    <updated>2022-04-13T21:01:18Z</updated>
+    <link href="https://arxiv.org/abs/2106.06047v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.06047v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning is an emerging research paradigm enabling collaborative training of machine learning models among different organizations while keeping data private at each institution. Despite recent progress, there remain fundamental challenges such as the lack of convergence and the potential for catastrophic forgetting across real-world heterogeneous devices. In this paper, we demonstrate that self-attention-based architectures (e.g., Transformers) are more robust to distribution shifts and hence improve federated learning over heterogeneous data. Concretely, we conduct the first rigorous empirical investigation of different neural architectures across a range of federated algorithms, real-world benchmarks, and heterogeneous data splits. Our experiments show that simply replacing convolutional networks with Transformers can greatly reduce catastrophic forgetting of previous devices, accelerate convergence, and reach a better global model, especially when dealing with heterogeneous data. We release our code and pretrained models at https://github.com/Liangqiong/ViT-FL-main to encourage future exploration in robust architectures as an alternative to current research efforts on the optimization front.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-10T21:04:18Z</published>
+    <arxiv:comment>Published as a conference paper at CVPR 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Liangqiong Qu</name>
+    </author>
+    <author>
+      <name>Yuyin Zhou</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Yingda Xia</name>
+    </author>
+    <author>
+      <name>Feifei Wang</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Daniel Rubin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.09052v2</id>
+    <title>Metadata Normalization</title>
+    <updated>2021-05-05T10:14:26Z</updated>
+    <link href="https://arxiv.org/abs/2104.09052v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.09052v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Batch Normalization (BN) and its variants have delivered tremendous success in combating the covariate shift induced by the training step of deep learning methods. While these techniques normalize feature distributions by standardizing with batch statistics, they do not correct the influence on features from extraneous variables or multiple distributions. Such extra variables, referred to as metadata here, may create bias or confounding effects (e.g., race when classifying gender from face images). We introduce the Metadata Normalization (MDN) layer, a new batch-level operation which can be used end-to-end within the training framework, to correct the influence of metadata on feature distributions. MDN adopts a regression analysis technique traditionally used for preprocessing to remove (regress out) the metadata effects on model features during training. We utilize a metric based on distance correlation to quantify the distribution bias from the metadata and demonstrate that our method successfully removes metadata effects on four diverse settings: one synthetic, one 2D image, one video, and one 3D medical image dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-19T05:10:26Z</published>
+    <arxiv:comment>Accepted to CVPR 2021. Project page: https://mml.stanford.edu/MDN/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mandy Lu</name>
+    </author>
+    <author>
+      <name>Qingyu Zhao</name>
+    </author>
+    <author>
+      <name>Jiequan Zhang</name>
+    </author>
+    <author>
+      <name>Kilian M. Pohl</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.06191v3</id>
+    <title>A Study of Face Obfuscation in ImageNet</title>
+    <updated>2022-06-09T17:30:55Z</updated>
+    <link href="https://arxiv.org/abs/2103.06191v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.06191v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Face obfuscation (blurring, mosaicing, etc.) has been shown to be effective for privacy protection; nevertheless, object recognition research typically assumes access to complete, unobfuscated images. In this paper, we explore the effects of face obfuscation on the popular ImageNet challenge visual recognition benchmark. Most categories in the ImageNet challenge are not people categories; however, many incidental people appear in the images, and their privacy is a concern. We first annotate faces in the dataset. Then we demonstrate that face obfuscation has minimal impact on the accuracy of recognition models. Concretely, we benchmark multiple deep neural networks on obfuscated images and observe that the overall recognition accuracy drops only slightly (&lt;= 1.0%). Further, we experiment with transfer learning to 4 downstream tasks (object recognition, scene recognition, face attribute classification, and object detection) and show that features learned on obfuscated images are equally transferable. Our work demonstrates the feasibility of privacy-aware visual recognition, improves the highly-used ImageNet challenge benchmark, and suggests an important path for future visual datasets. Data and code are available at https://github.com/princetonvisualai/imagenet-face-obfuscation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-10T17:11:34Z</published>
+    <arxiv:comment>Accepted to ICML 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiyu Yang</name>
+    </author>
+    <author>
+      <name>Jacqueline Yau</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+  </entry>
+</feed>

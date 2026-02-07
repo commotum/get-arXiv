@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i6rDqfAGQ69G8N7GhBS59Vv590M</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=600&amp;max_results=50</title>
+  <updated>2026-02-06T22:41:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=600&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>600</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2686v1</id>
+    <title>Joint Training of Deep Boltzmann Machines</title>
+    <updated>2012-12-12T01:59:27Z</updated>
+    <link href="https://arxiv.org/abs/1212.2686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.2686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new method for training deep Boltzmann machines jointly. Prior methods require an initial learning pass that trains the deep Boltzmann machine greedily, one layer at a time, or do not perform well on classifi- cation tasks.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-12T01:59:27Z</published>
+    <arxiv:comment>4 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.1936v1</id>
+    <title>High-dimensional sequence transduction</title>
+    <updated>2012-12-09T23:28:02Z</updated>
+    <link href="https://arxiv.org/abs/1212.1936v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.1936v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the problem of transforming an input sequence into a high-dimensional output sequence in order to transcribe polyphonic audio music into symbolic notation. We introduce a probabilistic model based on a recurrent neural network that is able to learn realistic output distributions given the input and we devise an efficient algorithm to search for the global mode of that distribution. The resulting method produces musically plausible transcriptions even under high levels of noise and drastically outperforms previous state-of-the-art approaches on five datasets of synthesized sounds and real recordings, approximately halving the test error rate.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-09T23:28:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Boulanger-Lewandowski</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.0901v2</id>
+    <title>Advances in Optimizing Recurrent Networks</title>
+    <updated>2012-12-14T01:44:53Z</updated>
+    <link href="https://arxiv.org/abs/1212.0901v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.0901v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After a more than decade-long period of relatively little research activity in the area of recurrent neural networks, several new developments will be reviewed here that have allowed substantial progress both in understanding and in technical solutions towards more efficient training of recurrent networks. These advances have been motivated by and related to the optimization issues surrounding deep learning. Although recurrent networks are extremely powerful in what they can in principle represent in terms of modelling sequences,their training is plagued by two aspects of the same issue regarding the learning of long-term dependencies. Experiments reported here evaluate the use of clipping gradients, spanning longer time ranges with leaky integration, advanced momentum techniques, using more powerful output probability models, and encouraging sparser gradients to help symmetry breaking and credit assignment. The experiments are performed on text and music data and show off the combined effects of these techniques in generally improving both training and test error.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-04T23:25:34Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nicolas Boulanger-Lewandowski</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5687v1</id>
+    <title>Texture Modeling with Convolutional Spike-and-Slab RBMs and Deep Extensions</title>
+    <updated>2012-11-24T17:51:57Z</updated>
+    <link href="https://arxiv.org/abs/1211.5687v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5687v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply the spike-and-slab Restricted Boltzmann Machine (ssRBM) to texture modeling. The ssRBM with tiled-convolution weight sharing (TssRBM) achieves or surpasses the state-of-the-art on texture synthesis and inpainting by parametric models. We also develop a novel RBM model with a spike-and-slab visible layer and binary variables in the hidden layer. This model is designed to be stacked on top of the TssRBM. We show the resulting deep belief network (DBN) is a powerful generative model that improves on single-layer models and is capable of modeling not only single high-resolution and challenging textures but also multiple textures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-24T17:51:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Heng Luo</name>
+    </author>
+    <author>
+      <name>Pierre Luc Carrier</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5590v1</id>
+    <title>Theano: new features and speed improvements</title>
+    <updated>2012-11-23T20:42:41Z</updated>
+    <link href="https://arxiv.org/abs/1211.5590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theano is a linear algebra compiler that optimizes a user's symbolically-specified mathematical computations to produce efficient low-level implementations. In this paper, we present new features and efficiency improvements to Theano, and benchmarks demonstrating Theano's performance relative to Torch7, a recently introduced machine learning library, and to RNNLM, a C++ library targeted at recurrent neural networks.</summary>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-23T20:42:41Z</published>
+    <arxiv:comment>Presented at the Deep Learning Workshop, NIPS 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.SC"/>
+    <author>
+      <name>Frédéric Bastien</name>
+    </author>
+    <author>
+      <name>Pascal Lamblin</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Arnaud Bergeron</name>
+    </author>
+    <author>
+      <name>Nicolas Bouchard</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5063v2</id>
+    <title>On the difficulty of training Recurrent Neural Networks</title>
+    <updated>2013-02-16T00:35:48Z</updated>
+    <link href="https://arxiv.org/abs/1211.5063v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5063v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are two widely known issues with properly training Recurrent Neural Networks, the vanishing and the exploding gradient problems detailed in Bengio et al. (1994). In this paper we attempt to improve the understanding of the underlying issues by exploring these problems from an analytical, a geometric and a dynamical systems perspective. Our analysis is used to justify a simple yet effective solution. We propose a gradient norm clipping strategy to deal with exploding gradients and a soft constraint for the vanishing gradients problem. We validate empirically our hypothesis and proposed solutions in the experimental section.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-21T15:40:11Z</published>
+    <arxiv:comment>Improved description of the exploding gradient problem and description and analysis of the vanishing gradient problem</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Tomas Mikolov</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.4246v5</id>
+    <title>What Regularized Auto-Encoders Learn from the Data Generating Distribution</title>
+    <updated>2014-08-19T15:12:19Z</updated>
+    <link href="https://arxiv.org/abs/1211.4246v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.4246v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>What do auto-encoders learn about the underlying data generating distribution? Recent work suggests that some auto-encoder variants do a good job of capturing the local manifold structure of data. This paper clarifies some of these previous observations by showing that minimizing a particular form of regularized reconstruction error yields a reconstruction function that locally characterizes the shape of the data generating density. We show that the auto-encoder captures the score (derivative of the log-density with respect to the input). It contradicts previous interpretations of reconstruction error as an energy function. Unlike previous results, the theorems provided here are completely generic and do not depend on the parametrization of the auto-encoder: they show what the auto-encoder would tend to if given enough capacity and examples. These results are for a contractive training criterion we show to be similar to the denoising auto-encoder training criterion with small corruption noise, but with contraction applied on the whole reconstruction function rather than just encoder. Similarly to score matching, one can consider the proposed training criterion as a convenient alternative to maximum likelihood because it does not involve a partition function. Finally, we show how an approximate Metropolis-Hastings MCMC can be setup to recover samples from the estimated distribution, and this is confirmed in sampling experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-18T19:06:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guillaume Alain</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.5474v1</id>
+    <title>Disentangling Factors of Variation via Generative Entangling</title>
+    <updated>2012-10-19T17:16:48Z</updated>
+    <link href="https://arxiv.org/abs/1210.5474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.5474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here we propose a novel model family with the objective of learning to disentangle the factors of variation in data. Our approach is based on the spike-and-slab restricted Boltzmann machine which we generalize to include higher-order interactions among multiple latent variables. Seen from a generative perspective, the multiplicative interactions emulates the entangling of factors of variation. Inference in the model can be seen as disentangling these generative factors. Unlike previous attempts at disentangling latent factors, the proposed model is trained using no supervised information regarding the latent factors. We apply our model to the task of facial expression classification.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-19T17:16:48Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Guillaume Desjardins</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.0521v2</id>
+    <title>Efficient EM Training of Gaussian Mixtures with Missing Data</title>
+    <updated>2018-01-08T15:50:42Z</updated>
+    <link href="https://arxiv.org/abs/1209.0521v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.0521v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In data-mining applications, we are frequently faced with a large fraction of missing entries in the data matrix, which is problematic for most discriminant machine learning algorithms. A solution that we explore in this paper is the use of a generative model (a mixture of Gaussians) to compute the conditional expectation of the missing variables given the observed variables. Since training a Gaussian mixture with many different patterns of missing values can be computationally very expensive, we introduce a spanning-tree based algorithm that significantly speeds up training in these conditions. We also observe that good results can be obtained by using the generative model to fill-in the missing values for a separate discriminant learning algorithm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-04T03:15:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Olivier Delalleau</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.4404v1</id>
+    <title>Better Mixing via Deep Representations</title>
+    <updated>2012-07-18T16:07:36Z</updated>
+    <link href="https://arxiv.org/abs/1207.4404v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.4404v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has previously been hypothesized, and supported with some experimental evidence, that deeper representations, when well trained, tend to do a better job at disentangling the underlying factors of variation. We study the following related conjecture: better representations, in the sense of better disentangling, can be exploited to produce faster-mixing Markov chains. Consequently, mixing would be more efficient at higher levels of representation. To better understand why and how this is happening, we propose a secondary conjecture: the higher-level samples fill more uniformly the space they occupy and the high-density manifolds tend to unfold when represented at higher levels. The paper discusses these hypotheses and tests them experimentally through visualization and measurements of mixing and interpolating between samples.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-18T16:07:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Grégoire Mesnil</name>
+    </author>
+    <author>
+      <name>Yann Dauphin</name>
+    </author>
+    <author>
+      <name>Salah Rifai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.0057v1</id>
+    <title>Implicit Density Estimation by Local Moment Matching to Sample from Auto-Encoders</title>
+    <updated>2012-06-30T07:45:11Z</updated>
+    <link href="https://arxiv.org/abs/1207.0057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.0057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work suggests that some auto-encoder variants do a good job of capturing the local manifold structure of the unknown data generating density. This paper contributes to the mathematical understanding of this phenomenon and helps define better justified sampling algorithms for deep learning based on auto-encoder variants. We consider an MCMC where each step samples from a Gaussian whose mean and covariance matrix depend on the previous state, defines through its asymptotic distribution a target density. First, we show that good choices (in the sense of consistency) for these mean and covariance functions are the local expected value and local covariance under that target density. Then we show that an auto-encoder with a contractive penalty captures estimators of these local moments in its reconstruction function and its Jacobian. A contribution of this work is thus a novel alternative to maximum-likelihood density estimation, which we call local moment matching. It also justifies a recently proposed sampling algorithm for the Contractive Auto-Encoder and extends it to the Denoising Auto-Encoder.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-30T07:45:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Guillaume Alain</name>
+    </author>
+    <author>
+      <name>Salah Rifai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6407v1</id>
+    <title>Large-Scale Feature Learning With Spike-and-Slab Sparse Coding</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6407v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6407v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of object recognition with a large number of classes. In order to overcome the low amount of labeled examples available in this setting, we introduce a new feature learning and extraction procedure based on a factor model we call spike-and-slab sparse coding (S3C). Prior work on S3C has not prioritized the ability to exploit parallel architectures and scale S3C to the enormous problem sizes needed for object recognition. We present a novel inference procedure for appropriate for use with GPUs which allows us to dramatically increase both the training set size and the amount of latent factors that S3C may be trained with. We demonstrate that this approach improves upon the supervised learning capabilities of both sparse coding and the spike-and-slab Restricted Boltzmann Machine (ssRBM) on the CIFAR-10 dataset. We use the CIFAR-100 dataset to demonstrate that our method scales to large numbers of classes better than previous methods. Finally, we use our method to win the NIPS 2011 Workshop on Challenges In Learning Hierarchical Models? Transfer Learning Challenge.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012). arXiv admin note: substantial text overlap with arXiv:1201.3382</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Goodfellow</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6434v1</id>
+    <title>A Generative Process for Sampling Contractive Auto-Encoders</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6434v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6434v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The contractive auto-encoder learns a representation of the input data that captures the local manifold structure around each data point, through the leading singular vectors of the Jacobian of the transformation from input to representation. The corresponding singular values specify how much local variation is plausible in directions associated with the corresponding singular vectors, while remaining in a high-density region of the input space. This paper proposes a procedure for generating samples that are consistent with the local structure captured by a contractive auto-encoder. The associated stochastic process defines a distribution from which one can sample, and which experimentally appears to converge quickly and mix well between modes, compared to Restricted Boltzmann Machines and Deep Belief Networks. The intuitions behind this procedure can also be used to train the second layer of contraction that pools lower-level features and learns to be invariant to the local directions of variation discovered in the first layer. We show that this can help learn and represent invariances present in the data and improve classification error.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Salah Rifai</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yann Dauphin</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6392v1</id>
+    <title>Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the problem of modeling symbolic sequences of polyphonic music in a completely general piano-roll representation. We introduce a probabilistic model based on distribution estimators conditioned on a recurrent neural network that is able to discover temporal dependencies in high-dimensional sequences. Our approach outperforms many traditional models of polyphonic music on a variety of realistic datasets. We show how our musical language model can serve as a symbolic prior to improve the accuracy of polyphonic transcription.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Boulanger-Lewandowski</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.5538v3</id>
+    <title>Representation Learning: A Review and New Perspectives</title>
+    <updated>2014-04-23T11:48:51Z</updated>
+    <link href="https://arxiv.org/abs/1206.5538v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.5538v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data. Although specific domain knowledge can be used to help design representations, learning with generic priors can also be used, and the quest for AI is motivating the design of more powerful representation-learning algorithms implementing such priors. This paper reviews recent work in the area of unsupervised feature learning and deep learning, covering advances in probabilistic models, auto-encoders, manifold learning, and deep networks. This motivates longer-term unanswered questions about the appropriate objectives for learning good representations, for computing representations (i.e., inference), and the geometrical connections between representation learning, density estimation and manifold learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-24T20:51:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.5533v2</id>
+    <title>Practical recommendations for gradient-based training of deep architectures</title>
+    <updated>2012-09-16T17:49:12Z</updated>
+    <link href="https://arxiv.org/abs/1206.5533v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.5533v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning algorithms related to artificial neural networks and in particular for Deep Learning may seem to involve many bells and whistles, called hyper-parameters. This chapter is meant as a practical guide with recommendations for some of the most commonly used hyper-parameters, in particular in the context of learning algorithms based on back-propagated gradient and gradient-based optimization. It also discusses how to deal with the fact that more interesting results can be obtained when allowing one to adjust many hyper-parameters. Overall, it describes elements of the practice used to successfully and efficiently train and debug large-scale and often deep multi-layer neural networks. It closes with open questions about the training difficulties observed with deeper architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-24T19:17:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.4416v1</id>
+    <title>On Training Deep Boltzmann Machines</title>
+    <updated>2012-03-20T12:59:15Z</updated>
+    <link href="https://arxiv.org/abs/1203.4416v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.4416v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The deep Boltzmann machine (DBM) has been an important development in the quest for powerful "deep" probabilistic models. To date, simultaneous or joint training of all layers of the DBM has been largely unsuccessful with existing training methods. We introduce a simple regularization scheme that encourages the weight vectors associated with each hidden unit to have similar norms. We demonstrate that this regularization can be easily combined with standard stochastic maximum likelihood to yield an effective training strategy for the simultaneous training of all layers of the deep Boltzmann machine.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-20T12:59:15Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Guillaume Desjardins</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.2990v2</id>
+    <title>Evolving Culture vs Local Minima</title>
+    <updated>2012-11-29T20:02:48Z</updated>
+    <link href="https://arxiv.org/abs/1203.2990v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.2990v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a theory that relates difficulty of learning in deep architectures to culture and language. It is articulated around the following hypotheses: (1) learning in an individual human brain is hampered by the presence of effective local minima; (2) this optimization difficulty is particularly important when it comes to learning higher-level abstractions, i.e., concepts that cover a vast and highly-nonlinear span of sensory configurations; (3) such high-level abstractions are best represented in brains by the composition of many levels of representation, i.e., by deep architectures; (4) a human brain can learn such high-level abstractions if guided by the signals produced by other humans, which act as hints or indirect supervision for these high-level abstractions; and (5), language and the recombination and optimization of mental concepts provide an efficient evolutionary recombination operator, and this gives rise to rapid search in the space of communicable ideas that help humans build up better high-level internal representations of their world. These hypotheses put together imply that human culture and the evolution of ideas have been crucial to counter an optimization difficulty: this optimization difficulty would otherwise make it very difficult for human brains to capture high-level knowledge of the world. The theory is grounded in experimental observations of the difficulties of training deep artificial neural networks. Plausible consequences of this theory for the efficiency of cultural evolutions are sketched.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-14T02:38:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.3382v2</id>
+    <title>Spike-and-Slab Sparse Coding for Unsupervised Feature Discovery</title>
+    <updated>2012-04-03T22:48:52Z</updated>
+    <link href="https://arxiv.org/abs/1201.3382v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.3382v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of using a factor model we call {\em spike-and-slab sparse coding} (S3C) to learn features for a classification task. The S3C model resembles both the spike-and-slab RBM and sparse coding. Since exact inference in this model is intractable, we derive a structured variational inference procedure and employ a variational EM training algorithm. Prior work on approximate inference for this model has not prioritized the ability to exploit parallel architectures and scale to enormous problem sizes. We present an inference procedure appropriate for use with GPUs which allows us to dramatically increase both the training set size and the amount of latent factors.
+  We demonstrate that this approach improves upon the supervised learning capabilities of both sparse coding and the ssRBM on the CIFAR-10 dataset. We evaluate our approach's potential for semi-supervised learning on subsets of CIFAR-10. We demonstrate state-of-the art self-taught learning performance on the STL-10 dataset and use our method to win the NIPS 2011 Workshop on Challenges In Learning Hierarchical Models' Transfer Learning Challenge.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-16T22:00:07Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.6638v2</id>
+    <title>The Statistical Inefficiency of Sparse Coding for Images (or, One Gabor to Rule them All)</title>
+    <updated>2011-09-30T15:27:25Z</updated>
+    <link href="https://arxiv.org/abs/1109.6638v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.6638v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse coding is a proven principle for learning compact representations of images. However, sparse coding by itself often leads to very redundant dictionaries. With images, this often takes the form of similar edge detectors which are replicated many times at various positions, scales and orientations. An immediate consequence of this observation is that the estimation of the dictionary components is not statistically efficient. We propose a factored model in which factors of variation (e.g. position, scale and orientation) are untangled from the underlying Gabor-like filters. There is so much redundancy in sparse codes for natural images that our model requires only a single dictionary element (a Gabor-like edge detector) to outperform standard sparse coding. Our model scales naturally to arbitrary-sized images while achieving much greater statistical efficiency during learning. We validate this claim with a number of experiments showing, in part, superior compression of out-of-sample data using a sparse coding dictionary learned with only a single image.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-29T19:47:00Z</published>
+    <arxiv:comment>9 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.3663v1</id>
+    <title>Towards Open-Text Semantic Parsing via Multi-Task Learning of Structured Embeddings</title>
+    <updated>2011-07-19T09:44:09Z</updated>
+    <link href="https://arxiv.org/abs/1107.3663v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.3663v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-text (or open-domain) semantic parsers are designed to interpret any statement in natural language by inferring a corresponding meaning representation (MR). Unfortunately, large scale systems cannot be easily machine-learned due to lack of directly supervised data. We propose here a method that learns to assign MRs to a wide range of text (using a dictionary of more than 70,000 words, which are mapped to more than 40,000 entities) thanks to a training scheme that combines learning from WordNet and ConceptNet with learning from raw text. The model learns structured embeddings of words, entities and MRs via a multi-task training process operating on these diverse sources of data that integrates all the learnt knowledge into a single system. This work ends up combining methods for knowledge acquisition, semantic parsing, and word-sense disambiguation. Experiments on various tasks indicate that our approach is indeed successful and can form a basis for future more sophisticated systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-19T09:44:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Antoine Bordes</name>
+    </author>
+    <author>
+      <name>Xavier Glorot</name>
+    </author>
+    <author>
+      <name>Jason Weston</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1104.4153v1</id>
+    <title>Learning invariant features through local space contraction</title>
+    <updated>2011-04-21T01:39:25Z</updated>
+    <link href="https://arxiv.org/abs/1104.4153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.4153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present in this paper a novel approach for training deterministic auto-encoders. We show that by adding a well chosen penalty term to the classical reconstruction cost function, we can achieve results that equal or surpass those attained by other regularized auto-encoders as well as denoising auto-encoders on a range of datasets. This penalty term corresponds to the Frobenius norm of the Jacobian matrix of the encoder activations with respect to the input. We show that this penalty term results in a localized space contraction which in turn yields robust features on the activation layer. Furthermore, we show how this penalty term is related to both regularized auto-encoders and denoising encoders and how it can be seen as a link between deterministic and non-deterministic auto-encoders. We find empirically that this penalty helps to carve a representation that better captures the local directions of variation dictated by the data, corresponding to a lower-dimensional non-linear manifold, while being more invariant to the vast majority of directions orthogonal to the manifold. Finally, we show that by using the learned features to initialize a MLP, we achieve state of the art classification error on a range of datasets, surpassing other methods of pre-training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-21T01:39:25Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Salah Rifai</name>
+    </author>
+    <author>
+      <name>Xavier Muller</name>
+    </author>
+    <author>
+      <name>Xavier Glorot</name>
+    </author>
+    <author>
+      <name>Gregoire Mesnil</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1104.3250v1</id>
+    <title>Adding noise to the input of a model trained with a regularized objective</title>
+    <updated>2011-04-16T18:09:13Z</updated>
+    <link href="https://arxiv.org/abs/1104.3250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.3250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regularization is a well studied problem in the context of neural networks. It is usually used to improve the generalization performance when the number of input samples is relatively small or heavily contaminated with noise. The regularization of a parametric model can be achieved in different manners some of which are early stopping (Morgan and Bourlard, 1990), weight decay, output smoothing that are used to avoid overfitting during the training of the considered model. From a Bayesian point of view, many regularization techniques correspond to imposing certain prior distributions on model parameters (Krogh and Hertz, 1991). Using Bishop's approximation (Bishop, 1995) of the objective function when a restricted type of noise is added to the input of a parametric function, we derive the higher order terms of the Taylor expansion and analyze the coefficients of the regularization terms induced by the noisy input. In particular we study the effect of penalizing the Hessian of the mapping function with respect to the input in terms of generalization performance. We also show how we can control independently this coefficient by explicitly penalizing the Jacobian of the mapping function on corrupted inputs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-16T18:09:13Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Salah Rifai</name>
+    </author>
+    <author>
+      <name>Xavier Glorot</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.2832v1</id>
+    <title>Autotagging music with conditional restricted Boltzmann machines</title>
+    <updated>2011-03-15T02:39:31Z</updated>
+    <link href="https://arxiv.org/abs/1103.2832v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.2832v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper describes two applications of conditional restricted Boltzmann machines (CRBMs) to the task of autotagging music. The first consists of training a CRBM to predict tags that a user would apply to a clip of a song based on tags already applied by other users. By learning the relationships between tags, this model is able to pre-process training data to significantly improve the performance of a support vector machine (SVM) autotagging. The second is the use of a discriminative RBM, a type of CRBM, to autotag music. By simultaneously exploiting the relationships among tags and between tags and audio-based features, this model is able to significantly outperform SVMs, logistic regression, and multi-layer perceptrons. In order to be applied to this problem, the discriminative RBM was generalized to the multi-label setting and four different learning algorithms for it were evaluated, the first such in-depth analysis of which we are aware.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-15T02:39:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Mandel</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.2382v1</id>
+    <title>Adaptive Drift-Diffusion Process to Learn Time Intervals</title>
+    <updated>2011-03-11T21:35:45Z</updated>
+    <link href="https://arxiv.org/abs/1103.2382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.2382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Animals learn the timing between consecutive events very easily. Their precision is usually proportional to the interval to time (Weber's law for timing). Most current timing models either require a central clock and unbounded accumulator or whole pre-defined populations of delay lines, decaying traces or oscillators to represent elapsing time. Current adaptive recurrent neural networks fail at learning to predict the timing of future events (the 'when') in a realistic manner. In this paper, we present a new model of interval timing, based on simple temporal integrators, derived from drift-diffusion models. We develop a simple geometric rule to learn 'when' instead of 'what'. We provide an analytical proof that the model can learn inter-event intervals in a number of trials independent of the interval size and that the temporal precision of the system is proportional to the timed interval. This new model uses no clock, no gradient, no unbounded accumulators, no delay lines, and has internal noise allowing generations of individual trials. Three interesting predictions are made.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-11T21:35:45Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Francois Rivest</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.3476v1</id>
+    <title>Adaptive Parallel Tempering for Stochastic Maximum Likelihood Learning of RBMs</title>
+    <updated>2010-12-15T21:23:09Z</updated>
+    <link href="https://arxiv.org/abs/1012.3476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.3476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Restricted Boltzmann Machines (RBM) have attracted a lot of attention of late, as one the principle building blocks of deep networks. Training RBMs remains problematic however, because of the intractibility of their partition function. The maximum likelihood gradient requires a very robust sampler which can accurately sample from the model despite the loss of ergodicity often incurred during learning. While using Parallel Tempering in the negative phase of Stochastic Maximum Likelihood (SML-PT) helps address the issue, it imposes a trade-off between computational complexity and high ergodicity, and requires careful hand-tuning of the temperatures. In this paper, we show that this trade-off is unnecessary. The choice of optimal temperatures can be automated by minimizing average return time (a concept first proposed by [Katzgraber et al., 2006]) while chains can be spawned dynamically, as needed, thus minimizing the computational overhead. We show on a synthetic dataset, that this results in better likelihood scores.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-15T21:23:09Z</published>
+    <arxiv:comment>Presented at the "NIPS 2010 Workshop on Deep Learning and Unsupervised Feature Learning"</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Guillaume Desjardins</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.3589v1</id>
+    <title>Deep Self-Taught Learning for Handwritten Character Recognition</title>
+    <updated>2010-09-18T22:11:05Z</updated>
+    <link href="https://arxiv.org/abs/1009.3589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.3589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent theoretical and empirical work in statistical machine learning has demonstrated the importance of learning algorithms for deep architectures, i.e., function classes obtained by composing multiple non-linear transformations. Self-taught learning (exploiting unlabeled examples or examples from other distributions) has already been applied to deep learners, but mostly to show the advantage of unlabeled examples. Here we explore the advantage brought by {\em out-of-distribution examples}. For this purpose we developed a powerful generator of stochastic variations and noise processes for character images, including not only affine transformations but also slant, local elastic deformations, changes in thickness, background images, grey level changes, contrast, occlusion, and various types of noise. The out-of-distribution examples are obtained from these highly distorted images or by including examples of object classes different from those in the target test set. We show that {\em deep learners benefit more from out-of-distribution examples than a corresponding shallow learner}, at least in the area of handwritten character recognition. In fact, we show that they beat previously published results and reach human-level performance on both handwritten digit classification and 62-class handwritten character recognition.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-18T22:11:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Frédéric Bastien</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Arnaud Bergeron</name>
+    </author>
+    <author>
+      <name>Nicolas Boulanger-Lewandowski</name>
+    </author>
+    <author>
+      <name>Thomas Breuel</name>
+    </author>
+    <author>
+      <name>Youssouf Chherawala</name>
+    </author>
+    <author>
+      <name>Moustapha Cisse</name>
+    </author>
+    <author>
+      <name>Myriam Côté</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Jeremy Eustache</name>
+    </author>
+    <author>
+      <name>Xavier Glorot</name>
+    </author>
+    <author>
+      <name>Xavier Muller</name>
+    </author>
+    <author>
+      <name>Sylvain Pannetier Lebeuf</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Salah Rifai</name>
+    </author>
+    <author>
+      <name>Francois Savard</name>
+    </author>
+    <author>
+      <name>Guillaume Sicard</name>
+    </author>
+  </entry>
+</feed>

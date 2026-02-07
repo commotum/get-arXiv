@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K5xqKElb2VpxzxFoSX7RLcJBuKw</id>
+  <title>arXiv Query: search_query=au:"Geoffrey Hinton"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T23:12:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Geoffrey+Hinton%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>57</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1301.2278v1</id>
+    <title>Discovering Multiple Constraints that are Frequently Approximately Satisfied</title>
+    <updated>2013-01-10T16:24:10Z</updated>
+    <link href="https://arxiv.org/abs/1301.2278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.2278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some high-dimensional data.sets can be modelled by assuming that there are many different linear constraints, each of which is Frequently Approximately Satisfied (FAS) by the data. The probability of a data vector under the model is then proportional to the product of the probabilities of its constraint violations. We describe three methods of learning products of constraints using a heavy-tailed probability distribution for the violations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-10T16:24:10Z</published>
+    <arxiv:comment>Appears in Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence (UAI2001)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+    <author>
+      <name>Yee Whye Teh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2513v1</id>
+    <title>Efficient Parametric Projection Pursuit Density Estimation</title>
+    <updated>2012-10-19T15:08:28Z</updated>
+    <link href="https://arxiv.org/abs/1212.2513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.2513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Product models of low dimensional experts are a powerful way to avoid the     curse of dimensionality. We present the ``under-complete product of experts'     (UPoE), where each expert models a one dimensional projection of the data. The     UPoE is fully tractable and may be interpreted as a parametric probabilistic     model for projection pursuit. Its ML learning rules are identical to the     approximate learning rules proposed before for under-complete ICA. We also     derive an efficient sequential learning algorithm and discuss its relationship     to projection pursuit density estimation and feature induction algorithms for     additive random field models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-19T15:08:28Z</published>
+    <arxiv:comment>Appears in Proceedings of the Nineteenth Conference on Uncertainty in Artificial Intelligence (UAI2003)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Max Welling</name>
+    </author>
+    <author>
+      <name>Richard S. Zemel</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.0580v1</id>
+    <title>Improving neural networks by preventing co-adaptation of feature detectors</title>
+    <updated>2012-07-03T06:35:15Z</updated>
+    <link href="https://arxiv.org/abs/1207.0580v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.0580v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This "overfitting" is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random "dropout" gives big improvements on many benchmark tasks and sets new records for speech and object recognition.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-03T06:35:15Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Alex Krizhevsky</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Ruslan R. Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6445v1</id>
+    <title>Deep Lambertian Networks</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual perception is a challenging problem in part due to illumination variations. A possible solution is to first estimate an illumination invariant representation before using it for recognition. The object albedo and surface normals are examples of such representations. In this paper, we introduce a multilayer generative model where the latent variables include the albedo, surface normals, and the light source. Combining Deep Belief Nets with the Lambertian reflectance assumption, our model can learn good priors over the albedo from 2D images. Illumination variations can be explained by changing only the lighting latent variable in our model. By transferring learned knowledge from similar objects, albedo and surface normals estimation from a single image is possible in our model. Experiments demonstrate that our model is able to generalize as well as improve over standard baselines in one-shot face recognition.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yichuan Tang</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.4635v1</id>
+    <title>Deep Mixtures of Factor Analysers</title>
+    <updated>2012-06-18T15:14:57Z</updated>
+    <link href="https://arxiv.org/abs/1206.4635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.4635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An efficient way to learn deep density models that have many layers of latent variables is to learn one layer at a time using a model that has only one layer of latent variables. After learning each layer, samples from the posterior distributions for that layer are used as training data for learning the next layer. This approach is commonly used with Restricted Boltzmann Machines, which are undirected graphical models with a single hidden layer, but it can also be used with Mixtures of Factor Analysers (MFAs) which are directed graphical models. In this paper, we present a greedy layer-wise learning algorithm for Deep Mixtures of Factor Analysers (DMFAs). Even though a DMFA can be converted to an equivalent shallow MFA by multiplying together the factor loading matrices at different levels, learning and inference are much more efficient in a DMFA and the sharing of each lower-level factor loading matrix by many different higher level MFAs prevents overfitting. We demonstrate empirically that DMFAs learn better density models than both MFAs and two types of Restricted Boltzmann Machine on a wide variety of datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-18T15:14:57Z</published>
+    <arxiv:comment>ICML2012</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yichuan Tang</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.2614v1</id>
+    <title>Products of Hidden Markov Models: It Takes N&gt;1 to Tango</title>
+    <updated>2012-05-09T18:30:23Z</updated>
+    <link href="https://arxiv.org/abs/1205.2614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.2614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Products of Hidden Markov Models(PoHMMs) are an interesting class of generative models which have received little attention since their introduction. This maybe in part due to their more computationally expensive gradient-based learning algorithm,and the intractability of computing the log likelihood of sequences under the model. In this paper, we demonstrate how the partition function can be estimated reliably via Annealed Importance Sampling. We perform experiments using contrastive divergence learning on rainfall data and data captured from pairs of people dancing. Our results suggest that advances in learning and evaluation for undirected graphical models and recent increases in available computing power make PoHMMs worth considering for complex time-series modeling tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-09T18:30:23Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence (UAI2009)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Graham W Taylor</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.3748v1</id>
+    <title>Conditional Restricted Boltzmann Machines for Structured Output Prediction</title>
+    <updated>2012-02-14T16:41:17Z</updated>
+    <link href="https://arxiv.org/abs/1202.3748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.3748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conditional Restricted Boltzmann Machines (CRBMs) are rich probabilistic models that have recently been applied to a wide range of problems, including collaborative filtering, classification, and modeling motion capture data. While much progress has been made in training non-conditional RBMs, these algorithms are not applicable to conditional models and there has been almost no work on training and generating predictions from conditional RBMs for structured output problems. We first argue that standard Contrastive Divergence-based learning may not be suitable for training CRBMs. We then identify two distinct types of structured output prediction problems and propose an improved learning algorithm for each. The first problem type is one where the output space has arbitrary structure but the set of likely output configurations is relatively small, such as in multi-label classification. The second problem is one where the output space is arbitrarily structured but where the output space variability is much greater, such as in image denoising or pixel labeling. We show that the new learning algorithms can work much better than Contrastive Divergence on both types of problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-14T16:41:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Volodymyr Mnih</name>
+    </author>
+    <author>
+      <name>Hugo Larochelle</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+</feed>

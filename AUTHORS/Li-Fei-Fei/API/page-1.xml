@@ -1,0 +1,2273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/h5DpBiH5JiFwCs5BdZt26olgQFQ</id>
+  <title>arXiv Query: search_query=au:"Fei-Fei Li"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T23:21:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Fei-Fei+Li%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>218</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.13949v2</id>
+    <title>Mineral Detection of Cosmic-Ray Boosted Dark Matter</title>
+    <updated>2026-01-22T10:54:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.13949v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.13949v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first dedicated analysis of cosmic-ray boosted dark matter (CRDM) in paleo detectors. Owing to their large kinetic energies, CRDM particles generate nuclear-recoil tracks that extend to substantially larger lengths than those produced by dominant backgrounds from neutrinos and intrinsic radioactivity. Combined with the ultra-large effective geological exposure of $\mathcal{O}(10^{5})~\mathrm{t\,yr}$, paleo detectors provide a uniquely sensitive probe of sub-GeV DM. Considering both constant and vector-mediator interactions, we find that paleo detectors improve the sensitivity to the DM--proton scattering cross section by one to two orders of magnitude compared with the latest XENONnT limits.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T13:24:25Z</published>
+    <arxiv:comment>7 pages, 3 figures; Updated to match the submitted version and fixed some typos</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Jin-Wei Wang</name>
+    </author>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06309v1</id>
+    <title>VideoWeave: A Data-Centric Approach for Efficient Video Understanding</title>
+    <updated>2026-01-09T20:55:26Z</updated>
+    <link href="https://arxiv.org/abs/2601.06309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training video-language models is often prohibitively expensive due to the high cost of processing long frame sequences and the limited availability of annotated long videos. We present VideoWeave, a simple yet effective approach to improve data efficiency by constructing synthetic long-context training samples that splice together short, captioned videos from existing datasets. Rather than modifying model architectures or optimization objectives, VideoWeave reorganizes available video-text pairs to expand temporal diversity within fixed compute. We systematically study how different data composition strategies like random versus visually clustered splicing and caption enrichment affect downstream performance on downstream video question answering. Under identical compute constraints, models trained with VideoWeave achieve higher accuracy than conventional video finetuning. Our results highlight that reorganizing training data, rather than altering architectures, may offer a simple and scalable path for training video-language models. We link our code for all experiments here.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T20:55:26Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Silky Singh</name>
+    </author>
+    <author>
+      <name>Arpandeep Khatua</name>
+    </author>
+    <author>
+      <name>Shobhit Agarwal</name>
+    </author>
+    <author>
+      <name>Reuben Tan</name>
+    </author>
+    <author>
+      <name>Yong Jae Lee</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.03782v1</id>
+    <title>PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation</title>
+    <updated>2026-01-07T10:29:12Z</updated>
+    <link href="https://arxiv.org/abs/2601.03782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.03782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans anticipate, from a glance and a contemplated action of their bodies, how the 3D world will respond, a capability that is equally vital for robotic manipulation. We introduce PointWorld, a large pre-trained 3D world model that unifies state and action in a shared 3D space as 3D point flows: given one or few RGB-D images and a sequence of low-level robot action commands, PointWorld forecasts per-pixel displacements in 3D that respond to the given actions. By representing actions as 3D point flows instead of embodiment-specific action spaces (e.g., joint positions), this formulation directly conditions on physical geometries of robots while seamlessly integrating learning across embodiments. To train our 3D world model, we curate a large-scale dataset spanning real and simulated robotic manipulation in open-world environments, enabled by recent advances in 3D vision and simulated environments, totaling about 2M trajectories and 500 hours across a single-arm Franka and a bimanual humanoid. Through rigorous, large-scale empirical studies of backbones, action representations, learning objectives, partial observability, data mixtures, domain transfers, and scaling, we distill design principles for large-scale 3D world modeling. With a real-time (0.1s) inference speed, PointWorld can be efficiently integrated in the model-predictive control (MPC) framework for manipulation. We demonstrate that a single pre-trained checkpoint enables a real-world Franka robot to perform rigid-body pushing, deformable and articulated object manipulation, and tool use, without requiring any demonstrations or post-training and all from a single image captured in-the-wild. Project website at https://point-world.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-07T10:29:12Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Yu-Wei Chao</name>
+    </author>
+    <author>
+      <name>Arsalan Mousavian</name>
+    </author>
+    <author>
+      <name>Ming-Yu Liu</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+    <author>
+      <name>Kaichun Mo</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24766v1</id>
+    <title>Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow</title>
+    <updated>2025-12-31T10:25:24Z</updated>
+    <link href="https://arxiv.org/abs/2512.24766v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24766v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative video modeling has emerged as a compelling tool to zero-shot reason about plausible physical interactions for open-world manipulation. Yet, it remains a challenge to translate such human-led motions into the low-level actions demanded by robotic systems. We observe that given an initial image and task instruction, these models excel at synthesizing sensible object motions. Thus, we introduce Dream2Flow, a framework that bridges video generation and robotic control through 3D object flow as an intermediate representation. Our method reconstructs 3D object motions from generated videos and formulates manipulation as object trajectory tracking. By separating the state changes from the actuators that realize those changes, Dream2Flow overcomes the embodiment gap and enables zero-shot guidance from pre-trained video models to manipulate objects of diverse categories-including rigid, articulated, deformable, and granular. Through trajectory optimization or reinforcement learning, Dream2Flow converts reconstructed 3D object flow into executable low-level commands without task-specific demonstrations. Simulation and real-world experiments highlight 3D object flow as a general and scalable interface for adapting video generation models to open-world robotic manipulation. Videos and visualizations are available at https://dream2flow.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T10:25:24Z</published>
+    <arxiv:comment>Project website: https://dream2flow.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Karthik Dharmarajan</name>
+    </author>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.19526v1</id>
+    <title>QuantiPhy: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models</title>
+    <updated>2025-12-22T16:18:00Z</updated>
+    <link href="https://arxiv.org/abs/2512.19526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.19526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the physical world is essential for generalist AI agents. However, it remains unclear whether state-of-the-art vision perception models (e.g., large VLMs) can reason physical properties quantitatively. Existing evaluations are predominantly VQA-based and qualitative, offering limited insight into whether these models can infer the kinematic quantities of moving objects from video observations. To address this, we present QuantiPhy, the first benchmark designed to quantitatively measure a VLM's physical reasoning ability. Comprising more than 3.3K video-text instances with numerical ground truth, QuantiPhy evaluates a VLM's performance on estimating an object's size, velocity, and acceleration at a given timestamp, using one of these properties as an input prior. The benchmark standardizes prompts and scoring to assess numerical accuracy, enabling fair comparisons across models. Our experiments on state-of-the-art VLMs reveal a consistent gap between their qualitative plausibility and actual numerical correctness. We further provide an in-depth analysis of key factors like background noise, counterfactual priors, and strategic prompting and find that state-of-the-art VLMs lean heavily on pre-trained world knowledge rather than faithfully using the provided visual and textual inputs as references when reasoning kinematic properties quantitatively. QuantiPhy offers the first rigorous, scalable testbed to move VLMs beyond mere verbal plausibility toward a numerically grounded physical understanding.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-22T16:18:00Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Li Puyin</name>
+    </author>
+    <author>
+      <name>Tiange Xiang</name>
+    </author>
+    <author>
+      <name>Ella Mao</name>
+    </author>
+    <author>
+      <name>Shirley Wei</name>
+    </author>
+    <author>
+      <name>Xinye Chen</name>
+    </author>
+    <author>
+      <name>Adnan Masood</name>
+    </author>
+    <author>
+      <name>Li Fei-fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15701v1</id>
+    <title>VLIC: Vision-Language Models As Perceptual Judges for Human-Aligned Image Compression</title>
+    <updated>2025-12-17T18:52:55Z</updated>
+    <link href="https://arxiv.org/abs/2512.15701v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15701v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluations of image compression performance which include human preferences have generally found that naive distortion functions such as MSE are insufficiently aligned to human perception. In order to align compression models to human perception, prior work has employed differentiable perceptual losses consisting of neural networks calibrated on large-scale datasets of human psycho-visual judgments. We show that, surprisingly, state-of-the-art vision-language models (VLMs) can replicate binary human two-alternative forced choice (2AFC) judgments zero-shot when asked to reason about the differences between pairs of images. Motivated to exploit the powerful zero-shot visual reasoning capabilities of VLMs, we propose Vision-Language Models for Image Compression (VLIC), a diffusion-based image compression system designed to be post-trained with binary VLM judgments. VLIC leverages existing techniques for diffusion model post-training with preferences, rather than distilling the VLM judgments into a separate perceptual loss network. We show that calibrating this system on VLM judgments produces competitive or state-of-the-art performance on human-aligned visual compression depending on the dataset, according to perceptual metrics and large-scale user studies. We additionally conduct an extensive analysis of the VLM-based reward design and training procedure and share important insights. More visuals are available at https://kylesargent.github.io/vlic</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-17T18:52:55Z</published>
+    <arxiv:comment>14 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kyle Sargent</name>
+    </author>
+    <author>
+      <name>Ruiqi Gao</name>
+    </author>
+    <author>
+      <name>Philipp Henzler</name>
+    </author>
+    <author>
+      <name>Charles Herrmann</name>
+    </author>
+    <author>
+      <name>Aleksander Holynski</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Jason Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20937v1</id>
+    <title>ENACT: Evaluating Embodied Cognition with World Modeling of Egocentric Interaction</title>
+    <updated>2025-11-26T00:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2511.20937v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20937v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied cognition argues that intelligence arises from sensorimotor interaction rather than passive observation. It raises an intriguing question: do modern vision-language models (VLMs), trained largely in a disembodied manner, exhibit signs of embodied cognition? We introduce ENACT, a benchmark that casts evaluation of embodied cognition as world modeling from egocentric interaction in a visual question answering (VQA) format. Framed as a partially observable Markov decision process (POMDP) whose actions are scene graph changes, ENACT comprises two complementary sequence reordering tasks: forward world modeling (reorder shuffled observations given actions) and inverse world modeling (reorder shuffled actions given observations). While conceptually simple, solving these tasks implicitly demands capabilities central to embodied cognition-affordance recognition, action-effect reasoning, embodied awareness, and interactive, long-horizon memory from partially observable egocentric input, while avoiding low-level image synthesis that could confound the evaluation. We provide a scalable pipeline that synthesizes QA pairs from robotics simulation (BEHAVIOR) and evaluates models on 8,972 QA pairs spanning long-horizon home-scale activities. Experiments reveal a performance gap between frontier VLMs and humans that widens with interaction horizon. Models consistently perform better on the inverse task than the forward one and exhibit anthropocentric biases, including a preference for right-handed actions and degradation when camera intrinsics or viewpoints deviate from human vision. Website at https://enact-embodied-cognition.github.io/.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T00:06:02Z</published>
+    <arxiv:comment>Preprint version</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qineng Wang</name>
+    </author>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Yu Zhou</name>
+    </author>
+    <author>
+      <name>Hang Yin</name>
+    </author>
+    <author>
+      <name>Tianwei Bao</name>
+    </author>
+    <author>
+      <name>Jianwen Lyu</name>
+    </author>
+    <author>
+      <name>Weiyu Liu</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.04670v1</id>
+    <title>Cambrian-S: Towards Spatial Supersensing in Video</title>
+    <updated>2025-11-06T18:55:17Z</updated>
+    <link href="https://arxiv.org/abs/2511.04670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.04670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that progress in true multimodal intelligence calls for a shift from reactive, task-driven systems and brute-force long context towards a broader paradigm of supersensing. We frame spatial supersensing as four stages beyond linguistic-only understanding: semantic perception (naming what is seen), streaming event cognition (maintaining memory across continuous experiences), implicit 3D spatial cognition (inferring the world behind pixels), and predictive world modeling (creating internal models that filter and organize information). Current benchmarks largely test only the early stages, offering narrow coverage of spatial cognition and rarely challenging models in ways that require true world modeling. To drive progress in spatial supersensing, we present VSI-SUPER, a two-part benchmark: VSR (long-horizon visual spatial recall) and VSC (continual visual spatial counting). These tasks require arbitrarily long video inputs yet are resistant to brute-force context expansion. We then test data scaling limits by curating VSI-590K and training Cambrian-S, achieving +30% absolute improvement on VSI-Bench without sacrificing general capabilities. Yet performance on VSI-SUPER remains limited, indicating that scale alone is insufficient for spatial supersensing. We propose predictive sensing as a path forward, presenting a proof-of-concept in which a self-supervised next-latent-frame predictor leverages surprise (prediction error) to drive memory and event segmentation. On VSI-SUPER, this approach substantially outperforms leading proprietary baselines, showing that spatial supersensing requires models that not only see but also anticipate, select, and organize experience.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-06T18:55:17Z</published>
+    <arxiv:comment>Website: https://cambrian-mllm.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shusheng Yang</name>
+    </author>
+    <author>
+      <name>Jihan Yang</name>
+    </author>
+    <author>
+      <name>Pinzhi Huang</name>
+    </author>
+    <author>
+      <name>Ellis Brown</name>
+    </author>
+    <author>
+      <name>Zihao Yang</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Zihan Zheng</name>
+    </author>
+    <author>
+      <name>Yifan Xu</name>
+    </author>
+    <author>
+      <name>Muhan Wang</name>
+    </author>
+    <author>
+      <name>Daohan Lu</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25754v1</id>
+    <title>GET-USE: Learning Generalized Tool Usage for Bimanual Mobile Manipulation via Simulated Embodiment Extensions</title>
+    <updated>2025-10-29T17:52:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.25754v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25754v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to use random objects as tools in a generalizable manner is a missing piece in robots' intelligence today to boost their versatility and problem-solving capabilities. State-of-the-art robotic tool usage methods focused on procedurally generating or crowd-sourcing datasets of tools for a task to learn how to grasp and manipulate them for that task. However, these methods assume that only one object is provided and that it is possible, with the correct grasp, to perform the task; they are not capable of identifying, grasping, and using the best object for a task when many are available, especially when the optimal tool is absent. In this work, we propose GeT-USE, a two-step procedure that learns to perform real-robot generalized tool usage by learning first to extend the robot's embodiment in simulation and then transferring the learned strategies to real-robot visuomotor policies. Our key insight is that by exploring a robot's embodiment extensions (i.e., building new end-effectors) in simulation, the robot can identify the general tool geometries most beneficial for a task. This learned geometric knowledge can then be distilled to perform generalized tool usage tasks by selecting and using the best available real-world object as tool. On a real robot with 22 degrees of freedom (DOFs), GeT-USE outperforms state-of-the-art methods by 30-60% success rates across three vision-based bimanual mobile manipulation tool-usage tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T17:52:32Z</published>
+    <arxiv:comment>8 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Bohan Wu</name>
+    </author>
+    <author>
+      <name>Paul de La Sayette</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22107v2</id>
+    <title>Discovering Latent Graphs with GFlowNets for Diverse Conditional Image Generation</title>
+    <updated>2025-12-18T20:41:10Z</updated>
+    <link href="https://arxiv.org/abs/2510.22107v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22107v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Capturing diversity is crucial in conditional and prompt-based image generation, particularly when conditions contain uncertainty that can lead to multiple plausible outputs. To generate diverse images reflecting this diversity, traditional methods often modify random seeds, making it difficult to discern meaningful differences between samples, or diversify the input prompt, which is limited in verbally interpretable diversity. We propose Rainbow, a novel conditional image generation framework, applicable to any pretrained conditional generative model, that addresses inherent condition/prompt uncertainty and generates diverse plausible images. Rainbow is based on a simple yet effective idea: decomposing the input condition into diverse latent representations, each capturing an aspect of the uncertainty and generating a distinct image. First, we integrate a latent graph, parameterized by Generative Flow Networks (GFlowNets), into the prompt representation computation. Second, leveraging GFlowNets' advanced graph sampling capabilities to capture uncertainty and output diverse trajectories over the graph, we produce multiple trajectories that collectively represent the input condition, leading to diverse condition representations and corresponding output images. Evaluations on natural image and medical image datasets demonstrate Rainbow's improvement in both diversity and fidelity across image synthesis, image generation, and counterfactual generation tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-25T01:25:50Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>The 39th Annual Conference on Neural Information Processing Systems 2025</arxiv:journal_ref>
+    <author>
+      <name>Bailey Trang</name>
+    </author>
+    <author>
+      <name>Parham Saremi</name>
+    </author>
+    <author>
+      <name>Alan Q. Wang</name>
+    </author>
+    <author>
+      <name>Fangrui Huang</name>
+    </author>
+    <author>
+      <name>Zahra TehraniNasab</name>
+    </author>
+    <author>
+      <name>Amar Kumar</name>
+    </author>
+    <author>
+      <name>Tal Arbel</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18316v1</id>
+    <title>MoMaGen: Generating Demonstrations under Soft and Hard Constraints for Multi-Step Bimanual Mobile Manipulation</title>
+    <updated>2025-10-21T05:56:47Z</updated>
+    <link href="https://arxiv.org/abs/2510.18316v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18316v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation learning from large-scale, diverse human demonstrations has proven effective for training robots, but collecting such data is costly and time-consuming. This challenge is amplified for multi-step bimanual mobile manipulation, where humans must teleoperate both a mobile base and two high-degree-of-freedom arms. Prior automated data generation frameworks have addressed static bimanual manipulation by augmenting a few human demonstrations in simulation, but they fall short for mobile settings due to two key challenges: (1) determining base placement to ensure reachability, and (2) positioning the camera to provide sufficient visibility for visuomotor policies. To address these issues, we introduce MoMaGen, which formulates data generation as a constrained optimization problem that enforces hard constraints (e.g., reachability) while balancing soft constraints (e.g., visibility during navigation). This formulation generalizes prior approaches and provides a principled foundation for future methods. We evaluate MoMaGen on four multi-step bimanual mobile manipulation tasks and show that it generates significantly more diverse datasets than existing methods. Leveraging this diversity, MoMaGen can train successful imitation learning policies from a single source demonstration, and these policies can be fine-tuned with as few as 40 real-world demonstrations to achieve deployment on physical robotic hardware. More details are available at our project page: momagen.github.io.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T05:56:47Z</published>
+    <arxiv:comment>Project website: momagen.github.io. The first four authors contribute equally</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Mengdi Xu</name>
+    </author>
+    <author>
+      <name>Arpit Bahety</name>
+    </author>
+    <author>
+      <name>Hang Yin</name>
+    </author>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Huang Huang</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Sujay Garlanka</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Weiyu Liu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16907v1</id>
+    <title>VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents</title>
+    <updated>2025-10-19T16:05:07Z</updated>
+    <link href="https://arxiv.org/abs/2510.16907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key challenge in training Vision-Language Model (VLM) agents, compared to Language Model (LLM) agents, lies in the shift from textual states to complex visual observations. This transition introduces partial observability and demands robust world modeling. We ask: Can VLM agents construct internal world models through explicit visual state reasoning? To address this question, we architecturally enforce and reward the agent's reasoning process via reinforcement learning (RL), formulating it as a Partially Observable Markov Decision Process (POMDP). We find that decomposing the agent's reasoning into State Estimation ("what is the current state?") and Transition Modeling ("what comes next?") is critical for success, as demonstrated through five reasoning strategies. Our investigation into how agents represent internal beliefs reveals that the optimal representation is task-dependent: Natural Language excels at capturing semantic relationships in general tasks, while Structured formats are indispensable for precise manipulation and control. Building on these insights, we design a World Modeling Reward that provides dense, turn-level supervision for accurate state prediction, and introduce Bi-Level General Advantage Estimation (Bi-Level GAE) for turn-aware credit assignment. Through this form of visual state reasoning, a 3B-parameter model achieves a score of 0.82 across five diverse agent benchmarks, representing a 3$\times$ improvement over its untrained counterpart (0.21) and outperforming proprietary reasoning models such as GPT-5 (0.75), Gemini 2.5 Pro (0.67) and Claude 4.5 (0.62). All experiments are conducted within our VAGEN framework, a scalable system for training and analyzing multi-turn VLM agents in diverse visual environments. Code and data are publicly available at https://vagen-ai.github.io.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-19T16:05:07Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kangrui Wang</name>
+    </author>
+    <author>
+      <name>Pingyue Zhang</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Yaning Gao</name>
+    </author>
+    <author>
+      <name>Linjie Li</name>
+    </author>
+    <author>
+      <name>Qineng Wang</name>
+    </author>
+    <author>
+      <name>Hanyang Chen</name>
+    </author>
+    <author>
+      <name>Chi Wan</name>
+    </author>
+    <author>
+      <name>Yiping Lu</name>
+    </author>
+    <author>
+      <name>Zhengyuan Yang</name>
+    </author>
+    <author>
+      <name>Lijuan Wang</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.02748v1</id>
+    <title>Advancing Science- and Evidence-based AI Policy</title>
+    <updated>2025-08-02T23:20:58Z</updated>
+    <link href="https://arxiv.org/abs/2508.02748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.02748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI policy should advance AI innovation by ensuring that its potential benefits are responsibly realized and widely shared. To achieve this, AI policymaking should place a premium on evidence: Scientific understanding and systematic analysis should inform policy, and policy should accelerate evidence generation. But policy outcomes reflect institutional constraints, political dynamics, electoral pressures, stakeholder interests, media environment, economic considerations, cultural contexts, and leadership perspectives. Adding to this complexity is the reality that the broad reach of AI may mean that evidence and policy are misaligned: Although some evidence and policy squarely address AI, much more partially intersects with AI. Well-designed policy should integrate evidence that reflects scientific understanding rather than hype. An increasing number of efforts address this problem by often either (i) contributing research into the risks of AI and their effective mitigation or (ii) advocating for policy to address these risks. This paper tackles the hard problem of how to optimize the relationship between evidence and policy to address the opportunities and challenges of increasingly powerful AI.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-02T23:20:58Z</published>
+    <arxiv:comment>This is the author's version of the work. It is posted here by permission of the AAAS for personal use, not for redistribution. The definitive version was published in Science on July 31, 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+    <author>
+      <name>Jennifer Chayes</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Mariano-Florentino Cuéllar</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+    <author>
+      <name>Hima Lakkaraju</name>
+    </author>
+    <author>
+      <name>Arvind Narayanan</name>
+    </author>
+    <author>
+      <name>Alondra Nelson</name>
+    </author>
+    <author>
+      <name>Emma Pierson</name>
+    </author>
+    <author>
+      <name>Joelle Pineau</name>
+    </author>
+    <author>
+      <name>Scott Singer</name>
+    </author>
+    <author>
+      <name>Gaël Varoquaux</name>
+    </author>
+    <author>
+      <name>Suresh Venkatasubramanian</name>
+    </author>
+    <author>
+      <name>Ion Stoica</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <arxiv:doi>10.1126/science.adu8449</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.adu8449" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.21458v1</id>
+    <title>Spatial Mental Modeling from Limited Views</title>
+    <updated>2025-06-26T16:38:19Z</updated>
+    <link href="https://arxiv.org/abs/2506.21458v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.21458v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can Vision Language Models (VLMs) imagine the full scene from just a few views, like humans do? Humans form spatial mental models, internal representations of unseen space, to reason about layout, perspective, and motion. Our new MindCube benchmark with 21,154 questions across 3,268 images exposes this critical gap, where existing VLMs exhibit near-random performance. Using MindCube, we systematically evaluate how well VLMs build robust spatial mental models through representing positions (cognitive mapping), orientations (perspective-taking), and dynamics (mental simulation for "what-if" movements). We then explore three approaches to help VLMs approximate spatial mental models, including unseen intermediate views, natural language reasoning chains, and cognitive maps. The significant improvement comes from a synergistic approach, "map-then-reason", that jointly trains the model to first generate a cognitive map and then reason upon it. By training models to reason over these internal maps, we boosted accuracy from 37.8% to 60.8% (+23.0%). Adding reinforcement learning pushed performance even further to 70.7% (+32.9%). Our key insight is that such scaffolding of spatial mental models, actively constructing and utilizing internal structured spatial representations with flexible reasoning processes, significantly improves understanding of unobservable space.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-26T16:38:19Z</published>
+    <arxiv:comment>Preprint version</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Baiqiao Yin</name>
+    </author>
+    <author>
+      <name>Qineng Wang</name>
+    </author>
+    <author>
+      <name>Pingyue Zhang</name>
+    </author>
+    <author>
+      <name>Jianshu Zhang</name>
+    </author>
+    <author>
+      <name>Kangrui Wang</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Jieyu Zhang</name>
+    </author>
+    <author>
+      <name>Keshigeyan Chandrasegaran</name>
+    </author>
+    <author>
+      <name>Han Liu</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.17303v1</id>
+    <title>The California Report on Frontier AI Policy</title>
+    <updated>2025-06-17T23:33:21Z</updated>
+    <link href="https://arxiv.org/abs/2506.17303v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.17303v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The innovations emerging at the frontier of artificial intelligence (AI) are poised to create historic opportunities for humanity but also raise complex policy challenges. Continued progress in frontier AI carries the potential for profound advances in scientific discovery, economic productivity, and broader social well-being. As the epicenter of global AI innovation, California has a unique opportunity to continue supporting developments in frontier AI while addressing substantial risks that could have far reaching consequences for the state and beyond. This report leverages broad evidence, including empirical research, historical analysis, and modeling and simulations, to provide a framework for policymaking on the frontier of AI development. Building on this multidisciplinary approach, this report derives policy principles that can inform how California approaches the use, assessment, and governance of frontier AI: principles rooted in an ethos of trust but verify. This approach takes into account the importance of innovation while establishing appropriate strategies to reduce material risks.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-17T23:33:21Z</published>
+    <arxiv:comment>Authored by the Joint California Policy Working Group on AI Frontier Models</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Rishi Bommasani</name>
+    </author>
+    <author>
+      <name>Scott R. Singer</name>
+    </author>
+    <author>
+      <name>Ruth E. Appel</name>
+    </author>
+    <author>
+      <name>Sarah Cen</name>
+    </author>
+    <author>
+      <name>A. Feder Cooper</name>
+    </author>
+    <author>
+      <name>Elena Cryst</name>
+    </author>
+    <author>
+      <name>Lindsey A. Gailmard</name>
+    </author>
+    <author>
+      <name>Ian Klaus</name>
+    </author>
+    <author>
+      <name>Meredith M. Lee</name>
+    </author>
+    <author>
+      <name>Inioluwa Deborah Raji</name>
+    </author>
+    <author>
+      <name>Anka Reuel</name>
+    </author>
+    <author>
+      <name>Drew Spence</name>
+    </author>
+    <author>
+      <name>Alexander Wan</name>
+    </author>
+    <author>
+      <name>Angelina Wang</name>
+    </author>
+    <author>
+      <name>Daniel Zhang</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Joseph E. Gonzalez</name>
+    </author>
+    <author>
+      <name>Jonathan Zittrain</name>
+    </author>
+    <author>
+      <name>Jennifer Tour Chayes</name>
+    </author>
+    <author>
+      <name>Mariano-Florentino Cuellar</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.09284v2</id>
+    <title>UAD: Unsupervised Affordance Distillation for Generalization in Robotic Manipulation</title>
+    <updated>2025-08-25T19:45:29Z</updated>
+    <link href="https://arxiv.org/abs/2506.09284v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.09284v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding fine-grained object affordances is imperative for robots to manipulate objects in unstructured environments given open-ended task instructions. However, existing methods of visual affordance predictions often rely on manually annotated data or conditions only on a predefined set of tasks. We introduce UAD (Unsupervised Affordance Distillation), a method for distilling affordance knowledge from foundation models into a task-conditioned affordance model without any manual annotations. By leveraging the complementary strengths of large vision models and vision-language models, UAD automatically annotates a large-scale dataset with detailed $&lt;$instruction, visual affordance$&gt;$ pairs. Training only a lightweight task-conditioned decoder atop frozen features, UAD exhibits notable generalization to in-the-wild robotic scenes and to various human activities, despite only being trained on rendered objects in simulation. Using affordance provided by UAD as the observation space, we show an imitation learning policy that demonstrates promising generalization to unseen object instances, object categories, and even variations in task instructions after training on as few as 10 demonstrations. Project website: https://unsup-affordance.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-10T22:47:16Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yihe Tang</name>
+    </author>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Yingke Wang</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Roy Yuan</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05340v2</id>
+    <title>Exploring Diffusion Transformer Designs via Grafting</title>
+    <updated>2025-06-06T17:59:47Z</updated>
+    <link href="https://arxiv.org/abs/2506.05340v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05340v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing model architectures requires decisions such as selecting operators (e.g., attention, convolution) and configurations (e.g., depth, width). However, evaluating the impact of these decisions on model quality requires costly pretraining, limiting architectural investigation. Inspired by how new software is built on existing code, we ask: can new architecture designs be studied using pretrained models? To this end, we present grafting, a simple approach for editing pretrained diffusion transformers (DiTs) to materialize new architectures under small compute budgets. Informed by our analysis of activation behavior and attention locality, we construct a testbed based on the DiT-XL/2 design to study the impact of grafting on model quality. Using this testbed, we develop a family of hybrid designs via grafting: replacing softmax attention with gated convolution, local attention, and linear attention, and replacing MLPs with variable expansion ratio and convolutional variants. Notably, many hybrid designs achieve good quality (FID: 2.38-2.64 vs. 2.27 for DiT-XL/2) using &lt;2% pretraining compute. We then graft a text-to-image model (PixArt-Sigma), achieving a 1.43x speedup with less than a 2% drop in GenEval score. Finally, we present a case study that restructures DiT-XL/2 by converting every pair of sequential transformer blocks into parallel blocks via grafting. This reduces model depth by 2x and yields better quality (FID: 2.77) than other models of comparable depth. Together, we show that new diffusion model designs can be explored by grafting pretrained DiTs, with edits ranging from operator replacement to architecture restructuring. Code and grafted models: https://grafting.stanford.edu</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T17:59:40Z</published>
+    <arxiv:comment>22 pages; Project website: https://grafting.stanford.edu</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Keshigeyan Chandrasegaran</name>
+    </author>
+    <author>
+      <name>Michael Poli</name>
+    </author>
+    <author>
+      <name>Daniel Y. Fu</name>
+    </author>
+    <author>
+      <name>Dongjun Kim</name>
+    </author>
+    <author>
+      <name>Lea M. Hadzic</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Stefano Massaroli</name>
+    </author>
+    <author>
+      <name>Azalia Mirhoseini</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.20073v2</id>
+    <title>RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning</title>
+    <updated>2025-05-26T17:19:30Z</updated>
+    <link href="https://arxiv.org/abs/2504.20073v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.20073v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training large language models (LLMs) as interactive agents presents unique challenges including long-horizon decision making and interacting with stochastic environment feedback. While reinforcement learning (RL) has enabled progress in static tasks, multi-turn agent RL training remains underexplored. We propose StarPO (State-Thinking-Actions-Reward Policy Optimization), a general framework for trajectory-level agent RL, and introduce RAGEN, a modular system for training and evaluating LLM agents. Our study on four stylized environments reveals three core findings. First, our agent RL training shows a recurring mode of Echo Trap where reward variance cliffs and gradient spikes; we address this with StarPO-S, a stabilized variant with trajectory filtering, critic incorporation, and gradient stabilization. Second, we find the shaping of RL rollouts would benefit from diverse initial states, medium interaction granularity and more frequent sampling. Third, we show that without fine-grained, reasoning-aware reward signals, agent reasoning hardly emerge through multi-turn RL and they may show shallow strategies or hallucinated thoughts. Code and environments are available at https://github.com/RAGEN-AI/RAGEN.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T17:57:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Kangrui Wang</name>
+    </author>
+    <author>
+      <name>Qineng Wang</name>
+    </author>
+    <author>
+      <name>Pingyue Zhang</name>
+    </author>
+    <author>
+      <name>Linjie Li</name>
+    </author>
+    <author>
+      <name>Zhengyuan Yang</name>
+    </author>
+    <author>
+      <name>Xing Jin</name>
+    </author>
+    <author>
+      <name>Kefan Yu</name>
+    </author>
+    <author>
+      <name>Minh Nhat Nguyen</name>
+    </author>
+    <author>
+      <name>Licheng Liu</name>
+    </author>
+    <author>
+      <name>Eli Gottlieb</name>
+    </author>
+    <author>
+      <name>Yiping Lu</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Lijuan Wang</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.13351v1</id>
+    <title>Chain-of-Modality: Learning Manipulation Programs from Multimodal Human Videos with Vision-Language-Models</title>
+    <updated>2025-04-17T21:31:23Z</updated>
+    <link href="https://arxiv.org/abs/2504.13351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.13351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning to perform manipulation tasks from human videos is a promising approach for teaching robots. However, many manipulation tasks require changing control parameters during task execution, such as force, which visual data alone cannot capture. In this work, we leverage sensing devices such as armbands that measure human muscle activities and microphones that record sound, to capture the details in the human manipulation process, and enable robots to extract task plans and control parameters to perform the same task. To achieve this, we introduce Chain-of-Modality (CoM), a prompting strategy that enables Vision Language Models to reason about multimodal human demonstration data -- videos coupled with muscle or audio signals. By progressively integrating information from each modality, CoM refines a task plan and generates detailed control parameters, enabling robots to perform manipulation tasks based on a single multimodal human video prompt. Our experiments show that CoM delivers a threefold improvement in accuracy for extracting task plans and control parameters compared to baselines, with strong generalization to new task setups and objects in real-world robot experiments. Videos and code are available at https://chain-of-modality.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-17T21:31:23Z</published>
+    <arxiv:comment>ICRA 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Wenhao Yu</name>
+    </author>
+    <author>
+      <name>Tingnan Zhang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jie Tan</name>
+    </author>
+    <author>
+      <name>Jacky Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.02259v3</id>
+    <title>T*: Re-thinking Temporal Search for Long-Form Video Understanding</title>
+    <updated>2025-08-25T02:57:46Z</updated>
+    <link href="https://arxiv.org/abs/2504.02259v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.02259v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficiently understanding long-form videos remains a significant challenge in computer vision. In this work, we revisit temporal search paradigms for long-form video understanding and address a fundamental issue pertaining to all state-of-the-art (SOTA) long-context vision-language models (VLMs). Our contributions are twofold: First, we frame temporal search as a Long Video Haystack problem: finding a minimal set of relevant frames (e.g., one to five) from tens of thousands based on specific queries. Upon this formulation, we introduce LV-Haystack, the first dataset with 480 hours of videos, 15,092 human-annotated instances for both training and evaluation aiming to improve temporal search quality and efficiency. Results on LV-Haystack highlight a significant research gap in temporal search capabilities, with current SOTA search methods only achieving 2.1% temporal F1 score on the Longvideobench subset. Next, inspired by visual search in images, we propose a lightweight temporal search framework, T* that reframes costly temporal search as spatial search. T* leverages powerful visual localization techniques commonly used in images and introduces an adaptive zooming-in mechanism that operates across both temporal and spatial dimensions. Extensive experiments show that integrating T* with existing methods significantly improves SOTA long-form video understanding. Under an inference budget of 32 frames, T* improves GPT-4o's performance from 50.5% to 53.1% and LLaVA-OneVision-OV-72B's performance from 56.5% to 62.4% on the Longvideobench XL subset. Our code, benchmark, and models are provided in the Supplementary material.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-03T04:03:10Z</published>
+    <arxiv:comment>Accepted by CVPR 2025; A real-world long video needle-in-haystack benchmark; long-video QA with human ref frames</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jinhui Ye</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Haosen Sun</name>
+    </author>
+    <author>
+      <name>Keshigeyan Chandrasegaran</name>
+    </author>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Cristobal Eyzaguirre</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.00983v2</id>
+    <title>WorldScore: A Unified Evaluation Benchmark for World Generation</title>
+    <updated>2025-11-29T04:20:04Z</updated>
+    <link href="https://arxiv.org/abs/2504.00983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.00983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the WorldScore benchmark, the first unified benchmark for world generation. We decompose world generation into a sequence of next-scene generation tasks with explicit camera trajectory-based layout specifications, enabling unified evaluation of diverse approaches from 3D and 4D scene generation to video generation models. The WorldScore benchmark encompasses a curated dataset of 3,000 test examples that span diverse worlds: static and dynamic, indoor and outdoor, photorealistic and stylized. The WorldScore metrics evaluate generated worlds through three key aspects: controllability, quality, and dynamics. Through extensive evaluation of 19 representative models, including both open-source and closed-source ones, we reveal key insights and challenges for each category of models. Our dataset, evaluation code, and leaderboard can be found at https://haoyi-duan.github.io/WorldScore/</summary>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-01T17:20:23Z</published>
+    <arxiv:comment>ICCV 2025. Project website: https://haoyi-duan.github.io/WorldScore/ The first two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.GR"/>
+    <author>
+      <name>Haoyi Duan</name>
+    </author>
+    <author>
+      <name>Hong-Xing Yu</name>
+    </author>
+    <author>
+      <name>Sirui Chen</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.15877v2</id>
+    <title>Repurposing 2D Diffusion Models with Gaussian Atlas for 3D Generation</title>
+    <updated>2025-08-06T23:40:53Z</updated>
+    <link href="https://arxiv.org/abs/2503.15877v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.15877v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in text-to-image diffusion models have been driven by the increasing availability of paired 2D data. However, the development of 3D diffusion models has been hindered by the scarcity of high-quality 3D data, resulting in less competitive performance compared to their 2D counterparts. To address this challenge, we propose repurposing pre-trained 2D diffusion models for 3D object generation. We introduce Gaussian Atlas, a novel representation that utilizes dense 2D grids, enabling the fine-tuning of 2D diffusion models to generate 3D Gaussians. Our approach demonstrates successful transfer learning from a pre-trained 2D diffusion model to a 2D manifold flattened from 3D structures. To support model training, we compile GaussianVerse, a large-scale dataset comprising 205K high-quality 3D Gaussian fittings of various 3D objects. Our experimental results show that text-to-image diffusion models can be effectively adapted for 3D content generation, bridging the gap between 2D and 3D modeling.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-20T05:59:41Z</published>
+    <arxiv:comment>ICCV 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tiange Xiang</name>
+    </author>
+    <author>
+      <name>Kai Li</name>
+    </author>
+    <author>
+      <name>Chengjiang Long</name>
+    </author>
+    <author>
+      <name>Christian Häne</name>
+    </author>
+    <author>
+      <name>Peihong Guo</name>
+    </author>
+    <author>
+      <name>Scott Delp</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.11056v3</id>
+    <title>Flow to the Mode: Mode-Seeking Diffusion Autoencoders for State-of-the-Art Image Tokenization</title>
+    <updated>2025-12-02T20:26:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.11056v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.11056v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the advent of popular visual generation frameworks like VQGAN and latent diffusion models, state-of-the-art image generation systems have generally been two-stage systems that first tokenize or compress visual data into a lower-dimensional latent space before learning a generative model. Tokenizer training typically follows a standard recipe in which images are compressed and reconstructed subject to a combination of MSE, perceptual, and adversarial losses. Diffusion autoencoders have been proposed in prior work as a way to learn end-to-end perceptually-oriented image compression, but have not yet shown state-of-the-art performance on the competitive task of ImageNet-1K reconstruction. We propose FlowMo, a transformer-based diffusion autoencoder that achieves a new state-of-the-art for image tokenization at multiple compression rates without using convolutions, adversarial losses, spatially-aligned two-dimensional latent codes, or distilling from other tokenizers. Our key insight is that FlowMo training should be broken into a mode-matching pre-training stage and a mode-seeking post-training stage. In addition, we conduct extensive analyses and explore the training of generative models atop the FlowMo tokenizer. Our code and models will be available at http://kylesargent.github.io/flowmo .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-14T03:49:17Z</published>
+    <arxiv:comment>ICCV 2025, 19 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kyle Sargent</name>
+    </author>
+    <author>
+      <name>Kyle Hsu</name>
+    </author>
+    <author>
+      <name>Justin Johnson</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.06820v1</id>
+    <title>Towards Fine-Grained Video Question Answering</title>
+    <updated>2025-03-10T01:02:01Z</updated>
+    <link href="https://arxiv.org/abs/2503.06820v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.06820v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the rapidly evolving domain of video understanding, Video Question Answering (VideoQA) remains a focal point. However, existing datasets exhibit gaps in temporal and spatial granularity, which consequently limits the capabilities of existing VideoQA methods. This paper introduces the Multi-Object Multi-Actor Question Answering (MOMA-QA) dataset, which is designed to address these shortcomings by emphasizing temporal localization, spatial relationship reasoning, and entity-centric queries. With ground truth scene graphs and temporal interval annotations, MOMA-QA is ideal for developing models for fine-grained video understanding. Furthermore, we present a novel video-language model, SGVLM, which incorporates a scene graph predictor, an efficient frame retriever, and a pre-trained large language model for temporal localization and fine-grained relationship understanding. Evaluations on MOMA-QA and other public datasets demonstrate the superior performance of our model, setting new benchmarks for VideoQA.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-10T01:02:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Wei Dai</name>
+    </author>
+    <author>
+      <name>Alan Luo</name>
+    </author>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Debadutta Dash</name>
+    </author>
+    <author>
+      <name>Arnold Milstein</name>
+    </author>
+    <author>
+      <name>Kevin Schulman</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.05652v2</id>
+    <title>BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities</title>
+    <updated>2025-08-24T20:43:32Z</updated>
+    <link href="https://arxiv.org/abs/2503.05652v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.05652v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-world household tasks present significant challenges for mobile manipulation robots. An analysis of existing robotics benchmarks reveals that successful task performance hinges on three key whole-body control capabilities: bimanual coordination, stable and precise navigation, and extensive end-effector reachability. Achieving these capabilities requires careful hardware design, but the resulting system complexity further complicates visuomotor policy learning. To address these challenges, we introduce the BEHAVIOR Robot Suite (BRS), a comprehensive framework for whole-body manipulation in diverse household tasks. Built on a bimanual, wheeled robot with a 4-DoF torso, BRS integrates a cost-effective whole-body teleoperation interface for data collection and a novel algorithm for learning whole-body visuomotor policies. We evaluate BRS on five challenging household tasks that not only emphasize the three core capabilities but also introduce additional complexities, such as long-range navigation, interaction with articulated and deformable objects, and manipulation in confined spaces. We believe that BRS's integrated robotic embodiment, data collection interface, and learning framework mark a significant step toward enabling real-world whole-body manipulation for everyday household tasks. BRS is open-sourced at https://behavior-robot-suite.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-07T18:15:21Z</published>
+    <arxiv:comment>9th Conference on Robot Learning (CoRL 2025), Seoul, Korea. Project website: https://behavior-robot-suite.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Yanjie Ze</name>
+    </author>
+    <author>
+      <name>Hang Yin</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Shuran Song</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08643v2</id>
+    <title>A Real-to-Sim-to-Real Approach to Robotic Manipulation with VLM-Generated Iterative Keypoint Rewards</title>
+    <updated>2025-02-18T16:45:59Z</updated>
+    <link href="https://arxiv.org/abs/2502.08643v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08643v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Task specification for robotic manipulation in open-world environments is challenging, requiring flexible and adaptive objectives that align with human intentions and can evolve through iterative feedback. We introduce Iterative Keypoint Reward (IKER), a visually grounded, Python-based reward function that serves as a dynamic task specification. Our framework leverages VLMs to generate and refine these reward functions for multi-step manipulation tasks. Given RGB-D observations and free-form language instructions, we sample keypoints in the scene and generate a reward function conditioned on these keypoints. IKER operates on the spatial relationships between keypoints, leveraging commonsense priors about the desired behaviors, and enabling precise SE(3) control. We reconstruct real-world scenes in simulation and use the generated rewards to train reinforcement learning (RL) policies, which are then deployed into the real world-forming a real-to-sim-to-real loop. Our approach demonstrates notable capabilities across diverse scenarios, including both prehensile and non-prehensile tasks, showcasing multi-step task execution, spontaneous error recovery, and on-the-fly strategy adjustments. The results highlight IKER's effectiveness in enabling robots to perform multi-step tasks in dynamic environments through iterative reward shaping.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-12T18:57:22Z</published>
+    <arxiv:comment>ICRA 2025, Project Page: https://iker-robot.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Shivansh Patel</name>
+    </author>
+    <author>
+      <name>Xinchen Yin</name>
+    </author>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Shubham Garg</name>
+    </author>
+    <author>
+      <name>Hooshang Nayyeri</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Svetlana Lazebnik</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.19393v3</id>
+    <title>s1: Simple test-time scaling</title>
+    <updated>2025-03-01T06:07:39Z</updated>
+    <link href="https://arxiv.org/abs/2501.19393v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.19393v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Test-time scaling is a promising new approach to language modeling that uses extra test-time compute to improve performance. Recently, OpenAI's o1 model showed this capability but did not publicly share its methodology, leading to many replication efforts. We seek the simplest approach to achieve test-time scaling and strong reasoning performance. First, we curate a small dataset s1K of 1,000 questions paired with reasoning traces relying on three criteria we validate through ablations: difficulty, diversity, and quality. Second, we develop budget forcing to control test-time compute by forcefully terminating the model's thinking process or lengthening it by appending "Wait" multiple times to the model's generation when it tries to end. This can lead the model to double-check its answer, often fixing incorrect reasoning steps. After supervised finetuning the Qwen2.5-32B-Instruct language model on s1K and equipping it with budget forcing, our model s1-32B exceeds o1-preview on competition math questions by up to 27% (MATH and AIME24). Further, scaling s1-32B with budget forcing allows extrapolating beyond its performance without test-time intervention: from 50% to 57% on AIME24. Our model, data, and code are open-source at https://github.com/simplescaling/s1</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-31T18:48:08Z</published>
+    <arxiv:comment>46 pages (9 main), 10 figures, 15 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Niklas Muennighoff</name>
+    </author>
+    <author>
+      <name>Zitong Yang</name>
+    </author>
+    <author>
+      <name>Weijia Shi</name>
+    </author>
+    <author>
+      <name>Xiang Lisa Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Hannaneh Hajishirzi</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Emmanuel Candès</name>
+    </author>
+    <author>
+      <name>Tatsunori Hashimoto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.06348v3</id>
+    <title>Why Automate This? Exploring Correlations between Desire for Robotic Automation, Invested Time and Well-Being</title>
+    <updated>2025-07-22T17:44:37Z</updated>
+    <link href="https://arxiv.org/abs/2501.06348v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.06348v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the motivations underlying the human inclination to automate tasks is vital to developing truly helpful robots integrated into daily life. Accordingly, we ask: are individuals more inclined to automate chores based on the time they consume or the feelings experienced while performing them? This study explores these preferences and whether they vary across different social groups (i.e., gender category and income level). Leveraging data from the BEHAVIOR-1K dataset, the American Time-Use Survey, and the American Time-Use Survey Well-Being Module, we investigate the relationship between the desire for automation, time spent on daily activities, and their associated feelings - Happiness, Meaningfulness, Sadness, Painfulness, Stressfulness, or Tiredness. Our key findings show that, despite common assumptions, time spent does not strongly relate to the desire for automation for the general population. For the feelings analyzed, only happiness and pain are key indicators. Significant differences by gender and economic level also emerged: Women prefer to automate stressful activities, whereas men prefer to automate those that make them unhappy; mid-income individuals prioritize automating less enjoyable and meaningful activities, while low and high-income show no significant correlations. We hope our research helps motivate technologies to develop robots that match the priorities of potential users, moving domestic robotics toward more socially relevant solutions. We open-source all the data, including an online tool that enables the community to replicate our analysis and explore additional trends at https://robin-lab.cs.utexas.edu/why-automate-this/.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-10T21:20:11Z</published>
+    <arxiv:comment>20 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Ruchira Ray</name>
+    </author>
+    <author>
+      <name>Leona Pang</name>
+    </author>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Samantha Shorey</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.14171v2</id>
+    <title>Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces</title>
+    <updated>2025-07-02T21:00:36Z</updated>
+    <link href="https://arxiv.org/abs/2412.14171v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.14171v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans possess the visual-spatial intelligence to remember spaces from sequential visual observations. However, can Multimodal Large Language Models (MLLMs) trained on million-scale video datasets also ``think in space'' from videos? We present a novel video-based visual-spatial intelligence benchmark (VSI-Bench) of over 5,000 question-answer pairs, and find that MLLMs exhibit competitive - though subhuman - visual-spatial intelligence. We probe models to express how they think in space both linguistically and visually and find that while spatial reasoning capabilities remain the primary bottleneck for MLLMs to reach higher benchmark performance, local world models and spatial awareness do emerge within these models. Notably, prevailing linguistic reasoning techniques (e.g., chain-of-thought, self-consistency, tree-of-thoughts) fail to improve performance, whereas explicitly generating cognitive maps during question-answering enhances MLLMs' spatial distance ability.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-18T18:59:54Z</published>
+    <arxiv:comment>Project page: https://vision-x-nyu.github.io/thinking-in-space.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jihan Yang</name>
+    </author>
+    <author>
+      <name>Shusheng Yang</name>
+    </author>
+    <author>
+      <name>Anjali W. Gupta</name>
+    </author>
+    <author>
+      <name>Rilyn Han</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.10523v1</id>
+    <title>The Language of Motion: Unifying Verbal and Non-verbal Language of 3D Human Motion</title>
+    <updated>2024-12-13T19:33:48Z</updated>
+    <link href="https://arxiv.org/abs/2412.10523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.10523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human communication is inherently multimodal, involving a combination of verbal and non-verbal cues such as speech, facial expressions, and body gestures. Modeling these behaviors is essential for understanding human interaction and for creating virtual characters that can communicate naturally in applications like games, films, and virtual reality. However, existing motion generation models are typically limited to specific input modalities -- either speech, text, or motion data -- and cannot fully leverage the diversity of available data. In this paper, we propose a novel framework that unifies verbal and non-verbal language using multimodal language models for human motion understanding and generation. This model is flexible in taking text, speech, and motion or any combination of them as input. Coupled with our novel pre-training strategy, our model not only achieves state-of-the-art performance on co-speech gesture generation but also requires much less data for training. Our model also unlocks an array of novel tasks such as editable gesture generation and emotion prediction from motion. We believe unifying the verbal and non-verbal language of human motion is essential for real-world applications, and language models offer a powerful approach to achieving this goal. Project page: languageofmotion.github.io.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-13T19:33:48Z</published>
+    <arxiv:comment>Project page: languageofmotion.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Changan Chen</name>
+    </author>
+    <author>
+      <name>Juze Zhang</name>
+    </author>
+    <author>
+      <name>Shrinidhi K. Lakshmikanth</name>
+    </author>
+    <author>
+      <name>Yusu Fang</name>
+    </author>
+    <author>
+      <name>Ruizhi Shao</name>
+    </author>
+    <author>
+      <name>Gordon Wetzstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.04998v1</id>
+    <title>HourVideo: 1-Hour Video-Language Understanding</title>
+    <updated>2024-11-07T18:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2411.04998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.04998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present HourVideo, a benchmark dataset for hour-long video-language understanding. Our dataset consists of a novel task suite comprising summarization, perception (recall, tracking), visual reasoning (spatial, temporal, predictive, causal, counterfactual), and navigation (room-to-room, object retrieval) tasks. HourVideo includes 500 manually curated egocentric videos from the Ego4D dataset, spanning durations of 20 to 120 minutes, and features 12,976 high-quality, five-way multiple-choice questions. Benchmarking results reveal that multimodal models, including GPT-4 and LLaVA-NeXT, achieve marginal improvements over random chance. In stark contrast, human experts significantly outperform the state-of-the-art long-context multimodal model, Gemini Pro 1.5 (85.0% vs. 37.3%), highlighting a substantial gap in multimodal capabilities. Our benchmark, evaluation toolkit, prompts, and documentation are available at https://hourvideo.stanford.edu</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-07T18:59:16Z</published>
+    <arxiv:comment>NeurIPS 2024 Datasets and Benchmarks Track; 28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Keshigeyan Chandrasegaran</name>
+    </author>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Lea M. Hadzic</name>
+    </author>
+    <author>
+      <name>Taran Kota</name>
+    </author>
+    <author>
+      <name>Jimming He</name>
+    </author>
+    <author>
+      <name>Cristóbal Eyzaguirre</name>
+    </author>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08464v1</id>
+    <title>ARCap: Collecting High-quality Human Demonstrations for Robot Learning with Augmented Reality Feedback</title>
+    <updated>2024-10-11T02:30:46Z</updated>
+    <link href="https://arxiv.org/abs/2410.08464v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08464v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress in imitation learning from human demonstrations has shown promising results in teaching robots manipulation skills. To further scale up training datasets, recent works start to use portable data collection devices without the need for physical robot hardware. However, due to the absence of on-robot feedback during data collection, the data quality depends heavily on user expertise, and many devices are limited to specific robot embodiments. We propose ARCap, a portable data collection system that provides visual feedback through augmented reality (AR) and haptic warnings to guide users in collecting high-quality demonstrations. Through extensive user studies, we show that ARCap enables novice users to collect robot-executable data that matches robot kinematics and avoids collisions with the scenes. With data collected from ARCap, robots can perform challenging tasks, such as manipulation in cluttered environments and long-horizon cross-embodiment manipulation. ARCap is fully open-source and easy to calibrate; all components are built from off-the-shelf products. More details and results can be found on our website: https://stanford-tml.github.io/ARCap</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-11T02:30:46Z</published>
+    <arxiv:comment>8 pages, 8 Figures, submitted to ICRA 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Sirui Chen</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Kaden Nguyen</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07408v3</id>
+    <title>Automated Creation of Digital Cousins for Robust Policy Learning</title>
+    <updated>2024-10-19T00:08:19Z</updated>
+    <link href="https://arxiv.org/abs/2410.07408v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07408v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training robot policies in the real world can be unsafe, costly, and difficult to scale. Simulation serves as an inexpensive and potentially limitless source of training data, but suffers from the semantics and physics disparity between simulated and real-world environments. These discrepancies can be minimized by training in digital twins, which serve as virtual replicas of a real scene but are expensive to generate and cannot produce cross-domain generalization. To address these limitations, we propose the concept of digital cousins, a virtual asset or scene that, unlike a digital twin, does not explicitly model a real-world counterpart but still exhibits similar geometric and semantic affordances. As a result, digital cousins simultaneously reduce the cost of generating an analogous virtual environment while also facilitating better robustness during sim-to-real domain transfer by providing a distribution of similar training scenes. Leveraging digital cousins, we introduce a novel method for their automated creation, and propose a fully automated real-to-sim-to-real pipeline for generating fully interactive scenes and training robot policies that can be deployed zero-shot in the original scene. We find that digital cousin scenes that preserve geometric and semantic affordances can be produced automatically, and can be used to train policies that outperform policies trained on digital twins, achieving 90% vs. 25% success rates under zero-shot sim-to-real transfer. Additional details are available at https://digital-cousins.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T20:17:58Z</published>
+    <arxiv:comment>CoRL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Tianyuan Dai</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07166v3</id>
+    <title>Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making</title>
+    <updated>2025-01-19T19:29:50Z</updated>
+    <link href="https://arxiv.org/abs/2410.07166v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07166v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We aim to evaluate Large Language Models (LLMs) for embodied decision making. While a significant body of work has been leveraging LLMs for decision making in embodied environments, we still lack a systematic understanding of their performance because they are usually applied in different domains, for different purposes, and built based on different inputs and outputs. Furthermore, existing evaluations tend to rely solely on a final success rate, making it difficult to pinpoint what ability is missing in LLMs and where the problem lies, which in turn blocks embodied agents from leveraging LLMs effectively and selectively. To address these limitations, we propose a generalized interface (Embodied Agent Interface) that supports the formalization of various types of tasks and input-output specifications of LLM-based modules. Specifically, it allows us to unify 1) a broad set of embodied decision-making tasks involving both state and temporally extended goals, 2) four commonly-used LLM-based modules for decision making: goal interpretation, subgoal decomposition, action sequencing, and transition modeling, and 3) a collection of fine-grained metrics which break down evaluation into various types of errors, such as hallucination errors, affordance errors, various types of planning errors, etc. Overall, our benchmark offers a comprehensive assessment of LLMs' performance for different subtasks, pinpointing the strengths and weaknesses in LLM-powered embodied AI systems, and providing insights for effective and selective use of LLMs in embodied decision making.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T17:59:00Z</published>
+    <arxiv:comment>Accepted for oral presentation at NeurIPS 2024 in the Datasets and Benchmarks track. Final Camera version</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Shiyu Zhao</name>
+    </author>
+    <author>
+      <name>Qineng Wang</name>
+    </author>
+    <author>
+      <name>Kangrui Wang</name>
+    </author>
+    <author>
+      <name>Yu Zhou</name>
+    </author>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Tony Lee</name>
+    </author>
+    <author>
+      <name>Li Erran Li</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Weiyu Liu</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiayuan Mao</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.01652v2</id>
+    <title>ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation</title>
+    <updated>2024-11-12T04:33:26Z</updated>
+    <link href="https://arxiv.org/abs/2409.01652v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.01652v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Representing robotic manipulation tasks as constraints that associate the robot and the environment is a promising way to encode desired robot behaviors. However, it remains unclear how to formulate the constraints such that they are 1) versatile to diverse tasks, 2) free of manual labeling, and 3) optimizable by off-the-shelf solvers to produce robot actions in real-time. In this work, we introduce Relational Keypoint Constraints (ReKep), a visually-grounded representation for constraints in robotic manipulation. Specifically, ReKep is expressed as Python functions mapping a set of 3D keypoints in the environment to a numerical cost. We demonstrate that by representing a manipulation task as a sequence of Relational Keypoint Constraints, we can employ a hierarchical optimization procedure to solve for robot actions (represented by a sequence of end-effector poses in SE(3)) with a perception-action loop at a real-time frequency. Furthermore, in order to circumvent the need for manual specification of ReKep for each new task, we devise an automated procedure that leverages large vision models and vision-language models to produce ReKep from free-form language instructions and RGB-D observations. We present system implementations on a wheeled single-arm platform and a stationary dual-arm platform that can perform a large variety of manipulation tasks, featuring multi-stage, in-the-wild, bimanual, and reactive behaviors, all without task-specific data or environment models. Website at https://rekep-robot.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-03T06:45:22Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00316v1</id>
+    <title>OccFusion: Rendering Occluded Humans with Generative Diffusion Priors</title>
+    <updated>2024-06-29T04:46:57Z</updated>
+    <link href="https://arxiv.org/abs/2407.00316v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.00316v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most existing human rendering methods require every part of the human to be fully visible throughout the input video. However, this assumption does not hold in real-life settings where obstructions are common, resulting in only partial visibility of the human. Considering this, we present OccFusion, an approach that utilizes efficient 3D Gaussian splatting supervised by pretrained 2D diffusion models for efficient and high-fidelity human rendering. We propose a pipeline consisting of three stages. In the Initialization stage, complete human masks are generated from partial visibility masks. In the Optimization stage, 3D human Gaussians are optimized with additional supervision by Score-Distillation Sampling (SDS) to create a complete geometry of the human. Finally, in the Refinement stage, in-context inpainting is designed to further improve rendering quality on the less observed human body parts. We evaluate OccFusion on ZJU-MoCap and challenging OcMotion sequences and find that it achieves state-of-the-art performance in the rendering of occluded humans.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-29T04:46:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Adam Sun</name>
+    </author>
+    <author>
+      <name>Tiange Xiang</name>
+    </author>
+    <author>
+      <name>Scott Delp</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.01662v2</id>
+    <title>Few-Shot Classification of Interactive Activities of Daily Living (InteractADL)</title>
+    <updated>2024-10-16T23:00:23Z</updated>
+    <link href="https://arxiv.org/abs/2406.01662v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.01662v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding Activities of Daily Living (ADLs) is a crucial step for different applications including assistive robots, smart homes, and healthcare. However, to date, few benchmarks and methods have focused on complex ADLs, especially those involving multi-person interactions in home environments. In this paper, we propose a new dataset and benchmark, InteractADL, for understanding complex ADLs that involve interaction between humans (and objects). Furthermore, complex ADLs occurring in home environments comprise a challenging long-tailed distribution due to the rarity of multi-person interactions, and pose fine-grained visual recognition tasks due to the presence of semantically and visually similar classes. To address these issues, we propose a novel method for fine-grained few-shot video classification called Name Tuning that enables greater semantic separability by learning optimal class name vectors. We show that Name Tuning can be combined with existing prompt tuning strategies to learn the entire input text (rather than only learning the prompt or class names) and demonstrate improved performance for few-shot classification on InteractADL and 4 other fine-grained visual classification benchmarks. For transparency and reproducibility, we release our code at https://github.com/zanedurante/vlm_benchmark.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-03T17:59:55Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Robathan Harries</name>
+    </author>
+    <author>
+      <name>Edward Vendrow</name>
+    </author>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Yuta Kyuragi</name>
+    </author>
+    <author>
+      <name>Kazuki Kozuka</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.10315v3</id>
+    <title>TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction</title>
+    <updated>2024-10-14T06:03:55Z</updated>
+    <link href="https://arxiv.org/abs/2405.10315v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.10315v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning in simulation and transferring the learned policy to the real world has the potential to enable generalist robots. The key challenge of this approach is to address simulation-to-reality (sim-to-real) gaps. Previous methods often require domain-specific knowledge a priori. We argue that a straightforward way to obtain such knowledge is by asking humans to observe and assist robot policy execution in the real world. The robots can then learn from humans to close various sim-to-real gaps. We propose TRANSIC, a data-driven approach to enable successful sim-to-real transfer based on a human-in-the-loop framework. TRANSIC allows humans to augment simulation policies to overcome various unmodeled sim-to-real gaps holistically through intervention and online correction. Residual policies can be learned from human corrections and integrated with simulation policies for autonomous execution. We show that our approach can achieve successful sim-to-real transfer in complex and contact-rich manipulation tasks such as furniture assembly. Through synergistic integration of policies learned in simulation and from humans, TRANSIC is effective as a holistic approach to addressing various, often coexisting sim-to-real gaps. It displays attractive properties such as scaling with human effort. Videos and code are available at https://transic-robot.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T17:59:07Z</published>
+    <arxiv:comment>8th Conference on Robot Learning (CoRL 2024), Munich, Germany. Project website: https://transic-robot.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.09546v1</id>
+    <title>BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation</title>
+    <updated>2024-05-15T17:57:56Z</updated>
+    <link href="https://arxiv.org/abs/2405.09546v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.09546v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The systematic evaluation and understanding of computer vision models under varying conditions require large amounts of data with comprehensive and customized labels, which real-world vision datasets rarely satisfy. While current synthetic data generators offer a promising alternative, particularly for embodied AI tasks, they often fall short for computer vision tasks due to low asset and rendering quality, limited diversity, and unrealistic physical properties. We introduce the BEHAVIOR Vision Suite (BVS), a set of tools and assets to generate fully customized synthetic data for systematic evaluation of computer vision models, based on the newly developed embodied AI benchmark, BEHAVIOR-1K. BVS supports a large number of adjustable parameters at the scene level (e.g., lighting, object placement), the object level (e.g., joint configuration, attributes such as "filled" and "folded"), and the camera level (e.g., field of view, focal length). Researchers can arbitrarily vary these parameters during data generation to perform controlled experiments. We showcase three example application scenarios: systematically evaluating the robustness of models across different continuous axes of domain shift, evaluating scene understanding models on the same set of images, and training and evaluating simulation-to-real transfer for a novel vision task: unary and binary state prediction. Project website: https://behavior-vision-suite.github.io/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-15T17:57:56Z</published>
+    <arxiv:comment>CVPR 2024 (Highlight). Project website: https://behavior-vision-suite.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yunhao Ge</name>
+    </author>
+    <author>
+      <name>Yihe Tang</name>
+    </author>
+    <author>
+      <name>Jiashu Xu</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Wensi Ai</name>
+    </author>
+    <author>
+      <name>Benjamin Jose Martinez</name>
+    </author>
+    <author>
+      <name>Arman Aydin</name>
+    </author>
+    <author>
+      <name>Mona Anvari</name>
+    </author>
+    <author>
+      <name>Ayush K Chakravarthy</name>
+    </author>
+    <author>
+      <name>Hong-Xing Yu</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Sharon Lee</name>
+    </author>
+    <author>
+      <name>Shengxin Zha</name>
+    </author>
+    <author>
+      <name>Laurent Itti</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Miao Liu</name>
+    </author>
+    <author>
+      <name>Pengchuan Zhang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.09227v1</id>
+    <title>BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation</title>
+    <updated>2024-03-14T09:48:36Z</updated>
+    <link href="https://arxiv.org/abs/2403.09227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.09227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present BEHAVIOR-1K, a comprehensive simulation benchmark for human-centered robotics. BEHAVIOR-1K includes two components, guided and motivated by the results of an extensive survey on "what do you want robots to do for you?". The first is the definition of 1,000 everyday activities, grounded in 50 scenes (houses, gardens, restaurants, offices, etc.) with more than 9,000 objects annotated with rich physical and semantic properties. The second is OMNIGIBSON, a novel simulation environment that supports these activities via realistic physics simulation and rendering of rigid bodies, deformable bodies, and liquids. Our experiments indicate that the activities in BEHAVIOR-1K are long-horizon and dependent on complex manipulation skills, both of which remain a challenge for even state-of-the-art robot learning solutions. To calibrate the simulation-to-reality gap of BEHAVIOR-1K, we provide an initial study on transferring solutions learned with a mobile manipulator in a simulated apartment to its real-world counterpart. We hope that BEHAVIOR-1K's human-grounded nature, diversity, and realism make it valuable for embodied AI and robot learning research. Project website: https://behavior.stanford.edu.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-14T09:48:36Z</published>
+    <arxiv:comment>A preliminary version was published at 6th Conference on Robot Learning (CoRL 2022)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Cem Gokmen</name>
+    </author>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Gabrael Levine</name>
+    </author>
+    <author>
+      <name>Wensi Ai</name>
+    </author>
+    <author>
+      <name>Benjamin Martinez</name>
+    </author>
+    <author>
+      <name>Hang Yin</name>
+    </author>
+    <author>
+      <name>Michael Lingelbach</name>
+    </author>
+    <author>
+      <name>Minjune Hwang</name>
+    </author>
+    <author>
+      <name>Ayano Hiranaka</name>
+    </author>
+    <author>
+      <name>Sujay Garlanka</name>
+    </author>
+    <author>
+      <name>Arman Aydin</name>
+    </author>
+    <author>
+      <name>Sharon Lee</name>
+    </author>
+    <author>
+      <name>Jiankai Sun</name>
+    </author>
+    <author>
+      <name>Mona Anvari</name>
+    </author>
+    <author>
+      <name>Manasi Sharma</name>
+    </author>
+    <author>
+      <name>Dhruva Bansal</name>
+    </author>
+    <author>
+      <name>Samuel Hunter</name>
+    </author>
+    <author>
+      <name>Kyu-Young Kim</name>
+    </author>
+    <author>
+      <name>Alan Lou</name>
+    </author>
+    <author>
+      <name>Caleb R Matthews</name>
+    </author>
+    <author>
+      <name>Ivan Villa-Renteria</name>
+    </author>
+    <author>
+      <name>Jerry Huayang Tang</name>
+    </author>
+    <author>
+      <name>Claire Tang</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Hyowon Gweon</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.07788v2</id>
+    <title>DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation</title>
+    <updated>2024-07-04T04:35:04Z</updated>
+    <link href="https://arxiv.org/abs/2403.07788v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.07788v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation learning from human hand motion data presents a promising avenue for imbuing robots with human-like dexterity in real-world manipulation tasks. Despite this potential, substantial challenges persist, particularly with the portability of existing hand motion capture (mocap) systems and the complexity of translating mocap data into effective robotic policies. To tackle these issues, we introduce DexCap, a portable hand motion capture system, alongside DexIL, a novel imitation algorithm for training dexterous robot skills directly from human hand mocap data. DexCap offers precise, occlusion-resistant tracking of wrist and finger motions based on SLAM and electromagnetic field together with 3D observations of the environment. Utilizing this rich dataset, DexIL employs inverse kinematics and point cloud-based imitation learning to seamlessly replicate human actions with robot hands. Beyond direct learning from human motion, DexCap also offers an optional human-in-the-loop correction mechanism during policy rollouts to refine and further improve task performance. Through extensive evaluation across six challenging dexterous manipulation tasks, our approach not only demonstrates superior performance but also showcases the system's capability to effectively learn from in-the-wild mocap data, paving the way for future data collection methods in the pursuit of human-level robot dexterity. More details can be found at https://dex-cap.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-12T16:23:49Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Haochen Shi</name>
+    </author>
+    <author>
+      <name>Weizhuo Wang</name>
+    </author>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>C. Karen Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.00833v1</id>
+    <title>Position Paper: Agent AI Towards a Holistic Intelligence</title>
+    <updated>2024-02-28T16:09:56Z</updated>
+    <link href="https://arxiv.org/abs/2403.00833v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.00833v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in large foundation models have remarkably enhanced our understanding of sensory information in open-world environments. In leveraging the power of foundation models, it is crucial for AI research to pivot away from excessive reductionism and toward an emphasis on systems that function as cohesive wholes. Specifically, we emphasize developing Agent AI -- an embodied system that integrates large foundation models into agent actions. The emerging field of Agent AI spans a wide range of existing embodied and agent-based multimodal interactions, including robotics, gaming, and healthcare systems, etc. In this paper, we propose a novel large action model to achieve embodied intelligent behavior, the Agent Foundation Model. On top of this idea, we discuss how agent AI exhibits remarkable capabilities across a variety of domains and tasks, challenging our understanding of learning and cognition. Furthermore, we discuss the potential of Agent AI from an interdisciplinary perspective, underscoring AI cognition and consciousness within scientific discourse. We believe that those discussions serve as a basis for future research directions and encourage broader societal engagement.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-28T16:09:56Z</published>
+    <arxiv:comment>22 pages, 4 figures. arXiv admin note: substantial text overlap with arXiv:2401.03568</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qiuyuan Huang</name>
+    </author>
+    <author>
+      <name>Naoki Wake</name>
+    </author>
+    <author>
+      <name>Bidipta Sarkar</name>
+    </author>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Ran Gong</name>
+    </author>
+    <author>
+      <name>Rohan Taori</name>
+    </author>
+    <author>
+      <name>Yusuke Noda</name>
+    </author>
+    <author>
+      <name>Demetri Terzopoulos</name>
+    </author>
+    <author>
+      <name>Noboru Kuno</name>
+    </author>
+    <author>
+      <name>Ade Famoti</name>
+    </author>
+    <author>
+      <name>Ashley Llorens</name>
+    </author>
+    <author>
+      <name>John Langford</name>
+    </author>
+    <author>
+      <name>Hoi Vo</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Katsu Ikeuchi</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.05929v2</id>
+    <title>An Interactive Agent Foundation Model</title>
+    <updated>2024-06-17T15:50:02Z</updated>
+    <link href="https://arxiv.org/abs/2402.05929v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.05929v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of artificial intelligence systems is transitioning from creating static, task-specific models to dynamic, agent-based systems capable of performing well in a wide range of applications. We propose an Interactive Agent Foundation Model that uses a novel multi-task agent training paradigm for training AI agents across a wide range of domains, datasets, and tasks. Our training paradigm unifies diverse pre-training strategies, including visual masked auto-encoders, language modeling, and next-action prediction, enabling a versatile and adaptable AI framework. We demonstrate the performance of our framework across three separate domains -- Robotics, Gaming AI, and Healthcare. Our model demonstrates its ability to generate meaningful and contextually relevant outputs in each area. The strength of our approach lies in its generality, leveraging a variety of data sources such as robotics sequences, gameplay data, large-scale video datasets, and textual information for effective multimodal and multi-task learning. Our approach provides a promising avenue for developing generalist, action-taking, multimodal systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-08T18:58:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Bidipta Sarkar</name>
+    </author>
+    <author>
+      <name>Ran Gong</name>
+    </author>
+    <author>
+      <name>Rohan Taori</name>
+    </author>
+    <author>
+      <name>Yusuke Noda</name>
+    </author>
+    <author>
+      <name>Paul Tang</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Shrinidhi Kowshika Lakshmikanth</name>
+    </author>
+    <author>
+      <name>Kevin Schulman</name>
+    </author>
+    <author>
+      <name>Arnold Milstein</name>
+    </author>
+    <author>
+      <name>Demetri Terzopoulos</name>
+    </author>
+    <author>
+      <name>Ade Famoti</name>
+    </author>
+    <author>
+      <name>Noboru Kuno</name>
+    </author>
+    <author>
+      <name>Ashley Llorens</name>
+    </author>
+    <author>
+      <name>Hoi Vo</name>
+    </author>
+    <author>
+      <name>Katsu Ikeuchi</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+    <author>
+      <name>Naoki Wake</name>
+    </author>
+    <author>
+      <name>Qiuyuan Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.03568v2</id>
+    <title>Agent AI: Surveying the Horizons of Multimodal Interaction</title>
+    <updated>2024-01-25T21:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2401.03568v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.03568v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-modal AI systems will likely become a ubiquitous presence in our everyday lives. A promising approach to making these systems more interactive is to embody them as agents within physical and virtual environments. At present, systems leverage existing foundation models as the basic building blocks for the creation of embodied agents. Embedding agents within such environments facilitates the ability of models to process and interpret visual and contextual data, which is critical for the creation of more sophisticated and context-aware AI systems. For example, a system that can perceive user actions, human behavior, environmental objects, audio expressions, and the collective sentiment of a scene can be used to inform and direct agent responses within the given environment. To accelerate research on agent-based multimodal intelligence, we define "Agent AI" as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally-grounded data, and can produce meaningful embodied actions. In particular, we explore systems that aim to improve agents based on next-embodied action prediction by incorporating external knowledge, multi-sensory inputs, and human feedback. We argue that by developing agentic AI systems in grounded environments, one can also mitigate the hallucinations of large foundation models and their tendency to generate environmentally incorrect outputs. The emerging field of Agent AI subsumes the broader embodied and agentic aspects of multimodal interactions. Beyond agents acting and interacting in the physical world, we envision a future where people can easily create any virtual reality or simulated scene and interact with agents embodied within the virtual environment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-07T19:11:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zane Durante</name>
+    </author>
+    <author>
+      <name>Qiuyuan Huang</name>
+    </author>
+    <author>
+      <name>Naoki Wake</name>
+    </author>
+    <author>
+      <name>Ran Gong</name>
+    </author>
+    <author>
+      <name>Jae Sung Park</name>
+    </author>
+    <author>
+      <name>Bidipta Sarkar</name>
+    </author>
+    <author>
+      <name>Rohan Taori</name>
+    </author>
+    <author>
+      <name>Yusuke Noda</name>
+    </author>
+    <author>
+      <name>Demetri Terzopoulos</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Katsushi Ikeuchi</name>
+    </author>
+    <author>
+      <name>Hoi Vo</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00431v2</id>
+    <title>Wild2Avatar: Rendering Humans Behind Occlusions</title>
+    <updated>2025-08-14T22:41:09Z</updated>
+    <link href="https://arxiv.org/abs/2401.00431v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.00431v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rendering the visual appearance of moving humans from occluded monocular videos is a challenging task. Most existing research renders 3D humans under ideal conditions, requiring a clear and unobstructed scene. Those methods cannot be used to render humans in real-world scenes where obstacles may block the camera's view and lead to partial occlusions. In this work, we present Wild2Avatar, a neural rendering approach catered for occluded in-the-wild monocular videos. We propose occlusion-aware scene parameterization for decoupling the scene into three parts - occlusion, human, and background. Additionally, extensive objective functions are designed to help enforce the decoupling of the human from both the occlusion and the background and to ensure the completeness of the human model. We verify the effectiveness of our approach with experiments on in-the-wild videos.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-31T09:01:34Z</published>
+    <arxiv:comment>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). Webpage: https://cs.stanford.edu/~xtiange/projects/wild2avatar/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tiange Xiang</name>
+    </author>
+    <author>
+      <name>Adam Sun</name>
+    </author>
+    <author>
+      <name>Scott Delp</name>
+    </author>
+    <author>
+      <name>Kazuki Kozuka</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12791v1</id>
+    <title>Model-Based Control with Sparse Neural Dynamics</title>
+    <updated>2023-12-20T06:25:02Z</updated>
+    <link href="https://arxiv.org/abs/2312.12791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.12791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning predictive models from observations using deep neural networks (DNNs) is a promising new approach to many real-world planning and control problems. However, common DNNs are too unstructured for effective planning, and current control methods typically rely on extensive sampling or local gradient descent. In this paper, we propose a new framework for integrated model learning and predictive control that is amenable to efficient optimization algorithms. Specifically, we start with a ReLU neural model of the system dynamics and, with minimal losses in prediction accuracy, we gradually sparsify it by removing redundant neurons. This discrete sparsification process is approximated as a continuous problem, enabling an end-to-end optimization of both the model architecture and the weight parameters. The sparsified model is subsequently used by a mixed-integer predictive controller, which represents the neuron activations as binary variables and employs efficient branch-and-bound algorithms. Our framework is applicable to a wide variety of DNNs, from simple multilayer perceptrons to complex graph neural dynamics. It can efficiently handle tasks involving complicated contact dynamics, such as object pushing, compositional object sorting, and manipulation of deformable objects. Numerical and hardware experiments show that, despite the aggressive sparsification, our framework can deliver better closed-loop performance than existing state-of-the-art methods.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-20T06:25:02Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2023. For tutorial code and additional visualizations, see https://robopil.github.io/Sparse-Dynamics/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ziang Liu</name>
+    </author>
+    <author>
+      <name>Genggeng Zhou</name>
+    </author>
+    <author>
+      <name>Jeff He</name>
+    </author>
+    <author>
+      <name>Tobia Marcucci</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.06662v1</id>
+    <title>Photorealistic Video Generation with Diffusion Models</title>
+    <updated>2023-12-11T18:59:57Z</updated>
+    <link href="https://arxiv.org/abs/2312.06662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.06662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present W.A.L.T, a transformer-based approach for photorealistic video generation via diffusion modeling. Our approach has two key design decisions. First, we use a causal encoder to jointly compress images and videos within a unified latent space, enabling training and generation across modalities. Second, for memory and training efficiency, we use a window attention architecture tailored for joint spatial and spatiotemporal generative modeling. Taken together these design decisions enable us to achieve state-of-the-art performance on established video (UCF-101 and Kinetics-600) and image (ImageNet) generation benchmarks without using classifier free guidance. Finally, we also train a cascade of three models for the task of text-to-video generation consisting of a base latent video diffusion model, and two video super-resolution diffusion models to generate videos of $512 \times 896$ resolution at $8$ frames per second.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-11T18:59:57Z</published>
+    <arxiv:comment>Project website https://walt-video-diffusion.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Lijun Yu</name>
+    </author>
+    <author>
+      <name>Kihyuk Sohn</name>
+    </author>
+    <author>
+      <name>Xiuye Gu</name>
+    </author>
+    <author>
+      <name>Meera Hahn</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Irfan Essa</name>
+    </author>
+    <author>
+      <name>Lu Jiang</name>
+    </author>
+    <author>
+      <name>José Lezama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.04474v4</id>
+    <title>Chain of Code: Reasoning with a Language Model-Augmented Code Emulator</title>
+    <updated>2024-07-29T20:21:37Z</updated>
+    <link href="https://arxiv.org/abs/2312.04474v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.04474v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Code provides a general syntactic structure to build complex programs and perform precise computations when paired with a code interpreter - we hypothesize that language models (LMs) can leverage code-writing to improve Chain of Thought reasoning not only for logic and arithmetic tasks, but also for semantic ones (and in particular, those that are a mix of both). For example, consider prompting an LM to write code that counts the number of times it detects sarcasm in an essay: the LM may struggle to write an implementation for "detect_sarcasm(string)" that can be executed by the interpreter (handling the edge cases would be insurmountable). However, LMs may still produce a valid solution if they not only write code, but also selectively "emulate" the interpreter by generating the expected output of "detect_sarcasm(string)". In this work, we propose Chain of Code (CoC), a simple yet surprisingly effective extension that improves LM code-driven reasoning. The key idea is to encourage LMs to format semantic sub-tasks in a program as flexible pseudocode that the interpreter can explicitly catch undefined behaviors and hand off to simulate with an LM (as an "LMulator"). Experiments demonstrate that Chain of Code outperforms Chain of Thought and other baselines across a variety of benchmarks; on BIG-Bench Hard, Chain of Code achieves 84%, a gain of 12% over Chain of Thought. In a nutshell, CoC broadens the scope of reasoning questions that LMs can answer by "thinking in code".</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T17:51:43Z</published>
+    <arxiv:comment>ICML 2024 Oral; Project webpage: https://chain-of-code.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Jacky Liang</name>
+    </author>
+    <author>
+      <name>Andy Zeng</name>
+    </author>
+    <author>
+      <name>Xinyun Chen</name>
+    </author>
+    <author>
+      <name>Karol Hausman</name>
+    </author>
+    <author>
+      <name>Dorsa Sadigh</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Brian Ichter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.04287v1</id>
+    <title>Holistic Evaluation of Text-To-Image Models</title>
+    <updated>2023-11-07T19:00:56Z</updated>
+    <link href="https://arxiv.org/abs/2311.04287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.04287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The stunning qualitative improvement of recent text-to-image models has led to their widespread attention and adoption. However, we lack a comprehensive quantitative understanding of their capabilities and risks. To fill this gap, we introduce a new benchmark, Holistic Evaluation of Text-to-Image Models (HEIM). Whereas previous evaluations focus mostly on text-image alignment and image quality, we identify 12 aspects, including text-image alignment, image quality, aesthetics, originality, reasoning, knowledge, bias, toxicity, fairness, robustness, multilinguality, and efficiency. We curate 62 scenarios encompassing these aspects and evaluate 26 state-of-the-art text-to-image models on this benchmark. Our results reveal that no single model excels in all aspects, with different models demonstrating different strengths. We release the generated images and human evaluation results for full transparency at https://crfm.stanford.edu/heim/v1.1.0 and the code at https://github.com/stanford-crfm/helm, which is integrated with the HELM codebase.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-07T19:00:56Z</published>
+    <arxiv:comment>NeurIPS 2023. First three authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tony Lee</name>
+    </author>
+    <author>
+      <name>Michihiro Yasunaga</name>
+    </author>
+    <author>
+      <name>Chenlin Meng</name>
+    </author>
+    <author>
+      <name>Yifan Mai</name>
+    </author>
+    <author>
+      <name>Joon Sung Park</name>
+    </author>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Yunzhi Zhang</name>
+    </author>
+    <author>
+      <name>Deepak Narayanan</name>
+    </author>
+    <author>
+      <name>Hannah Benita Teufel</name>
+    </author>
+    <author>
+      <name>Marco Bellagente</name>
+    </author>
+    <author>
+      <name>Minguk Kang</name>
+    </author>
+    <author>
+      <name>Taesung Park</name>
+    </author>
+    <author>
+      <name>Jure Leskovec</name>
+    </author>
+    <author>
+      <name>Jun-Yan Zhu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.01454v1</id>
+    <title>NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities</title>
+    <updated>2023-11-02T17:59:06Z</updated>
+    <link href="https://arxiv.org/abs/2311.01454v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.01454v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Neural Signal Operated Intelligent Robots (NOIR), a general-purpose, intelligent brain-robot interface system that enables humans to command robots to perform everyday activities through brain signals. Through this interface, humans communicate their intended objects of interest and actions to the robots using electroencephalography (EEG). Our novel system demonstrates success in an expansive array of 20 challenging, everyday household activities, including cooking, cleaning, personal care, and entertainment. The effectiveness of the system is improved by its synergistic integration of robot learning algorithms, allowing for NOIR to adapt to individual users and predict their intentions. Our work enhances the way humans interact with robots, replacing traditional channels of interaction with direct, neural communication. Project website: https://noir-corl.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-02T17:59:06Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ruohan Zhang</name>
+    </author>
+    <author>
+      <name>Sharon Lee</name>
+    </author>
+    <author>
+      <name>Minjune Hwang</name>
+    </author>
+    <author>
+      <name>Ayano Hiranaka</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Wensi Ai</name>
+    </author>
+    <author>
+      <name>Jin Jie Ryan Tan</name>
+    </author>
+    <author>
+      <name>Shreya Gupta</name>
+    </author>
+    <author>
+      <name>Yilun Hao</name>
+    </author>
+    <author>
+      <name>Gabrael Levine</name>
+    </author>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Anthony Norcia</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+</feed>

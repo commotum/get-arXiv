@@ -1,0 +1,1049 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/C1ZZCpBcZjoCpyHHaMcRlUiYRuw</id>
+  <title>arXiv Query: search_query=au:"John McCarthy"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T23:40:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22John+McCarthy%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>87</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05746v1</id>
+    <title>Caratheodory sets in the tridisk</title>
+    <updated>2025-05-09T03:06:36Z</updated>
+    <link href="https://arxiv.org/abs/2505.05746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.05746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We characterize all algebraic subsets of the tridisk that are Caratheodory sets, that is the intrinsic Caratheodory metric on the set equals the Caratheodory metric for the tridisk. We show that such sets are either retracts, or are isomorphic to one particular exceptional set.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-09T03:06:36Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Lukasz Kosinski</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.10738v1</id>
+    <title>Diagnosing Unknown Attacks in Smart Homes Using Abductive Reasoning</title>
+    <updated>2024-12-14T08:18:29Z</updated>
+    <link href="https://arxiv.org/abs/2412.10738v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.10738v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Security attacks are rising, as evidenced by the number of reported vulnerabilities. Among them, unknown attacks, including new variants of existing attacks, technical blind spots or previously undiscovered attacks, challenge enduring security. This is due to the limited number of techniques that diagnose these attacks and enable the selection of adequate security controls. In this paper, we propose an automated technique that detects and diagnoses unknown attacks by identifying the class of attack and the violated security requirements, enabling the selection of adequate security controls. Our technique combines anomaly detection to detect unknown attacks with abductive reasoning to diagnose them. We first model the behaviour of the smart home and its requirements as a logic program in Answer Set Programming (ASP). We then apply Z-Score thresholding to the anomaly scores of an Isolation Forest trained using unlabeled data to simulate unknown attack scenarios. Finally, we encode the network anomaly in the logic program and perform abduction by refutation to identify the class of attack and the security requirements that this anomaly may violate. We demonstrate our technique using a smart home scenario, where we detect and diagnose anomalies in network traffic. We evaluate the precision, recall and F1-score of the anomaly detector and the diagnosis technique against 18 attacks from the ground truth labels provided by two datasets, CICIoT2023 and IoT-23. Our experiments show that the anomaly detector effectively identifies anomalies when the network traces are strong indicators of an attack. When provided with sufficient contextual data, the diagnosis logic effectively identifies true anomalies, and reduces the number of false positives reported by anomaly detectors. Finally, we discuss how our technique can support the selection of adequate security controls.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-14T08:18:29Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kushal Ramkumar</name>
+    </author>
+    <author>
+      <name>Wanling Cai</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+    <author>
+      <name>Gavin Doherty</name>
+    </author>
+    <author>
+      <name>Bashar Nuseibeh</name>
+    </author>
+    <author>
+      <name>Liliana Pasquale</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14330v1</id>
+    <title>Random anti-commuting Hermitian matrices</title>
+    <updated>2023-12-21T23:22:42Z</updated>
+    <link href="https://arxiv.org/abs/2312.14330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.14330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider pairs of anti-commuting $2p$-by-$2p$ Hermitian matrices that are chosen randomly with respect to a Gaussian measure. Generically such a pair decomposes into the direct sum of $2$-by-$2$ blocks on which the first matrix has eigenvalues $\pm x_j$ and the second has eigenvalues $\pm y_j$. We call $\{ (x_j, y_j) \}$ the skew spectrum of the pair. We derive a formula for the probability density of the skew spectrum, and show that the elements are repelling.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-21T23:22:42Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Hazel T. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.01268v1</id>
+    <title>A connected and automated vehicle readiness framework to support road authorities for C-ITS services</title>
+    <updated>2023-11-02T14:30:05Z</updated>
+    <link href="https://arxiv.org/abs/2311.01268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.01268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Connected and Automated Vehicles (CAVs) can have a profound influence on transport systems. However, most levels of automation and connectivity require support from the road infrastructure. Additional support such as Cooperative Intelligent Transport Systems (C-ITS) services can facilitate safe and efficient traffic, and alleviate the environmental impacts of road surface vehicles. However, due to the rapidly evolving technology, C-ITS service deployment requirements are not always clear. Furthermore, the costs and benefits of infrastructure investments are subject to tremendous uncertainty. This study articulates the requirements using a structured approach to propose a CAV-Readiness Framework (CRF). The main purpose of the CRF is allowing road authorities to assess their physical and digital infrastructure readiness, define requirements for C-ITS services, and identify future development paths to reach higher levels of readiness to support CAVs by enabling C-ITS services. The CRF is intended to guide and support road authorities' investment decisions on infrastructure.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-02T14:30:05Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Bahman Madadi</name>
+    </author>
+    <author>
+      <name>Ary P. Silvano</name>
+    </author>
+    <author>
+      <name>Kevin McPherson</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+    <author>
+      <name>Risto Öörni</name>
+    </author>
+    <author>
+      <name>Gonçalo Homem de Almeida Correiaa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04481v1</id>
+    <title>Sustainable Adaptive Security</title>
+    <updated>2023-06-05T08:48:36Z</updated>
+    <link href="https://arxiv.org/abs/2306.04481v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04481v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With software systems permeating our lives, we are entitled to expect that such systems are secure by design, and that such security endures throughout the use of these systems and their subsequent evolution. Although adaptive security systems have been proposed to continuously protect assets from harm, they can only mitigate threats arising from changes foreseen at design time. In this paper, we propose the notion of Sustainable Adaptive Security (SAS) which reflects such enduring protection by augmenting adaptive security systems with the capability of mitigating newly discovered threats. To achieve this objective, a SAS system should be designed by combining automation (e.g., to discover and mitigate security threats) and human intervention (e.g., to resolve uncertainties during threat discovery and mitigation). In this paper, we use a smart home example to showcase how we can engineer the activities of the MAPE (Monitor, Analysis, Planning, and Execution) loop of systems satisfying sustainable adaptive security. We suggest that using anomaly detection together with abductive reasoning can help discover new threats and guide the evolution of security requirements and controls. We also exemplify situations when humans can be involved in the execution of the activities of the MAPE loop and discuss the requirements to engineer human interventions.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T08:48:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Liliana Pasquale</name>
+    </author>
+    <author>
+      <name>Kushal Ramkumar</name>
+    </author>
+    <author>
+      <name>Wanling Cai</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+    <author>
+      <name>Gavin Doherty</name>
+    </author>
+    <author>
+      <name>Bashar Nuseibeh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.20029v2</id>
+    <title>Random commuting matrices</title>
+    <updated>2025-05-13T21:39:06Z</updated>
+    <link href="https://arxiv.org/abs/2305.20029v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.20029v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a random commuting $d$-tuple of $n$-by-$n$ matrices to be a random variable that takes values in the set of commuting $d$-tuples and has a distribution that is a rapidly decaying continuous weight on this algebraic set. In the Hermitian case, we characterize the eigenvalue distribution as $n$ tends to infinity. In the non-Hermitian case, we get a formula that holds if the set is irreducible. We show that there are qualitative differences between the single matrix case and the several commuting matrices case.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-31T17:00:09Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.07526v1</id>
+    <title>A note on composition operators on model spaces</title>
+    <updated>2023-05-12T14:41:20Z</updated>
+    <link href="https://arxiv.org/abs/2305.07526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.07526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the study of composition operators on model spaces launched by Mashreghi and Shabankha we consider the following problem: for a given inner function $φ\not\in\mathsf{Aut}(\mathbb D)$, find a non-constant inner function $Ψ$ satisfying the functional equation $Ψ\circφ=τΨ$, where $τ$ is a unimodular constant. We prove that this problem has a solution if and only if $φ$ is of positive hyperbolic step. More precisely, if this condition holds, we show that there is an infinite Blaschke product $B$ satisfying the equation for $τ=1$. If in addition, $φ$ is parabolic, we prove that the problem has a solution $Ψ$ for $any$ unimodular $τ$. Finally, we show that if $φ$ is of zero hyperbolic step, then no non-constant Bloch function $f$ and no unimodular constant $τ$ satisfy $f\circφ=τf$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-12T14:41:20Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Isabelle Chalendar</name>
+    </author>
+    <author>
+      <name>Pavel Gumenyuk</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.04966v1</id>
+    <title>Stability conditions and canonical metrics</title>
+    <updated>2023-02-09T22:51:47Z</updated>
+    <link href="https://arxiv.org/abs/2302.04966v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.04966v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this thesis we study the principle that extremal objects in differential geometry correspond to stable objects in algebraic geometry. In our introduction we survey the most famous instances of this principle with a view towards the results and background needed in the later chapters. In Part I we discuss the notion of a $Z$-critical metric recently introduced in joint work with Ruadhaí Dervan and Lars Martin Sektnan. We prove a correspondence for existence with an analogue of Bridgeland stability in the large volume limit, and study important properties of the subsolution condition away from this limit, including identifying the analogues of the Donaldson and Yang-Mills functionals for the equation. In Part II we study the recent theory of optimal symplectic connections on Kähler fibrations in the isotrivial case. We prove a correspondence with the existence of Hermite-Einstein metrics on holomorphic principal bundles.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-09T22:51:47Z</published>
+    <arxiv:comment>PhD Thesis</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>John Benjamin McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.11256v1</id>
+    <title>Substrate Curvature Curbs the Coffee Ring Effect</title>
+    <updated>2022-12-21T18:34:42Z</updated>
+    <link href="https://arxiv.org/abs/2212.11256v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.11256v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>"When the liquid phase of a particle-laden droplet evaporates, a ring of solute is typically formed - what has become known as the "coffee ring effect". A key focus of recent work has been the suppression of the coffee-ring effect to leave behind more spatially-uniform particle coatings instead. Efforts to suppress the coffee ring effect often focus on physical effects such as Marangoni flows. Here we focus on a purely geometric effect - the effect of substrate curvature - by evaporating suspension droplets on spherical surfaces of different radius of curvature. We find that stains formed on more highly curved substrates are more uniform. To understand this, we propose a model of the evaporation-induced flow, combined with a detailed calculation of how curvature modifies the local evaporation rate. This model shows that evaporation in the centre of the droplet is enhanced, leading to increased concentration of solute there and a reduction in the propensity for ring-formation.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-21T18:34:42Z</published>
+    <arxiv:comment>4 pages, 4 figures, Sup Info</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+    <author>
+      <name>Alfonso Castrejón-Pita</name>
+    </author>
+    <author>
+      <name>Mokhtar Adda-Bedia</name>
+    </author>
+    <author>
+      <name>Dominic Vella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.14688v1</id>
+    <title>Conferences -- An Owner's Manual</title>
+    <updated>2022-06-29T14:43:16Z</updated>
+    <link href="https://arxiv.org/abs/2206.14688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.14688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I share my opinions on how to get the most out of conferences. I have some advice on giving talks, but most of the essay is devoted to the much larger share of the conference not spent giving talks: attending talks and socializing.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-29T14:43:16Z</published>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.12487v2</id>
+    <title>Asymptotic Muntz-Szasz Theorems</title>
+    <updated>2022-07-02T17:07:32Z</updated>
+    <link href="https://arxiv.org/abs/2206.12487v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.12487v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a monomial space to be a subspace of $\ltwo$ that can be approximated by spaces that are spanned by monomial functions. We describe the structure of monomial spaces.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-24T20:34:34Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.03462v2</id>
+    <title>Beurling's theorem for the Hardy operator on $L^2[0,1]$</title>
+    <updated>2022-07-02T17:11:44Z</updated>
+    <link href="https://arxiv.org/abs/2206.03462v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.03462v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the invariant subspaces of the Hardy operator on $L^2[0,1]$ are the spaces that are limits of sequences of finite dimensional spaces spanned by monomial functions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-07T17:32:40Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.01862v1</id>
+    <title>The Hardy-Weyl algebra</title>
+    <updated>2022-05-04T02:31:58Z</updated>
+    <link href="https://arxiv.org/abs/2205.01862v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.01862v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the algebra $\mathcal{A}$ generated by the Hardy operator $H$ and the operator $M_x$ of multiplication by $x$ on $L^2[0,1]$. We call $\mathcal{A}$ the Hardy-Weyl algebra. We show that its quotient by the compact operators is isomorphic to the algebra of functions that are continuous on $Λ$ and analytic on the interior of $Λ$ for a planar set $Λ$ = $[-1,0] \cup \bar{ \mathbb{D}(1,1)}$, which we call the lollipop. We find a Toeplitz-like short exact sequence for the $C^*$-algebra generated by $\mathcal{A}$. We study the operator $Z = H - M_x$, show that its point spectrum is $(-1,0] \cup \mathbb{D}(1,1)$, and that the eigenvalues grow in multiplicity as the points move to $0$ from the left.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-04T02:31:58Z</published>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.01857v1</id>
+    <title>Monomial Operators</title>
+    <updated>2022-05-04T02:25:33Z</updated>
+    <link href="https://arxiv.org/abs/2205.01857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.01857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study monomial operators on $ L^2[0,1]$, that is bounded linear operators that map each monomial $x^n$ to a multiple of $x^{p_n}$ for some $p_n$. We show that they are all unitarily equivalent to weighted composition operators on a Hardy space. We characterize what sequences $p_n$ can arise. In the case that $p_n$ is a fixed translation of $n$, we give a criterion for boundedness of the operator.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-04T02:25:33Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.01856v1</id>
+    <title>A generalization of Hardy's operator and an asymptotic Muntz-Szasz Theorem</title>
+    <updated>2022-05-04T02:16:29Z</updated>
+    <link href="https://arxiv.org/abs/2205.01856v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.01856v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hardy operator has all the monomial functions as eigenvectors. We study bounded operators on L^2 that take monomial functions to multiples of other monomials, with a shifted exponent. We prove that they all leave the space of functions vanishing on [0,s] invariant. We prove an asymptotic Muntz-Szasz theorem, characterizing the set of functions that are limits of linear combinations of monomials with exponents between n and 2n.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-04T02:16:29Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.08521v1</id>
+    <title>Complete Norm Preserving Extensions of Holomorphic Functions</title>
+    <updated>2022-04-18T19:06:05Z</updated>
+    <link href="https://arxiv.org/abs/2204.08521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.08521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that for every connected analytic subvariety $V$ there is a pseudoconvex set $Ω$ such that every bounded matrix-valued holomorphic function on $V$ extends isometrically to $Ω$. We prove that if $V$ is two analytic disks intersecting at one point, if every bounded scalar valued holomorphic function extends isometrically to $Ω$, then so does every matrix-valued function. In the special case that $Ω$ is the symmetrized bidisk, we show that this cannot be done by finding a linear isometric extension from the functions that vanish at one point.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-18T19:06:05Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>Lukasz Kosinski</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.08517v1</id>
+    <title>Norm Preserving Extensions of Holomorphic Functions Defined on Varieties in ${\mathbb C}^n$</title>
+    <updated>2022-04-18T19:01:52Z</updated>
+    <link href="https://arxiv.org/abs/2204.08517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.08517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>If $V$ is an analytic set in a pseudoconvex domain $Ω$, we show there is always a pseudoconvex domain $G \subseteq Ω$ that contains $V$ and has the property that every bounded holomorphic function on $V$ extends to a bounded holomorphic function on $G$ with the same norm. We find such a $G$ for some particular analytic sets.
+  When $Ω$ is an operhedron we show there is a norm on holomorphic functions on $V$ that can always be preserved by extensions to $Ω$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-18T19:01:52Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>Lukasz Kosinski</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08179v1</id>
+    <title>Free outer functions in complete Pick spaces</title>
+    <updated>2022-03-15T18:13:03Z</updated>
+    <link href="https://arxiv.org/abs/2203.08179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Jury and Martin establish an analogue of the classical inner-outer factorization of Hardy space functions. They show that every function $f$ in a Hilbert function space with a normalized complete Pick reproducing kernel has a factorization of the type $f=\varphi g$, where $g$ is cyclic, $\varphi$ is a contractive multiplier, and $\|f\|=\|g\|$. In this paper we show that if the cyclic factor is assumed to be what we call free outer, then the factors are essentially unique, and we give a characterization of the factors that is intrinsic to the space. That lets us compute examples. We also provide several applications of this factorization.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-15T18:13:03Z</published>
+    <arxiv:comment>63 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.11630v1</id>
+    <title>Canonical metrics on holomorphic fibre bundles</title>
+    <updated>2022-02-23T17:07:38Z</updated>
+    <link href="https://arxiv.org/abs/2202.11630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.11630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article we completely describe the existence of canonical metrics, known as optimal symplectic connections, on isotrivial Kähler fibrations. In this setting an optimal symplectic connection is induced from a Hermite--Einstein connection on the holomorphic principal bundle of relative automorphisms, and the Hitchin--Kobayashi correspondence asserts the existence of such a connection precisely when the principal bundle is polystable. Combined with results of Dervan and Sektnan this generates many new examples of cscK metrics on the total space of holomorphic fibre bundles. Our results indicate that in general the optimal symplectic connection equation should be viewed as a generalisation of the Hermite--Einstein equation to holomorphic fibrations where the complex structure of the fibres varies.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-23T17:07:38Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>John Benjamin McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.13079v1</id>
+    <title>Operator NC functions</title>
+    <updated>2021-07-27T21:03:35Z</updated>
+    <link href="https://arxiv.org/abs/2107.13079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.13079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish a theory of NC functions on a class of von Neumann algebras with a particular direct sum property, e.g. $B(\mathcal{H})$. In contrast to the theory's origins, we do not rely on appealing to results from the matricial case. We prove that the $k^{\text{th}}$ directional derivative of any NC function at a scalar point is a $k$-linear homogeneous polynomial in its directions. Consequences include the fact that NC functions defined on domains containing scalar points can be uniformly approximated by free polynomials as well as realization formulas for NC functions bounded on particular sets, e.g. the non-commutative polydisk and non-commutative row ball.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-27T21:03:35Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Meric Augat</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01110v1</id>
+    <title>The common range of co-analytic Toeplitz operators on the Drury-Arveson space</title>
+    <updated>2021-05-03T18:32:03Z</updated>
+    <link href="https://arxiv.org/abs/2105.01110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We characterize the common range of the adjoints of cyclic multiplication operators on the Drury--Arveson space. We show that a function belongs to this common range if and only if its Taylor coefficients satisfy a simple decay condition. To achieve this, we introduce the uniform Smirnov class on the ball and determine its dual space. We show that the dual space of the uniform Smirnov class equals the dual space of the strictly smaller Smirnov class of the Drury-Arveson space, and that this in turn equals the common range of the adjoints of cyclic multiplication operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-03T18:32:03Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.10426v5</id>
+    <title>$Z$-critical connections and Bridgeland stability conditions</title>
+    <updated>2024-01-22T12:40:51Z</updated>
+    <link href="https://arxiv.org/abs/2012.10426v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.10426v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We associate geometric partial differential equations on holomorphic vector bundles to Bridgeland stability conditions. We call solutions to these equations $Z$-critical connections, with $Z$ a central charge. Deformed Hermitian Yang--Mills connections are a special case. We explain how our equations arise naturally through infinite dimensional moment maps.
+  Our main result shows that in the large volume limit, a sufficiently smooth holomorphic vector bundle admits a $Z$-critical connection if and only if it is asymptotically $Z$-stable. Even for the deformed Hermitian Yang--Mills equation, this provides the first examples of solutions in higher rank.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-18T18:32:19Z</published>
+    <arxiv:comment>v3: 73 pages, published version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Ruadhaí Dervan</name>
+    </author>
+    <author>
+      <name>John Benjamin McCarthy</name>
+    </author>
+    <author>
+      <name>Lars Martin Sektnan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.08812v1</id>
+    <title>Symbol functions for symmetric frameworks</title>
+    <updated>2020-09-18T12:42:08Z</updated>
+    <link href="https://arxiv.org/abs/2009.08812v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.08812v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a variant of the well-known result that intertwiners for the bilateral shift on `$\ell^2(Z)$ are unitarily equivalent to multiplication operators on $L^2(T)$. This enables us to unify and extend fundamental aspects of rigidity theory for bar-joint frameworks with an abelian symmetry group. In particular, we formulate the symbol function for a wide class of frameworks and show how to construct generalised rigid unit modes in a variety of new contexts.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-18T12:42:08Z</published>
+    <arxiv:comment>25 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Eleftherios Kastis</name>
+    </author>
+    <author>
+      <name>Derek Kitson</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.03558v1</id>
+    <title>Long range versus short range aerial transmission of SARS-CoV-2</title>
+    <updated>2020-08-08T17:11:46Z</updated>
+    <link href="https://arxiv.org/abs/2008.03558v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.03558v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compare the quantitative risk of infection from short range airborne transmission of SARS-CoV-2 to the long-range risk from aerosol transmission in an enclosed space.</summary>
+    <category term="q-bio.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-08T17:11:46Z</published>
+    <arxiv:primary_category term="q-bio.OT"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Myles T. McCarthy</name>
+    </author>
+    <author>
+      <name>Bob A. Dumas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.00981v2</id>
+    <title>Multiplier tests and subhomogeneity of multiplier algebras</title>
+    <updated>2022-06-10T13:12:28Z</updated>
+    <link href="https://arxiv.org/abs/2008.00981v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.00981v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multipliers of reproducing kernel Hilbert spaces can be characterized in terms of positivity of $n \times n$ matrices analogous to the classical Pick matrix. We study for which reproducing kernel Hilbert spaces it suffices to consider matrices of bounded size $n$. We connect this problem to the notion of subhomogeneity of non-selfadjoint operator algebras. Our main results show that multiplier algebras of many Hilbert spaces of analytic functions, such as the Dirichlet space and the Drury-Arveson space, are not subhomogeneous, and hence one has to test Pick matrices of arbitrarily large matrix size $n$. To treat the Drury-Arveson space, we show that multiplier algebras of certain weighted Dirichlet spaces on the disc embed completely isometrically into the multiplier algebra of the Drury-Arveson space.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-03T16:04:36Z</published>
+    <arxiv:comment>40 pages; minor changes</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Doc. Math. 27, 719-764 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+    <arxiv:doi>10.25537/dm.2022v27.719-764</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.25537/dm.2022v27.719-764" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.08909v2</id>
+    <title>An $H^p$ scale for complete Pick spaces</title>
+    <updated>2020-09-17T19:21:46Z</updated>
+    <link href="https://arxiv.org/abs/2005.08909v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.08909v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define by interpolation a scale analogous to the Hardy $H^p$ scale for complete Pick spaces, and establish some of the basic properties of the resulting spaces, which we call $\mathcal{H}^p$. In particular, we obtain an $\mathcal{H}^p-\mathcal{H}^q$ duality and establish sharp pointwise estimates for functions in $\mathcal{H}^p$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-18T17:30:55Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Studia Math. 258 (2021), no. 3, 343-359</arxiv:journal_ref>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+    <arxiv:doi>10.4064/sm200514-18-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4064/sm200514-18-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.11959v1</id>
+    <title>Calcular Algebras</title>
+    <updated>2019-06-27T20:52:07Z</updated>
+    <link href="https://arxiv.org/abs/1906.11959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.11959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A calcular algebra is a subalgebra of $H^\infty(Ω)$ with norm given by $\| φ\| = \sup \| φ(T) \|$ as $T$ ranges over a given class of commutative $d$-tuples of operators with Taylor spectrum in $Ø$. We discuss what algebras arise this way, and how they can be represented.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-27T20:52:07Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Nicholas J. Young</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.10422v2</id>
+    <title>Non-commutative manifolds, the free square root and symmetric functions in two non-commuting variables</title>
+    <updated>2024-04-11T20:54:33Z</updated>
+    <link href="https://arxiv.org/abs/1808.10422v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.10422v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The richly developed theory of complex manifolds plays important roles in our understanding of holomorphic functions in several complex variables. It is natural to consider manifolds that will play similar roles in the theory of holomorphic functions in several non-commuting variables. In this paper we introduce the class of \emph{nc-manifolds}, the mathematical objects that at each point possess a neighborhood that has the structure of an \emph{nc-domain} in the \emph{$d$-dimensional nc-universe $\m^d$}. We illustrate the use of such manifolds in free analysis through the construction of the non-commutative Riemann surface for the matricial square root function. A second illustration is the construction of a non-commutative analog of the elementary symmetric functions in two variables.
+  For any symmetric domain in $\m^2$ we construct a 2-dimensional non-commutative manifold such that the symmetric holomorphic functions on the domain are in bijective correspondence with the holomorphic functions on the manifold. We also derive a version of the classical Newton-Girard formulae for power sums of two non-commuting variables.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-30T17:41:02Z</published>
+    <arxiv:comment>75 pages, 1 figure. Appeared in Trans. London Math. Soc.5, no. 1, [2018] 132:183. Updated post to add an extra hypothesis in the statement of Prop. 3.4. (This error appears in the published version.)</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>N. J. Young</name>
+    </author>
+    <arxiv:doi>10.1112/tlm3.12015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/tlm3.12015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.00730v1</id>
+    <title>Radially weighted Besov spaces and the Pick property</title>
+    <updated>2018-07-02T15:07:09Z</updated>
+    <link href="https://arxiv.org/abs/1807.00730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.00730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For $s\in \mathbb R$ the weighted Besov space on the unit ball $\mathbb B_d$ of $\mathbb C^d$ is defined by $B^s_ω=\{f\in \operatorname{Hol}(\mathbb B_d): \int_{\mathbb B_d}|R^sf|^2 ωdV&lt;\infty\}.$ Here $R^s$ is a power of the radial derivative operator $R= \sum_{i=1}^d z_i\frac{\partial}{\partial z_i}$, $V$ denotes Lebesgue measure, and $ω$ is a radial weight function not supported on any ball of radius $&lt; 1$.
+  Our results imply that for all such weights $ω$ and $ν$, every bounded column multiplication operator $B^s_ω\to B^t_ν\otimes \ell^2$ induces a bounded row multiplier $B^s_ω\otimes \ell^2 \to B^t_ν$. Furthermore we show that if a weight $ω$ satisfies that for some $α&gt;-1$ the ratio $ω(z)/(1-|z|^2)^α$ is nondecreasing for $t_0&lt;|z|&lt;1$, then $B^s_ω$ is a complete Pick space, whenever $s\ge (α+d)/2$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-02T15:07:09Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Analysis of operators on function spaces, 29-61, Trends Math., Birkhäuser/Springer, Cham, 2019</arxiv:journal_ref>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-14640-5_3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-14640-5_3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10693v2</id>
+    <title>Weak products of complete Pick spaces</title>
+    <updated>2020-09-22T14:45:09Z</updated>
+    <link href="https://arxiv.org/abs/1804.10693v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.10693v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\mathcal H$ be the Drury-Arveson or Dirichlet space of the unit ball of $\mathbb C^d$. The weak product $\mathcal H\odot\mathcal H$ of $\mathcal H$ is the collection of all functions $h$ that can be written as $h=\sum_{n=1}^\infty f_n g_n$, where $\sum_{n=1}^\infty \|f_n\|\|g_n\|&lt;\infty$. We show that $\mathcal H\odot\mathcal H$ is contained in the Smirnov class of $\mathcal H$, i.e. every function in $\mathcal H\odot\mathcal H$ is a quotient of two multipliers of $\mathcal H$, where the function in the denominator can be chosen to be cyclic in $\mathcal H$. As a consequence we show that the map $\mathcal N \to clos_{\mathcal H\odot\mathcal H} \mathcal N$ establishes a 1-1 and onto correspondence between the multiplier invariant subspaces of $\mathcal H$ and of $\mathcal H\odot\mathcal H$.
+  The results hold for many weighted Besov spaces $\mathcal H$ in the unit ball of $\mathbb C^d$ provided the reproducing kernel has the complete Pick property. One of our main technical lemmas states that for weighted Besov spaces $\mathcal H$ that satisfy what we call the multiplier inclusion condition any bounded column multiplication operator $\mathcal H \to \oplus_{n=1}^\infty \mathcal H$ induces a bounded row multiplication operator $\oplus_{n=1}^\infty \mathcal H \to \mathcal H$. For the Drury-Arveson space $H^2_d$ this leads to an alternate proof of the characterization of interpolating sequences in terms of weak separation and Carleson measure conditions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-27T21:28:04Z</published>
+    <arxiv:comment>minor changes</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.09718v1</id>
+    <title>The Krzyż Conjecture and an Entropy Conjecture</title>
+    <updated>2018-03-26T17:19:16Z</updated>
+    <link href="https://arxiv.org/abs/1803.09718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.09718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that if the minimum entropy for a polynomial with roots on the unit circle is attained by polynomials with equally spaced roots, then, under a generic hypothesis about the nature of the extremum, the Krzyz conjecture on the maximum modulus of the Taylor coefficients of a holomorphic function that maps the disk to the punctured disk is true.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-26T17:19:16Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.10422v1</id>
+    <title>Extensions of bounded holomorphic functions on the tridisk</title>
+    <updated>2017-11-28T17:28:49Z</updated>
+    <link href="https://arxiv.org/abs/1711.10422v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.10422v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study sets $V$ in the tridisc that are relatively polynomially convex and have the polynomial extension property. If $V$ is one-dimensional, and is either algebraic, or has polynomially convex projections, we show that it is a retract. If $V$ is two-dimensional, we show that either it is a retract, or, for any choice of the coordinate functions, it is the graph of a function of two variables.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-28T17:28:49Z</published>
+    <arxiv:comment>33 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Lukasz Kosinski</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05593v2</id>
+    <title>Factorizations induced by complete Nevanlinna-Pick factors</title>
+    <updated>2018-07-18T14:53:14Z</updated>
+    <link href="https://arxiv.org/abs/1708.05593v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.05593v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a factorization theorem for reproducing kernel Hilbert spaces whose kernel has a normalized complete Nevanlinna-Pick factor. This result relates the functions in the original space to pointwise multipliers determined by the Nevanlinna-Pick kernel and has a number of interesting applications. For example, for a large class of spaces including Dirichlet and Drury-Arveson spaces, we construct for every function $f$ in the space a pluriharmonic majorant of $|f|^2$ with the property that whenever the majorant is bounded, the corresponding function $f$ is a pointwise multiplier.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-18T13:14:48Z</published>
+    <arxiv:comment>35 pages; minor changes</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Adv. Math. 335 (2018), 372-404</arxiv:journal_ref>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2018.07.013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2018.07.013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.09973v1</id>
+    <title>Global holomorphic functions in several non-commuting variables II</title>
+    <updated>2017-06-29T22:55:39Z</updated>
+    <link href="https://arxiv.org/abs/1706.09973v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.09973v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a new proof that bounded non-commutative functions on polynomial polyhedra can be represented by a realization formula, a generalization of the transfer function realization formula for bounded analytic functions on the unit disk.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-29T22:55:39Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Can. Math. Bull. 61 (2018) 458-463</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <arxiv:doi>10.4153/CMB-2017-044-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4153/CMB-2017-044-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.05376v1</id>
+    <title>Wandering Montel Theorems for Hilbert Space Valued Holomorphic Functions</title>
+    <updated>2017-06-16T16:54:56Z</updated>
+    <link href="https://arxiv.org/abs/1706.05376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.05376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a Montel theorem for Hilbert space valued functions, and a non-commutative version of this theorem, by composing with unitaries to achieve convergence.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-16T16:54:56Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.03857v1</id>
+    <title>Norm preserving extensions of bounded holomorphic functions</title>
+    <updated>2017-04-12T17:46:04Z</updated>
+    <link href="https://arxiv.org/abs/1704.03857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.03857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A relatively polynomially convex subset $V$ of a domain $Ω$ has the extension property if for every polynomial $p$ there is a bounded holomorphic function $φ$ on $Ω$ that agrees with $p$ on $V$ and whose $H^\infty$ norm on $Ω$ equals the sup-norm of $p$ on $V$. We show that if $Ω$ is either strictly convex or strongly linearly convex in ${\mathbb C}^2$, or the ball in any dimension, then the only sets that have the extension property are retracts. If $Ω$ is strongly linearly convex in any dimension and $V$ has the extension property, we show that $V$ is a totally geodesic submanifold. We show how the extension property is related to spectral sets.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-12T17:46:04Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Lukasz Kosinski</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.09677v2</id>
+    <title>A multiplier algebra functional calculus</title>
+    <updated>2018-06-11T16:15:22Z</updated>
+    <link href="https://arxiv.org/abs/1703.09677v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.09677v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper generalizes the classical Sz.-Nagy--Foias $H^{\infty}(\mathbb{D})$ functional calculus for Hilbert space contractions. In particular, we replace the single contraction $T$ with a tuple $T=(T_1, \dots, T_d)$ of commuting bounded operators on a Hilbert space and replace $H^{\infty}(\mathbb{D})$ with a large class of multiplier algebras of Hilbert function spaces on the unit ball in $\mathbb C^d$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-28T17:20:31Z</published>
+    <arxiv:comment>17 pages; minor changes</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Trans. Amer. Math. Soc. 370 (2018), no. 12, 8467-8482</arxiv:journal_ref>
+    <author>
+      <name>Kelly Bickel</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <arxiv:doi>10.1090/tran/7381</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1090/tran/7381" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.07476v2</id>
+    <title>The Smirnov class for spaces with the complete Pick property</title>
+    <updated>2017-07-26T17:36:03Z</updated>
+    <link href="https://arxiv.org/abs/1701.07476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.07476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that every function in a reproducing kernel Hilbert space with a normalized complete Pick kernel is the quotient of a multiplier and a cyclic multiplier. This extends a theorem of Alpay, Bolotnikov and Kaptanoğlu. We explore various consequences of this result regarding zero sets, spaces on compact sets and Gleason parts. In particular, using a construction of Salas, we exhibit a rotationally invariant complete Pick space of analytic functions on the unit disc for which the corona theorem fails.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-25T20:33:58Z</published>
+    <arxiv:comment>18 pages; minor changes</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Lond. Math. Soc. (2) 96 (2017), no. 1, 228-242</arxiv:journal_ref>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+    <arxiv:doi>10.1112/jlms.12060</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/jlms.12060" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.04885v2</id>
+    <title>Interpolating sequences in spaces with the complete Pick property</title>
+    <updated>2020-09-16T00:04:18Z</updated>
+    <link href="https://arxiv.org/abs/1701.04885v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.04885v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We characterize interpolating sequences for multiplier algebras of spaces with the complete Pick property. Specifically, we show that a sequence is interpolating if and only if it is separated and generates a Carleson measure. This generalizes results of Carleson for the Hardy space and of Bishop, Marshall and Sundberg for the Dirichlet space. Furthermore, we investigate interpolating sequences for pairs of Hilbert function spaces.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-17T22:03:25Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>IMRN 12 (2019) 3832-3859</arxiv:journal_ref>
+    <author>
+      <name>Alexandru Aleman</name>
+    </author>
+    <author>
+      <name>Michael Hartz</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Stefan Richter</name>
+    </author>
+    <arxiv:doi>10.1093/imrn/rnx237</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imrn/rnx237" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02382v1</id>
+    <title>The three point Pick problem on the Bidisk</title>
+    <updated>2016-10-07T19:18:50Z</updated>
+    <link href="https://arxiv.org/abs/1610.02382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.02382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the three point Pick interpolation problem on the bidisk</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-07T19:18:50Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>New York Journal of Mathematics Vol. 6 [2000] 227-236</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02379v1</id>
+    <title>Interpolating sequences on the bidisk</title>
+    <updated>2016-10-07T19:14:48Z</updated>
+    <link href="https://arxiv.org/abs/1610.02379v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.02379v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a characterization of interpolating sequences for bounded analytic functions on the bidisk.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-07T19:14:48Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>International Journal of Mathematics, Vol. 12 No. 9 [2001] 1103-1114</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.01997v1</id>
+    <title>Complete Nevanlinna-Pick kernels</title>
+    <updated>2016-10-06T19:10:18Z</updated>
+    <link href="https://arxiv.org/abs/1610.01997v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.01997v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a new treatment of Quiggin's and McCullough's characterization of complete Nevanlinna-Pick kernels. We show that a kernel has the matrix-valued Nevanlinna-Pick property if and only if it has the vector-valued Nevanlinna-Pick property. We give a representation of all complete Nevanlinna-Pick kernels, and show that they are all restrictions of a universal complete Nevanlinna-Pick kernel.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-06T19:10:18Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Journal of Functional Analysis, Vol.~175 No.~1 [2000] 111-124</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.01965v1</id>
+    <title>Nevanlinna-Pick Kernels and Localization</title>
+    <updated>2016-10-06T17:39:57Z</updated>
+    <link href="https://arxiv.org/abs/1610.01965v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.01965v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe those reproducing kernel Hilbert spaces of holomorphic functions on domains in ${\Bbb C}^d$ for which an analogue of the Nevanlinna-Pick theorem holds, in other words when the existence of a (possibly matrix-valued) function in the unit ball of the multiplier algebra with specified values on a finite set of points is equivalent to the positvity of a related matrix. Our description is in terms of a certain localization property of the kernel.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-06T17:39:57Z</published>
+    <arxiv:comment>in Proceedings of 17th International Conference on Operator Theory at Timisoara, 1998, Theta Foundation, Bucharest</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.01962v1</id>
+    <title>The Julia-Caratheodory theorem on the bidisk revisited</title>
+    <updated>2016-10-06T17:30:39Z</updated>
+    <link href="https://arxiv.org/abs/1610.01962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.01962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Julia quotient measures the ratio of the distance of a function value from the boundary to the distance from the boundary. The Julia-Carathéodory theorem on the bidisk states that if the Julia quotient is bounded along some sequence of nontangential approach to some point in the torus, the function must have directional derivatives in all directions pointing into the bidisk. The directional derivative, however, need not be a linear function of the direction in that case. In this note, we show that if the Julia quotient is uniformly bounded along every sequence of nontangential approach, the function must have a linear directional derivative. Additionally, we analyze a weaker condition, corresponding to being Lipschitz near the boundary, which implies the existence of a linear directional derivative for rational functions.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-06T17:30:39Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>James E. Pascoe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.09629v3</id>
+    <title>A non-commutative Julia Inequality</title>
+    <updated>2017-08-19T23:27:22Z</updated>
+    <link href="https://arxiv.org/abs/1606.09629v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.09629v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a Julia inequality for bounded non-commutative functions on polynomial polyhedra. We use this to deduce a Julia inequality for holomorphic functions on classical domains in $\mathbb{C}^d$. We look at differentiability at a boundary point for functions that have a certain regularity there.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-30T19:36:54Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>James E. Pascoe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.06669v2</id>
+    <title>Aspects of Non-commutative Function Theory</title>
+    <updated>2017-08-19T23:32:47Z</updated>
+    <link href="https://arxiv.org/abs/1510.06669v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.06669v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss non commutative functions, which naturally arise when dealing with functions of more than one matrix variable.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-22T16:07:45Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Concrete Operators, Vol. 3 [2016] 15-24</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.01132v1</id>
+    <title>Non-commutative holomorphic functions on Operator domains</title>
+    <updated>2015-09-03T15:46:27Z</updated>
+    <link href="https://arxiv.org/abs/1509.01132v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.01132v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We characterize functions of $d$-tuples of bounded operators on a Hilbert space that are uniformly approximable by free polynomials on balanced open sets.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-03T15:46:27Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.04162v2</id>
+    <title>Spaces of Dirichlet series with the complete Pick property</title>
+    <updated>2015-07-28T06:34:08Z</updated>
+    <link href="https://arxiv.org/abs/1507.04162v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.04162v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider reproducing kernel Hilbert spaces of Dirichlet series with kernels of the form $k(s,u) = \sum a_n n^{-s-\bar u}$, and characterize when such a space is a complete Pick space. We then discuss what it means for two reproducing kernel Hilbert spaces to be "the same", and introduce a notion of weak isomorphism. Many of the spaces we consider turn out to be weakly isomorphic as reproducing kernel Hilbert spaces to the Drury-Arveson space $H^2_d$ in $d$ variables, where $d$ can be any number in $\{1,2,\ldots, \infty\}$, and in particular their multiplier algebras are unitarily equivalent to the multiplier algebra of $H^2_d$. Thus, a family of multiplier algebras of Dirichlet series are exhibited with the property that every complete Pick algebra is a quotient of each member of this family. Finally, we determine precisely when such a space of Dirichlet series is weakly isomorphic to $H^2_d$ and when its multiplier algebra is isometrically isomorphic to $Mult(H^2_d)$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-15T10:54:21Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Israel Journal of Mathematics, Vol. 220 (2017), 509-530</arxiv:journal_ref>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Orr Shalit</name>
+    </author>
+    <arxiv:doi>10.1007/s11856-017-1527-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11856-017-1527-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.07323v1</id>
+    <title>Non-commutative Functional Calculus and Spectral Theory</title>
+    <updated>2015-04-28T01:22:33Z</updated>
+    <link href="https://arxiv.org/abs/1504.07323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.07323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a functional calculus for $d$-tuples of non-commuting elements in a Banach algebra. The functions we apply are free analytic functions, that is nc functions that are bounded on certain polynomial polyhedra.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-28T01:22:33Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.07676v1</id>
+    <title>NC Automorphisms of nc-bounded domains</title>
+    <updated>2015-02-24T20:54:33Z</updated>
+    <link href="https://arxiv.org/abs/1502.07676v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.07676v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish rigidity (or uniqueness) theorems for nc automorphisms which are natural extensions of clasical results of H.~Cartan and are improvements of recent results. We apply our results to nc-domains consisting of unit balls of rectangular matrices.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-24T20:54:33Z</published>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Richard M. Timoney</name>
+    </author>
+  </entry>
+</feed>

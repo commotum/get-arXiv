@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XdVzVRDU+EPnH9wOcT9Y3/opZ10</id>
+  <title>arXiv Query: search_query=au:"Ian Goodfellow"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-06T22:59:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ian+Goodfellow%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>69</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1510.01799v2</id>
+    <title>Efficient Per-Example Gradient Computations</title>
+    <updated>2015-10-09T23:59:02Z</updated>
+    <link href="https://arxiv.org/abs/1510.01799v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.01799v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This technical report describes an efficient technique for computing the norm of the gradient of the loss function for a neural network with respect to its parameters. This gradient norm can be computed efficiently for every example.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-07T01:42:23Z</published>
+    <arxiv:comment>This revision fixed some typos. Many thanks to Hugo Larochelle for reporting them!</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6572v3</id>
+    <title>Explaining and Harnessing Adversarial Examples</title>
+    <updated>2015-03-20T20:19:16Z</updated>
+    <link href="https://arxiv.org/abs/1412.6572v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6572v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several machine learning models, including neural networks, consistently misclassify adversarial examples---inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence. Early attempts at explaining this phenomenon focused on nonlinearity and overfitting. We argue instead that the primary cause of neural networks' vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-20T01:17:12Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6544v6</id>
+    <title>Qualitatively characterizing neural network optimization problems</title>
+    <updated>2015-05-21T21:44:31Z</updated>
+    <link href="https://arxiv.org/abs/1412.6544v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6544v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training neural networks involves solving large-scale non-convex optimization problems. This task has long been believed to be extremely difficult, with fear of local minima and other obstacles motivating a variety of schemes to improve optimization, such as unsupervised pretraining. However, modern neural networks are able to achieve negligible training error on complex tasks, using only direct training with stochastic gradient descent. We introduce a simple analysis technique to look for evidence that such networks are overcoming local optima. We find that, in fact, on a straight path from initialization to solution, a variety of state of the art neural networks never encounter any significant obstacles.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-19T21:55:01Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Andrew M. Saxe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6515v4</id>
+    <title>On distinguishability criteria for estimating generative models</title>
+    <updated>2015-05-21T15:52:10Z</updated>
+    <link href="https://arxiv.org/abs/1412.6515v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6515v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two recently introduced criteria for estimation of generative models are both based on a reduction to binary classification. Noise-contrastive estimation (NCE) is an estimation procedure in which a generative model is trained to be able to distinguish data samples from noise samples. Generative adversarial networks (GANs) are pairs of generator and discriminator networks, with the generator network learning to generate samples by attempting to fool the discriminator network into believing its samples are real data. Both estimation procedures use the same function to drive learning, which naturally raises questions about how they are related to each other, as well as whether this function is related to maximum likelihood estimation (MLE). NCE corresponds to training an internal data model belonging to the {\em discriminator} network but using a fixed generator network. We show that a variant of NCE, with a dynamic generator network, is equivalent to maximum likelihood estimation. Since pairing a learned discriminator with an appropriate dynamically selected generator recovers MLE, one might expect the reverse to hold for pairing a learned generator with a certain discriminator. However, we show that recovering MLE for a learned generator requires departing from the distinguishability game. Specifically:
+  (i) The expected gradient of the NCE discriminator can be made to match the expected gradient of
+  MLE, if one is allowed to use a non-stationary noise distribution for NCE,
+  (ii) No choice of discriminator network can make the expected gradient for the GAN generator match that of MLE, and
+  (iii) The existing theory does not guarantee that GANs will converge in the non-convex case.
+  This suggests that the key next step in GAN research is to determine whether GANs converge, and if not, to modify their training algorithm to force convergence.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-19T20:28:41Z</published>
+    <arxiv:comment>This version adds a figure that appeared on the poster at ICLR, changes the template to say that the paper was accepted as a workshop contribution (previously it was under a review as a conference submission), and fixes some typos</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.2661v1</id>
+    <title>Generative Adversarial Networks</title>
+    <updated>2014-06-10T18:58:17Z</updated>
+    <link href="https://arxiv.org/abs/1406.2661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.2661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-10T18:58:17Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Jean Pouget-Abadie</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Bing Xu</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6211v3</id>
+    <title>An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks</title>
+    <updated>2015-03-04T01:43:31Z</updated>
+    <link href="https://arxiv.org/abs/1312.6211v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6211v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Catastrophic forgetting is a problem faced by many machine learning models and algorithms. When trained on one task, then trained on a second task, many machine learning models "forget" how to perform the first task. This is widely believed to be a serious problem for neural networks. Here, we investigate the extent to which the catastrophic forgetting problem occurs for modern neural networks, comparing both established and recent gradient-based training algorithms and activation functions. We also examine the effect of the relationship between the first task and the second task on catastrophic forgetting. We find that it is always best to train using the dropout algorithm--the dropout algorithm is consistently best at adapting to the new task, remembering the old task, and has the best tradeoff curve between these two extremes. We find that different tasks and relationships between tasks result in very different rankings of activation function performance. This suggests the choice of activation function should always be cross-validated.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-21T06:31:41Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Da Xiao</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6199v4</id>
+    <title>Intriguing properties of neural networks</title>
+    <updated>2014-02-19T16:33:14Z</updated>
+    <link href="https://arxiv.org/abs/1312.6199v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6199v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks are highly expressive models that have recently achieved state of the art performance on speech and visual recognition tasks. While their expressiveness is the reason they succeed, it also causes them to learn uninterpretable solutions that could have counter-intuitive properties. In this paper we report two such properties.
+  First, we find that there is no distinction between individual high level units and random linear combinations of high level units, according to various methods of unit analysis. It suggests that it is the space, rather than the individual units, that contains of the semantic information in the high layers of neural networks.
+  Second, we find that deep neural networks learn input-output mappings that are fairly discontinuous to a significant extend. We can cause the network to misclassify an image by applying a certain imperceptible perturbation, which is found by maximizing the network's prediction error. In addition, the specific nature of these perturbations is not a random artifact of learning: the same perturbation can cause a different network, that was trained on a different subset of the dataset, to misclassify the same input.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-21T03:36:08Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Joan Bruna</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6197v2</id>
+    <title>An empirical analysis of dropout in piecewise linear networks</title>
+    <updated>2014-01-02T12:26:53Z</updated>
+    <link href="https://arxiv.org/abs/1312.6197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recently introduced dropout training criterion for neural networks has been the subject of much attention due to its simplicity and remarkable effectiveness as a regularizer, as well as its interpretation as a training procedure for an exponentially large ensemble of networks that share parameters. In this work we empirically investigate several questions related to the efficacy of dropout, specifically as it concerns networks employing the popular rectified linear activation function. We investigate the quality of the test time weight-scaling inference procedure by evaluating the geometric average exactly in small models, as well as compare the performance of the geometric mean to the arithmetic mean more commonly employed by ensemble techniques. We explore the effect of tied weights on the ensemble interpretation by training ensembles of masked networks without tied weights. Finally, we investigate an alternative criterion based on a biased estimator of the maximum likelihood ensemble gradient.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-21T03:19:33Z</published>
+    <arxiv:comment>Extensive updates; 8 pages plus acknowledgements/references</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6082v4</id>
+    <title>Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks</title>
+    <updated>2014-04-14T05:25:54Z</updated>
+    <link href="https://arxiv.org/abs/1312.6082v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6082v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recognizing arbitrary multi-character text in unconstrained natural photographs is a hard problem. In this paper, we address an equally hard sub-problem in this domain viz. recognizing arbitrary multi-digit numbers from Street View imagery. Traditional approaches to solve this problem typically separate out the localization, segmentation, and recognition steps. In this paper we propose a unified approach that integrates these three steps via the use of a deep convolutional neural network that operates directly on the image pixels. We employ the DistBelief implementation of deep neural networks in order to train large, distributed neural networks on high quality images. We find that the performance of this approach increases with the depth of the convolutional network, with the best performance occurring in the deepest architecture we trained, with eleven hidden layers. We evaluate this approach on the publicly available SVHN dataset and achieve over $96\%$ accuracy in recognizing complete street numbers. We show that on a per-digit recognition task, we improve upon the state-of-the-art, achieving $97.84\%$ accuracy. We also evaluate this approach on an even more challenging dataset generated from Street View imagery containing several tens of millions of street number annotations and achieve over $90\%$ accuracy. To further explore the applicability of the proposed system to broader text recognition tasks, we apply it to synthetic distorted text from reCAPTCHA. reCAPTCHA is one of the most secure reverse turing tests that uses distorted text to distinguish humans from bots. We report a $99.8\%$ accuracy on the hardest category of reCAPTCHA. Our evaluations on both tasks indicate that at specific operating thresholds, the performance of the proposed system is comparable to, and in some cases exceeds, that of human operators.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T19:25:44Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Yaroslav Bulatov</name>
+    </author>
+    <author>
+      <name>Julian Ibarz</name>
+    </author>
+    <author>
+      <name>Sacha Arnoud</name>
+    </author>
+    <author>
+      <name>Vinay Shet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5258v2</id>
+    <title>On the Challenges of Physical Implementations of RBMs</title>
+    <updated>2014-10-24T19:16:14Z</updated>
+    <link href="https://arxiv.org/abs/1312.5258v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5258v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Restricted Boltzmann machines (RBMs) are powerful machine learning models, but learning and some kinds of inference in the model require sampling-based approximations, which, in classical digital computers, are implemented using expensive MCMC. Physical computation offers the opportunity to reduce the cost of sampling by building physical systems whose natural dynamics correspond to drawing samples from the desired RBM distribution. Such a system avoids the burn-in and mixing cost of a Markov chain. However, hardware implementations of this variety usually entail limitations such as low-precision and limited range of the parameters and restrictions on the size and topology of the RBM. We conduct software simulations to determine how harmful each of these restrictions is. Our simulations are designed to reproduce aspects of the D-Wave quantum computer, but the issues we investigate arise in most forms of physical computation.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-18T18:30:51Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Proc. AAAI 2014, pp. 1199-1205</arxiv:journal_ref>
+    <author>
+      <name>Vincent Dumoulin</name>
+    </author>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.4214v1</id>
+    <title>Pylearn2: a machine learning research library</title>
+    <updated>2013-08-20T02:50:43Z</updated>
+    <link href="https://arxiv.org/abs/1308.4214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.4214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pylearn2 is a machine learning research library. This does not just mean that it is a collection of machine learning algorithms that share a common API; it means that it has been designed for flexibility and extensibility in order to facilitate research projects that involve new or unusual use cases. In this paper we give a brief history of the library, an overview of its basic philosophy, a summary of the library's architecture, and a description of how the Pylearn2 community functions socially.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-20T02:50:43Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Pascal Lamblin</name>
+    </author>
+    <author>
+      <name>Vincent Dumoulin</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Frédéric Bastien</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.0414v1</id>
+    <title>Challenges in Representation Learning: A report on three machine learning contests</title>
+    <updated>2013-07-01T15:53:22Z</updated>
+    <link href="https://arxiv.org/abs/1307.0414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.0414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ICML 2013 Workshop on Challenges in Representation Learning focused on three challenges: the black box learning challenge, the facial expression recognition challenge, and the multimodal learning challenge. We describe the datasets created for these challenges and summarize the results of the competitions. We provide suggestions for organizers of future challenges and some comments on what kind of knowledge can be gained from machine learning competitions.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-01T15:53:22Z</published>
+    <arxiv:comment>8 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Pierre Luc Carrier</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Ben Hamner</name>
+    </author>
+    <author>
+      <name>Will Cukierski</name>
+    </author>
+    <author>
+      <name>Yichuan Tang</name>
+    </author>
+    <author>
+      <name>David Thaler</name>
+    </author>
+    <author>
+      <name>Dong-Hyun Lee</name>
+    </author>
+    <author>
+      <name>Yingbo Zhou</name>
+    </author>
+    <author>
+      <name>Chetan Ramaiah</name>
+    </author>
+    <author>
+      <name>Fangxiang Feng</name>
+    </author>
+    <author>
+      <name>Ruifan Li</name>
+    </author>
+    <author>
+      <name>Xiaojie Wang</name>
+    </author>
+    <author>
+      <name>Dimitris Athanasakis</name>
+    </author>
+    <author>
+      <name>John Shawe-Taylor</name>
+    </author>
+    <author>
+      <name>Maxim Milakov</name>
+    </author>
+    <author>
+      <name>John Park</name>
+    </author>
+    <author>
+      <name>Radu Ionescu</name>
+    </author>
+    <author>
+      <name>Marius Popescu</name>
+    </author>
+    <author>
+      <name>Cristian Grozea</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Jingjing Xie</name>
+    </author>
+    <author>
+      <name>Lukasz Romaszko</name>
+    </author>
+    <author>
+      <name>Bing Xu</name>
+    </author>
+    <author>
+      <name>Zhang Chuang</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.4389v4</id>
+    <title>Maxout Networks</title>
+    <updated>2013-09-20T08:54:35Z</updated>
+    <link href="https://arxiv.org/abs/1302.4389v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.4389v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of designing models to leverage a recently introduced approximate model averaging technique called dropout. We define a simple new model called maxout (so named because its output is the max of a set of inputs, and because it is a natural companion to dropout) designed to both facilitate optimization by dropout and improve the accuracy of dropout's fast approximate model averaging technique. We empirically verify that the model successfully accomplishes both of these tasks. We use maxout and dropout to demonstrate state of the art classification performance on four benchmark datasets: MNIST, CIFAR-10, CIFAR-100, and SVHN.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-18T18:59:07Z</published>
+    <arxiv:comment>This is the version of the paper that appears in ICML 2013</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>JMLR WCP 28 (3): 1319-1327, 2013</arxiv:journal_ref>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.5088v1</id>
+    <title>Piecewise Linear Multilayer Perceptrons and Dropout</title>
+    <updated>2013-01-22T07:10:34Z</updated>
+    <link href="https://arxiv.org/abs/1301.5088v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.5088v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new type of hidden layer for a multilayer perceptron, and demonstrate that it obtains the best reported performance for an MLP on the MNIST dataset.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-22T07:10:34Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3568v3</id>
+    <title>Joint Training Deep Boltzmann Machines for Classification</title>
+    <updated>2013-05-01T04:48:20Z</updated>
+    <link href="https://arxiv.org/abs/1301.3568v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3568v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new method for training deep Boltzmann machines jointly. Prior methods of training DBMs require an initial learning pass that trains the model greedily, one layer at a time, or do not perform well on classification tasks. In our approach, we train all layers of the DBM simultaneously, using a novel training procedure called multi-prediction training. The resulting model can either be interpreted as a single generative model trained to maximize a variational approximation to the generalized pseudolikelihood, or as a family of recurrent networks that share parameters and may be approximately averaged together using a novel technique we call the multi-inference trick. We show that our approach performs competitively for classification and outperforms previous methods in terms of accuracy of approximate inference and classification with missing inputs.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T03:21:27Z</published>
+    <arxiv:comment>Major revision with new techniques and experiments. This version includes new material put on the poster for the ICLR workshop</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2686v1</id>
+    <title>Joint Training of Deep Boltzmann Machines</title>
+    <updated>2012-12-12T01:59:27Z</updated>
+    <link href="https://arxiv.org/abs/1212.2686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.2686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new method for training deep Boltzmann machines jointly. Prior methods require an initial learning pass that trains the deep Boltzmann machine greedily, one layer at a time, or do not perform well on classifi- cation tasks.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-12T01:59:27Z</published>
+    <arxiv:comment>4 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5590v1</id>
+    <title>Theano: new features and speed improvements</title>
+    <updated>2012-11-23T20:42:41Z</updated>
+    <link href="https://arxiv.org/abs/1211.5590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theano is a linear algebra compiler that optimizes a user's symbolically-specified mathematical computations to produce efficient low-level implementations. In this paper, we present new features and efficiency improvements to Theano, and benchmarks demonstrating Theano's performance relative to Torch7, a recently introduced machine learning library, and to RNNLM, a C++ library targeted at recurrent neural networks.</summary>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-23T20:42:41Z</published>
+    <arxiv:comment>Presented at the Deep Learning Workshop, NIPS 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.SC"/>
+    <author>
+      <name>Frédéric Bastien</name>
+    </author>
+    <author>
+      <name>Pascal Lamblin</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Arnaud Bergeron</name>
+    </author>
+    <author>
+      <name>Nicolas Bouchard</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6407v1</id>
+    <title>Large-Scale Feature Learning With Spike-and-Slab Sparse Coding</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6407v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6407v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of object recognition with a large number of classes. In order to overcome the low amount of labeled examples available in this setting, we introduce a new feature learning and extraction procedure based on a factor model we call spike-and-slab sparse coding (S3C). Prior work on S3C has not prioritized the ability to exploit parallel architectures and scale S3C to the enormous problem sizes needed for object recognition. We present a novel inference procedure for appropriate for use with GPUs which allows us to dramatically increase both the training set size and the amount of latent factors that S3C may be trained with. We demonstrate that this approach improves upon the supervised learning capabilities of both sparse coding and the spike-and-slab Restricted Boltzmann Machine (ssRBM) on the CIFAR-10 dataset. We use the CIFAR-100 dataset to demonstrate that our method scales to large numbers of classes better than previous methods. Finally, we use our method to win the NIPS 2011 Workshop on Challenges In Learning Hierarchical Models? Transfer Learning Challenge.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012). arXiv admin note: substantial text overlap with arXiv:1201.3382</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ian Goodfellow</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+      <arxiv:affiliation>Universite de Montreal</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.3382v2</id>
+    <title>Spike-and-Slab Sparse Coding for Unsupervised Feature Discovery</title>
+    <updated>2012-04-03T22:48:52Z</updated>
+    <link href="https://arxiv.org/abs/1201.3382v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.3382v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of using a factor model we call {\em spike-and-slab sparse coding} (S3C) to learn features for a classification task. The S3C model resembles both the spike-and-slab RBM and sparse coding. Since exact inference in this model is intractable, we derive a structured variational inference procedure and employ a variational EM training algorithm. Prior work on approximate inference for this model has not prioritized the ability to exploit parallel architectures and scale to enormous problem sizes. We present an inference procedure appropriate for use with GPUs which allows us to dramatically increase both the training set size and the amount of latent factors.
+  We demonstrate that this approach improves upon the supervised learning capabilities of both sparse coding and the ssRBM on the CIFAR-10 dataset. We evaluate our approach's potential for semi-supervised learning on subsets of CIFAR-10. We demonstrate state-of-the art self-taught learning performance on the STL-10 dataset and use our method to win the NIPS 2011 Workshop on Challenges In Learning Hierarchical Models' Transfer Learning Challenge.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-16T22:00:07Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+</feed>

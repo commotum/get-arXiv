@@ -1,0 +1,1591 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EegWycdN7YDejcKYI4BkSGPfoOY</id>
+  <title>arXiv Query: search_query=au:"Sepp Hochreiter"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T23:13:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Sepp+Hochreiter%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>87</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06031v1</id>
+    <title>AP-OOD: Attention Pooling for Out-of-Distribution Detection</title>
+    <updated>2026-02-05T18:59:01Z</updated>
+    <link href="https://arxiv.org/abs/2602.06031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Out-of-distribution (OOD) detection, which maps high-dimensional data into a scalar OOD score, is critical for the reliable deployment of machine learning models. A key challenge in recent research is how to effectively leverage and aggregate token embeddings from language models to obtain the OOD score. In this work, we propose AP-OOD, a novel OOD detection method for natural language that goes beyond simple average-based aggregation by exploiting token-level information. AP-OOD is a semi-supervised approach that flexibly interpolates between unsupervised and supervised settings, enabling the use of limited auxiliary outlier data. Empirically, AP-OOD sets a new state of the art in OOD detection for text: in the unsupervised setting, it reduces the FPR95 (false positive rate at 95% true positives) from 27.84% to 4.67% on XSUM summarization, and from 77.08% to 70.37% on WMT15 En-Fr translation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T18:59:01Z</published>
+    <arxiv:comment>Accepted at ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Claus Hofmann</name>
+    </author>
+    <author>
+      <name>Christian Huber</name>
+    </author>
+    <author>
+      <name>Bernhard Lehner</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Werner Zellinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.26777v1</id>
+    <title>Pre-trained Forecasting Models: Strong Zero-Shot Feature Extractors for Time Series Classification</title>
+    <updated>2025-10-30T17:55:23Z</updated>
+    <link href="https://arxiv.org/abs/2510.26777v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.26777v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research on time series foundation models has primarily focused on forecasting, leaving it unclear how generalizable their learned representations are. In this study, we examine whether frozen pre-trained forecasting models can provide effective representations for classification. To this end, we compare different representation extraction strategies and introduce two model-agnostic embedding augmentations. Our experiments show that the best forecasting models achieve classification accuracy that matches or even surpasses that of state-of-the-art models pre-trained specifically for classification. Moreover, we observe a positive correlation between forecasting and classification performance. These findings challenge the assumption that task-specific pre-training is necessary, and suggest that learning to forecast may provide a powerful route toward constructing general-purpose time series foundation models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-30T17:55:23Z</published>
+    <arxiv:comment>NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models (BERT2S)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Auer</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sebastinan Böck</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02279v2</id>
+    <title>Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods for Natural Language Generation</title>
+    <updated>2025-10-23T08:55:17Z</updated>
+    <link href="https://arxiv.org/abs/2510.02279v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02279v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hallucinations are a common issue that undermine the reliability of large language models (LLMs). Recent studies have identified a specific subset of hallucinations, known as confabulations, which arise due to predictive uncertainty of LLMs. To detect confabulations, various methods for estimating predictive uncertainty in natural language generation (NLG) have been developed. These methods are typically evaluated by correlating uncertainty estimates with the correctness of generated text, with question-answering (QA) datasets serving as the standard benchmark. However, commonly used approximate correctness functions have substantial disagreement between each other and, consequently, in the ranking of the uncertainty estimation methods. This allows one to inflate the apparent performance of uncertainty estimation methods. We propose using several alternative risk indicators for risk correlation experiments that improve robustness of empirical assessment of UE algorithms for NLG. For QA tasks, we show that marginalizing over multiple LLM-as-a-judge variants leads to reducing the evaluation biases. Furthermore, we explore structured tasks as well as out of distribution and perturbation detection tasks which provide robust and controllable risk indicators. Finally, we propose to use an Elo rating of uncertainty estimation methods to give an objective summarization over extensive evaluation settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T17:54:09Z</published>
+    <arxiv:comment>Preprint, under review</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mykyta Ielanskyi</name>
+    </author>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02228v1</id>
+    <title>xLSTM Scaling Laws: Competitive Performance with Linear Time-Complexity</title>
+    <updated>2025-10-02T17:14:34Z</updated>
+    <link href="https://arxiv.org/abs/2510.02228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling laws play a central role in the success of Large Language Models (LLMs), enabling the prediction of model performance relative to compute budgets prior to training. While Transformers have been the dominant architecture, recent alternatives such as xLSTM offer linear complexity with respect to context length while remaining competitive in the billion-parameter regime. We conduct a comparative investigation on the scaling behavior of Transformers and xLSTM along the following lines, providing insights to guide future model design and deployment. First, we study the scaling behavior for xLSTM in compute-optimal and over-training regimes using both IsoFLOP and parametric fit approaches on a wide range of model sizes (80M-7B) and number of training tokens (2B-2T). Second, we examine the dependence of optimal model sizes on context length, a pivotal aspect that was largely ignored in previous work. Finally, we analyze inference-time scaling characteristics. Our findings reveal that in typical LLM training and inference scenarios, xLSTM scales favorably compared to Transformers. Importantly, xLSTM's advantage widens as training and inference contexts grow.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T17:14:34Z</published>
+    <arxiv:comment>Code and data available at https://github.com/NX-AI/xlstm_scaling_laws</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Sebastian Böck</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08852v1</id>
+    <title>Safe and Certifiable AI Systems: Concepts, Challenges, and Lessons Learned</title>
+    <updated>2025-09-08T17:52:08Z</updated>
+    <link href="https://arxiv.org/abs/2509.08852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is an increasing adoption of artificial intelligence in safety-critical applications, yet practical schemes for certifying that AI systems are safe, lawful and socially acceptable remain scarce. This white paper presents the TÜV AUSTRIA Trusted AI framework an end-to-end audit catalog and methodology for assessing and certifying machine learning systems. The audit catalog has been in continuous development since 2019 in an ongoing collaboration with scientific partners. Building on three pillars - Secure Software Development, Functional Requirements, and Ethics &amp; Data Privacy - the catalog translates the high-level obligations of the EU AI Act into specific, testable criteria. Its core concept of functional trustworthiness couples a statistically defined application domain with risk-based minimum performance requirements and statistical testing on independently sampled data, providing transparent and reproducible evidence of model quality in real-world settings. We provide an overview of the functional requirements that we assess, which are oriented on the lifecycle of an AI system. In addition, we share some lessons learned from the practical application of the audit catalog, highlighting common pitfalls we encountered, such as data leakage scenarios, inadequate domain definitions, neglect of biases, or a lack of distribution drift controls. We further discuss key aspects of certifying AI systems, such as robustness, algorithmic fairness, or post-certification requirements, outlining both our current conclusions and a roadmap for future research. In general, by aligning technical best practices with emerging European standards, the approach offers regulators, providers, and users a practical roadmap for legally compliant, functionally trustworthy, and certifiable AI systems.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T17:52:08Z</published>
+    <arxiv:comment>63 pages, 27 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Barbara Brune</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Simon Schmid</name>
+    </author>
+    <author>
+      <name>Alexander Aufreiter</name>
+    </author>
+    <author>
+      <name>Andreas Gruber</name>
+    </author>
+    <author>
+      <name>Thomas Doms</name>
+    </author>
+    <author>
+      <name>Sebastian Eder</name>
+    </author>
+    <author>
+      <name>Florian Mayer</name>
+    </author>
+    <author>
+      <name>Xaver-Paul Stadlbauer</name>
+    </author>
+    <author>
+      <name>Christoph Schwald</name>
+    </author>
+    <author>
+      <name>Werner Zellinger</name>
+    </author>
+    <author>
+      <name>Bernhard Nessler</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.11997v1</id>
+    <title>pLSTM: parallelizable Linear Source Transition Mark networks</title>
+    <updated>2025-06-13T17:51:37Z</updated>
+    <link href="https://arxiv.org/abs/2506.11997v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.11997v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern recurrent architectures, such as xLSTM and Mamba, have recently challenged the Transformer in language modeling. However, their structure constrains their applicability to sequences only or requires processing multi-dimensional data structures, such as images or molecular graphs, in a pre-defined sequential order. In contrast, Multi-Dimensional RNNs (MDRNNs) are well suited for data with a higher level structure, like 2D grids, trees, and directed acyclic graphs (DAGs). In this work, we extend the notion of multi-dimensionality to linear RNNs. We introduce parallelizable Linear Source Transition Mark networks (pLSTMs) using Source, Transition, and Mark gates that act on the line graph of a general DAG. This enables parallelization in analogy to parallel associative scans and the chunkwise-recurrent form of sequential linear RNNs, but for DAGs. For regular grids (1D and 2D), like images, this scheme can be efficiently implemented using einsum operations, concatenations, and padding in logarithmic time. pLSTMs tackle the vanishing/exploding activation/gradient problem for long distances in DAGs via two distinct modes: a directed propagation mode (P-mode) and a diffusive distribution mode (D-mode). To showcase the long-range capabilities of pLSTM, we introduce arrow-pointing extrapolation as a synthetic computer vision task that contains long-distance directional information. We demonstrate that pLSTMs generalize well to larger image sizes, whereas Transformers struggle to extrapolate. On established molecular graph and computer vision benchmarks, pLSTMs also show strong performance. Code and Datasets are available at: https://github.com/ml-jku/plstm_experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-13T17:51:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Richard Freinschlag</name>
+    </author>
+    <author>
+      <name>Thomas Schmied</name>
+    </author>
+    <author>
+      <name>Wei Lin</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.10982v3</id>
+    <title>Rethinking Losses for Diffusion Bridge Samplers</title>
+    <updated>2025-11-11T08:58:24Z</updated>
+    <link href="https://arxiv.org/abs/2506.10982v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.10982v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion bridges are a promising class of deep-learning methods for sampling from unnormalized distributions. Recent works show that the Log Variance (LV) loss consistently outperforms the reverse Kullback-Leibler (rKL) loss when using the reparametrization trick to compute rKL-gradients. While the on-policy LV loss yields identical gradients to the rKL loss when combined with the log-derivative trick for diffusion samplers with non-learnable forward processes, this equivalence does not hold for diffusion bridges or when diffusion coefficients are learned. Based on this insight we argue that for diffusion bridges the LV loss does not represent an optimization objective that can be motivated like the rKL loss via the data processing inequality. Our analysis shows that employing the rKL loss with the log-derivative trick (rKL-LD) does not only avoid these conceptual problems but also consistently outperforms the LV loss. Experimental results with different types of diffusion bridges on challenging benchmarks show that samplers trained with the rKL-LD loss achieve better performance. From a practical perspective we find that rKL-LD requires significantly less hyperparameter optimization and yields more stable training behavior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-12T17:59:58Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2025 as a Conference Paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sebastian Sanokowski</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Christoph Bartmann</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.23719v2</id>
+    <title>TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning</title>
+    <updated>2025-11-02T19:05:06Z</updated>
+    <link href="https://arxiv.org/abs/2505.23719v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.23719v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In-context learning, the ability of large language models to perform tasks using only examples provided in the prompt, has recently been adapted for time series forecasting. This paradigm enables zero-shot prediction, where past values serve as context for forecasting future values, making powerful forecasting tools accessible to non-experts and increasing the performance when training data are scarce. Most existing zero-shot forecasting approaches rely on transformer architectures, which, despite their success in language, often fall short of expectations in time series forecasting, where recurrent models like LSTMs frequently have the edge. Conversely, while LSTMs are well-suited for time series modeling due to their state-tracking capabilities, they lack strong in-context learning abilities. We introduce TiRex that closes this gap by leveraging xLSTM, an enhanced LSTM with competitive in-context learning skills. Unlike transformers, state-space models, or parallelizable RNNs such as RWKV, TiRex retains state-tracking, a critical property for long-horizon forecasting. To further facilitate its state-tracking ability, we propose a training-time masking strategy called CPM. TiRex sets a new state of the art in zero-shot time series forecasting on the HuggingFace benchmarks GiftEval and Chronos-ZS, outperforming significantly larger models including TabPFN-TS (Prior Labs), Chronos Bolt (Amazon), TimesFM (Google), and Moirai (Salesforce) across both short- and long-term forecasts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-29T17:52:10Z</published>
+    <arxiv:comment>presented at NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Auer</name>
+    </author>
+    <author>
+      <name>Patrick Podest</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sebastian Böck</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14376v3</id>
+    <title>Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels</title>
+    <updated>2025-12-28T10:47:53Z</updated>
+    <link href="https://arxiv.org/abs/2503.14376v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14376v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Linear RNNs with gating recently demonstrated competitive performance compared to Transformers in language modeling. Although their linear compute scaling in sequence length offers theoretical runtime advantages over Transformers, realizing these benefits in practice requires optimized custom kernels, as Transformers rely on the highly efficient Flash Attention kernels (Dao, 2024). Leveraging the chunkwise-parallel formulation of linear RNNs, Flash Linear Attention (FLA) (Yang &amp; Zhang, 2024) shows that linear RNN kernels are faster than Flash Attention, by parallelizing over chunks of the input sequence. However, since the chunk size of FLA is limited, many intermediate states must be materialized in GPU memory. This leads to low arithmetic intensity and causes high memory consumption and IO cost, especially for long-context pre-training. In this work, we present Tiled Flash Linear Attention (TFLA), a novel kernel algorithm for linear RNNs, that enables arbitrary large chunk sizes and high arithmetic intensity by introducing an additional level of sequence parallelization within each chunk. First, we apply TFLA to the xLSTM with matrix memory, the mLSTM (Beck et al., 2024). Second, we propose an mLSTM variant with sigmoid input gate and reduced computation for even faster kernel runtimes at equal language modeling performance. In our speed benchmarks, we show that our new mLSTM kernels based on TFLA outperform highly optimized Flash Attention, Linear Attention and Mamba kernels, setting a new state of the art for efficient long-context sequence modeling primitives.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T16:09:47Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2025. Code available at: https://github.com/NX-AI/mlstm_kernels</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Phillip Lippe</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13427v1</id>
+    <title>xLSTM 7B: A Recurrent LLM for Fast and Efficient Inference</title>
+    <updated>2025-03-17T17:54:55Z</updated>
+    <link href="https://arxiv.org/abs/2503.13427v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13427v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent breakthroughs in solving reasoning, math and coding problems with Large Language Models (LLMs) have been enabled by investing substantial computation budgets at inference time. Therefore, inference speed is one of the most critical properties of LLM architectures, and there is a growing need for LLMs that are efficient and fast at inference. Recently, LLMs built on the xLSTM architecture have emerged as a powerful alternative to Transformers, offering linear compute scaling with sequence length and constant memory usage, both highly desirable properties for efficient inference. However, such xLSTM-based LLMs have yet to be scaled to larger models and assessed and compared with respect to inference speed and efficiency. In this work, we introduce xLSTM 7B, a 7-billion-parameter LLM that combines xLSTM's architectural benefits with targeted optimizations for fast and efficient inference. Our experiments demonstrate that xLSTM 7B achieves performance on downstream tasks comparable to other similar-sized LLMs, while providing significantly faster inference speeds and greater efficiency compared to Llama- and Mamba-based LLMs. These results establish xLSTM 7B as the fastest and most efficient 7B LLM, offering a solution for tasks that require large amounts of test-time computation. Our work highlights xLSTM's potential as a foundational architecture for methods building on heavy use of LLM inference. Our model weights, model code and training code are open-source.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T17:54:55Z</published>
+    <arxiv:comment>Code available at: https://github.com/NX-AI/xlstm and https://github.com/NX-AI/xlstm-jax</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Phillip Lippe</name>
+    </author>
+    <author>
+      <name>Richard Kurle</name>
+    </author>
+    <author>
+      <name>Patrick M. Blies</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sebastian Böck</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08696v3</id>
+    <title>Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics</title>
+    <updated>2025-07-08T14:03:25Z</updated>
+    <link href="https://arxiv.org/abs/2502.08696v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08696v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning to sample from complex unnormalized distributions over discrete domains emerged as a promising research direction with applications in statistical physics, variational inference, and combinatorial optimization. Recent work has demonstrated the potential of diffusion models in this domain. However, existing methods face limitations in memory scaling and thus the number of attainable diffusion steps since they require backpropagation through the entire generative process. To overcome these limitations we introduce two novel training methods for discrete diffusion samplers, one grounded in the policy gradient theorem and the other one leveraging Self-Normalized Neural Importance Sampling (SN-NIS). These methods yield memory-efficient training and achieve state-of-the-art results in unsupervised combinatorial optimization. Numerous scientific applications additionally require the ability of unbiased sampling. We introduce adaptations of SN-NIS and Neural Markov Chain Monte Carlo that enable for the first time the application of discrete diffusion models to this problem. We validate our methods on Ising model benchmarks and find that they outperform popular autoregressive approaches. Our work opens new avenues for applying diffusion models to a wide range of scientific applications in discrete domains that were hitherto restricted to exact likelihood models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-12T18:59:55Z</published>
+    <arxiv:comment>Accepted at ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sebastian Sanokowski</name>
+    </author>
+    <author>
+      <name>Wilhelm Berghammer</name>
+    </author>
+    <author>
+      <name>Martin Ennemoser</name>
+    </author>
+    <author>
+      <name>Haoyu Peter Wang</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.15176v1</id>
+    <title>Rethinking Uncertainty Estimation in Natural Language Generation</title>
+    <updated>2024-12-19T18:51:06Z</updated>
+    <link href="https://arxiv.org/abs/2412.15176v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.15176v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly employed in real-world applications, driving the need to evaluate the trustworthiness of their generated text. To this end, reliable uncertainty estimation is essential. Since current LLMs generate text autoregressively through a stochastic process, the same prompt can lead to varying outputs. Consequently, leading uncertainty estimation methods generate and analyze multiple output sequences to determine the LLM's uncertainty. However, generating output sequences is computationally expensive, making these methods impractical at scale. In this work, we inspect the theoretical foundations of the leading methods and explore new directions to enhance their computational efficiency. Building on the framework of proper scoring rules, we find that the negative log-likelihood of the most likely output sequence constitutes a theoretically grounded uncertainty measure. To approximate this alternative measure, we propose G-NLL, which has the advantage of being obtained using only a single output sequence generated by greedy decoding. This makes uncertainty estimation more efficient and straightforward, while preserving theoretical rigor. Empirical results demonstrate that G-NLL achieves state-of-the-art performance across various LLMs and tasks. Our work lays the foundation for efficient and reliable uncertainty estimation in natural language generation, challenging the necessity of more computationally involved methods currently leading the field.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-19T18:51:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07752v3</id>
+    <title>FlashRNN: I/O-Aware Optimization of Traditional RNNs on modern hardware</title>
+    <updated>2025-03-13T11:14:49Z</updated>
+    <link href="https://arxiv.org/abs/2412.07752v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07752v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Transformers and other sequence-parallelizable neural network architectures seem like the current state of the art in sequence modeling, they specifically lack state-tracking capabilities. These are important for time-series tasks and logical reasoning. Traditional RNNs like LSTMs and GRUs, as well as modern variants like sLSTM do have these capabilities at the cost of strictly sequential processing. While this is often seen as a strong limitation, we show how fast these networks can get with our hardware-optimization FlashRNN in Triton and CUDA, optimizing kernels to the register level on modern GPUs. We extend traditional RNNs with a parallelization variant that processes multiple RNNs of smaller hidden state in parallel, similar to the head-wise processing in Transformers. To enable flexibility on different GPU variants, we introduce a new optimization framework for hardware-internal cache sizes, memory and compute handling. It models the hardware in a setting using polyhedral-like constraints, including the notion of divisibility. This speeds up the solution process in our ConstrINT library for general integer constraint satisfaction problems (integer CSPs). We show that our kernels can achieve 50x speed-ups over a vanilla PyTorch implementation and allow 40x larger hidden sizes compared to our Triton implementation. Our open-source kernels and the optimization library are released here to boost research in the direction of state-tracking enabled RNNs and sequence modeling: https://github.com/NX-AI/flashrnn</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T18:50:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.04165v1</id>
+    <title>Bio-xLSTM: Generative modeling, representation and in-context learning of biological and chemical sequences</title>
+    <updated>2024-11-06T18:36:48Z</updated>
+    <link href="https://arxiv.org/abs/2411.04165v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.04165v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models for biological and chemical sequences enable crucial applications such as drug discovery, protein engineering, and precision medicine. Currently, these language models are predominantly based on Transformer architectures. While Transformers have yielded impressive results, their quadratic runtime dependency on the sequence length complicates their use for long genomic sequences and in-context learning on proteins and chemical sequences. Recently, the recurrent xLSTM architecture has been shown to perform favorably compared to Transformers and modern state-space model (SSM) architectures in the natural language domain. Similar to SSMs, xLSTMs have a linear runtime dependency on the sequence length and allow for constant-memory decoding at inference time, which makes them prime candidates for modeling long-range dependencies in biological and chemical sequences. In this work, we tailor xLSTM towards these domains and propose a suite of architectural variants called Bio-xLSTM. Extensive experiments in three large domains, genomics, proteins, and chemistry, were performed to assess xLSTM's ability to model biological and chemical sequences. The results show that models based on Bio-xLSTM a) can serve as proficient generative models for DNA, protein, and chemical sequences, b) learn rich representations for those modalities, and c) can perform in-context learning for proteins and small molecules.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-06T18:36:48Z</published>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Niklas Schmidinger</name>
+    </author>
+    <author>
+      <name>Lisa Schneckenreiter</name>
+    </author>
+    <author>
+      <name>Philipp Seidl</name>
+    </author>
+    <author>
+      <name>Johannes Schimunek</name>
+    </author>
+    <author>
+      <name>Pieter-Jan Hoedt</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Sohvi Luukkonen</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22391v3</id>
+    <title>A Large Recurrent Action Model: xLSTM enables Fast Inference for Robotics Tasks</title>
+    <updated>2025-06-04T17:58:20Z</updated>
+    <link href="https://arxiv.org/abs/2410.22391v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22391v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, there has been a trend in the field of Reinforcement Learning (RL) towards large action models trained offline on large-scale datasets via sequence modeling. Existing models are primarily based on the Transformer architecture, which result in powerful agents. However, due to slow inference times, Transformer-based approaches are impractical for real-time applications, such as robotics. Recently, modern recurrent architectures, such as xLSTM and Mamba, have been proposed that exhibit parallelization benefits during training similar to the Transformer architecture while offering fast inference. In this work, we study the aptitude of these modern recurrent architectures for large action models. Consequently, we propose a Large Recurrent Action Model (LRAM) with an xLSTM at its core that comes with linear-time inference complexity and natural sequence length extrapolation abilities. Experiments on 432 tasks from 6 domains show that LRAM compares favorably to Transformers in terms of performance and speed.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T17:55:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Schmied</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.13831v2</id>
+    <title>The Disparate Benefits of Deep Ensembles</title>
+    <updated>2025-06-04T18:48:31Z</updated>
+    <link href="https://arxiv.org/abs/2410.13831v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.13831v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensembles of Deep Neural Networks, Deep Ensembles, are widely used as a simple way to boost predictive performance. However, their impact on algorithmic fairness is not well understood yet. Algorithmic fairness examines how a model's performance varies across socially relevant groups defined by protected attributes such as age, gender, or race. In this work, we explore the interplay between the performance gains from Deep Ensembles and fairness. Our analysis reveals that they unevenly favor different groups, a phenomenon that we term the disparate benefits effect. We empirically investigate this effect using popular facial analysis and medical imaging datasets with protected group attributes and find that it affects multiple established group fairness metrics, including statistical parity and equal opportunity. Furthermore, we identify that the per-group differences in predictive diversity of ensemble members can explain this effect. Finally, we demonstrate that the classical Hardt post-processing method is particularly effective at mitigating the disparate benefits effect of Deep Ensembles by leveraging their better-calibrated predictive distributions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-17T17:53:01Z</published>
+    <arxiv:comment>ICML 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Adrian Arnaiz-Rodriguez</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Nuria Oliver</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10786v2</id>
+    <title>On Information-Theoretic Measures of Predictive Uncertainty</title>
+    <updated>2025-06-16T10:48:56Z</updated>
+    <link href="https://arxiv.org/abs/2410.10786v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10786v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable estimation of predictive uncertainty is crucial for machine learning applications, particularly in high-stakes scenarios where hedging against risks is essential. Despite its significance, there is no universal agreement on how to best quantify predictive uncertainty. In this work, we revisit core concepts to propose a framework for information-theoretic measures of predictive uncertainty. Our proposed framework categorizes predictive uncertainty measures according to two factors: (I) The predicting model (II) The approximation of the true predictive distribution. Examining all possible combinations of these two factors, we derive a set of predictive uncertainty measures that includes both known and newly introduced ones. We extensively evaluate these measures across a broad set of tasks, identifying conditions under which certain measures excel. Our findings show the importance of aligning the choice of uncertainty measure with the predicting model on in-distribution (ID) data, the limitations of epistemic uncertainty measures for out-of-distribution (OOD) data, and that the disentanglement between measures varies substantially between ID and OOD data. Together, these insights provide a more comprehensive understanding of predictive uncertainty measures, revealing their implicit assumptions and relationships.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T17:52:18Z</published>
+    <arxiv:comment>UAI 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Mykyta Ielanskyi</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07170v5</id>
+    <title>Parameter Efficient Fine-tuning via Explained Variance Adaptation</title>
+    <updated>2025-10-20T13:48:17Z</updated>
+    <link href="https://arxiv.org/abs/2410.07170v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07170v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models (FMs) are pre-trained on large-scale datasets and then fine-tuned for a specific downstream task. The most common fine-tuning method is to update pretrained weights via low-rank adaptation (LoRA). Existing initialization strategies for LoRA often rely on singular value decompositions (SVD) of gradients or weight matrices. However, they do not provably maximize the expected gradient signal, which is critical for fast adaptation. To this end, we introduce Explained Variance Adaptation (EVA), an initialization scheme that uses the directions capturing the most activation variance, provably maximizing the expected gradient signal and accelerating fine-tuning. EVA performs incremental SVD on minibatches of activation vectors and selects the right-singular vectors for initialization once they converged. Further, by selecting the directions that capture the most activation-variance for a given rank budget, EVA accommodates adaptive ranks that reduce the number of trainable parameters. We apply EVA to a variety of fine-tuning tasks as language generation and understanding, image classification, and reinforcement learning. EVA exhibits faster convergence than competitors and achieves the highest average score across a multitude of tasks per domain while reducing the number of trainable parameters through rank redistribution. In summary, EVA establishes a new Pareto frontier compared to existing LoRA initialization schemes in both accuracy and efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T17:59:06Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2025, Shared first authorship, Code available at https://github.com/ml-jku/EVA</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Lukas Hauzenberger</name>
+    </author>
+    <author>
+      <name>Thomas Schmied</name>
+    </author>
+    <author>
+      <name>Benedikt Alkin</name>
+    </author>
+    <author>
+      <name>Marc Peter Deisenroth</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07071v3</id>
+    <title>Retrieval-Augmented Decision Transformer: External Memory for In-context RL</title>
+    <updated>2025-08-13T15:48:10Z</updated>
+    <link href="https://arxiv.org/abs/2410.07071v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07071v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In-context learning (ICL) is the ability of a model to learn a new task by observing a few exemplars in its context. While prevalent in NLP, this capability has recently also been observed in Reinforcement Learning (RL) settings. Prior in-context RL methods, however, require entire episodes in the agent's context. Given that complex environments typically lead to long episodes with sparse rewards, these methods are constrained to simple environments with short episodes. To address these challenges, we introduce Retrieval-Augmented Decision Transformer (RA-DT). RA-DT employs an external memory mechanism to store past experiences from which it retrieves only sub-trajectories relevant for the current situation. The retrieval component in RA-DT does not require training and can be entirely domain-agnostic. We evaluate the capabilities of RA-DT on grid-world environments, robotics simulations, and procedurally-generated video games. On grid-worlds, RA-DT outperforms baselines, while using only a fraction of their context length. Furthermore, we illuminate the limitations of current in-context RL methods on complex environments and discuss future directions. To facilitate future research, we release datasets for four of the considered environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T17:15:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Schmied</name>
+    </author>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.00728v1</id>
+    <title>Simplified priors for Object-Centric Learning</title>
+    <updated>2024-10-01T14:16:13Z</updated>
+    <link href="https://arxiv.org/abs/2410.00728v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.00728v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans excel at abstracting data and constructing \emph{reusable} concepts, a capability lacking in current continual learning systems. The field of object-centric learning addresses this by developing abstract representations, or slots, from data without human supervision. Different methods have been proposed to tackle this task for images, whereas most are overly complex, non-differentiable, or poorly scalable. In this paper, we introduce a conceptually simple, fully-differentiable, non-iterative, and scalable method called SAMP Simplified Slot Attention with Max Pool Priors). It is implementable using only Convolution and MaxPool layers and an Attention layer. Our method encodes the input image with a Convolutional Neural Network and then uses a branch of alternating Convolution and MaxPool layers to create specialized sub-networks and extract primitive slots. These primitive slots are then used as queries for a Simplified Slot Attention over the encoded image. Despite its simplicity, our method is competitive or outperforms previous methods on standard benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-01T14:16:13Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Andreas Radler</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.00704v1</id>
+    <title>Contrastive Abstraction for Reinforcement Learning</title>
+    <updated>2024-10-01T13:56:09Z</updated>
+    <link href="https://arxiv.org/abs/2410.00704v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.00704v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning agents with reinforcement learning is difficult when dealing with long trajectories that involve a large number of states. To address these learning problems effectively, the number of states can be reduced by abstract representations that cluster states. In principle, deep reinforcement learning can find abstract states, but end-to-end learning is unstable. We propose contrastive abstraction learning to find abstract states, where we assume that successive states in a trajectory belong to the same abstract state. Such abstract states may be basic locations, achieved subgoals, inventory, or health conditions. Contrastive abstraction learning first constructs clusters of state representations by contrastive learning and then applies modern Hopfield networks to determine the abstract states. The first phase of contrastive abstraction learning is self-supervised learning, where contrastive learning forces states with sequential proximity to have similar representations. The second phase uses modern Hopfield networks to map similar state representations to the same fixed point, i.e.\ to an abstract state. The level of abstraction can be adjusted by determining the number of fixed points of the modern Hopfield network. Furthermore, \textit{contrastive abstraction learning} does not require rewards and facilitates efficient reinforcement learning for a wide range of downstream tasks. Our experiments demonstrate the effectiveness of contrastive abstraction learning for reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-01T13:56:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Elisabeth Rumetshofer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.09240v1</id>
+    <title>Comparison Visual Instruction Tuning</title>
+    <updated>2024-06-13T15:43:59Z</updated>
+    <link href="https://arxiv.org/abs/2406.09240v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.09240v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Comparing two images in terms of Commonalities and Differences (CaD) is a fundamental human capability that forms the basis of advanced visual reasoning and interpretation. It is essential for the generation of detailed and contextually relevant descriptions, performing comparative analysis, novelty detection, and making informed decisions based on visual data. However, surprisingly, little attention has been given to these fundamental concepts in the best current mimic of human visual intelligence - Large Multimodal Models (LMMs). We develop and contribute a new two-phase approach CaD-VI for collecting synthetic visual instructions, together with an instruction-following dataset CaD-Inst containing 349K image pairs with CaD instructions collected using CaD-VI. Our approach significantly improves the CaD spotting capabilities in LMMs, advancing the SOTA on a diverse set of related tasks by up to 17.5%. It is also complementary to existing difference-only instruction datasets, allowing automatic targeted refinement of those resources increasing their effectiveness for CaD tuning by up to 10%. Additionally, we propose an evaluation benchmark with 7.5K open-ended QAs to assess the CaD understanding abilities of LMMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T15:43:59Z</published>
+    <arxiv:comment>Project page: https://wlin-at.github.io/cad_vi ; Huggingface dataset repo: https://huggingface.co/datasets/wlin21at/CaD-Inst</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Wei Lin</name>
+    </author>
+    <author>
+      <name>Muhammad Jehanzeb Mirza</name>
+    </author>
+    <author>
+      <name>Sivan Doveh</name>
+    </author>
+    <author>
+      <name>Rogerio Feris</name>
+    </author>
+    <author>
+      <name>Raja Giryes</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Leonid Karlinsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04306v2</id>
+    <title>Improving Uncertainty Estimation through Semantically Diverse Language Generation</title>
+    <updated>2025-11-04T10:59:26Z</updated>
+    <link href="https://arxiv.org/abs/2406.04306v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04306v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) can suffer from hallucinations when generating text. These hallucinations impede various applications in society and industry by making LLMs untrustworthy. Current LLMs generate text in an autoregressive fashion by predicting and appending text tokens. When an LLM is uncertain about the semantic meaning of the next tokens to generate, it is likely to start hallucinating. Thus, it has been suggested that predictive uncertainty is one of the main causes of hallucinations. We introduce Semantically Diverse Language Generation (SDLG) to quantify predictive uncertainty in LLMs. SDLG steers the LLM to generate semantically diverse yet likely alternatives for an initially generated text. This approach provides a precise measure of aleatoric semantic uncertainty, detecting whether the initial text is likely to be hallucinated. Experiments on question-answering tasks demonstrate that SDLG consistently outperforms existing methods while being the most computationally efficient, setting a new standard for uncertainty estimation in LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-06T17:53:34Z</published>
+    <arxiv:comment>ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Mykyta Ielanskyi</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04303v3</id>
+    <title>Vision-LSTM: xLSTM as Generic Vision Backbone</title>
+    <updated>2025-02-20T23:20:40Z</updated>
+    <link href="https://arxiv.org/abs/2406.04303v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04303v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers are widely used as generic backbones in computer vision, despite initially introduced for natural language processing. Recently, the Long Short-Term Memory (LSTM) has been extended to a scalable and performant architecture - the xLSTM - which overcomes long-standing LSTM limitations via exponential gating and parallelizable matrix memory structure. In this report, we introduce Vision-LSTM (ViL), an adaption of the xLSTM building blocks to computer vision. ViL comprises a stack of xLSTM blocks where odd blocks process the sequence of patch tokens from top to bottom while even blocks go from bottom to top. Experiments show that ViL holds promise to be further deployed as new generic backbone for computer vision architectures.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-06T17:49:21Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2025, Github: https://github.com/NX-AI/vision-lstm</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Benedikt Alkin</name>
+    </author>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.01661v3</id>
+    <title>A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization</title>
+    <updated>2025-08-22T08:40:58Z</updated>
+    <link href="https://arxiv.org/abs/2406.01661v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.01661v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning to sample from intractable distributions over discrete sets without relying on corresponding training data is a central problem in a wide range of fields, including Combinatorial Optimization. Currently, popular deep learning-based approaches rely primarily on generative models that yield exact sample likelihoods. This work introduces a method that lifts this restriction and opens the possibility to employ highly expressive latent variable models like diffusion models. Our approach is conceptually based on a loss that upper bounds the reverse Kullback-Leibler divergence and evades the requirement of exact sample likelihoods. We experimentally validate our approach in data-free Combinatorial Optimization and demonstrate that our method achieves a new state-of-the-art on a wide range of benchmark problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-03T17:55:02Z</published>
+    <arxiv:comment>Accepted at ICML 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings of the 41st International Conference on Machine Learning, PMLR 235:43346-43367, 2024</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Sanokowski</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.20309v2</id>
+    <title>Large Language Models Can Self-Improve At Web Agent Tasks</title>
+    <updated>2024-10-01T21:28:29Z</updated>
+    <link href="https://arxiv.org/abs/2405.20309v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.20309v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training models to act as agents that can effectively navigate and perform actions in a complex environment, such as a web browser, has typically been challenging due to lack of training data. Large language models (LLMs) have recently demonstrated some capability to navigate novel environments as agents in a zero-shot or few-shot fashion, purely guided by natural language instructions as prompts. Recent research has also demonstrated LLMs have the capability to exceed their base performance through self-improvement, i.e. fine-tuning on data generated by the model itself. In this work, we explore the extent to which LLMs can self-improve their performance as agents in long-horizon tasks in a complex environment using the WebArena benchmark. In WebArena, an agent must autonomously navigate and perform actions on web pages to achieve a specified objective. We explore fine-tuning on three distinct synthetic training data mixtures and achieve a 31\% improvement in task completion rate over the base model on the WebArena benchmark through a self-improvement procedure. We additionally contribute novel evaluation metrics for assessing the performance, robustness, capabilities, and quality of trajectories of our fine-tuned agent models to a greater degree than simple, aggregate-level benchmark scores currently used to measure self-improvement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-30T17:52:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ajay Patel</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Claudiu Leoveanu-Condrei</name>
+    </author>
+    <author>
+      <name>Marius-Constantin Dinu</name>
+    </author>
+    <author>
+      <name>Chris Callison-Burch</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.08766v2</id>
+    <title>Energy-based Hopfield Boosting for Out-of-Distribution Detection</title>
+    <updated>2025-01-08T13:45:46Z</updated>
+    <link href="https://arxiv.org/abs/2405.08766v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.08766v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Out-of-distribution (OOD) detection is critical when deploying machine learning models in the real world. Outlier exposure methods, which incorporate auxiliary outlier data in the training process, can drastically improve OOD detection performance compared to approaches without advanced training strategies. We introduce Hopfield Boosting, a boosting approach, which leverages modern Hopfield energy (MHE) to sharpen the decision boundary between the in-distribution and OOD data. Hopfield Boosting encourages the model to concentrate on hard-to-distinguish auxiliary outlier examples that lie close to the decision boundary between in-distribution and auxiliary outlier data. Our method achieves a new state-of-the-art in OOD detection with outlier exposure, improving the FPR95 metric from 2.28 to 0.92 on CIFAR-10 and from 11.76 to 7.94 on CIFAR-100.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-14T16:59:20Z</published>
+    <arxiv:comment>NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Claus Hofmann</name>
+    </author>
+    <author>
+      <name>Simon Schmid</name>
+    </author>
+    <author>
+      <name>Bernhard Lehner</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.04517v2</id>
+    <title>xLSTM: Extended Long Short-Term Memory</title>
+    <updated>2024-12-06T15:42:07Z</updated>
+    <link href="https://arxiv.org/abs/2405.04517v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.04517v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the 1990s, the constant error carousel and gating were introduced as the central ideas of the Long Short-Term Memory (LSTM). Since then, LSTMs have stood the test of time and contributed to numerous deep learning success stories, in particular they constituted the first Large Language Models (LLMs). However, the advent of the Transformer technology with parallelizable self-attention at its core marked the dawn of a new era, outpacing LSTMs at scale. We now raise a simple question: How far do we get in language modeling when scaling LSTMs to billions of parameters, leveraging the latest techniques from modern LLMs, but mitigating known limitations of LSTMs? Firstly, we introduce exponential gating with appropriate normalization and stabilization techniques. Secondly, we modify the LSTM memory structure, obtaining: (i) sLSTM with a scalar memory, a scalar update, and new memory mixing, (ii) mLSTM that is fully parallelizable with a matrix memory and a covariance update rule. Integrating these LSTM extensions into residual block backbones yields xLSTM blocks that are then residually stacked into xLSTM architectures. Exponential gating and modified memory structures boost xLSTM capabilities to perform favorably when compared to state-of-the-art Transformers and State Space Models, both in performance and scaling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-07T17:50:21Z</published>
+    <arxiv:comment>Code available at https://github.com/NX-AI/xlstm</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+    <author>
+      <name>Markus Spanring</name>
+    </author>
+    <author>
+      <name>Andreas Auer</name>
+    </author>
+    <author>
+      <name>Oleksandra Prudnikova</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.07194v1</id>
+    <title>VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification</title>
+    <updated>2024-04-10T17:50:29Z</updated>
+    <link href="https://arxiv.org/abs/2404.07194v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.07194v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Being able to identify regions within or around proteins, to which ligands can potentially bind, is an essential step to develop new drugs. Binding site identification methods can now profit from the availability of large amounts of 3D structures in protein structure databases or from AlphaFold predictions. Current binding site identification methods heavily rely on graph neural networks (GNNs), usually designed to output E(3)-equivariant predictions. Such methods turned out to be very beneficial for physics-related tasks like binding energy or motion trajectory prediction. However, the performance of GNNs at binding site identification is still limited potentially due to the lack of dedicated nodes that model hidden geometric entities, such as binding pockets. In this work, we extend E(n)-Equivariant Graph Neural Networks (EGNNs) by adding virtual nodes and applying an extended message passing scheme. The virtual nodes in these graphs are dedicated quantities to learn representations of binding sites, which leads to improved predictive performance. In our experiments, we show that our proposed method VN-EGNN sets a new state-of-the-art at locating binding site centers on COACH420, HOLO4K and PDBbind2020.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-10T17:50:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Florian Sestak</name>
+    </author>
+    <author>
+      <name>Lisa Schneckenreiter</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Andreas Mayr</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.14009v4</id>
+    <title>Geometry-Informed Neural Networks</title>
+    <updated>2025-07-18T09:22:26Z</updated>
+    <link href="https://arxiv.org/abs/2402.14009v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.14009v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Geometry is a ubiquitous tool in computer graphics, design, and engineering. However, the lack of large shape datasets limits the application of state-of-the-art supervised learning methods and motivates the exploration of alternative learning strategies. To this end, we introduce geometry-informed neural networks (GINNs) -- a framework for training shape-generative neural fields without data by leveraging user-specified design requirements in the form of objectives and constraints. By adding diversity as an explicit constraint, GINNs avoid mode-collapse and can generate multiple diverse solutions, often required in geometry tasks. Experimentally, we apply GINNs to several problems spanning physics, geometry, and engineering design, showing control over geometrical and topological properties, such as surface smoothness or the number of holes. These results demonstrate the potential of training shape-generative models without data, paving the way for new generative design approaches without large datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-21T18:50:12Z</published>
+    <arxiv:comment>Code available at https://github.com/ml-jku/GINNs-Geometry-informed-Neural-Networks</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arturs Berzins</name>
+    </author>
+    <author>
+      <name>Andreas Radler</name>
+    </author>
+    <author>
+      <name>Eric Volkmann</name>
+    </author>
+    <author>
+      <name>Sebastian Sanokowski</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.13891v2</id>
+    <title>Overcoming Saturation in Density Ratio Estimation by Iterated Regularization</title>
+    <updated>2024-06-03T11:40:32Z</updated>
+    <link href="https://arxiv.org/abs/2402.13891v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.13891v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Estimating the ratio of two probability densities from finitely many samples, is a central task in machine learning and statistics. In this work, we show that a large class of kernel methods for density ratio estimation suffers from error saturation, which prevents algorithms from achieving fast error convergence rates on highly regular learning problems. To resolve saturation, we introduce iterated regularization in density ratio estimation to achieve fast error rates. Our methods outperform its non-iteratively regularized versions on benchmarks for density ratio estimation as well as on large-scale evaluations for importance-weighted ensembling of deep unsupervised domain adaptation models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-21T16:02:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Johannes Lehner</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Werner Zellinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.10093v4</id>
+    <title>MIM-Refiner: A Contrastive Learning Boost from Intermediate Pre-Trained Representations</title>
+    <updated>2025-02-20T23:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2402.10093v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.10093v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MIM (Masked Image Modeling)-Refiner, a contrastive learning boost for pre-trained MIM models. MIM-Refiner is motivated by the insight that strong representations within MIM models generally reside in intermediate layers. Accordingly, MIM-Refiner leverages multiple contrastive heads that are connected to different intermediate layers. In each head, a modified nearest neighbor objective constructs semantic clusters that capture semantic information which improves performance on downstream tasks, including off-the-shelf and fine-tuning settings.
+  The refinement process is short and simple - yet highly effective. Within a few epochs, we refine the features of MIM models from subpar to state-of-the-art, off-the-shelf features. Refining a ViT-H, pre-trained with data2vec 2.0 on ImageNet-1K, sets a new state-of-the-art in linear probing (84.7%) and low-shot classification among models that are pre-trained on ImageNet-1K. MIM-Refiner efficiently combines the advantages of MIM and ID objectives and compares favorably against previous state-of-the-art SSL models on a variety of benchmarks such as low-shot classification, long-tailed classification, clustering and semantic segmentation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-15T16:46:16Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2025. Github: https://github.com/ml-jku/MIM-Refiner</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Benedikt Alkin</name>
+    </author>
+    <author>
+      <name>Lukas Miklautz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.00854v4</id>
+    <title>SymbolicAI: A framework for logic-based approaches combining generative models and solvers</title>
+    <updated>2024-08-21T22:07:31Z</updated>
+    <link href="https://arxiv.org/abs/2402.00854v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.00854v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce SymbolicAI, a versatile and modular framework employing a logic-based approach to concept learning and flow management in generative processes. SymbolicAI enables the seamless integration of generative models with a diverse range of solvers by treating large language models (LLMs) as semantic parsers that execute tasks based on both natural and formal language instructions, thus bridging the gap between symbolic reasoning and generative AI. We leverage probabilistic programming principles to tackle complex tasks, and utilize differentiable and classical programming paradigms with their respective strengths. The framework introduces a set of polymorphic, compositional, and self-referential operations for multi-modal data that connects multi-step generative processes and aligns their outputs with user objectives in complex workflows. As a result, we can transition between the capabilities of various foundation models with in-context learning capabilities and specialized, fine-tuned models or solvers proficient in addressing specific problems. Through these operations based on in-context learning our framework enables the creation and evaluation of explainable computational graphs. Finally, we introduce a quality measure and its empirical score for evaluating these computational graphs, and propose a benchmark that compares various state-of-the-art LLMs across a set of complex workflows. We refer to the empirical score as the "Vector Embedding for Relational Trajectory Evaluation through Cross-similarity", or VERTEX score for short. The framework codebase and benchmark are linked below.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-01T18:50:50Z</published>
+    <arxiv:comment>46 pages, 13 figures, external resources: framework is available at https://github.com/ExtensityAI/symbolicai and benchmark at https://github.com/ExtensityAI/benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Marius-Constantin Dinu</name>
+    </author>
+    <author>
+      <name>Claudiu Leoveanu-Condrei</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Werner Zellinger</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.14156v1</id>
+    <title>Variational Annealing on Graphs for Combinatorial Optimization</title>
+    <updated>2023-11-23T18:56:51Z</updated>
+    <link href="https://arxiv.org/abs/2311.14156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.14156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several recent unsupervised learning methods use probabilistic approaches to solve combinatorial optimization (CO) problems based on the assumption of statistically independent solution variables. We demonstrate that this assumption imposes performance limitations in particular on difficult problem instances. Our results corroborate that an autoregressive approach which captures statistical dependencies among solution variables yields superior performance on many popular CO problems. We introduce subgraph tokenization in which the configuration of a set of solution variables is represented by a single token. This tokenization technique alleviates the drawback of the long sequential sampling procedure which is inherent to autoregressive methods without sacrificing expressivity. Importantly, we theoretically motivate an annealed entropy regularization and show empirically that it is essential for efficient and stable learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-23T18:56:51Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sebastian Sanokowski</name>
+    </author>
+    <author>
+      <name>Wilhelm Berghammer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.08309v1</id>
+    <title>Introducing an Improved Information-Theoretic Measure of Predictive Uncertainty</title>
+    <updated>2023-11-14T16:55:12Z</updated>
+    <link href="https://arxiv.org/abs/2311.08309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.08309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Applying a machine learning model for decision-making in the real world requires to distinguish what the model knows from what it does not. A critical factor in assessing the knowledge of a model is to quantify its predictive uncertainty. Predictive uncertainty is commonly measured by the entropy of the Bayesian model average (BMA) predictive distribution. Yet, the properness of this current measure of predictive uncertainty was recently questioned. We provide new insights regarding those limitations. Our analyses show that the current measure erroneously assumes that the BMA predictive distribution is equivalent to the predictive distribution of the true model that generated the dataset. Consequently, we introduce a theoretically grounded measure to overcome these limitations. We experimentally verify the benefits of our introduced measure of predictive uncertainty. We find that our introduced measure behaves more reasonably in controlled synthetic tasks. Moreover, our evaluations on ImageNet demonstrate that our introduced measure is advantageous in real-world applications utilizing predictive uncertainty.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-14T16:55:12Z</published>
+    <arxiv:comment>M3L &amp; InfoCog Workshops NeurIPS 23</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Mykyta Ielanskyi</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.02727v1</id>
+    <title>Functional trustworthiness of AI systems by statistically valid testing</title>
+    <updated>2023-10-04T11:07:52Z</updated>
+    <link href="https://arxiv.org/abs/2310.02727v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.02727v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The authors are concerned about the safety, health, and rights of the European citizens due to inadequate measures and procedures required by the current draft of the EU Artificial Intelligence (AI) Act for the conformity assessment of AI systems. We observe that not only the current draft of the EU AI Act, but also the accompanying standardization efforts in CEN/CENELEC, have resorted to the position that real functional guarantees of AI systems supposedly would be unrealistic and too complex anyways. Yet enacting a conformity assessment procedure that creates the false illusion of trust in insufficiently assessed AI systems is at best naive and at worst grossly negligent. The EU AI Act thus misses the point of ensuring quality by functional trustworthiness and correctly attributing responsibilities.
+  The trustworthiness of an AI decision system lies first and foremost in the correct statistical testing on randomly selected samples and in the precision of the definition of the application domain, which enables drawing samples in the first place. We will subsequently call this testable quality functional trustworthiness. It includes a design, development, and deployment that enables correct statistical testing of all relevant functions.
+  We are firmly convinced and advocate that a reliable assessment of the statistical functional properties of an AI system has to be the indispensable, mandatory nucleus of the conformity assessment. In this paper, we describe the three necessary elements to establish a reliable functional trustworthiness, i.e., (1) the definition of the technical distribution of the application, (2) the risk-based minimum performance requirements, and (3) the statistically valid testing based on independent random samples.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-04T11:07:52Z</published>
+    <arxiv:comment>Position paper to the current regulation and standardization effort of AI in Europe</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Bernhard Nessler</name>
+    </author>
+    <author>
+      <name>Thomas Doms</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05591v4</id>
+    <title>Linear Alignment of Vision-language Models for Image Captioning</title>
+    <updated>2025-02-08T15:54:35Z</updated>
+    <link href="https://arxiv.org/abs/2307.05591v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05591v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, vision-language models like CLIP have advanced the state of the art in a variety of multi-modal tasks including image captioning and caption evaluation. Many approaches leverage CLIP for cross-modal retrieval to condition pre-trained language models on visual input. However, CLIP generally suffers from a mis-alignment of image and text modalities in the joint embedding space. We investigate efficient methods to linearly re-align the joint embedding space for the downstream task of image captioning. This leads to an efficient training protocol that merely requires computing a closed-form solution for a linear mapping in the joint CLIP space. Consequently, we propose a lightweight captioning method called ReCap, which can be trained up to 1000 times faster than existing lightweight methods. Moreover, we propose two new learning-based image-captioning metrics built on CLIP score along with our proposed alignment. We evaluate ReCap on MS-COCO, Flickr30k, VizWiz and MSRVTT. On the former two, ReCap performs comparably to state-of-the-art lightweight methods using rule-based metrics while outperforming them on most of the CLIP-based metrics. On the latter two benchmarks, ReCap consistently outperforms competitors across all metrics and exhibits strong transfer capabilities and resilience to noise. Finally, we demonstrate that our proposed metrics correlate stronger with human judgement than existing metrics on the Flickr8k-Expert, Flickr8k-Crowdflower, and THumB datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-10T17:59:21Z</published>
+    <arxiv:comment>9 pages (+ references and appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.03217v2</id>
+    <title>Quantification of Uncertainty with Adversarial Models</title>
+    <updated>2023-10-24T16:37:43Z</updated>
+    <link href="https://arxiv.org/abs/2307.03217v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.03217v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantifying uncertainty is important for actionable predictions in real-world applications. A crucial part of predictive uncertainty quantification is the estimation of epistemic uncertainty, which is defined as an integral of the product between a divergence function and the posterior. Current methods such as Deep Ensembles or MC dropout underperform at estimating the epistemic uncertainty, since they primarily consider the posterior when sampling models. We suggest Quantification of Uncertainty with Adversarial Models (QUAM) to better estimate the epistemic uncertainty. QUAM identifies regions where the whole product under the integral is large, not just the posterior. Consequently, QUAM has lower approximation error of the epistemic uncertainty compared to previous methods. Models for which the product is large correspond to adversarial models (not adversarial examples!). Adversarial models have both a high posterior as well as a high divergence between their predictions and that of a reference model. Our experiments show that QUAM excels in capturing epistemic uncertainty for deep learning models and outperforms previous methods on challenging tasks in the vision domain.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-06T17:56:10Z</published>
+    <arxiv:comment>NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kajetan Schweighofer</name>
+    </author>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Mykyta Ielanskyi</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.14884v2</id>
+    <title>Learning to Modulate pre-trained Models in RL</title>
+    <updated>2023-10-27T17:28:50Z</updated>
+    <link href="https://arxiv.org/abs/2306.14884v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.14884v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) has been successful in various domains like robotics, game playing, and simulation. While RL agents have shown impressive capabilities in their specific tasks, they insufficiently adapt to new tasks. In supervised learning, this adaptation problem is addressed by large-scale pre-training followed by fine-tuning to new down-stream tasks. Recently, pre-training on multiple tasks has been gaining traction in RL. However, fine-tuning a pre-trained model often suffers from catastrophic forgetting. That is, the performance on the pre-training tasks deteriorates when fine-tuning on new tasks. To investigate the catastrophic forgetting phenomenon, we first jointly pre-train a model on datasets from two benchmark suites, namely Meta-World and DMControl. Then, we evaluate and compare a variety of fine-tuning methods prevalent in natural language processing, both in terms of performance on new tasks, and how well performance on pre-training tasks is retained. Our study shows that with most fine-tuning approaches, the performance on pre-training tasks deteriorates significantly. Therefore, we propose a novel method, Learning-to-Modulate (L2M), that avoids the degradation of learned skills by modulating the information flow of the frozen pre-trained model via a learnable modulation pool. Our method achieves state-of-the-art performance on the Continual-World benchmark, while retaining performance on the pre-training tasks. Finally, to aid future research in this area, we release a dataset encompassing 50 Meta-World and 16 DMControl tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-26T17:53:05Z</published>
+    <arxiv:comment>10 pages (+ references and appendix), Code: https://github.com/ml-jku/L2M</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Schmied</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.09312v2</id>
+    <title>Semantic HELM: A Human-Readable Memory for Reinforcement Learning</title>
+    <updated>2023-10-27T10:34:20Z</updated>
+    <link href="https://arxiv.org/abs/2306.09312v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.09312v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning agents deployed in the real world often have to cope with partially observable environments. Therefore, most agents employ memory mechanisms to approximate the state of the environment. Recently, there have been impressive success stories in mastering partially observable environments, mostly in the realm of computer games like Dota 2, StarCraft II, or MineCraft. However, existing methods lack interpretability in the sense that it is not comprehensible for humans what the agent stores in its memory. In this regard, we propose a novel memory mechanism that represents past events in human language. Our method uses CLIP to associate visual inputs with language tokens. Then we feed these tokens to a pretrained language model that serves the agent as memory and provides it with a coherent and human-readable representation of the past. We train our memory mechanism on a set of partially observable environments and find that it excels on tasks that require a memory component, while mostly attaining performance on-par with strong baselines on tasks that do not. On a challenging continuous recognition task, where memorizing the past is crucial, our memory mechanism converges two orders of magnitude faster than prior methods. Since our memory mechanism is human-readable, we can peek at an agent's memory and check whether crucial pieces of information have been stored. This significantly enhances troubleshooting and paves the way toward more interpretable agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-15T17:47:31Z</published>
+    <arxiv:comment>To appear at NeurIPS 2023, 10 pages (+ references and appendix), Code: https://github.com/ml-jku/helm</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Markus Hofmarcher</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.01281v1</id>
+    <title>Addressing Parameter Choice Issues in Unsupervised Domain Adaptation by Aggregation</title>
+    <updated>2023-05-02T09:34:03Z</updated>
+    <link href="https://arxiv.org/abs/2305.01281v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.01281v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of choosing algorithm hyper-parameters in unsupervised domain adaptation, i.e., with labeled data in a source domain and unlabeled data in a target domain, drawn from a different input distribution. We follow the strategy to compute several models using different hyper-parameters, and, to subsequently compute a linear aggregation of the models. While several heuristics exist that follow this strategy, methods are still missing that rely on thorough theories for bounding the target error. In this turn, we propose a method that extends weighted least squares to vector-valued functions, e.g., deep neural networks. We show that the target error of the proposed algorithm is asymptotically not worse than twice the error of the unknown optimal aggregation. We also perform a large scale empirical comparative study on several datasets, including text, images, electroencephalogram, body sensor signals and signals from mobile phones. Our method outperforms deep embedded validation (DEV) and importance weighted validation (IWV) on all datasets, setting a new state-of-the-art performance for solving parameter choice issues in unsupervised domain adaptation with theoretical error guarantees. We further study several competitive heuristics, all outperforming IWV and DEV on at least five datasets. However, our method outperforms each heuristic on at least five of seven datasets.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-02T09:34:03Z</published>
+    <arxiv:comment>Oral talk (notable-top-5%) at International Conference On Learning Representations (ICLR), 2023</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>International Conference On Learning Representations (ICLR), https://openreview.net/forum?id=M95oDwJXayG, 2023</arxiv:journal_ref>
+    <author>
+      <name>Marius-Constantin Dinu</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Hoan Duc Nguyen</name>
+    </author>
+    <author>
+      <name>Andrea Huber</name>
+    </author>
+    <author>
+      <name>Hamid Eghbal-zadeh</name>
+    </author>
+    <author>
+      <name>Bernhard A. Moser</name>
+    </author>
+    <author>
+      <name>Sergei Pereverzyev</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Werner Zellinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.09481v1</id>
+    <title>Context-enriched molecule representations improve few-shot drug discovery</title>
+    <updated>2023-04-24T17:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2305.09481v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.09481v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A central task in computational drug discovery is to construct models from known active molecules to find further promising molecules for subsequent screening. However, typically only very few active molecules are known. Therefore, few-shot learning methods have the potential to improve the effectiveness of this critical phase of the drug discovery process. We introduce a new method for few-shot drug discovery. Its main idea is to enrich a molecule representation by knowledge about known context or reference molecules. Our novel concept for molecule representation enrichment is to associate molecules from both the support set and the query set with a large set of reference (context) molecules through a Modern Hopfield Network. Intuitively, this enrichment step is analogous to a human expert who would associate a given molecule with familiar molecules whose properties are known. The enrichment step reinforces and amplifies the covariance structure of the data, while simultaneously removing spurious correlations arising from the decoration of molecules. Our approach is compared with other few-shot methods for drug discovery on the FS-Mol benchmark dataset. On FS-Mol, our approach outperforms all compared methods and therefore sets a new state-of-the art for few-shot learning in drug discovery. An ablation study shows that the enrichment step of our method is the key to improve the predictive quality. In a domain shift experiment, we further demonstrate the robustness of our method. Code is available at https://github.com/ml-jku/MHNfs.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-24T17:58:05Z</published>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Johannes Schimunek</name>
+    </author>
+    <author>
+      <name>Philipp Seidl</name>
+    </author>
+    <author>
+      <name>Lukas Friedrich</name>
+    </author>
+    <author>
+      <name>Daniel Kuhn</name>
+    </author>
+    <author>
+      <name>Friedrich Rippmann</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.10520v2</id>
+    <title>Contrastive Tuning: A Little Help to Make Masked Autoencoders Forget</title>
+    <updated>2023-09-14T17:57:55Z</updated>
+    <link href="https://arxiv.org/abs/2304.10520v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.10520v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Masked Image Modeling (MIM) methods, like Masked Autoencoders (MAE), efficiently learn a rich representation of the input. However, for adapting to downstream tasks, they require a sufficient amount of labeled data since their rich features code not only objects but also less relevant image background. In contrast, Instance Discrimination (ID) methods focus on objects. In this work, we study how to combine the efficiency and scalability of MIM with the ability of ID to perform downstream classification in the absence of large amounts of labeled data. To this end, we introduce Masked Autoencoder Contrastive Tuning (MAE-CT), a sequential approach that utilizes the implicit clustering of the Nearest Neighbor Contrastive Learning (NNCLR) objective to induce abstraction in the topmost layers of a pre-trained MAE. MAE-CT tunes the rich features such that they form semantic clusters of objects without using any labels. Notably, MAE-CT does not rely on hand-crafted augmentations and frequently achieves its best performances while using only minimal augmentations (crop &amp; flip). Further, MAE-CT is compute efficient as it requires at most 10% overhead compared to MAE re-training. Applied to large and huge Vision Transformer (ViT) models, MAE-CT excels over previous self-supervised methods trained on ImageNet in linear probing, k-NN and low-shot classification accuracy as well as in unsupervised clustering accuracy. With ViT-H/16 MAE-CT achieves a new state-of-the-art in linear probing of 82.2%.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-20T17:51:09Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Johannes Lehner</name>
+    </author>
+    <author>
+      <name>Benedikt Alkin</name>
+    </author>
+    <author>
+      <name>Andreas Fürst</name>
+    </author>
+    <author>
+      <name>Elisabeth Rumetshofer</name>
+    </author>
+    <author>
+      <name>Lukas Miklautz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12783v2</id>
+    <title>Conformal Prediction for Time Series with Modern Hopfield Networks</title>
+    <updated>2023-11-02T08:43:11Z</updated>
+    <link href="https://arxiv.org/abs/2303.12783v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12783v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To quantify uncertainty, conformal prediction methods are gaining continuously more interest and have already been successfully applied to various domains. However, they are difficult to apply to time series as the autocorrelative structure of time series violates basic assumptions required by conformal prediction. We propose HopCPT, a novel conformal prediction approach for time series that not only copes with temporal structures but leverages them. We show that our approach is theoretically well justified for time series where temporal dependencies are present. In experiments, we demonstrate that our new approach outperforms state-of-the-art conformal prediction methods on multiple real-world time series datasets from four different domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T17:52:54Z</published>
+    <arxiv:comment>presented at NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Auer</name>
+    </author>
+    <author>
+      <name>Martin Gauch</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.07758v1</id>
+    <title>Traffic4cast at NeurIPS 2022 -- Predict Dynamics along Graph Edges from Sparse Node Data: Whole City Traffic and ETA from Stationary Vehicle Detectors</title>
+    <updated>2023-03-14T10:03:37Z</updated>
+    <link href="https://arxiv.org/abs/2303.07758v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.07758v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The global trends of urbanization and increased personal mobility force us to rethink the way we live and use urban space. The Traffic4cast competition series tackles this problem in a data-driven way, advancing the latest methods in machine learning for modeling complex spatial systems over time. In this edition, our dynamic road graph data combine information from road maps, $10^{12}$ probe data points, and stationary vehicle detectors in three cities over the span of two years. While stationary vehicle detectors are the most accurate way to capture traffic volume, they are only available in few locations. Traffic4cast 2022 explores models that have the ability to generalize loosely related temporal vertex data on just a few nodes to predict dynamic future traffic states on the edges of the entire road graph. In the core challenge, participants are invited to predict the likelihoods of three congestion classes derived from the speed levels in the GPS data for the entire road graph in three cities 15 min into the future. We only provide vehicle count data from spatially sparse stationary vehicle detectors in these three cities as model input for this task. The data are aggregated in 15 min time bins for one hour prior to the prediction time. For the extended challenge, participants are tasked to predict the average travel times on super-segments 15 min into the future - super-segments are longer sequences of road segments in the graph. The competition results provide an important advance in the prediction of complex city-wide traffic states just from publicly available sparse vehicle data and without the need for large amounts of real-time floating vehicle data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-14T10:03:37Z</published>
+    <arxiv:comment>Pre-print under review, submitted to Proceedings of Machine Learning Research</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Moritz Neun</name>
+    </author>
+    <author>
+      <name>Christian Eichenberger</name>
+    </author>
+    <author>
+      <name>Henry Martin</name>
+    </author>
+    <author>
+      <name>Markus Spanring</name>
+    </author>
+    <author>
+      <name>Rahul Siripurapu</name>
+    </author>
+    <author>
+      <name>Daniel Springer</name>
+    </author>
+    <author>
+      <name>Leyan Deng</name>
+    </author>
+    <author>
+      <name>Chenwang Wu</name>
+    </author>
+    <author>
+      <name>Defu Lian</name>
+    </author>
+    <author>
+      <name>Min Zhou</name>
+    </author>
+    <author>
+      <name>Martin Lumiste</name>
+    </author>
+    <author>
+      <name>Andrei Ilie</name>
+    </author>
+    <author>
+      <name>Xinhua Wu</name>
+    </author>
+    <author>
+      <name>Cheng Lyu</name>
+    </author>
+    <author>
+      <name>Qing-Long Lu</name>
+    </author>
+    <author>
+      <name>Vishal Mahajan</name>
+    </author>
+    <author>
+      <name>Yichao Lu</name>
+    </author>
+    <author>
+      <name>Jiezhang Li</name>
+    </author>
+    <author>
+      <name>Junjun Li</name>
+    </author>
+    <author>
+      <name>Yue-Jiao Gong</name>
+    </author>
+    <author>
+      <name>Florian Grötschla</name>
+    </author>
+    <author>
+      <name>Joël Mathys</name>
+    </author>
+    <author>
+      <name>Ye Wei</name>
+    </author>
+    <author>
+      <name>He Haitao</name>
+    </author>
+    <author>
+      <name>Hui Fang</name>
+    </author>
+    <author>
+      <name>Kevin Malm</name>
+    </author>
+    <author>
+      <name>Fei Tang</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>David Kreil</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.03363v2</id>
+    <title>Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language</title>
+    <updated>2023-06-16T09:59:34Z</updated>
+    <link href="https://arxiv.org/abs/2303.03363v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.03363v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activity and property prediction models are the central workhorses in drug discovery and materials sciences, but currently they have to be trained or fine-tuned for new tasks. Without training or fine-tuning, scientific language models could be used for such low-data tasks through their announced zero- and few-shot capabilities. However, their predictive quality at activity prediction is lacking. In this work, we envision a novel type of activity prediction model that is able to adapt to new prediction tasks at inference time, via understanding textual information describing the task. To this end, we propose a new architecture with separate modules for chemical and natural language inputs, and a contrastive pre-training objective on data from large biochemical databases. In extensive experiments, we show that our method CLAMP yields improved predictive performance on few-shot learning benchmarks and zero-shot problems in drug discovery. We attribute the advances of our method to the modularized architecture and to our pre-training objective.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-06T18:49:09Z</published>
+    <arxiv:comment>ICML version, 15 pages + 18 pages appendix</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Philipp Seidl</name>
+    </author>
+    <author>
+      <name>Andreu Vall</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.08811v2</id>
+    <title>G-Signatures: Global Graph Propagation With Randomized Signatures</title>
+    <updated>2023-08-30T08:23:19Z</updated>
+    <link href="https://arxiv.org/abs/2302.08811v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.08811v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks (GNNs) have evolved into one of the most popular deep learning architectures. However, GNNs suffer from over-smoothing node information and, therefore, struggle to solve tasks where global graph properties are relevant. We introduce G-Signatures, a novel graph learning method that enables global graph propagation via randomized signatures. G-Signatures use a new graph conversion concept to embed graph structured information which can be interpreted as paths in latent space. We further introduce the idea of latent space path mapping. This allows us to iteratively traverse latent space paths, and, thus globally process information. G-Signatures excel at extracting and processing global graph properties, and effectively scale to large graph problems. Empirically, we confirm the advantages of G-Signatures at several classification and regression tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-17T11:09:59Z</published>
+    <arxiv:comment>7 pages (+ appendix); 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bernhard Schäfl</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.04441v2</id>
+    <title>Txt2Img-MHN: Remote Sensing Image Generation from Text Using Modern Hopfield Networks</title>
+    <updated>2023-10-08T09:51:43Z</updated>
+    <link href="https://arxiv.org/abs/2208.04441v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.04441v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The synthesis of high-resolution remote sensing images based on text descriptions has great potential in many practical application scenarios. Although deep neural networks have achieved great success in many important remote sensing tasks, generating realistic remote sensing images from text descriptions is still very difficult. To address this challenge, we propose a novel text-to-image modern Hopfield network (Txt2Img-MHN). The main idea of Txt2Img-MHN is to conduct hierarchical prototype learning on both text and image embeddings with modern Hopfield layers. Instead of directly learning concrete but highly diverse text-image joint feature representations for different semantics, Txt2Img-MHN aims to learn the most representative prototypes from text-image embeddings, achieving a coarse-to-fine learning strategy. These learned prototypes can then be utilized to represent more complex semantics in the text-to-image generation task. To better evaluate the realism and semantic consistency of the generated images, we further conduct zero-shot classification on real remote sensing data using the classification model trained on synthesized images. Despite its simplicity, we find that the overall accuracy in the zero-shot classification may serve as a good metric to evaluate the ability to generate an image from text. Extensive experiments on the benchmark remote sensing text-image dataset demonstrate that the proposed Txt2Img-MHN can generate more realistic remote sensing images than existing methods. Code and pre-trained models are available online (https://github.com/YonghaoXu/Txt2Img-MHN).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-08T22:02:10Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>IEEE Trans. Image Process., vol. 32, pp. 5737-5750, 2023</arxiv:journal_ref>
+    <author>
+      <name>Yonghao Xu</name>
+    </author>
+    <author>
+      <name>Weikang Yu</name>
+    </author>
+    <author>
+      <name>Pedram Ghamisi</name>
+    </author>
+    <author>
+      <name>Michael Kopp</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <arxiv:doi>10.1109/TIP.2023.3323799</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIP.2023.3323799" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.05742v2</id>
+    <title>Reactive Exploration to Cope with Non-Stationarity in Lifelong Reinforcement Learning</title>
+    <updated>2022-09-22T13:08:40Z</updated>
+    <link href="https://arxiv.org/abs/2207.05742v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.05742v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In lifelong learning, an agent learns throughout its entire life without resets, in a constantly changing environment, as we humans do. Consequently, lifelong learning comes with a plethora of research problems such as continual domain shifts, which result in non-stationary rewards and environment dynamics. These non-stationarities are difficult to detect and cope with due to their continuous nature. Therefore, exploration strategies and learning methods are required that are capable of tracking the steady domain shifts, and adapting to them. We propose Reactive Exploration to track and react to continual domain shifts in lifelong reinforcement learning, and to update the policy correspondingly. To this end, we conduct experiments in order to investigate different exploration strategies. We empirically show that representatives of the policy-gradient family are better suited for lifelong learning, as they adapt more quickly to distribution shifts than Q-learning. Thereby, policy-gradient methods profit the most from Reactive Exploration and show good results in lifelong learning with continual domain shifts. Our code is available at: https://github.com/ml-jku/reactive-exploration.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-12T17:59:00Z</published>
+    <arxiv:comment>CoLLAs 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christian Steinparz</name>
+    </author>
+    <author>
+      <name>Thomas Schmied</name>
+    </author>
+    <author>
+      <name>Fabian Paischer</name>
+    </author>
+    <author>
+      <name>Marius-Constantin Dinu</name>
+    </author>
+    <author>
+      <name>Vihang Patil</name>
+    </author>
+    <author>
+      <name>Angela Bitto-Nemling</name>
+    </author>
+    <author>
+      <name>Hamid Eghbal-zadeh</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.03483v1</id>
+    <title>Few-Shot Learning by Dimensionality Reduction in Gradient Space</title>
+    <updated>2022-06-07T17:58:35Z</updated>
+    <link href="https://arxiv.org/abs/2206.03483v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.03483v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce SubGD, a novel few-shot learning method which is based on the recent finding that stochastic gradient descent updates tend to live in a low-dimensional parameter subspace. In experimental and theoretical analyses, we show that models confined to a suitable predefined subspace generalize well for few-shot learning. A suitable subspace fulfills three criteria across the given tasks: it (a) allows to reduce the training error by gradient flow, (b) leads to models that generalize well, and (c) can be identified by stochastic gradient descent. SubGD identifies these subspaces from an eigendecomposition of the auto-correlation matrix of update directions across different tasks. Demonstrably, we can identify low-dimensional suitable subspaces for few-shot learning of dynamical systems, which have varying properties described by one or few parameters of the analytical system description. Such systems are ubiquitous among real-world applications in science and engineering. We experimentally corroborate the advantages of SubGD on three distinct dynamical systems problem settings, significantly outperforming popular few-shot learning methods both in terms of sample efficiency and performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-07T17:58:35Z</published>
+    <arxiv:comment>Accepted at Conference on Lifelong Learning Agents (CoLLAs) 2022. Code: https://github.com/ml-jku/subgd Blog post: https://ml-jku.github.io/subgd</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings of The 1st Conference on Lifelong Learning Agents, PMLR 199:1043-1064 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Martin Gauch</name>
+    </author>
+    <author>
+      <name>Maximilian Beck</name>
+    </author>
+    <author>
+      <name>Thomas Adler</name>
+    </author>
+    <author>
+      <name>Dmytro Kotsur</name>
+    </author>
+    <author>
+      <name>Stefan Fiel</name>
+    </author>
+    <author>
+      <name>Hamid Eghbal-zadeh</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Johannes Kofler</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Werner Zellinger</name>
+    </author>
+    <author>
+      <name>Daniel Klotz</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Sebastian Lehner</name>
+    </author>
+  </entry>
+</feed>

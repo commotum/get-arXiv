@@ -1,0 +1,3085 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aEqTpqoXR3a0lP+MOwJzj9595Ug</id>
+  <title>arXiv Query: search_query=au:"Tom Brown"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-06T22:43:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Tom+Brown%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>103</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07647v1</id>
+    <title>Mind the Temperature Gap: The Role of Pit Thermal Energy Storage in a Sector-Coupled Energy System with High-Temperature District Heating</title>
+    <updated>2026-01-12T15:27:55Z</updated>
+    <link href="https://arxiv.org/abs/2601.07647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pit thermal energy storage (PTES) provides large-scale thermal storage capacity in district heating systems, supporting flexibility on both daily and seasonal scales. Most existing large-scale energy system studies on PTES do not account for temperature differences between storage and the network. Neglecting these temperature differences can result in less efficient PTES integration, since they affect usable energy capacity and introduce additional costs for discharge requiring temperature boosting. To explore how temperature constraints shape the system-level value of PTES, we use PyPSA-DE, an open-source sector-coupled capacity expansion model of Germany and neighboring countries in a scenario with net zero carbon emissions for 2045. To isolate PTES effects, we examine counterfactual scenarios: systems without PTES, idealized systems with PTES but without temperature constraints, and feasible systems with boosting. We find that PTES reduces German annual system costs by 135-345 M EUR per year relative to systems relying solely on tank storage. Lowering maximum forward temperatures from 124 degrees C to 95 degrees C decreases district heating costs by 7.6 percent without PTES and 10 percent with PTES. Idealized scenarios without temperature constraints yield district heating cost savings of up to 15 percent, indicating that temperature-agnostic modeling overestimates PTES benefits. PTES provides economic value even under current high temperatures, though temperature misalignment limits its contribution during peak demand due to the need for boosting. The findings highlight the role of PTES in leveraging low-price electricity through electrified heating while emphasizing the importance of explicitly accounting for temperature constraints.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T15:27:55Z</published>
+    <arxiv:comment>Also available as SSRN preprint: https://dx.doi.org/10.2139/ssrn.6052574</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Caspar Schauß</name>
+    </author>
+    <author>
+      <name>Amos Schledorn</name>
+    </author>
+    <author>
+      <name>Tom Kähler</name>
+    </author>
+    <author>
+      <name>Kristina Schumacher</name>
+    </author>
+    <author>
+      <name>Mathias Ammon</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09414v1</id>
+    <title>PyPSA-DE: Open-source German energy system model reveals savings from integrated planning</title>
+    <updated>2025-10-10T14:15:07Z</updated>
+    <link href="https://arxiv.org/abs/2510.09414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Germany has set an ambitious target of reaching net zero greenhouse gas emissions by 2045. We explore how integrated cross-sectoral planning can reduce costs compared to existing national plans. Our new linear optimization model PyPSA-DE simulates the electricity and hydrogen transmission networks, as well as supply, demand, and storage in all sectors of the energy system in Germany and its neighboring countries with high spatial and temporal resolution. While our new model shows strong electricity transmission grid development, total expansion is one third lower than in the national grid development plan, lowering costs by 92 billion EUR$_{2020}$ to 191 billion EUR$_{2020}$ and average grid tariffs by 7.5 EUR$_{2020}$ / MWh. These savings are mainly due to integrated planning and operation, a market design with regional prices, and a system-optimal usage of offshore wind. PyPSA-DE is open-source and can readily be adapted to study related issues around the energy transition.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-10T14:15:07Z</published>
+    <arxiv:comment>6 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Proc. 2025 21st International Conference on the European Energy Market (EEM), IEEE, 2025</arxiv:journal_ref>
+    <author>
+      <name>Michael Lindner</name>
+    </author>
+    <author>
+      <name>Julian Geis</name>
+    </author>
+    <author>
+      <name>Toni Seibold</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1109/EEM64765.2025.11050093</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EEM64765.2025.11050093" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.08199v1</id>
+    <title>Pursuing decarbonization and competitiveness: a narrow corridor for European green industrial transformation</title>
+    <updated>2025-10-09T13:25:55Z</updated>
+    <link href="https://arxiv.org/abs/2510.08199v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.08199v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study analyzes how Europe can decarbonize its industrial sector while remaining competitive. Using the open-source model PyPSA-Eur, it examines key energy- and emission-intensive industries, including steel, cement, methanol, ammonia, and high-value chemicals. Two development paths are explored: a continued decline in industrial activity and a reindustrialization driven by competitiveness policies. The analysis assesses cost gaps between European green products and lower-cost imports, and evaluates strategies such as intra-European relocation, selective imports of green intermediates, and targeted subsidies. Results show that deep industrial decarbonization is technically feasible, led by electrification, but competitiveness depends strongly on policy choices. Imports of green intermediates can lower costs while preserving jobs and production, whereas broad subsidies are economically unsustainable. Effective policy should focus support on sectors like ammonia and steel finishing while maintaining current production levels.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-09T13:25:55Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Alice Di Bella</name>
+    </author>
+    <author>
+      <name>Toni Seibold</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Massimo Tavoni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04388v1</id>
+    <title>REMIND-PyPSA-Eur: Integrating power system flexibility into sector-coupled energy transition pathways</title>
+    <updated>2025-10-05T22:42:44Z</updated>
+    <link href="https://arxiv.org/abs/2510.04388v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04388v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid expansion of low-cost renewable electricity combined with end-use electrification in transport, industry, and buildings offers a promising path to deep decarbonisation. However, aligning variable supply with demand requires strategies for daily and seasonal balancing. Existing models either lack the wide scope required for long-term transition pathways or the spatio-temporal detail to capture power system variability and flexibility. Here, we combine the complementary strengths of REMIND, a long-term integrated assessment model, and PyPSA-Eur, an hourly energy system model, through a bi-directional, price-based and iterative soft coupling. REMIND provides pathway variables such as sectoral electricity demand, installed capacities, and costs to PyPSA-Eur, which returns optimised operational variables such as capacity factors, storage requirements, and relative prices. After sufficient convergence, this integrated approach jointly optimises long-term investment and short-term operation. We demonstrate the coupling for two Germany-focused scenarios, with and without demand-side flexibility, reaching climate neutrality by 2045. Our results confirm that a sector-coupled energy system with nearly 100\% renewable electricity is technically possible and economically viable. Power system flexibility influences long-term pathways through price differentiation: supply-side market values vary by generation technology, while demand-side prices vary by end-use sector. Flexible electrolysers and smart-charging electric vehicles benefit from below-average prices, whereas less flexible heat pumps face almost twice the average price due to winter peak loads. Without demand-side flexibility, electricity prices increase across all end-users, though battery deployment partially compensates. Our approach therefore fully integrates power system dynamics into multi-decadal energy transition pathways.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-05T22:42:44Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Adrian Odenweller</name>
+    </author>
+    <author>
+      <name>Falko Ueckerdt</name>
+    </author>
+    <author>
+      <name>Johannes Hampp</name>
+    </author>
+    <author>
+      <name>Ivan Ramirez</name>
+    </author>
+    <author>
+      <name>Felix Schreyer</name>
+    </author>
+    <author>
+      <name>Robin Hasse</name>
+    </author>
+    <author>
+      <name>Jarusch Muessel</name>
+    </author>
+    <author>
+      <name>Chen Chris Gong</name>
+    </author>
+    <author>
+      <name>Robert Pietzcker</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Gunnar Luderer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.00918v1</id>
+    <title>Balancing Cost Savings and Import Dependence in Germany's Industry Transformation</title>
+    <updated>2025-10-01T13:57:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.00918v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.00918v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Greenhouse gas emissions from the steel, fertiliser and plastic industries can be mitigated by producing their precursors with green hydrogen. In Germany, green production may be economically unviable due to high energy costs. This study quantifies the 'renewables pull' of cheaper production abroad and high-lights trade-offs between cost savings and import dependence. Using a detailed European energy system model coupled to global supply curves for hydrogen and industry precursors (hot briquetted iron, ammonia and methanol), we assess five scenarios with increasing degrees of freedom with respect to imports. We find that precursor import is preferred over hydrogen import because there are significant savings in hydrogen infrastructure. Cost savings in the German industry sector from shifting precursor production to European partners compared to domestic production are at 4.1 bnEUR/a or 11.2 %. This strategy captures 47.7 % of the cost savings achievable by precursor import from non-European countries, which lowers industry costs by 8.6 bnEUR/a (23.3 %). Moving energy-intensive precursor production abroad allows Germany to save costs while still retaining a substantial share of subsequent value-creating industry. However, cost savings must be weighed against the risks of import dependence, which can be mitigated by sourcing exclusively from regional partners.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T13:57:52Z</published>
+    <arxiv:comment>16+22 pages, 5+14 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Toni Seibold</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Falko Ueckerdt</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.10092v1</id>
+    <title>Price Formation in a Highly-Renewable, Sector-Coupled Energy System</title>
+    <updated>2025-09-12T09:36:05Z</updated>
+    <link href="https://arxiv.org/abs/2509.10092v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.10092v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As variable renewable energy increases and more demand is electrified, we expect price formation in wholesale electricity markets to transition from being dominated by fossil fuel generators to being dominated by the opportunity costs of storage and demand management. In order to analyse this transition, we introduce a new method to investigate price formation based on a mapping from the dual variables of the energy system optimisation problem to the bids and asks of electricity suppliers and consumers. This allows us to build the full supply and demand curves in each hour. We use this method to analyse price formation in a sector-coupled, climate-neutral energy system model for Germany, PyPSA-DE, with high temporal resolution and myopic foresight in 5-year steps from 2020 until full decarbonisation in 2045. We find a clear transition from distinct price levels, corresponding to fossil fuels, to a smoother price curve set by variable renewable energy sources, batteries and electrolysis. Despite higher price volatility, the fully decarbonised system clears with non-zero prices in 75% of all hours. Our results suggest that flexibility and cross-sectoral demand bidding play a vital role in stabilising electricity prices in a climate-neutral future. These findings are highly relevant for guiding investment decisions and informing policy, particularly in support of dynamic pricing, the expansion of energy storage across multiple timescales, and the coordinated development of renewable and flexibility technologies.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-12T09:36:05Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Julian Geis</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Michael Lindner</name>
+    </author>
+    <author>
+      <name>Philipp Härtel</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.01860v1</id>
+    <title>The role of Projects of Common Interest in reaching Europe's energy policy targets</title>
+    <updated>2025-07-02T16:21:48Z</updated>
+    <link href="https://arxiv.org/abs/2507.01860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.01860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The European Union aims to achieve climate-neutrality by 2050, with interim 2030 targets including 55% greenhouse gas emissions reduction compared to 1990 levels, 10 Mt p.a. of a domestic green H2 production, and 50 Mt p.a. of domestic CO2 injection capacity. To support these targets, Projects of Common and Mutual Interest (PCI-PMI) - large infrastructure projects for electricity, hydrogen and CO2 transport, and storage - have been identified by the European Commission. This study focuses on PCI-PMI projects related to hydrogen and carbon value chains, assessing their long-term system value and the impact of pipeline delays and shifting policy targets using the sector-coupled energy system model PyPSA-Eur. Our study shows that PCI-PMI projects enable a more cost-effective transition to a net-zero energy system compared to scenarios without any pipeline expansion. Hydrogen pipelines help distribute affordable green hydrogen from renewable-rich regions in the north and southwest to high-demand areas in central Europe, while CO2 pipelines link major industrial emitters with offshore storage sites. Although these projects are not essential in 2030, they begin to significantly reduce annual system costs by more than EUR 26 billion from 2040 onward. Delaying implementation beyond 2040 could increase system costs by up to EUR 24.2 billion per year, depending on the extent of additional infrastructure development. Moreover, our results show that PCI-PMI projects reduce the need for excess wind and solar capacity and lower reliance on individual CO2 removal technologies, such as Direct Air Capture, by 13 to 136 Mt annually, depending on the build-out scenario.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-02T16:21:48Z</published>
+    <arxiv:comment>Preprint. For associated workflow and results, see https://github.com/bobbyxng/pci-pmi-policy-targets and https://doi.org/10.5281/zenodo.15790593</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Environ. Res. Lett. 21 (2026) 034011</arxiv:journal_ref>
+    <author>
+      <name>Bobby Xiong</name>
+    </author>
+    <author>
+      <name>Iegor Riepin</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1088/1748-9326/ae3846</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-9326/ae3846" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.09277v1</id>
+    <title>The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios</title>
+    <updated>2025-05-14T10:49:34Z</updated>
+    <link href="https://arxiv.org/abs/2505.09277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.09277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electrifying sectors like land transport and building heating is a cost-effective strategy for decarbonisation. For harder-to-abate sectors that require fuels for their density or chemical properties, like long-haul aviation, shipping, backup power or iron ore reduction, electrolytic hydrogen and its derivatives are often proposed as part of a `hydrogen economy'. However, hydrogen itself is challenging to transport and store because of its small molecule size and low volumetric density; the build-up of a pipeline network needs close coordination with demand, supply and storage. We present a `minimal methanol economy' as an alternative concept for filling the gaps that electrification cannot reach. As a liquid at ambient conditions, methanol is easy to transport and store; it scales down to low-volume use cases without the lumpiness of hydrogen pipelines; it is a better drop-in fuel to replace methane; it can help integrate decentralised biomass wastes and residues into the energy system; it is needed anyway in large volumes as a feedstock for industry and transport fuels. We show in an energy system model for Europe that deep decarbonisation has lowest cost when hydrogen can be widely transported and used for backup power and heat, but a methanol-based system is only \bneuro{24} more expensive in the default scenario (3\% of system costs). This small increase is robust across varying assumptions about carbon sequestration, green imports and biomass availability. We argue that this modest expense is justified because methanol avoids many of the challenges in scaling up and regulating hydrogen infrastructure.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-14T10:49:34Z</published>
+    <arxiv:comment>15+27 pages, 31 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Philipp Glaum</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Markus Millinger</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.12252v3</id>
+    <title>Roadmap to fault tolerant quantum computation using topological qubit arrays</title>
+    <updated>2025-07-18T21:25:21Z</updated>
+    <link href="https://arxiv.org/abs/2502.12252v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.12252v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a concrete device roadmap towards a fault-tolerant quantum computing architecture based on noise-resilient, topologically protected Majorana-based qubits. Our roadmap encompasses four generations of devices: a single-qubit device that enables a measurement-based qubit benchmarking protocol; a two-qubit device that uses measurement-based braiding to perform single-qubit Clifford operations; an eight-qubit device that can be used to show an improvement of a two-qubit operation when performed on logical qubits rather than directly on physical qubits; and a topological qubit array supporting lattice surgery demonstrations on two logical qubits. Devices that enable this path require a superconductor-semiconductor heterostructure that supports a topological phase, quantum dots and coupling between those quantum dots that can create the appropriate loops for interferometric measurements, and a microwave readout system that can perform fast, low-error single-shot measurements. We describe the key design components of these qubit devices, along with the associated protocols for demonstrations of single-qubit benchmarking, Clifford gate execution, quantum error detection, and quantum error correction, which differ greatly from those in more conventional qubits. Finally, we comment on implications and advantages of this architecture for utility-scale quantum computation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T19:00:10Z</published>
+    <arxiv:comment>v2: 12+8 pages, 9+5 figures, significant main text and appendix revisions</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>David Aasen</name>
+    </author>
+    <author>
+      <name>Morteza Aghaee</name>
+    </author>
+    <author>
+      <name>Zulfi Alam</name>
+    </author>
+    <author>
+      <name>Mariusz Andrzejczuk</name>
+    </author>
+    <author>
+      <name>Andrey Antipov</name>
+    </author>
+    <author>
+      <name>Mikhail Astafev</name>
+    </author>
+    <author>
+      <name>Lukas Avilovas</name>
+    </author>
+    <author>
+      <name>Amin Barzegar</name>
+    </author>
+    <author>
+      <name>Bela Bauer</name>
+    </author>
+    <author>
+      <name>Jonathan Becker</name>
+    </author>
+    <author>
+      <name>Juan M. Bello-Rivas</name>
+    </author>
+    <author>
+      <name>Umesh Bhaskar</name>
+    </author>
+    <author>
+      <name>Alex Bocharov</name>
+    </author>
+    <author>
+      <name>Srini Boddapati</name>
+    </author>
+    <author>
+      <name>David Bohn</name>
+    </author>
+    <author>
+      <name>Jouri Bommer</name>
+    </author>
+    <author>
+      <name>Parsa Bonderson</name>
+    </author>
+    <author>
+      <name>Jan Borovsky</name>
+    </author>
+    <author>
+      <name>Leo Bourdet</name>
+    </author>
+    <author>
+      <name>Samuel Boutin</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Gary Campbell</name>
+    </author>
+    <author>
+      <name>Lucas Casparis</name>
+    </author>
+    <author>
+      <name>Srivatsa Chakravarthi</name>
+    </author>
+    <author>
+      <name>Rui Chao</name>
+    </author>
+    <author>
+      <name>Benjamin J. Chapman</name>
+    </author>
+    <author>
+      <name>Sohail Chatoor</name>
+    </author>
+    <author>
+      <name>Anna Wulff Christensen</name>
+    </author>
+    <author>
+      <name>Patrick Codd</name>
+    </author>
+    <author>
+      <name>William Cole</name>
+    </author>
+    <author>
+      <name>Paul Cooper</name>
+    </author>
+    <author>
+      <name>Fabiano Corsetti</name>
+    </author>
+    <author>
+      <name>Ajuan Cui</name>
+    </author>
+    <author>
+      <name>Wim van Dam</name>
+    </author>
+    <author>
+      <name>Tareq El Dandachi</name>
+    </author>
+    <author>
+      <name>Sahar Daraeizadeh</name>
+    </author>
+    <author>
+      <name>Adrian Dumitrascu</name>
+    </author>
+    <author>
+      <name>Andreas Ekefjärd</name>
+    </author>
+    <author>
+      <name>Saeed Fallahi</name>
+    </author>
+    <author>
+      <name>Luca Galletti</name>
+    </author>
+    <author>
+      <name>Geoff Gardner</name>
+    </author>
+    <author>
+      <name>Raghu Gatta</name>
+    </author>
+    <author>
+      <name>Haris Gavranovic</name>
+    </author>
+    <author>
+      <name>Michael Goulding</name>
+    </author>
+    <author>
+      <name>Deshan Govender</name>
+    </author>
+    <author>
+      <name>Flavio Griggio</name>
+    </author>
+    <author>
+      <name>Ruben Grigoryan</name>
+    </author>
+    <author>
+      <name>Sebastian Grijalva</name>
+    </author>
+    <author>
+      <name>Sergei Gronin</name>
+    </author>
+    <author>
+      <name>Jan Gukelberger</name>
+    </author>
+    <author>
+      <name>Jeongwan Haah</name>
+    </author>
+    <author>
+      <name>Marzie Hamdast</name>
+    </author>
+    <author>
+      <name>Esben Bork Hansen</name>
+    </author>
+    <author>
+      <name>Matthew Hastings</name>
+    </author>
+    <author>
+      <name>Sebastian Heedt</name>
+    </author>
+    <author>
+      <name>Samantha Ho</name>
+    </author>
+    <author>
+      <name>Justin Hogaboam</name>
+    </author>
+    <author>
+      <name>Laurens Holgaard</name>
+    </author>
+    <author>
+      <name>Kevin Van Hoogdalem</name>
+    </author>
+    <author>
+      <name>Jinnapat Indrapiromkul</name>
+    </author>
+    <author>
+      <name>Henrik Ingerslev</name>
+    </author>
+    <author>
+      <name>Lovro Ivancevic</name>
+    </author>
+    <author>
+      <name>Sarah Jablonski</name>
+    </author>
+    <author>
+      <name>Thomas Jensen</name>
+    </author>
+    <author>
+      <name>Jaspreet Jhoja</name>
+    </author>
+    <author>
+      <name>Jeffrey Jones</name>
+    </author>
+    <author>
+      <name>Kostya Kalashnikov</name>
+    </author>
+    <author>
+      <name>Ray Kallaher</name>
+    </author>
+    <author>
+      <name>Rachpon Kalra</name>
+    </author>
+    <author>
+      <name>Farhad Karimi</name>
+    </author>
+    <author>
+      <name>Torsten Karzig</name>
+    </author>
+    <author>
+      <name>Seth Kimes</name>
+    </author>
+    <author>
+      <name>Vadym Kliuchnikov</name>
+    </author>
+    <author>
+      <name>Maren Elisabeth Kloster</name>
+    </author>
+    <author>
+      <name>Christina Knapp</name>
+    </author>
+    <author>
+      <name>Derek Knee</name>
+    </author>
+    <author>
+      <name>Jonne Koski</name>
+    </author>
+    <author>
+      <name>Pasi Kostamo</name>
+    </author>
+    <author>
+      <name>Jamie Kuesel</name>
+    </author>
+    <author>
+      <name>Brad Lackey</name>
+    </author>
+    <author>
+      <name>Tom Laeven</name>
+    </author>
+    <author>
+      <name>Jeffrey Lai</name>
+    </author>
+    <author>
+      <name>Gijs de Lange</name>
+    </author>
+    <author>
+      <name>Thorvald Larsen</name>
+    </author>
+    <author>
+      <name>Jason Lee</name>
+    </author>
+    <author>
+      <name>Kyunghoon Lee</name>
+    </author>
+    <author>
+      <name>Grant Leum</name>
+    </author>
+    <author>
+      <name>Kongyi Li</name>
+    </author>
+    <author>
+      <name>Tyler Lindemann</name>
+    </author>
+    <author>
+      <name>Marijn Lucas</name>
+    </author>
+    <author>
+      <name>Roman Lutchyn</name>
+    </author>
+    <author>
+      <name>Morten Hannibal Madsen</name>
+    </author>
+    <author>
+      <name>Nash Madulid</name>
+    </author>
+    <author>
+      <name>Michael Manfra</name>
+    </author>
+    <author>
+      <name>Signe Brynold Markussen</name>
+    </author>
+    <author>
+      <name>Esteban Martinez</name>
+    </author>
+    <author>
+      <name>Marco Mattila</name>
+    </author>
+    <author>
+      <name>Jake Mattinson</name>
+    </author>
+    <author>
+      <name>Robert McNeil</name>
+    </author>
+    <author>
+      <name>Antonio Rodolph Mei</name>
+    </author>
+    <author>
+      <name>Ryan V. Mishmash</name>
+    </author>
+    <author>
+      <name>Gopakumar Mohandas</name>
+    </author>
+    <author>
+      <name>Christian Mollgaard</name>
+    </author>
+    <author>
+      <name>Michiel de Moor</name>
+    </author>
+    <author>
+      <name>Trevor Morgan</name>
+    </author>
+    <author>
+      <name>George Moussa</name>
+    </author>
+    <author>
+      <name>Anirudh Narla</name>
+    </author>
+    <author>
+      <name>Chetan Nayak</name>
+    </author>
+    <author>
+      <name>Jens Hedegaard Nielsen</name>
+    </author>
+    <author>
+      <name>William Hvidtfelt Padkær Nielsen</name>
+    </author>
+    <author>
+      <name>Frédéric Nolet</name>
+    </author>
+    <author>
+      <name>Mike Nystrom</name>
+    </author>
+    <author>
+      <name>Eoin O'Farrell</name>
+    </author>
+    <author>
+      <name>Keita Otani</name>
+    </author>
+    <author>
+      <name>Adam Paetznick</name>
+    </author>
+    <author>
+      <name>Camille Papon</name>
+    </author>
+    <author>
+      <name>Andres Paz</name>
+    </author>
+    <author>
+      <name>Karl Petersson</name>
+    </author>
+    <author>
+      <name>Luca Petit</name>
+    </author>
+    <author>
+      <name>Dima Pikulin</name>
+    </author>
+    <author>
+      <name>Diego Olivier Fernandez Pons</name>
+    </author>
+    <author>
+      <name>Sam Quinn</name>
+    </author>
+    <author>
+      <name>Mohana Rajpalke</name>
+    </author>
+    <author>
+      <name>Alejandro Alcaraz Ramirez</name>
+    </author>
+    <author>
+      <name>Katrine Rasmussen</name>
+    </author>
+    <author>
+      <name>David Razmadze</name>
+    </author>
+    <author>
+      <name>Ben Reichardt</name>
+    </author>
+    <author>
+      <name>Yuan Ren</name>
+    </author>
+    <author>
+      <name>Ken Reneris</name>
+    </author>
+    <author>
+      <name>Roy Riccomini</name>
+    </author>
+    <author>
+      <name>Ivan Sadovskyy</name>
+    </author>
+    <author>
+      <name>Lauri Sainiemi</name>
+    </author>
+    <author>
+      <name>Juan Carlos Estrada Saldaña</name>
+    </author>
+    <author>
+      <name>Irene Sanlorenzo</name>
+    </author>
+    <author>
+      <name>Simon Schaal</name>
+    </author>
+    <author>
+      <name>Emma Schmidgall</name>
+    </author>
+    <author>
+      <name>Cristina Sfiligoj</name>
+    </author>
+    <author>
+      <name>Marcus P. da Silva</name>
+    </author>
+    <author>
+      <name>Shilpi Singh</name>
+    </author>
+    <author>
+      <name>Sarat Sinha</name>
+    </author>
+    <author>
+      <name>Mathias Soeken</name>
+    </author>
+    <author>
+      <name>Patrick Sohr</name>
+    </author>
+    <author>
+      <name>Tomas Stankevic</name>
+    </author>
+    <author>
+      <name>Lieuwe Stek</name>
+    </author>
+    <author>
+      <name>Patrick Strøm-Hansen</name>
+    </author>
+    <author>
+      <name>Eric Stuppard</name>
+    </author>
+    <author>
+      <name>Aarthi Sundaram</name>
+    </author>
+    <author>
+      <name>Henri Suominen</name>
+    </author>
+    <author>
+      <name>Judith Suter</name>
+    </author>
+    <author>
+      <name>Satoshi Suzuki</name>
+    </author>
+    <author>
+      <name>Krysta Svore</name>
+    </author>
+    <author>
+      <name>Sam Teicher</name>
+    </author>
+    <author>
+      <name>Nivetha Thiyagarajah</name>
+    </author>
+    <author>
+      <name>Raj Tholapi</name>
+    </author>
+    <author>
+      <name>Mason Thomas</name>
+    </author>
+    <author>
+      <name>Dennis Tom</name>
+    </author>
+    <author>
+      <name>Emily Toomey</name>
+    </author>
+    <author>
+      <name>Josh Tracy</name>
+    </author>
+    <author>
+      <name>Matthias Troyer</name>
+    </author>
+    <author>
+      <name>Michelle Turley</name>
+    </author>
+    <author>
+      <name>Matthew D. Turner</name>
+    </author>
+    <author>
+      <name>Shivendra Upadhyay</name>
+    </author>
+    <author>
+      <name>Ivan Urban</name>
+    </author>
+    <author>
+      <name>Alexander Vaschillo</name>
+    </author>
+    <author>
+      <name>Dmitrii Viazmitinov</name>
+    </author>
+    <author>
+      <name>Dominik Vogel</name>
+    </author>
+    <author>
+      <name>Zhenghan Wang</name>
+    </author>
+    <author>
+      <name>John Watson</name>
+    </author>
+    <author>
+      <name>Alex Webster</name>
+    </author>
+    <author>
+      <name>Joseph Weston</name>
+    </author>
+    <author>
+      <name>Timothy Williamson</name>
+    </author>
+    <author>
+      <name>Georg W. Winkler</name>
+    </author>
+    <author>
+      <name>David J. van Woerkom</name>
+    </author>
+    <author>
+      <name>Brian Paquelet Wütz</name>
+    </author>
+    <author>
+      <name>Chung Kai Yang</name>
+    </author>
+    <author>
+      <name>Richard Yu</name>
+    </author>
+    <author>
+      <name>Emrah Yucelen</name>
+    </author>
+    <author>
+      <name>Jesús Herranz Zamorano</name>
+    </author>
+    <author>
+      <name>Roland Zeisel</name>
+    </author>
+    <author>
+      <name>Guoji Zheng</name>
+    </author>
+    <author>
+      <name>Justin Zilke</name>
+    </author>
+    <author>
+      <name>Andrew Zimmerman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.02809v1</id>
+    <title>Shifting burdens: How delayed decarbonisation of road transport affects other sectoral emission reductions</title>
+    <updated>2025-02-05T01:11:45Z</updated>
+    <link href="https://arxiv.org/abs/2502.02809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.02809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2022, fuel combustion in road transport accounted for approximately 21% (760 million tonnes) of CO2 emissions in the European Union (EU). Road transport is the only sector with rising emissions, with an increase of 24% compared to 1990. The EU initially aimed to ban new CO2-emitting cars by 2030 but has since delayed this target to 2035, underscoring the ongoing challenges in the push for rapid decarbonisation. The pace of decarbonisation in this sector will either ease or intensify the pressure on other sectors to stay within the EU's carbon budget. This paper explores the effects of speeding up or slowing down the transition in road transport. We reveal that a slower decarbonisation path not only drives up system costs by 126 billion Euro/a (6%) but also demands more than a doubling of the CO2 price from 137 to 290 Euro/tCO2 in 2030 to trigger decarbonisation in other sectors. On the flip side, accelerating the shift to cleaner transport proves to be the most cost-effective strategy, giving room for more gradual changes in the heating and industrial sectors, while reducing the reliance on carbon removal in later years. Earlier mandates than currently envisaged by the EU can avoid stranded assets and save up to 43 billion Euro/a compared to current policies.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-05T01:11:45Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Sina Kalweit</name>
+    </author>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1088/1748-9326/adc290</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-9326/adc290" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.06600v1</id>
+    <title>Market Integration Pathways for Enhanced Geothermal Systems in Europe</title>
+    <updated>2025-01-11T17:55:46Z</updated>
+    <link href="https://arxiv.org/abs/2501.06600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.06600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enhanced Geothermal Systems (EGS) can provide constant, reliable electricity and heat with minimal emissions, but high drilling costs and uncertain cost reductions leave their future unclear. We explore scenarios for the future adoption of EGS in a carbon-neutral, multi-sector European energy system. We find that in a net-zero system, heat (co-)generating EGS at current cost can support 20--30 GWth of capacity in Europe, primarily driven by district heating demands. When drilling costs decrease by approximately 60%, EGS becomes competitive in electricity markets, expanding its market opportunity by one order of magnitude. However, the spatially dispersed rollout of district heating contrasts with the confined overlap of high geological potential and low potential for other renewables, which conditions the competitiveness of electricity-generating EGS. This results in a challenge where the majority of EGS market potential depends on pan-European technology learning for cost reductions, emphasising coordination is crucial in stakeholders' efforts to reduce EGS cost.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-11T17:55:46Z</published>
+    <arxiv:comment>21 figures, 26 pages, 1 table 7 figures main text, 14 pages main text, no table</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Lukas Franken</name>
+    </author>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Orestis Angelidis</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Daniel Friedrich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.06941v1</id>
+    <title>WorkflowHub: a registry for computational workflows</title>
+    <updated>2024-10-09T14:36:27Z</updated>
+    <link href="https://arxiv.org/abs/2410.06941v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.06941v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rising popularity of computational workflows is driven by the need for repetitive and scalable data processing, sharing of processing know-how, and transparent methods. As both combined records of analysis and descriptions of processing steps, workflows should be reproducible, reusable, adaptable, and available. Workflow sharing presents opportunities to reduce unnecessary reinvention, promote reuse, increase access to best practice analyses for non-experts, and increase productivity. In reality, workflows are scattered and difficult to find, in part due to the diversity of available workflow engines and ecosystems, and because workflow sharing is not yet part of research practice.
+  WorkflowHub provides a unified registry for all computational workflows that links to community repositories, and supports both the workflow lifecycle and making workflows findable, accessible, interoperable, and reusable (FAIR). By interoperating with diverse platforms, services, and external registries, WorkflowHub adds value by supporting workflow sharing, explicitly assigning credit, enhancing FAIRness, and promoting workflows as scholarly artefacts. The registry has a global reach, with hundreds of research organisations involved, and more than 700 workflows registered.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T14:36:27Z</published>
+    <arxiv:comment>30 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Ove Johan Ragnar Gustafsson</name>
+    </author>
+    <author>
+      <name>Sean R. Wilkinson</name>
+    </author>
+    <author>
+      <name>Finn Bacall</name>
+    </author>
+    <author>
+      <name>Luca Pireddu</name>
+    </author>
+    <author>
+      <name>Stian Soiland-Reyes</name>
+    </author>
+    <author>
+      <name>Simone Leo</name>
+    </author>
+    <author>
+      <name>Stuart Owen</name>
+    </author>
+    <author>
+      <name>Nick Juty</name>
+    </author>
+    <author>
+      <name>José M. Fernández</name>
+    </author>
+    <author>
+      <name>Björn Grüning</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Hervé Ménager</name>
+    </author>
+    <author>
+      <name>Salvador Capella-Gutierrez</name>
+    </author>
+    <author>
+      <name>Frederik Coppens</name>
+    </author>
+    <author>
+      <name>Carole Goble</name>
+    </author>
+    <arxiv:doi>10.1038/s41597-025-04786-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41597-025-04786-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.17178v1</id>
+    <title>Modelling the High-Voltage Grid Using Open Data for Europe and Beyond</title>
+    <updated>2024-08-30T10:26:50Z</updated>
+    <link href="https://arxiv.org/abs/2408.17178v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.17178v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper provides the background, methodology and validation for constructing a representation of the European high-voltage grid, including and above 200 kV, based on public data provided by OpenStreetMap. The model-independent grid dataset is published under the Open Data Commons Open Database (ODbL 1.0) licence and can be used for large-scale electricity as well as energy system modelling. The dataset and workflow are provided as part of PyPSA-Eur -- an open-source, sector-coupled optimisation model of the European energy system. By integrating with the codebase for initiatives such as PyPSA-Earth, the value of open and maintainable high-voltage grid data extends to the global context. By accessing the latest data through the the Overpass turbo API, the dataset can be easily reconstructed and updated within minutes. To assess the data quality, this paper further compares the dataset with official statistics and representative model runs using PyPSA-Eur based on different electricity grid representations.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-30T10:26:50Z</published>
+    <arxiv:comment>20 pages, 15 figures, 8 tables. For associated prebuilt electricity network, see https://doi.org/10.5281/zenodo.13358976</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Nature Scientific Data, volume 12, article number: 277 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Bobby Xiong</name>
+    </author>
+    <author>
+      <name>Davide Fioriti</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Iegor Riepin</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1038/s41597-025-04550-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41597-025-04550-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.21409v2</id>
+    <title>Price formation without fuel costs: the interaction of demand elasticity with storage bidding</title>
+    <updated>2025-02-03T14:27:28Z</updated>
+    <link href="https://arxiv.org/abs/2407.21409v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.21409v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Studies looking at electricity market designs for very high shares of wind and solar often conclude that the energy-only market will break down. Without fuel costs, it is said that there is nothing to set prices. Symptoms of breakdown include long phases of zero prices, scarcity prices too high to be politically acceptable, prices that collapse under small perturbations of capacities from the long-term equilibrium, cost recovery that is impossible due to low market values, high variability of revenue between different weather years, and difficulty operating long-term storage with limited foresight. We argue that all these problems are an artefact of modelling with perfectly inelastic demand. If short-term elasticity to reflect today's flexible demand (-5%) is implemented, these problems are reduced. The interaction of demand willingness to pay and storage opportunity costs is enough to produce stable pricing. This behavior is illustrated by a model with wind, solar, batteries, and hydrogen-based storage, where the price duration curve is smoothed with a piecewise linear demand curve. This removes high price peaks, reduces the fraction of zero-price hours from 90% to around 30%, and guarantees more price stability for perturbations of capacity and different weather years. Furthermore, we show that with demand elasticity, the long-term optimisation model exactly reproduces the prices of the short-term model with the same capacities. We then use insights from the long-term model to derive simple bidding strategies for storage so that we can also run the short-term model with limited operational foresight. We demonstrate this short-term operation in a model optimised using 35 years of weather data and then tested on another 35 years of unseen data. We conclude that the energy-only market can still play a key role in coordinating dispatch and investment in the future.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-31T07:57:00Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Iegor Riepin</name>
+    </author>
+    <arxiv:doi>10.1016/j.eneco.2025.108483</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.eneco.2025.108483" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.14717v1</id>
+    <title>The impact of temporal hydrogen regulation on hydrogen exporters and their domestic energy transition</title>
+    <updated>2024-05-23T15:48:24Z</updated>
+    <link href="https://arxiv.org/abs/2405.14717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.14717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As global demand for green hydrogen rises, potential hydrogen exporters move into the spotlight. However, the large-scale installation of on-grid hydrogen electrolysis for export can have profound impacts on domestic energy prices and energy-related emissions. Our investigation explores the interplay of hydrogen exports, domestic energy transition and temporal hydrogen regulation, employing a sector-coupled energy model in Morocco. We find substantial co-benets of domestic climate change mitigation and hydrogen exports, whereby exports can reduce domestic electricity prices while mitigation reduces hydrogen export prices. However, increasing hydrogen exports quickly in a system that is still dominated by fossil fuels can substantially raise domestic electricity prices, if green hydrogen production is not regulated. Surprisingly, temporal matching of hydrogen production lowers domestic electricity cost by up to 31% while the effect on exporters is minimal. This policy instrument can steer the welfare (re-)distribution between hydrogen exporting firms, hydrogen importers, and domestic electricity consumers and hereby increases acceptance among actors.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-23T15:48:24Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Leon Schumm</name>
+    </author>
+    <author>
+      <name>Hazem Abdel-Khalek</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Falko Ueckerdt</name>
+    </author>
+    <author>
+      <name>Michael Sterner</name>
+    </author>
+    <author>
+      <name>Davide Fioriti</name>
+    </author>
+    <author>
+      <name>Max Parzen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.09721v1</id>
+    <title>Offshore power and hydrogen networks for Europe's North Sea</title>
+    <updated>2024-04-15T12:25:11Z</updated>
+    <link href="https://arxiv.org/abs/2404.09721v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.09721v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The European North Sea has a vast renewable energy potential and can be a powerhouse for Europe's energy transition. However, currently there is uncertainty about how much offshore wind energy can be integrated, whether offshore grids should be meshed and to what extent offshore hydrogen should play a role. To address these questions, we use the open-source energy system optimization model PyPSA-Eur to model a European carbon-neutral sector-coupled energy system in high spatial and temporal resolution. We let the model endogenously decide how much offshore wind is deployed and which infrastructure is used to integrate the offshore wind. We find that with point-to-point connections like we have today, 310 GW offshore wind can be integrated in the North Sea. However, if we allow meshed networks and hydrogen, we find that this can be raised to 420 GW with cost savings up to 15 billion euros per year. Furthermore, we only observe significant amounts of up to 75 GW of floating wind turbines in the North Sea if we have offshore hydrogen production. Generally, the model opts for offshore wind integration through a mix of both electricity and hydrogen infrastructure. However, the bulk of the offshore energy is transported as hydrogen, which is twice as much as the amount transported as electricity. Moreover, we find that the offshore power network is mainly used for offshore wind integration, with only a small portion used for inter-country transmission.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-15T12:25:11Z</published>
+    <arxiv:comment>27 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Philipp Glaum</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2024.123530</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2024.123530" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.03927v1</id>
+    <title>Energy Imports and Infrastructure in a Carbon-Neutral European Energy System</title>
+    <updated>2024-04-05T07:17:40Z</updated>
+    <link href="https://arxiv.org/abs/2404.03927v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.03927v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Importing renewable energy to Europe offers many potential benefits, including reduced energy costs, lower pressure on infrastructure development, and less land-use within Europe. However, there remain many open questions: on the achievable cost reductions, how much should be imported, whether the energy vector should be electricity, hydrogen or hydrogen derivatives like ammonia or steel, and their impact on Europe's domestic energy infrastructure needs. This study integrates the TRACE global energy supply chain model with the sector-coupled energy system model for Europe PyPSA-Eur to explore scenarios with varying import volumes, costs, and vectors. We find system cost reductions of 1-14%, depending on assumed import costs, with diminishing returns for larger import volumes and a preference for methanol, steel and hydrogen imports. Keeping some domestic power-to-X production is beneficial for integrating variable renewables, utilising waste heat from fuel synthesis and leveraging local sustainable carbon sources. Our findings highlight the need for coordinating import strategies with infrastructure policy and reveal maneuvering space for incorporating non-cost decision factors.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-05T07:17:40Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Johannes Hampp</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-025-60652-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-025-60652-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00036v1</id>
+    <title>Spatio-temporal load shifting for truly clean computing</title>
+    <updated>2024-03-26T13:36:42Z</updated>
+    <link href="https://arxiv.org/abs/2405.00036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Companies with datacenters are procuring significant amounts of renewable energy to reduce their carbon footprint. There is increasing interest in achieving 24/7 Carbon-Free Energy (CFE) matching in electricity usage, aiming to eliminate all carbon footprints associated with electricity consumption on an hourly basis. However, the variability of renewable energy resources poses significant challenges for achieving this goal. We explore the impact of shifting computing jobs and associated power loads both in time and between datacenter locations. We develop an optimization model to simulate a network of geographically distributed datacenters managed by a company leveraging spatio-temporal load flexibility to achieve 24/7 CFE matching. We isolate three signals relevant for informed use of load flexiblity: varying average quality of renewable energy resources, low correlation between wind power generation over long distances due to different weather conditions, and lags in solar radiation peak due to Earth's rotation. We illustrate that the location of datacenters and the time of year affect which signal drives an effective load-shaping strategy. The energy procurement and load-shifting decisions based on informed use of these signals facilitate the resource-efficiency and cost-effectiveness of clean computing -- the costs of 24/7 CFE are reduced by 1.29$\pm$0.07 EUR/MWh for every additional percentage of flexible load. We provide practical guidelines on how companies with datacenters can leverage spatio-temporal load flexibility for truly clean computing. Our results and the open-source optimization model can also be useful for a broader variety of companies with flexible loads and an interest in eliminating their carbon footprint.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-26T13:36:42Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Adv. Appl. Energy 17 (2025) 100202</arxiv:journal_ref>
+    <author>
+      <name>Iegor Riepin</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Victor Zavala</name>
+    </author>
+    <arxiv:doi>10.1016/j.adapen.2024.100202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.adapen.2024.100202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.19042v2</id>
+    <title>H$_2$ and CO$_2$ Network Strategies for the European Energy System</title>
+    <updated>2024-09-16T08:20:11Z</updated>
+    <link href="https://arxiv.org/abs/2402.19042v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.19042v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen and carbon dioxide transport can both play an essential role in climate-neutral energy systems. Hydrogen networks help serve regions with high energy demand, while excess emissions are transported away in carbon dioxide networks. For the synthesis of carbonaceous fuels, it is less clear which input should be transported: hydrogen to carbon point sources or carbon to low-cost hydrogen. We explore both networks' potential synergies and competition in a cost-optimal carbon-neutral European energy system. In a direct comparison, a hydrogen network is more cost-effective than a carbon network, as it serves to transport hydrogen to demand and to point source of carbon for utilization. However, in a hybrid scenario where both networks are present, the carbon network effectively complements the hydrogen network, promoting carbon capture from distributed biomass and reducing reliance on direct air capture. The layouts of the hydrogen and carbon dioxide networks are robust if the climate target is tightened to be net-negative.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-29T11:08:39Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Fabian Hofmann</name>
+    </author>
+    <author>
+      <name>Christoph Tries</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1038/s41560-025-01752-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41560-025-01752-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.07876v1</id>
+    <title>On the means, costs, and system-level impacts of 24/7 carbon-free energy procurement</title>
+    <updated>2023-12-06T13:28:26Z</updated>
+    <link href="https://arxiv.org/abs/2403.07876v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.07876v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A growing number of public and private energy buyers are interested in 24/7 carbon-free energy (CFE) procurement, which means that every kilowatt-hour of electricity consumption is met by carbon-free sources at all times. It has the potential to overcome the limitations of established procurement schemes, such as the temporal mismatch between clean electricity supply and buyers' demand that is inherent to "volumetric" matching. Yet it is unclear how 24/7 CFE procurement affects the rest of the power system, and whether this effect is consistent across regional contexts and different levels of system cleanness. We use a mathematical model to systematically examine different designs, optimal procurement strategies, costs, and impacts of the 24/7 CFE matching, both for participating buyers and for regions where voluntary procurement occurs. We examine mechanisms driving system-level missions reduction and how they vary across regions and over time. Our results indicate that clean energy procurement commitments have consistent beneficial effects on participants and the electricity system. Even as grids become cleaner over time, the hourly matching strategy contributes significantly to system-level emissions reduction. In addition, voluntary commitments to 24/7 CFE have a further transformative effect on electricity systems through accelerated innovation and early deployment of advanced energy technologies.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-06T13:28:26Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Iegor Riepin</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.12606v1</id>
+    <title>Benefits from Islanding Green Hydrogen Production</title>
+    <updated>2023-10-19T09:30:00Z</updated>
+    <link href="https://arxiv.org/abs/2310.12606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.12606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In wind- and solar-dominated energy systems it has been assumed that there are synergies between producing electricity and electrolytic hydrogen since electrolysis can use excess electricity that would otherwise be curtailed. However, it remains unclear whether these synergies hold true at higher levels of hydrogen demand and how they compare with benefits of off-grid, islanded hydrogen production, such as better renewable resources and cost savings on electronics due to relaxed power quality standards. Using a mathematical model across two geographical locations for Germany, Spain, Australia, and Great Britain, we explore trade-offs and synergies between integrated and islanded electrolysers. Below a certain threshold, between 5% and 40% hydrogen share depending on the country, integrated electrolysers offer synergies in flexibility and reduced curtailment. Above these thresholds, islanded electrolysers become more favourable. Without cost advantages, systems including islanded electrolysers in Germany achieve up to 21% lower hydrogen costs than systems with only integrated electrolysers. With 25% island cost advantage, this benefit rises to 40% lower hydrogen costs. Our study identifies three investment regimes with country-specific transition points that vary based on island cost advantages and each country's renewable resources. Based on our results we provide guidelines for countries considering how to deploy electrolysers.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-19T09:30:00Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Christoph Tries</name>
+    </author>
+    <author>
+      <name>Fabian Hofmann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.01996v2</id>
+    <title>Offshore Wind Integration in the North Sea: The Benefits of an Offshore Grid and Floating Wind</title>
+    <updated>2023-06-08T05:58:27Z</updated>
+    <link href="https://arxiv.org/abs/2305.01996v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.01996v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wind energy has become increasingly important for meeting Europe's energy needs. While onshore wind expansion faces public acceptance problems, for offshore wind the European Commission has introduced ambitious goals to increase capacity from 15GW to 300GW in 2050. Incorporating more offshore wind electricity into the power grid may offer a more widely accepted way to satisfy Europe's energy demand. In particular, the North Sea region has large potential for offshore wind generation. However, to fully exploit the wind potential in the North Sea, the grid integration of offshore wind and floating wind turbines are vital, especially when onshore wind capacity and onshore grid expansion are constrained. For the grid integration, a meshed offshore grid can offer a viable alternative to the standard direct connection of offshore wind parks to the nearest point on land combined with point-to-point HVDC connections. In this paper, we investigate the benefits of having a meshed offshore grid in the North Sea and considering floating wind besides fixed-bottom wind installations. In our analysis, we look at eight different scenarios, where onshore wind potentials and onshore line expansion are limited, to explore the effects of low public acceptance. Our results demonstrate that the presence of an offshore grid can reduce total system costs by up to 2.6 bn Euro/a. In the scenarios with an offshore meshed grid, ~8% more offshore wind capacities are built compared to the scenarios without a meshed grid. Furthermore, the analysis shows that if onshore wind potentials are restricted, floating wind turbines play a key role and compensate for lacking onshore wind capacities.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-03T09:33:23Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Philipp Glaum</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.07459v2</id>
+    <title>The Capacity for Moral Self-Correction in Large Language Models</title>
+    <updated>2023-02-18T21:30:27Z</updated>
+    <link href="https://arxiv.org/abs/2302.07459v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.07459v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We test the hypothesis that language models trained with reinforcement learning from human feedback (RLHF) have the capability to "morally self-correct" -- to avoid producing harmful outputs -- if instructed to do so. We find strong evidence in support of this hypothesis across three different experiments, each of which reveal different facets of moral self-correction. We find that the capability for moral self-correction emerges at 22B model parameters, and typically improves with increasing model size and RLHF training. We believe that at this level of scale, language models obtain two capabilities that they can use for moral self-correction: (1) they can follow instructions and (2) they can learn complex normative concepts of harm like stereotyping, bias, and discrimination. As such, they can follow instructions to avoid certain kinds of morally harmful outputs. We believe our results are cause for cautious optimism regarding the ability to train language models to abide by ethical principles.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-15T04:25:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Thomas I. Liao</name>
+    </author>
+    <author>
+      <name>Kamilė Lukošiūtė</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Anna Goldie</name>
+    </author>
+    <author>
+      <name>Azalia Mirhoseini</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Dustin Li</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Jamie Kerr</name>
+    </author>
+    <author>
+      <name>Jared Mueller</name>
+    </author>
+    <author>
+      <name>Joshua Landau</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Karina Nguyen</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Michael Sellitto</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Noemi Mercado</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Oliver Rausch</name>
+    </author>
+    <author>
+      <name>Robert Lasenby</name>
+    </author>
+    <author>
+      <name>Robin Larson</name>
+    </author>
+    <author>
+      <name>Sam Ringer</name>
+    </author>
+    <author>
+      <name>Sandipan Kundu</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Sheer El Showk</name>
+    </author>
+    <author>
+      <name>Tamera Lanham</name>
+    </author>
+    <author>
+      <name>Timothy Telleen-Lawton</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.09251v1</id>
+    <title>Discovering Language Model Behaviors with Model-Written Evaluations</title>
+    <updated>2022-12-19T05:13:52Z</updated>
+    <link href="https://arxiv.org/abs/2212.09251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.09251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is time-consuming and expensive) or existing data sources (which are not always available). Here, we automatically generate evaluations with LMs. We explore approaches with varying amounts of human effort, from instructing LMs to write yes/no questions to making complex Winogender schemas with multiple stages of LM-based generation and filtering. Crowdworkers rate the examples as highly relevant and agree with 90-100% of labels, sometimes more so than corresponding human-written datasets. We generate 154 datasets and discover new cases of inverse scaling where LMs get worse with size. Larger LMs repeat back a dialog user's preferred answer ("sycophancy") and express greater desire to pursue concerning goals like resource acquisition and goal preservation. We also find some of the first examples of inverse scaling in RL from Human Feedback (RLHF), where more RLHF makes LMs worse. For example, RLHF makes LMs express stronger political views (on gun rights and immigration) and a greater desire to avoid shut down. Overall, LM-written evaluations are high-quality and let us quickly discover many novel LM behaviors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-19T05:13:52Z</published>
+    <arxiv:comment>for associated data visualizations, see https://www.evals.anthropic.com/model-written/ for full datasets, see https://github.com/anthropics/evals</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Sam Ringer</name>
+    </author>
+    <author>
+      <name>Kamilė Lukošiūtė</name>
+    </author>
+    <author>
+      <name>Karina Nguyen</name>
+    </author>
+    <author>
+      <name>Edwin Chen</name>
+    </author>
+    <author>
+      <name>Scott Heiner</name>
+    </author>
+    <author>
+      <name>Craig Pettit</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Sandipan Kundu</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Brian Israel</name>
+    </author>
+    <author>
+      <name>Bryan Seethor</name>
+    </author>
+    <author>
+      <name>Cameron McKinnon</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Da Yan</name>
+    </author>
+    <author>
+      <name>Daniela Amodei</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Dustin Li</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Guro Khundadze</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>James Landis</name>
+    </author>
+    <author>
+      <name>Jamie Kerr</name>
+    </author>
+    <author>
+      <name>Jared Mueller</name>
+    </author>
+    <author>
+      <name>Jeeyoon Hyun</name>
+    </author>
+    <author>
+      <name>Joshua Landau</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Landon Goldberg</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Martin Lucas</name>
+    </author>
+    <author>
+      <name>Michael Sellitto</name>
+    </author>
+    <author>
+      <name>Miranda Zhang</name>
+    </author>
+    <author>
+      <name>Neerav Kingsland</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Noemí Mercado</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Oliver Rausch</name>
+    </author>
+    <author>
+      <name>Robin Larson</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Sheer El Showk</name>
+    </author>
+    <author>
+      <name>Tamera Lanham</name>
+    </author>
+    <author>
+      <name>Timothy Telleen-Lawton</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Evan Hubinger</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.08073v1</id>
+    <title>Constitutional AI: Harmlessness from AI Feedback</title>
+    <updated>2022-12-15T06:19:23Z</updated>
+    <link href="https://arxiv.org/abs/2212.08073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.08073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-15T06:19:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Sandipan Kundu</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Anna Goldie</name>
+    </author>
+    <author>
+      <name>Azalia Mirhoseini</name>
+    </author>
+    <author>
+      <name>Cameron McKinnon</name>
+    </author>
+    <author>
+      <name>Carol Chen</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Dustin Li</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Jamie Kerr</name>
+    </author>
+    <author>
+      <name>Jared Mueller</name>
+    </author>
+    <author>
+      <name>Jeffrey Ladish</name>
+    </author>
+    <author>
+      <name>Joshua Landau</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Kamile Lukosuite</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Michael Sellitto</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Noemi Mercado</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Robert Lasenby</name>
+    </author>
+    <author>
+      <name>Robin Larson</name>
+    </author>
+    <author>
+      <name>Sam Ringer</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Sheer El Showk</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Tamera Lanham</name>
+    </author>
+    <author>
+      <name>Timothy Telleen-Lawton</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.04870v1</id>
+    <title>Meteorological conditions during Dunkelflauten in Germany: Characteristics, the role of weather regimes and impacts on demand</title>
+    <updated>2022-12-09T14:23:04Z</updated>
+    <link href="https://arxiv.org/abs/2212.04870v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.04870v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Renewable generation from wind and solar power is strongly weather-dependent. To plan future sustainable energy systems that are robust to this variability, a better understanding of why and when periods of low wind and solar power output occur is valuable. We call such periods of low wind and solar power output `Dunkelflauten', the German word for dark wind lulls. In this article, we analyse the meteorological conditions during Dunkelflauten in Germany by applying the concept of weather regimes. Weather regimes are quasi-stationary, recurrent, and persistent large-scale circulation patterns which explain multi-day atmospheric variability (5-15 days). We use a regime definition that allows us to distinguish four different types of blocked regimes, characterised by high pressure situations in the North Atlantic-European region. We find that in Germany, Dunkelflauten mainly occur in winter when the solar power output is anyway low and when the wind power output drops for several consecutive days. A high-pressure system over Germany, associated with the European Blocking regime, is responsible for most of the Dunkelflauten. Dunkelflauten during the Greenland Blocking regime are associated with colder temperatures than usual, causing higher electricity demand and presenting a particular challenge as space heating demand electrifies in future. Furthermore, we show that Dunkelflauten occur predominantly when a weather regime is well-established and persists longer than usual. Our study provides novel insight on the occurrence and meteorological characteristics of Dunkelflauten, which is essential for planning resilient energy systems and supporting grid operators to prepare for potential shortages in supply.</summary>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-09T14:23:04Z</published>
+    <arxiv:comment>20pages, 11figures, submitted to "Meteorological Applications" by Royal Meteorological Society (https://rmets.onlinelibrary.wiley.com/journal/14698080)</arxiv:comment>
+    <arxiv:primary_category term="physics.ao-ph"/>
+    <author>
+      <name>Fabian Mockert</name>
+    </author>
+    <author>
+      <name>Christian M. Grams</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <arxiv:doi>10.1002/met.2141</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/met.2141" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.03540v2</id>
+    <title>Measuring Progress on Scalable Oversight for Large Language Models</title>
+    <updated>2022-11-11T20:17:18Z</updated>
+    <link href="https://arxiv.org/abs/2211.03540v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.03540v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Developing safe and useful general-purpose AI systems will require us to make progress on scalable oversight: the problem of supervising systems that potentially outperform us on most skills relevant to the task at hand. Empirical work on this problem is not straightforward, since we do not yet have systems that broadly exceed our abilities. This paper discusses one of the major ways we think about this problem, with a focus on ways it can be studied empirically. We first present an experimental design centered on tasks for which human specialists succeed but unaided humans and current general AI systems fail. We then present a proof-of-concept experiment meant to demonstrate a key feature of this experimental design and show its viability with two question-answering tasks: MMLU and time-limited QuALITY. On these tasks, we find that human participants who interact with an unreliable large-language-model dialog assistant through chat -- a trivial baseline strategy for scalable oversight -- substantially outperform both the model alone and their own unaided performance. These results are an encouraging sign that scalable oversight will be tractable to study with present models and bolster recent findings that large language models can productively assist humans with difficult tasks.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-04T17:03:49Z</published>
+    <arxiv:comment>v2 fixes a few typos from v1</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Jeeyoon Hyun</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Edwin Chen</name>
+    </author>
+    <author>
+      <name>Craig Pettit</name>
+    </author>
+    <author>
+      <name>Scott Heiner</name>
+    </author>
+    <author>
+      <name>Kamilė Lukošiūtė</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Anna Goldie</name>
+    </author>
+    <author>
+      <name>Azalia Mirhoseini</name>
+    </author>
+    <author>
+      <name>Cameron McKinnon</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Daniela Amodei</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Dustin Li</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Jamie Kerr</name>
+    </author>
+    <author>
+      <name>Jared Mueller</name>
+    </author>
+    <author>
+      <name>Jeffrey Ladish</name>
+    </author>
+    <author>
+      <name>Joshua Landau</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Noemí Mercado</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Robin Larson</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Sandipan Kundu</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Sheer El Showk</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Timothy Telleen-Lawton</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.00970v1</id>
+    <title>Topology-based Approximations for $\mathcal{N}-1$ Contingency Constraints in Power Transmission Networks</title>
+    <updated>2022-11-02T09:17:11Z</updated>
+    <link href="https://arxiv.org/abs/2211.00970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.00970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is crucial for maintaining the security of supply that transmission networks continue to operate even if a single line fails. Modeling $\mathcal{N} - 1$ security in power system capacity expansion problems introduces many extra constraints if all possible outages are accounted for, which leads to a high computational burden. Typical approaches to avoid this burden consider only a subset of possible outages relevant to a given dispatch situation. However, this relies on knowing the dispatch situation beforehand, and it is not suitable for investment optimization problems where the generation fleet is not known in advance. In this paper, we introduce a heuristic approach to model the fully secured $\mathcal{N}-1$ feasible space using a smaller number of constraints in a way that only depends on the topology of transmission networks. In our proposed approach, the network's security is modelled by comparing the polytope of the feasible space of nodal net power obtained from the security-constrained linearized AC optimal power flow problem. To approximate this polytope, a buffer capacity factor is defined for transmission lines in the $\mathcal{N}-0$ secure case, thereby avoiding the introduction of many additional constraints. In this way, three approaches are introduced for obtaining a buffer capacity factor consisting of approximate, robust and line-specific approaches. Finally, the performance of our proposed approaches is assessed in different scales of transmission networks for determining the proposed buffer capacity factors, contingency analysis and economic evaluation. Moreover, we find that our proposed heuristics provide excellent approximations of the fully secured $\mathcal{N}-1$ solutions with a much lower computational burden.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-02T09:17:11Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>International Journal of Electrical Power &amp; Energy Systems, 2021</arxiv:journal_ref>
+    <author>
+      <name>Amin Shokri Gazafroudi</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijepes.2021.107702</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijepes.2021.107702" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.11895v1</id>
+    <title>In-context Learning and Induction Heads</title>
+    <updated>2022-09-24T00:43:19Z</updated>
+    <link href="https://arxiv.org/abs/2209.11895v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.11895v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>"Induction heads" are attention heads that implement a simple algorithm to complete token sequences like [A][B] ... [A] -&gt; [B]. In this work, we present preliminary and indirect evidence for a hypothesis that induction heads might constitute the mechanism for the majority of all "in-context learning" in large transformer models (i.e. decreasing loss at increasing token indices). We find that induction heads develop at precisely the same point as a sudden sharp increase in in-context learning ability, visible as a bump in the training loss. We present six complementary lines of evidence, arguing that induction heads may be the mechanistic source of general in-context learning in transformer models of any size. For small attention-only models, we present strong, causal evidence; for larger models with MLPs, we present correlational evidence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-24T00:43:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Neel Nanda</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.02364v2</id>
+    <title>Inverse methods: How feasible are spatially low-resolved capacity expansion modelling results when disaggregated at high spatial resolution?</title>
+    <updated>2023-07-03T12:56:31Z</updated>
+    <link href="https://arxiv.org/abs/2209.02364v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.02364v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spatially highly-resolved capacity expansion models are often simplified to a lower spatial resolution because they are computationally intensive. The simplification mixes sites with different renewable features while ignoring transmission lines that can cause congestion. As a consequence, the results may represent an infeasible system when the capacities are fed back at higher spatial detail. Thus far there has been no detailed investigation of how to disaggregate results and whether the spatially highly-resolved disaggregated model is feasible. This is challenging since there is no unique way to invert the clustering.
+  This article is split into two parts to tackle these challenges. First, methods to disaggregate spatially low-resolved results are presented: (a) an uniform distribution of regional results across its original highly-resolved regions, (b) a re-optimisation for each region separately, (c) an approach that minimises the "excess electricity". Second, the resulting highly-resolved models' feasibility is investigated by running an operational dispatch. While re-optimising yields the best results, the third inverse method provides comparable results for less computational effort. Feasibility-wise, the study design strengthens that modelling countries by single regions is insufficient. State-of-the-art reduced models with 100-200 regions for Europe still yield 3%-7% of load-shedding, depending on model resolution and inverse method.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-06T10:46:44Z</published>
+    <arxiv:comment>Post-print</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <arxiv:journal_ref>Energy, 2023</arxiv:journal_ref>
+    <author>
+      <name>Martha Maria Frysztacki</name>
+    </author>
+    <author>
+      <name>Veit Hagenmeyer</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2023.128133</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2023.128133" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.07858v2</id>
+    <title>Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned</title>
+    <updated>2022-11-22T19:12:57Z</updated>
+    <link href="https://arxiv.org/abs/2209.07858v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.07858v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe our early efforts to red team language models in order to simultaneously discover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. First, we investigate scaling behaviors for red teaming across 3 model sizes (2.7B, 13B, and 52B parameters) and 4 model types: a plain language model (LM); an LM prompted to be helpful, honest, and harmless; an LM with rejection sampling; and a model trained to be helpful and harmless using reinforcement learning from human feedback (RLHF). We find that the RLHF models are increasingly difficult to red team as they scale, and we find a flat trend with scale for the other model types. Second, we release our dataset of 38,961 red team attacks for others to analyze and learn from. We provide our own analysis of the data and find a variety of harmful outputs, which range from offensive language to more subtly harmful non-violent unethical outputs. Third, we exhaustively describe our instructions, processes, statistical methodologies, and uncertainty about red teaming. We hope that this transparency accelerates our ability to work together as a community in order to develop shared norms, practices, and technical standards for how to red team language models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-23T23:37:14Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Sam Bowman</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Sheer El-Showk</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Josh Jacobson</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Sam Ringer</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.05816v2</id>
+    <title>The Potential Role of a Hydrogen Network in Europe</title>
+    <updated>2023-03-13T12:21:08Z</updated>
+    <link href="https://arxiv.org/abs/2207.05816v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.05816v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electricity transmission expansion has suffered many delays in Europe in recent decades, despite its significance for integrating renewable electricity into the energy system. A hydrogen network which reuses the existing fossil gas network could not only help to supply demand for low-emission fuels, but could also to balance variations in wind and solar energy across the continent and thus avoid power grid expansion. We pursue this idea by varying the allowed expansion of electricity and hydrogen grids in net-zero CO2 scenarios for a sector-coupled and self-sufficient European energy system with high shares of renewables. We cover the electricity, buildings, transport, agriculture, and industry sectors across 181 regions and model every third hour of a year. With this high spatio-temporal resolution, the model can capture bottlenecks in transmission networks, the variability of demand and renewable supply, as well as regional opportunities for the retrofitting of legacy gas infrastructure and the development of geological hydrogen storage. Our results show consistent system cost reductions with a pan-continental hydrogen network that connects regions with low-cost and abundant renewable potentials to demand centres, synthetic fuel production and cavern storage sites. Developing a hydrogen network reduces system costs by up to 26 billion Euros per year (3.4%), with the highest benefits when electricity grid reinforcements cannot be realised. Between 64% and 69% of this network could be built from repurposed natural gas pipelines. However, we find that hydrogen networks can only partially substitute for power grid expansion. While the expansion of both networks together can achieve the largest cost savings of 10%, the expansion of neither is truly essential as long as higher costs can be accepted and regulatory changes are made to manage grid bottlenecks.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-12T20:22:47Z</published>
+    <arxiv:comment>including supplementary material</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.joule.2023.06.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.joule.2023.06.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.05221v4</id>
+    <title>Language Models (Mostly) Know What They Know</title>
+    <updated>2022-11-21T16:38:35Z</updated>
+    <link href="https://arxiv.org/abs/2207.05221v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.05221v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study whether language models can evaluate the validity of their own claims and predict which questions they will be able to answer correctly. We first show that larger models are well-calibrated on diverse multiple choice and true/false questions when they are provided in the right format. Thus we can approach self-evaluation on open-ended sampling tasks by asking models to first propose answers, and then to evaluate the probability "P(True)" that their answers are correct. We find encouraging performance, calibration, and scaling for P(True) on a diverse array of tasks. Performance at self-evaluation further improves when we allow models to consider many of their own samples before predicting the validity of one specific possibility. Next, we investigate whether models can be trained to predict "P(IK)", the probability that "I know" the answer to a question, without reference to any particular proposed answer. Models perform well at predicting P(IK) and partially generalize across tasks, though they struggle with calibration of P(IK) on new tasks. The predicted P(IK) probabilities also increase appropriately in the presence of relevant source materials in the context, and in the presence of hints towards the solution of mathematical word problems. We hope these observations lay the groundwork for training more honest models, and for investigating how honesty generalizes to cases where models are trained on objectives other than the imitation of human writing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-11T22:59:39Z</published>
+    <arxiv:comment>23+17 pages; refs added, typos fixed</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Sheer El-Showk</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Sam Bowman</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Josh Jacobson</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Sam Ringer</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.03000v1</id>
+    <title>Are biofuel mandates cost-effective? -- an analysis of transport fuels and biomass usage to achieve emissions targets in the European energy system</title>
+    <updated>2022-07-06T22:33:12Z</updated>
+    <link href="https://arxiv.org/abs/2207.03000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.03000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Abatement options for the hard-to-electrify parts of the transport sector are needed to achieve ambitious emissions targets. Biofuels based on biomass, electrofuels based on renewable hydrogen and a carbon source, as well as fossil fuels compensated by carbon dioxide removal (CDR) are the main options. Currently, biofuels are the only renewable fuels available at scale and are stimulated by blending mandates. Here, we estimate the system cost of enforcing such mandates in addition to an overall emissions cap for all energy sectors. We model overnight scenarios for 2040 and 2060 with the sector-coupled European energy system model PyPSA-Eur-Sec, with a high temporal resolution. The following cost drivers are identified: (i) high biomass costs due to scarcity, (ii) opportunity costs for competing usages of biomass for industry heat and combined heat and power (CHP) with carbon capture, and (iii) lower scalability and generally higher cost for biofuels compared to electrofuels and fossil fuels combined with CDR. With a -80% emissions reduction target in 2040, variable renewables, partial electrification of heat, industry and transport and biomass use for CHP and industrial heat are important for achieving the target at minimal cost. Abatement of remaining liquid fossil fuel use increases system cost, with a 50% biofuel mandate increasing costs by 128-229 billion EUR, or 39-82% of the liquid fuel cost. With a negative -105% emissions target in 2060, fuel abatement options are necessary, and electrofuels or the use of CDR to offset fossil fuel emissions are more competitive than biofuels. Biomass is preferred in CHP and industry heat, combined with carbon capture to serve negative emissions or electrofuel production, thereby utilising biogenic carbon several times. Sensitivity analyses reveal significant uncertainties but consistently support that higher biofuel mandates lead to higher costs.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-06T22:33:12Z</published>
+    <arxiv:comment>25 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Markus Millinger</name>
+    </author>
+    <author>
+      <name>Lina Reichenberg</name>
+    </author>
+    <author>
+      <name>Fredrik Hedenus</name>
+    </author>
+    <author>
+      <name>Göran Berndes</name>
+    </author>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2022.120016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2022.120016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.11901v5</id>
+    <title>Endogenous learning for green hydrogen in a sector-coupled energy model for Europe</title>
+    <updated>2023-02-03T15:52:04Z</updated>
+    <link href="https://arxiv.org/abs/2205.11901v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.11901v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many studies have shown that hydrogen could play a large role in the energy transition for hard-to-electrify sectors, but previous modelling has not included the necessary features to assess its role. They have either left out important sectors of hydrogen demand, ignored the temporal variability in the system or neglected the dynamics of learning effects. We address these limitations and consider learning-by-doing for the full green hydrogen production chain with different climate targets in a detailed European sector-coupled model. Here, we show that in the next 10 years a faster scale-up of electrolysis and renewable capacities than envisaged by the EU in the REPowerEU Plan is cost-optimal in order to reach the +1.5°C target. This reduces the costs for hydrogen production to 1.26 Eur/kg by 2050. Hydrogen production switches from grey to green hydrogen, omitting the option of blue hydrogen. If electrolysis costs are modelled without dynamic learning-by-doing, then the electrolysis scale-up is significantly delayed, while total system costs are overestimated by up to 13% and the levelised cost of hydrogen is overestimated by 67%.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-24T08:52:06Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-023-39397-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-023-39397-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.10487v1</id>
+    <title>Scaling Laws and Interpretability of Learning from Repeated Data</title>
+    <updated>2022-05-21T02:14:27Z</updated>
+    <link href="https://arxiv.org/abs/2205.10487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.10487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language models have been trained on vast datasets, but also often on repeated data, either intentionally for the purpose of upweighting higher quality data, or unintentionally because data deduplication is not perfect and the model is exposed to repeated data at the sentence, paragraph, or document level. Some works have reported substantial negative performance effects of this repeated data. In this paper we attempt to study repeated data systematically and to understand its effects mechanistically. To do this, we train a family of models where most of the data is unique but a small fraction of it is repeated many times. We find a strong double descent phenomenon, in which repeated data can lead test loss to increase midway through training. A predictable range of repetition frequency leads to surprisingly severe degradation in performance. For instance, performance of an 800M parameter model can be degraded to that of a 2x smaller model (400M params) by repeating 0.1% of the data 100 times, despite the other 90% of the training tokens remaining unique. We suspect there is a range in the middle where the data can be memorized and doing so consumes a large fraction of the model's capacity, and this may be where the peak of degradation occurs. Finally, we connect these observations to recent mechanistic interpretability work - attempting to reverse engineer the detailed computations performed by the model - by showing that data repetition disproportionately damages copying and internal structures associated with generalization, such as induction heads, providing a possible mechanism for the shift from generalization to memorization. Taken together, these results provide a hypothesis for why repeating a relatively small fraction of data in large language models could lead to disproportionately large harms to performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-21T02:14:27Z</published>
+    <arxiv:comment>23 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Sheer El-Showk</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.05862v1</id>
+    <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
+    <updated>2022-04-12T15:02:38Z</updated>
+    <link href="https://arxiv.org/abs/2204.05862v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.05862v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply preference modeling and reinforcement learning from human feedback (RLHF) to finetune language models to act as helpful and harmless assistants. We find this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efficiently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-12T15:02:38Z</published>
+    <arxiv:comment>Data available at https://github.com/anthropics/hh-rlhf</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Sheer El-Showk</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Neel Nanda</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.07785v2</id>
+    <title>Predictability and Surprise in Large Generative Models</title>
+    <updated>2022-10-03T21:00:42Z</updated>
+    <link href="https://arxiv.org/abs/2202.07785v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.07785v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale pre-training has recently emerged as a technique for creating capable, general purpose, generative models such as GPT-3, Megatron-Turing NLG, Gopher, and many others. In this paper, we highlight a counterintuitive property of such models and discuss the policy implications of this property. Namely, these generative models have an unusual combination of predictable loss on a broad training distribution (as embodied in their "scaling laws"), and unpredictable specific capabilities, inputs, and outputs. We believe that the high-level predictability and appearance of useful capabilities drives rapid development of such models, while the unpredictable qualities make it difficult to anticipate the consequences of model deployment. We go through examples of how this combination can lead to socially harmful behavior with examples from the literature and real world observations, and we also perform two novel experiments to illustrate our point about harms from unpredictability. Furthermore, we analyze how these conflicting properties combine to give model developers various motivations for deploying these models, and challenges that can hinder deployment. We conclude with a list of possible interventions the AI community may take to increase the chance of these models having a beneficial impact. We intend this paper to be useful to policymakers who want to understand and regulate AI systems, technologists who care about the potential policy impact of their work, and academics who want to analyze, critique, and potentially develop large generative models.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-15T23:21:23Z</published>
+    <arxiv:comment>Updated to reflect the version submitted (and accepted) to ACM FAccT '22. This update incorporates feedback from peer-review and fixes minor typos. See open access FAccT conference version at: https://dl.acm.org/doi/abs/10.1145/3531146.3533229</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Sheer El Showk</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Neel Nanda</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Daniela Amodei</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <arxiv:doi>10.1145/3531146.3533229</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3531146.3533229" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.06667v2</id>
+    <title>Long-Term Benefits of Network Boosters for Renewables Integration and Corrective Grid Security</title>
+    <updated>2022-05-16T16:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2112.06667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.06667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The preventative strategies for $N-1$ network security dominant in European networks mean that network capacity is kept free in case a line fails. If instead fast corrective actions are used to overcome network overloading when single lines fail, this has the potential to free up network capacity that is otherwise underused in preventive $N-1$ security strategies. In this paper, we investigate the impact on renewable integration of a corrective network security strategy, whereby storage or other flexibility assets are used to correct overloading shortly after line outages. In this way, we find significant cost savings for the integration of renewable energy of up to 2.4 billion euros per year in an aggregated 50-bus model of the German power system utilizing these flexibility assets, so-called network boosters (NB). This offers a role for storage beyond energy arbitrage or ancillary services like frequency control. While previous literature has focused on the potential savings of NB in the short-term operation, we focus on the long-term benefits in systems with high shares of renewable energy sources, where the capacities and dispatch of generation and NB are optimised. We demonstrate the benefits of NB for various shares of renewable energy, NB and flexibility costs, as well as different allowed levels of temporary overloading the lines in both (i) a sequential model, where long-run generation investments are optimised separately from the NB capacities, and (ii) a simultaneous model, where generation is co-optimised with NB investment so that mixed preventive-corrective approaches are possible.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-13T13:38:52Z</published>
+    <arxiv:comment>Preprint submitted to International Journal of Electrical Power &amp; Energy Systems</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Amin Shokri Gazafroudi</name>
+    </author>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Martha Frysztacki</name>
+    </author>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.00861v3</id>
+    <title>A General Language Assistant as a Laboratory for Alignment</title>
+    <updated>2021-12-09T21:40:22Z</updated>
+    <link href="https://arxiv.org/abs/2112.00861v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.00861v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, honest, and harmless. As an initial foray in this direction we study simple baseline techniques and evaluations, such as prompting. We find that the benefits from modest interventions increase with model size, generalize to a variety of alignment evaluations, and do not compromise the performance of large models. Next we investigate scaling trends for several training objectives relevant to alignment, comparing imitation learning, binary discrimination, and ranked preference modeling. We find that ranked preference modeling performs much better than imitation learning, and often scales more favorably with model size. In contrast, binary discrimination typically performs and scales very similarly to imitation learning. Finally we study a `preference model pre-training' stage of training, with the goal of improving sample efficiency when finetuning on human preferences.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-01T22:24:34Z</published>
+    <arxiv:comment>26+19 pages; v2 typos fixed, refs added, figure scale / colors fixed; v3 correct very non-standard TruthfulQA formatting and metric, alignment implications slightly improved</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.14443v1</id>
+    <title>Broad Ranges of Investment Configurations for Renewable Power Systems, Robust to Cost Uncertainty and Near-Optimality</title>
+    <updated>2021-11-29T10:48:45Z</updated>
+    <link href="https://arxiv.org/abs/2111.14443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.14443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To achieve ambitious greenhouse gas emission reduction targets in time, the planning of future energy systems needs to accommodate societal preferences, e.g. low levels of acceptance for transmission expansion or onshore wind turbines, and must also acknowledge the inherent uncertainties of technology cost projections. To date, however, many capacity expansion models lean heavily towards only minimising system cost and only studying a few cost projections. Here, we address both criticisms in unison. While taking account of technology cost uncertainties, we apply methods from multi-objective optimisation to explore trade-offs in a fully renewable European electricity system between increasing system cost and extremising the use of individual technologies for generating, storing and transmitting electricity to build robust insights about what actions are viable within given cost ranges. We identify boundary conditions that must be met for cost-efficiency regardless of how cost developments will unfold; for instance, that some grid reinforcement and long-term storage alongside a significant amount of wind capacity appear essential. But, foremost, we reveal that near the cost-optimum a broad spectrum of regionally and technologically diverse options exists in any case, which allows policymakers to navigate around public acceptance issues. The analysis requires managing many computationally demanding scenario runs efficiently, for which we leverage multi-fidelity surrogate modelling techniques using sparse polynomial chaos expansions and low-discrepancy sampling.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-29T10:48:45Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.isci.2023.106702</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.isci.2023.106702" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09563v2</id>
+    <title>Speed of technological transformations required in Europe to achieve different climate goals</title>
+    <updated>2022-01-28T16:22:07Z</updated>
+    <link href="https://arxiv.org/abs/2109.09563v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.09563v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Europe's contribution to global warming will be determined by the cumulative emissions until climate neutrality is achieved. In this paper, we investigate alternative transition paths under carbon budgets corresponding to temperature increases between 1.5 and 2C. We use PyPSA-Eur-Sec, an open model of the sector-coupled European energy system with high spatial and temporal resolution. All the paths entail similar technological transformations, but the timing of the scale-up of important technologies like water electrolysis, carbon capture and hydrogen networks differs in the model. In our results, solar PV, onshore and offshore wind become the cornerstone of a net-zero energy system enabling the decarbonisation of other sectors via direct electrification (e.g. heat pumps and electric vehicles) or indirect electrification (e.g. using synthetic fuels). Under the cost and performance assumptions applied, for a social cost of carbon (SCC) of 120EUR/tCO2, transition paths under 1.5 and 1.6C budgets are, respectively, 8%, and 1% more expensive than the 2C-budget because building assets earlier costs more. These pathways also see a faster ramp-up of new technologies before 2035. Under these assumptions, the 1.5C-budget is cost-optimal in our model, if SCC of at least 300 EUR/tCO2 is considered. Moreover, we discuss the strong implications of the SCC and discount rate assumed when comparing alternative paths. We also analyse the consequences of different assumptions on the cost and potential of CO2 sequestration.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-20T14:19:11Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Joule, 2022</arxiv:journal_ref>
+    <author>
+      <name>Marta Victoria</name>
+    </author>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.joule.2022.04.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.joule.2022.04.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01092v3</id>
+    <title>Import options for chemical energy carriers from renewable sources to Germany</title>
+    <updated>2023-02-02T15:53:59Z</updated>
+    <link href="https://arxiv.org/abs/2107.01092v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01092v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Import and export of fossil energy carriers are cornerstones of energy systems world-wide. If energy systems are to become climate neutral and sustainable, fossil carriers need to be substituted with carbon neutral alternatives or electrified if possible. We investigate synthetic chemical energy carriers, H2, CH4, MeOH, NH3 and Fischer-Tropsch fuels (FTF), produced using electricity from RES as fossil substitutes. [...] We model the sourcing of feedstock chemicals, synthesis and transport along nine different Energy Supply Chains to Germany (DE) and compare import options for seven locations around the world against each other and with domestically sourced alternatives on the basis of their respective cost per unit of H2 and energy delivered. We find that for each type of chemical energy carrier, there is an import option with lower costs compared to domestic production in DE. No single exporting country or energy carrier has a unique cost advantage, since for each energy carrier and country there are cost-competitive alternatives. This allows exporter and infrastructure decisions to be made based on other criteria than energy and cost. The lowest cost means for importing of energy and H2 are by H2 pipeline from Denmark, Spain and Western Asia and Northern Africa starting at 36 EUR/MWhLHV to 42 EUR/MWh-LHV or 1.0 EUR/kg-H2 to 1.3 EUR/kg-H2 (in 2050, assuming 5 % p.a. capital cost). For complex energy carriers derived from H2 like CH4, NH3, MeOH or FTF, imports from Argentina by ship to DE are lower cost than closer exporters in the European Union or Western Asia and Northern Africa. For meeting H2 demand, direct H2 imports are more attractive than indirect routes using CH4, MeOH or NH3 imports and subsequent decomposition to H2 because of high capital investment costs and energetic losses. We make our model and data available under open licenses for adaptation and reuse.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:07:19Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>PLOS ONE, 2023</arxiv:journal_ref>
+    <author>
+      <name>Johannes Hampp</name>
+    </author>
+    <author>
+      <name>Michael Düren</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pone.0281380</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pone.0281380" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.10859v4</id>
+    <title>The strong effect of network resolution on electricity system models with high shares of wind and solar</title>
+    <updated>2023-01-16T15:42:59Z</updated>
+    <link href="https://arxiv.org/abs/2101.10859v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.10859v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Energy system modellers typically choose a low spatial resolution for their models based on administrative boundaries such as countries, which eases data collection and reduces computation times. However, a low spatial resolution can lead to sub-optimal investment decisions for wind and solar generation. Ignoring power grid bottlenecks within regions tends to underestimate system costs, while combining locations with different wind and solar capacity factors in the same resource class tends to overestimate costs. We investigate these two competing effects in a capacity expansion model for Europe's power system with a high share of renewables, taking advantage of newly-available high-resolution datasets as well as computational advances. We vary the number of nodes, interpolating between a 37-node model based on country and synchronous zone boundaries, and a 1024-node model based on the location of electricity substations. If we focus on the effect of renewable resource resolution and ignore network restrictions, we find that a higher resolution allows the optimal solution to concentrate wind and solar capacity at sites with better capacity factors and thus reduces system costs by up to 10% compared to a low resolution model. This results in a big swing from offshore to onshore wind investment. However, if we introduce grid bottlenecks by raising the network resolution, costs increase by up to 23% as generation has to be sourced more locally at sites with worse capacity factors. These effects are most pronounced in scenarios where grid expansion is limited, for example, by low local acceptance. We show that allowing grid expansion mitigates some of the effects of the low grid resolution, and lowers overall costs by around 16%.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-22T14:17:11Z</published>
+    <arxiv:comment>22 pages, 16 figures, 7 tables, post-print (Applied Energy) updated version: Figure 3 now displays a legend</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Applied Energy, Volume 291, June 2021</arxiv:journal_ref>
+    <author>
+      <name>Martha Maria Frysztacki</name>
+    </author>
+    <author>
+      <name>Jonas Hörsch</name>
+    </author>
+    <author>
+      <name>Veit Hagenmeyer</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2021.116726</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2021.116726" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.07805v2</id>
+    <title>Extracting Training Data from Large Language Models</title>
+    <updated>2021-06-15T17:45:26Z</updated>
+    <link href="https://arxiv.org/abs/2012.07805v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.07805v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has become common to publish large (billion parameter) language models that have been trained on private datasets. This paper demonstrates that in such settings, an adversary can perform a training data extraction attack to recover individual training examples by querying the language model.
+  We demonstrate our attack on GPT-2, a language model trained on scrapes of the public Internet, and are able to extract hundreds of verbatim text sequences from the model's training data. These extracted examples include (public) personally identifiable information (names, phone numbers, and email addresses), IRC conversations, code, and 128-bit UUIDs. Our attack is possible even though each of the above sequences are included in just one document in the training data.
+  We comprehensively evaluate our extraction attack to understand the factors that contribute to its success. Worryingly, we find that larger models are more vulnerable than smaller models. We conclude by drawing lessons and discussing possible safeguards for training large language models.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-14T18:39:09Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Florian Tramer</name>
+    </author>
+    <author>
+      <name>Eric Wallace</name>
+    </author>
+    <author>
+      <name>Matthew Jagielski</name>
+    </author>
+    <author>
+      <name>Ariel Herbert-Voss</name>
+    </author>
+    <author>
+      <name>Katherine Lee</name>
+    </author>
+    <author>
+      <name>Adam Roberts</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Ulfar Erlingsson</name>
+    </author>
+    <author>
+      <name>Alina Oprea</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.01831v3</id>
+    <title>Mitigating heat demand peaks in buildings in a highly renewable European energy system</title>
+    <updated>2021-06-06T15:50:00Z</updated>
+    <link href="https://arxiv.org/abs/2012.01831v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.01831v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Space and water heating accounts for about 40% of final energy consumption in the European Union and thus plays a key role in reducing overall costs and greenhouse gas emissions. Many scenarios to reach net-zero emissions in buildings rely on electrification, but meeting the heat demand peaks in the winter can be challenging, particularly when wind and solar resources are low. This paper examines how to mitigate space heating demand peaks most cost-effectively in a top-down, sector-coupled model with carbon dioxide emissions constraint to be net-zero. It introduces the first model that co-optimises both supply and efficiency simultaneously including all European countries with hourly resolution. The competition between technologies to address these heating peaks, namely building retrofitting, thermal energy storage and individual hybrid heat pumps with backup gas boilers is examined. A novel thought experiment demonstrates that the level of building renovation is driven by the strong seasonal heat peaks, rather than the overall energy consumption. If all three instruments are applied, total costs are reduced by up to 17%. Building renovation enables the largest benefit with cost savings of up to 14% and allows individual gas boilers to be removed from the energy system without significant higher costs.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-03T11:07:38Z</published>
+    <arxiv:comment>12 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Energy, Volume 231, 2021, 120784, ISSN 0360-5442</arxiv:journal_ref>
+    <author>
+      <name>Elisabeth Zeyen</name>
+    </author>
+    <author>
+      <name>Veit Hagenmeyer</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.energy.2021.120784</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.energy.2021.120784" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.14701v2</id>
+    <title>Scaling Laws for Autoregressive Generative Modeling</title>
+    <updated>2020-11-06T04:16:36Z</updated>
+    <link href="https://arxiv.org/abs/2010.14701v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.14701v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We identify empirical scaling laws for the cross-entropy loss in four domains: generative image modeling, video modeling, multimodal image$\leftrightarrow$text models, and mathematical problem solving. In all cases autoregressive Transformers smoothly improve in performance as model size and compute budgets increase, following a power-law plus constant scaling law. The optimal model size also depends on the compute budget through a power-law, with exponents that are nearly universal across all data domains.
+  The cross-entropy loss has an information theoretic interpretation as $S($True$) + D_{\mathrm{KL}}($True$||$Model$)$, and the empirical scaling laws suggest a prediction for both the true data distribution's entropy and the KL divergence between the true and model distributions. With this interpretation, billion-parameter Transformers are nearly perfect models of the YFCC100M image distribution downsampled to an $8\times 8$ resolution, and we can forecast the model size needed to achieve any given reducible loss (ie $D_{\mathrm{KL}}$) in nats/image for other resolutions.
+  We find a number of additional scaling laws in specific domains: (a) we identify a scaling relation for the mutual information between captions and images in multimodal models, and show how to answer the question "Is a picture worth a thousand words?"; (b) in the case of mathematical problem solving, we identify scaling laws for model performance when extrapolating beyond the training distribution; (c) we finetune generative image models for ImageNet classification and find smooth scaling of the classification loss and error rate, even as the generative loss levels off. Taken together, these results strengthen the case that scaling laws have important implications for neural network performance, including on downstream tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-28T02:17:24Z</published>
+    <arxiv:comment>20+17 pages, 33 figures; added appendix with additional language results</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Mor Katz</name>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Christopher Hesse</name>
+    </author>
+    <author>
+      <name>Jacob Jackson</name>
+    </author>
+    <author>
+      <name>Heewoo Jun</name>
+    </author>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Prafulla Dhariwal</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Chris Hallacy</name>
+    </author>
+    <author>
+      <name>Benjamin Mann</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+    </author>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03801v1</id>
+    <title>Modeling Curtailment in Germany: How Spatial Resolution Impacts Line Congestion</title>
+    <updated>2020-09-08T14:56:11Z</updated>
+    <link href="https://arxiv.org/abs/2009.03801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.03801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the effects of network constraints in energy system models at transmission level on renewable energy generation and curtailment as the network is being spatially aggregated. We seek to reproduce historically measured curtailment in Germany for the years 2013-2018 using an open model of the transmission system, PyPSA-Eur. Our simulations include spatial and temporal considerations, including congestion per line as well as curtailment per control zone and quarter. Results indicate that curtailment at high network resolution is significantly overestimated due to inaccurate allocation of electricity demand and renewable capacities to overloaded sites. However, high congestion rates of the transmission network decrease as the network is clustered to a smaller number of nodes, thus reducing curtailment. A measure to capture errors in the assignment of electricity demand and power plants is defined and hints towards a preferable spatial resolution. Thus, we are able to balance the effects of accurate node assignment and network congestion revealing that a reduced model can capture curtailment from recent historical data. This shows that it is possible to reduce the network to improve computation times and capture the most important effects of network constraints on variable renewable energy feed-in at the same time.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-08T14:56:11Z</published>
+    <arxiv:comment>6 pages plus one for references, 5 figures, 3 tables, 17th International Conference on the European Energy Market: small adjustments to figures to improve readability, corrected typing errors</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>17th International Conference on the European Energy Market 2020 (EEM 2020)</arxiv:journal_ref>
+    <author>
+      <name>Martha Frysztacki</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1109/EEM49802.2020.9221886</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EEM49802.2020.9221886" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11510v1</id>
+    <title>Approximating Power Flow and Transmission Losses in Coordinated Capacity Expansion Problems</title>
+    <updated>2020-08-26T12:14:34Z</updated>
+    <link href="https://arxiv.org/abs/2008.11510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With rising shares of renewables and the need to properly assess trade-offs between transmission, storage and sectoral integration as balancing options, building a bridge between energy system models and detailed power flow studies becomes increasingly important, but is computationally challenging.
+  W compare approximations for two nonlinear phenomena, power flow and transmission losses, in linear capacity expansion problems that co-optimise investments in generation, storage and transmission infrastructure. We evaluate different flow representations discussing differences in investment decisions, nodal prices, the deviation of optimised flows and losses from simulated AC power flows, and the computational performance. By using the open European power system model PyPSA-Eur we obtain detailed and reproducible results aiming at facilitating the selection of a suitable power flow model.
+  Given the differences in complexity, the optimal choice depends on the application, the user's available computational resources, and the level of spatial detail considered. Although the commonly used transport model can already identify key features of a cost-efficient system while being computationally performant, deficiencies under high loading conditions arise due to the lack of a physical grid representation. Moreover, disregarding transmission losses overestimates optimal grid expansion by 20%. Adding a convex relaxation of quadratic losses with two or three tangents to the linearised power flow equations and accounting for changing line impedances as the network is reinforced suffices to represent power flows and losses adequately in design studies. We show that the obtained investment and dispatch decisions are then sufficiently physical to be used in more detailed nonlinear simulations of AC power flow in order to better assess their technical feasibility.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-26T12:14:34Z</published>
+    <arxiv:comment>addresses the need for detailed grid modelling in linear energy system models</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Fabian Neumann</name>
+    </author>
+    <author>
+      <name>Veit Hagenmeyer</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <arxiv:doi>10.1016/j.apenergy.2022.118859</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apenergy.2022.118859" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.14165v4</id>
+    <title>Language Models are Few-Shot Learners</title>
+    <updated>2020-07-22T19:47:17Z</updated>
+    <link href="https://arxiv.org/abs/2005.14165v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.14165v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-28T17:29:03Z</published>
+    <arxiv:comment>40+32 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tom B. Brown</name>
+    </author>
+    <author>
+      <name>Benjamin Mann</name>
+    </author>
+    <author>
+      <name>Nick Ryder</name>
+    </author>
+    <author>
+      <name>Melanie Subbiah</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Prafulla Dhariwal</name>
+    </author>
+    <author>
+      <name>Arvind Neelakantan</name>
+    </author>
+    <author>
+      <name>Pranav Shyam</name>
+    </author>
+    <author>
+      <name>Girish Sastry</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Sandhini Agarwal</name>
+    </author>
+    <author>
+      <name>Ariel Herbert-Voss</name>
+    </author>
+    <author>
+      <name>Gretchen Krueger</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Rewon Child</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Daniel M. Ziegler</name>
+    </author>
+    <author>
+      <name>Jeffrey Wu</name>
+    </author>
+    <author>
+      <name>Clemens Winter</name>
+    </author>
+    <author>
+      <name>Christopher Hesse</name>
+    </author>
+    <author>
+      <name>Mark Chen</name>
+    </author>
+    <author>
+      <name>Eric Sigler</name>
+    </author>
+    <author>
+      <name>Mateusz Litwin</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Benjamin Chess</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Christopher Berner</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Alec Radford</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+  </entry>
+</feed>

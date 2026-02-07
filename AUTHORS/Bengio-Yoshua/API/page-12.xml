@@ -1,0 +1,1296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wklRowNVSFey9eU4ZEYkmQUcpWM</id>
+  <title>arXiv Query: search_query=au:"Yoshua Bengio"&amp;id_list=&amp;start=550&amp;max_results=50</title>
+  <updated>2026-02-06T22:36:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yoshua+Bengio%22&amp;start=550&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>627</opensearch:totalResults>
+  <opensearch:startIndex>550</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7525v5</id>
+    <title>Difference Target Propagation</title>
+    <updated>2015-11-25T02:30:41Z</updated>
+    <link href="https://arxiv.org/abs/1412.7525v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.7525v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Back-propagation has been the workhorse of recent successes of deep learning but it relies on infinitesimal effects (partial derivatives) in order to perform credit assignment. This could become a serious issue as one considers deeper and more non-linear functions, e.g., consider the extreme case of nonlinearity where the relation between parameters and cost is actually discrete. Inspired by the biological implausibility of back-propagation, a few approaches have been proposed in the past that could play a similar credit assignment role. In this spirit, we explore a novel approach to credit assignment in deep networks that we call target propagation. The main idea is to compute targets rather than gradients, at each layer. Like gradients, they are propagated backwards. In a way that is related but different from previously proposed proxies for back-propagation which rely on a backwards network with symmetric weights, target propagation relies on auto-encoders at each layer. Unlike back-propagation, it can be applied even when units exchange stochastic bits rather than real numbers. We show that a linear correction for the imperfectness of the auto-encoders, called difference target propagation, is very effective to make target propagation actually work, leading to results comparable to back-propagation for deep networks with discrete and continuous units and denoising auto-encoders and achieving state of the art for stochastic networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-23T20:57:59Z</published>
+    <arxiv:comment>13 pages, 8 figures, Accepted in ECML/PKDD 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dong-Hyun Lee</name>
+    </author>
+    <author>
+      <name>Saizheng Zhang</name>
+    </author>
+    <author>
+      <name>Asja Fischer</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7419v5</id>
+    <title>ADASECANT: Robust Adaptive Secant Method for Stochastic Gradient</title>
+    <updated>2015-11-01T03:05:18Z</updated>
+    <link href="https://arxiv.org/abs/1412.7419v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.7419v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stochastic gradient algorithms have been the main focus of large-scale learning problems and they led to important successes in machine learning. The convergence of SGD depends on the careful choice of learning rate and the amount of the noise in stochastic estimates of the gradients. In this paper, we propose a new adaptive learning rate algorithm, which utilizes curvature information for automatically tuning the learning rates. The information about the element-wise curvature of the loss function is estimated from the local statistics of the stochastic first order gradients. We further propose a new variance reduction technique to speed up the convergence. In our preliminary experiments with deep neural networks, we obtained better performance compared to the popular stochastic gradient algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-23T15:55:08Z</published>
+    <arxiv:comment>8 pages, 3 figures, ICLR workshop submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Marcin Moczulski</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7024v5</id>
+    <title>Training deep neural networks with low precision multiplications</title>
+    <updated>2015-09-23T01:00:44Z</updated>
+    <link href="https://arxiv.org/abs/1412.7024v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.7024v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multipliers are the most space and power-hungry arithmetic operators of the digital implementation of deep neural networks. We train a set of state-of-the-art neural networks (Maxout networks) on three benchmark datasets: MNIST, CIFAR-10 and SVHN. They are trained with three distinct formats: floating point, fixed point and dynamic fixed point. For each of those datasets and for each of those formats, we assess the impact of the precision of the multiplications on the final error after training. We find that very low precision is sufficient not just for running trained networks but also for training them. For example, it is possible to train Maxout networks with 10 bits multiplications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-22T15:22:45Z</published>
+    <arxiv:comment>10 pages, 5 figures, Accepted as a workshop contribution at ICLR 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Matthieu Courbariaux</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Jean-Pierre David</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6550v4</id>
+    <title>FitNets: Hints for Thin Deep Nets</title>
+    <updated>2015-03-27T11:52:28Z</updated>
+    <link href="https://arxiv.org/abs/1412.6550v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6550v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While depth tends to improve network performances, it also makes gradient-based training more difficult since deeper networks tend to be more non-linear. The recently proposed knowledge distillation approach is aimed at obtaining small and fast-to-execute models, and it has shown that a student network could imitate the soft output of a larger teacher network or ensemble of networks. In this paper, we extend this idea to allow the training of a student that is deeper and thinner than the teacher, using not only the outputs but also the intermediate representations learned by the teacher as hints to improve the training process and final performance of the student. Because the student intermediate hidden layer will generally be smaller than the teacher's intermediate hidden layer, additional parameters are introduced to map the student hidden layer to the prediction of the teacher hidden layer. This allows one to train deeper students that can generalize better or run faster, a trade-off that is controlled by the chosen student capacity. For example, on CIFAR-10, a deep student network with almost 10.4 times less parameters outperforms a larger, state-of-the-art teacher network.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-19T22:40:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adriana Romero</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Samira Ebrahimi Kahou</name>
+    </author>
+    <author>
+      <name>Antoine Chassang</name>
+    </author>
+    <author>
+      <name>Carlo Gatta</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6448v4</id>
+    <title>Embedding Word Similarity with Neural Machine Translation</title>
+    <updated>2015-04-03T18:11:54Z</updated>
+    <link href="https://arxiv.org/abs/1412.6448v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6448v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural language models learn word representations, or embeddings, that capture rich linguistic and conceptual information. Here we investigate the embeddings learned by neural machine translation models, a recently-developed class of neural language model. We show that embeddings from translation models outperform those learned by monolingual models at tasks that require knowledge of both conceptual similarity and lexical-syntactic role. We further show that these effects hold when translating from both English to French and English to German, and argue that the desirable properties of translation embeddings should emerge largely independently of the source and target languages. Finally, we apply a new method for training neural translation models with very large vocabularies, and show that this vocabulary expansion algorithm results in minimal degradation of embedding quality. Our embedding spaces can be queried in an online demo and downloaded from our web page. Overall, our analyses indicate that translation-based embeddings should be used in applications that require concepts to be organised according to similarity and/or lexical function, while monolingual embeddings are better suited to modelling (nonspecific) inter-word relatedness.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-19T17:22:03Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1410.0718</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Felix Hill</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Sebastien Jean</name>
+    </author>
+    <author>
+      <name>Coline Devin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.5335v7</id>
+    <title>Ensemble of Generative and Discriminative Techniques for Sentiment Analysis of Movie Reviews</title>
+    <updated>2015-05-27T06:40:09Z</updated>
+    <link href="https://arxiv.org/abs/1412.5335v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.5335v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sentiment analysis is a common task in natural language processing that aims to detect polarity of a text document (typically a consumer review). In the simplest settings, we discriminate only between positive and negative sentiment, turning the task into a standard binary classification problem. We compare several ma- chine learning approaches to this problem, and combine them to achieve the best possible results. We show how to use for this task the standard generative lan- guage models, which are slightly complementary to the state of the art techniques. We achieve strong results on a well-known dataset of IMDB movie reviews. Our results are easily reproducible, as we publish also the code needed to repeat the experiments. This should simplify further advance of the state of the art, as other researchers can combine their techniques with ours with little effort.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-17T11:02:04Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Grégoire Mesnil</name>
+    </author>
+    <author>
+      <name>Tomas Mikolov</name>
+    </author>
+    <author>
+      <name>Marc'Aurelio Ranzato</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.3555v1</id>
+    <title>Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling</title>
+    <updated>2014-12-11T06:46:53Z</updated>
+    <link href="https://arxiv.org/abs/1412.3555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.3555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we compare different types of recurrent units in recurrent neural networks (RNNs). Especially, we focus on more sophisticated units that implement a gating mechanism, such as a long short-term memory (LSTM) unit and a recently proposed gated recurrent unit (GRU). We evaluate these recurrent units on the tasks of polyphonic music modeling and speech signal modeling. Our experiments revealed that these advanced recurrent units are indeed better than more traditional recurrent units such as tanh units. Also, we found GRU to be comparable to LSTM.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-11T06:46:53Z</published>
+    <arxiv:comment>Presented in NIPS 2014 Deep Learning and Representation Learning Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Junyoung Chung</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>KyungHyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.2007v2</id>
+    <title>On Using Very Large Target Vocabulary for Neural Machine Translation</title>
+    <updated>2015-03-18T19:41:42Z</updated>
+    <link href="https://arxiv.org/abs/1412.2007v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.2007v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural machine translation, a recently proposed approach to machine translation based purely on neural networks, has shown promising results compared to the existing approaches such as phrase-based statistical machine translation. Despite its recent success, neural machine translation has its limitation in handling a larger vocabulary, as training complexity as well as decoding complexity increase proportionally to the number of target words. In this paper, we propose a method that allows us to use a very large target vocabulary without increasing training complexity, based on importance sampling. We show that decoding can be efficiently done even with the model having a very large target vocabulary by selecting only a small subset of the whole target vocabulary. The models trained by the proposed approach are empirically found to outperform the baseline models with a small vocabulary as well as the LSTM-based neural machine translation models. Furthermore, when we use the ensemble of a few models with very large target vocabularies, we achieve the state-of-the-art translation performance (measured by BLEU) on the English-&gt;German translation and almost as high performance as state-of-the-art English-&gt;French translation system.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-05T14:26:27Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sébastien Jean</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Roland Memisevic</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1602v1</id>
+    <title>End-to-end Continuous Speech Recognition using Attention-based Recurrent NN: First Results</title>
+    <updated>2014-12-04T10:00:19Z</updated>
+    <link href="https://arxiv.org/abs/1412.1602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We replace the Hidden Markov Model (HMM) which is traditionally used in in continuous speech recognition with a bi-directional recurrent neural network encoder coupled to a recurrent neural network decoder that directly emits a stream of phonemes. The alignment between the input and output sequences is established using an attention mechanism: the decoder emits each symbol based on a context created with a subset of input symbols elected by the attention mechanism. We report initial results demonstrating that this new approach achieves phoneme error rates that are comparable to the state-of-the-art HMM-based decoders, on the TIMIT dataset.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-04T10:00:19Z</published>
+    <arxiv:comment>As accepted to: Deep Learning and Representation Learning Workshop, NIPS 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Jan Chorowski</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.1792v1</id>
+    <title>How transferable are features in deep neural networks?</title>
+    <updated>2014-11-06T23:09:37Z</updated>
+    <link href="https://arxiv.org/abs/1411.1792v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.1792v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many deep neural networks trained on natural images exhibit a curious phenomenon in common: on the first layer they learn features similar to Gabor filters and color blobs. Such first-layer features appear not to be specific to a particular dataset or task, but general in that they are applicable to many datasets and tasks. Features must eventually transition from general to specific by the last layer of the network, but this transition has not been studied extensively. In this paper we experimentally quantify the generality versus specificity of neurons in each layer of a deep convolutional neural network and report a few surprising results. Transferability is negatively affected by two distinct issues: (1) the specialization of higher layer neurons to their original task at the expense of performance on the target task, which was expected, and (2) optimization difficulties related to splitting networks between co-adapted neurons, which was not expected. In an example network trained on ImageNet, we demonstrate that either of these two issues may dominate, depending on whether features are transferred from the bottom, middle, or top of the network. We also document that the transferability of features decreases as the distance between the base task and target task increases, but that transferring features even from distant tasks can be better than using random features. A final surprising result is that initializing a network with transferred features from almost any number of layers can produce a boost to generalization that lingers even after fine-tuning to the target dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-06T23:09:37Z</published>
+    <arxiv:comment>To appear in Advances in Neural Information Processing Systems 27 (NIPS 2014)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 27, pages 3320-3328. Dec. 2014</arxiv:journal_ref>
+    <author>
+      <name>Jason Yosinski</name>
+    </author>
+    <author>
+      <name>Jeff Clune</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Hod Lipson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8516v6</id>
+    <title>NICE: Non-linear Independent Components Estimation</title>
+    <updated>2015-04-10T12:27:56Z</updated>
+    <link href="https://arxiv.org/abs/1410.8516v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.8516v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a deep learning framework for modeling complex high-dimensional densities called Non-linear Independent Component Estimation (NICE). It is based on the idea that a good representation is one in which the data has a distribution that is easy to model. For this purpose, a non-linear deterministic transformation of the data is learned that maps it to a latent space so as to make the transformed data conform to a factorized distribution, i.e., resulting in independent latent variables. We parametrize this transformation so that computing the Jacobian determinant and inverse transform is trivial, yet we maintain the ability to learn complex non-linear transformations, via a composition of simple building blocks, each based on a deep neural network. The training criterion is simply the exact log-likelihood, which is tractable. Unbiased ancestral sampling is also easy. We show that this approach yields good generative models on four image datasets and can be used for inpainting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-30T19:44:20Z</published>
+    <arxiv:comment>11 pages and 2 pages Appendix, workshop paper at ICLR 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Laurent Dinh</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.2455v3</id>
+    <title>BilBOWA: Fast Bilingual Distributed Representations without Word Alignments</title>
+    <updated>2016-02-04T05:51:59Z</updated>
+    <link href="https://arxiv.org/abs/1410.2455v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.2455v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce BilBOWA (Bilingual Bag-of-Words without Alignments), a simple and computationally-efficient model for learning bilingual distributed representations of words which can scale to large monolingual datasets and does not require word-aligned parallel training data. Instead it trains directly on monolingual data and extracts a bilingual signal from a smaller set of raw-text sentence-aligned data. This is achieved using a novel sampled bag-of-words cross-lingual objective, which is used to regularize two noise-contrastive language models for efficient cross-lingual feature learning. We show that bilingual embeddings learned using the proposed model outperform state-of-the-art methods on a cross-lingual document classification task as well as a lexical translation task on WMT11 data.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-09T13:41:18Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Stephan Gouws</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Greg Corrado</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.0718v2</id>
+    <title>Not All Neural Embeddings are Born Equal</title>
+    <updated>2014-11-13T15:58:35Z</updated>
+    <link href="https://arxiv.org/abs/1410.0718v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.0718v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural language models learn word representations that capture rich linguistic and conceptual information. Here we investigate the embeddings learned by neural machine translation models. We show that translation-based embeddings outperform those learned by cutting-edge monolingual models at single-language tasks requiring knowledge of conceptual similarity and/or syntactic role. The findings suggest that, while monolingual models learn information about how concepts are related, neural-translation models better capture their true ontological status.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-02T21:35:35Z</published>
+    <arxiv:comment>4 pages plus 1 page of references</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Felix Hill</name>
+    </author>
+    <author>
+      <name>KyungHyun Cho</name>
+    </author>
+    <author>
+      <name>Sebastien Jean</name>
+    </author>
+    <author>
+      <name>Coline Devin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.0630v1</id>
+    <title>Deep Directed Generative Autoencoders</title>
+    <updated>2014-10-02T18:09:42Z</updated>
+    <link href="https://arxiv.org/abs/1410.0630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.0630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For discrete data, the likelihood $P(x)$ can be rewritten exactly and parametrized into $P(X = x) = P(X = x | H = f(x)) P(H = f(x))$ if $P(X | H)$ has enough capacity to put no probability mass on any $x'$ for which $f(x')\neq f(x)$, where $f(\cdot)$ is a deterministic discrete function. The log of the first factor gives rise to the log-likelihood reconstruction error of an autoencoder with $f(\cdot)$ as the encoder and $P(X|H)$ as the (probabilistic) decoder. The log of the second term can be seen as a regularizer on the encoded activations $h=f(x)$, e.g., as in sparse autoencoders. Both encoder and decoder can be represented by a deep neural network and trained to maximize the average of the optimal log-likelihood $\log p(x)$. The objective is to learn an encoder $f(\cdot)$ that maps $X$ to $f(X)$ that has a much simpler distribution than $X$ itself, estimated by $P(H)$. This "flattens the manifold" or concentrates probability mass in a smaller number of (relevant) dimensions over which the distribution factorizes. Generating samples from the model is straightforward using ancestral sampling. One challenge is that regular back-propagation cannot be used to obtain the gradient on the parameters of the encoder, but we find that using the straight-through estimator works well here. We also find that although optimizing a single level of such architecture may be difficult, much better results can be obtained by pre-training and stacking them, gradually transforming the data distribution into one that is more easily captured by a simple parametric model.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-02T18:09:42Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.0123v1</id>
+    <title>Deep Tempering</title>
+    <updated>2014-10-01T06:55:11Z</updated>
+    <link href="https://arxiv.org/abs/1410.0123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.0123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Restricted Boltzmann Machines (RBMs) are one of the fundamental building blocks of deep learning. Approximate maximum likelihood training of RBMs typically necessitates sampling from these models. In many training scenarios, computationally efficient Gibbs sampling procedures are crippled by poor mixing. In this work we propose a novel method of sampling from Boltzmann machines that demonstrates a computationally efficient way to promote mixing. Our approach leverages an under-appreciated property of deep generative models such as the Deep Belief Network (DBN), where Gibbs sampling from deeper levels of the latent variable hierarchy results in dramatically increased ergodicity. Our approach is thus to train an auxiliary latent hierarchical model, based on the DBN. When used in conjunction with parallel-tempering, the method is asymptotically guaranteed to simulate samples from the target RBM. Experimental results confirm the effectiveness of this sampling strategy in the context of RBM training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-01T06:55:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guillaume Desjardins</name>
+    </author>
+    <author>
+      <name>Heng Luo</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.1259v2</id>
+    <title>On the Properties of Neural Machine Translation: Encoder-Decoder Approaches</title>
+    <updated>2014-10-07T18:08:30Z</updated>
+    <link href="https://arxiv.org/abs/1409.1259v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.1259v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural machine translation is a relatively new approach to statistical machine translation based purely on neural networks. The neural machine translation models often consist of an encoder and a decoder. The encoder extracts a fixed-length representation from a variable-length input sentence, and the decoder generates a correct translation from this representation. In this paper, we focus on analyzing the properties of the neural machine translation using two models; RNN Encoder--Decoder and a newly proposed gated recursive convolutional neural network. We show that the neural machine translation performs relatively well on short sentences without unknown words, but its performance degrades rapidly as the length of the sentence and the number of unknown words increase. Furthermore, we find that the proposed gated recursive convolutional network learns a grammatical structure of a sentence automatically.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-03T21:03:41Z</published>
+    <arxiv:comment>Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation (SSST-8)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Bart van Merrienboer</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.1257v2</id>
+    <title>Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation</title>
+    <updated>2014-10-07T18:09:37Z</updated>
+    <link href="https://arxiv.org/abs/1409.1257v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.1257v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The authors of (Cho et al., 2014a) have shown that the recently introduced neural network translation systems suffer from a significant drop in translation quality when translating long sentences, unlike existing phrase-based translation systems. In this paper, we propose a way to address this issue by automatically segmenting an input sentence into phrases that can be easily translated by the neural network translation model. Once each segment has been independently translated by the neural machine translation model, the translated clauses are concatenated to form a final translation. Empirical results show a significant improvement in translation quality for long sentences.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-03T21:00:49Z</published>
+    <arxiv:comment>Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation (SSST-8)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jean Pouget-Abadie</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Bart van Merrienboer</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.0585v1</id>
+    <title>On the Equivalence Between Deep NADE and Generative Stochastic Networks</title>
+    <updated>2014-09-02T01:22:42Z</updated>
+    <link href="https://arxiv.org/abs/1409.0585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.0585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural Autoregressive Distribution Estimators (NADEs) have recently been shown as successful alternatives for modeling high dimensional multimodal distributions. One issue associated with NADEs is that they rely on a particular order of factorization for $P(\mathbf{x})$. This issue has been recently addressed by a variant of NADE called Orderless NADEs and its deeper version, Deep Orderless NADE. Orderless NADEs are trained based on a criterion that stochastically maximizes $P(\mathbf{x})$ with all possible orders of factorizations. Unfortunately, ancestral sampling from deep NADE is very expensive, corresponding to running through a neural net separately predicting each of the visible variables given some others. This work makes a connection between this criterion and the training criterion for Generative Stochastic Networks (GSNs). It shows that training NADEs in this way also trains a GSN, which defines a Markov chain associated with the NADE model. Based on this connection, we show an alternative way to sample from a trained Orderless NADE that allows to trade-off computing time and quality of the samples: a 3 to 10-fold speedup (taking into account the waste due to correlations between consecutive samples of the chain) can be obtained without noticeably reducing the quality of the samples. This is achieved using a novel sampling procedure for GSNs called annealed GSN sampling, similar to tempering methods that combines fast mixing (obtained thanks to steps at high noise levels) with accurate samples (obtained thanks to steps at low noise levels).</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-02T01:22:42Z</published>
+    <arxiv:comment>ECML/PKDD 2014</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Li Yao</name>
+    </author>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.0473v7</id>
+    <title>Neural Machine Translation by Jointly Learning to Align and Translate</title>
+    <updated>2016-05-19T21:53:22Z</updated>
+    <link href="https://arxiv.org/abs/1409.0473v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.0473v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-01T16:33:02Z</published>
+    <arxiv:comment>Accepted at ICLR 2015 as oral presentation</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.7906v3</id>
+    <title>How Auto-Encoders Could Provide Credit Assignment in Deep Networks via Target Propagation</title>
+    <updated>2014-09-18T13:30:31Z</updated>
+    <link href="https://arxiv.org/abs/1407.7906v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.7906v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose to exploit {\em reconstruction} as a layer-local training signal for deep learning. Reconstructions can be propagated in a form of target propagation playing a role similar to back-propagation but helping to reduce the reliance on derivatives in order to perform credit assignment across many levels of possibly strong non-linearities (which is difficult for back-propagation). A regularized auto-encoder tends produce a reconstruction that is a more likely version of its input, i.e., a small move in the direction of higher likelihood. By generalizing gradients, target propagation may also allow to train deep networks with discrete hidden units. If the auto-encoder takes both a representation of input and target (or of any side information) in input, then its reconstruction of input representation provides a target towards a representation that is more likely, conditioned on all the side information. A deep auto-encoder decoding path generalizes gradient propagation in a learned way that can could thus handle not just infinitesimal changes but larger, discrete changes, hopefully allowing credit assignment through a long chain of non-linear operations. In addition to each layer being a good auto-encoder, the encoder also learns to please the upper layers by transforming the data into a space where it is easier to model by them, flattening manifolds and disentangling factors. The motivations and theoretical justifications for this approach are laid down in this paper, along with conjectures that will have to be verified either mathematically or experimentally, including a hypothesis stating that such auto-encoder mediated target propagation could play in brains the role of credit assignment through many non-linear, noisy and discrete transformations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-29T23:32:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7362v1</id>
+    <title>Exponentially Increasing the Capacity-to-Computation Ratio for Conditional Computation in Deep Learning</title>
+    <updated>2014-06-28T06:45:51Z</updated>
+    <link href="https://arxiv.org/abs/1406.7362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.7362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many state-of-the-art results obtained with deep networks are achieved with the largest models that could be trained, and if more computation power was available, we might be able to exploit much larger datasets in order to improve generalization ability. Whereas in learning algorithms such as decision trees the ratio of capacity (e.g., the number of parameters) to computation is very favorable (up to exponentially more parameters than computation), the ratio is essentially 1 for deep neural networks. Conditional computation has been proposed as a way to increase the capacity of a deep neural network without increasing the amount of computation required, by activating some parameters and computation "on-demand", on a per-example basis. In this note, we propose a novel parametrization of weight matrices in neural networks which has the potential to increase up to exponentially the ratio of the number of parameters to computation. The proposed approach is based on turning on some parameters (weight matrices) when specific bit patterns of hidden unit activations are obtained. In order to better control for the overfitting that might result, we propose a parametrization that is tree-structured, where each node of the tree corresponds to a prefix of a sequence of sign bits, or gating units, associated with hidden units.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-28T06:45:51Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.2751v4</id>
+    <title>Reweighted Wake-Sleep</title>
+    <updated>2015-04-16T17:22:58Z</updated>
+    <link href="https://arxiv.org/abs/1406.2751v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.2751v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Training deep directed graphical models with many hidden variables and performing inference remains a major challenge. Helmholtz machines and deep belief networks are such models, and the wake-sleep algorithm has been proposed to train them. The wake-sleep algorithm relies on training not just the directed generative model but also a conditional generative model (the inference network) that runs backward from visible to latent, estimating the posterior distribution of latent given visible. We propose a novel interpretation of the wake-sleep algorithm which suggests that better estimators of the gradient can be obtained by sampling latent variables multiple times from the inference network. This view is based on importance sampling as an estimator of the likelihood, with the approximate inference network as a proposal distribution. This interpretation is confirmed experimentally, showing that better likelihood can be achieved with this reweighted wake-sleep procedure. Based on this interpretation, we propose that a sigmoidal belief network is not sufficiently powerful for the layers of the inference network in order to recover a good estimator of the posterior distribution of latent variables. Our experiments show that using a more powerful layer model, such as NADE, yields substantially better generative models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-11T00:44:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jörg Bornschein</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.2661v1</id>
+    <title>Generative Adversarial Networks</title>
+    <updated>2014-06-10T18:58:17Z</updated>
+    <link href="https://arxiv.org/abs/1406.2661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.2661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-10T18:58:17Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Jean Pouget-Abadie</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Bing Xu</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.2572v1</id>
+    <title>Identifying and attacking the saddle point problem in high-dimensional non-convex optimization</title>
+    <updated>2014-06-10T14:52:14Z</updated>
+    <link href="https://arxiv.org/abs/1406.2572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.2572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A central challenge to many fields of science and engineering involves minimizing non-convex error functions over continuous, high dimensional spaces. Gradient descent or quasi-Newton methods are almost ubiquitously used to perform such minimizations, and it is often thought that a main source of difficulty for these local methods to find the global minimum is the proliferation of local minima with much higher error than the global minimum. Here we argue, based on results from statistical physics, random matrix theory, neural network theory, and empirical evidence, that a deeper and more profound difficulty originates from the proliferation of saddle points, not local minima, especially in high dimensional problems of practical interest. Such saddle points are surrounded by high error plateaus that can dramatically slow down learning, and give the illusory impression of the existence of a local minimum. Motivated by these arguments, we propose a new approach to second-order optimization, the saddle-free Newton method, that can rapidly escape high dimensional saddle points, unlike gradient descent and quasi-Newton methods. We apply this algorithm to deep or recurrent neural network training, and provide numerical evidence for its superior optimization performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-10T14:52:14Z</published>
+    <arxiv:comment>The theoretical review and analysis in this article draw heavily from arXiv:1405.4604 [cs.LG]</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yann Dauphin</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1485v3</id>
+    <title>Iterative Neural Autoregressive Distribution Estimator (NADE-k)</title>
+    <updated>2014-12-06T00:22:00Z</updated>
+    <link href="https://arxiv.org/abs/1406.1485v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1485v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training of the neural autoregressive density estimator (NADE) can be viewed as doing one step of probabilistic inference on missing values in data. We propose a new model that extends this inference scheme to multiple steps, arguing that it is easier to learn to improve a reconstruction in $k$ steps rather than to learn to reconstruct in a single inference step. The proposed model is an unsupervised building block for deep learning that combines the desirable properties of NADE and multi-predictive training: (1) Its test likelihood can be computed analytically, (2) it is easy to generate independent samples from it, and (3) it uses an inference engine that is a superset of variational inference for Boltzmann machines. The proposed NADE-k is competitive with the state-of-the-art in density estimation on the two datasets tested.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-05T19:13:51Z</published>
+    <arxiv:comment>Accepted at Neural Information Processing Systems (NIPS) 2014</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Tapani Raiko</name>
+    </author>
+    <author>
+      <name>Li Yao</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1078v3</id>
+    <title>Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation</title>
+    <updated>2014-09-03T00:25:02Z</updated>
+    <link href="https://arxiv.org/abs/1406.1078v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1078v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a novel neural network model called RNN Encoder-Decoder that consists of two recurrent neural networks (RNN). One RNN encodes a sequence of symbols into a fixed-length vector representation, and the other decodes the representation into another sequence of symbols. The encoder and decoder of the proposed model are jointly trained to maximize the conditional probability of a target sequence given a source sequence. The performance of a statistical machine translation system is empirically found to improve by using the conditional probabilities of phrase pairs computed by the RNN Encoder-Decoder as an additional feature in the existing log-linear model. Qualitatively, we show that the proposed model learns a semantically and syntactically meaningful representation of linguistic phrases.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-03T17:47:08Z</published>
+    <arxiv:comment>EMNLP 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Bart van Merrienboer</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Dzmitry Bahdanau</name>
+    </author>
+    <author>
+      <name>Fethi Bougares</name>
+    </author>
+    <author>
+      <name>Holger Schwenk</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.4604v2</id>
+    <title>On the saddle point problem for non-convex optimization</title>
+    <updated>2014-05-28T03:05:00Z</updated>
+    <link href="https://arxiv.org/abs/1405.4604v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.4604v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A central challenge to many fields of science and engineering involves minimizing non-convex error functions over continuous, high dimensional spaces. Gradient descent or quasi-Newton methods are almost ubiquitously used to perform such minimizations, and it is often thought that a main source of difficulty for the ability of these local methods to find the global minimum is the proliferation of local minima with much higher error than the global minimum. Here we argue, based on results from statistical physics, random matrix theory, and neural network theory, that a deeper and more profound difficulty originates from the proliferation of saddle points, not local minima, especially in high dimensional problems of practical interest. Such saddle points are surrounded by high error plateaus that can dramatically slow down learning, and give the illusory impression of the existence of a local minimum. Motivated by these arguments, we propose a new algorithm, the saddle-free Newton method, that can rapidly escape high dimensional saddle points, unlike gradient descent and quasi-Newton methods. We apply this algorithm to deep neural network training, and provide preliminary numerical evidence for its superior performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-19T04:56:30Z</published>
+    <arxiv:comment>11 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Yann N. Dauphin</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.1869v2</id>
+    <title>On the Number of Linear Regions of Deep Neural Networks</title>
+    <updated>2014-06-07T19:56:14Z</updated>
+    <link href="https://arxiv.org/abs/1402.1869v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.1869v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the complexity of functions computable by deep feedforward neural networks with piecewise linear activations in terms of the symmetries and the number of linear regions that they have. Deep networks are able to sequentially map portions of each layer's input-space to the same output. In this way, deep models compute functions that react equally to complicated patterns of different inputs. The compositional structure of these functions enables them to re-use pieces of computation exponentially often in terms of the network's depth. This paper investigates the complexity of such compositional maps and contributes new theoretical results regarding the advantage of depth for neural networks with piecewise linear activation functions. In particular, our analysis is not specific to a single family of models, and as an example, we employ it for rectifier and maxout networks. We improve complexity bounds from pre-existing work and investigate the behavior of units in higher layers.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-08T17:16:27Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Guido Montúfar</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6211v3</id>
+    <title>An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks</title>
+    <updated>2015-03-04T01:43:31Z</updated>
+    <link href="https://arxiv.org/abs/1312.6211v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6211v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Catastrophic forgetting is a problem faced by many machine learning models and algorithms. When trained on one task, then trained on a second task, many machine learning models "forget" how to perform the first task. This is widely believed to be a serious problem for neural networks. Here, we investigate the extent to which the catastrophic forgetting problem occurs for modern neural networks, comparing both established and recent gradient-based training algorithms and activation functions. We also examine the effect of the relationship between the first task and the second task on catastrophic forgetting. We find that it is always best to train using the dropout algorithm--the dropout algorithm is consistently best at adapting to the new task, remembering the old task, and has the best tradeoff curve between these two extremes. We find that different tasks and relationships between tasks result in very different rankings of activation function performance. This suggests the choice of activation function should always be cross-validated.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-21T06:31:41Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Da Xiao</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6197v2</id>
+    <title>An empirical analysis of dropout in piecewise linear networks</title>
+    <updated>2014-01-02T12:26:53Z</updated>
+    <link href="https://arxiv.org/abs/1312.6197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recently introduced dropout training criterion for neural networks has been the subject of much attention due to its simplicity and remarkable effectiveness as a regularizer, as well as its interpretation as a training procedure for an exponentially large ensemble of networks that share parameters. In this work we empirically investigate several questions related to the efficacy of dropout, specifically as it concerns networks employing the popular rectified linear activation function. We investigate the quality of the test time weight-scaling inference procedure by evaluating the geometric average exactly in small models, as well as compare the performance of the geometric mean to the arithmetic mean more commonly employed by ensemble techniques. We explore the effect of tied weights on the ensemble interpretation by training ensembles of masked networks without tied weights. Finally, we investigate an alternative criterion based on a biased estimator of the maximum likelihood ensemble gradient.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-21T03:19:33Z</published>
+    <arxiv:comment>Extensive updates; 8 pages plus acknowledgements/references</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6098v5</id>
+    <title>On the number of response regions of deep feed forward networks with piece-wise linear activations</title>
+    <updated>2014-02-14T17:52:12Z</updated>
+    <link href="https://arxiv.org/abs/1312.6098v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6098v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper explores the complexity of deep feedforward networks with linear pre-synaptic couplings and rectified linear activations. This is a contribution to the growing body of work contrasting the representational power of deep and shallow network architectures. In particular, we offer a framework for comparing deep and shallow models that belong to the family of piecewise linear functions based on computational geometry. We look at a deep rectifier multi-layer perceptron (MLP) with linear outputs units and compare it with a single layer version of the model. In the asymptotic regime, when the number of inputs stays constant, if the shallow model has $kn$ hidden units and $n_0$ inputs, then the number of linear regions is $O(k^{n_0}n^{n_0})$. For a $k$ layer model with $n$ hidden units on each layer it is $Ω(\left\lfloor {n}/{n_0}\right\rfloor^{k-1}n^{n_0})$. The number $\left\lfloor{n}/{n_0}\right\rfloor^{k-1}$ grows faster than $k^{n_0}$ when $n$ tends to infinity or when $k$ tends to infinity and $n \geq 2n_0$. Additionally, even when $k$ is small, if we restrict $n$ to be $2n_0$, we can show that a deep model has considerably more linear regions that a shallow one. We consider this as a first step towards understanding the complexity of these models and specifically towards providing suitable mathematical tools for future analysis.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T20:22:31Z</published>
+    <arxiv:comment>17 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Guido Montufar</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6026v5</id>
+    <title>How to Construct Deep Recurrent Neural Networks</title>
+    <updated>2014-04-24T15:17:07Z</updated>
+    <link href="https://arxiv.org/abs/1312.6026v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6026v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we explore different ways to extend a recurrent neural network (RNN) to a \textit{deep} RNN. We start by arguing that the concept of depth in an RNN is not as clear as it is in feedforward neural networks. By carefully analyzing and understanding the architecture of an RNN, however, we find three points of an RNN which may be made deeper; (1) input-to-hidden function, (2) hidden-to-hidden transition and (3) hidden-to-output function. Based on this observation, we propose two novel architectures of a deep RNN which are orthogonal to an earlier attempt of stacking multiple recurrent layers to build a deep RNN (Schmidhuber, 1992; El Hihi and Bengio, 1996). We provide an alternative interpretation of these deep RNNs using a novel framework based on neural operators. The proposed deep RNNs are empirically evaluated on the tasks of polyphonic music prediction and language modeling. The experimental result supports our claim that the proposed deep RNNs benefit from the depth and outperform the conventional, shallow RNNs.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T16:39:39Z</published>
+    <arxiv:comment>Accepted at ICLR 2014 (Conference Track). 10-page text + 3-page references</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5578v4</id>
+    <title>Multimodal Transitions for Generative Stochastic Networks</title>
+    <updated>2014-01-24T22:24:15Z</updated>
+    <link href="https://arxiv.org/abs/1312.5578v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5578v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Stochastic Networks (GSNs) have been recently introduced as an alternative to traditional probabilistic modeling: instead of parametrizing the data distribution directly, one parametrizes a transition operator for a Markov chain whose stationary distribution is an estimator of the data generating distribution. The result of training is therefore a machine that generates samples through this Markov chain. However, the previously introduced GSN consistency theorems suggest that in order to capture a wide class of distributions, the transition operator in general should be multimodal, something that has not been done before this paper. We introduce for the first time multimodal transition distributions for GSNs, in particular using models in the NADE family (Neural Autoregressive Density Estimator) as output distributions of the transition operator. A NADE model is related to an RBM (and can thus model multimodal distributions) but its likelihood (and likelihood gradient) can be computed easily. The parameters of the NADE are obtained as a learned function of the previous state of the learned Markov chain. Experiments clearly illustrate the advantage of such multimodal transition distributions over unimodal GSNs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-19T15:08:37Z</published>
+    <arxiv:comment>7 figures, 9 pages, submitted to ICLR14</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Li Yao</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5258v2</id>
+    <title>On the Challenges of Physical Implementations of RBMs</title>
+    <updated>2014-10-24T19:16:14Z</updated>
+    <link href="https://arxiv.org/abs/1312.5258v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5258v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Restricted Boltzmann machines (RBMs) are powerful machine learning models, but learning and some kinds of inference in the model require sampling-based approximations, which, in classical digital computers, are implemented using expensive MCMC. Physical computation offers the opportunity to reduce the cost of sampling by building physical systems whose natural dynamics correspond to drawing samples from the desired RBM distribution. Such a system avoids the burn-in and mixing cost of a Markov chain. However, hardware implementations of this variety usually entail limitations such as low-precision and limited range of the parameters and restrictions on the size and topology of the RBM. We conduct software simulations to determine how harmful each of these restrictions is. Our simulations are designed to reproduce aspects of the D-Wave quantum computer, but the issues we investigate arise in most forms of physical computation.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-18T18:30:51Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Proc. AAAI 2014, pp. 1199-1205</arxiv:journal_ref>
+    <author>
+      <name>Vincent Dumoulin</name>
+    </author>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.6184v4</id>
+    <title>Bounding the Test Log-Likelihood of Generative Models</title>
+    <updated>2014-05-09T23:01:46Z</updated>
+    <link href="https://arxiv.org/abs/1311.6184v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.6184v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several interesting generative learning algorithms involve a complex probability distribution over many random variables, involving intractable normalization constants or latent variable normalization. Some of them may even not have an analytic expression for the unnormalized probability function and no tractable approximation. This makes it difficult to estimate the quality of these models, once they have been trained, or to monitor their quality (e.g. for early stopping) while training. A previously proposed method is based on constructing a non-parametric density estimator of the model's probability function from samples generated by the model. We revisit this idea, propose a more efficient estimator, and prove that it provides a lower bound on the true test log-likelihood, and an unbiased estimator as the number of generated samples goes to infinity, although one that incorporates the effect of poor mixing. We further propose a biased variant of the estimator that can be used reliably with a finite number of samples for the purpose of model comparison.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-24T23:28:49Z</published>
+    <arxiv:comment>10 pages, 1 figure, 2 tables. International Conference on Learning Representations (ICLR'2014, conference track)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Li Yao</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.1780v7</id>
+    <title>Learned-Norm Pooling for Deep Feedforward and Recurrent Neural Networks</title>
+    <updated>2014-09-02T00:53:40Z</updated>
+    <link href="https://arxiv.org/abs/1311.1780v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.1780v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we propose and investigate a novel nonlinear unit, called $L_p$ unit, for deep neural networks. The proposed $L_p$ unit receives signals from several projections of a subset of units in the layer below and computes a normalized $L_p$ norm. We notice two interesting interpretations of the $L_p$ unit. First, the proposed unit can be understood as a generalization of a number of conventional pooling operators such as average, root-mean-square and max pooling widely used in, for instance, convolutional neural networks (CNN), HMAX models and neocognitrons. Furthermore, the $L_p$ unit is, to a certain degree, similar to the recently proposed maxout unit (Goodfellow et al., 2013) which achieved the state-of-the-art object recognition results on a number of benchmark datasets. Secondly, we provide a geometrical interpretation of the activation function based on which we argue that the $L_p$ unit is more efficient at representing complex, nonlinear separating boundaries. Each $L_p$ unit defines a superelliptic boundary, with its exact shape defined by the order $p$. We claim that this makes it possible to model arbitrarily shaped, curved boundaries more efficiently by combining a few $L_p$ units of different orders. This insight justifies the need for learning different orders for each unit in the model. We empirically evaluate the proposed $L_p$ units on a number of datasets and show that multilayer perceptrons (MLP) consisting of the $L_p$ units achieve the state-of-the-art results on a number of benchmark datasets. Furthermore, we evaluate the proposed $L_p$ unit on the recently proposed deep recurrent neural networks (RNN).</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-07T18:30:37Z</published>
+    <arxiv:comment>ECML/PKDD 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.4214v1</id>
+    <title>Pylearn2: a machine learning research library</title>
+    <updated>2013-08-20T02:50:43Z</updated>
+    <link href="https://arxiv.org/abs/1308.4214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.4214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pylearn2 is a machine learning research library. This does not just mean that it is a collection of machine learning algorithms that share a common API; it means that it has been designed for flexibility and extensibility in order to facilitate research projects that involve new or unusual use cases. In this paper we give a brief history of the library, an overview of its basic philosophy, a summary of the library's architecture, and a description of how the Pylearn2 community functions socially.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-20T02:50:43Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Pascal Lamblin</name>
+    </author>
+    <author>
+      <name>Vincent Dumoulin</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Frédéric Bastien</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.3432v1</id>
+    <title>Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation</title>
+    <updated>2013-08-15T15:19:34Z</updated>
+    <link href="https://arxiv.org/abs/1308.3432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.3432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stochastic neurons and hard non-linearities can be useful for a number of reasons in deep learning models, but in many cases they pose a challenging problem: how to estimate the gradient of a loss function with respect to the input of such stochastic or non-smooth neurons? I.e., can we "back-propagate" through these stochastic neurons? We examine this question, existing approaches, and compare four families of solutions, applicable in different settings. One of them is the minimum variance unbiased gradient estimator for stochatic binary neurons (a special case of the REINFORCE algorithm). A second approach, introduced here, decomposes the operation of a binary stochastic neuron into a stochastic binary part and a smooth differentiable part, which approximates the expected effect of the pure stochatic binary neuron to first order. A third approach involves the injection of additive or multiplicative noise in a computational graph that is otherwise differentiable. A fourth approach heuristically copies the gradient with respect to the stochastic output directly as an estimator of the gradient with respect to the sigmoid argument (we call this the straight-through estimator). To explore a context where these estimators are useful, we consider a small-scale version of {\em conditional computation}, where sparse stochastic units form a distributed representation of gaters that can turn off in combinatorially many ways large chunks of the computation performed in the rest of the neural network. In this case, it is important that the gating units produce an actual 0 most of the time. The resulting sparsity can be potentially be exploited to greatly reduce the computational cost of large deep networks for which conditional computation would be useful.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-15T15:19:34Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1305.2982</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Nicholas Léonard</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.0414v1</id>
+    <title>Challenges in Representation Learning: A report on three machine learning contests</title>
+    <updated>2013-07-01T15:53:22Z</updated>
+    <link href="https://arxiv.org/abs/1307.0414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.0414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ICML 2013 Workshop on Challenges in Representation Learning focused on three challenges: the black box learning challenge, the facial expression recognition challenge, and the multimodal learning challenge. We describe the datasets created for these challenges and summarize the results of the competitions. We provide suggestions for organizers of future challenges and some comments on what kind of knowledge can be gained from machine learning competitions.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-01T15:53:22Z</published>
+    <arxiv:comment>8 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Pierre Luc Carrier</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Ben Hamner</name>
+    </author>
+    <author>
+      <name>Will Cukierski</name>
+    </author>
+    <author>
+      <name>Yichuan Tang</name>
+    </author>
+    <author>
+      <name>David Thaler</name>
+    </author>
+    <author>
+      <name>Dong-Hyun Lee</name>
+    </author>
+    <author>
+      <name>Yingbo Zhou</name>
+    </author>
+    <author>
+      <name>Chetan Ramaiah</name>
+    </author>
+    <author>
+      <name>Fangxiang Feng</name>
+    </author>
+    <author>
+      <name>Ruifan Li</name>
+    </author>
+    <author>
+      <name>Xiaojie Wang</name>
+    </author>
+    <author>
+      <name>Dimitris Athanasakis</name>
+    </author>
+    <author>
+      <name>John Shawe-Taylor</name>
+    </author>
+    <author>
+      <name>Maxim Milakov</name>
+    </author>
+    <author>
+      <name>John Park</name>
+    </author>
+    <author>
+      <name>Radu Ionescu</name>
+    </author>
+    <author>
+      <name>Marius Popescu</name>
+    </author>
+    <author>
+      <name>Cristian Grozea</name>
+    </author>
+    <author>
+      <name>James Bergstra</name>
+    </author>
+    <author>
+      <name>Jingjing Xie</name>
+    </author>
+    <author>
+      <name>Lukasz Romaszko</name>
+    </author>
+    <author>
+      <name>Bing Xu</name>
+    </author>
+    <author>
+      <name>Zhang Chuang</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.1091v5</id>
+    <title>Deep Generative Stochastic Networks Trainable by Backprop</title>
+    <updated>2014-05-24T00:05:18Z</updated>
+    <link href="https://arxiv.org/abs/1306.1091v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.1091v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a novel training principle for probabilistic models that is an alternative to maximum likelihood. The proposed Generative Stochastic Networks (GSN) framework is based on learning the transition operator of a Markov chain whose stationary distribution estimates the data distribution. The transition distribution of the Markov chain is conditional on the previous state, generally involving a small move, so this conditional distribution has fewer dominant modes, being unimodal in the limit of small moves. Thus, it is easier to learn because it is easier to approximate its partition function, more like learning to perform supervised function approximation, with gradients that can be obtained by backprop. We provide theorems that generalize recent work on the probabilistic interpretation of denoising autoencoders and obtain along the way an interesting justification for dependency networks and generalized pseudolikelihood, along with a definition of an appropriate joint distribution and sampling mechanism even when the conditionals are not consistent. GSNs can be used with missing inputs and can be used to sample subsets of variables given the rest. We validate these theoretical results with experiments on two image datasets using an architecture that mimics the Deep Boltzmann Machine Gibbs sampler but allows training to proceed with simple backprop, without the need for layerwise pretraining.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-05T13:01:14Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1305.0445, Also published in ICML'2014</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Éric Thibodeau-Laufer</name>
+    </author>
+    <author>
+      <name>Guillaume Alain</name>
+    </author>
+    <author>
+      <name>Jason Yosinski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.6663v4</id>
+    <title>Generalized Denoising Auto-Encoders as Generative Models</title>
+    <updated>2013-11-11T02:27:55Z</updated>
+    <link href="https://arxiv.org/abs/1305.6663v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.6663v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has shown how denoising and contractive autoencoders implicitly capture the structure of the data-generating density, in the case where the corruption noise is Gaussian, the reconstruction error is the squared error, and the data is continuous-valued. This has led to various proposals for sampling from this implicitly learned density function, using Langevin and Metropolis-Hastings MCMC. However, it remained unclear how to connect the training procedure of regularized auto-encoders to the implicit estimation of the underlying data-generating distribution when the data are discrete, or using other forms of corruption process and reconstruction errors. Another issue is the mathematical justification which is only valid in the limit of small corruption noise. We propose here a different attack on the problem, which deals with all these issues: arbitrary (but noisy enough) corruption, arbitrary reconstruction loss (seen as a log-likelihood), handling both discrete and continuous-valued variables, and removing the bias due to non-infinitesimal corruption noise (or non-infinitesimal contractive penalty).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-29T00:25:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Li Yao</name>
+    </author>
+    <author>
+      <name>Guillaume Alain</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.2982v1</id>
+    <title>Estimating or Propagating Gradients Through Stochastic Neurons</title>
+    <updated>2013-05-14T00:29:42Z</updated>
+    <link href="https://arxiv.org/abs/1305.2982v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.2982v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stochastic neurons can be useful for a number of reasons in deep learning models, but in many cases they pose a challenging problem: how to estimate the gradient of a loss function with respect to the input of such stochastic neurons, i.e., can we "back-propagate" through these stochastic neurons? We examine this question, existing approaches, and present two novel families of solutions, applicable in different settings. In particular, it is demonstrated that a simple biologically plausible formula gives rise to an an unbiased (but noisy) estimator of the gradient with respect to a binary stochastic neuron firing probability. Unlike other estimators which view the noise as a small perturbation in order to estimate gradients by finite differences, this estimator is unbiased even without assuming that the stochastic perturbation is small. This estimator is also interesting because it can be applied in very general settings which do not allow gradient back-propagation, including the estimation of the gradient with respect to future rewards, as required in reinforcement learning setups. We also propose an approach to approximating this unbiased but high-variance estimator by learning to predict it using a biased estimator. The second approach we propose assumes that an estimator of the gradient can be back-propagated and it provides an unbiased estimator of the gradient, but can only work with non-linearities unlike the hard threshold, but like the rectifier, that are not flat for all of their range. This is similar to traditional sigmoidal units but has the advantage that for many inputs, a hard decision (e.g., a 0 output) can be produced, which would be convenient for conditional computation and achieving sparse representations and sparse gradients.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-14T00:29:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.0445v2</id>
+    <title>Deep Learning of Representations: Looking Forward</title>
+    <updated>2013-06-07T02:35:21Z</updated>
+    <link href="https://arxiv.org/abs/1305.0445v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.0445v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning research aims at discovering learning algorithms that discover multiple levels of distributed representations, with higher levels representing more abstract concepts. Although the study of deep learning has already led to impressive theoretical results, learning algorithms and breakthrough experiments, several challenges lie ahead. This paper proposes to examine some of these challenges, centering on the questions of scaling deep learning algorithms to much larger models and datasets, reducing optimization difficulties due to ill-conditioning or local minima, designing more efficient and powerful inference and sampling procedures, and learning to disentangle the factors of variation underlying the observed data. It also proposes a few forward-looking research directions aimed at overcoming these challenges.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-02T14:33:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.4389v4</id>
+    <title>Maxout Networks</title>
+    <updated>2013-09-20T08:54:35Z</updated>
+    <link href="https://arxiv.org/abs/1302.4389v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.4389v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of designing models to leverage a recently introduced approximate model averaging technique called dropout. We define a simple new model called maxout (so named because its output is the max of a set of inputs, and because it is a natural companion to dropout) designed to both facilitate optimization by dropout and improve the accuracy of dropout's fast approximate model averaging technique. We empirically verify that the model successfully accomplishes both of these tasks. We use maxout and dropout to demonstrate state of the art classification performance on four benchmark datasets: MNIST, CIFAR-10, CIFAR-100, and SVHN.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-18T18:59:07Z</published>
+    <arxiv:comment>This is the version of the paper that appears in ICML 2013</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>JMLR WCP 28 (3): 1319-1327, 2013</arxiv:journal_ref>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>David Warde-Farley</name>
+    </author>
+    <author>
+      <name>Mehdi Mirza</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4083v6</id>
+    <title>Knowledge Matters: Importance of Prior Information for Optimization</title>
+    <updated>2013-07-13T16:38:36Z</updated>
+    <link href="https://arxiv.org/abs/1301.4083v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4083v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the effect of introducing prior information into the intermediate level of neural networks for a learning task on which all the state-of-the-art machine learning algorithms tested failed to learn. We motivate our work from the hypothesis that humans learn such intermediate concepts from other individuals via a form of supervision or guidance using a curriculum. The experiments we have conducted provide positive evidence in favor of this hypothesis. In our experiments, a two-tiered MLP architecture is trained on a dataset with 64x64 binary inputs images, each image with three sprites. The final task is to decide whether all the sprites are the same or one of them is different. Sprites are pentomino tetris shapes and they are placed in an image with different locations using scaling and rotation transformations. The first part of the two-tiered MLP is pre-trained with intermediate-level targets being the presence of sprites at each location, while the second part takes the output of the first part as input and predicts the final task's target binary event. The two-tiered MLP architecture, with a few tens of thousand examples, was able to learn the task perfectly, whereas all other algorithms (include unsupervised pre-training, but also traditional algorithms like SVMs, decision trees and boosting) all perform no better than chance. We hypothesize that the optimization difficulty involved when the intermediate pre-training is not performed is due to the {\em composition} of two highly non-linear tasks. Our findings are also consistent with hypotheses on cultural learning inspired by the observations of optimization problems with deep learning, presumably because of effective local minima.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-17T13:06:52Z</published>
+    <arxiv:comment>37 Pages, 5 figures, 5 tables JMLR Special Topics on Representation Learning Submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Çağlar Gülçehre</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3584v7</id>
+    <title>Revisiting Natural Gradient for Deep Networks</title>
+    <updated>2014-02-17T16:29:27Z</updated>
+    <link href="https://arxiv.org/abs/1301.3584v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3584v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We evaluate natural gradient, an algorithm originally proposed in Amari (1997), for learning deep models. The contributions of this paper are as follows. We show the connection between natural gradient and three other recently proposed methods for training deep models: Hessian-Free (Martens, 2010), Krylov Subspace Descent (Vinyals and Povey, 2012) and TONGA (Le Roux et al., 2008). We describe how one can use unlabeled data to improve the generalization error obtained by natural gradient and empirically evaluate the robustness of the algorithm to the ordering of the training set compared to stochastic gradient descent. Finally we extend natural gradient to incorporate second order information alongside the manifold information and provide a benchmark of the new algorithm using a truncated Newton approach for inverting the metric matrix instead of using a diagonal approximation of it.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T04:47:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3583v4</id>
+    <title>Big Neural Networks Waste Capacity</title>
+    <updated>2013-03-14T20:49:20Z</updated>
+    <link href="https://arxiv.org/abs/1301.3583v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3583v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article exposes the failure of some big neural networks to leverage added capacity to reduce underfitting. Past research suggest diminishing returns when increasing the size of neural networks. Our experiments on ImageNet LSVRC-2010 show that this may be due to the fact there are highly diminishing returns for capacity in terms of training error, leading to underfitting. This suggests that the optimization method - first order gradient descent - fails at this regime. Directly attacking this problem, either through the optimization method or the choices of parametrization, may allow to improve the generalization error on large datasets, for which a large capacity is required.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T04:45:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yann N. Dauphin</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3568v3</id>
+    <title>Joint Training Deep Boltzmann Machines for Classification</title>
+    <updated>2013-05-01T04:48:20Z</updated>
+    <link href="https://arxiv.org/abs/1301.3568v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3568v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new method for training deep Boltzmann machines jointly. Prior methods of training DBMs require an initial learning pass that trains the model greedily, one layer at a time, or do not perform well on classification tasks. In our approach, we train all layers of the DBM simultaneously, using a novel training procedure called multi-prediction training. The resulting model can either be interpreted as a single generative model trained to maximize a variational approximation to the generalized pseudolikelihood, or as a family of recurrent networks that share parameters and may be approximately averaged together using a novel technique we call the multi-inference trick. We show that our approach performs competitively for classification and outperforms previous methods in terms of accuracy of approximate inference and classification with missing inputs.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T03:21:27Z</published>
+    <arxiv:comment>Major revision with new techniques and experiments. This version includes new material put on the poster for the ICLR workshop</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3545v2</id>
+    <title>Metric-Free Natural Gradient for Joint-Training of Boltzmann Machines</title>
+    <updated>2013-03-16T16:07:12Z</updated>
+    <link href="https://arxiv.org/abs/1301.3545v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3545v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces the Metric-Free Natural Gradient (MFNG) algorithm for training Boltzmann Machines. Similar in spirit to the Hessian-Free method of Martens [8], our algorithm belongs to the family of truncated Newton methods and exploits an efficient matrix-vector product to avoid explicitely storing the natural gradient metric $L$. This metric is shown to be the expected second derivative of the log-partition function (under the model distribution), or equivalently, the variance of the vector of partial derivatives of the energy function. We evaluate our method on the task of joint-training a 3-layer Deep Boltzmann Machine and show that MFNG does indeed have faster per-epoch convergence compared to Stochastic Maximum Likelihood with centering, though wall-clock performance is currently not competitive.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T01:40:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guillaume Desjardins</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3485v2</id>
+    <title>A Semantic Matching Energy Function for Learning with Multi-relational Data</title>
+    <updated>2013-03-21T17:02:48Z</updated>
+    <link href="https://arxiv.org/abs/1301.3485v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3485v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale relational learning becomes crucial for handling the huge amounts of structured data generated daily in many application domains ranging from computational biology or information retrieval, to natural language processing. In this paper, we present a new neural network architecture designed to embed multi-relational graphs into a flexible continuous vector space in which the original data is kept and enhanced. The network is trained to encode the semantics of these graphs in order to assign high probabilities to plausible components. We empirically show that it reaches competitive performance in link prediction on standard datasets from the literature.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-15T20:52:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xavier Glorot</name>
+    </author>
+    <author>
+      <name>Antoine Bordes</name>
+    </author>
+    <author>
+      <name>Jason Weston</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+</feed>

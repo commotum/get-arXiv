@@ -1,0 +1,1655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cY+jmtJZ1EEmCT22calKbAcw17w</id>
+  <title>arXiv Query: search_query=au:"Fei-Fei Li"&amp;id_list=&amp;start=100&amp;max_results=50</title>
+  <updated>2026-02-06T23:30:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Fei-Fei+Li%22&amp;start=100&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>218</opensearch:totalResults>
+  <opensearch:startIndex>100</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.04174v3</id>
+    <title>Greedy Hierarchical Variational Autoencoders for Large-Scale Video Prediction</title>
+    <updated>2021-06-19T07:25:28Z</updated>
+    <link href="https://arxiv.org/abs/2103.04174v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.04174v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A video prediction model that generalizes to diverse scenes would enable intelligent agents such as robots to perform a variety of tasks via planning with the model. However, while existing video prediction models have produced promising results on small datasets, they suffer from severe underfitting when trained on large and diverse datasets. To address this underfitting challenge, we first observe that the ability to train larger video prediction models is often bottlenecked by the memory constraints of GPUs or TPUs. In parallel, deep hierarchical latent variable models can produce higher quality predictions by capturing the multi-level stochasticity of future observations, but end-to-end optimization of such models is notably difficult. Our key insight is that greedy and modular optimization of hierarchical autoencoders can simultaneously address both the memory constraints and the optimization challenges of large-scale video prediction. We introduce Greedy Hierarchical Variational Autoencoders (GHVAEs), a method that learns high-fidelity video predictions by greedily training each level of a hierarchical autoencoder. In comparison to state-of-the-art models, GHVAEs provide 17-55% gains in prediction performance on four video datasets, a 35-40% higher success rate on real robot tasks, and can improve performance monotonically by simply adding more modules.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-06T18:58:56Z</published>
+    <arxiv:comment>Equal advising and contribution for last two authors</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bohan Wu</name>
+    </author>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Roberto Martin-Martin</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.00375v2</id>
+    <title>Generalization Through Hand-Eye Coordination: An Action Space for Learning Spatially-Invariant Visuomotor Control</title>
+    <updated>2021-08-17T02:08:49Z</updated>
+    <link href="https://arxiv.org/abs/2103.00375v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.00375v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation Learning (IL) is an effective framework to learn visuomotor skills from offline demonstration data. However, IL methods often fail to generalize to new scene configurations not covered by training data. On the other hand, humans can manipulate objects in varying conditions. Key to such capability is hand-eye coordination, a cognitive ability that enables humans to adaptively direct their movements at task-relevant objects and be invariant to the objects' absolute spatial location. In this work, we present a learnable action space, Hand-eye Action Networks (HAN), that can approximate human's hand-eye coordination behaviors by learning from human teleoperated demonstrations. Through a set of challenging multi-stage manipulation tasks, we show that a visuomotor policy equipped with HAN is able to inherit the key spatial invariance property of hand-eye coordination and achieve zero-shot generalization to new scene configurations. Additional materials available at https://sites.google.com/stanford.edu/han</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-28T01:49:13Z</published>
+    <arxiv:comment>First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.02202v1</id>
+    <title>Embodied Intelligence via Learning and Evolution</title>
+    <updated>2021-02-03T18:58:31Z</updated>
+    <link href="https://arxiv.org/abs/2102.02202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.02202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The intertwined processes of learning and evolution in complex environmental niches have resulted in a remarkable diversity of morphological forms. Moreover, many aspects of animal intelligence are deeply embodied in these evolved morphologies. However, the principles governing relations between environmental complexity, evolved morphology, and the learnability of intelligent control, remain elusive, partially due to the substantial challenge of performing large-scale in silico experiments on evolution and learning. We introduce Deep Evolutionary Reinforcement Learning (DERL): a novel computational framework which can evolve diverse agent morphologies to learn challenging locomotion and manipulation tasks in complex environments using only low level egocentric sensory information. Leveraging DERL we demonstrate several relations between environmental complexity, morphological intelligence and the learnability of control. First, environmental complexity fosters the evolution of morphological intelligence as quantified by the ability of a morphology to facilitate the learning of novel tasks. Second, evolution rapidly selects morphologies that learn faster, thereby enabling behaviors learned late in the lifetime of early ancestors to be expressed early in the lifetime of their descendants. In agents that learn and evolve in complex environments, this result constitutes the first demonstration of a long-conjectured morphological Baldwin effect. Third, our experiments suggest a mechanistic basis for both the Baldwin effect and the emergence of morphological intelligence through the evolution of morphologies that are more physically stable and energy efficient, and can therefore facilitate learning and control.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-03T18:58:31Z</published>
+    <arxiv:comment>Video available at https://youtu.be/MMrIiNavkuY</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Agrim Gupta</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-021-25874-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-021-25874-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.06738v1</id>
+    <title>Learning Multi-Arm Manipulation Through Collaborative Teleoperation</title>
+    <updated>2020-12-12T05:43:43Z</updated>
+    <link href="https://arxiv.org/abs/2012.06738v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.06738v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation Learning (IL) is a powerful paradigm to teach robots to perform manipulation tasks by allowing them to learn from human demonstrations collected via teleoperation, but has mostly been limited to single-arm manipulation. However, many real-world tasks require multiple arms, such as lifting a heavy object or assembling a desk. Unfortunately, applying IL to multi-arm manipulation tasks has been challenging -- asking a human to control more than one robotic arm can impose significant cognitive burden and is often only possible for a maximum of two robot arms. To address these challenges, we present Multi-Arm RoboTurk (MART), a multi-user data collection platform that allows multiple remote users to simultaneously teleoperate a set of robotic arms and collect demonstrations for multi-arm tasks. Using MART, we collected demonstrations for five novel two and three-arm tasks from several geographically separated users. From our data we arrived at a critical insight: most multi-arm tasks do not require global coordination throughout its full duration, but only during specific moments. We show that learning from such data consequently presents challenges for centralized agents that directly attempt to model all robot actions simultaneously, and perform a comprehensive study of different policy architectures with varying levels of centralization on our tasks. Finally, we propose and evaluate a base-residual policy framework that allows trained policies to better adapt to the mixed coordination setting common in multi-arm manipulation, and show that a centralized policy augmented with a decentralized residual model outperforms all other models on our set of benchmark tasks. Additional results and videos at https://roboturk.stanford.edu/multiarm .</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-12T05:43:43Z</published>
+    <arxiv:comment>First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Albert Tung</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.06733v1</id>
+    <title>Human-in-the-Loop Imitation Learning using Remote Teleoperation</title>
+    <updated>2020-12-12T05:30:35Z</updated>
+    <link href="https://arxiv.org/abs/2012.06733v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.06733v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation Learning is a promising paradigm for learning complex robot manipulation skills by reproducing behavior from human demonstrations. However, manipulation tasks often contain bottleneck regions that require a sequence of precise actions to make meaningful progress, such as a robot inserting a pod into a coffee machine to make coffee. Trained policies can fail in these regions because small deviations in actions can lead the policy into states not covered by the demonstrations. Intervention-based policy learning is an alternative that can address this issue -- it allows human operators to monitor trained policies and take over control when they encounter failures. In this paper, we build a data collection system tailored to 6-DoF manipulation settings, that enables remote human operators to monitor and intervene on trained policies. We develop a simple and effective algorithm to train the policy iteratively on new data collected by the system that encourages the policy to learn how to traverse bottlenecks through the interventions. We demonstrate that agents trained on data collected by our intervention-based system and algorithm outperform agents trained on an equivalent number of samples collected by non-interventional demonstrators, and further show that our method outperforms multiple state-of-the-art baselines for learning from the human interventions on a challenging robot threading task and a coffee making task. Additional results and videos at https://sites.google.com/stanford.edu/iwr .</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-12T05:30:35Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.02924v6</id>
+    <title>iGibson 1.0: a Simulation Environment for Interactive Tasks in Large Realistic Scenes</title>
+    <updated>2021-08-10T04:45:16Z</updated>
+    <link href="https://arxiv.org/abs/2012.02924v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.02924v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present iGibson 1.0, a novel simulation environment to develop robotic solutions for interactive tasks in large-scale realistic scenes. Our environment contains 15 fully interactive home-sized scenes with 108 rooms populated with rigid and articulated objects. The scenes are replicas of real-world homes, with distribution and the layout of objects aligned to those of the real world. iGibson 1.0 integrates several key features to facilitate the study of interactive tasks: i) generation of high-quality virtual sensor signals (RGB, depth, segmentation, LiDAR, flow and so on), ii) domain randomization to change the materials of the objects (both visual and physical) and/or their shapes, iii) integrated sampling-based motion planners to generate collision-free trajectories for robot bases and arms, and iv) intuitive human-iGibson interface that enables efficient collection of human demonstrations. Through experiments, we show that the full interactivity of the scenes enables agents to learn useful visual representations that accelerate the training of downstream manipulation tasks. We also show that iGibson 1.0 features enable the generalization of navigation agents, and that the human-iGibson interface and integrated motion planners facilitate efficient imitation learning of human demonstrated (mobile) manipulation behaviors. iGibson 1.0 is open-source, equipped with comprehensive examples and documentation. For more information, visit our project website: http://svl.stanford.edu/igibson/</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-05T02:14:17Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</arxiv:journal_ref>
+    <author>
+      <name>Bokui Shen</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>Claudia Pérez-D'Arpino</name>
+    </author>
+    <author>
+      <name>Shyamal Buch</name>
+    </author>
+    <author>
+      <name>Sanjana Srivastava</name>
+    </author>
+    <author>
+      <name>Lyne P. Tchapmi</name>
+    </author>
+    <author>
+      <name>Micael E. Tchapmi</name>
+    </author>
+    <author>
+      <name>Kent Vainio</name>
+    </author>
+    <author>
+      <name>Josiah Wong</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08424v2</id>
+    <title>Deep Affordance Foresight: Planning Through What Can Be Done in the Future</title>
+    <updated>2021-06-23T05:14:55Z</updated>
+    <link href="https://arxiv.org/abs/2011.08424v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08424v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Planning in realistic environments requires searching in large planning spaces. Affordances are a powerful concept to simplify this search, because they model what actions can be successful in a given situation. However, the classical notion of affordance is not suitable for long horizon planning because it only informs the robot about the immediate outcome of actions instead of what actions are best for achieving a long-term goal. In this paper, we introduce a new affordance representation that enables the robot to reason about the long-term effects of actions through modeling what actions are afforded in the future, thereby informing the robot the best actions to take next to achieve a task goal. Based on the new representation, we develop a learning-to-plan method, Deep Affordance Foresight (DAF), that learns partial environment models of affordances of parameterized motor skills through trial-and-error. We evaluate DAF on two challenging manipulation domains and show that it can effectively learn to carry out multi-step tasks, share learned affordance representations among different tasks, and learn to plan with high-dimensional image inputs. Additional material is available at https://sites.google.com/stanford.edu/daf</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T05:19:46Z</published>
+    <arxiv:comment>ICRA 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.02311v1</id>
+    <title>Conceptual Metaphors Impact Perceptions of Human-AI Collaboration</title>
+    <updated>2020-08-05T18:39:56Z</updated>
+    <link href="https://arxiv.org/abs/2008.02311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.02311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the emergence of conversational artificial intelligence (AI) agents, it is important to understand the mechanisms that influence users' experiences of these agents. We study a common tool in the designer's toolkit: conceptual metaphors. Metaphors can present an agent as akin to a wry teenager, a toddler, or an experienced butler. How might a choice of metaphor influence our experience of the AI agent? Sampling metaphors along the dimensions of warmth and competence---defined by psychological theories as the primary axes of variation for human social perception---we perform a study (N=260) where we manipulate the metaphor, but not the behavior, of a Wizard-of-Oz conversational agent. Following the experience, participants are surveyed about their intention to use the agent, their desire to cooperate with the agent, and the agent's usability. Contrary to the current tendency of designers to use high competence metaphors to describe AI products, we find that metaphors that signal low competence lead to better evaluations of the agent than metaphors that signal high competence. This effect persists despite both high and low competence agents featuring human-level performance and the wizards being blind to condition. A second study confirms that intention to adopt decreases rapidly as competence projected by the metaphor increases. In a third study, we assess effects of metaphor choices on potential users' desire to try out the system and find that users are drawn to systems that project higher competence and warmth. These results suggest that projecting competence may help attract new users, but those users may discard the agent unless it can quickly correct with a lower competence metaphor. We close with a retrospective analysis that finds similar patterns between metaphors and user attitudes towards past conversational agents such as Xiaoice, Replika, Woebot, Mitsuku, and Tay.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-05T18:39:56Z</published>
+    <arxiv:comment>CSCW 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <arxiv:journal_ref>PACM HCI Volume 4 CSCW 2, 2020</arxiv:journal_ref>
+    <author>
+      <name>Pranav Khadpe</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jeffrey Hancock</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <arxiv:doi>10.1145/3415234</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3415234" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.08920v1</id>
+    <title>Vision-based Estimation of MDS-UPDRS Gait Scores for Assessing Parkinson's Disease Motor Severity</title>
+    <updated>2020-07-17T11:49:30Z</updated>
+    <link href="https://arxiv.org/abs/2007.08920v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.08920v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Parkinson's disease (PD) is a progressive neurological disorder primarily affecting motor function resulting in tremor at rest, rigidity, bradykinesia, and postural instability. The physical severity of PD impairments can be quantified through the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS), a widely used clinical rating scale. Accurate and quantitative assessment of disease progression is critical to developing a treatment that slows or stops further advancement of the disease. Prior work has mainly focused on dopamine transport neuroimaging for diagnosis or costly and intrusive wearables evaluating motor impairments. For the first time, we propose a computer vision-based model that observes non-intrusive video recordings of individuals, extracts their 3D body skeletons, tracks them through time, and classifies the movements according to the MDS-UPDRS gait scores. Experimental results show that our proposed method performs significantly better than chance and competing methods with an F1-score of 0.83 and a balanced accuracy of 81%. This is the first benchmark for classifying PD patients based on MDS-UPDRS gait severity and could be an objective biomarker for disease severity. Our work demonstrates how computer-assisted technologies can be used to non-intrusively monitor patients and their motor impairments. The code is available at https://github.com/mlu355/PD-Motor-Severity-Estimation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-17T11:49:30Z</published>
+    <arxiv:comment>Accepted as a conference paper at MICCAI (Medical Image Computing and Computer Assisted Intervention), Lima, Peru, October 2020. 11 pages, LaTeX</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mandy Lu</name>
+    </author>
+    <author>
+      <name>Kathleen Poston</name>
+    </author>
+    <author>
+      <name>Adolf Pfefferbaum</name>
+    </author>
+    <author>
+      <name>Edith V. Sullivan</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Kilian M. Pohl</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.00350v3</id>
+    <title>Adaptive Procedural Task Generation for Hard-Exploration Problems</title>
+    <updated>2021-03-18T08:53:32Z</updated>
+    <link href="https://arxiv.org/abs/2007.00350v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.00350v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Adaptive Procedural Task Generation (APT-Gen), an approach to progressively generate a sequence of tasks as curricula to facilitate reinforcement learning in hard-exploration problems. At the heart of our approach, a task generator learns to create tasks from a parameterized task space via a black-box procedural generation module. To enable curriculum learning in the absence of a direct indicator of learning progress, we propose to train the task generator by balancing the agent's performance in the generated tasks and the similarity to the target tasks. Through adversarial training, the task similarity is adaptively estimated by a task discriminator defined on the agent's experiences, allowing the generated tasks to approximate target tasks of unknown parameterization or outside of the predefined task space. Our experiments on the grid world and robotic manipulation task domains show that APT-Gen achieves substantially better performance than various existing baselines by generating suitable tasks of rich variations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-01T09:38:51Z</published>
+    <arxiv:comment>ICLR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.12373v2</id>
+    <title>Learning Physical Graph Representations from Visual Scenes</title>
+    <updated>2020-06-24T17:33:35Z</updated>
+    <link href="https://arxiv.org/abs/2006.12373v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.12373v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Convolutional Neural Networks (CNNs) have proved exceptional at learning representations for visual object categorization. However, CNNs do not explicitly encode objects, parts, and their physical properties, which has limited CNNs' success on tasks that require structured understanding of visual scenes. To overcome these limitations, we introduce the idea of Physical Scene Graphs (PSGs), which represent scenes as hierarchical graphs, with nodes in the hierarchy corresponding intuitively to object parts at different scales, and edges to physical connections between parts. Bound to each node is a vector of latent attributes that intuitively represent object properties such as surface shape and texture. We also describe PSGNet, a network architecture that learns to extract PSGs by reconstructing scenes through a PSG-structured bottleneck. PSGNet augments standard CNNs by including: recurrent feedback connections to combine low and high-level image information; graph pooling and vectorization operations that convert spatially-uniform feature maps into object-centric graph structures; and perceptual grouping principles to encourage the identification of meaningful scene elements. We show that PSGNet outperforms alternative self-supervised scene representation algorithms at scene segmentation tasks, especially on complex real-world images, and generalizes well to unseen object types and scene arrangements. PSGNet is also able learn from physical motion, enhancing scene estimates even for static images. We present a series of ablation studies illustrating the importance of each component of the PSGNet architecture, analyses showing that learned latent attributes capture intuitive scene properties, and illustrate the use of PSGs for compositional scene inference.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-22T16:10:26Z</published>
+    <arxiv:comment>23 pages; corrected affiliations and acknowledgments</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Daniel M. Bear</name>
+    </author>
+    <author>
+      <name>Chaofei Fan</name>
+    </author>
+    <author>
+      <name>Damian Mrowca</name>
+    </author>
+    <author>
+      <name>Yunzhu Li</name>
+    </author>
+    <author>
+      <name>Seth Alter</name>
+    </author>
+    <author>
+      <name>Aran Nayebi</name>
+    </author>
+    <author>
+      <name>Jeremy Schwartz</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Daniel L. K. Yamins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.08140v3</id>
+    <title>Experimental discovery of bulk-disclination correspondence</title>
+    <updated>2020-09-14T03:23:35Z</updated>
+    <link href="https://arxiv.org/abs/2003.08140v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.08140v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most natural and artificial materials have crystalline structures from which abundant topological phases emerge [1-6]. The bulk-edge correspondence, widely-adopted in experiments to determine the band topology from edge properties, however, becomes inadequate in discerning various topological crystalline phases [7-17], leading to great challenges in the experimental classification of the large family of topological crystalline materials [4-6]. Theories predict that disclinations, ubiquitous crystallographic defects, provide an effective probe of crystalline topology beyond edges [18-21], which, however, has not yet been confirmed in experiments. Here, we report the experimental discovery of the bulk-disclination correspondence which is manifested as the fractional spectral charge and robust bound states at the disclinations. The fractional disclination charge originates from the symmetry-protected bulk charge patterns---a fundamental property of many topological crystalline insulators (TCIs). Meanwhile, the robust bound states at disclinations emerge as a secondary, but directly observable property of TCIs. Using reconfigurable photonic crystals as photonic TCIs with higher-order topology, we observe those hallmark features via pump-probe and near-field detection measurements. Both the fractional charge and the localized states are demonstrated to emerge at the disclination in the TCI phase but vanish in the trivial phase. The experimental discovery of bulk-disclination correspondence unveils a novel fundamental phenomenon and a new paradigm for exploring topological materials.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-18T10:41:33Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Nature 589, 381-385 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Shuwai Leung</name>
+    </author>
+    <author>
+      <name>Fei-Fei Li</name>
+    </author>
+    <author>
+      <name>Zhi-Kang Lin</name>
+    </author>
+    <author>
+      <name>Xiufeng Tao</name>
+    </author>
+    <author>
+      <name>Yin Poo</name>
+    </author>
+    <author>
+      <name>Jian-Hua Jiang</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-020-03125-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-020-03125-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.06085v2</id>
+    <title>Learning to Generalize Across Long-Horizon Tasks from Human Demonstrations</title>
+    <updated>2021-06-23T05:17:45Z</updated>
+    <link href="https://arxiv.org/abs/2003.06085v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.06085v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation learning is an effective and safe technique to train robot policies in the real world because it does not depend on an expensive random exploration process. However, due to the lack of exploration, learning policies that generalize beyond the demonstrated behaviors is still an open challenge. We present a novel imitation learning framework to enable robots to 1) learn complex real world manipulation tasks efficiently from a small number of human demonstrations, and 2) synthesize new behaviors not contained in the collected demonstrations. Our key insight is that multi-task domains often present a latent structure, where demonstrated trajectories for different tasks intersect at common regions of the state space. We present Generalization Through Imitation (GTI), a two-stage offline imitation learning algorithm that exploits this intersecting structure to train goal-directed policies that generalize to unseen start and goal state combinations. In the first stage of GTI, we train a stochastic policy that leverages trajectory intersections to have the capacity to compose behaviors from different demonstration trajectories together. In the second stage of GTI, we collect a small set of rollouts from the unconditioned stochastic policy of the first stage, and train a goal-directed agent to generalize to novel start and goal configurations. We validate GTI in both simulated domains and a challenging long-horizon robotic manipulation domain in the real world. Additional results and videos are available at https://sites.google.com/view/gti2020/ .</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-13T02:25:28Z</published>
+    <arxiv:comment>RSS 2020; First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.07726v1</id>
+    <title>Towards Fairer Datasets: Filtering and Balancing the Distribution of the People Subtree in the ImageNet Hierarchy</title>
+    <updated>2019-12-16T22:03:05Z</updated>
+    <link href="https://arxiv.org/abs/1912.07726v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.07726v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer vision technology is being used by many but remains representative of only a few. People have reported misbehavior of computer vision models, including offensive prediction results and lower performance for underrepresented groups. Current computer vision models are typically developed using datasets consisting of manually annotated images or videos; the data and label distributions in these datasets are critical to the models' behavior. In this paper, we examine ImageNet, a large-scale ontology of images that has spurred the development of many modern computer vision methods. We consider three key factors within the "person" subtree of ImageNet that may lead to problematic behavior in downstream computer vision technology: (1) the stagnant concept vocabulary of WordNet, (2) the attempt at exhaustive illustration of all categories with images, and (3) the inequality of representation in the images within concepts. We seek to illuminate the root causes of these concerns and take the first steps to mitigate them constructively.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-16T22:03:05Z</published>
+    <arxiv:comment>Accepted to FAT* 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiyu Yang</name>
+    </author>
+    <author>
+      <name>Klint Qinami</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Jia Deng</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+    <arxiv:doi>10.1145/3351095.3375709</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3351095.3375709" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.06992v1</id>
+    <title>Action Genome: Actions as Composition of Spatio-temporal Scene Graphs</title>
+    <updated>2019-12-15T06:56:33Z</updated>
+    <link href="https://arxiv.org/abs/1912.06992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.06992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Action recognition has typically treated actions and activities as monolithic events that occur in videos. However, there is evidence from Cognitive Science and Neuroscience that people actively encode activities into consistent hierarchical part structures. However in Computer Vision, few explorations on representations encoding event partonomies have been made. Inspired by evidence that the prototypical unit of an event is an action-object interaction, we introduce Action Genome, a representation that decomposes actions into spatio-temporal scene graphs. Action Genome captures changes between objects and their pairwise relationships while an action occurs. It contains 10K videos with 0.4M objects and 1.7M visual relationships annotated. With Action Genome, we extend an existing action recognition model by incorporating scene graphs as spatio-temporal feature banks to achieve better performance on the Charades dataset. Next, by decomposing and learning the temporal changes in visual relationships that result in an action, we demonstrate the utility of a hierarchical event decomposition by enabling few-shot action recognition, achieving 42.7% mAP using as few as 10 examples. Finally, we benchmark existing scene graph models on the new task of spatio-temporal scene graph prediction.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-15T06:56:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jingwei Ji</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.01119v2</id>
+    <title>Deep Bayesian Active Learning for Multiple Correct Outputs</title>
+    <updated>2019-12-08T06:36:35Z</updated>
+    <link href="https://arxiv.org/abs/1912.01119v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.01119v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Typical active learning strategies are designed for tasks, such as classification, with the assumption that the output space is mutually exclusive. The assumption that these tasks always have exactly one correct answer has resulted in the creation of numerous uncertainty-based measurements, such as entropy and least confidence, which operate over a model's outputs. Unfortunately, many real-world vision tasks, like visual question answering and image captioning, have multiple correct answers, causing these measurements to overestimate uncertainty and sometimes perform worse than a random sampling baseline. In this paper, we propose a new paradigm that estimates uncertainty in the model's internal hidden space instead of the model's output space. We specifically study a manifestation of this problem for visual question answer generation (VQA), where the aim is not to classify the correct answer but to produce a natural language answer, given an image and a question. Our method overcomes the paraphrastic nature of language. It requires a semantic space that structures the model's output concepts and that enables the usage of techniques like dropout-based Bayesian uncertainty. We build a visual-semantic space that embeds paraphrases close together for any existing VQA model. We empirically show state-of-art active learning results on the task of VQA on two datasets, being 5 times more cost-efficient on Visual Genome and 3 times more cost-efficient on VQA 2.0.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-02T23:09:16Z</published>
+    <arxiv:comment>18 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Khaled Jedoui</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.05864v1</id>
+    <title>Motion Reasoning for Goal-Based Imitation Learning</title>
+    <updated>2019-11-13T23:59:44Z</updated>
+    <link href="https://arxiv.org/abs/1911.05864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.05864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address goal-based imitation learning, where the aim is to output the symbolic goal from a third-person video demonstration. This enables the robot to plan for execution and reproduce the same goal in a completely different environment. The key challenge is that the goal of a video demonstration is often ambiguous at the level of semantic actions. The human demonstrators might unintentionally achieve certain subgoals in the demonstrations with their actions. Our main contribution is to propose a motion reasoning framework that combines task and motion planning to disambiguate the true intention of the demonstrator in the video demonstration. This allows us to robustly recognize the goals that cannot be disambiguated by previous action-based approaches. We evaluate our approach by collecting a dataset of 96 video demonstrations in a mockup kitchen environment. We show that our motion reasoning plays an important role in recognizing the actual goal of the demonstrator and improves the success rate by over 20%. We further show that by using the automatically inferred goal from the video demonstration, our robot is able to reproduce the same task in a real kitchen environment.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-13T23:59:44Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Yu-Wei Chao</name>
+    </author>
+    <author>
+      <name>Chris Paxton</name>
+    </author>
+    <author>
+      <name>Xinke Deng</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.05321v2</id>
+    <title>IRIS: Implicit Reinforcement without Interaction at Scale for Learning Control from Offline Robot Manipulation Data</title>
+    <updated>2020-02-23T02:33:41Z</updated>
+    <link href="https://arxiv.org/abs/1911.05321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.05321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning from offline task demonstrations is a problem of great interest in robotics. For simple short-horizon manipulation tasks with modest variation in task instances, offline learning from a small set of demonstrations can produce controllers that successfully solve the task. However, leveraging a fixed batch of data can be problematic for larger datasets and longer-horizon tasks with greater variations. The data can exhibit substantial diversity and consist of suboptimal solution approaches. In this paper, we propose Implicit Reinforcement without Interaction at Scale (IRIS), a novel framework for learning from large-scale demonstration datasets. IRIS factorizes the control problem into a goal-conditioned low-level controller that imitates short demonstration sequences and a high-level goal selection mechanism that sets goals for the low-level and selectively combines parts of suboptimal solutions leading to more successful task completions. We evaluate IRIS across three datasets, including the RoboTurk Cans dataset collected by humans via crowdsourcing, and show that performant policies can be learned from purely offline learning. Additional results at https://sites.google.com/stanford.edu/iris/ .</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-13T06:56:21Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Fabio Ramos</name>
+    </author>
+    <author>
+      <name>Byron Boots</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.04052v1</id>
+    <title>Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity</title>
+    <updated>2019-11-11T03:13:46Z</updated>
+    <link href="https://arxiv.org/abs/1911.04052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.04052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large, richly annotated datasets have accelerated progress in fields such as computer vision and natural language processing, but replicating these successes in robotics has been challenging. While prior data collection methodologies such as self-supervision have resulted in large datasets, the data can have poor signal-to-noise ratio. By contrast, previous efforts to collect task demonstrations with humans provide better quality data, but they cannot reach the same data magnitude. Furthermore, neither approach places guarantees on the diversity of the data collected, in terms of solution strategies. In this work, we leverage and extend the RoboTurk platform to scale up data collection for robotic manipulation using remote teleoperation. The primary motivation for our platform is two-fold: (1) to address the shortcomings of prior work and increase the total quantity of manipulation data collected through human supervision by an order of magnitude without sacrificing the quality of the data and (2) to collect data on challenging manipulation tasks across several operators and observe a diverse set of emergent behaviors and solutions. We collected over 111 hours of robot manipulation data across 54 users and 3 challenging manipulation tasks in 1 week, resulting in the largest robot dataset collected via remote teleoperation. We evaluate the quality of our platform, the diversity of demonstrations in our dataset, and the utility of our dataset via quantitative and qualitative analysis. For additional results, supplementary videos, and to download our dataset, visit http://roboturk.stanford.edu/realrobotdataset .</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-11T03:13:46Z</published>
+    <arxiv:comment>Published at IROS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Jonathan Booher</name>
+    </author>
+    <author>
+      <name>Max Spero</name>
+    </author>
+    <author>
+      <name>Albert Tung</name>
+    </author>
+    <author>
+      <name>Anchit Gupta</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.14442v3</id>
+    <title>Interactive Gibson Benchmark (iGibson 0.5): A Benchmark for Interactive Navigation in Cluttered Environments</title>
+    <updated>2021-08-09T22:58:22Z</updated>
+    <link href="https://arxiv.org/abs/1910.14442v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.14442v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Interactive Gibson Benchmark, the first comprehensive benchmark for training and evaluating Interactive Navigation: robot navigation strategies where physical interaction with objects is allowed and even encouraged to accomplish a task. For example, the robot can move objects if needed in order to clear a path leading to the goal location. Our benchmark comprises two novel elements: 1) a new experimental setup, the Interactive Gibson Environment (iGibson 0.5), which simulates high fidelity visuals of indoor scenes, and high fidelity physical dynamics of the robot and common objects found in these scenes; 2) a set of Interactive Navigation metrics which allows one to study the interplay between navigation and physical interaction. We present and evaluate multiple learning-based baselines in Interactive Gibson, and provide insights into regimes of navigation with different trade-offs between navigation path efficiency and disturbance of surrounding objects. We make our benchmark publicly available(https://sites.google.com/view/interactivegibsonenv) and encourage researchers from all disciplines in robotics (e.g. planning, learning, control) to propose, evaluate, and compare their Interactive Navigation solutions in Interactive Gibson.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-30T01:04:37Z</published>
+    <arxiv:comment>9 pages, 8 figures. Consider citing a newer version (https://arxiv.org/abs/2012.02924) if you are using iGibson</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>IEEE Robotics and Automation Letters, Vol. 5, No. 2, April 2020</arxiv:journal_ref>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>William B. Shen</name>
+    </author>
+    <author>
+      <name>Chengshu Li</name>
+    </author>
+    <author>
+      <name>Priya Kasimbeg</name>
+    </author>
+    <author>
+      <name>Micael Tchapmi</name>
+    </author>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <arxiv:doi>10.1109/LRA.2020.2965078</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LRA.2020.2965078" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.13395v2</id>
+    <title>Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation</title>
+    <updated>2020-03-17T08:55:05Z</updated>
+    <link href="https://arxiv.org/abs/1910.13395v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.13395v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fundamental challenge of planning for multi-step manipulation is to find effective and plausible action sequences that lead to the task goal. We present Cascaded Variational Inference (CAVIN) Planner, a model-based method that hierarchically generates plans by sampling from latent spaces. To facilitate planning over long time horizons, our method learns latent representations that decouple the prediction of high-level effects from the generation of low-level motions through cascaded variational inference. This enables us to model dynamics at two different levels of temporal resolutions for hierarchical planning. We evaluate our approach in three multi-step robotic manipulation tasks in cluttered tabletop environments given high-dimensional observations. Empirical results demonstrate that the proposed method outperforms state-of-the-art model-based methods by strategically interacting with multiple objects.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-29T16:58:25Z</published>
+    <arxiv:comment>CoRL 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.11977v2</id>
+    <title>KETO: Learning Keypoint Representations for Tool Manipulation</title>
+    <updated>2019-10-30T00:57:53Z</updated>
+    <link href="https://arxiv.org/abs/1910.11977v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.11977v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We aim to develop an algorithm for robots to manipulate novel objects as tools for completing different task goals. An efficient and informative representation would facilitate the effectiveness and generalization of such algorithms. For this purpose, we present KETO, a framework of learning keypoint representations of tool-based manipulation. For each task, a set of task-specific keypoints is jointly predicted from 3D point clouds of the tool object by a deep neural network. These keypoints offer a concise and informative description of the object to determine grasps and subsequent manipulation actions. The model is learned from self-supervised robot interactions in the task environment without the need for explicit human annotations. We evaluate our framework in three manipulation tasks with tool use. Our model consistently outperforms state-of-the-art methods in terms of task success rates. Qualitative results of keypoint prediction and tool generation are shown to visualize the learned representations.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-26T02:08:49Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zengyi Qin</name>
+    </author>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.10750v1</id>
+    <title>6-PACK: Category-level 6D Pose Tracker with Anchor-Based Keypoints</title>
+    <updated>2019-10-23T18:16:53Z</updated>
+    <link href="https://arxiv.org/abs/1910.10750v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.10750v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present 6-PACK, a deep learning approach to category-level 6D object pose tracking on RGB-D data. Our method tracks in real-time novel object instances of known object categories such as bowls, laptops, and mugs. 6-PACK learns to compactly represent an object by a handful of 3D keypoints, based on which the interframe motion of an object instance can be estimated through keypoint matching. These keypoints are learned end-to-end without manual supervision in order to be most effective for tracking. Our experiments show that our method substantially outperforms existing methods on the NOCS category-level 6D pose estimation benchmark and supports a physical robot to perform simple vision-based closed-loop manipulation tasks. Our code and video are available at https://sites.google.com/view/6packtracking.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-23T18:16:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Jun Lv</name>
+    </author>
+    <author>
+      <name>Cewu Lu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.03676v4</id>
+    <title>Representation Learning with Statistical Independence to Mitigate Bias</title>
+    <updated>2020-11-20T17:57:38Z</updated>
+    <link href="https://arxiv.org/abs/1910.03676v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.03676v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Presence of bias (in datasets or tasks) is inarguably one of the most critical challenges in machine learning applications that has alluded to pivotal debates in recent years. Such challenges range from spurious associations between variables in medical studies to the bias of race in gender or face recognition systems. Controlling for all types of biases in the dataset curation stage is cumbersome and sometimes impossible. The alternative is to use the available data and build models incorporating fair representation learning. In this paper, we propose such a model based on adversarial training with two competing objectives to learn features that have (1) maximum discriminative power with respect to the task and (2) minimal statistical mean dependence with the protected (bias) variable(s). Our approach does so by incorporating a new adversarial loss function that encourages a vanished correlation between the bias and the learned features. We apply our method to synthetic data, medical images (containing task bias), and a dataset for gender classification (containing dataset bias). Our results show that the learned features by our method not only result in superior prediction performance but also are unbiased. The code is available at https://github.com/QingyuZhao/BR-Net/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-08T20:33:58Z</published>
+    <arxiv:comment>WACV 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Qingyu Zhao</name>
+    </author>
+    <author>
+      <name>Adolf Pfefferbaum</name>
+    </author>
+    <author>
+      <name>Edith V. Sullivan</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Kilian M. Pohl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01751v1</id>
+    <title>Causal Induction from Visual Observations for Goal Directed Tasks</title>
+    <updated>2019-10-03T22:32:40Z</updated>
+    <link href="https://arxiv.org/abs/1910.01751v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01751v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Causal reasoning has been an indispensable capability for humans and other intelligent animals to interact with the physical world. In this work, we propose to endow an artificial agent with the capability of causal reasoning for completing goal-directed tasks. We develop learning-based approaches to inducing causal knowledge in the form of directed acyclic graphs, which can be used to contextualize a learned goal-conditional policy to perform tasks in novel environments with latent causal structures. We leverage attention mechanisms in our causal induction model and goal-conditional policy, enabling us to incrementally generate the causal graph from the agent's visual observations and to selectively use the induced graph for determining actions. Our experiments show that our method effectively generalizes towards completing new tasks in novel environments with previously unseen causal structures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-03T22:32:40Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.13072v1</id>
+    <title>Regression Planning Networks</title>
+    <updated>2019-09-28T11:30:24Z</updated>
+    <link href="https://arxiv.org/abs/1909.13072v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.13072v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent learning-to-plan methods have shown promising results on planning directly from observation space. Yet, their ability to plan for long-horizon tasks is limited by the accuracy of the prediction model. On the other hand, classical symbolic planners show remarkable capabilities in solving long-horizon tasks, but they require predefined symbolic rules and symbolic states, restricting their real-world applicability. In this work, we combine the benefits of these two paradigms and propose a learning-to-plan method that can directly generate a long-term symbolic plan conditioned on high-dimensional observations. We borrow the idea of regression (backward) planning from classical planning literature and introduce Regression Planning Networks (RPN), a neural network architecture that plans backward starting at a task goal and generates a sequence of intermediate goals that reaches the current observation. We show that our model not only inherits many favorable traits from symbolic planning, e.g., the ability to solve previously unseen tasks but also can learn from visual inputs in an end-to-end manner. We evaluate the capabilities of RPN in a grid world environment and a simulated 3D kitchen environment featuring complex visual scenes and long task horizons, and show that it achieves near-optimal performance in completely new task instances.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-28T11:30:24Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.13003v4</id>
+    <title>DualSMC: Tunneling Differentiable Filtering and Planning under Continuous POMDPs</title>
+    <updated>2020-05-07T06:27:36Z</updated>
+    <link href="https://arxiv.org/abs/1909.13003v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.13003v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A major difficulty of solving continuous POMDPs is to infer the multi-modal distribution of the unobserved true states and to make the planning algorithm dependent on the perceived uncertainty. We cast POMDP filtering and planning problems as two closely related Sequential Monte Carlo (SMC) processes, one over the real states and the other over the future optimal trajectories, and combine the merits of these two parts in a new model named the DualSMC network. In particular, we first introduce an adversarial particle filter that leverages the adversarial relationship between its internal components. Based on the filtering results, we then propose a planning algorithm that extends the previous SMC planning approach [Piche et al., 2018] to continuous POMDPs with an uncertainty-dependent policy. Crucially, not only can DualSMC handle complex observations such as image input but also it remains highly interpretable. It is shown to be effective in three continuous POMDP domains: the floor positioning domain, the 3D light-dark navigation domain, and a modified Reacher domain.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-28T01:52:27Z</published>
+    <arxiv:comment>IJCAI 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yunbo Wang</name>
+    </author>
+    <author>
+      <name>Bo Liu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.12989v2</id>
+    <title>SURREAL-System: Fully-Integrated Stack for Distributed Deep Reinforcement Learning</title>
+    <updated>2019-10-11T06:19:15Z</updated>
+    <link href="https://arxiv.org/abs/1909.12989v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.12989v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an overview of SURREAL-System, a reproducible, flexible, and scalable framework for distributed reinforcement learning (RL). The framework consists of a stack of four layers: Provisioner, Orchestrator, Protocol, and Algorithms. The Provisioner abstracts away the machine hardware and node pools across different cloud providers. The Orchestrator provides a unified interface for scheduling and deploying distributed algorithms by high-level description, which is capable of deploying to a wide range of hardware from a personal laptop to full-fledged cloud clusters. The Protocol provides network communication primitives optimized for RL. Finally, the SURREAL algorithms, such as Proximal Policy Optimization (PPO) and Evolution Strategies (ES), can easily scale to 1000s of CPU cores and 100s of GPUs. The learning performances of our distributed algorithms establish new state-of-the-art on OpenAI Gym and Robotics Suites tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-27T23:54:42Z</published>
+    <arxiv:comment>Technical report of the SURREAL system. See more details at https://surreal.stanford.edu</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Jiren Zhu</name>
+    </author>
+    <author>
+      <name>Zihua Liu</name>
+    </author>
+    <author>
+      <name>Orien Zeng</name>
+    </author>
+    <author>
+      <name>Anchit Gupta</name>
+    </author>
+    <author>
+      <name>Joan Creus-Costa</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.09073v2</id>
+    <title>Situational Fusion of Visual Representation for Visual Navigation</title>
+    <updated>2021-08-03T18:49:31Z</updated>
+    <link href="https://arxiv.org/abs/1908.09073v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.09073v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A complex visual navigation task puts an agent in different situations which call for a diverse range of visual perception abilities. For example, to "go to the nearest chair", the agent might need to identify a chair in a living room using semantics, follow along a hallway using vanishing point cues, and avoid obstacles using depth. Therefore, utilizing the appropriate visual perception abilities based on a situational understanding of the visual environment can empower these navigation models in unseen visual environments. We propose to train an agent to fuse a large set of visual representations that correspond to diverse visual perception abilities. To fully utilize each representation, we develop an action-level representation fusion scheme, which predicts an action candidate from each representation and adaptively consolidate these action candidates into the final action. Furthermore, we employ a data-driven inter-task affinity regularization to reduce redundancies and improve generalization. Our approach leads to a significantly improved performance in novel environments over ImageNet-pretrained baseline and other fusion methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-24T02:20:43Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bokui Shen</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Leonidas J. Guibas</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.06769v2</id>
+    <title>Continuous Relaxation of Symbolic Planner for One-Shot Imitation Learning</title>
+    <updated>2019-11-05T02:58:19Z</updated>
+    <link href="https://arxiv.org/abs/1908.06769v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.06769v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address one-shot imitation learning, where the goal is to execute a previously unseen task based on a single demonstration. While there has been exciting progress in this direction, most of the approaches still require a few hundred tasks for meta-training, which limits the scalability of the approaches. Our main contribution is to formulate one-shot imitation learning as a symbolic planning problem along with the symbol grounding problem. This formulation disentangles the policy execution from the inter-task generalization and leads to better data efficiency. The key technical challenge is that the symbol grounding is prone to error with limited training data and leads to subsequent symbolic planning failures. We address this challenge by proposing a continuous relaxation of the discrete symbolic planner that directly plans on the probabilistic outputs of the symbol grounding model. Our continuous relaxation of the planner can still leverage the information contained in the probabilistic symbol grounding and significantly improve over the baseline planner for the one-shot imitation learning tasks without using large training data.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-16T16:28:12Z</published>
+    <arxiv:comment>IROS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.13098v1</id>
+    <title>Making Sense of Vision and Touch: Learning Multimodal Representations for Contact-Rich Tasks</title>
+    <updated>2019-07-28T02:03:08Z</updated>
+    <link href="https://arxiv.org/abs/1907.13098v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.13098v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contact-rich manipulation tasks in unstructured environments often require both haptic and visual feedback. It is non-trivial to manually design a robot controller that combines these modalities which have very different characteristics. While deep reinforcement learning has shown success in learning control policies for high-dimensional inputs, these algorithms are generally intractable to deploy on real robots due to sample complexity. In this work, we use self-supervision to learn a compact and multimodal representation of our sensory inputs, which can then be used to improve the sample efficiency of our policy learning. Evaluating our method on a peg insertion task, we show that it generalizes over varying geometries, configurations, and clearances, while being robust to external perturbations. We also systematically study different self-supervised learning objectives and representation learning architectures. Results are presented in simulation and on a physical robot.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-28T02:03:08Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1810.10191</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Michelle A. Lee</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Peter Zachares</name>
+    </author>
+    <author>
+      <name>Matthew Tan</name>
+    </author>
+    <author>
+      <name>Krishnan Srinivasan</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.01172v3</id>
+    <title>Procedure Planning in Instructional Videos</title>
+    <updated>2020-04-13T05:49:55Z</updated>
+    <link href="https://arxiv.org/abs/1907.01172v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.01172v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the problem of procedure planning in instructional videos, which can be seen as a step towards enabling autonomous agents to plan for complex tasks in everyday settings such as cooking. Given the current visual observation of the world and a visual goal, we ask the question "What actions need to be taken in order to achieve the goal?". The key technical challenge is to learn structured and plannable state and action spaces directly from unstructured videos. We address this challenge by proposing Dual Dynamics Networks (DDN), a framework that explicitly leverages the structured priors imposed by the conjugate relationships between states and actions in a learned plannable latent space. We evaluate our method on real-world instructional videos. Our experiments show that DDN learns plannable representations that lead to better planning performance compared to existing planning approaches and neural network policies.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-02T05:17:44Z</published>
+    <arxiv:comment>14 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chien-Yi Chang</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Ehsan Adeli</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.04876v4</id>
+    <title>Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction</title>
+    <updated>2019-12-05T19:35:36Z</updated>
+    <link href="https://arxiv.org/abs/1906.04876v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.04876v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scene graph prediction --- classifying the set of objects and predicates in a visual scene --- requires substantial training data. However, most predicates only occur a handful of times making them difficult to learn. We introduce the first scene graph prediction model that supports few-shot learning of predicates. Existing scene graph generation models represent objects using pretrained object detectors or word embeddings that capture semantic object information at the cost of encoding information about which relationships they afford. So, these object representations are unable to generalize to new few-shot relationships. We introduce a framework that induces object representations that are structured according to their visual relationships. Unlike past methods, our framework embeds objects that afford similar relationships closer together. This property allows our model to perform well in the few-shot setting. For example, applying the 'riding' predicate transformation to 'person' modifies the representation towards objects like 'skateboard' and 'horse' that enable riding. We generate object representations by learning predicates trained as message passing functions within a new graph convolution framework. The object representations are used to build few-shot predicate classifiers for rare predicates with as few as 1 labeled example. We achieve a 5-shot performance of 22.70 recall@50, a 3.7 increase when compared to strong transfer learning baselines.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-12T01:27:15Z</published>
+    <arxiv:comment>14 pages, 10 figures, preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Apoorva Dornadula</name>
+    </author>
+    <author>
+      <name>Austin Narcomey</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.11622v3</id>
+    <title>Scene Graph Prediction with Limited Labels</title>
+    <updated>2019-11-30T21:52:18Z</updated>
+    <link href="https://arxiv.org/abs/1904.11622v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.11622v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual knowledge bases such as Visual Genome power numerous applications in computer vision, including visual question answering and captioning, but suffer from sparse, incomplete relationships. All scene graph models to date are limited to training on a small set of visual relationships that have thousands of training labels each. Hiring human annotators is expensive, and using textual knowledge base completion methods are incompatible with visual data. In this paper, we introduce a semi-supervised method that assigns probabilistic relationship labels to a large number of unlabeled images using few labeled examples. We analyze visual relationships to suggest two types of image-agnostic features that are used to generate noisy heuristics, whose outputs are aggregated using a factor graph-based generative model. With as few as 10 labeled examples per relationship, the generative model creates enough training data to train any existing state-of-the-art scene graph model. We demonstrate that our method outperforms all baseline approaches on scene graph prediction by 5.16 recall@100 for PREDCLS. In our limited label setting, we define a complexity metric for relationships that serves as an indicator (R^2 = 0.778) for conditions under which our method succeeds over transfer learning, the de-facto approach for training with limited labels.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-25T23:26:25Z</published>
+    <arxiv:comment>ICCV 2019, 10 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>International Conference on Computer Vision, 2019</arxiv:journal_ref>
+    <author>
+      <name>Vincent S. Chen</name>
+    </author>
+    <author>
+      <name>Paroma Varma</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Christopher Re</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01121v4</id>
+    <title>HYPE: A Benchmark for Human eYe Perceptual Evaluation of Generative Models</title>
+    <updated>2019-10-31T23:43:11Z</updated>
+    <link href="https://arxiv.org/abs/1904.01121v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01121v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative models often use human evaluations to measure the perceived quality of their outputs. Automated metrics are noisy indirect proxies, because they rely on heuristics or pretrained embeddings. However, up until now, direct human evaluation strategies have been ad-hoc, neither standardized nor validated. Our work establishes a gold standard human benchmark for generative realism. We construct Human eYe Perceptual Evaluation (HYPE) a human benchmark that is (1) grounded in psychophysics research in perception, (2) reliable across different sets of randomly sampled outputs from a model, (3) able to produce separable model performances, and (4) efficient in cost and time. We introduce two variants: one that measures visual perception under adaptive time constraints to determine the threshold at which a model's outputs appear real (e.g. 250ms), and the other a less expensive variant that measures human error rate on fake and real images sans time constraints. We test HYPE across six state-of-the-art generative adversarial networks and two sampling techniques on conditional and unconditional image generation using four datasets: CelebA, FFHQ, CIFAR-10, and ImageNet. We find that HYPE can track model improvements across training epochs, and we confirm via bootstrap sampling that HYPE rankings are consistent and replicable.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-01T21:48:41Z</published>
+    <arxiv:comment>https://hype.stanford.edu</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Mitchell L. Gordon</name>
+    </author>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Austin Narcomey</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.11207v1</id>
+    <title>Information Maximizing Visual Question Generation</title>
+    <updated>2019-03-27T00:57:25Z</updated>
+    <link href="https://arxiv.org/abs/1903.11207v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.11207v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Though image-to-sequence generation models have become overwhelmingly popular in human-computer communications, they suffer from strongly favoring safe generic questions ("What is in this picture?"). Generating uninformative but relevant questions is not sufficient or useful. We argue that a good question is one that has a tightly focused purpose --- one that is aimed at expecting a specific type of response. We build a model that maximizes mutual information between the image, the expected answer and the generated question. To overcome the non-differentiability of discrete natural language tokens, we introduce a variational continuous latent space onto which the expected answers project. We regularize this latent space with a second latent space that ensures clustering of similar answers. Even when we don't know the expected answer, this second latent space can generate goal-driven questions specifically aimed at extracting objects ("what is the person throwing"), attributes, ("What kind of shirt is the person wearing?"), color ("what color is the frisbee?"), material ("What material is the frisbee?"), etc. We quantitatively show that our model is able to retain information about an expected answer category, resulting in more diverse, goal-driven questions. We launch our model on a set of real world images and extract previously unseen visual concepts.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-27T00:57:25Z</published>
+    <arxiv:comment>CVPR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>IEEE Conference on Computer Vision and Pattern Recognition, 2019</arxiv:journal_ref>
+    <author>
+      <name>Ranjay Krishna</name>
+    </author>
+    <author>
+      <name>Michael Bernstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.03878v1</id>
+    <title>Scene Memory Transformer for Embodied Agents in Long-Horizon Tasks</title>
+    <updated>2019-03-09T22:03:02Z</updated>
+    <link href="https://arxiv.org/abs/1903.03878v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.03878v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many robotic applications require the agent to perform long-horizon tasks in partially observable environments. In such applications, decision making at any step can depend on observations received far in the past. Hence, being able to properly memorize and utilize the long-term history is crucial. In this work, we propose a novel memory-based policy, named Scene Memory Transformer (SMT). The proposed policy embeds and adds each observation to a memory and uses the attention mechanism to exploit spatio-temporal dependencies. This model is generic and can be efficiently trained with reinforcement learning over long episodes. On a range of visual navigation tasks, SMT demonstrates superior performance to existing reactive and memory-based policies by a margin.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-09T22:03:02Z</published>
+    <arxiv:comment>CVPR 2019 paper with supplementary material</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07817v1</id>
+    <title>Audio-Linguistic Embeddings for Spoken Sentences</title>
+    <updated>2019-02-20T23:58:29Z</updated>
+    <link href="https://arxiv.org/abs/1902.07817v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07817v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose spoken sentence embeddings which capture both acoustic and linguistic content. While existing works operate at the character, phoneme, or word level, our method learns long-term dependencies by modeling speech at the sentence level. Formulated as an audio-linguistic multitask learning problem, our encoder-decoder model simultaneously reconstructs acoustic and natural language features from audio. Our results show that spoken sentence embeddings outperform phoneme and word-level baselines on speech recognition and emotion recognition tasks. Ablation studies show that our embeddings can better model high-level acoustic concepts while retaining linguistic content. Overall, our work illustrates the viability of generic, multi-modal sentence embeddings for spoken language understanding.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-20T23:58:29Z</published>
+    <arxiv:comment>International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Michelle Guo</name>
+    </author>
+    <author>
+      <name>Prateek Verma</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.03748v3</id>
+    <title>Peeking into the Future: Predicting Future Person Activities and Locations in Videos</title>
+    <updated>2019-05-31T22:53:41Z</updated>
+    <link href="https://arxiv.org/abs/1902.03748v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.03748v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deciphering human behaviors to predict their future paths/trajectories and what they would do from videos is important in many applications. Motivated by this idea, this paper studies predicting a pedestrian's future path jointly with future activities. We propose an end-to-end, multi-task learning system utilizing rich visual features about human behavioral information and interaction with their surroundings. To facilitate the training, the network is learned with an auxiliary task of predicting future location in which the activity will happen. Experimental results demonstrate our state-of-the-art performance over two public benchmarks on future trajectory prediction. Moreover, our method is able to produce meaningful future activity prediction in addition to the path. The result provides the first empirical evidence that joint modeling of paths and activities benefits future path prediction.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-11T07:02:18Z</published>
+    <arxiv:comment>In CVPR 2019. Code, models and more results are available at: https://next.cs.cmu.edu/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Junwei Liang</name>
+    </author>
+    <author>
+      <name>Lu Jiang</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Alexander Hauptmann</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.04780v1</id>
+    <title>DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion</title>
+    <updated>2019-01-15T11:58:04Z</updated>
+    <link href="https://arxiv.org/abs/1901.04780v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.04780v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key technical challenge in performing 6D object pose estimation from RGB-D image is to fully leverage the two complementary data sources. Prior works either extract information from the RGB image and depth separately or use costly post-processing steps, limiting their performances in highly cluttered scenes and real-time applications. In this work, we present DenseFusion, a generic framework for estimating 6D pose of a set of known objects from RGB-D images. DenseFusion is a heterogeneous architecture that processes the two data sources individually and uses a novel dense fusion network to extract pixel-wise dense feature embedding, from which the pose is estimated. Furthermore, we integrate an end-to-end iterative pose refinement procedure that further improves the pose estimation while achieving near real-time inference. Our experiments show that our method outperforms state-of-the-art approaches in two datasets, YCB-Video and LineMOD. We also deploy our proposed method to a real robot to grasp and manipulate objects based on the estimated pose.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-15T11:58:04Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Roberto Martín-Martín</name>
+    </author>
+    <author>
+      <name>Cewu Lu</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.02985v2</id>
+    <title>Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation</title>
+    <updated>2019-04-06T19:40:44Z</updated>
+    <link href="https://arxiv.org/abs/1901.02985v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.02985v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, Neural Architecture Search (NAS) has successfully identified neural network architectures that exceed human designed ones on large-scale image classification. In this paper, we study NAS for semantic image segmentation. Existing works often focus on searching the repeatable cell structure, while hand-designing the outer network structure that controls the spatial resolution changes. This choice simplifies the search space, but becomes increasingly problematic for dense image prediction which exhibits a lot more network level architectural variations. Therefore, we propose to search the network level structure in addition to the cell level structure, which forms a hierarchical architecture search space. We present a network level search space that includes many popular designs, and develop a formulation that allows efficient gradient-based architecture search (3 P100 GPU days on Cityscapes images). We demonstrate the effectiveness of the proposed method on the challenging Cityscapes, PASCAL VOC 2012, and ADE20K datasets. Auto-DeepLab, our architecture searched specifically for semantic image segmentation, attains state-of-the-art performance without any ImageNet pretraining.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-10T01:05:15Z</published>
+    <arxiv:comment>To appear in CVPR 2019 as oral. Code for Auto-DeepLab released at https://github.com/tensorflow/models/tree/master/research/deeplab</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenxi Liu</name>
+    </author>
+    <author>
+      <name>Liang-Chieh Chen</name>
+    </author>
+    <author>
+      <name>Florian Schroff</name>
+    </author>
+    <author>
+      <name>Hartwig Adam</name>
+    </author>
+    <author>
+      <name>Wei Hua</name>
+    </author>
+    <author>
+      <name>Alan Yuille</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.02598v2</id>
+    <title>D3TW: Discriminative Differentiable Dynamic Time Warping for Weakly Supervised Action Alignment and Segmentation</title>
+    <updated>2019-04-11T23:48:53Z</updated>
+    <link href="https://arxiv.org/abs/1901.02598v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.02598v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address weakly supervised action alignment and segmentation in videos, where only the order of occurring actions is available during training. We propose Discriminative Differentiable Dynamic Time Warping (D3TW), the first discriminative model using weak ordering supervision. The key technical challenge for discriminative modeling with weak supervision is that the loss function of the ordering supervision is usually formulated using dynamic programming and is thus not differentiable. We address this challenge with a continuous relaxation of the min-operator in dynamic programming and extend the alignment loss to be differentiable. The proposed D3TW innovatively solves sequence alignment with discriminative modeling and end-to-end training, which substantially improves the performance in weakly supervised action alignment and segmentation tasks. We show that our model is able to bypass the degenerated sequence problem usually encountered in previous work and outperform the current state-of-the-art across three evaluation metrics in two challenging datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-09T04:12:01Z</published>
+    <arxiv:comment>To appear in CVPR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chien-Yi Chang</name>
+    </author>
+    <author>
+      <name>De-An Huang</name>
+    </author>
+    <author>
+      <name>Yanan Sui</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.07119v1</id>
+    <title>Composing Text and Image for Image Retrieval - An Empirical Odyssey</title>
+    <updated>2018-12-18T00:57:03Z</updated>
+    <link href="https://arxiv.org/abs/1812.07119v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.07119v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the task of image retrieval, where the input query is specified in the form of an image plus some text that describes desired modifications to the input image. For example, we may present an image of the Eiffel tower, and ask the system to find images which are visually similar but are modified in small ways, such as being taken at nighttime instead of during the day. To tackle this task, we learn a similarity metric between a target image and a source image plus source text, an embedding and composing function such that target image feature is close to the source image plus text composition feature. We propose a new way to combine image and text using such function that is designed for the retrieval task. We show this outperforms existing approaches on 3 different datasets, namely Fashion-200k, MIT-States and a new synthetic dataset we create based on CLEVR. We also show that our approach can be used to classify input queries, in addition to image retrieval.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-18T00:57:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Nam Vo</name>
+    </author>
+    <author>
+      <name>Lu Jiang</name>
+    </author>
+    <author>
+      <name>Chen Sun</name>
+    </author>
+    <author>
+      <name>Kevin Murphy</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>James Hays</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.00169v1</id>
+    <title>Vision-Based Gait Analysis for Senior Care</title>
+    <updated>2018-12-01T07:41:18Z</updated>
+    <link href="https://arxiv.org/abs/1812.00169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.00169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the senior population rapidly increases, it is challenging yet crucial to provide effective long-term care for seniors who live at home or in senior care facilities. Smart senior homes, which have gained widespread interest in the healthcare community, have been proposed to improve the well-being of seniors living independently. In particular, non-intrusive, cost-effective sensors placed in these senior homes enable gait characterization, which can provide clinically relevant information including mobility level and early neurodegenerative disease risk. In this paper, we present a method to perform gait analysis from a single camera placed within the home. We show that we can accurately calculate various gait parameters, demonstrating the potential for our system to monitor the long-term gait of seniors and thus aid clinicians in understanding a patient's medical profile.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-01T07:41:18Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) Workshop at NeurIPS 2018 arXiv:1811.07216</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>David Xue</name>
+    </author>
+    <author>
+      <name>Anin Sayana</name>
+    </author>
+    <author>
+      <name>Evan Darke</name>
+    </author>
+    <author>
+      <name>Kelly Shen</name>
+    </author>
+    <author>
+      <name>Jun-Ting Hsieh</name>
+    </author>
+    <author>
+      <name>Zelun Luo</name>
+    </author>
+    <author>
+      <name>Li-Jia Li</name>
+    </author>
+    <author>
+      <name>N. Lance Downing</name>
+    </author>
+    <author>
+      <name>Arnold Milstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09953v1</id>
+    <title>Faster CryptoNets: Leveraging Sparsity for Real-World Encrypted Inference</title>
+    <updated>2018-11-25T05:56:18Z</updated>
+    <link href="https://arxiv.org/abs/1811.09953v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09953v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Homomorphic encryption enables arbitrary computation over data while it remains encrypted. This privacy-preserving feature is attractive for machine learning, but requires significant computational time due to the large overhead of the encryption scheme. We present Faster CryptoNets, a method for efficient encrypted inference using neural networks. We develop a pruning and quantization approach that leverages sparse representations in the underlying cryptosystem to accelerate inference. We derive an optimal approximation for popular activation functions that achieves maximally-sparse encodings and minimizes approximation error. We also show how privacy-safe training techniques can be used to reduce the overhead of encrypted inference for real-world datasets by leveraging transfer learning and differential privacy. Our experiments show that our method maintains competitive accuracy and achieves a significant speedup over previous methods. This work increases the viability of deep learning systems that use homomorphic encryption to protect user privacy.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T05:56:18Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Edward Chou</name>
+    </author>
+    <author>
+      <name>Josh Beal</name>
+    </author>
+    <author>
+      <name>Daniel Levy</name>
+    </author>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09951v1</id>
+    <title>A Fully Private Pipeline for Deep Learning on Electronic Health Records</title>
+    <updated>2018-11-25T05:55:50Z</updated>
+    <link href="https://arxiv.org/abs/1811.09951v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09951v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an end-to-end private deep learning framework, applied to the task of predicting 30-day readmission from electronic health records. By using differential privacy during training and homomorphic encryption during inference, we demonstrate that our proposed pipeline could maintain high performance while providing robust privacy guarantees against information leak from data transmission or attacks against the model. We also explore several techniques to address the privacy-utility trade-off in deploying neural networks with privacy mechanisms, improving the accuracy of differentially-private training and the computation cost of encrypted operations using ideas from both machine learning and cryptography.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T05:55:50Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Edward Chou</name>
+    </author>
+    <author>
+      <name>Thao Nguyen</name>
+    </author>
+    <author>
+      <name>Josh Beal</name>
+    </author>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09950v1</id>
+    <title>Privacy-Preserving Action Recognition for Smart Hospitals using Low-Resolution Depth Images</title>
+    <updated>2018-11-25T05:55:21Z</updated>
+    <link href="https://arxiv.org/abs/1811.09950v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09950v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer-vision hospital systems can greatly assist healthcare workers and improve medical facility treatment, but often face patient resistance due to the perceived intrusiveness and violation of privacy associated with visual surveillance. We downsample video frames to extremely low resolutions to degrade private information from surveillance videos. We measure the amount of activity-recognition information retained in low resolution depth images, and also apply a privately-trained DCSCN super-resolution model to enhance the utility of our images. We implement our techniques with two actual healthcare-surveillance scenarios, hand-hygiene compliance and ICU activity-logging, and show that our privacy-preserving techniques preserve enough information for realistic healthcare tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T05:55:21Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) Workshop at NeurIPS 2018 arXiv:1811.07216</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Edward Chou</name>
+    </author>
+    <author>
+      <name>Matthew Tan</name>
+    </author>
+    <author>
+      <name>Cherry Zou</name>
+    </author>
+    <author>
+      <name>Michelle Guo</name>
+    </author>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Arnold Milstein</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.08592v2</id>
+    <title>Measuring Depression Symptom Severity from Spoken Language and 3D Facial Expressions</title>
+    <updated>2018-11-27T01:49:11Z</updated>
+    <link href="https://arxiv.org/abs/1811.08592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.08592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With more than 300 million people depressed worldwide, depression is a global problem. Due to access barriers such as social stigma, cost, and treatment availability, 60% of mentally-ill adults do not receive any mental health services. Effective and efficient diagnosis relies on detecting clinical symptoms of depression. Automatic detection of depressive symptoms would potentially improve diagnostic accuracy and availability, leading to faster intervention. In this work, we present a machine learning method for measuring the severity of depressive symptoms. Our multi-modal method uses 3D facial expressions and spoken language, commonly available from modern cell phones. It demonstrates an average error of 3.67 points (15.3% relative) on the clinically-validated Patient Health Questionnaire (PHQ) scale. For detecting major depressive disorder, our model demonstrates 83.3% sensitivity and 82.6% specificity. Overall, this paper shows how speech recognition, computer vision, and natural language processing can be combined to assist mental health patients and practitioners. This technology could be deployed to cell phones worldwide and facilitate low-cost universal access to mental health care.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-21T03:52:31Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) Workshop at NeurIPS 2018 arXiv:1811.07216</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Albert Haque</name>
+    </author>
+    <author>
+      <name>Michelle Guo</name>
+    </author>
+    <author>
+      <name>Adam S Miner</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.02790v1</id>
+    <title>RoboTurk: A Crowdsourcing Platform for Robotic Skill Learning through Imitation</title>
+    <updated>2018-11-07T08:01:21Z</updated>
+    <link href="https://arxiv.org/abs/1811.02790v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.02790v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation Learning has empowered recent advances in learning robotic manipulation tasks by addressing shortcomings of Reinforcement Learning such as exploration and reward specification. However, research in this area has been limited to modest-sized datasets due to the difficulty of collecting large quantities of task demonstrations through existing mechanisms. This work introduces RoboTurk to address this challenge. RoboTurk is a crowdsourcing platform for high quality 6-DoF trajectory based teleoperation through the use of widely available mobile devices (e.g. iPhone). We evaluate RoboTurk on three manipulation tasks of varying timescales (15-120s) and observe that our user interface is statistically similar to special purpose hardware such as virtual reality controllers in terms of task completion times. Furthermore, we observe that poor network conditions, such as low bandwidth and high delay links, do not substantially affect the remote users' ability to perform task demonstrations successfully on RoboTurk. Lastly, we demonstrate the efficacy of RoboTurk through the collection of a pilot dataset; using RoboTurk, we collected 137.5 hours of manipulation data from remote workers, amounting to over 2200 successful task demonstrations in 22 hours of total system usage. We show that the data obtained through RoboTurk enables policy learning on multi-step manipulation tasks with sparse rewards and that using larger quantities of demonstrations during policy learning provides benefits in terms of both learning consistency and final performance. For additional results, videos, and to download our pilot dataset, visit $\href{http://roboturk.stanford.edu/}{\texttt{roboturk.stanford.edu}}$</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-07T08:01:21Z</published>
+    <arxiv:comment>Published at the Conference on Robot Learning (CoRL) 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Jonathan Booher</name>
+    </author>
+    <author>
+      <name>Max Spero</name>
+    </author>
+    <author>
+      <name>Albert Tung</name>
+    </author>
+    <author>
+      <name>Julian Gao</name>
+    </author>
+    <author>
+      <name>John Emmons</name>
+    </author>
+    <author>
+      <name>Anchit Gupta</name>
+    </author>
+    <author>
+      <name>Emre Orbay</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10191v2</id>
+    <title>Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks</title>
+    <updated>2019-03-08T03:52:36Z</updated>
+    <link href="https://arxiv.org/abs/1810.10191v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10191v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contact-rich manipulation tasks in unstructured environments often require both haptic and visual feedback. However, it is non-trivial to manually design a robot controller that combines modalities with very different characteristics. While deep reinforcement learning has shown success in learning control policies for high-dimensional inputs, these algorithms are generally intractable to deploy on real robots due to sample complexity. We use self-supervision to learn a compact and multimodal representation of our sensory inputs, which can then be used to improve the sample efficiency of our policy learning. We evaluate our method on a peg insertion task, generalizing over different geometry, configurations, and clearances, while being robust to external perturbations. Results for simulated and real robot experiments are presented.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-24T05:21:22Z</published>
+    <arxiv:comment>ICRA 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Michelle A. Lee</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Krishnan Srinivasan</name>
+    </author>
+    <author>
+      <name>Parth Shah</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Li Fei-Fei</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Jeannette Bohg</name>
+    </author>
+  </entry>
+</feed>
