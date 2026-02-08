@@ -261,6 +261,19 @@ def count_html_files(html_dir: Path) -> int:
     return sum(1 for path in html_dir.glob("*.html") if path.is_file())
 
 
+def cached_total_results(author_dir: Path) -> int | None:
+    api_page_1 = author_dir / "API" / "page-1.xml"
+    parsed = load_api_page(api_page_1)
+    if parsed is None:
+        return None
+    total, entries = parsed
+    if total > 0:
+        return total
+    if entries:
+        return len(entries)
+    return 0
+
+
 def fetch_total_results(
     session: requests.Session,
     last_name: str,
@@ -460,6 +473,14 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("last_name", nargs="?", help="Author last name")
     parser.add_argument("first_name", nargs="?", help="Author first name")
     parser.add_argument(
+        "--sync-remote",
+        action="store_true",
+        help=(
+            "In batch mode, query arXiv for each author to detect newly submitted papers. "
+            "Without this flag, batch mode uses cached API pages for faster local checks."
+        ),
+    )
+    parser.add_argument(
         "--csv-path",
         default=str(CSV_PATH),
         help=argparse.SUPPRESS,
@@ -480,6 +501,35 @@ def main() -> None:
 
         with requests.Session() as session:
             for last_name, first_name in tqdm(authors, desc="Authors", unit="author"):
+                author_dir = root / "AUTHORS" / f"{last_name}-{first_name}"
+                html_count = count_html_files(author_dir / "HTML")
+                cached_total = cached_total_results(author_dir)
+
+                # Fast local-first mode: skip fully cached authors without a remote request.
+                if not args.sync_remote:
+                    if cached_total is not None:
+                        if cached_total == 0 and html_count == 0:
+                            continue
+                        if cached_total > 0 and html_count >= cached_total:
+                            continue
+
+                    try:
+                        download_author(
+                            last_name,
+                            first_name,
+                            root=root,
+                            retry_delays=RETRY_DELAYS,
+                            show_progress=True,
+                            progress_leave=False,
+                        )
+                    except DownloadError as exc:
+                        print(
+                            f"Download failed for {last_name}, {first_name}: {exc}",
+                            file=sys.stderr,
+                        )
+                        continue
+                    continue
+
                 try:
                     total_results = fetch_total_results(
                         session,
@@ -493,8 +543,6 @@ def main() -> None:
                         file=sys.stderr,
                     )
                     continue
-                author_dir = root / "AUTHORS" / f"{last_name}-{first_name}"
-                html_count = count_html_files(author_dir / "HTML")
 
                 if total_results == 0 and html_count == 0:
                     continue
