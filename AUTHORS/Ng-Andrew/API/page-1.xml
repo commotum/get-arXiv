@@ -1,0 +1,1976 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lf/sLKcoYo/plahFrB4Sn1JSv7M</id>
+  <title>arXiv Query: search_query=au:"Andrew Ng"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-07T19:56:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Andrew+Ng%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>84</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05706v1</id>
+    <title>Cobordism, spin structures, and profinite completions</title>
+    <updated>2026-01-09T10:48:19Z</updated>
+    <link href="https://arxiv.org/abs/2601.05706v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05706v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $M$ and $N$ be smooth closed connected aspherical manifolds with good (in the sense of Serre) fundamental groups $G$ and $H$. We show that if $\widehat G\cong \widehat H$, then $M$ and $N$ are cobordant and the signatures of $M$ and $N$ agree modulo $8$. Moreover, $M$ is spin (resp.spin$^\CC$) if and only if $N$ is spin (resp.spin$^\CC$). We consider some analogous results for compact connected aspherical manifolds.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T10:48:19Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GR"/>
+    <author>
+      <name>Sam Hughes</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.02268v1</id>
+    <title>Spatiotemporal Pyramid Flow Matching for Climate Emulation</title>
+    <updated>2025-12-01T23:20:03Z</updated>
+    <link href="https://arxiv.org/abs/2512.02268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.02268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative models have the potential to transform the way we emulate Earth's changing climate. Previous generative approaches rely on weather-scale autoregression for climate emulation, but this is inherently slow for long climate horizons and has yet to demonstrate stable rollouts under nonstationary forcings. Here, we introduce Spatiotemporal Pyramid Flows (SPF), a new class of flow matching approaches that model data hierarchically across spatial and temporal scales. Inspired by cascaded video models, SPF partitions the generative trajectory into a spatiotemporal pyramid, progressively increasing spatial resolution to reduce computation and coupling each stage with an associated timescale to enable direct sampling at any temporal level in the pyramid. This design, together with conditioning each stage on prescribed physical forcings (e.g., greenhouse gases or aerosols), enables efficient, parallel climate emulation at multiple timescales. On ClimateBench, SPF outperforms strong flow matching baselines and pre-trained models at yearly and monthly timescales while offering fast sampling, especially at coarser temporal levels. To scale SPF, we curate ClimateSuite, the largest collection of Earth system simulations to date, comprising over 33,000 simulation-years across ten climate models and the first dataset to include simulations of climate interventions. We find that the scaled SPF model demonstrates good generalization to held-out scenarios across climate models. Together, SPF and ClimateSuite provide a foundation for accurate, efficient, probabilistic climate emulation across temporal scales and realistic future scenarios. Data and code is publicly available at https://github.com/stanfordmlgroup/spf .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-01T23:20:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jeremy Andrew Irvin</name>
+    </author>
+    <author>
+      <name>Jiaqi Han</name>
+    </author>
+    <author>
+      <name>Zikui Wang</name>
+    </author>
+    <author>
+      <name>Abdulaziz Alharbi</name>
+    </author>
+    <author>
+      <name>Yufei Zhao</name>
+    </author>
+    <author>
+      <name>Nomin-Erdene Bayarsaikhan</name>
+    </author>
+    <author>
+      <name>Daniele Visioni</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Duncan Watson-Parris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.00383v2</id>
+    <title>STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology</title>
+    <updated>2025-11-07T02:06:41Z</updated>
+    <link href="https://arxiv.org/abs/2511.00383v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.00383v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-class tissue-type classification of colorectal cancer (CRC) histopathologic images is a significant step in the development of downstream machine learning models for diagnosis and treatment planning. However, existing public CRC datasets often lack morphologic diversity, suffer from class imbalance, and contain low-quality image tiles, limiting model performance and generalizability. To address these issues, we introduce STARC-9 (STAnford coloRectal Cancer), a large-scale dataset for multi-class tissue classification. STARC-9 contains 630,000 hematoxylin and eosin-stained image tiles uniformly sampled across nine clinically relevant tissue classes (70,000 tiles per class) from 200 CRC patients at the Stanford University School of Medicine. The dataset was built using a novel framework, DeepCluster++, designed to ensure intra-class diversity and reduce manual curation. First, an encoder from a histopathology-specific autoencoder extracts feature vectors from tiles within each whole-slide image. Then, K-means clustering groups morphologically similar tiles, followed by equal-frequency binning to sample diverse morphologic patterns within each class. The selected tiles are subsequently verified by expert gastrointestinal pathologists to ensure accuracy. This semi-automated process significantly reduces manual effort while producing high-quality, diverse tiles. To evaluate STARC-9, we benchmarked convolutional neural networks, transformers, and pathology-specific foundation models on multi-class CRC tissue classification and segmentation tasks, showing superior generalizability compared to models trained on existing datasets. Although we demonstrate the utility of DeepCluster++ on CRC as a pilot use-case, it is a flexible framework that can be used for constructing high-quality datasets from large WSI repositories across a wide range of cancer and non-cancer applications.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-01T03:33:56Z</published>
+    <arxiv:comment>37 pages, 18 figures, Accepted in NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Barathi Subramanian</name>
+    </author>
+    <author>
+      <name>Rathinaraja Jeyaraj</name>
+    </author>
+    <author>
+      <name>Mitchell Nevin Peterson</name>
+    </author>
+    <author>
+      <name>Terry Guo</name>
+    </author>
+    <author>
+      <name>Nigam Shah</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Jeanne Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.01876v1</id>
+    <title>Quasi-convex surface subgroups in some one-relator groups with torsion</title>
+    <updated>2025-10-02T10:34:51Z</updated>
+    <link href="https://arxiv.org/abs/2510.01876v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.01876v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We find surface subgroups in certain one-relator groups with torsion and use this to deduce a profinite criterion for a word in the free group to be primitive.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T10:34:51Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GR"/>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.17580v1</id>
+    <title>UQ: Assessing Language Models on Unsolved Questions</title>
+    <updated>2025-08-25T01:07:59Z</updated>
+    <link href="https://arxiv.org/abs/2508.17580v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.17580v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarks shape progress in AI research. A useful benchmark should be both difficult and realistic: questions should challenge frontier models while also reflecting real-world usage. Yet, current paradigms face a difficulty-realism tension: exam-style benchmarks are often made artificially difficult with limited real-world value, while benchmarks based on real user interaction often skew toward easy, high-frequency problems. In this work, we explore a radically different paradigm: assessing models on unsolved questions. Rather than a static benchmark scored once, we curate unsolved questions and evaluate models asynchronously over time with validator-assisted screening and community verification. We introduce UQ, a testbed of 500 challenging, diverse questions sourced from Stack Exchange, spanning topics from CS theory and math to sci-fi and history, probing capabilities including reasoning, factuality, and browsing. UQ is difficult and realistic by construction: unsolved questions are often hard and naturally arise when humans seek answers, thus solving them yields direct real-world value. Our contributions are threefold: (1) UQ-Dataset and its collection pipeline combining rule-based filters, LLM judges, and human review to ensure question quality (e.g., well-defined and difficult); (2) UQ-Validators, compound validation strategies that leverage the generator-validator gap to provide evaluation signals and pre-screen candidate solutions for human review; and (3) UQ-Platform, an open platform where experts collectively verify questions and solutions. The top model passes UQ-validation on only 15% of questions, and preliminary human verification has already identified correct answers among those that passed. UQ charts a path for evaluating frontier models on real-world, open-ended challenges, where success pushes the frontier of human knowledge. We release UQ at https://uq.stanford.edu.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-25T01:07:59Z</published>
+    <arxiv:comment>FN, KZL, and NM are project co-leads and contributed equally. Project website: https://uq.stanford.edu</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fan Nie</name>
+    </author>
+    <author>
+      <name>Ken Ziyu Liu</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>Rui Sun</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Weijia Shi</name>
+    </author>
+    <author>
+      <name>Huaxiu Yao</name>
+    </author>
+    <author>
+      <name>Linjun Zhang</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Niklas Muennighoff</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.03829v1</id>
+    <title>RELRaE: LLM-Based Relationship Extraction, Labelling, Refinement, and Evaluation</title>
+    <updated>2025-07-04T22:27:06Z</updated>
+    <link href="https://arxiv.org/abs/2507.03829v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.03829v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A large volume of XML data is produced in experiments carried out by robots in laboratories. In order to support the interoperability of data between labs, there is a motivation to translate the XML data into a knowledge graph. A key stage of this process is the enrichment of the XML schema to lay the foundation of an ontology schema. To achieve this, we present the RELRaE framework, a framework that employs large language models in different stages to extract and accurately label the relationships implicitly present in the XML schema. We investigate the capability of LLMs to accurately generate these labels and then evaluate them. Our work demonstrates that LLMs can be effectively used to support the generation of relationship labels in the context of lab automation, and that they can play a valuable role within semi-automatic ontology generation frameworks more generally.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-04T22:27:06Z</published>
+    <arxiv:comment>18 Pages, 8 Tables, Under-review at ISWC 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>George Hannah</name>
+    </author>
+    <author>
+      <name>Jacopo de Berardinis</name>
+    </author>
+    <author>
+      <name>Terry R. Payne</name>
+    </author>
+    <author>
+      <name>Valentina Tamma</name>
+    </author>
+    <author>
+      <name>Andrew Mitchell</name>
+    </author>
+    <author>
+      <name>Ellen Piercy</name>
+    </author>
+    <author>
+      <name>Ewan Johnson</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Harry Rostron</name>
+    </author>
+    <author>
+      <name>Boris Konev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.23269v1</id>
+    <title>Virtual First Betti Number of GGS Groups</title>
+    <updated>2025-05-29T09:16:22Z</updated>
+    <link href="https://arxiv.org/abs/2505.23269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.23269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We observe a criterion for groups to have vanishing virtual first Betti number and use it to give infinitely many examples of torsion-free, finitely generated, residually finite groups which aren't virtually diffuse. This answers a question raised by Kionke and Raimbault.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-29T09:16:22Z</published>
+    <arxiv:primary_category term="math.GR"/>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.14654v2</id>
+    <title>MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents</title>
+    <updated>2025-02-12T05:32:07Z</updated>
+    <link href="https://arxiv.org/abs/2501.14654v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.14654v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language models (LLMs) have demonstrated significant advancements, particularly in their ability to serve as agents thereby surpassing their traditional role as chatbots. These agents can leverage their planning and tool utilization capabilities to address tasks specified at a high level. However, a standardized dataset to benchmark the agent capabilities of LLMs in medical applications is currently lacking, making the evaluation of LLMs on complex tasks in interactive healthcare environments challenging. To address this gap, we introduce MedAgentBench, a broad evaluation suite designed to assess the agent capabilities of large language models within medical records contexts. MedAgentBench encompasses 300 patient-specific clinically-derived tasks from 10 categories written by human physicians, realistic profiles of 100 patients with over 700,000 data elements, a FHIR-compliant interactive environment, and an accompanying codebase. The environment uses the standard APIs and communication infrastructure used in modern EMR systems, so it can be easily migrated into live EMR systems. MedAgentBench presents an unsaturated agent-oriented benchmark that current state-of-the-art LLMs exhibit some ability to succeed at. The best model (Claude 3.5 Sonnet v2) achieves a success rate of 69.67%. However, there is still substantial space for improvement which gives the community a next direction to optimize. Furthermore, there is significant variation in performance across task categories. MedAgentBench establishes this and is publicly available at https://github.com/stanfordmlgroup/MedAgentBench , offering a valuable framework for model developers to track progress and drive continuous improvements in the agent capabilities of large language models within the medical domain.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-24T17:21:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yixing Jiang</name>
+    </author>
+    <author>
+      <name>Kameron C. Black</name>
+    </author>
+    <author>
+      <name>Gloria Geng</name>
+    </author>
+    <author>
+      <name>Danny Park</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Jonathan H. Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.18602v2</id>
+    <title>Evaluating and Improving the Effectiveness of Synthetic Chest X-Rays for Medical Image Analysis</title>
+    <updated>2025-11-06T02:21:13Z</updated>
+    <link href="https://arxiv.org/abs/2411.18602v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.18602v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Purpose: To explore best-practice approaches for generating synthetic chest X-ray images and augmenting medical imaging datasets to optimize the performance of deep learning models in downstream tasks like classification and segmentation. Materials and Methods: We utilized a latent diffusion model to condition the generation of synthetic chest X-rays on text prompts and/or segmentation masks. We explored methods like using a proxy model and using radiologist feedback to improve the quality of synthetic data. These synthetic images were then generated from relevant disease information or geometrically transformed segmentation masks and added to ground truth training set images from the CheXpert, CANDID-PTX, SIIM, and RSNA Pneumonia datasets to measure improvements in classification and segmentation model performance on the test sets. F1 and Dice scores were used to evaluate classification and segmentation respectively. One-tailed t-tests with Bonferroni correction assessed the statistical significance of performance improvements with synthetic data. Results: Across all experiments, the synthetic data we generated resulted in a maximum mean classification F1 score improvement of 0.150453 (CI: 0.099108-0.201798; P=0.0031) compared to using only real data. For segmentation, the maximum Dice score improvement was 0.14575 (CI: 0.108267-0.183233; P=0.0064). Conclusion: Best practices for generating synthetic chest X-ray images for downstream tasks include conditioning on single-disease labels or geometrically transformed segmentation masks, as well as potentially using proxy modeling for fine-tuning such generations.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-27T18:47:09Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <arxiv:journal_ref>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, October 2025, pages 4413-4421</arxiv:journal_ref>
+    <author>
+      <name>Eva Prakash</name>
+    </author>
+    <author>
+      <name>Jeya Maria Jose Valanarasu</name>
+    </author>
+    <author>
+      <name>Zhihong Chen</name>
+    </author>
+    <author>
+      <name>Eduardo Pontes Reis</name>
+    </author>
+    <author>
+      <name>Andrew Johnston</name>
+    </author>
+    <author>
+      <name>Anuj Pareek</name>
+    </author>
+    <author>
+      <name>Christian Bluethgen</name>
+    </author>
+    <author>
+      <name>Sergios Gatidis</name>
+    </author>
+    <author>
+      <name>Cameron Olsen</name>
+    </author>
+    <author>
+      <name>Akshay Chaudhari</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19585v1</id>
+    <title>Effect of interfacial Fe3O4 nanoparticles on the microstructure and mechanical properties of textured alumina densified by ultrafast high-temperature sintering</title>
+    <updated>2024-06-28T00:21:15Z</updated>
+    <link href="https://arxiv.org/abs/2406.19585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Alumina microplatelets coated with a small amount of Fe3O4 can be oriented via a rotating magnetic field to create texture. After ultrafast high-temperature sintering (UHS), Fe atoms are found at the grain boundaries and within the grains, influencing the mechanical properties. Here, we compare the microstructure and mechanical properties of textured alumina prepared with and without Fe3O4 and sintered using UHS or conventional sintering (CS). Microstructural analysis using electron backscattering diffraction (EBSD) indicates that Fe3O4 induces crystallographic defects in the ceramic after UHS. Nanoindentation measurements enlighten that the presence of Fe3O4 leads to plastic flow that increases the energy dissipation, reaching ~122 % at a maximum load of 1900 mN compared to pristine samples. Overall, due to the concentrated effects of Fe3O4 after UHS, the flexural strength and fracture toughness values are higher than the other two samples, reaching values of ~287 MPa and 7 MPa.m0.5, respectively. These results could be leveraged to produce stronger and tougher ceramics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-28T00:21:15Z</published>
+    <arxiv:comment>10 pages, 11 figures, contains main manuscript and supplementary file</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Journal of the European Ceramic Society 44 (2024) 116696</arxiv:journal_ref>
+    <author>
+      <name>Rohit Pratyush Behera</name>
+    </author>
+    <author>
+      <name>Andrew Yun Ru Ng</name>
+    </author>
+    <author>
+      <name>Zehui Du</name>
+    </author>
+    <author>
+      <name>Chee Lip Gan</name>
+    </author>
+    <author>
+      <name>Hortense Le Ferrand</name>
+    </author>
+    <arxiv:doi>10.1016/j.jeurceramsoc.2024.116696</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jeurceramsoc.2024.116696" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.09798v2</id>
+    <title>Many-Shot In-Context Learning in Multimodal Foundation Models</title>
+    <updated>2024-10-04T21:51:47Z</updated>
+    <link href="https://arxiv.org/abs/2405.09798v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.09798v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are effective at few-shot in-context learning (ICL). Recent advancements in multimodal foundation models have enabled unprecedentedly long context windows, presenting an opportunity to explore their capability to perform ICL with many more demonstrating examples. In this work, we evaluate the performance of multimodal foundation models scaling from few-shot to many-shot ICL. We benchmark GPT-4o and Gemini 1.5 Pro across 14 datasets spanning multiple domains (natural imagery, medical imagery, remote sensing, and molecular imagery) and tasks (image classification, visual QA, and object localization). We observe that many-shot ICL, including up to almost 2,000 demonstrating examples, leads to substantial improvements compared to few-shot (&lt;100 examples) ICL across all of the datasets. Further, Gemini 1.5 Pro performance continues to improve log-linearly up to the maximum number of tested examples on many datasets. We also find open-weights multimodal foundation models like Llama 3.2-Vision do not benefit from the demonstrating examples, highlighting an important gap between open and closed multimodal foundation models. Given the high inference costs required for many-shot ICL, we also explore the impact of batching multiple queries in a single API call. We show that batching up to 50 queries can lead to performance improvements under zero-shot and many-shot ICL, with substantial gains in the zero-shot setting on multiple datasets, while drastically reducing per-query cost and latency. Finally, while GPT-4o and Gemini 1.5 Pro achieve similar zero-shot performance across the datasets, Gemini 1.5 Pro learns more quickly than GPT-4o on most datasets. Our results suggest that many-shot ICL could enable users to efficiently adapt multimodal foundation models to new applications and domains. Our codebase is publicly available at https://github.com/stanfordmlgroup/ManyICL .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T04:02:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yixing Jiang</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Ji Hun Wang</name>
+    </author>
+    <author>
+      <name>Muhammad Ahmed Chaudhry</name>
+    </author>
+    <author>
+      <name>Jonathan H. Chen</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.17033v1</id>
+    <title>Auto-Generating Weak Labels for Real &amp; Synthetic Data to Improve Label-Scarce Medical Image Segmentation</title>
+    <updated>2024-04-25T20:47:08Z</updated>
+    <link href="https://arxiv.org/abs/2404.17033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.17033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The high cost of creating pixel-by-pixel gold-standard labels, limited expert availability, and presence of diverse tasks make it challenging to generate segmentation labels to train deep learning models for medical imaging tasks. In this work, we present a new approach to overcome the hurdle of costly medical image labeling by leveraging foundation models like Segment Anything Model (SAM) and its medical alternate MedSAM. Our pipeline has the ability to generate weak labels for any unlabeled medical image and subsequently use it to augment label-scarce datasets. We perform this by leveraging a model trained on a few gold-standard labels and using it to intelligently prompt MedSAM for weak label generation. This automation eliminates the manual prompting step in MedSAM, creating a streamlined process for generating labels for both real and synthetic images, regardless of quantity. We conduct experiments on label-scarce settings for multiple tasks pertaining to modalities ranging from ultrasound, dermatology, and X-rays to demonstrate the usefulness of our pipeline. The code is available at https://github.com/stanfordmlgroup/Auto-Generate-WLs/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-25T20:47:08Z</published>
+    <arxiv:comment>Accepted at MIDL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tanvi Deshpande</name>
+    </author>
+    <author>
+      <name>Eva Prakash</name>
+    </author>
+    <author>
+      <name>Elsie Gyang Ross</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Jeya Maria Jose Valanarasu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.13185v1</id>
+    <title>Unlocking Robust Segmentation Across All Age Groups via Continual Learning</title>
+    <updated>2024-04-19T21:21:36Z</updated>
+    <link href="https://arxiv.org/abs/2404.13185v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.13185v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most deep learning models in medical imaging are trained on adult data with unclear performance on pediatric images. In this work, we aim to address this challenge in the context of automated anatomy segmentation in whole-body Computed Tomography (CT). We evaluate the performance of CT organ segmentation algorithms trained on adult data when applied to pediatric CT volumes and identify substantial age-dependent underperformance. We subsequently propose and evaluate strategies, including data augmentation and continual learning approaches, to achieve good segmentation accuracy across all age groups. Our best-performing model, trained using continual learning, achieves high segmentation accuracy on both adult and pediatric data (Dice scores of 0.90 and 0.84 respectively).</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-19T21:21:36Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Chih-Ying Liu</name>
+    </author>
+    <author>
+      <name>Jeya Maria Jose Valanarasu</name>
+    </author>
+    <author>
+      <name>Camila Gonzalez</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Sergios Gatidis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.14486v1</id>
+    <title>CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds</title>
+    <updated>2024-01-25T19:44:19Z</updated>
+    <link href="https://arxiv.org/abs/2401.14486v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.14486v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clouds play a significant role in global temperature regulation through their effect on planetary albedo. Anthropogenic emissions of aerosols can alter the albedo of clouds, but the extent of this effect, and its consequent impact on temperature change, remains uncertain. Human-induced clouds caused by ship aerosol emissions, commonly referred to as ship tracks, provide visible manifestations of this effect distinct from adjacent cloud regions and therefore serve as a useful sandbox to study human-induced clouds. However, the lack of large-scale ship track data makes it difficult to deduce their general effects on cloud formation. Towards developing automated approaches to localize ship tracks at scale, we present CloudTracks, a dataset containing 3,560 satellite images labeled with more than 12,000 ship track instance annotations. We train semantic segmentation and instance segmentation model baselines on our dataset and find that our best model substantially outperforms previous state-of-the-art for ship track localization (61.29 vs. 48.65 IoU). We also find that the best instance segmentation model is able to identify the number of ship tracks in each image more accurately than the previous state-of-the-art (1.64 vs. 4.99 MAE). However, we identify cases where the best model struggles to accurately localize and count ship tracks, so we believe CloudTracks will stimulate novel machine learning approaches to better detect elongated and overlapping features in satellite images. We release our dataset openly at {zenodo.org/records/10042922}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-25T19:44:19Z</published>
+    <arxiv:comment>11 pages, 5 figures, submitted to Journal of Machine Learning Research</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Muhammad Ahmed Chaudhry</name>
+    </author>
+    <author>
+      <name>Lyna Kim</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Yuzu Ido</name>
+    </author>
+    <author>
+      <name>Sonia Chu</name>
+    </author>
+    <author>
+      <name>Jared Thomas Isobe</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Duncan Watson-Parris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.02200v1</id>
+    <title>An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets</title>
+    <updated>2023-12-02T19:33:42Z</updated>
+    <link href="https://arxiv.org/abs/2312.02200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.02200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Major advancements in computer vision can primarily be attributed to the use of labeled datasets. However, acquiring labels for datasets often results in errors which can harm model performance. Recent works have proposed methods to automatically identify mislabeled images, but developing strategies to effectively implement them in real world datasets has been sparsely explored. Towards improved data-centric methods for cleaning real world vision datasets, we first conduct more than 200 experiments carefully benchmarking recently developed automated mislabel detection methods on multiple datasets under a variety of synthetic and real noise settings with varying noise levels. We compare these methods to a Simple and Efficient Mislabel Detector (SEMD) that we craft, and find that SEMD performs similarly to or outperforms prior mislabel detection approaches. We then apply SEMD to multiple real world computer vision datasets and test how dataset size, mislabel removal strategy, and mislabel removal amount further affect model performance after retraining on the cleaned data. With careful design of the approach, we find that mislabel removal leads per-class performance improvements of up to 8% of a retrained classifier in smaller data regimes.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-02T19:33:42Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Maya Srikanth</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Brian Wesley Hill</name>
+    </author>
+    <author>
+      <name>Felipe Godoy</name>
+    </author>
+    <author>
+      <name>Ishan Sabane</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.02199v1</id>
+    <title>USat: A Unified Self-Supervised Encoder for Multi-Sensor Satellite Imagery</title>
+    <updated>2023-12-02T19:17:04Z</updated>
+    <link href="https://arxiv.org/abs/2312.02199v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.02199v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large, self-supervised vision models have led to substantial advancements for automatically interpreting natural images. Recent works have begun tailoring these methods to remote sensing data which has rich structure with multi-sensor, multi-spectral, and temporal information providing massive amounts of self-labeled data that can be used for self-supervised pre-training. In this work, we develop a new encoder architecture called USat that can input multi-spectral data from multiple sensors for self-supervised pre-training. USat is a vision transformer with modified patch projection layers and positional encodings to model spectral bands with varying spatial scales from multiple sensors. We integrate USat into a Masked Autoencoder (MAE) self-supervised pre-training procedure and find that a pre-trained USat outperforms state-of-the-art self-supervised MAE models trained on remote sensing data on multiple remote sensing benchmark datasets (up to 8%) and leads to improvements in low data regimes (up to 7%). Code and pre-trained weights are available at https://github.com/stanfordmlgroup/USat .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-02T19:17:04Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Lucas Tao</name>
+    </author>
+    <author>
+      <name>Joanne Zhou</name>
+    </author>
+    <author>
+      <name>Yuntao Ma</name>
+    </author>
+    <author>
+      <name>Langston Nashold</name>
+    </author>
+    <author>
+      <name>Benjamin Liu</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.17449v1</id>
+    <title>Weakly-semi-supervised object detection in remotely sensed imagery</title>
+    <updated>2023-11-29T08:43:04Z</updated>
+    <link href="https://arxiv.org/abs/2311.17449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.17449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning for detecting objects in remotely sensed imagery can enable new technologies for important applications including mitigating climate change. However, these models often require large datasets labeled with bounding box annotations which are expensive to curate, prohibiting the development of models for new tasks and geographies. To address this challenge, we develop weakly-semi-supervised object detection (WSSOD) models on remotely sensed imagery which can leverage a small amount of bounding boxes together with a large amount of point labels that are easy to acquire at scale in geospatial data. We train WSSOD models which use large amounts of point-labeled images with varying fractions of bounding box labeled images in FAIR1M and a wind turbine detection dataset, and demonstrate that they substantially outperform fully supervised models trained with the same amount of bounding box labeled images on both datasets. Furthermore, we find that the WSSOD models trained with 2-10x fewer bounding box labeled images can perform similarly to or outperform fully supervised models trained on the full set of bounding-box labeled images. We believe that the approach can be extended to other remote sensing tasks to reduce reliance on bounding box labels and increase development of models for impactful applications.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T08:43:04Z</published>
+    <arxiv:comment>Tackling Climate Change with Machine Learning at NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ji Hun Wang</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Beri Kohen Behar</name>
+    </author>
+    <author>
+      <name>Ha Tran</name>
+    </author>
+    <author>
+      <name>Raghav Samavedam</name>
+    </author>
+    <author>
+      <name>Quentin Hsu</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.09574v3</id>
+    <title>LymphoML: An interpretable artificial intelligence-based method identifies morphologic features that correlate with lymphoma subtype</title>
+    <updated>2023-11-20T02:01:33Z</updated>
+    <link href="https://arxiv.org/abs/2311.09574v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.09574v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The accurate classification of lymphoma subtypes using hematoxylin and eosin (H&amp;E)-stained tissue is complicated by the wide range of morphological features these cancers can exhibit. We present LymphoML - an interpretable machine learning method that identifies morphologic features that correlate with lymphoma subtypes. Our method applies steps to process H&amp;E-stained tissue microarray cores, segment nuclei and cells, compute features encompassing morphology, texture, and architecture, and train gradient-boosted models to make diagnostic predictions. LymphoML's interpretable models, developed on a limited volume of H&amp;E-stained tissue, achieve non-inferior diagnostic accuracy to pathologists using whole-slide images and outperform black box deep-learning on a dataset of 670 cases from Guatemala spanning 8 lymphoma subtypes. Using SHapley Additive exPlanation (SHAP) analysis, we assess the impact of each feature on model prediction and find that nuclear shape features are most discriminative for DLBCL (F1-score: 78.7%) and classical Hodgkin lymphoma (F1-score: 74.5%). Finally, we provide the first demonstration that a model combining features from H&amp;E-stained tissue with features from a standardized panel of 6 immunostains results in a similar diagnostic accuracy (85.3%) to a 46-stain panel (86.1%).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T05:17:14Z</published>
+    <arxiv:comment>To be published in Proceedings of the 3rd Machine Learning for Health symposium, Proceedings of Machine Learning Research (PMLR)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vivek Shankar</name>
+    </author>
+    <author>
+      <name>Xiaoli Yang</name>
+    </author>
+    <author>
+      <name>Vrishab Krishna</name>
+    </author>
+    <author>
+      <name>Brent Tan</name>
+    </author>
+    <author>
+      <name>Oscar Silva</name>
+    </author>
+    <author>
+      <name>Rebecca Rojansky</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Fabiola Valvert</name>
+    </author>
+    <author>
+      <name>Edward Briercheck</name>
+    </author>
+    <author>
+      <name>David Weinstock</name>
+    </author>
+    <author>
+      <name>Yasodha Natkunam</name>
+    </author>
+    <author>
+      <name>Sebastian Fernandez-Pol</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08017v1</id>
+    <title>How to Train Your CheXDragon: Training Chest X-Ray Models for Transfer to Novel Tasks and Healthcare Systems</title>
+    <updated>2023-05-13T22:33:09Z</updated>
+    <link href="https://arxiv.org/abs/2305.08017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning (SSL) enables label efficient training for machine learning models. This is essential for domains such as medical imaging, where labels are costly and time-consuming to curate. However, the most effective supervised or SSL strategy for transferring models to different healthcare systems or novel tasks is not well understood. In this work, we systematically experiment with a variety of supervised and self-supervised pretraining strategies using multimodal datasets of medical images (chest X-rays) and text (radiology reports). We then evaluate their performance on data from two external institutions with diverse sets of tasks. In addition, we experiment with different transfer learning strategies to effectively adapt these pretrained models to new tasks and healthcare systems. Our empirical results suggest that multimodal SSL gives substantial gains over unimodal SSL in performance across new healthcare systems and tasks, comparable to models pretrained with full supervision. We demonstrate additional performance gains with models further adapted to the new dataset and task, using multimodal domain-adaptive pretraining (DAPT), linear probing then finetuning (LP-FT), and both methods combined. We offer suggestions for alternative models to use in scenarios where not all of these additions are feasible. Our results provide guidance for improving the generalization of medical image interpretation models to new healthcare systems and novel tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-13T22:33:09Z</published>
+    <arxiv:comment>13 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Cara Van Uden</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Mars Huang</name>
+    </author>
+    <author>
+      <name>Nathan Dean</name>
+    </author>
+    <author>
+      <name>Jason Carr</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01842v1</id>
+    <title>Detecting Neighborhood Gentrification at Scale via Street-level Visual Data</title>
+    <updated>2023-01-04T22:52:29Z</updated>
+    <link href="https://arxiv.org/abs/2301.01842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neighborhood gentrification plays a significant role in shaping the social and economic well-being of both individuals and communities at large. While some efforts have been made to detect gentrification in cities, existing approaches rely mainly on estimated measures from survey data, require substantial work of human labeling, and are limited in characterizing the neighborhood as a whole. We propose a novel approach to detecting neighborhood gentrification at a large-scale based on the physical appearance of neighborhoods by incorporating historical street-level visual data. We show the effectiveness of the proposed method by comparing results from our approach with gentrification measures from previous literature and case studies. Our approach has the potential to supplement existing indicators of gentrification and become a valid resource for urban researchers and policy makers.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-04T22:52:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tianyuan Huang</name>
+    </author>
+    <author>
+      <name>Timothy Dai</name>
+    </author>
+    <author>
+      <name>Zhecheng Wang</name>
+    </author>
+    <author>
+      <name>Hesu Yoon</name>
+    </author>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Ram Rajagopal</name>
+    </author>
+    <author>
+      <name>Jackelyn Hwang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.13027v2</id>
+    <title>Improving debris flow evacuation alerts in Taiwan using machine learning</title>
+    <updated>2022-09-02T04:39:32Z</updated>
+    <link href="https://arxiv.org/abs/2208.13027v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.13027v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Taiwan has the highest susceptibility to and fatalities from debris flows worldwide. The existing debris flow warning system in Taiwan, which uses a time-weighted measure of rainfall, leads to alerts when the measure exceeds a predefined threshold. However, this system generates many false alarms and misses a substantial fraction of the actual debris flows. Towards improving this system, we implemented five machine learning models that input historical rainfall data and predict whether a debris flow will occur within a selected time. We found that a random forest model performed the best among the five models and outperformed the existing system in Taiwan. Furthermore, we identified the rainfall trajectories strongly related to debris flow occurrences and explored trade-offs between the risks of missing debris flows versus frequent false alerts. These results suggest the potential for machine learning models trained on hourly rainfall data alone to save lives while reducing false alerts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-27T14:39:58Z</published>
+    <arxiv:comment>Supplementary information: https://drive.google.com/file/d/1Y17YxXo5rhIbUuZzwLo99pmttbh28v9X/view?usp=sharing</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi-Lin Tsai</name>
+      <arxiv:affiliation>Department of Civil and Environmental Engineering, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+      <arxiv:affiliation>Department of Computer Science, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Suhas Chundi</name>
+      <arxiv:affiliation>Department of Computer Science, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+      <arxiv:affiliation>Department of Computer Science, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christopher B. Field</name>
+      <arxiv:affiliation>Woods Institute for the Environment, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+      <arxiv:affiliation>Interdisciplinary Environmental Studies Program, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+      <arxiv:affiliation>Department of Earth System Science, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter K. Kitanidis</name>
+      <arxiv:affiliation>Department of Civil and Environmental Engineering, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+      <arxiv:affiliation>Woods Institute for the Environment, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+      <arxiv:affiliation>Institute for Computational and Mathematical Engineering, Stanford University, Stanford, CA, USA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.11166v2</id>
+    <title>METER-ML: A Multi-Sensor Earth Observation Benchmark for Automated Methane Source Mapping</title>
+    <updated>2022-08-15T04:37:26Z</updated>
+    <link href="https://arxiv.org/abs/2207.11166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.11166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reducing methane emissions is essential for mitigating global warming. To attribute methane emissions to their sources, a comprehensive dataset of methane source infrastructure is necessary. Recent advancements with deep learning on remotely sensed imagery have the potential to identify the locations and characteristics of methane sources, but there is a substantial lack of publicly available data to enable machine learning researchers and practitioners to build automated mapping approaches. To help fill this gap, we construct a multi-sensor dataset called METER-ML containing 86,599 georeferenced NAIP, Sentinel-1, and Sentinel-2 images in the U.S. labeled for the presence or absence of methane source facilities including concentrated animal feeding operations, coal mines, landfills, natural gas processing plants, oil refineries and petroleum terminals, and wastewater treatment plants. We experiment with a variety of models that leverage different spatial resolutions, spatial footprints, image products, and spectral bands. We find that our best model achieves an area under the precision recall curve of 0.915 for identifying concentrated animal feeding operations and 0.821 for oil refineries and petroleum terminals on an expert-labeled test set, suggesting the potential for large-scale mapping. We make METER-ML freely available at https://stanfordmlgroup.github.io/projects/meter-ml/ to support future work on automated methane source mapping.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-22T16:12:07Z</published>
+    <arxiv:comment>Workshop on Complex Data Challenges in Earth Observation at IJCAI-ECAI 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bryan Zhu</name>
+    </author>
+    <author>
+      <name>Nicholas Lui</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Jimmy Le</name>
+    </author>
+    <author>
+      <name>Sahil Tadwalkar</name>
+    </author>
+    <author>
+      <name>Chenghao Wang</name>
+    </author>
+    <author>
+      <name>Zutao Ouyang</name>
+    </author>
+    <author>
+      <name>Frankie Y. Liu</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Robert B. Jackson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.10062v4</id>
+    <title>DataPerf: Benchmarks for Data-Centric AI Development</title>
+    <updated>2023-10-13T15:24:24Z</updated>
+    <link href="https://arxiv.org/abs/2207.10062v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.10062v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning research has long focused on models rather than datasets, and prominent datasets are used for common ML tasks without regard to the breadth, difficulty, and faithfulness of the underlying problems. Neglecting the fundamental importance of data has given rise to inaccuracy, bias, and fragility in real-world applications, and research is hindered by saturation across existing dataset benchmarks. In response, we present DataPerf, a community-led benchmark suite for evaluating ML datasets and data-centric algorithms. We aim to foster innovation in data-centric AI through competition, comparability, and reproducibility. We enable the ML community to iterate on datasets, instead of just architectures, and we provide an open, online platform with multiple rounds of challenges to support this iterative development. The first iteration of DataPerf contains five benchmarks covering a wide spectrum of data-centric techniques, tasks, and modalities in vision, speech, acquisition, debugging, and diffusion prompting, and we support hosting new contributed benchmarks from the community. The benchmarks, online evaluation platform, and baseline implementations are open source, and the MLCommons Association will maintain DataPerf to ensure long-term benefits to academia and industry.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-20T17:47:54Z</published>
+    <arxiv:comment>NeurIPS 2023 Datasets and Benchmarks Track</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mark Mazumder</name>
+    </author>
+    <author>
+      <name>Colby Banbury</name>
+    </author>
+    <author>
+      <name>Xiaozhe Yao</name>
+    </author>
+    <author>
+      <name>Bojan Karlaš</name>
+    </author>
+    <author>
+      <name>William Gaviria Rojas</name>
+    </author>
+    <author>
+      <name>Sudnya Diamos</name>
+    </author>
+    <author>
+      <name>Greg Diamos</name>
+    </author>
+    <author>
+      <name>Lynn He</name>
+    </author>
+    <author>
+      <name>Alicia Parrish</name>
+    </author>
+    <author>
+      <name>Hannah Rose Kirk</name>
+    </author>
+    <author>
+      <name>Jessica Quaye</name>
+    </author>
+    <author>
+      <name>Charvi Rastogi</name>
+    </author>
+    <author>
+      <name>Douwe Kiela</name>
+    </author>
+    <author>
+      <name>David Jurado</name>
+    </author>
+    <author>
+      <name>David Kanter</name>
+    </author>
+    <author>
+      <name>Rafael Mosquera</name>
+    </author>
+    <author>
+      <name>Juan Ciro</name>
+    </author>
+    <author>
+      <name>Lora Aroyo</name>
+    </author>
+    <author>
+      <name>Bilge Acun</name>
+    </author>
+    <author>
+      <name>Lingjiao Chen</name>
+    </author>
+    <author>
+      <name>Mehul Smriti Raje</name>
+    </author>
+    <author>
+      <name>Max Bartolo</name>
+    </author>
+    <author>
+      <name>Sabri Eyuboglu</name>
+    </author>
+    <author>
+      <name>Amirata Ghorbani</name>
+    </author>
+    <author>
+      <name>Emmett Goodman</name>
+    </author>
+    <author>
+      <name>Oana Inel</name>
+    </author>
+    <author>
+      <name>Tariq Kane</name>
+    </author>
+    <author>
+      <name>Christine R. Kirkpatrick</name>
+    </author>
+    <author>
+      <name>Tzu-Sheng Kuo</name>
+    </author>
+    <author>
+      <name>Jonas Mueller</name>
+    </author>
+    <author>
+      <name>Tristan Thrush</name>
+    </author>
+    <author>
+      <name>Joaquin Vanschoren</name>
+    </author>
+    <author>
+      <name>Margaret Warren</name>
+    </author>
+    <author>
+      <name>Adina Williams</name>
+    </author>
+    <author>
+      <name>Serena Yeung</name>
+    </author>
+    <author>
+      <name>Newsha Ardalani</name>
+    </author>
+    <author>
+      <name>Praveen Paritosh</name>
+    </author>
+    <author>
+      <name>Lilith Bat-Leah</name>
+    </author>
+    <author>
+      <name>Ce Zhang</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Carole-Jean Wu</name>
+    </author>
+    <author>
+      <name>Cody Coleman</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Peter Mattson</name>
+    </author>
+    <author>
+      <name>Vijay Janapa Reddi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.01449v1</id>
+    <title>Deep Learning-Based Sparse Whole-Slide Image Analysis for the Diagnosis of Gastric Intestinal Metaplasia</title>
+    <updated>2022-01-05T04:43:46Z</updated>
+    <link href="https://arxiv.org/abs/2201.01449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.01449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, deep learning has successfully been applied to automate a wide variety of tasks in diagnostic histopathology. However, fast and reliable localization of small-scale regions-of-interest (ROI) has remained a key challenge, as discriminative morphologic features often occupy only a small fraction of a gigapixel-scale whole-slide image (WSI). In this paper, we propose a sparse WSI analysis method for the rapid identification of high-power ROI for WSI-level classification. We develop an evaluation framework inspired by the early classification literature, in order to quantify the tradeoff between diagnostic performance and inference time for sparse analytic approaches. We test our method on a common but time-consuming task in pathology - that of diagnosing gastric intestinal metaplasia (GIM) on hematoxylin and eosin (H&amp;E)-stained slides from endoscopic biopsy specimens. GIM is a well-known precursor lesion along the pathway to development of gastric cancer. We performed a thorough evaluation of the performance and inference time of our approach on a test set of GIM-positive and GIM-negative WSI, finding that our method successfully detects GIM in all positive WSI, with a WSI-level classification area under the receiver operating characteristic curve (AUC) of 0.98 and an average precision (AP) of 0.95. Furthermore, we show that our method can attain these metrics in under one minute on a standard CPU. Our results are applicable toward the goal of developing neural networks that can easily be deployed in clinical settings to support pathologists in quickly localizing and diagnosing small-scale morphologic features in WSI.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-05T04:43:46Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Jon Braatz</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Stephanie Zhang</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Jeanne Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.01764v1</id>
+    <title>Q-Pain: A Question Answering Dataset to Measure Social Bias in Pain Management</title>
+    <updated>2021-08-03T21:55:28Z</updated>
+    <link href="https://arxiv.org/abs/2108.01764v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.01764v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Natural Language Processing (NLP), and specifically automated Question Answering (QA) systems, have demonstrated both impressive linguistic fluency and a pernicious tendency to reflect social biases. In this study, we introduce Q-Pain, a dataset for assessing bias in medical QA in the context of pain management, one of the most challenging forms of clinical decision-making. Along with the dataset, we propose a new, rigorous framework, including a sample experimental design, to measure the potential biases present when making treatment decisions. We demonstrate its use by assessing two reference Question-Answering systems, GPT-2 and GPT-3, and find statistically significant differences in treatment between intersectional race-gender subgroups, thus reaffirming the risks posed by AI in medical settings, and the need for datasets like ours to ensure safety before medical AI applications are deployed.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-03T21:55:28Z</published>
+    <arxiv:comment>Accepted to the 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Cécile Logé</name>
+    </author>
+    <author>
+      <name>Emily Ross</name>
+    </author>
+    <author>
+      <name>David Yaw Amoah Dadey</name>
+    </author>
+    <author>
+      <name>Saahil Jain</name>
+    </author>
+    <author>
+      <name>Adriel Saporta</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14463v3</id>
+    <title>RadGraph: Extracting Clinical Entities and Relations from Radiology Reports</title>
+    <updated>2021-08-29T23:19:33Z</updated>
+    <link href="https://arxiv.org/abs/2106.14463v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.14463v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extracting structured clinical information from free-text radiology reports can enable the use of radiology report information for a variety of critical healthcare applications. In our work, we present RadGraph, a dataset of entities and relations in full-text chest X-ray radiology reports based on a novel information extraction schema we designed to structure radiology reports. We release a development dataset, which contains board-certified radiologist annotations for 500 radiology reports from the MIMIC-CXR dataset (14,579 entities and 10,889 relations), and a test dataset, which contains two independent sets of board-certified radiologist annotations for 100 radiology reports split equally across the MIMIC-CXR and CheXpert datasets. Using these datasets, we train and test a deep learning model, RadGraph Benchmark, that achieves a micro F1 of 0.82 and 0.73 on relation extraction on the MIMIC-CXR and CheXpert test sets respectively. Additionally, we release an inference dataset, which contains annotations automatically generated by RadGraph Benchmark across 220,763 MIMIC-CXR reports (around 6 million entities and 4 million relations) and 500 CheXpert reports (13,783 entities and 9,908 relations) with mappings to associated chest radiographs. Our freely available dataset can facilitate a wide range of research in medical natural language processing, as well as computer vision and multi-modal learning when linked to chest radiographs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-28T08:24:23Z</published>
+    <arxiv:comment>Accepted to the 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Saahil Jain</name>
+    </author>
+    <author>
+      <name>Ashwin Agrawal</name>
+    </author>
+    <author>
+      <name>Adriel Saporta</name>
+    </author>
+    <author>
+      <name>Steven QH Truong</name>
+    </author>
+    <author>
+      <name>Du Nguyen Duong</name>
+    </author>
+    <author>
+      <name>Tan Bui</name>
+    </author>
+    <author>
+      <name>Pierre Chambon</name>
+    </author>
+    <author>
+      <name>Yuhao Zhang</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Curtis P. Langlotz</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.02489v1</id>
+    <title>Learning Neighborhood Representation from Multi-Modal Multi-Graph: Image, Text, Mobility Graph and Beyond</title>
+    <updated>2021-05-06T07:44:05Z</updated>
+    <link href="https://arxiv.org/abs/2105.02489v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.02489v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent urbanization has coincided with the enrichment of geotagged data, such as street view and point-of-interest (POI). Region embedding enhanced by the richer data modalities has enabled researchers and city administrators to understand the built environment, socioeconomics, and the dynamics of cities better. While some efforts have been made to simultaneously use multi-modal inputs, existing methods can be improved by incorporating different measures of 'proximity' in the same embedding space - leveraging not only the data that characterizes the regions (e.g., street view, local businesses pattern) but also those that depict the relationship between regions (e.g., trips, road network). To this end, we propose a novel approach to integrate multi-modal geotagged inputs as either node or edge features of a multi-graph based on their relations with the neighborhood region (e.g., tiles, census block, ZIP code region, etc.). We then learn the neighborhood representation based on a contrastive-sampling scheme from the multi-graph. Specifically, we use street view images and POI features to characterize neighborhoods (nodes) and use human mobility to characterize the relationship between neighborhoods (directed edges). We show the effectiveness of the proposed methods with quantitative downstream tasks as well as qualitative analysis of the embedding space: The embedding we trained outperforms the ones using only unimodal data as regional inputs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-06T07:44:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianyuan Huang</name>
+    </author>
+    <author>
+      <name>Zhecheng Wang</name>
+    </author>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Ram Rajagopal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.04452v2</id>
+    <title>3KG: Contrastive Learning of 12-Lead Electrocardiograms using Physiologically-Inspired Augmentations</title>
+    <updated>2021-09-21T00:27:06Z</updated>
+    <link href="https://arxiv.org/abs/2106.04452v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.04452v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose 3KG, a physiologically-inspired contrastive learning approach that generates views using 3D augmentations of the 12-lead electrocardiogram. We evaluate representation quality by fine-tuning a linear layer for the downstream task of 23-class diagnosis on the PhysioNet 2020 challenge training data and find that 3KG achieves a $9.1\%$ increase in mean AUC over the best self-supervised baseline when trained on $1\%$ of labeled data. Our empirical analysis shows that combining spatial and temporal augmentations produces the strongest representations. In addition, we investigate the effect of this physiologically-inspired pretraining on downstream performance on different disease subgroups and find that 3KG makes the greatest gains for conduction and rhythm abnormalities. Our method allows for flexibility in incorporating other self-supervised strategies and highlights the potential for similar modality-specific augmentations for other biomedical signals.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-21T06:28:07Z</published>
+    <arxiv:comment>11 pages, 3 figures, paper revision with new set of experiments and comparison to previous methods</arxiv:comment>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <author>
+      <name>Bryan Gopal</name>
+    </author>
+    <author>
+      <name>Ryan W. Han</name>
+    </author>
+    <author>
+      <name>Gautham Raghupathi</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Geoffrey H. Tison</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.00793v3</id>
+    <title>Effect of Radiology Report Labeler Quality on Deep Learning Models for Chest X-Ray Interpretation</title>
+    <updated>2021-11-28T00:24:44Z</updated>
+    <link href="https://arxiv.org/abs/2104.00793v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.00793v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although deep learning models for chest X-ray interpretation are commonly trained on labels generated by automatic radiology report labelers, the impact of improvements in report labeling on the performance of chest X-ray classification models has not been systematically investigated. We first compare the CheXpert, CheXbert, and VisualCheXbert labelers on the task of extracting accurate chest X-ray image labels from radiology reports, reporting that the VisualCheXbert labeler outperforms the CheXpert and CheXbert labelers. Next, after training image classification models using labels generated from the different radiology report labelers on one of the largest datasets of chest X-rays, we show that an image classification model trained on labels from the VisualCheXbert labeler outperforms image classification models trained on labels from the CheXpert and CheXbert labelers. Our work suggests that recent improvements in radiology report labeling can translate to the development of higher performing chest X-ray classification models.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-01T22:37:29Z</published>
+    <arxiv:comment>In Neural Information Processing Systems (NeurIPS) Workshop on Data-Centric AI (DCAI)</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Saahil Jain</name>
+    </author>
+    <author>
+      <name>Akshay Smit</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14339v1</id>
+    <title>MedSelect: Selective Labeling for Medical Image Classification Combining Meta-Learning with Deep Reinforcement Learning</title>
+    <updated>2021-03-26T09:09:34Z</updated>
+    <link href="https://arxiv.org/abs/2103.14339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a selective learning method using meta-learning and deep reinforcement learning for medical image interpretation in the setting of limited labeling resources. Our method, MedSelect, consists of a trainable deep learning selector that uses image embeddings obtained from contrastive pretraining for determining which images to label, and a non-parametric selector that uses cosine similarity to classify unseen images. We demonstrate that MedSelect learns an effective selection strategy outperforming baseline selection strategies across seen and unseen medical conditions for chest X-ray interpretation. We also perform an analysis of the selections performed by MedSelect comparing the distribution of latent embeddings and clinical features, and find significant differences compared to the strongest performing baseline. We believe that our method may be broadly applicable across medical imaging settings where labels are expensive to acquire.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T09:09:34Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Akshay Smit</name>
+    </author>
+    <author>
+      <name>Damir Vrabac</name>
+    </author>
+    <author>
+      <name>Yujie He</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Andrew L. Beam</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.09957v3</id>
+    <title>CheXbreak: Misclassification Identification for Deep Learning Models Interpreting Chest X-rays</title>
+    <updated>2021-07-20T17:20:35Z</updated>
+    <link href="https://arxiv.org/abs/2103.09957v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.09957v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A major obstacle to the integration of deep learning models for chest x-ray interpretation into clinical settings is the lack of understanding of their failure modes. In this work, we first investigate whether there are patient subgroups that chest x-ray models are likely to misclassify. We find that patient age and the radiographic finding of lung lesion, pneumothorax or support devices are statistically relevant features for predicting misclassification for some chest x-ray models. Second, we develop misclassification predictors on chest x-ray models using their outputs and clinical features. We find that our best performing misclassification identifier achieves an AUROC close to 0.9 for most diseases. Third, employing our misclassification identifiers, we develop a corrective algorithm to selectively flip model predictions that have high likelihood of misclassification at inference time. We observe F1 improvement on the prediction of Consolidation (0.008 [95% CI 0.005, 0.010]) and Edema (0.003, [95% CI 0.001, 0.006]). By carrying out our investigation on ten distinct and high-performing chest x-ray models, we are able to derive insights across model architectures and offer a generalizable framework applicable to other medical imaging tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-18T00:30:19Z</published>
+    <arxiv:comment>In Proceedings of the 2021 Conference on Machine Learning for Health Care, 2021. In ACM Conference on Health, Inference, and Learning (ACM-CHIL) Workshop 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Emma Chen</name>
+    </author>
+    <author>
+      <name>Andy Kim</name>
+    </author>
+    <author>
+      <name>Rayan Krishnan</name>
+    </author>
+    <author>
+      <name>Jin Long</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.04590v2</id>
+    <title>CheXseen: Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays</title>
+    <updated>2021-05-17T05:15:55Z</updated>
+    <link href="https://arxiv.org/abs/2103.04590v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.04590v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We systematically evaluate the performance of deep learning models in the presence of diseases not labeled for or present during training. First, we evaluate whether deep learning models trained on a subset of diseases (seen diseases) can detect the presence of any one of a larger set of diseases. We find that models tend to falsely classify diseases outside of the subset (unseen diseases) as "no disease". Second, we evaluate whether models trained on seen diseases can detect seen diseases when co-occurring with diseases outside the subset (unseen diseases). We find that models are still able to detect seen diseases even when co-occurring with unseen diseases. Third, we evaluate whether feature representations learned by models may be used to detect the presence of unseen diseases given a small labeled set of unseen diseases. We find that the penultimate layer of the deep neural network provides useful features for unseen disease detection. Our results can inform the safe clinical deployment of deep learning models trained on a non-exhaustive set of disease classes.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-08T08:13:21Z</published>
+    <arxiv:comment>Accepted at MIDL Conference 2021. Previous version accepted at ACM Conference on Health, Inference, and Learning (ACM-CHIL) Workshop 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Siyu Shi</name>
+    </author>
+    <author>
+      <name>Ishaan Malhi</name>
+    </author>
+    <author>
+      <name>Kevin Tran</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.11467v2</id>
+    <title>VisualCheXbert: Addressing the Discrepancy Between Radiology Report Labels and Image Labels</title>
+    <updated>2021-03-15T07:06:44Z</updated>
+    <link href="https://arxiv.org/abs/2102.11467v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.11467v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic extraction of medical conditions from free-text radiology reports is critical for supervising computer vision models to interpret medical images. In this work, we show that radiologists labeling reports significantly disagree with radiologists labeling corresponding chest X-ray images, which reduces the quality of report labels as proxies for image labels. We develop and evaluate methods to produce labels from radiology reports that have better agreement with radiologists labeling images. Our best performing method, called VisualCheXbert, uses a biomedically-pretrained BERT model to directly map from a radiology report to the image labels, with a supervisory signal determined by a computer vision model trained to detect medical conditions from chest X-ray images. We find that VisualCheXbert outperforms an approach using an existing radiology report labeler by an average F1 score of 0.14 (95% CI 0.12, 0.17). We also find that VisualCheXbert better agrees with radiologists labeling chest X-ray images than do radiologists labeling the corresponding radiology reports by an average F1 score across several medical conditions of between 0.12 (95% CI 0.09, 0.15) and 0.21 (95% CI 0.18, 0.24).</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-23T03:02:36Z</published>
+    <arxiv:comment>Accepted to ACM Conference on Health, Inference, and Learning (ACM-CHIL) 2021</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Saahil Jain</name>
+    </author>
+    <author>
+      <name>Akshay Smit</name>
+    </author>
+    <author>
+      <name>Steven QH Truong</name>
+    </author>
+    <author>
+      <name>Chanh DT Nguyen</name>
+    </author>
+    <author>
+      <name>Minh-Thanh Huynh</name>
+    </author>
+    <author>
+      <name>Mudit Jain</name>
+    </author>
+    <author>
+      <name>Victoria A. Young</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <arxiv:doi>10.1145/3450439.3451862</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3450439.3451862" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10663v2</id>
+    <title>MedAug: Contrastive learning leveraging patient metadata improves representations for chest X-ray interpretation</title>
+    <updated>2021-10-17T14:17:48Z</updated>
+    <link href="https://arxiv.org/abs/2102.10663v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10663v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised contrastive learning between pairs of multiple views of the same image has been shown to successfully leverage unlabeled data to produce meaningful visual representations for both natural and medical images. However, there has been limited work on determining how to select pairs for medical images, where availability of patient metadata can be leveraged to improve representations. In this work, we develop a method to select positive pairs coming from views of possibly different images through the use of patient metadata. We compare strategies for selecting positive pairs for chest X-ray interpretation including requiring them to be from the same patient, imaging study or laterality. We evaluate downstream task performance by fine-tuning the linear layer on 1% of the labeled dataset for pleural effusion classification. Our best performing positive pair selection strategy, which involves using images from the same patient from the same study across all lateralities, achieves a performance increase of 14.4% in mean AUC from the ImageNet pretrained baseline. Our controlled experiments show that the keys to improving downstream performance on disease classification are (1) using patient metadata to appropriately create positive pairs from different images with the same underlying pathologies, and (2) maximizing the number of different images used in query pairing. In addition, we explore leveraging patient metadata to select hard negative pairs for contrastive learning, but do not find improvement over baselines that do not use metadata. Our method is broadly applicable to medical image interpretation and allows flexibility for incorporating medical insights in choosing pairs for contrastive learning.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-21T18:39:04Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Yen Nhi Truong Vu</name>
+    </author>
+    <author>
+      <name>Richard Wang</name>
+    </author>
+    <author>
+      <name>Niranjan Balachandar</name>
+    </author>
+    <author>
+      <name>Can Liu</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10484v2</id>
+    <title>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</title>
+    <updated>2021-05-17T07:02:56Z</updated>
+    <link href="https://arxiv.org/abs/2102.10484v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10484v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.7% and weakly-supervised methods that use only DNN-generated saliency maps by 73.1%. Our best method is able to match radiologist agreement on three out of ten pathologies and reduces the overall performance gap by 57.2% as compared to weakly-supervised methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-21T00:47:30Z</published>
+    <arxiv:comment>Accepted to Medical Imaging with Deep Learning (MIDL) Conference 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Soham Gadgil</name>
+    </author>
+    <author>
+      <name>Mark Endo</name>
+    </author>
+    <author>
+      <name>Emily Wen</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08660v2</id>
+    <title>CheXternal: Generalization of Deep Learning Models for Chest X-ray Interpretation to Photos of Chest X-rays and External Clinical Settings</title>
+    <updated>2021-02-21T01:59:37Z</updated>
+    <link href="https://arxiv.org/abs/2102.08660v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.08660v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in training deep learning models have demonstrated the potential to provide accurate chest X-ray interpretation and increase access to radiology expertise. However, poor generalization due to data distribution shifts in clinical settings is a key barrier to implementation. In this study, we measured the diagnostic performance for 8 different chest X-ray models when applied to (1) smartphone photos of chest X-rays and (2) external datasets without any finetuning. All models were developed by different groups and submitted to the CheXpert challenge, and re-applied to test datasets without further tuning. We found that (1) on photos of chest X-rays, all 8 models experienced a statistically significant drop in task performance, but only 3 performed significantly worse than radiologists on average, and (2) on the external set, none of the models performed statistically significantly worse than radiologists, and five models performed statistically significantly better than radiologists. Our results demonstrate that some chest X-ray models, under clinically relevant distribution shifts, were comparable to radiologists while other models were not. Future work should investigate aspects of model training procedures and dataset collection that influence generalization in the presence of data distribution shifts.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-17T09:58:14Z</published>
+    <arxiv:comment>Accepted to ACM Conference on Health, Inference, and Learning (ACM-CHIL) 2021. arXiv admin note: substantial text overlap with arXiv:2011.06129</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Anirudh Joshi</name>
+    </author>
+    <author>
+      <name>Anuj Pareek</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+    <arxiv:doi>10.1145/3450439.3451876</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3450439.3451876" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.06871v2</id>
+    <title>CheXtransfer: Performance and Parameter Efficiency of ImageNet Models for Chest X-Ray Interpretation</title>
+    <updated>2021-02-21T02:06:43Z</updated>
+    <link href="https://arxiv.org/abs/2101.06871v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.06871v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning methods for chest X-ray interpretation typically rely on pretrained models developed for ImageNet. This paradigm assumes that better ImageNet architectures perform better on chest X-ray tasks and that ImageNet-pretrained weights provide a performance boost over random initialization. In this work, we compare the transfer performance and parameter efficiency of 16 popular convolutional architectures on a large chest X-ray dataset (CheXpert) to investigate these assumptions. First, we find no relationship between ImageNet performance and CheXpert performance for both models without pretraining and models with pretraining. Second, we find that, for models without pretraining, the choice of model family influences performance more than size within a family for medical imaging tasks. Third, we observe that ImageNet pretraining yields a statistically significant boost in performance across architectures, with a higher boost for smaller architectures. Fourth, we examine whether ImageNet architectures are unnecessarily large for CheXpert by truncating final blocks from pretrained models, and find that we can make models 3.25x more parameter-efficient on average without a statistically significant drop in performance. Our work contributes new experimental evidence about the relation of ImageNet to chest x-ray interpretation performance.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-18T04:48:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alexander Ke</name>
+    </author>
+    <author>
+      <name>William Ellsworth</name>
+    </author>
+    <author>
+      <name>Oishi Banerjee</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <arxiv:doi>10.1145/3450439.3451867</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3450439.3451867" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.07227v1</id>
+    <title>OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery</title>
+    <updated>2020-11-14T06:20:21Z</updated>
+    <link href="https://arxiv.org/abs/2011.07227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.07227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>At least a quarter of the warming that the Earth is experiencing today is due to anthropogenic methane emissions. There are multiple satellites in orbit and planned for launch in the next few years which can detect and quantify these emissions; however, to attribute methane emissions to their sources on the ground, a comprehensive database of the locations and characteristics of emission sources worldwide is essential. In this work, we develop deep learning algorithms that leverage freely available high-resolution aerial imagery to automatically detect oil and gas infrastructure, one of the largest contributors to global methane emissions. We use the best algorithm, which we call OGNet, together with expert review to identify the locations of oil refineries and petroleum terminals in the U.S. We show that OGNet detects many facilities which are not present in four standard public datasets of oil and gas infrastructure. All detected facilities are associated with characteristics known to contribute to methane emissions, including the infrastructure type and the number of storage tanks. The data curated and produced in this study is freely available at http://stanfordmlgroup.github.io/projects/ognet .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-14T06:20:21Z</published>
+    <arxiv:comment>Tackling Climate Change with Machine Learning at NeurIPS 2020 (Spotlight talk)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Sasankh Munukutla</name>
+    </author>
+    <author>
+      <name>Shawn Zhang</name>
+    </author>
+    <author>
+      <name>Christopher Cross</name>
+    </author>
+    <author>
+      <name>Kyle Story</name>
+    </author>
+    <author>
+      <name>Rose Rustowicz</name>
+    </author>
+    <author>
+      <name>Cooper Elsworth</name>
+    </author>
+    <author>
+      <name>Zutao Yang</name>
+    </author>
+    <author>
+      <name>Mark Omara</name>
+    </author>
+    <author>
+      <name>Ritesh Gautam</name>
+    </author>
+    <author>
+      <name>Robert B. Jackson</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.06129v1</id>
+    <title>CheXphotogenic: Generalization of Deep Learning Models for Chest X-ray Interpretation to Photos of Chest X-rays</title>
+    <updated>2020-11-12T00:16:51Z</updated>
+    <link href="https://arxiv.org/abs/2011.06129v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.06129v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of smartphones to take photographs of chest x-rays represents an appealing solution for scaled deployment of deep learning models for chest x-ray interpretation. However, the performance of chest x-ray algorithms on photos of chest x-rays has not been thoroughly investigated. In this study, we measured the diagnostic performance for 8 different chest x-ray models when applied to photos of chest x-rays. All models were developed by different groups and submitted to the CheXpert challenge, and re-applied to smartphone photos of x-rays in the CheXphoto dataset without further tuning. We found that several models had a drop in performance when applied to photos of chest x-rays, but even with this drop, some models still performed comparably to radiologists. Further investigation could be directed towards understanding how different model training procedures may affect model generalization to photos of chest x-rays.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-12T00:16:51Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) at NeurIPS 2020 - Extended Abstract</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Anirudh Joshi</name>
+    </author>
+    <author>
+      <name>Anuj Pareek</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Matthew Lungren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.05479v1</id>
+    <title>ForestNet: Classifying Drivers of Deforestation in Indonesia using Deep Learning on Satellite Imagery</title>
+    <updated>2020-11-11T00:28:40Z</updated>
+    <link href="https://arxiv.org/abs/2011.05479v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.05479v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Characterizing the processes leading to deforestation is critical to the development and implementation of targeted forest conservation and management policies. In this work, we develop a deep learning model called ForestNet to classify the drivers of primary forest loss in Indonesia, a country with one of the highest deforestation rates in the world. Using satellite imagery, ForestNet identifies the direct drivers of deforestation in forest loss patches of any size. We curate a dataset of Landsat 8 satellite images of known forest loss events paired with driver annotations from expert interpreters. We use the dataset to train and validate the models and demonstrate that ForestNet substantially outperforms other standard driver classification approaches. In order to support future research on automated approaches to deforestation driver classification, the dataset curated in this study is publicly available at https://stanfordmlgroup.github.io/projects/forestnet .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-11T00:28:40Z</published>
+    <arxiv:comment>Tackling Climate Change with Machine Learning at NeurIPS 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Neel Ramachandran</name>
+    </author>
+    <author>
+      <name>Sonja Johnson-Yu</name>
+    </author>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Kyle Story</name>
+    </author>
+    <author>
+      <name>Rose Rustowicz</name>
+    </author>
+    <author>
+      <name>Cooper Elsworth</name>
+    </author>
+    <author>
+      <name>Kemen Austin</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.15269v2</id>
+    <title>GloFlow: Global Image Alignment for Creation of Whole Slide Images for Pathology from Video</title>
+    <updated>2020-11-12T08:53:58Z</updated>
+    <link href="https://arxiv.org/abs/2010.15269v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.15269v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The application of deep learning to pathology assumes the existence of digital whole slide images of pathology slides. However, slide digitization is bottlenecked by the high cost of precise motor stages in slide scanners that are needed for position information used for slide stitching. We propose GloFlow, a two-stage method for creating a whole slide image using optical flow-based image registration with global alignment using a computationally tractable graph-pruning approach. In the first stage, we train an optical flow predictor to predict pairwise translations between successive video frames to approximate a stitch. In the second stage, this approximate stitch is used to create a neighborhood graph to produce a corrected stitch. On a simulated dataset of video scans of WSIs, we find that our method outperforms known approaches to slide-stitching, and stitches WSIs resembling those produced by slide scanners.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-28T23:01:31Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) at NeurIPS 2020 - Extended Abstract</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Viswesh Krishna</name>
+    </author>
+    <author>
+      <name>Anirudh Joshi</name>
+    </author>
+    <author>
+      <name>Philip L. Bulterys</name>
+    </author>
+    <author>
+      <name>Eric Yang</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.05352v3</id>
+    <title>MoCo-CXR: MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models</title>
+    <updated>2021-05-17T20:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2010.05352v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.05352v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contrastive learning is a form of self-supervision that can leverage unlabeled data to produce pretrained models. While contrastive learning has demonstrated promising results on natural image classification tasks, its application to medical imaging tasks like chest X-ray interpretation has been limited. In this work, we propose MoCo-CXR, which is an adaptation of the contrastive learning method Momentum Contrast (MoCo), to produce models with better representations and initializations for the detection of pathologies in chest X-rays. In detecting pleural effusion, we find that linear models trained on MoCo-CXR-pretrained representations outperform those without MoCo-CXR-pretrained representations, indicating that MoCo-CXR-pretrained representations are of higher-quality. End-to-end fine-tuning experiments reveal that a model initialized via MoCo-CXR-pretraining outperforms its non-MoCo-CXR-pretrained counterpart. We find that MoCo-CXR-pretraining provides the most benefit with limited labeled training data. Finally, we demonstrate similar results on a target Tuberculosis dataset unseen during pretraining, indicating that MoCo-CXR-pretraining endows models with representations and transferability that can be applied across chest X-ray datasets and tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-11T21:42:10Z</published>
+    <arxiv:comment>Accepted at Medical Imaging with Deep Learning (MIDL) Conference 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hari Sowrirajan</name>
+    </author>
+    <author>
+      <name>Jingbo Yang</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.04715v2</id>
+    <title>Short-Term Solar Irradiance Forecasting Using Calibrated Probabilistic Models</title>
+    <updated>2020-10-14T16:03:02Z</updated>
+    <link href="https://arxiv.org/abs/2010.04715v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.04715v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advancing probabilistic solar forecasting methods is essential to supporting the integration of solar energy into the electricity grid. In this work, we develop a variety of state-of-the-art probabilistic models for forecasting solar irradiance. We investigate the use of post-hoc calibration techniques for ensuring well-calibrated probabilistic predictions. We train and evaluate the models using public data from seven stations in the SURFRAD network, and demonstrate that the best model, NGBoost, achieves higher performance at an intra-hourly resolution than the best benchmark solar irradiance forecasting model across all stations. Further, we show that NGBoost with CRUDE post-hoc calibration achieves comparable performance to a numerical weather prediction model on hourly-resolution forecasting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-09T17:57:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Eric Zelikman</name>
+    </author>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Cooper Raterink</name>
+    </author>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Jack Kelly</name>
+    </author>
+    <author>
+      <name>Ram Rajagopal</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>David Gagne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.08123v3</id>
+    <title>DLBCL-Morph: Morphological features computed using deep learning for an annotated digital DLBCL image set</title>
+    <updated>2020-09-24T11:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2009.08123v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.08123v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffuse Large B-Cell Lymphoma (DLBCL) is the most common non-Hodgkin lymphoma. Though histologically DLBCL shows varying morphologies, no morphologic features have been consistently demonstrated to correlate with prognosis. We present a morphologic analysis of histology sections from 209 DLBCL cases with associated clinical and cytogenetic data. Duplicate tissue core sections were arranged in tissue microarrays (TMAs), and replicate sections were stained with H&amp;E and immunohistochemical stains for CD10, BCL6, MUM1, BCL2, and MYC. The TMAs are accompanied by pathologist-annotated regions-of-interest (ROIs) that identify areas of tissue representative of DLBCL. We used a deep learning model to segment all tumor nuclei in the ROIs, and computed several geometric features for each segmented nucleus. We fit a Cox proportional hazards model to demonstrate the utility of these geometric features in predicting survival outcome, and found that it achieved a C-index (95% CI) of 0.635 (0.574,0.691). Our finding suggests that geometric features computed from tumor nuclei are of prognostic importance, and should be validated in prospective studies.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-17T07:43:42Z</published>
+    <arxiv:comment>Corrections to folder structure figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Damir Vrabac</name>
+    </author>
+    <author>
+      <name>Akshay Smit</name>
+    </author>
+    <author>
+      <name>Rebecca Rojansky</name>
+    </author>
+    <author>
+      <name>Yasodha Natkunam</name>
+    </author>
+    <author>
+      <name>Ranjana H. Advani</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Sebastian Fernandez-Pol</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.06199v2</id>
+    <title>CheXphoto: 10,000+ Photos and Transformations of Chest X-rays for Benchmarking Deep Learning Robustness</title>
+    <updated>2020-12-11T10:11:00Z</updated>
+    <link href="https://arxiv.org/abs/2007.06199v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.06199v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clinical deployment of deep learning algorithms for chest x-ray interpretation requires a solution that can integrate into the vast spectrum of clinical workflows across the world. An appealing approach to scaled deployment is to leverage the ubiquity of smartphones by capturing photos of x-rays to share with clinicians using messaging services like WhatsApp. However, the application of chest x-ray algorithms to photos of chest x-rays requires reliable classification in the presence of artifacts not typically encountered in digital x-rays used to train machine learning models. We introduce CheXphoto, a dataset of smartphone photos and synthetic photographic transformations of chest x-rays sampled from the CheXpert dataset. To generate CheXphoto we (1) automatically and manually captured photos of digital x-rays under different settings, and (2) generated synthetic transformations of digital x-rays targeted to make them look like photos of digital x-rays and x-ray films. We release this dataset as a resource for testing and improving the robustness of deep learning algorithms for automated chest x-ray interpretation on smartphone photos of chest x-rays.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-13T05:37:00Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Nick A. Phillips</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Mark Sabini</name>
+    </author>
+    <author>
+      <name>Rayan Krishnan</name>
+    </author>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Anuj Pareek</name>
+    </author>
+    <author>
+      <name>Nguyet Minh Phu</name>
+    </author>
+    <author>
+      <name>Chris Wang</name>
+    </author>
+    <author>
+      <name>Mudit Jain</name>
+    </author>
+    <author>
+      <name>Nguyen Duong Du</name>
+    </author>
+    <author>
+      <name>Steven QH Truong</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.03680v5</id>
+    <title>Evaluating the Disentanglement of Deep Generative Models through Manifold Topology</title>
+    <updated>2021-03-17T21:46:59Z</updated>
+    <link href="https://arxiv.org/abs/2006.03680v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.03680v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning disentangled representations is regarded as a fundamental task for improving the generalization, robustness, and interpretability of generative models. However, measuring disentanglement has been challenging and inconsistent, often dependent on an ad-hoc external model or specific to a certain dataset. To address this, we present a method for quantifying disentanglement that only uses the generative model, by measuring the topological similarity of conditional submanifolds in the learned representation. This method showcases both unsupervised and supervised variants. To illustrate the effectiveness and applicability of our method, we empirically evaluate several state-of-the-art models across multiple datasets. We find that our method ranks models similarly to existing methods. We make ourcode publicly available at https://github.com/stanfordmlgroup/disentanglement.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-05T20:54:11Z</published>
+    <arxiv:comment>Published at ICLR 2021</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Eric Zelikman</name>
+    </author>
+    <author>
+      <name>Fred Lu</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Gunnar Carlsson</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.03743v1</id>
+    <title>Effective Data Fusion with Generalized Vegetation Index: Evidence from Land Cover Segmentation in Agriculture</title>
+    <updated>2020-05-07T20:41:20Z</updated>
+    <link href="https://arxiv.org/abs/2005.03743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.03743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How can we effectively leverage the domain knowledge from remote sensing to better segment agriculture land cover from satellite images? In this paper, we propose a novel, model-agnostic, data-fusion approach for vegetation-related computer vision tasks. Motivated by the various Vegetation Indices (VIs), which are introduced by domain experts, we systematically reviewed the VIs that are widely used in remote sensing and their feasibility to be incorporated in deep neural networks. To fully leverage the Near-Infrared channel, the traditional Red-Green-Blue channels, and Vegetation Index or its variants, we propose a Generalized Vegetation Index (GVI), a lightweight module that can be easily plugged into many neural network architectures to serve as an additional information input. To smoothly train models with our GVI, we developed an Additive Group Normalization (AGN) module that does not require extra parameters of the prescribed neural networks. Our approach has improved the IoUs of vegetation-related classes by 0.9-1.3 percent and consistently improves the overall mIoU by 2 percent on our baseline.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-07T20:41:20Z</published>
+    <arxiv:comment>CVPR 2020 - Vision for Agriculture; https://www.agriculture-vision.com</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Xiao Chen</name>
+    </author>
+    <author>
+      <name>Jingyi Su</name>
+    </author>
+    <author>
+      <name>Ram Rajagopal</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.09754v2</id>
+    <title>The 1st Agriculture-Vision Challenge: Methods and Results</title>
+    <updated>2020-04-23T17:24:31Z</updated>
+    <link href="https://arxiv.org/abs/2004.09754v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.09754v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first Agriculture-Vision Challenge aims to encourage research in developing novel and effective algorithms for agricultural pattern recognition from aerial images, especially for the semantic segmentation task associated with our challenge dataset. Around 57 participating teams from various countries compete to achieve state-of-the-art in aerial agriculture semantic segmentation. The Agriculture-Vision Challenge Dataset was employed, which comprises of 21,061 aerial and multi-spectral farmland images. This paper provides a summary of notable methods and results in the challenge. Our submission server and leaderboard will continue to open for researchers that are interested in this challenge dataset and task; the link can be found here.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-21T05:02:31Z</published>
+    <arxiv:comment>CVPR 2020 Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mang Tik Chiu</name>
+    </author>
+    <author>
+      <name>Xingqian Xu</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Jennifer Hobbs</name>
+    </author>
+    <author>
+      <name>Naira Hovakimyan</name>
+    </author>
+    <author>
+      <name>Thomas S. Huang</name>
+    </author>
+    <author>
+      <name>Honghui Shi</name>
+    </author>
+    <author>
+      <name>Yunchao Wei</name>
+    </author>
+    <author>
+      <name>Zilong Huang</name>
+    </author>
+    <author>
+      <name>Alexander Schwing</name>
+    </author>
+    <author>
+      <name>Robert Brunner</name>
+    </author>
+    <author>
+      <name>Ivan Dozier</name>
+    </author>
+    <author>
+      <name>Wyatt Dozier</name>
+    </author>
+    <author>
+      <name>Karen Ghandilyan</name>
+    </author>
+    <author>
+      <name>David Wilson</name>
+    </author>
+    <author>
+      <name>Hyunseong Park</name>
+    </author>
+    <author>
+      <name>Junhee Kim</name>
+    </author>
+    <author>
+      <name>Sungho Kim</name>
+    </author>
+    <author>
+      <name>Qinghui Liu</name>
+    </author>
+    <author>
+      <name>Michael C. Kampffmeyer</name>
+    </author>
+    <author>
+      <name>Robert Jenssen</name>
+    </author>
+    <author>
+      <name>Arnt B. Salberg</name>
+    </author>
+    <author>
+      <name>Alexandre Barbosa</name>
+    </author>
+    <author>
+      <name>Rodrigo Trevisan</name>
+    </author>
+    <author>
+      <name>Bingchen Zhao</name>
+    </author>
+    <author>
+      <name>Shaozuo Yu</name>
+    </author>
+    <author>
+      <name>Siwei Yang</name>
+    </author>
+    <author>
+      <name>Yin Wang</name>
+    </author>
+    <author>
+      <name>Hao Sheng</name>
+    </author>
+    <author>
+      <name>Xiao Chen</name>
+    </author>
+    <author>
+      <name>Jingyi Su</name>
+    </author>
+    <author>
+      <name>Ram Rajagopal</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Van Thong Huynh</name>
+    </author>
+    <author>
+      <name>Soo-Hyung Kim</name>
+    </author>
+    <author>
+      <name>In-Seop Na</name>
+    </author>
+    <author>
+      <name>Ujjwal Baid</name>
+    </author>
+    <author>
+      <name>Shubham Innani</name>
+    </author>
+    <author>
+      <name>Prasad Dutande</name>
+    </author>
+    <author>
+      <name>Bhakti Baheti</name>
+    </author>
+    <author>
+      <name>Sanjay Talbar</name>
+    </author>
+    <author>
+      <name>Jianyu Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.09167v3</id>
+    <title>CheXbert: Combining Automatic Labelers and Expert Annotations for Accurate Radiology Report Labeling Using BERT</title>
+    <updated>2020-10-18T20:30:22Z</updated>
+    <link href="https://arxiv.org/abs/2004.09167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.09167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The extraction of labels from radiology text reports enables large-scale training of medical imaging models. Existing approaches to report labeling typically rely either on sophisticated feature engineering based on medical domain knowledge or manual annotations by experts. In this work, we introduce a BERT-based approach to medical image report labeling that exploits both the scale of available rule-based systems and the quality of expert annotations. We demonstrate superior performance of a biomedically pretrained BERT model first trained on annotations of a rule-based labeler and then finetuned on a small set of expert annotations augmented with automated backtranslation. We find that our final model, CheXbert, is able to outperform the previous best rules-based labeler with statistical significance, setting a new SOTA for report labeling on one of the largest datasets of chest x-rays.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-20T09:46:40Z</published>
+    <arxiv:comment>Accepted to EMNLP 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Akshay Smit</name>
+    </author>
+    <author>
+      <name>Saahil Jain</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Anuj Pareek</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.11379v2</id>
+    <title>CheXpedition: Investigating Generalization Challenges for Translation of Chest X-Ray Algorithms to the Clinical Setting</title>
+    <updated>2020-03-11T07:15:57Z</updated>
+    <link href="https://arxiv.org/abs/2002.11379v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.11379v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although there have been several recent advances in the application of deep learning algorithms to chest x-ray interpretation, we identify three major challenges for the translation of chest x-ray algorithms to the clinical setting. We examine the performance of the top 10 performing models on the CheXpert challenge leaderboard on three tasks: (1) TB detection, (2) pathology detection on photos of chest x-rays, and (3) pathology detection on data from an external institution. First, we find that the top 10 chest x-ray models on the CheXpert competition achieve an average AUC of 0.851 on the task of detecting TB on two public TB datasets without fine-tuning or including the TB labels in training data. Second, we find that the average performance of the models on photos of x-rays (AUC = 0.916) is similar to their performance on the original chest x-ray images (AUC = 0.924). Third, we find that the models tested on an external dataset either perform comparably to or exceed the average performance of radiologists. We believe that our investigation will inform rapid translation of deep learning algorithms to safe and effective clinical decision support tools that can be validated prospectively with large impact studies and clinical trials.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-26T09:44:21Z</published>
+    <arxiv:comment>Accepted as workshop paper at ACM Conference on Health, Inference, and Learning (CHIL) 2020</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Anirudh Joshi</name>
+    </author>
+    <author>
+      <name>Anuj Pareek</name>
+    </author>
+    <author>
+      <name>Phil Chen</name>
+    </author>
+    <author>
+      <name>Amirhossein Kiani</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,1481 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rOTUyfZJkusgnr2S8ePp8b/mCFQ</id>
+  <title>arXiv Query: search_query=au:"Ruslan Salakhutdinov"&amp;id_list=&amp;start=100&amp;max_results=50</title>
+  <updated>2026-02-07T20:18:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ruslan+Salakhutdinov%22&amp;start=100&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>259</opensearch:totalResults>
+  <opensearch:startIndex>100</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.11275v3</id>
+    <title>Self-supervised Representation Learning with Relative Predictive Coding</title>
+    <updated>2021-04-12T19:14:34Z</updated>
+    <link href="https://arxiv.org/abs/2103.11275v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.11275v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces Relative Predictive Coding (RPC), a new contrastive representation learning objective that maintains a good balance among training stability, minibatch size sensitivity, and downstream task performance. The key to the success of RPC is two-fold. First, RPC introduces the relative parameters to regularize the objective for boundedness and low variance. Second, RPC contains no logarithm and exponential score functions, which are the main cause of training instability in prior contrastive objectives. We empirically verify the effectiveness of RPC on benchmark vision and speech self-supervised learning tasks. Lastly, we relate RPC with mutual information (MI) estimation, showing RPC can be used to estimate MI with low variance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-21T01:04:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Martin Q. Ma</name>
+    </author>
+    <author>
+      <name>Muqiao Yang</name>
+    </author>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.04947v1</id>
+    <title>Instabilities of Offline RL with Pre-Trained Neural Representation</title>
+    <updated>2021-03-08T18:06:44Z</updated>
+    <link href="https://arxiv.org/abs/2103.04947v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.04947v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In offline reinforcement learning (RL), we seek to utilize offline data to evaluate (or learn) policies in scenarios where the data are collected from a distribution that substantially differs from that of the target policy to be evaluated. Recent theoretical advances have shown that such sample-efficient offline RL is indeed possible provided certain strong representational conditions hold, else there are lower bounds exhibiting exponential error amplification (in the problem horizon) unless the data collection distribution has only a mild distribution shift relative to the target policy. This work studies these issues from an empirical perspective to gauge how stable offline RL methods are. In particular, our methodology explores these ideas when using features from pre-trained neural networks, in the hope that these representations are powerful enough to permit sample efficient offline RL. Through extensive experiments on a range of tasks, we see that substantial error amplification does occur even when using such pre-trained representations (trained on the same task itself); we find offline RL is stable only under extremely mild distribution shift. The implications of these results, both from a theoretical and an empirical perspective, are that successful offline RL (where we seek to go beyond the low distribution shift regime) requires substantially stronger conditions beyond those which suffice for successful supervised learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-08T18:06:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Yifan Wu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sham M. Kakade</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10264v2</id>
+    <title>On Proximal Policy Optimization's Heavy-tailed Gradients</title>
+    <updated>2021-07-13T03:07:45Z</updated>
+    <link href="https://arxiv.org/abs/2102.10264v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10264v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern policy gradient algorithms such as Proximal Policy Optimization (PPO) rely on an arsenal of heuristics, including loss clipping and gradient clipping, to ensure successful learning. These heuristics are reminiscent of techniques from robust statistics, commonly used for estimation in outlier-rich (``heavy-tailed'') regimes. In this paper, we present a detailed empirical study to characterize the heavy-tailed nature of the gradients of the PPO surrogate reward function. We demonstrate that the gradients, especially for the actor network, exhibit pronounced heavy-tailedness and that it increases as the agent's policy diverges from the behavioral policy (i.e., as the agent goes further off policy). Further examination implicates the likelihood ratios and advantages in the surrogate reward as the main sources of the observed heavy-tailedness. We then highlight issues arising due to the heavy-tailed nature of the gradients. In this light, we study the effects of the standard PPO clipping heuristics, demonstrating that these tricks primarily serve to offset heavy-tailedness in gradients. Thus motivated, we propose incorporating GMOM, a high-dimensional robust estimator, into PPO as a substitute for three clipping tricks. Despite requiring less hyperparameter tuning, our method matches the performance of PPO (with all heuristics enabled) on a battery of MuJoCo continuous control tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-20T05:51:28Z</published>
+    <arxiv:comment>ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Saurabh Garg</name>
+    </author>
+    <author>
+      <name>Joshua Zhanson</name>
+    </author>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Adarsh Prasad</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+    <author>
+      <name>Zachary C. Lipton</name>
+    </author>
+    <author>
+      <name>Sivaraman Balakrishnan</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Pradeep Ravikumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.07043v2</id>
+    <title>Reasoning Over Virtual Knowledge Bases With Open Predicate Relations</title>
+    <updated>2021-06-14T19:34:42Z</updated>
+    <link href="https://arxiv.org/abs/2102.07043v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.07043v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the Open Predicate Query Language (OPQL); a method for constructing a virtual KB (VKB) trained entirely from text. Large Knowledge Bases (KBs) are indispensable for a wide-range of industry applications such as question answering and recommendation. Typically, KBs encode world knowledge in a structured, readily accessible form derived from laborious human annotation efforts. Unfortunately, while they are extremely high precision, KBs are inevitably highly incomplete and automated methods for enriching them are far too inaccurate. Instead, OPQL constructs a VKB by encoding and indexing a set of relation mentions in a way that naturally enables reasoning and can be trained without any structured supervision. We demonstrate that OPQL outperforms prior VKB methods on two different KB reasoning tasks and, additionally, can be used as an external memory integrated into a language model (OPQL-LM) leading to improvements on two open-domain question answering tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-14T01:29:54Z</published>
+    <arxiv:comment>Accepted at the 38th International Conference on Machine Learning, PMLR 139, 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haitian Sun</name>
+    </author>
+    <author>
+      <name>Pat Verga</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.11071v1</id>
+    <title>The MineRL 2020 Competition on Sample Efficient Reinforcement Learning using Human Priors</title>
+    <updated>2021-01-26T20:32:30Z</updated>
+    <link href="https://arxiv.org/abs/2101.11071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.11071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although deep reinforcement learning has led to breakthroughs in many difficult domains, these successes have required an ever-increasing number of samples, affording only a shrinking segment of the AI community access to their development. Resolution of these limitations requires new, sample-efficient methods. To facilitate research in this direction, we propose this second iteration of the MineRL Competition. The primary goal of the competition is to foster the development of algorithms which can efficiently leverage human demonstrations to drastically reduce the number of samples needed to solve complex, hierarchical, and sparse environments. To that end, participants compete under a limited environment sample-complexity budget to develop systems which solve the MineRL ObtainDiamond task in Minecraft, a sequential decision making environment requiring long-term planning, hierarchical control, and efficient exploration methods. The competition is structured into two rounds in which competitors are provided several paired versions of the dataset and environment with different game textures and shaders. At the end of each round, competitors submit containerized versions of their learning algorithms to the AIcrowd platform where they are trained from scratch on a hold-out dataset-environment pair for a total of 4-days on a pre-specified hardware platform. In this follow-up iteration to the NeurIPS 2019 MineRL Competition, we implement new features to expand the scale and reach of the competition. In response to the feedback of the previous participants, we introduce a second minor track focusing on solutions without access to environment interactions of any kind except during test-time. Further we aim to prompt domain agnostic submissions by implementing several novel competition mechanics including action-space randomization and desemantization of observations and actions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-26T20:32:30Z</published>
+    <arxiv:comment>37 pages, initial submission, accepted at NeurIPS. arXiv admin note: substantial text overlap with arXiv:1904.10079</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William H. Guss</name>
+    </author>
+    <author>
+      <name>Mario Ynocente Castro</name>
+    </author>
+    <author>
+      <name>Sam Devlin</name>
+    </author>
+    <author>
+      <name>Brandon Houghton</name>
+    </author>
+    <author>
+      <name>Noboru Sean Kuno</name>
+    </author>
+    <author>
+      <name>Crissman Loomis</name>
+    </author>
+    <author>
+      <name>Stephanie Milani</name>
+    </author>
+    <author>
+      <name>Sharada Mohanty</name>
+    </author>
+    <author>
+      <name>Keisuke Nakata</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Shinya Shiroshita</name>
+    </author>
+    <author>
+      <name>Nicholay Topin</name>
+    </author>
+    <author>
+      <name>Avinash Ummadisingu</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.08919v2</id>
+    <title>Understanding the Tradeoffs in Client-side Privacy for Downstream Speech Tasks</title>
+    <updated>2021-10-22T22:15:42Z</updated>
+    <link href="https://arxiv.org/abs/2101.08919v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.08919v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As users increasingly rely on cloud-based computing services, it is important to ensure that uploaded speech data remains private. Existing solutions rely either on server-side methods or focus on hiding speaker identity. While these approaches reduce certain security concerns, they do not give users client-side control over whether their biometric information is sent to the server. In this paper, we formally define client-side privacy and discuss its three unique technical challenges: (1) direct manipulation of raw data on client devices, (2) adaptability with a broad range of server-side processing models, and (3) low time and space complexity for compatibility with limited-bandwidth devices. Solving these challenges requires new models that achieve high-fidelity reconstruction, privacy preservation of sensitive personal attributes, and efficiency during training and inference. As a step towards client-side privacy for speech recognition, we investigate three techniques spanning signal processing, disentangled representation learning, and adversarial training. Through a series of gender and accent masking tasks, we observe that each method has its unique strengths, but none manage to effectively balance the trade-offs between performance, privacy, and complexity. These insights call for more research in client-side privacy to ensure a safer deployment of cloud-based speech processing services.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-22T02:05:19Z</published>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Peter Wu</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Jiatong Shi</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Shinji Watanabe</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.02813v1</id>
+    <title>Cross-Modal Generalization: Learning in Low Resource Modalities via Meta-Alignment</title>
+    <updated>2020-12-04T19:27:26Z</updated>
+    <link href="https://arxiv.org/abs/2012.02813v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.02813v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The natural world is abundant with concepts expressed via visual, acoustic, tactile, and linguistic modalities. Much of the existing progress in multimodal learning, however, focuses primarily on problems where the same set of modalities are present at train and test time, which makes learning in low-resource modalities particularly difficult. In this work, we propose algorithms for cross-modal generalization: a learning paradigm to train a model that can (1) quickly perform new tasks in a target modality (i.e. meta-learning) and (2) doing so while being trained on a different source modality. We study a key research question: how can we ensure generalization across modalities despite using separate encoders for different source and target modalities? Our solution is based on meta-alignment, a novel method to align representation spaces using strongly and weakly paired cross-modal data while ensuring quick generalization to new tasks across different modalities. We study this problem on 3 classification tasks: text to image, image to audio, and text to speech. Our results demonstrate strong performance even when the new target modality has only a few (1-10) labeled samples and in the presence of noisy labels, a scenario particularly prevalent in low-resource modalities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-04T19:27:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Peter Wu</name>
+    </author>
+    <author>
+      <name>Liu Ziyin</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08909v2</id>
+    <title>C-Learning: Learning to Achieve Goals via Recursive Classification</title>
+    <updated>2021-04-19T18:33:47Z</updated>
+    <link href="https://arxiv.org/abs/2011.08909v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08909v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of predicting and controlling the future state distribution of an autonomous agent. This problem, which can be viewed as a reframing of goal-conditioned reinforcement learning (RL), is centered around learning a conditional probability density function over future states. Instead of directly estimating this density function, we indirectly estimate this density function by training a classifier to predict whether an observation comes from the future. Via Bayes' rule, predictions from our classifier can be transformed into predictions over future states. Importantly, an off-policy variant of our algorithm allows us to predict the future state distribution of a new policy, without collecting new experience. This variant allows us to optimize functionals of a policy's future state distribution, such as the density of reaching a particular goal state. While conceptually similar to Q-learning, our work lays a principled foundation for goal-conditioned RL as density estimation, providing justification for goal-conditioned methods used in prior work. This foundation makes hypotheses about Q-learning, including the optimal goal-sampling ratio, which we confirm experimentally. Moreover, our proposed method is competitive with prior goal-conditioned RL methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T19:58:56Z</published>
+    <arxiv:comment>Accepted at ICLR 2021. Project website with videos (https://ben-eysenbach.github.io/c_learning/) and code (https://github.com/google-research/google-research/tree/master/c_learning) are online</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08485v5</id>
+    <title>Probing Predictions on OOD Images via Nearest Categories</title>
+    <updated>2023-03-08T17:37:32Z</updated>
+    <link href="https://arxiv.org/abs/2011.08485v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08485v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study out-of-distribution (OOD) prediction behavior of neural networks when they classify images from unseen classes or corrupted images. To probe the OOD behavior, we introduce a new measure, nearest category generalization (NCG), where we compute the fraction of OOD inputs that are classified with the same label as their nearest neighbor in the training set. Our motivation stems from understanding the prediction patterns of adversarially robust networks, since previous work has identified unexpected consequences of training to be robust to norm-bounded perturbations. We find that robust networks have consistently higher NCG accuracy than natural training, even when the OOD data is much farther away than the robustness radius. This implies that the local regularization of robust training has a significant impact on the network's decision regions. We replicate our findings using many datasets, comparing new and existing training methods. Overall, adversarially robust networks resemble a nearest neighbor classifier when it comes to OOD data. Code available at https://github.com/yangarbiter/nearest-category-generalization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T07:42:27Z</published>
+    <arxiv:comment>Accepted by Transactions on Machine Learning Research</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Yuan Yang</name>
+    </author>
+    <author>
+      <name>Cyrus Rashtchian</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Kamalika Chaudhuri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.14543v2</id>
+    <title>Unsupervised Domain Adaptation for Visual Navigation</title>
+    <updated>2020-11-12T17:41:51Z</updated>
+    <link href="https://arxiv.org/abs/2010.14543v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.14543v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in visual navigation methods have led to intelligent embodied navigation agents capable of learning meaningful representations from raw RGB images and perform a wide variety of tasks involving structural and semantic reasoning. However, most learning-based navigation policies are trained and tested in simulation environments. In order for these policies to be practically useful, they need to be transferred to the real-world. In this paper, we propose an unsupervised domain adaptation method for visual navigation. Our method translates the images in the target domain to the source domain such that the translation is consistent with the representations learned by the navigation policy. The proposed method outperforms several baselines across two different navigation tasks in simulation. We further show that our method can be used to transfer the navigation policies learned in simulation to the real world.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-27T18:22:43Z</published>
+    <arxiv:comment>Deep Reinforcement Learning Workshop at NeurIPS 2020. Camera Ready Version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shangda Li</name>
+    </author>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.11863v1</id>
+    <title>Planning with Submodular Objective Functions</title>
+    <updated>2020-10-22T16:55:12Z</updated>
+    <link href="https://arxiv.org/abs/2010.11863v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.11863v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study planning with submodular objective functions, where instead of maximizing the cumulative reward, the goal is to maximize the objective value induced by a submodular function. Our framework subsumes standard planning and submodular maximization with cardinality constraints as special cases, and thus many practical applications can be naturally formulated within our framework. Based on the notion of multilinear extension, we propose a novel and theoretically principled algorithmic framework for planning with submodular objective functions, which recovers classical algorithms when applied to the two special cases mentioned above. Empirically, our approach significantly outperforms baseline algorithms on synthetic environments and navigation tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-22T16:55:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Hanrui Zhang</name>
+    </author>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Denis Garagić</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.04658v2</id>
+    <title>Case Study: Deontological Ethics in NLP</title>
+    <updated>2021-04-12T19:14:43Z</updated>
+    <link href="https://arxiv.org/abs/2010.04658v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.04658v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable content like hate speech, stereotypes and offensive language; and building frameworks for better system design and data handling practices. However, there has been little discussion about the ethical foundations that underlie these efforts. In this work, we study one ethical theory, namely deontological ethics, from the perspective of NLP. In particular, we focus on the generalization principle and the respect for autonomy through informed consent. We provide four case studies to demonstrate how these principles can be used with NLP systems. We also recommend directions to avoid the ethical issues in these systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-09T16:04:51Z</published>
+    <arxiv:comment>Accepted at North American Chapter of the Association for Computational Linguistics (NAACL) 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Brendon Boldt</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.13504v5</id>
+    <title>Information Obfuscation of Graph Neural Networks</title>
+    <updated>2021-06-13T05:35:04Z</updated>
+    <link href="https://arxiv.org/abs/2009.13504v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.13504v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While the advent of Graph Neural Networks (GNNs) has greatly improved node and graph representation learning in many applications, the neighborhood aggregation scheme exposes additional vulnerabilities to adversaries seeking to extract node-level information about sensitive attributes. In this paper, we study the problem of protecting sensitive attributes by information obfuscation when learning with graph structured data. We propose a framework to locally filter out pre-determined sensitive attributes via adversarial training with the total variation and the Wasserstein distance. Our method creates a strong defense against inference attacks, while only suffering small loss in task performance. Theoretically, we analyze the effectiveness of our framework against a worst-case adversary, and characterize an inherent trade-off between maximizing predictive accuracy and minimizing information leakage. Experiments across multiple datasets from recommender systems, knowledge graphs and quantum chemistry demonstrate that the proposed approach provides a robust defense across various graph structures and tasks, while producing competitive GNN encoders for downstream tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-28T17:55:04Z</published>
+    <arxiv:comment>ICML 2021; Code is available at https://github.com/liaopeiyuan/GAL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Peiyuan Liao</name>
+    </author>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Keyulu Xu</name>
+    </author>
+    <author>
+      <name>Tommi Jaakkola</name>
+    </author>
+    <author>
+      <name>Geoffrey Gordon</name>
+    </author>
+    <author>
+      <name>Stefanie Jegelka</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.04007v1</id>
+    <title>Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function</title>
+    <updated>2020-09-08T21:55:22Z</updated>
+    <link href="https://arxiv.org/abs/2009.04007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.04007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study bidirectional LSTM network for the task of text classification using both supervised and semi-supervised approaches. Several prior works have suggested that either complex pretraining schemes using unsupervised methods such as language modeling (Dai and Le 2015; Miyato, Dai, and Goodfellow 2016) or complicated models (Johnson and Zhang 2017) are necessary to achieve a high classification accuracy. However, we develop a training strategy that allows even a simple BiLSTM model, when trained with cross-entropy loss, to achieve competitive results compared with more complex approaches. Furthermore, in addition to cross-entropy loss, by using a combination of entropy minimization, adversarial, and virtual adversarial losses for both labeled and unlabeled data, we report state-of-the-art results for text classification task on several benchmark datasets. In particular, on the ACL-IMDB sentiment analysis and AG-News topic classification datasets, our method outperforms current approaches by a substantial margin. We also show the generality of the mixed objective function by improving the performance on relation extraction task.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-08T21:55:22Z</published>
+    <arxiv:comment>Published at AAAI 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Devendra Singh Sachan</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <arxiv:doi>10.1609/aaai.v33i01.33016940</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1609/aaai.v33i01.33016940" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.09892v1</id>
+    <title>Few-Shot Learning with Intra-Class Knowledge Transfer</title>
+    <updated>2020-08-22T18:15:38Z</updated>
+    <link href="https://arxiv.org/abs/2008.09892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.09892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the few-shot classification task with an unbalanced dataset, in which some classes have sufficient training samples while other classes only have limited training samples. Recent works have proposed to solve this task by augmenting the training data of the few-shot classes using generative models with the few-shot training samples as the seeds. However, due to the limited number of the few-shot seeds, the generated samples usually have small diversity, making it difficult to train a discriminative classifier for the few-shot classes. To enrich the diversity of the generated samples, we propose to leverage the intra-class knowledge from the neighbor many-shot classes with the intuition that neighbor classes share similar statistical information. Such intra-class information is obtained with a two-step mechanism. First, a regressor trained only on the many-shot classes is used to evaluate the few-shot class means from only a few samples. Second, superclasses are clustered, and the statistical mean and feature variance of each superclass are used as transferable knowledge inherited by the children few-shot classes. Such knowledge is then used by a generator to augment the sparse training data to help the downstream classification tasks. Extensive experiments show that our method achieves state-of-the-art across different datasets and $n$-shot settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-22T18:15:38Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Vivek Roy</name>
+    </author>
+    <author>
+      <name>Yan Xu</name>
+    </author>
+    <author>
+      <name>Yu-Xiong Wang</name>
+    </author>
+    <author>
+      <name>Kris Kitani</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Martial Hebert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.08100v1</id>
+    <title>Towards Debiasing Sentence Representations</title>
+    <updated>2020-07-16T04:22:30Z</updated>
+    <link href="https://arxiv.org/abs/2007.08100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.08100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As natural language processing methods are increasingly deployed in real-world scenarios such as healthcare, legal systems, and social science, it becomes necessary to recognize the role they potentially play in shaping social biases and stereotypes. Previous work has revealed the presence of social biases in widely used word embeddings involving gender, race, religion, and other social constructs. While some methods were proposed to debias these word-level embeddings, there is a need to perform debiasing at the sentence-level given the recent shift towards new contextualized sentence representations such as ELMo and BERT. In this paper, we investigate the presence of social biases in sentence-level representations and propose a new method, Sent-Debias, to reduce these biases. We show that Sent-Debias is effective in removing biases, and at the same time, preserves performance on sentence-level downstream tasks such as sentiment analysis, linguistic acceptability, and natural language understanding. We hope that our work will inspire future research on characterizing and removing social biases from widely adopted sentence representations for fairer NLP.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-16T04:22:30Z</published>
+    <arxiv:comment>ACL 2020, code available at https://github.com/pliang279/sent_debias</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Irene Mengze Li</name>
+    </author>
+    <author>
+      <name>Emily Zheng</name>
+    </author>
+    <author>
+      <name>Yao Chong Lim</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.00643v2</id>
+    <title>Object Goal Navigation using Goal-Oriented Semantic Exploration</title>
+    <updated>2020-07-02T01:38:41Z</updated>
+    <link href="https://arxiv.org/abs/2007.00643v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.00643v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work studies the problem of object goal navigation which involves navigating to an instance of the given object category in unseen environments. End-to-end learning-based navigation methods struggle at this task as they are ineffective at exploration and long-term planning. We propose a modular system called, `Goal-Oriented Semantic Exploration' which builds an episodic semantic map and uses it to explore the environment efficiently based on the goal object category. Empirical results in visually realistic simulation environments show that the proposed model outperforms a wide range of baselines including end-to-end learning-based methods as well as modular map-based methods and led to the winning entry of the CVPR-2020 Habitat ObjectNav Challenge. Ablation analysis indicates that the proposed model learns semantic priors of the relative arrangement of objects in a scene, and uses them to explore efficiently. Domain-agnostic module design allow us to transfer our model to a mobile robot platform and achieve similar performance for object goal navigation in the real-world.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-01T17:52:32Z</published>
+    <arxiv:comment>Winner of the CVPR 2020 AI-Habitat Object Goal Navigation Challenge. See the project webpage at https://devendrachaplot.github.io/projects/semantic-exploration.html</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Dhiraj Gandhi</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13916v2</id>
+    <title>Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers</title>
+    <updated>2021-04-14T23:38:31Z</updated>
+    <link href="https://arxiv.org/abs/2006.13916v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13916v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a simple, practical, and intuitive approach for domain adaptation in reinforcement learning. Our approach stems from the idea that the agent's experience in the source domain should look similar to its experience in the target domain. Building off of a probabilistic view of RL, we formally show that we can achieve this goal by compensating for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. Our approach is applicable to domains with continuous states and actions and does not require learning an explicit model of the dynamics. On discrete and continuous control tasks, we illustrate the mechanics of our approach and demonstrate its scalability to high-dimensional tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-24T17:47:37Z</published>
+    <arxiv:comment>Published at ICLR 2021. Code (https://github.com/google-research/google-research/tree/master/darc) and blog post (https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Swapnil Asawa</name>
+    </author>
+    <author>
+      <name>Shreyas Chaudhari</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11274v1</id>
+    <title>On Reward-Free Reinforcement Learning with Linear Function Approximation</title>
+    <updated>2020-06-19T17:59:36Z</updated>
+    <link href="https://arxiv.org/abs/2006.11274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward-free reinforcement learning (RL) is a framework which is suitable for both the batch RL setting and the setting where there are many reward functions of interest. During the exploration phase, an agent collects samples without using a pre-specified reward function. After the exploration phase, a reward function is given, and the agent uses samples collected during the exploration phase to compute a near-optimal policy. Jin et al. [2020] showed that in the tabular setting, the agent only needs to collect polynomial number of samples (in terms of the number states, the number of actions, and the planning horizon) for reward-free RL. However, in practice, the number of states and actions can be large, and thus function approximation schemes are required for generalization. In this work, we give both positive and negative results for reward-free RL with linear function approximation. We give an algorithm for reward-free RL in the linear Markov decision process setting where both the transition and the reward admit linear representations. The sample complexity of our algorithm is polynomial in the feature dimension and the planning horizon, and is completely independent of the number of states and actions. We further give an exponential lower bound for reward-free RL in the setting where only the optimal $Q$-function admits a linear representation. Our results imply several interesting exponential separations on the sample complexity of reward-free RL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-19T17:59:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Lin F. Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.05576v4</id>
+    <title>Self-supervised Learning from a Multi-view Perspective</title>
+    <updated>2021-03-22T20:40:22Z</updated>
+    <link href="https://arxiv.org/abs/2006.05576v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.05576v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As a subset of unsupervised representation learning, self-supervised representation learning adopts self-defined signals as supervision and uses the learned representation for downstream tasks, such as object detection and image captioning. Many proposed approaches for self-supervised learning follow naturally a multi-view perspective, where the input (e.g., original images) and the self-supervised signals (e.g., augmented images) can be seen as two redundant views of the data. Building from this multi-view perspective, this paper provides an information-theoretical framework to better understand the properties that encourage successful self-supervised learning. Specifically, we demonstrate that self-supervised learned representations can extract task-relevant information and discard task-irrelevant information. Our theoretical framework paves the way to a larger space of self-supervised learning objective design. In particular, we propose a composite objective that bridges the gap between prior contrastive and predictive learning objectives, and introduce an additional objective term to discard task-irrelevant information. To verify our analysis, we conduct controlled experiments to evaluate the impact of the composite objectives. We also explore our framework's empirical generalization beyond the multi-view perspective, where the cross-view redundancy may not be clearly observed.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-10T00:21:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.05553v4</id>
+    <title>Neural Methods for Point-wise Dependency Estimation</title>
+    <updated>2020-10-15T03:55:10Z</updated>
+    <link href="https://arxiv.org/abs/2006.05553v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.05553v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since its inception, the neural estimation of mutual information (MI) has demonstrated the empirical success of modeling expected dependency between high-dimensional random variables. However, MI is an aggregate statistic and cannot be used to measure point-wise dependency between different events. In this work, instead of estimating the expected dependency, we focus on estimating point-wise dependency (PD), which quantitatively measures how likely two outcomes co-occur. We show that we can naturally obtain PD when we are optimizing MI neural variational bounds. However, optimizing these bounds is challenging due to its large variance in practice. To address this issue, we develop two methods (free of optimizing MI variational bounds): Probabilistic Classifier and Density-Ratio Fitting. We demonstrate the effectiveness of our approaches in 1) MI estimation, 2) self-supervised representation learning, and 3) cross-modal retrieval task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-09T23:26:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.12256v2</id>
+    <title>Neural Topological SLAM for Visual Navigation</title>
+    <updated>2020-05-28T22:56:12Z</updated>
+    <link href="https://arxiv.org/abs/2005.12256v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.12256v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the problem of image-goal navigation which involves navigating to the location indicated by a goal image in a novel previously unseen environment. To tackle this problem, we design topological representations for space that effectively leverage semantics and afford approximate geometric reasoning. At the heart of our representations are nodes with associated semantic features, that are interconnected using coarse geometric information. We describe supervised learning-based algorithms that can build, maintain and use such representations under noisy actuation. Experimental study in visually and physically realistic simulation suggests that our method builds effective representations that capture structural regularities and efficiently solve long-horizon navigation problems. We observe a relative improvement of more than 50% over existing methods that study this task.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-25T17:56:29Z</published>
+    <arxiv:comment>Published in CVPR 2020. See the project webpage at https://devendrachaplot.github.io/projects/Neural-Topological-SLAM</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Saurabh Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.12123v4</id>
+    <title>Feature Robust Optimal Transport for High-dimensional Data</title>
+    <updated>2020-09-29T05:38:13Z</updated>
+    <link href="https://arxiv.org/abs/2005.12123v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.12123v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimal transport is a machine learning problem with applications including distribution comparison, feature selection, and generative adversarial networks. In this paper, we propose feature-robust optimal transport (FROT) for high-dimensional data, which solves high-dimensional OT problems using feature selection to avoid the curse of dimensionality. Specifically, we find a transport plan with discriminative features. To this end, we formulate the FROT problem as a min--max optimization problem. We then propose a convex formulation of the FROT problem and solve it using a Frank--Wolfe-based optimization algorithm, whereby the subproblem can be efficiently solved using the Sinkhorn algorithm. Since FROT finds the transport plan from selected features, it is robust to noise features. To show the effectiveness of FROT, we propose using the FROT algorithm for the layer selection problem in deep neural networks for semantic correspondence. By conducting synthetic and benchmark experiments, we demonstrate that the proposed method can find a strong correspondence by determining important layers. We show that the FROT algorithm achieves state-of-the-art performance in real-world semantic correspondence datasets.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-25T14:07:16Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Mathis Petrovich</name>
+    </author>
+    <author>
+      <name>Chao Liang</name>
+    </author>
+    <author>
+      <name>Ryoma Sato</name>
+    </author>
+    <author>
+      <name>Yanbin Liu</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Linchao Zhu</name>
+    </author>
+    <author>
+      <name>Yi Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.10804v3</id>
+    <title>Reinforcement Learning with General Value Function Approximation: Provably Efficient Approach via Bounded Eluder Dimension</title>
+    <updated>2020-06-19T17:49:05Z</updated>
+    <link href="https://arxiv.org/abs/2005.10804v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.10804v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Value function approximation has demonstrated phenomenal empirical success in reinforcement learning (RL). Nevertheless, despite a handful of recent progress on developing theory for RL with linear function approximation, the understanding of general function approximation schemes largely remains missing. In this paper, we establish a provably efficient RL algorithm with general value function approximation. We show that if the value functions admit an approximation with a function class $\mathcal{F}$, our algorithm achieves a regret bound of $\widetilde{O}(\mathrm{poly}(dH)\sqrt{T})$ where $d$ is a complexity measure of $\mathcal{F}$ that depends on the eluder dimension [Russo and Van Roy, 2013] and log-covering numbers, $H$ is the planning horizon, and $T$ is the number interactions with the environment. Our theory generalizes recent progress on RL with linear value function approximation and does not make explicit assumptions on the model of the environment. Moreover, our algorithm is model-free and provides a framework to justify the effectiveness of algorithms used in practice.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-21T17:36:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Lin F. Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.06041v1</id>
+    <title>Guaranteeing Reproducibility in Deep Learning Competitions</title>
+    <updated>2020-05-12T20:43:05Z</updated>
+    <link href="https://arxiv.org/abs/2005.06041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.06041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To encourage the development of methods with reproducible and robust training behavior, we propose a challenge paradigm where competitors are evaluated directly on the performance of their learning procedures rather than pre-trained agents. Since competition organizers re-train proposed methods in a controlled setting they can guarantee reproducibility, and -- by retraining submissions using a held-out test set -- help ensure generalization past the environments on which they were trained.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-12T20:43:05Z</published>
+    <arxiv:comment>Accepted as a poster presentation to the 2019 NeruIPS Challenges in Machine Learning workshop (CiML)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Brandon Houghton</name>
+    </author>
+    <author>
+      <name>Stephanie Milani</name>
+    </author>
+    <author>
+      <name>Nicholay Topin</name>
+    </author>
+    <author>
+      <name>William Guss</name>
+    </author>
+    <author>
+      <name>Katja Hofmann</name>
+    </author>
+    <author>
+      <name>Diego Perez-Liebana</name>
+    </author>
+    <author>
+      <name>Manuela Veloso</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.01822v2</id>
+    <title>Exploring Controllable Text Generation Techniques</title>
+    <updated>2020-10-30T21:28:15Z</updated>
+    <link href="https://arxiv.org/abs/2005.01822v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.01822v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural controllable text generation is an important area gaining attention due to its plethora of applications. Although there is a large body of prior work in controllable text generation, there is no unifying theme. In this work, we provide a new schema of the pipeline of the generation process by classifying it into five modules. The control of attributes in the generation process requires modification of these modules. We present an overview of different techniques used to perform the modulation of these modules. We also provide an analysis on the advantages and disadvantages of these techniques. We further pave ways to develop new architectures based on the combination of the modules described in this paper.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-04T20:04:47Z</published>
+    <arxiv:comment>Will be published at COLING 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.00432v1</id>
+    <title>Topological Sort for Sentence Ordering</title>
+    <updated>2020-05-01T15:07:59Z</updated>
+    <link href="https://arxiv.org/abs/2005.00432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.00432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sentence ordering is the task of arranging the sentences of a given text in the correct order. Recent work using deep neural networks for this task has framed it as a sequence prediction problem. In this paper, we propose a new framing of this task as a constraint solving problem and introduce a new technique to solve it. Additionally, we propose a human evaluation for this task. The results on both automatic and human metrics across four different datasets show that this new technique is better at capturing coherence in documents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-01T15:07:59Z</published>
+    <arxiv:comment>Will be published at the Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL) 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.14257v2</id>
+    <title>Politeness Transfer: A Tag and Generate Approach</title>
+    <updated>2020-05-01T22:33:41Z</updated>
+    <link href="https://arxiv.org/abs/2004.14257v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.14257v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a new task of politeness transfer which involves converting non-polite sentences to polite sentences while preserving the meaning. We also provide a dataset of more than 1.39 instances automatically labeled for politeness to encourage benchmark evaluations on this new task. We design a tag and generate pipeline that identifies stylistic attributes and subsequently generates a sentence in the target style while preserving most of the source content. For politeness as well as five other transfer tasks, our model outperforms the state-of-the-art methods on automatic metrics for content preservation, with a comparable or better performance on style transfer accuracy. Additionally, our model surpasses existing methods on human evaluations for grammaticality, meaning preservation and transfer accuracy across all the six style transfer tasks. The data and code is located at https://github.com/tag-and-generate.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-29T15:08:53Z</published>
+    <arxiv:comment>To appear at ACL 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Aman Madaan</name>
+    </author>
+    <author>
+      <name>Amrith Setlur</name>
+    </author>
+    <author>
+      <name>Tanmay Parekh</name>
+    </author>
+    <author>
+      <name>Barnabas Poczos</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Yiming Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.14198v2</id>
+    <title>Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis</title>
+    <updated>2020-10-05T04:56:42Z</updated>
+    <link href="https://arxiv.org/abs/2004.14198v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.14198v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The human language can be expressed through multiple sources of information known as modalities, including tones of voice, facial gestures, and spoken language. Recent multimodal learning with strong performances on human-centric tasks such as sentiment analysis and emotion recognition are often black-box, with very limited interpretability. In this paper we propose Multimodal Routing, which dynamically adjusts weights between input modalities and output representations differently for each input sample. Multimodal routing can identify relative importance of both individual modalities and cross-modality features. Moreover, the weight assignment by routing allows us to interpret modality-prediction relationships not only globally (i.e. general trends over the whole dataset), but also locally for each single input sample, meanwhile keeping competitive performance compared to state-of-the-art methods.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-29T13:42:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Martin Q. Ma</name>
+    </author>
+    <author>
+      <name>Muqiao Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.05155v1</id>
+    <title>Learning to Explore using Active Neural SLAM</title>
+    <updated>2020-04-10T17:57:29Z</updated>
+    <link href="https://arxiv.org/abs/2004.05155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.05155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents a modular and hierarchical approach to learn policies for exploring 3D environments, called `Active Neural SLAM'. Our approach leverages the strengths of both classical and learning-based methods, by using analytical path planners with learned SLAM module, and global and local policies. The use of learning provides flexibility with respect to input modalities (in the SLAM module), leverages structural regularities of the world (in global policies), and provides robustness to errors in state estimation (in local policies). Such use of learning within each module retains its benefits, while at the same time, hierarchical decomposition and modular training allow us to sidestep the high sample complexities associated with training end-to-end policies. Our experiments in visually and physically realistic simulated 3D environments demonstrate the effectiveness of our approach over past learning and geometry-based approaches. The proposed model can also be easily transferred to the PointGoal task and was the winning entry of the CVPR 2019 Habitat PointGoal Navigation Challenge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-10T17:57:29Z</published>
+    <arxiv:comment>Published in ICLR-2020. See the project webpage at https://devendrachaplot.github.io/projects/Neural-SLAM for supplementary videos. The code is available at https://github.com/devendrachaplot/Neural-SLAM</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Dhiraj Gandhi</name>
+    </author>
+    <author>
+      <name>Saurabh Gupta</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.02860v2</id>
+    <title>Weakly-Supervised Reinforcement Learning for Controllable Behavior</title>
+    <updated>2020-11-18T02:03:28Z</updated>
+    <link href="https://arxiv.org/abs/2004.02860v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.02860v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) is a powerful framework for learning to take actions to solve tasks. However, in many settings, an agent must winnow down the inconceivably large space of all possible tasks to the single task that it is currently being asked to solve. Can we instead constrain the space of tasks to those that are semantically meaningful? In this work, we introduce a framework for using weak supervision to automatically disentangle this semantically meaningful subspace of tasks from the enormous space of nonsensical "chaff" tasks. We show that this learned subspace enables efficient exploration and provides a representation that captures distance between states. On a variety of challenging, vision-based continuous control problems, our approach leads to substantial performance gains, particularly as the complexity of the environment grows.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-06T17:50:28Z</published>
+    <arxiv:comment>Published in NeurIPS 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lisa Lee</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Shixiang Shane Gu</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.02460v3</id>
+    <title>A Closer Look at Accuracy vs. Robustness</title>
+    <updated>2020-07-12T19:59:39Z</updated>
+    <link href="https://arxiv.org/abs/2003.02460v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.02460v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current methods for training robust networks lead to a drop in test accuracy, which has led prior works to posit that a robustness-accuracy tradeoff may be inevitable in deep learning. We take a closer look at this phenomenon and first show that real image datasets are actually separated. With this property in mind, we then prove that robustness and accuracy should both be achievable for benchmark datasets through locally Lipschitz functions, and hence, there should be no inherent tradeoff between robustness and accuracy. Through extensive experiments with robustness methods, we argue that the gap between theory and practice arises from two limitations of current methods: either they fail to impose local Lipschitzness or they are insufficiently generalized. We explore combining dropout with robust training methods and obtain better generalization. We conclude that achieving robustness and accuracy in practice may require using methods that impose local Lipschitzness and augmenting them with deep learning generalization techniques. Code available at https://github.com/yangarbiter/robust-local-lipschitz</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-05T07:09:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Yuan Yang</name>
+    </author>
+    <author>
+      <name>Cyrus Rashtchian</name>
+    </author>
+    <author>
+      <name>Hongyang Zhang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Kamalika Chaudhuri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.01848v2</id>
+    <title>On Emergent Communication in Competitive Multi-Agent Teams</title>
+    <updated>2020-07-16T04:15:59Z</updated>
+    <link href="https://arxiv.org/abs/2003.01848v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.01848v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several recent works have found the emergence of grounded compositional language in the communication protocols developed by mostly cooperative multi-agent systems when learned end-to-end to maximize performance on a downstream task. However, human populations learn to solve complex tasks involving communicative behaviors not only in fully cooperative settings but also in scenarios where competition acts as an additional external pressure for improvement. In this work, we investigate whether competition for performance from an external, similar agent team could act as a social influence that encourages multi-agent populations to develop better communication protocols for improved performance, compositionality, and convergence speed. We start from Task &amp; Talk, a previously proposed referential game between two cooperative agents as our testbed and extend it into Task, Talk &amp; Compete, a game involving two competitive teams each consisting of two aforementioned cooperative agents. Using this new setting, we provide an empirical study demonstrating the impact of competitive influence on multi-agent teams. Our results show that an external competitive influence leads to improved accuracy and generalization, as well as faster emergence of communicative languages that are more informative and compositional.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-04T01:14:27Z</published>
+    <arxiv:comment>AAMAS 2020, code: https://github.com/pliang279/Competitive-Emergent-Communication</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Jeffrey Chen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Satwik Kottur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.11089v1</id>
+    <title>Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement</title>
+    <updated>2020-02-25T18:36:31Z</updated>
+    <link href="https://arxiv.org/abs/2002.11089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.11089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-task reinforcement learning (RL) aims to simultaneously learn policies for solving many tasks. Several prior works have found that relabeling past experience with different reward functions can improve sample efficiency. Relabeling methods typically ask: if, in hindsight, we assume that our experience was optimal for some task, for what task was it optimal? In this paper, we show that hindsight relabeling is inverse RL, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to arbitrary classes of tasks. Our experiments confirm that relabeling data using inverse RL accelerates learning in general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-25T18:36:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Xinyang Geng</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.10640v1</id>
+    <title>Differentiable Reasoning over a Virtual Knowledge Base</title>
+    <updated>2020-02-25T03:13:32Z</updated>
+    <link href="https://arxiv.org/abs/2002.10640v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.10640v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the task of answering complex multi-hop questions using a corpus as a virtual knowledge base (KB). In particular, we describe a neural module, DrKIT, that traverses textual data like a KB, softly following paths of relations between mentions of entities in the corpus. At each step the module uses a combination of sparse-matrix TFIDF indices and a maximum inner product search (MIPS) on a special index of contextual representations of the mentions. This module is differentiable, so the full system can be trained end-to-end using gradient based methods, starting from natural language inputs. We also describe a pretraining scheme for the contextual representation encoder by generating hard negative examples using existing knowledge bases. We show that DrKIT improves accuracy by 9 points on 3-hop questions in the MetaQA dataset, cutting the gap between text-based and KB-based state-of-the-art by 70%. On HotpotQA, DrKIT leads to a 10% improvement over a BERT-based re-ranking approach to retrieving the relevant passages required to answer a question. DrKIT is also very efficient, processing 10-100x more queries per second than existing multi-hop systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-25T03:13:32Z</published>
+    <arxiv:comment>ICLR 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Vidhisha Balachandran</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.06541v1</id>
+    <title>Learning Not to Learn in the Presence of Noisy Labels</title>
+    <updated>2020-02-16T09:12:27Z</updated>
+    <link href="https://arxiv.org/abs/2002.06541v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.06541v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning in the presence of label noise is a challenging yet important task: it is crucial to design models that are robust in the presence of mislabeled datasets. In this paper, we discover that a new class of loss functions called the gambler's loss provides strong robustness to label noise across various levels of corruption. We show that training with this loss function encourages the model to "abstain" from learning on the data points with noisy labels, resulting in a simple and effective method to improve robustness and generalization. In addition, we propose two practical extensions of the method: 1) an analytical early stopping criterion to approximately stop training before the memorization of noisy labels, as well as 2) a heuristic for setting hyperparameters which do not require knowledge of the noise corruption rate. We demonstrate the effectiveness of our method by achieving strong results across three image and text classification tasks as compared to existing baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-16T09:12:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Liu Ziyin</name>
+    </author>
+    <author>
+      <name>Blair Chen</name>
+    </author>
+    <author>
+      <name>Ru Wang</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Masahito Ueda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.04764v2</id>
+    <title>Capsules with Inverted Dot-Product Attention Routing</title>
+    <updated>2020-02-26T17:48:16Z</updated>
+    <link href="https://arxiv.org/abs/2002.04764v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.04764v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new routing algorithm for capsule networks, in which a child capsule is routed to a parent based only on agreement between the parent's state and the child's vote. The new mechanism 1) designs routing via inverted dot-product attention; 2) imposes Layer Normalization as normalization; and 3) replaces sequential iterative routing with concurrent iterative routing. When compared to previously proposed routing algorithms, our method improves performance on benchmark datasets such as CIFAR-10 and CIFAR-100, and it performs at-par with a powerful CNN (ResNet-18) with 4x fewer parameters. On a different task of recognizing digits from overlayed digit images, the proposed capsule model performs favorably against CNNs given the same number of layers and neurons per layer. We believe that our work raises the possibility of applying capsule networks to complex real-world tasks. Our code is publicly available at: https://github.com/apple/ml-capsules-inverted-attention-routing An alternative implementation is available at: https://github.com/yaohungt/Capsules-Inverted-Attention-Routing/blob/master/README.md</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-12T02:09:33Z</published>
+    <arxiv:comment>ICLR 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Hanlin Goh</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.01523v3</id>
+    <title>Think Locally, Act Globally: Federated Learning with Local and Global Representations</title>
+    <updated>2020-07-14T08:12:35Z</updated>
+    <link href="https://arxiv.org/abs/2001.01523v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.01523v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning is a method of training models on private data distributed over multiple devices. To keep device data private, the global model is trained by only communicating parameters and updates which poses scalability challenges for large models. To this end, we propose a new federated learning algorithm that jointly learns compact local representations on each device and a global model across all devices. As a result, the global model can be smaller since it only operates on local representations, reducing the number of communicated parameters. Theoretically, we provide a generalization analysis which shows that a combination of local and global models reduces both variance in the data as well as variance across device distributions. Empirically, we demonstrate that local models enable communication-efficient training while retaining performance. We also evaluate on the task of personalized mood prediction from real-world mobile data where privacy is key. Finally, local models handle heterogeneous data from new devices, and learn fair representations that obfuscate protected attributes such as race, age, and gender.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-06T12:40:21Z</published>
+    <arxiv:comment>NeurIPS 2019 Workshop on Federated Learning distinguished student paper award. Code: https://github.com/pliang279/LG-FedAvg</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Terrance Liu</name>
+    </author>
+    <author>
+      <name>Liu Ziyin</name>
+    </author>
+    <author>
+      <name>Nicholas B. Allen</name>
+    </author>
+    <author>
+      <name>Randy P. Auerbach</name>
+    </author>
+    <author>
+      <name>David Brent</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03310v1</id>
+    <title>Geometric Capsule Autoencoders for 3D Point Clouds</title>
+    <updated>2019-12-06T00:10:14Z</updated>
+    <link href="https://arxiv.org/abs/1912.03310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.03310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method to learn object representations from 3D point clouds using bundles of geometrically interpretable hidden units, which we call geometric capsules. Each geometric capsule represents a visual entity, such as an object or a part, and consists of two components: a pose and a feature. The pose encodes where the entity is, while the feature encodes what it is. We use these capsules to construct a Geometric Capsule Autoencoder that learns to group 3D points into parts (small local surfaces), and these parts into the whole object, in an unsupervised manner. Our novel Multi-View Agreement voting mechanism is used to discover an object's canonical pose and its pose-invariant feature vector. Using the ShapeNet and ModelNet40 datasets, we analyze the properties of the learned representations and show the benefits of having multiple votes agree. We perform alignment and retrieval of arbitrarily rotated objects -- tasks that evaluate our model's object identification and canonical pose recovery capabilities -- and obtained insightful results.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-06T00:10:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Hanlin Goh</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.03618v1</id>
+    <title>Worst Cases Policy Gradients</title>
+    <updated>2019-11-09T06:24:43Z</updated>
+    <link href="https://arxiv.org/abs/1911.03618v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.03618v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in deep reinforcement learning have demonstrated the capability of learning complex control policies from many types of environments. When learning policies for safety-critical applications, it is essential to be sensitive to risks and avoid catastrophic events. Towards this goal, we propose an actor-critic framework that models the uncertainty of the future and simultaneously learns a policy based on that uncertainty model. Specifically, given a distribution of the future return for any state and action, we optimize policies for varying levels of conditional Value-at-Risk. The learned policy can map the same state to different actions depending on the propensity for risk. We demonstrate the effectiveness of our approach in the domain of driving simulations, where we learn maneuvers in two scenarios. Our learned controller can dynamically select actions along a continuous axis, where safe and conservative behaviors are found at one end while riskier behaviors are found at the other. Finally, when testing with very different simulation parameters, our risk-averse policies generalize significantly better compared to other reinforcement learning approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-09T06:24:43Z</published>
+    <arxiv:comment>Conference on Robot Learning 2019 (CoRL 2019)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yichuan Charlie Tang</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.00997v2</id>
+    <title>Multiple Futures Prediction</title>
+    <updated>2019-12-06T23:36:01Z</updated>
+    <link href="https://arxiv.org/abs/1911.00997v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.00997v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal prediction is critical for making intelligent and robust decisions in complex dynamic environments. Motion prediction needs to model the inherently uncertain future which often contains multiple potential outcomes, due to multi-agent interactions and the latent goals of others. Towards these goals, we introduce a probabilistic framework that efficiently learns latent variables to jointly model the multi-step future motions of agents in a scene. Our framework is data-driven and learns semantically meaningful latent variables to represent the multimodal future, without requiring explicit labels. Using a dynamic attention-based state encoder, we learn to encode the past as well as the future interactions among agents, efficiently scaling to any number of agents. Finally, our model can be used for planning via computing a conditional probability density over the trajectories of other agents given a hypothetical rollout of the 'self' agent. We demonstrate our algorithms by predicting vehicle trajectories of both simulated and real data, demonstrating the state-of-the-art results on several vehicle trajectory datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-04T00:42:01Z</published>
+    <arxiv:comment>In proceedings of NeurIPS 2019, Vancouver, British Columbia, Canada</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yichuan Charlie Tang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.00809v1</id>
+    <title>Enhanced Convolutional Neural Tangent Kernels</title>
+    <updated>2019-11-03T02:24:39Z</updated>
+    <link href="https://arxiv.org/abs/1911.00809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.00809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research shows that for training with $\ell_2$ loss, convolutional neural networks (CNNs) whose width (number of channels in convolutional layers) goes to infinity correspond to regression with respect to the CNN Gaussian Process kernel (CNN-GP) if only the last layer is trained, and correspond to regression with respect to the Convolutional Neural Tangent Kernel (CNTK) if all layers are trained. An exact algorithm to compute CNTK (Arora et al., 2019) yielded the finding that classification accuracy of CNTK on CIFAR-10 is within 6-7% of that of that of the corresponding CNN architecture (best figure being around 78%) which is interesting performance for a fixed kernel. Here we show how to significantly enhance the performance of these kernels using two ideas. (1) Modifying the kernel using a new operation called Local Average Pooling (LAP) which preserves efficient computability of the kernel and inherits the spirit of standard data augmentation using pixel shifts. Earlier papers were unable to incorporate naive data augmentation because of the quadratic training cost of kernel regression. This idea is inspired by Global Average Pooling (GAP), which we show for CNN-GP and CNTK is equivalent to full translation data augmentation. (2) Representing the input image using a pre-processing technique proposed by Coates et al. (2011), which uses a single convolutional layer composed of random image patches. On CIFAR-10, the resulting kernel, CNN-GP with LAP and horizontal flip data augmentation, achieves 89% accuracy, matching the performance of AlexNet (Krizhevsky et al., 2012). Note that this is the best such result we know of for a classifier that is not a trained neural network. Similar improvements are obtained for Fashion-MNIST.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-03T02:24:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Dingli Yu</name>
+    </author>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Wei Hu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.12795v1</id>
+    <title>Learning Data Manipulation for Augmentation and Weighting</title>
+    <updated>2019-10-28T16:46:24Z</updated>
+    <link href="https://arxiv.org/abs/1910.12795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.12795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Manipulating data, such as weighting data examples or augmenting with new instances, has been increasingly used to improve model training. Previous work has studied various rule- or learning-based approaches designed for specific types of data manipulation. In this work, we propose a new method that supports learning different manipulation schemes with the same gradient-based algorithm. Our approach builds upon a recent connection of supervised learning and reinforcement learning (RL), and adapts an off-the-shelf reward learning algorithm from RL for joint data manipulation learning and model training. Different parameterization of the "data reward" function instantiates different manipulation schemes. We showcase data augmentation that learns a text transformation network, and data weighting that dynamically adapts the data sample importance. Experiments show the resulting algorithms significantly improve the image and text classification performance in low data regime and class-imbalance problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-28T16:46:24Z</published>
+    <arxiv:comment>NeurIPS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Bowen Tan</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Tom Mitchell</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.10202v2</id>
+    <title>Complex Transformer: A Framework for Modeling Complex-Valued Sequence</title>
+    <updated>2021-08-06T18:21:22Z</updated>
+    <link href="https://arxiv.org/abs/1910.10202v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.10202v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While deep learning has received a surge of interest in a variety of fields in recent years, major deep learning models barely use complex numbers. However, speech, signal and audio data are naturally complex-valued after Fourier Transform, and studies have shown a potentially richer representation of complex nets. In this paper, we propose a Complex Transformer, which incorporates the transformer model as a backbone for sequence modeling; we also develop attention and encoder-decoder network operating for complex input. The model achieves state-of-the-art performance on the MusicNet dataset and an In-phase Quadrature (IQ) signal dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-22T19:21:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Muqiao Yang</name>
+    </author>
+    <author>
+      <name>Martin Q. Ma</name>
+    </author>
+    <author>
+      <name>Dongyu Li</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01663v3</id>
+    <title>Harnessing the Power of Infinitely Wide Deep Nets on Small-data Tasks</title>
+    <updated>2019-10-27T17:53:30Z</updated>
+    <link href="https://arxiv.org/abs/1910.01663v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01663v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research shows that the following two models are equivalent: (a) infinitely wide neural networks (NNs) trained under l2 loss by gradient descent with infinitesimally small learning rate (b) kernel regression with respect to so-called Neural Tangent Kernels (NTKs) (Jacot et al., 2018). An efficient algorithm to compute the NTK, as well as its convolutional counterparts, appears in Arora et al. (2019a), which allowed studying performance of infinitely wide nets on datasets like CIFAR-10. However, super-quadratic running time of kernel methods makes them best suited for small-data tasks. We report results suggesting neural tangent kernels perform strongly on low-data tasks.
+  1. On a standard testbed of classification/regression tasks from the UCI database, NTK SVM beats the previous gold standard, Random Forests (RF), and also the corresponding finite nets.
+  2. On CIFAR-10 with 10 - 640 training samples, Convolutional NTK consistently beats ResNet-34 by 1% - 3%.
+  3. On VOC07 testbed for few-shot image classification tasks on ImageNet with transfer learning (Goyal et al., 2019), replacing the linear SVM currently used with a Convolutional NTK SVM consistently improves performance.
+  4. Comparing the performance of NTK with the finite-width net it was derived from, NTK behavior starts at lower net widths than suggested by theoretical analysis(Arora et al., 2019a). NTK's efficacy may trace to lower variance of output.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-03T18:04:17Z</published>
+    <arxiv:comment>Code for UCI experiments: https://github.com/LeoYu/neural-tangent-kernel-UCI</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Dingli Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01545v1</id>
+    <title>On Universal Approximation by Neural Networks with Uniform Guarantees on Approximation of Infinite Dimensional Maps</title>
+    <updated>2019-10-03T15:10:43Z</updated>
+    <link href="https://arxiv.org/abs/1910.01545v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01545v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The study of universal approximation of arbitrary functions $f: \mathcal{X} \to \mathcal{Y}$ by neural networks has a rich and thorough history dating back to Kolmogorov (1957). In the case of learning finite dimensional maps, many authors have shown various forms of the universality of both fixed depth and fixed width neural networks. However, in many cases, these classical results fail to extend to the recent use of approximations of neural networks with infinitely many units for functional data analysis, dynamical systems identification, and other applications where either $\mathcal{X}$ or $\mathcal{Y}$ become infinite dimensional. Two questions naturally arise: which infinite dimensional analogues of neural networks are sufficient to approximate any map $f: \mathcal{X} \to \mathcal{Y}$, and when do the finite approximations to these analogues used in practice approximate $f$ uniformly over its infinite dimensional domain $\mathcal{X}$?
+  In this paper, we answer the open question of universal approximation of nonlinear operators when $\mathcal{X}$ and $\mathcal{Y}$ are both infinite dimensional. We show that for a large class of different infinite analogues of neural networks, any continuous map can be approximated arbitrarily closely with some mild topological conditions on $\mathcal{X}$. Additionally, we provide the first lower-bound on the minimal number of input and output units required by a finite approximation to an infinite neural network to guarantee that it can uniformly approximate any nonlinear operator using samples from its inputs and outputs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-03T15:10:43Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William H. Guss</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.02373v3</id>
+    <title>LSMI-Sinkhorn: Semi-supervised Mutual Information Estimation with Optimal Transport</title>
+    <updated>2021-06-27T06:34:41Z</updated>
+    <link href="https://arxiv.org/abs/1909.02373v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.02373v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Estimating mutual information is an important statistics and machine learning problem. To estimate the mutual information from data, a common practice is preparing a set of paired samples $\{(\mathbf{x}_i,\mathbf{y}_i)\}_{i=1}^n \stackrel{\mathrm{i.i.d.}}{\sim} p(\mathbf{x},\mathbf{y})$. However, in many situations, it is difficult to obtain a large number of data pairs. To address this problem, we propose the semi-supervised Squared-loss Mutual Information (SMI) estimation method using a small number of paired samples and the available unpaired ones. We first represent SMI through the density ratio function, where the expectation is approximated by the samples from marginals and its assignment parameters. The objective is formulated using the optimal transport problem and quadratic programming. Then, we introduce the Least-Squares Mutual Information with Sinkhorn (LSMI-Sinkhorn) algorithm for efficient optimization. Through experiments, we first demonstrate that the proposed method can estimate the SMI without a large number of paired samples. Then, we show the effectiveness of the proposed LSMI-Sinkhorn algorithm on various types of machine learning problems such as image matching and photo album summarization. Code can be found at https://github.com/csyanbin/LSMI-Sinkhorn.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-05T12:58:20Z</published>
+    <arxiv:comment>ECML/PKDD 2021</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Yanbin Liu</name>
+    </author>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Tam Le</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Yi Yang</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-86486-6_40</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-86486-6_40" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.11775v4</id>
+    <title>Transformer Dissection: A Unified Understanding of Transformer's Attention via the Lens of Kernel</title>
+    <updated>2019-11-11T21:51:11Z</updated>
+    <link href="https://arxiv.org/abs/1908.11775v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.11775v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer is a powerful architecture that achieves superior performance on various sequence learning tasks, including neural machine translation, language understanding, and sequence prediction. At the core of the Transformer is the attention mechanism, which concurrently processes all inputs in the streams. In this paper, we present a new formulation of attention via the lens of the kernel. To be more precise, we realize that the attention can be seen as applying kernel smoother over the inputs with the kernel scores being the similarities between inputs. This new formulation gives us a better way to understand individual components of the Transformer's attention, such as the better way to integrate the positional embedding. Another important advantage of our kernel-based formulation is that it paves the way to a larger space of composing Transformer's attention. As an example, we propose a new variant of Transformer's attention which models the input as a product of symmetric kernels. This approach achieves competitive performance to the current state of the art model with less computation. In our experiments, we empirically study different kernel construction strategies on two widely used tasks: neural machine translation and sequence prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-30T15:05:02Z</published>
+    <arxiv:comment>EMNLP 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Shaojie Bai</name>
+    </author>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.13440v1</id>
+    <title>MineRL: A Large-Scale Dataset of Minecraft Demonstrations</title>
+    <updated>2019-07-29T18:10:30Z</updated>
+    <link href="https://arxiv.org/abs/1907.13440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.13440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The sample inefficiency of standard deep reinforcement learning methods precludes their application to many real-world problems. Methods which leverage human demonstrations require fewer samples but have been researched less. As demonstrated in the computer vision and natural language processing communities, large-scale datasets have the capacity to facilitate research by serving as an experimental and benchmarking platform for new methods. However, existing datasets compatible with reinforcement learning simulators do not have sufficient scale, structure, and quality to enable the further development and evaluation of methods focused on using human examples. Therefore, we introduce a comprehensive, large-scale, simulator-paired dataset of human demonstrations: MineRL. The dataset consists of over 60 million automatically annotated state-action pairs across a variety of related tasks in Minecraft, a dynamic, 3D, open-world environment. We present a novel data collection scheme which allows for the ongoing introduction of new tasks and the gathering of complete state information suitable for a variety of methods. We demonstrate the hierarchality, diversity, and scale of the MineRL dataset. Further, we show the difficulty of the Minecraft domain along with the potential of MineRL in developing techniques to solve key research challenges within it.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-29T18:10:30Z</published>
+    <arxiv:comment>Accepted at IJCAI 2019, 7 pages, 6 figures. arXiv admin note: text overlap with arXiv:1904.10079</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William H. Guss</name>
+    </author>
+    <author>
+      <name>Brandon Houghton</name>
+    </author>
+    <author>
+      <name>Nicholay Topin</name>
+    </author>
+    <author>
+      <name>Phillip Wang</name>
+    </author>
+    <author>
+      <name>Cayden Codel</name>
+    </author>
+    <author>
+      <name>Manuela Veloso</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.06288v2</id>
+    <title>Learning Neural Networks with Adaptive Regularization</title>
+    <updated>2019-10-23T04:17:02Z</updated>
+    <link href="https://arxiv.org/abs/1907.06288v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.06288v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feed-forward neural networks can be understood as a combination of an intermediate representation and a linear hypothesis. While most previous works aim to diversify the representations, we explore the complementary direction by performing an adaptive and data-dependent regularization motivated by the empirical Bayes method. Specifically, we propose to construct a matrix-variate normal prior (on weights) whose covariance matrix has a Kronecker product structure. This structure is designed to capture the correlations in neurons through backpropagation. Under the assumption of this Kronecker factorization, the prior encourages neurons to borrow statistical strength from one another. Hence, it leads to an adaptive and data-dependent regularization when training networks on small datasets. To optimize the model, we present an efficient block coordinate descent algorithm with analytical solutions. Empirically, we demonstrate that the proposed method helps networks converge to local optima with smaller stable ranks and spectral norms. These properties suggest better generalizations and we present empirical results to support this expectation. We also verify the effectiveness of the approach on multiclass classification and multitask regression problems with various network structures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-14T22:07:15Z</published>
+    <arxiv:comment>Camera ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Geoffrey J. Gordon</name>
+    </author>
+  </entry>
+</feed>

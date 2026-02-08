@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nr4a/p7HDoKCJWGEMglutCpHVks</id>
+  <title>arXiv Query: search_query=au:"Judea Pearl"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-07T20:08:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Judea+Pearl%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>62</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4852v1</id>
+    <title>The Do-Calculus Revisited</title>
+    <updated>2012-10-16T17:36:07Z</updated>
+    <link href="https://arxiv.org/abs/1210.4852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The do-calculus was developed in 1995 to facilitate the identification of causal effects in non-parametric models. The completeness proofs of [Huang and Valtorta, 2006] and [Shpitser and Pearl, 2006] and the graphical criteria of [Tian and Shpitser, 2010] have laid this identification problem to rest. Recent explorations unveil the usefulness of the do-calculus in three additional areas: mediation analysis [Pearl, 2012], transportability [Pearl and Bareinboim, 2011] and metasynthesis. Meta-synthesis (freshly coined) is the task of fusing empirical results from several diverse studies, conducted on heterogeneous populations and under different conditions, so as to synthesize an estimate of a causal relation in some target environment, potentially different from those under study. The talk surveys these results with emphasis on the challenges posed by meta-synthesis. For background material, see http://bayes.cs.ucla.edu/csl_papers.html</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-16T17:36:07Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4842v1</id>
+    <title>Causal Inference by Surrogate Experiments: z-Identifiability</title>
+    <updated>2012-10-16T17:32:47Z</updated>
+    <link href="https://arxiv.org/abs/1210.4842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address the problem of estimating the effect of intervening on a set of variables X from experiments on a different set, Z, that is more accessible to manipulation. This problem, which we call z-identifiability, reduces to ordinary identifiability when Z = empty and, like the latter, can be given syntactic characterization using the do-calculus [Pearl, 1995; 2000]. We provide a graphical necessary and sufficient condition for z-identifiability for arbitrary sets X,Z, and Y (the outcomes). We further develop a complete algorithm for computing the causal effect of X on Y using information provided by experiments on Z. Finally, we use our results to prove completeness of do-calculus relative to z-identifiability, a result that does not follow from completeness relative to ordinary identifiability.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-16T17:32:47Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Elias Bareinboim</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.4173v1</id>
+    <title>Robustness of Causal Claims</title>
+    <updated>2012-07-11T15:07:41Z</updated>
+    <link href="https://arxiv.org/abs/1207.4173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.4173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A causal claim is any assertion that invokes causal relationships between variables, for example that a drug has a certain effect on preventing a disease. Causal claims are established through a combination of data and a set of causal assumptions called a causal model. A claim is robust when it is insensitive to violations of some of the causal assumptions embodied in the model. This paper gives a formal definition of this notion of robustness and establishes a graphical condition for quantifying the degree of robustness of a given causal claim. Algorithms for computing the degree of robustness are also presented.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-11T15:07:41Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twentieth Conference on Uncertainty in Artificial Intelligence (UAI2004)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6876v1</id>
+    <title>Identification of Conditional Interventional Distributions</title>
+    <updated>2012-06-27T16:30:55Z</updated>
+    <link href="https://arxiv.org/abs/1206.6876v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6876v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The subject of this paper is the elucidation of effects of actions from causal assumptions represented as a directed graph, and statistical knowledge given as a probability distribution. In particular, we are interested in predicting conditional distributions resulting from performing an action on a set of variables and, subsequently, taking measurements of another set. We provide a necessary and sufficient graphical condition for the cases where such distributions can be uniquely computed from the available information, as well as an algorithm which performs this computation whenever the condition holds. Furthermore, we use our results to prove completeness of do-calculus [Pearl, 1995] for the same identification problem.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T16:30:55Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Second Conference on Uncertainty in Artificial Intelligence (UAI2006)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ilya Shpitser</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6821v1</id>
+    <title>Graphical Condition for Identification in recursive SEM</title>
+    <updated>2012-06-27T15:39:51Z</updated>
+    <link href="https://arxiv.org/abs/1206.6821v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6821v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper concerns the problem of predicting the effect of actions or interventions on a system from a combination of (i) statistical data on a set of observed variables, and (ii) qualitative causal knowledge encoded in the form of a directed acyclic graph (DAG). The DAG represents a set of linear equations called Structural Equations Model (SEM), whose coefficients are parameters representing direct causal effects. Reliable quantitative conclusions can only be obtained from the model if the causal effects are uniquely determined by the data. That is, if there exists a unique parametrization for the model that makes it compatible with the data. If this is the case, the model is called identified. The main result of the paper is a general sufficient condition for identification of recursive SEM models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T15:39:51Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Second Conference on Uncertainty in Artificial Intelligence (UAI2006)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Carlos Brito</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.5294v1</id>
+    <title>What Counterfactuals Can Be Tested</title>
+    <updated>2012-06-20T15:19:30Z</updated>
+    <link href="https://arxiv.org/abs/1206.5294v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.5294v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Counterfactual statements, e.g., "my headache would be gone had I taken an aspirin" are central to scientific discourse, and are formally interpreted as statements derived from "alternative worlds". However, since they invoke hypothetical states of affairs, often incompatible with what is actually known or observed, testing counterfactuals is fraught with conceptual and practical difficulties. In this paper, we provide a complete characterization of "testable counterfactuals," namely, counterfactual statements whose probabilities can be inferred from physical experiments. We provide complete procedures for discerning whether a given counterfactual is testable and, if so, expressing its probability in terms of experimental data.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-20T15:19:30Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Third Conference on Uncertainty in Artificial Intelligence (UAI2007)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ilya Shpitser</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.2615v1</id>
+    <title>Effects of Treatment on the Treated: Identification and Generalization</title>
+    <updated>2012-05-09T18:29:08Z</updated>
+    <link href="https://arxiv.org/abs/1205.2615v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.2615v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many applications of causal analysis call for assessing, retrospectively, the effect of withholding an action that has in fact been implemented. This counterfactual quantity, sometimes called "effect of treatment on the treated," (ETT) have been used to to evaluate educational programs, critic public policies, and justify individual decision making. In this paper we explore the conditions under which ETT can be estimated from (i.e., identified in) experimental and/or observational studies. We show that, when the action invokes a singleton variable, the conditions for ETT identification have simple characterizations in terms of causal diagrams. We further give a graphical characterization of the conditions under which the effects of multiple treatments on the treated can be identified, as well as ways in which the ETT estimand can be constructed from both interventional and observational distributions.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-09T18:29:08Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence (UAI2009)</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Ilya Shpitser</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.3505v1</id>
+    <title>Confounding Equivalence in Causal Inference</title>
+    <updated>2012-03-15T11:17:56Z</updated>
+    <link href="https://arxiv.org/abs/1203.3505v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.3505v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper provides a simple test for deciding, from a given causal diagram, whether two sets of variables have the same bias-reducing potential under adjustment. The test requires that one of the following two conditions holds: either (1) both sets are admissible (i.e., satisfy the back-door criterion) or (2) the Markov boundaries surrounding the manipulated variable(s) are identical in both sets. Applications to covariate selection and model testing are discussed.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-15T11:17:56Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Sixth Conference on Uncertainty in Artificial Intelligence (UAI2010)</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+    <author>
+      <name>Azaria Paz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.3503v1</id>
+    <title>On a Class of Bias-Amplifying Variables that Endanger Effect Estimates</title>
+    <updated>2012-03-15T11:17:56Z</updated>
+    <link href="https://arxiv.org/abs/1203.3503v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.3503v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note deals with a class of variables that, if conditioned on, tends to amplify confounding bias in the analysis of causal effects. This class, independently discovered by Bhattacharya and Vogt (2007) and Wooldridge (2009), includes instrumental variables and variables that have greater influence on treatment selection than on the outcome. We offer a simple derivation and an intuitive explanation of this phenomenon and then extend the analysis to non linear models. We show that: 1. the bias-amplifying potential of instrumental variables extends over to non-linear models, though not as sweepingly as in linear models; 2. in non-linear models, conditioning on instrumental variables may introduce new bias where none existed before; 3. in both linear and non-linear models, instrumental variables have no effect on selection-induced bias.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-15T11:17:56Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Sixth Conference on Uncertainty in Artificial Intelligence (UAI2010)</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.3504v1</id>
+    <title>On Measurement Bias in Causal Inference</title>
+    <updated>2012-03-15T11:17:56Z</updated>
+    <link href="https://arxiv.org/abs/1203.3504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.3504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the problem of measurement errors in causal inference and highlights several algebraic and graphical methods for eliminating systematic bias induced by such errors. In particulars, the paper discusses the control of partially observable confounders in parametric and non parametric models and the computational problem of obtaining bias-free effect estimates in such models.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-15T11:17:56Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Sixth Conference on Uncertainty in Artificial Intelligence (UAI2010)</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0208034v3</id>
+    <title>Causes and Explanations: A Structural-Model Approach. Part II: Explanations</title>
+    <updated>2005-11-19T23:16:59Z</updated>
+    <link href="https://arxiv.org/abs/cs/0208034v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0208034v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose new definitions of (causal) explanation, using structural equations to model counterfactuals. The definition is based on the notion of actual cause, as defined and motivated in a companion paper. Essentially, an explanation is a fact that is not known for certain but, if found to be true, would constitute an actual cause of the fact to be explained, regardless of the agent's initial uncertainty. We show that the definition handles well a number of problematic examples from the literature.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-08-20T23:08:49Z</published>
+    <arxiv:comment>Part I of the paper (on causes) is also on the arxiv. The two papers originally were posted as one submission. The conference version of the paper appears in IJCAI '01. This paper will appear in the British Journal for Philosophy of Science</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Joseph Y. Halpern</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0011012v3</id>
+    <title>Causes and Explanations: A Structural-Model Approach, Part I: Causes</title>
+    <updated>2005-11-07T20:07:43Z</updated>
+    <link href="https://arxiv.org/abs/cs/0011012v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0011012v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a new definition of actual cause, using structural equations to model counterfactuals. We show that the definition yields a plausible and elegant account of causation that handles well examples which have caused problems for other definitions and resolves major difficulties in the traditional account.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-07T23:21:38Z</published>
+    <arxiv:comment>Part II of the paper (on Explanation) is also on the arxiv. Previously the two parts were submitted as one paper. To appear in the British Journal for the Philosophy of Science</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Joseph Y. Halpern</name>
+    </author>
+    <author>
+      <name>Judea Pearl</name>
+    </author>
+  </entry>
+</feed>

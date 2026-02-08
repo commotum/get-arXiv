@@ -1,0 +1,1705 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7xSpK3bI78AziZJOKCcPl4neLPA</id>
+  <title>arXiv Query: search_query=au:"Jurgen Schmidhuber"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-07T20:32:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Jurgen+Schmidhuber%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>175</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.22944v1</id>
+    <title>Multiple Token Divergence: Measuring and Steering In-Context Computation Density</title>
+    <updated>2025-12-28T14:13:54Z</updated>
+    <link href="https://arxiv.org/abs/2512.22944v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.22944v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring the in-context computational effort of language models is a key challenge, as metrics like next-token loss fail to capture reasoning complexity. Prior methods based on latent state compressibility can be invasive and unstable. We propose Multiple Token Divergence (MTD), a simple measure of computational effort defined as the KL divergence between a model's full output distribution and that of a shallow, auxiliary prediction head. MTD can be computed directly from pre-trained models with multiple prediction heads, requiring no additional training. Building on this, we introduce Divergence Steering, a novel decoding method to control the computational character of generated text. We empirically show that MTD is more effective than prior methods at distinguishing complex tasks from simple ones. On mathematical reasoning benchmarks, MTD correlates positively with problem difficulty. Lower MTD is associated with more accurate reasoning. MTD provides a practical, lightweight tool for analyzing and steering the computational dynamics of language models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-28T14:13:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Eric Alcaide</name>
+    </author>
+    <author>
+      <name>Michael Wand</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.02014v1</id>
+    <title>TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models</title>
+    <updated>2025-12-01T18:59:51Z</updated>
+    <link href="https://arxiv.org/abs/2512.02014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.02014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unified multimodal models (UMMs) aim to jointly perform multimodal understanding and generation within a single framework. We present TUNA, a native UMM that builds a unified continuous visual representation by cascading a VAE encoder with a representation encoder. This unified representation space allows end-to-end processing of images and videos for both understanding and generation tasks. Compared to prior UMMs with decoupled representations, TUNA's unified visual space avoids representation format mismatches introduced by separate encoders, outperforming decoupled alternatives in both understanding and generation. Moreover, we observe that stronger pretrained representation encoders consistently yield better performance across all multimodal tasks, highlighting the importance of the representation encoder. Finally, in this unified setting, jointly training on both understanding and generation data allows the two tasks to benefit from each other rather than interfere. Our extensive experiments on multimodal understanding and generation benchmarks show that TUNA achieves state-of-the-art results in image and video understanding, image and video generation, and image editing, demonstrating the effectiveness and scalability of its unified representation design.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-01T18:59:51Z</published>
+    <arxiv:comment>Project page: https://tuna-ai.org/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhiheng Liu</name>
+    </author>
+    <author>
+      <name>Weiming Ren</name>
+    </author>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Zijian Zhou</name>
+    </author>
+    <author>
+      <name>Shoufa Chen</name>
+    </author>
+    <author>
+      <name>Haonan Qiu</name>
+    </author>
+    <author>
+      <name>Xiaoke Huang</name>
+    </author>
+    <author>
+      <name>Zhaochong An</name>
+    </author>
+    <author>
+      <name>Fanny Yang</name>
+    </author>
+    <author>
+      <name>Aditya Patel</name>
+    </author>
+    <author>
+      <name>Viktar Atliha</name>
+    </author>
+    <author>
+      <name>Tony Ng</name>
+    </author>
+    <author>
+      <name>Xiao Han</name>
+    </author>
+    <author>
+      <name>Chuyan Zhu</name>
+    </author>
+    <author>
+      <name>Chenyang Zhang</name>
+    </author>
+    <author>
+      <name>Ding Liu</name>
+    </author>
+    <author>
+      <name>Juan-Manuel Perez-Rua</name>
+    </author>
+    <author>
+      <name>Sen He</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Wenhu Chen</name>
+    </author>
+    <author>
+      <name>Ping Luo</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Tao Xiang</name>
+    </author>
+    <author>
+      <name>Jonas Schult</name>
+    </author>
+    <author>
+      <name>Yuren Cong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.01116v1</id>
+    <title>Structural Prognostic Event Modeling for Multimodal Cancer Survival Analysis</title>
+    <updated>2025-11-30T22:24:09Z</updated>
+    <link href="https://arxiv.org/abs/2512.01116v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.01116v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of histology images and gene profiles has shown great promise for improving survival prediction in cancer. However, current approaches often struggle to model intra- and inter-modal interactions efficiently and effectively due to the high dimensionality and complexity of the inputs. A major challenge is capturing critical prognostic events that, though few, underlie the complexity of the observed inputs and largely determine patient outcomes. These events, manifested as high-level structural signals such as spatial histologic patterns or pathway co-activations, are typically sparse, patient-specific, and unannotated, making them inherently difficult to uncover. To address this, we propose SlotSPE, a slot-based framework for structural prognostic event modeling. Specifically, inspired by the principle of factorial coding, we compress each patient's multimodal inputs into compact, modality-specific sets of mutually distinctive slots using slot attention. By leveraging these slot representations as encodings for prognostic events, our framework enables both efficient and effective modeling of complex intra- and inter-modal interactions, while also facilitating seamless incorporation of biological priors that enhance prognostic relevance. Extensive experiments on ten cancer benchmarks show that SlotSPE outperforms existing methods in 8 out of 10 cohorts, achieving an overall improvement of 2.9%. It remains robust under missing genomic data and delivers markedly improved interpretability through structured event decomposition.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-30T22:24:09Z</published>
+    <arxiv:comment>37 pages, 14 Figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yilan Zhang</name>
+    </author>
+    <author>
+      <name>Li Nanbo</name>
+    </author>
+    <author>
+      <name>Changchun Yang</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Xin Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12207v1</id>
+    <title>Mixture of States: Routing Token-Level Dynamics for Multimodal Generation</title>
+    <updated>2025-11-15T13:24:57Z</updated>
+    <link href="https://arxiv.org/abs/2511.12207v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12207v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MoS (Mixture of States), a novel fusion paradigm for multimodal diffusion models that merges modalities using flexible, state-based interactions. The core of MoS is a learnable, token-wise router that creates denoising timestep- and input-dependent interactions between modalities' hidden states, precisely aligning token-level features with the diffusion trajectory. This router sparsely selects the top-$k$ hidden states and is trained with an $ε$-greedy strategy, efficiently selecting contextual features with minimal learnable parameters and negligible computational overhead. We validate our design with text-to-image generation (MoS-Image) and editing (MoS-Editing), which achieve state-of-the-art results. With only 3B to 5B parameters, our models match or surpass counterparts up to $4\times$ larger. These findings establish MoS as a flexible and compute-efficient paradigm for scaling multimodal diffusion models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-15T13:24:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Ding Liu</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Zijian Zhou</name>
+    </author>
+    <author>
+      <name>Tian Xie</name>
+    </author>
+    <author>
+      <name>Sen He</name>
+    </author>
+    <author>
+      <name>Yukang Yang</name>
+    </author>
+    <author>
+      <name>Shuming Liu</name>
+    </author>
+    <author>
+      <name>Yuren Cong</name>
+    </author>
+    <author>
+      <name>Jiadong Guo</name>
+    </author>
+    <author>
+      <name>Hongyu Xu</name>
+    </author>
+    <author>
+      <name>Ke Xu</name>
+    </author>
+    <author>
+      <name>Kam-Woh Ng</name>
+    </author>
+    <author>
+      <name>Juan C. Pérez</name>
+    </author>
+    <author>
+      <name> Juan-Manuel~Pérez-Rúa</name>
+    </author>
+    <author>
+      <name>Tao Xiang</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Shikun Liu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21614v3</id>
+    <title>Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine</title>
+    <updated>2025-10-29T13:57:25Z</updated>
+    <link href="https://arxiv.org/abs/2510.21614v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21614v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies operationalize self-improvement through coding agents that edit their own codebases. They grow a tree of self-modifications through expansion strategies that favor higher software engineering benchmark performance, assuming that this implies more promising subsequent self-modifications. However, we identify a mismatch between the agent's self-improvement potential (metaproductivity) and its coding benchmark performance, namely the Metaproductivity-Performance Mismatch. Inspired by Huxley's concept of clade, we propose a metric ($\mathrm{CMP}$) that aggregates the benchmark performances of the descendants of an agent as an indicator of its potential for self-improvement. We show that, in our self-improving coding agent development setting, access to the true $\mathrm{CMP}$ is sufficient to simulate how the Gödel Machine would behave under certain assumptions. We introduce the Huxley-Gödel Machine (HGM), which, by estimating $\mathrm{CMP}$ and using it as guidance, searches the tree of self-modifications. On SWE-bench Verified and Polyglot, HGM outperforms prior self-improving coding agent development methods while using fewer allocated CPU hours. Last but not least, HGM demonstrates strong transfer to other coding datasets and large language models. The agent optimized by HGM on SWE-bench Verified with GPT-5-mini and evaluated on SWE-bench Lite with GPT-5 achieves human-level performance, matching the best officially checked results of human-engineered coding agents. Our code is publicly available at https://github.com/metauto-ai/HGM.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T16:19:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Piotr Piękos</name>
+    </author>
+    <author>
+      <name>Li Nanbo</name>
+    </author>
+    <author>
+      <name>Firas Laakom</name>
+    </author>
+    <author>
+      <name>Yimeng Chen</name>
+    </author>
+    <author>
+      <name>Mateusz Ostaszewski</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.24732v1</id>
+    <title>Who invented deep residual learning?</title>
+    <updated>2025-09-29T12:57:35Z</updated>
+    <link href="https://arxiv.org/abs/2509.24732v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.24732v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern AI is based on deep artificial neural networks (NNs). As of 2025, the most cited scientific article of the 21st century is an NN paper on deep residual learning with residual connections. Who invented this? We present a timeline of the evolution of deep residual learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T12:57:35Z</published>
+    <arxiv:comment>12 pages, 2 illustrations, circa 100 partially annotated references</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.10534v2</id>
+    <title>Decoupling the "What" and "Where" With Polar Coordinate Positional Embeddings</title>
+    <updated>2025-12-22T20:13:10Z</updated>
+    <link href="https://arxiv.org/abs/2509.10534v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.10534v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The attention mechanism in a Transformer architecture matches key to query based on both content -- the what -- and position in a sequence -- the where. We present an analysis indicating that what and where are entangled in the popular RoPE rotary position embedding. This entanglement can impair performance particularly when decisions require independent matches on these two factors. We propose an improvement to RoPE, which we call Polar Coordinate Position Embeddings or PoPE, that eliminates the what-where confound. PoPE is far superior on a diagnostic task requiring indexing solely by position or by content. On autoregressive sequence modeling in music, genomic, and natural language domains, Transformers using PoPE as the positional encoding scheme outperform baselines using RoPE with respect to evaluation loss (perplexity) and downstream task performance. On language modeling, these gains persist across model scale, from 124M to 774M parameters. Crucially, PoPE shows strong zero-shot length extrapolation capabilities compared not only to RoPE but even a method designed for extrapolation, YaRN, which requires additional fine tuning and frequency interpolation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-05T14:22:27Z</published>
+    <arxiv:comment>Comparison to YaRN added + additional bias visualization + model ablation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Robert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Michael C. Mozer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.01459v1</id>
+    <title>Fast and scalable retrosynthetic planning with a transformer neural network and speculative beam search</title>
+    <updated>2025-08-02T18:30:06Z</updated>
+    <link href="https://arxiv.org/abs/2508.01459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.01459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI-based computer-aided synthesis planning (CASP) systems are in demand as components of AI-driven drug discovery workflows. However, the high latency of such CASP systems limits their utility for high-throughput synthesizability screening in de novo drug design. We propose a method for accelerating multi-step synthesis planning systems that rely on SMILES-to-SMILES transformers as single-step retrosynthesis models. Our approach reduces the latency of SMILES-to-SMILES transformers powering multi-step synthesis planning in AiZynthFinder through speculative beam search combined with a scalable drafting strategy called Medusa. Replacing standard beam search with our approach allows the CASP system to solve 26\% to 86\% more molecules under the same time constraints of several seconds. Our method brings AI-based CASP systems closer to meeting the strict latency requirements of high-throughput synthesizability screening and improving general user experience.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-02T18:30:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mikhail Andronov</name>
+    </author>
+    <author>
+      <name>Natalia Andronova</name>
+    </author>
+    <author>
+      <name>Michael Wand</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Djork-Arné Clevert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.15550v2</id>
+    <title>PhysGym: Benchmarking LLMs in Interactive Physics Discovery with Controlled Priors</title>
+    <updated>2025-10-26T07:14:27Z</updated>
+    <link href="https://arxiv.org/abs/2507.15550v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.15550v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluating the scientific discovery capabilities of large language model based agents, particularly how they cope with varying environmental complexity and utilize prior knowledge, requires specialized benchmarks currently lacking in the landscape. To address this gap, we introduce \textsc{PhysGym}, a novel benchmark suite and simulation platform for rigorously assessing LLM-based scientific reasoning in interactive physics environments. \textsc{PhysGym}'s primary contribution lies in its sophisticated control over the level of prior knowledge provided to the agent. This allows researchers to dissect agent performance along axes including the complexity of the problem and the prior knowledge levels. The benchmark comprises a suite of interactive simulations, where agents must actively probe environments, gather data sequentially under constraints and formulate hypotheses about underlying physical laws. \textsc{PhysGym} provides standardized evaluation protocols and metrics for assessing hypothesis accuracy and model fidelity. We demonstrate the benchmark's utility by presenting results from baseline LLMs, showcasing its ability to differentiate capabilities based on varying priors and task complexity.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-21T12:28:10Z</published>
+    <arxiv:comment>31 Pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yimeng Chen</name>
+    </author>
+    <author>
+      <name>Piotr Piȩkos</name>
+    </author>
+    <author>
+      <name>Mateusz Ostaszewski</name>
+    </author>
+    <author>
+      <name>Firas Laakom</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.23068v3</id>
+    <title>Curious Causality-Seeking Agents Learn Meta Causal World</title>
+    <updated>2025-10-26T03:16:17Z</updated>
+    <link href="https://arxiv.org/abs/2506.23068v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.23068v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When building a world model, a common assumption is that the environment has a single, unchanging underlying causal rule, like applying Newton's laws to every situation. In reality, what appears as a drifting causal mechanism is often the manifestation of a fixed underlying mechanism seen through a narrow observational window. This brings about a problem that, when building a world model, even subtle shifts in policy or environment states can alter the very observed causal mechanisms. In this work, we introduce the \textbf{Meta-Causal Graph} as world models, a minimal unified representation that efficiently encodes the transformation rules governing how causal structures shift across different latent world states. A single Meta-Causal Graph is composed of multiple causal subgraphs, each triggered by meta state, which is in the latent state space. Building on this representation, we introduce a \textbf{Causality-Seeking Agent} whose objectives are to (1) identify the meta states that trigger each subgraph, (2) discover the corresponding causal relationships by agent curiosity-driven intervention policy, and (3) iteratively refine the Meta-Causal Graph through ongoing curiosity-driven exploration and agent experiences. Experiments on both synthetic tasks and a challenging robot arm manipulation task demonstrate that our method robustly captures shifts in causal dynamics and generalizes effectively to previously unseen contexts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-29T03:05:25Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiyu Zhao</name>
+    </author>
+    <author>
+      <name>Haoxuan Li</name>
+    </author>
+    <author>
+      <name>Haifeng Zhang</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Mengyue Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.07861v1</id>
+    <title>Fairness Overfitting in Machine Learning: An Information-Theoretic Perspective</title>
+    <updated>2025-06-09T15:24:56Z</updated>
+    <link href="https://arxiv.org/abs/2506.07861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.07861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite substantial progress in promoting fairness in high-stake applications using machine learning models, existing methods often modify the training process, such as through regularizers or other interventions, but lack formal guarantees that fairness achieved during training will generalize to unseen data. Although overfitting with respect to prediction performance has been extensively studied, overfitting in terms of fairness loss has received far less attention. This paper proposes a theoretical framework for analyzing fairness generalization error through an information-theoretic lens. Our novel bounding technique is based on Efron-Stein inequality, which allows us to derive tight information-theoretic fairness generalization bounds with both Mutual Information (MI) and Conditional Mutual Information (CMI). Our empirical results validate the tightness and practical relevance of these bounds across diverse fairness-aware learning algorithms. Our framework offers valuable insights to guide the design of algorithms improving fairness generalization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-09T15:24:56Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Firas Laakom</name>
+    </author>
+    <author>
+      <name>Haobo Chen</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Yuheng Bu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00546v2</id>
+    <title>Directly Forecasting Belief for Reinforcement Learning with Delays</title>
+    <updated>2025-06-07T09:11:22Z</updated>
+    <link href="https://arxiv.org/abs/2505.00546v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00546v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) with delays is challenging as sensory perceptions lag behind the actual events: the RL agent needs to estimate the real state of its environment based on past observations. State-of-the-art (SOTA) methods typically employ recursive, step-by-step forecasting of states. This can cause the accumulation of compounding errors. To tackle this problem, our novel belief estimation method, named Directly Forecasting Belief Transformer (DFBT), directly forecasts states from observations without incrementally estimating intermediate states step-by-step. We theoretically demonstrate that DFBT greatly reduces compounding errors of existing recursively forecasting methods, yielding stronger performance guarantees. In experiments with D4RL offline datasets, DFBT reduces compounding errors with remarkable prediction accuracy. DFBT's capability to forecast state sequences also facilitates multi-step bootstrapping, thus greatly improving learning efficiency. On the MuJoCo benchmark, our DFBT-based method substantially outperforms SOTA baselines. Code is available at https://github.com/QingyuanWuNothing/DFBT.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-01T14:20:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>42nd International Conference on Machine Learning, ICML 2025</arxiv:journal_ref>
+    <author>
+      <name>Qingyuan Wu</name>
+    </author>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Simon Sinong Zhan</name>
+    </author>
+    <author>
+      <name>Yixuan Wang</name>
+    </author>
+    <author>
+      <name>Chung-Wei Lin</name>
+    </author>
+    <author>
+      <name>Chen Lv</name>
+    </author>
+    <author>
+      <name>Qi Zhu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Chao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00315v1</id>
+    <title>Mixture of Sparse Attention: Content-Based Learnable Sparse Attention via Expert-Choice Routing</title>
+    <updated>2025-05-01T05:22:11Z</updated>
+    <link href="https://arxiv.org/abs/2505.00315v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00315v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models highlighted the excessive quadratic cost of self-attention. Despite the significant research efforts, subquadratic attention methods still suffer from inferior performance in practice. We hypothesize that dynamic, learned content-based sparsity can lead to more efficient attention mechanisms. We present Mixture of Sparse Attention (MoSA), a novel approach inspired by Mixture of Experts (MoE) with expert choice routing. MoSA dynamically selects tokens for each attention head, allowing arbitrary sparse attention patterns. By selecting $k$ tokens from a sequence of length $T$, MoSA reduces the computational complexity of each attention head from $O(T^2)$ to $O(k^2 + T)$. This enables using more heads within the same computational budget, allowing higher specialization. We show that among the tested sparse attention variants, MoSA is the only one that can outperform the dense baseline, sometimes with up to 27% better perplexity for an identical compute budget. MoSA can also reduce the resource usage compared to dense self-attention. Despite using torch implementation without an optimized kernel, perplexity-matched MoSA models are simultaneously faster in wall-clock time, require less memory for training, and drastically reduce the size of the KV-cache compared to the dense transformer baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-01T05:22:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Piotr Piękos</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.21082v1</id>
+    <title>Can Video Diffusion Model Reconstruct 4D Geometry?</title>
+    <updated>2025-03-27T01:44:46Z</updated>
+    <link href="https://arxiv.org/abs/2503.21082v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.21082v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reconstructing dynamic 3D scenes (i.e., 4D geometry) from monocular video is an important yet challenging problem. Conventional multiview geometry-based approaches often struggle with dynamic motion, whereas recent learning-based methods either require specialized 4D representation or sophisticated optimization. In this paper, we present Sora3R, a novel framework that taps into the rich spatiotemporal priors of large-scale video diffusion models to directly infer 4D pointmaps from casual videos. Sora3R follows a two-stage pipeline: (1) we adapt a pointmap VAE from a pretrained video VAE, ensuring compatibility between the geometry and video latent spaces; (2) we finetune a diffusion backbone in combined video and pointmap latent space to generate coherent 4D pointmaps for every frame. Sora3R operates in a fully feedforward manner, requiring no external modules (e.g., depth, optical flow, or segmentation) or iterative global alignment. Extensive experiments demonstrate that Sora3R reliably recovers both camera poses and detailed scene geometry, achieving performance on par with state-of-the-art methods for dynamic 4D reconstruction across diverse scenarios.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-27T01:44:46Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jinjie Mai</name>
+    </author>
+    <author>
+      <name>Wenxuan Zhu</name>
+    </author>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Cheng Zheng</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Bernard Ghanem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13431v1</id>
+    <title>Measuring In-Context Computation Complexity via Hidden State Prediction</title>
+    <updated>2025-03-17T17:56:14Z</updated>
+    <link href="https://arxiv.org/abs/2503.13431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detecting when a neural sequence model does "interesting" computation is an open problem. The next token prediction loss is a poor indicator: Low loss can stem from trivially predictable sequences that are uninteresting, while high loss may reflect unpredictable but also irrelevant information that can be ignored by the model. We propose a better metric: measuring the model's ability to predict its own future hidden states. We show empirically that this metric -- in contrast to the next token prediction loss -- correlates with the intuitive interestingness of the task. To measure predictability, we introduce the architecture-agnostic "prediction of hidden states" (PHi) layer that serves as an information bottleneck on the main pathway of the network (e.g., the residual stream in Transformers). We propose a novel learned predictive prior that enables us to measure the novel information gained in each computation step, which serves as our metric. We show empirically that our metric predicts the description length of formal languages learned in-context, the complexity of mathematical reasoning problems, and the correctness of self-generated reasoning chains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T17:56:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.08275v3</id>
+    <title>Beyond Outlining: Heterogeneous Recursive Planning for Adaptive Long-form Writing with Language Models</title>
+    <updated>2025-09-24T02:56:18Z</updated>
+    <link href="https://arxiv.org/abs/2503.08275v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.08275v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-form writing agents require flexible integration and interaction across information retrieval, reasoning, and composition. Current approaches rely on predefined workflows and rigid thinking patterns to generate outlines before writing, resulting in constrained adaptability during writing. In this paper we propose WriteHERE, a general agent framework that achieves human-like adaptive writing through recursive task decomposition and dynamic integration of three fundamental task types: retrieval, reasoning, and composition. Our methodology features: 1) a planning mechanism that interleaves recursive task decomposition and execution, eliminating artificial restrictions on writing workflow; and 2) integration of task types that facilitates heterogeneous task decomposition. Evaluations on both fiction writing and technical report generation show that our method consistently outperforms state-of-the-art approaches across all automatic evaluation metrics, demonstrating the effectiveness and broad applicability of our proposed framework. We have publicly released our code and prompts to facilitate further research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-11T10:43:01Z</published>
+    <arxiv:comment>37 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ruibin Xiong</name>
+    </author>
+    <author>
+      <name>Yimeng Chen</name>
+    </author>
+    <author>
+      <name>Dmitrii Khizbullin</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05672v2</id>
+    <title>On the Convergence and Stability of Upside-Down Reinforcement Learning, Goal-Conditioned Supervised Learning, and Online Decision Transformers</title>
+    <updated>2025-11-11T14:46:07Z</updated>
+    <link href="https://arxiv.org/abs/2502.05672v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05672v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article provides a rigorous analysis of convergence and stability of Episodic Upside-Down Reinforcement Learning, Goal-Conditioned Supervised Learning and Online Decision Transformers. These algorithms performed competitively across various benchmarks, from games to robotic tasks, but their theoretical understanding is limited to specific environmental conditions. This work initiates a theoretical foundation for algorithms that build on the broad paradigm of approaching reinforcement learning through supervised learning or sequence modeling. At the core of this investigation lies the analysis of conditions on the underlying environment, under which the algorithms can identify optimal solutions. We also assess whether emerging solutions remain stable in situations where the environment is subject to tiny levels of noise. Specifically, we study the continuity and asymptotic convergence of command-conditioned policies, values and the goal-reaching objective depending on the transition kernel of the underlying Markov Decision Process. We demonstrate that near-optimal behavior is achieved if the transition kernel is located in a sufficiently small neighborhood of a deterministic kernel. The mentioned quantities are continuous (with respect to a specific topology) at deterministic kernels, both asymptotically and after a finite number of learning cycles. The developed methods allow us to present the first explicit estimates on the convergence and stability of policies and values in terms of the underlying transition kernels. On the theoretical side we introduce a number of new concepts to reinforcement learning, like working in segment spaces, studying continuity in quotient topologies and the application of the fixed-point theory of dynamical systems. The theoretical study is accompanied by a detailed investigation of example environments and numerical experiments.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-08T19:26:22Z</published>
+    <arxiv:comment>85 pages in main text + 4 pages of references + 26 pages of appendices, 12 figures in main text + 2 figures in appendices; source code available at https://github.com/struplm/eUDRL-GCSL-ODT-Convergence-public</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Miroslav Štrupl</name>
+    </author>
+    <author>
+      <name>Oleg Szehr</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.16288v2</id>
+    <title>Upside Down Reinforcement Learning with Policy Generators</title>
+    <updated>2025-01-28T13:05:53Z</updated>
+    <link href="https://arxiv.org/abs/2501.16288v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.16288v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Upside Down Reinforcement Learning (UDRL) is a promising framework for solving reinforcement learning problems which focuses on learning command-conditioned policies. In this work, we extend UDRL to the task of learning a command-conditioned generator of deep neural network policies. We accomplish this using Hypernetworks - a variant of Fast Weight Programmers, which learn to decode input commands representing a desired expected return into command-specific weight matrices. Our method, dubbed Upside Down Reinforcement Learning with Policy Generators (UDRLPG), streamlines comparable techniques by removing the need for an evaluator or critic to update the weights of the generator. To counteract the increased variance in last returns caused by not having an evaluator, we decouple the sampling probability of the buffer from the absolute number of policies in it, which, together with a simple weighting strategy, improves the empirical convergence of the algorithm. Compared with existing algorithms, UDRLPG achieves competitive performance and high returns, sometimes outperforming more complex architectures. Our experiments show that a trained generator can generalize to create policies that achieve unseen returns zero-shot. The proposed method appears to be effective in mitigating some of the challenges associated with learning highly multimodal functions. Altogether, we believe that UDRLPG represents a promising step forward in achieving greater empirical sample efficiency in RL. A full implementation of UDRLPG is publicly available at https://github.com/JacopoD/udrlpg_</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-27T18:25:04Z</published>
+    <arxiv:comment>4 pages in main text, 4 figures in main text; source code available at https://github.com/JacopoD/udrlpg_</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jacopo Di Ventura</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.03624v1</id>
+    <title>How to Correctly do Semantic Backpropagation on Language-based Agentic Systems</title>
+    <updated>2024-12-04T15:52:03Z</updated>
+    <link href="https://arxiv.org/abs/2412.03624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.03624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-based agentic systems have shown great promise in recent years, transitioning from solving small-scale research problems to being deployed in challenging real-world tasks. However, optimizing these systems often requires substantial manual labor. Recent studies have demonstrated that these systems can be represented as computational graphs, enabling automatic optimization. Despite these advancements, most current efforts in Graph-based Agentic System Optimization (GASO) fail to properly assign feedback to the system's components given feedback on the system's output. To address this challenge, we formalize the concept of semantic backpropagation with semantic gradients -- a generalization that aligns several key optimization techniques, including reverse-mode automatic differentiation and the more recent TextGrad by exploiting the relationship among nodes with a common successor. This serves as a method for computing directional information about how changes to each component of an agentic system might improve the system's output. To use these gradients, we propose a method called semantic gradient descent which enables us to solve GASO effectively. Our results on both BIG-Bench Hard and GSM8K show that our approach outperforms existing state-of-the-art methods for solving GASO problems. A detailed ablation study on the LIAR dataset demonstrates the parsimonious nature of our method. A full copy of our implementation is publicly available at https://github.com/HishamAlyahya/semantic_backprop</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-04T15:52:03Z</published>
+    <arxiv:comment>11 pages in main text + 2 pages of references + 15 pages of appendices, 2 figures in main text + 17 figures in appendices, 2 tables in main text + 1 table in appendices, 2 algorithms in main text; source code available at https://github.com/HishamAlyahya/semantic_backprop</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Hisham A. Alyahya</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Oleg Serikov</name>
+    </author>
+    <author>
+      <name>Dmitrii Khizbullin</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.07772v2</id>
+    <title>Automatic Album Sequencing</title>
+    <updated>2024-11-26T14:55:05Z</updated>
+    <link href="https://arxiv.org/abs/2411.07772v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.07772v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Album sequencing is a critical part of the album production process. Recently, a data-driven approach was proposed that sequences general collections of independent media by extracting the narrative essence of the items in the collections. While this approach implies an album sequencing technique, it is not widely accessible to a less technical audience, requiring advanced knowledge of machine learning techniques to use. To address this, we introduce a new user-friendly web-based tool that allows a less technical audience to upload music tracks, execute this technique in one click, and subsequently presents the result in a clean visualization to the user. To both increase the number of templates available to the user and address shortcomings of previous work, we also introduce a new direct transformer-based album sequencing method. We find that our more direct method outperforms a random baseline but does not reach the same performance as the narrative essence approach. Both methods are included in our web-based user interface, and this -- alongside a full copy of our implementation -- is publicly available at https://github.com/dylanashley/automatic-album-sequencing</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-12T13:13:20Z</published>
+    <arxiv:comment>presented as a late breaking demo in the 25th International Society for Music Information Retrieval Conference; 3 pages in main text + 1 page of references, 3 figures in main text; source code available at https://github.com/dylanashley/automatic-album-sequencing</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.20922v2</id>
+    <title>FACTS: A Factored State-Space Framework For World Modelling</title>
+    <updated>2025-02-28T08:20:18Z</updated>
+    <link href="https://arxiv.org/abs/2410.20922v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.20922v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World modelling is essential for understanding and predicting the dynamics of complex systems by learning both spatial and temporal dependencies. However, current frameworks, such as Transformers and selective state-space models like Mambas, exhibit limitations in efficiently encoding spatial and temporal structures, particularly in scenarios requiring long-term high-dimensional sequence modelling. To address these issues, we propose a novel recurrent framework, the \textbf{FACT}ored \textbf{S}tate-space (\textbf{FACTS}) model, for spatial-temporal world modelling. The FACTS framework constructs a graph-structured memory with a routing mechanism that learns permutable memory representations, ensuring invariance to input permutations while adapting through selective state-space propagation. Furthermore, FACTS supports parallel computation of high-dimensional sequences. We empirically evaluate FACTS across diverse tasks, including multivariate time series forecasting, object-centric world modelling, and spatial-temporal graph prediction, demonstrating that it consistently outperforms or matches specialised state-of-the-art models, despite its general-purpose world modelling design.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T11:04:42Z</published>
+    <arxiv:comment>Code released in https://github.com/NanboLi/FACTS</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>ICLR 2025</arxiv:journal_ref>
+    <author>
+      <name>Li Nanbo</name>
+    </author>
+    <author>
+      <name>Firas Laakom</name>
+    </author>
+    <author>
+      <name>Yucheng Xu</name>
+    </author>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.20280v1</id>
+    <title>MarDini: Masked Autoregressive Diffusion for Video Generation at Scale</title>
+    <updated>2024-10-26T21:12:32Z</updated>
+    <link href="https://arxiv.org/abs/2410.20280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.20280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MarDini, a new family of video diffusion models that integrate the advantages of masked auto-regression (MAR) into a unified diffusion model (DM) framework. Here, MAR handles temporal planning, while DM focuses on spatial generation in an asymmetric network design: i) a MAR-based planning model containing most of the parameters generates planning signals for each masked frame using low-resolution input; ii) a lightweight generation model uses these signals to produce high-resolution frames via diffusion de-noising. MarDini's MAR enables video generation conditioned on any number of masked frames at any frame positions: a single model can handle video interpolation (e.g., masking middle frames), image-to-video generation (e.g., masking from the second frame onward), and video expansion (e.g., masking half the frames). The efficient design allocates most of the computational resources to the low-resolution planning model, making computationally expensive but important spatio-temporal attention feasible at scale. MarDini sets a new state-of-the-art for video interpolation; meanwhile, within few inference steps, it efficiently generates videos on par with those of much more expensive advanced image-to-video models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-26T21:12:32Z</published>
+    <arxiv:comment>Project Page: https://mardini-vidgen.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Shikun Liu</name>
+    </author>
+    <author>
+      <name>Zijian Zhou</name>
+    </author>
+    <author>
+      <name>Mengmeng Xu</name>
+    </author>
+    <author>
+      <name>Yanping Xie</name>
+    </author>
+    <author>
+      <name>Xiao Han</name>
+    </author>
+    <author>
+      <name>Juan C. Pérez</name>
+    </author>
+    <author>
+      <name>Ding Liu</name>
+    </author>
+    <author>
+      <name>Kumara Kahatapitiya</name>
+    </author>
+    <author>
+      <name>Menglin Jia</name>
+    </author>
+    <author>
+      <name>Jui-Chieh Wu</name>
+    </author>
+    <author>
+      <name>Sen He</name>
+    </author>
+    <author>
+      <name>Tao Xiang</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Juan-Manuel Pérez-Rúa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10934v2</id>
+    <title>Agent-as-a-Judge: Evaluate Agents with Agents</title>
+    <updated>2024-10-16T17:54:12Z</updated>
+    <link href="https://arxiv.org/abs/2410.10934v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10934v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solving process. We apply the Agent-as-a-Judge to the task of code generation. To overcome issues with existing benchmarks and provide a proof-of-concept testbed for Agent-as-a-Judge, we present DevAI, a new benchmark of 55 realistic automated AI development tasks. It includes rich manual annotations, like a total of 365 hierarchical user requirements. We benchmark three of the popular agentic systems using Agent-as-a-Judge and find it dramatically outperforms LLM-as-a-Judge and is as reliable as our human evaluation baseline. Altogether, we believe that Agent-as-a-Judge marks a concrete step forward for modern agentic systems -- by providing rich and reliable reward signals necessary for dynamic and scalable self-improvement.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T17:57:02Z</published>
+    <arxiv:comment>The project can be found at https://github.com/metauto-ai/agent-as-a-judge. The dataset is released at https://huggingface.co/DEVAI-benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Changsheng Zhao</name>
+    </author>
+    <author>
+      <name>Dylan Ashley</name>
+    </author>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Dmitrii Khizbullin</name>
+    </author>
+    <author>
+      <name>Yunyang Xiong</name>
+    </author>
+    <author>
+      <name>Zechun Liu</name>
+    </author>
+    <author>
+      <name>Ernie Chang</name>
+    </author>
+    <author>
+      <name>Raghuraman Krishnamoorthi</name>
+    </author>
+    <author>
+      <name>Yuandong Tian</name>
+    </author>
+    <author>
+      <name>Yangyang Shi</name>
+    </author>
+    <author>
+      <name>Vikas Chandra</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.16931v1</id>
+    <title>ScholarChemQA: Unveiling the Power of Language Models in Chemical Research Question Answering</title>
+    <updated>2024-07-24T01:46:55Z</updated>
+    <link href="https://arxiv.org/abs/2407.16931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.16931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Question Answering (QA) effectively evaluates language models' reasoning and knowledge depth. While QA datasets are plentiful in areas like general domain and biomedicine, academic chemistry is less explored. Chemical QA plays a crucial role in both education and research by effectively translating complex chemical information into readily understandable format. Addressing this gap, we introduce ScholarChemQA, a large-scale QA dataset constructed from chemical papers. This dataset reflects typical real-world challenges, including an imbalanced data distribution and a substantial amount of unlabeled data that can be potentially useful. Correspondingly, we introduce a QAMatch model, specifically designed to effectively answer chemical questions by fully leveraging our collected data. We first address the issue of imbalanced label distribution by re-weighting the instance-wise loss based on the inverse frequency of each class, ensuring minority classes are not dominated by majority ones during optimization. Next, we utilize the unlabeled data to enrich the learning process, generating a variety of augmentations based on a SoftMix operation and ensuring their predictions align with the same target, i.e., pseudo-labels. To ensure the quality of the pseudo-labels, we propose a calibration procedure aimed at closely aligning the pseudo-label estimates of individual samples with a desired ground truth distribution. Experiments show that our QAMatch significantly outperforms the recent similar-scale baselines and Large Language Models (LLMs) not only on our ScholarChemQA dataset but also on four benchmark datasets. We hope our benchmark and model can facilitate and promote more research on chemical QA.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-24T01:46:55Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiuying Chen</name>
+    </author>
+    <author>
+      <name>Tairan Wang</name>
+    </author>
+    <author>
+      <name>Taicheng Guo</name>
+    </author>
+    <author>
+      <name>Kehan Guo</name>
+    </author>
+    <author>
+      <name>Juexiao Zhou</name>
+    </author>
+    <author>
+      <name>Haoyang Li</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Xin Gao</name>
+    </author>
+    <author>
+      <name>Xiangliang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.12679v1</id>
+    <title>Goldfish: Vision-Language Understanding of Arbitrarily Long Videos</title>
+    <updated>2024-07-17T15:59:32Z</updated>
+    <link href="https://arxiv.org/abs/2407.12679v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.12679v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most current LLM-based models for video understanding can process videos within minutes. However, they struggle with lengthy videos due to challenges such as "noise and redundancy", as well as "memory and computation" constraints. In this paper, we present Goldfish, a methodology tailored for comprehending videos of arbitrary lengths. We also introduce the TVQA-long benchmark, specifically designed to evaluate models' capabilities in understanding long videos with questions in both vision and text content. Goldfish approaches these challenges with an efficient retrieval mechanism that initially gathers the top-k video clips relevant to the instruction before proceeding to provide the desired response. This design of the retrieval mechanism enables the Goldfish to efficiently process arbitrarily long video sequences, facilitating its application in contexts such as movies or television series. To facilitate the retrieval process, we developed MiniGPT4-Video that generates detailed descriptions for the video clips. In addressing the scarcity of benchmarks for long video evaluation, we adapted the TVQA short video benchmark for extended content analysis by aggregating questions from entire episodes, thereby shifting the evaluation from partial to full episode comprehension. We attained a 41.78% accuracy rate on the TVQA-long benchmark, surpassing previous methods by 14.94%. Our MiniGPT4-Video also shows exceptional performance in short video comprehension, exceeding existing state-of-the-art methods by 3.23%, 2.03%, 16.5% and 23.59% on the MSVD, MSRVTT, TGIF, and TVQA short video benchmarks, respectively. These results indicate that our models have significant improvements in both long and short-video understanding. Our models and code have been made publicly available at https://vision-cair.github.io/Goldfish_website/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-17T15:59:32Z</published>
+    <arxiv:comment>25 pages, 11 figures, accepted by ECCV 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kirolos Ataallah</name>
+    </author>
+    <author>
+      <name>Xiaoqian Shen</name>
+    </author>
+    <author>
+      <name>Eslam Abdelrahman</name>
+    </author>
+    <author>
+      <name>Essam Sleiman</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jian Ding</name>
+    </author>
+    <author>
+      <name>Deyao Zhu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Mohamed Elhoseiny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.09685v2</id>
+    <title>Accelerating the inference of string generation-based chemical reaction models for industrial applications</title>
+    <updated>2024-07-17T10:43:17Z</updated>
+    <link href="https://arxiv.org/abs/2407.09685v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.09685v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Template-free SMILES-to-SMILES translation models for reaction prediction and single-step retrosynthesis are of interest for industrial applications in computer-aided synthesis planning systems due to their state-of-the-art accuracy. However, they suffer from slow inference speed. We present a method to accelerate inference in autoregressive SMILES generators through speculative decoding by copying query string subsequences into target strings in the right places. We apply our method to the molecular transformer implemented in Pytorch Lightning and achieve over 3X faster inference in reaction prediction and single-step retrosynthesis, with no loss in accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-12T20:55:59Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mikhail Andronov</name>
+    </author>
+    <author>
+      <name>Natalia Andronova</name>
+    </author>
+    <author>
+      <name>Michael Wand</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Djork-Arné Clevert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08404v2</id>
+    <title>Scaling Value Iteration Networks to 5000 Layers for Extreme Long-Term Planning</title>
+    <updated>2025-07-06T07:48:39Z</updated>
+    <link href="https://arxiv.org/abs/2406.08404v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08404v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Value Iteration Network (VIN) is an end-to-end differentiable neural network architecture for planning. It exhibits strong generalization to unseen domains by incorporating a differentiable planning module that operates on a latent Markov Decision Process (MDP). However, VINs struggle to scale to long-term and large-scale planning tasks, such as navigating a 100x100 maze -- a task that typically requires thousands of planning steps to solve. We observe that this deficiency is due to two issues: the representation capacity of the latent MDP and the planning module's depth. We address these by augmenting the latent MDP with a dynamic transition kernel, dramatically improving its representational capacity, and, to mitigate the vanishing gradient problem, introduce an "adaptive highway loss" that constructs skip connections to improve gradient flow. We evaluate our method on 2D/3D maze navigation environments, continuous control, and the real-world Lunar rover navigation task. We find that our new method, named Dynamic Transition VIN (DT-VIN), scales to 5000 layers and solves challenging versions of the above tasks. Altogether, we believe that DT-VIN represents a concrete step forward in performing long-term large-scale planning in complex environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-12T16:52:54Z</published>
+    <arxiv:comment>ICML 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Qingyuan Wu</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Weida Li</name>
+    </author>
+    <author>
+      <name>Chao Huang</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.03485v1</id>
+    <title>Highway Value Iteration Networks</title>
+    <updated>2024-06-05T17:46:26Z</updated>
+    <link href="https://arxiv.org/abs/2406.03485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.03485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Value iteration networks (VINs) enable end-to-end learning for planning tasks by employing a differentiable "planning module" that approximates the value iteration algorithm. However, long-term planning remains a challenge because training very deep VINs is difficult. To address this problem, we embed highway value iteration -- a recent algorithm designed to facilitate long-term credit assignment -- into the structure of VINs. This improvement augments the "planning module" of the VIN with three additional components: 1) an "aggregate gate," which constructs skip connections to improve information flow across many layers; 2) an "exploration module," crafted to increase the diversity of information and gradient flow in spatial dimensions; 3) a "filter gate" designed to ensure safe exploration. The resulting novel highway VIN can be trained effectively with hundreds of layers using standard backpropagation. In long-term planning tasks requiring hundreds of planning steps, deep highway VINs outperform both traditional VINs and several advanced, very deep NNs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-05T17:46:26Z</published>
+    <arxiv:comment>ICML 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Weida Li</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Qingyuan Wu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.18289v1</id>
+    <title>Highway Reinforcement Learning</title>
+    <updated>2024-05-28T15:42:45Z</updated>
+    <link href="https://arxiv.org/abs/2405.18289v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.18289v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning from multi-step off-policy data collected by a set of policies is a core problem of reinforcement learning (RL). Approaches based on importance sampling (IS) often suffer from large variances due to products of IS ratios. Typical IS-free methods, such as $n$-step Q-learning, look ahead for $n$ time steps along the trajectory of actions (where $n$ is called the lookahead depth) and utilize off-policy data directly without any additional adjustment. They work well for proper choices of $n$. We show, however, that such IS-free methods underestimate the optimal value function (VF), especially for large $n$, restricting their capacity to efficiently utilize information from distant future time steps. To overcome this problem, we introduce a novel, IS-free, multi-step off-policy method that avoids the underestimation issue and converges to the optimal VF. At its core lies a simple but non-trivial \emph{highway gate}, which controls the information flow from the distant future by comparing it to a threshold. The highway gate guarantees convergence to the optimal VF for arbitrary $n$ and arbitrary behavioral policies. It gives rise to a novel family of off-policy RL algorithms that safely learn even when $n$ is very large, facilitating rapid credit assignment from the far future to the past. On tasks with greatly delayed rewards, including video games where the reward is given only at the end of the game, our new methods outperform many existing multi-step off-policy algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-28T15:42:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Miroslav Strupl</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Qingyuan Wu</name>
+    </author>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Michał Grudzień</name>
+    </author>
+    <author>
+      <name>Xiaoyang Tan</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.17283v3</id>
+    <title>Recurrent Complex-Weighted Autoencoders for Unsupervised Object Discovery</title>
+    <updated>2024-10-28T13:58:44Z</updated>
+    <link href="https://arxiv.org/abs/2405.17283v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.17283v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current state-of-the-art synchrony-based models encode object bindings with complex-valued activations and compute with real-valued weights in feedforward architectures. We argue for the computational advantages of a recurrent architecture with complex-valued weights. We propose a fully convolutional autoencoder, SynCx, that performs iterative constraint satisfaction: at each iteration, a hidden layer bottleneck encodes statistically regular configurations of features in particular phase relationships; over iterations, local constraints propagate and the model converges to a globally consistent configuration of phase assignments. Binding is achieved simply by the matrix-vector product operation between complex-valued weights and activations, without the need for additional mechanisms that have been incorporated into current synchrony-based models. SynCx outperforms or is strongly competitive with current models for unsupervised object discovery. SynCx also avoids certain systematic grouping errors of current models, such as the inability to separate similarly colored objects without additional supervision.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-27T15:47:03Z</published>
+    <arxiv:comment>NeurIPS 2024 camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Michael Curtis Mozer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.16039v2</id>
+    <title>MoEUT: Mixture-of-Experts Universal Transformers</title>
+    <updated>2024-10-13T04:46:00Z</updated>
+    <link href="https://arxiv.org/abs/2405.16039v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.16039v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previous work on Universal Transformers (UTs) has demonstrated the importance of parameter sharing across layers. By allowing recurrence in depth, UTs have advantages over standard Transformers in learning compositional generalizations, but layer-sharing comes with a practical limitation of parameter-compute ratio: it drastically reduces the parameter count compared to the non-shared model with the same dimensionality. Naively scaling up the layer size to compensate for the loss of parameters makes its computational resource requirements prohibitive. In practice, no previous work has succeeded in proposing a shared-layer Transformer design that is competitive in parameter count-dominated tasks such as language modeling. Here we propose MoEUT (pronounced "moot"), an effective mixture-of-experts (MoE)-based shared-layer Transformer architecture, which combines several recent advances in MoEs for both feedforward and attention layers of standard Transformers together with novel layer-normalization and grouping schemes that are specific and crucial to UTs. The resulting UT model, for the first time, slightly outperforms standard Transformers on language modeling tasks such as BLiMP and PIQA, while using significantly less compute and memory.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-25T03:24:32Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Christopher Potts</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.03878v2</id>
+    <title>Sequence Compression Speeds Up Credit Assignment in Reinforcement Learning</title>
+    <updated>2024-06-04T05:28:56Z</updated>
+    <link href="https://arxiv.org/abs/2405.03878v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.03878v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal credit assignment in reinforcement learning is challenging due to delayed and stochastic outcomes. Monte Carlo targets can bridge long delays between action and consequence but lead to high-variance targets due to stochasticity. Temporal difference (TD) learning uses bootstrapping to overcome variance but introduces a bias that can only be corrected through many iterations. TD($λ$) provides a mechanism to navigate this bias-variance tradeoff smoothly. Appropriately selecting $λ$ can significantly improve performance. Here, we propose Chunked-TD, which uses predicted probabilities of transitions from a model for computing $λ$-return targets. Unlike other model-based solutions to credit assignment, Chunked-TD is less vulnerable to model inaccuracies. Our approach is motivated by the principle of history compression and 'chunks' trajectories for conventional TD learning. Chunking with learned world models compresses near-deterministic regions of the environment-policy interaction to speed up credit assignment while still bootstrapping when necessary. We propose algorithms that can be implemented online and show that they solve some problems much faster than conventional TD($λ$).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-06T21:49:29Z</published>
+    <arxiv:comment>ICML 2024 version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aditya A. Ramesh</name>
+    </author>
+    <author>
+      <name>Kenny Young</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00466v1</id>
+    <title>Lazy Layers to Make Fine-Tuned Diffusion Models More Traceable</title>
+    <updated>2024-05-01T12:03:39Z</updated>
+    <link href="https://arxiv.org/abs/2405.00466v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00466v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundational generative models should be traceable to protect their owners and facilitate safety regulation. To achieve this, traditional approaches embed identifiers based on supervisory trigger-response signals, which are commonly known as backdoor watermarks. They are prone to failure when the model is fine-tuned with nontrigger data. Our experiments show that this vulnerability is due to energetic changes in only a few 'busy' layers during fine-tuning. This yields a novel arbitrary-in-arbitrary-out (AIAO) strategy that makes watermarks resilient to fine-tuning-based removal. The trigger-response pairs of AIAO samples across various neural network depths can be used to construct watermarked subpaths, employing Monte Carlo sampling to achieve stable verification results. In addition, unlike the existing methods of designing a backdoor for the input/output space of diffusion models, in our method, we propose to embed the backdoor into the feature space of sampled subpaths, where a mask-controlled trigger function is proposed to preserve the generation performance and ensure the invisibility of the embedded backdoor. Our empirical studies on the MS-COCO, AFHQ, LSUN, CUB-200, and DreamBooth datasets confirm the robustness of AIAO; while the verification rates of other trigger-based methods fall from ~90% to ~70% after fine-tuning, those of our method remain consistently above 90%.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-01T12:03:39Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Wentian Zhang</name>
+    </author>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Bernard Ghanem</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.08093v2</id>
+    <title>Towards a Robust Soft Baby Robot With Rich Interaction Ability for Advanced Machine Learning Algorithms</title>
+    <updated>2024-12-04T14:45:23Z</updated>
+    <link href="https://arxiv.org/abs/2404.08093v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.08093v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advanced machine learning algorithms require platforms that are extremely robust and equipped with rich sensory feedback to handle extensive trial-and-error learning without relying on strong inductive biases. Traditional robotic designs, while well-suited for their specific use cases, are often fragile when used with these algorithms. To address this gap -- and inspired by the vision of enabling curiosity-driven baby robots -- we present a novel robotic limb designed from scratch. Our design has a hybrid soft-hard structure, high redundancy with rich non-contact sensors (exclusively cameras), and easily replaceable failure points. Proof-of-concept experiments using two contemporary reinforcement learning algorithms on a physical prototype demonstrate that our design is able to succeed in a simple target-finding task even under simulated sensor failures, all with minimal human oversight during extended learning periods. We believe this design represents a concrete step toward more tailored robotic designs for achieving general-purpose, generally intelligent robots.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-11T19:15:45Z</published>
+    <arxiv:comment>6 pages in main text + 2 pages of references, 8 figures in main text, 1 table in main text; source code available at https://github.com/dylanashley/robot-limb-testai</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Mohannad Alhakami</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Joel Dunham</name>
+    </author>
+    <author>
+      <name>Yanning Dai</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Eric Feron</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.02747v3</id>
+    <title>Faster Diffusion via Temporal Attention Decomposition</title>
+    <updated>2025-02-26T10:49:33Z</updated>
+    <link href="https://arxiv.org/abs/2404.02747v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.02747v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the role of attention mechanism during inference in text-conditional diffusion models. Empirical observations suggest that cross-attention outputs converge to a fixed point after several inference steps. The convergence time naturally divides the entire inference process into two phases: an initial phase for planning text-oriented visual semantics, which are then translated into images in a subsequent fidelity-improving phase. Cross-attention is essential in the initial phase but almost irrelevant thereafter. However, self-attention initially plays a minor role but becomes crucial in the second phase. These findings yield a simple and training-free method known as temporally gating the attention (TGATE), which efficiently generates images by caching and reusing attention outputs at scheduled time steps. Experimental results show when widely applied to various existing text-conditional diffusion models, TGATE accelerates these models by 10%-50%. The code of TGATE is available at https://github.com/HaozheLiu-ST/T-GATE.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-03T13:44:41Z</published>
+    <arxiv:comment>Accepted by TMLR: https://openreview.net/forum?id=xXs2GKXPnH</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Wentian Zhang</name>
+    </author>
+    <author>
+      <name>Jinheng Xie</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Mengmeng Xu</name>
+    </author>
+    <author>
+      <name>Tao Xiang</name>
+    </author>
+    <author>
+      <name>Mike Zheng Shou</name>
+    </author>
+    <author>
+      <name>Juan-Manuel Perez-Rua</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.11998v2</id>
+    <title>Learning Useful Representations of Recurrent Neural Network Weight Matrices</title>
+    <updated>2024-06-18T15:27:16Z</updated>
+    <link href="https://arxiv.org/abs/2403.11998v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.11998v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent Neural Networks (RNNs) are general-purpose parallel-sequential computers. The program of an RNN is its weight matrix. How to learn useful representations of RNN weights that facilitate RNN analysis as well as downstream tasks? While the mechanistic approach directly looks at some RNN's weights to predict its behavior, the functionalist approach analyzes its overall functionality-specifically, its input-output mapping. We consider several mechanistic approaches for RNN weights and adapt the permutation equivariant Deep Weight Space layer for RNNs. Our two novel functionalist approaches extract information from RNN weights by 'interrogating' the RNN through probing inputs. We develop a theoretical framework that demonstrates conditions under which the functionalist approach can generate rich representations that help determine RNN behavior. We release the first two 'model zoo' datasets for RNN weight representation learning. One consists of generative models of a class of formal languages, and the other one of classifiers of sequentially processed MNIST digits. With the help of an emulation-based self-supervised learning technique we compare and evaluate the different RNN weight encoding techniques on multiple downstream applications. On the most challenging one, namely predicting which exact task the RNN was trained on, functionalist approaches show clear superiority.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-18T17:32:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.16823v3</id>
+    <title>Language Agents as Optimizable Graphs</title>
+    <updated>2024-08-22T13:06:51Z</updated>
+    <link href="https://arxiv.org/abs/2402.16823v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.16823v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Various human-designed prompt engineering techniques have been proposed to improve problem solvers based on Large Language Models (LLMs), yielding many disparate code bases. We unify these approaches by describing LLM-based agents as computational graphs. The nodes implement functions to process multimodal data or query LLMs, and the edges describe the information flow between operations. Graphs can be recursively combined into larger composite graphs representing hierarchies of inter-agent collaboration (where edges connect operations of different agents). Our novel automatic graph optimizers (1) refine node-level LLM prompts (node optimization) and (2) improve agent orchestration by changing graph connectivity (edge optimization). Experiments demonstrate that our framework can be used to efficiently develop, integrate, and automatically improve various LLM agents. The code can be found at https://github.com/metauto-ai/gptswarm.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-26T18:48:27Z</published>
+    <arxiv:comment>Project Website: https://gptswarm.org ; Github Repo: https://github.com/metauto-ai/gptswarm . In Forty-first International Conference on Machine Learning (2024)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Dmitrii Khizbullin</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.03141v2</id>
+    <title>Boosting Reinforcement Learning with Strongly Delayed Feedback Through Auxiliary Short Delays</title>
+    <updated>2024-06-05T19:12:37Z</updated>
+    <link href="https://arxiv.org/abs/2402.03141v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.03141v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) is challenging in the common case of delays between events and their sensory perceptions. State-of-the-art (SOTA) state augmentation techniques either suffer from state space explosion or performance degeneration in stochastic environments. To address these challenges, we present a novel Auxiliary-Delayed Reinforcement Learning (AD-RL) method that leverages auxiliary tasks involving short delays to accelerate RL with long delays, without compromising performance in stochastic environments. Specifically, AD-RL learns a value function for short delays and uses bootstrapping and policy improvement techniques to adjust it for long delays. We theoretically show that this can greatly reduce the sample complexity. On deterministic and stochastic benchmarks, our method significantly outperforms the SOTAs in both sample efficiency and policy performance. Code is available at https://github.com/QingyuanWuNothing/AD-RL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-05T16:11:03Z</published>
+    <arxiv:comment>ICML 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qingyuan Wu</name>
+    </author>
+    <author>
+      <name>Simon Sinong Zhan</name>
+    </author>
+    <author>
+      <name>Yixuan Wang</name>
+    </author>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Chung-Wei Lin</name>
+    </author>
+    <author>
+      <name>Chen Lv</name>
+    </author>
+    <author>
+      <name>Qi Zhu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Chao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.07987v3</id>
+    <title>SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention</title>
+    <updated>2024-09-30T21:19:29Z</updated>
+    <link href="https://arxiv.org/abs/2312.07987v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.07987v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite many recent works on Mixture of Experts (MoEs) for resource-efficient Transformer language models, existing methods mostly focus on MoEs for feedforward layers. Previous attempts at extending MoE to the self-attention layer fail to match the performance of the parameter-matched baseline. Our novel SwitchHead is an effective MoE method for the attention layer that successfully reduces both the compute and memory requirements, achieving wall-clock speedup, while matching the language modeling performance of the baseline Transformer. Our novel MoE mechanism allows SwitchHead to compute up to 8 times fewer attention matrices than the standard Transformer. SwitchHead can also be combined with MoE feedforward layers, resulting in fully-MoE "SwitchAll" Transformers. For our 262M parameter model trained on C4, SwitchHead matches the perplexity of standard models with only 44% compute and 27% memory usage. Zero-shot experiments on downstream tasks confirm the performance of SwitchHead, e.g., achieving more than 3.5% absolute improvements on BliMP compared to the baseline with an equal compute resource.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-13T09:00:21Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Piotr Piękos</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.00276v3</id>
+    <title>Metalearning Continual Learning Algorithms</title>
+    <updated>2025-02-17T18:06:07Z</updated>
+    <link href="https://arxiv.org/abs/2312.00276v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.00276v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General-purpose learning systems should improve themselves in open-ended fashion in ever-changing environments. Conventional learning algorithms for neural networks, however, suffer from catastrophic forgetting (CF), i.e., previously acquired skills are forgotten when a new task is learned. Instead of hand-crafting new algorithms for avoiding CF, we propose Automated Continual Learning (ACL) to train self-referential neural networks to metalearn their own in-context continual (meta)learning algorithms. ACL encodes continual learning (CL) desiderata -- good performance on both old and new tasks -- into its metalearning objectives. Our experiments demonstrate that ACL effectively resolves "in-context catastrophic forgetting," a problem that naive in-context learning algorithms suffer from; ACL-learned algorithms outperform both hand-crafted learning algorithms and popular meta-continual learning methods on the Split-MNIST benchmark in the replay-free setting, and enables continual learning of diverse tasks consisting of multiple standard image classification datasets. We also discuss the current limitations of in-context CL by comparing ACL with state-of-the-art CL methods that leverage pre-trained models. Overall, we bring several novel perspectives into the long-standing problem of CL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-01T01:25:04Z</published>
+    <arxiv:comment>Accepted to TMLR 02/2025. An earlier version of this work titled "Automating Continual Learning" was made available online in 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.08525v1</id>
+    <title>Efficient Rotation Invariance in Deep Neural Networks through Artificial Mental Rotation</title>
+    <updated>2023-11-14T20:37:54Z</updated>
+    <link href="https://arxiv.org/abs/2311.08525v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.08525v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans and animals recognize objects irrespective of the beholder's point of view, which may drastically change their appearances. Artificial pattern recognizers also strive to achieve this, e.g., through translational invariance in convolutional neural networks (CNNs). However, both CNNs and vision transformers (ViTs) perform very poorly on rotated inputs. Here we present artificial mental rotation (AMR), a novel deep learning paradigm for dealing with in-plane rotations inspired by the neuro-psychological concept of mental rotation. Our simple AMR implementation works with all common CNN and ViT architectures. We test it on ImageNet, Stanford Cars, and Oxford Pet. With a top-1 error (averaged across datasets and architectures) of $0.743$, AMR outperforms the current state of the art (rotational data augmentation, average top-1 error of $0.626$) by $19\%$. We also easily transfer a trained AMR module to a downstream task to improve the performance of a pre-trained semantic segmentation model on rotated CoCo from $32.7$ to $55.2$ IoU.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-14T20:37:54Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lukas Tuggener</name>
+    </author>
+    <author>
+      <name>Thilo Stadelmann</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.07534v2</id>
+    <title>Unsupervised Musical Object Discovery from Audio</title>
+    <updated>2023-11-14T08:15:25Z</updated>
+    <link href="https://arxiv.org/abs/2311.07534v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.07534v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current object-centric learning models such as the popular SlotAttention architecture allow for unsupervised visual scene decomposition. Our novel MusicSlots method adapts SlotAttention to the audio domain, to achieve unsupervised music decomposition. Since concepts of opacity and occlusion in vision have no auditory analogues, the softmax normalization of alpha masks in the decoders of visual object-centric models is not well-suited for decomposing audio objects. MusicSlots overcomes this problem. We introduce a spectrogram-based multi-object music dataset tailored to evaluate object-centric learning on western tonal music. MusicSlots achieves good performance on unsupervised note discovery and outperforms several established baselines on supervised note property prediction tasks.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-13T18:21:33Z</published>
+    <arxiv:comment>Accepted to Machine Learning for Audio Workshop, NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Joonsu Gha</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Benjamin Grewe</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.16076v1</id>
+    <title>Practical Computational Power of Linear Transformers and Their Recurrent and Self-Referential Extensions</title>
+    <updated>2023-10-24T17:17:01Z</updated>
+    <link href="https://arxiv.org/abs/2310.16076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.16076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies of the computational power of recurrent neural networks (RNNs) reveal a hierarchy of RNN architectures, given real-time and finite-precision assumptions. Here we study auto-regressive Transformers with linearised attention, a.k.a. linear Transformers (LTs) or Fast Weight Programmers (FWPs). LTs are special in the sense that they are equivalent to RNN-like sequence processors with a fixed-size state, while they can also be expressed as the now-popular self-attention networks. We show that many well-known results for the standard Transformer directly transfer to LTs/FWPs. Our formal language recognition experiments demonstrate how recently proposed FWP extensions such as recurrent FWPs and self-referential weight matrices successfully overcome certain limitations of the LT, e.g., allowing for generalisation on the parity problem. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-24T17:17:01Z</published>
+    <arxiv:comment>Accepted to EMNLP 2023 (short paper)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.10837v3</id>
+    <title>Approximating Two-Layer Feedforward Networks for Efficient Transformers</title>
+    <updated>2023-11-21T13:58:00Z</updated>
+    <link href="https://arxiv.org/abs/2310.10837v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.10837v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How to reduce compute and memory requirements of neural networks (NNs) without sacrificing performance? Many recent works use sparse Mixtures of Experts (MoEs) to build resource-efficient large language models (LMs). Here we introduce several novel perspectives on MoEs, presenting a general framework that unifies various methods to approximate two-layer NNs (e.g., feedforward blocks of Transformers), including product-key memories (PKMs). Leveraging insights from this framework, we propose methods to improve both MoEs and PKMs. Unlike prior work that compares MoEs with dense baselines under the compute-equal condition, our evaluation condition is parameter-equal, which is crucial to properly evaluate LMs. We show that our MoEs are competitive with the dense Transformer-XL on both the WikiText-103 and enwiki8 datasets at two different scales, while being much more resource efficient. This demonstrates that MoEs are relevant not only to extremely large LMs but also to any-scale resource-efficient LMs. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-16T21:23:16Z</published>
+    <arxiv:comment>Accepted to EMNLP 2023 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.11197v1</id>
+    <title>The Languini Kitchen: Enabling Language Modelling Research at Different Scales of Compute</title>
+    <updated>2023-09-20T10:31:17Z</updated>
+    <link href="https://arxiv.org/abs/2309.11197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.11197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Languini Kitchen serves as both a research collective and codebase designed to empower researchers with limited computational resources to contribute meaningfully to the field of language modelling. We introduce an experimental protocol that enables model comparisons based on equivalent compute, measured in accelerator hours. The number of tokens on which a model is trained is defined by the model's throughput and the chosen compute class. Notably, this approach avoids constraints on critical hyperparameters which affect total parameters or floating-point operations. For evaluation, we pre-process an existing large, diverse, and high-quality dataset of books that surpasses existing academic benchmarks in quality, diversity, and document length. On it, we compare methods based on their empirical scaling trends which are estimated through experiments at various levels of compute. This work also provides two baseline models: a feed-forward model derived from the GPT-2 architecture and a recurrent model in the form of a novel LSTM with ten-fold throughput. While the GPT baseline achieves better perplexity throughout all our levels of compute, our LSTM baseline exhibits a predictable and more favourable scaling law. This is due to the improved throughput and the need for fewer training tokens to achieve the same decrease in test perplexity. Extrapolating the scaling laws leads of both models results in an intersection at roughly 50,000 accelerator hours. We hope this work can serve as the foundation for meaningful and reproducible language modelling research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-20T10:31:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Dylan Ashley</name>
+    </author>
+    <author>
+      <name>Oleg Serikov</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Thomas Hofmann</name>
+    </author>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.07795v1</id>
+    <title>Learning to Identify Critical States for Reinforcement Learning from Videos</title>
+    <updated>2023-08-15T14:21:24Z</updated>
+    <link href="https://arxiv.org/abs/2308.07795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.07795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work on deep reinforcement learning (DRL) has pointed out that algorithmic information about good policies can be extracted from offline data which lack explicit information about executed actions. For example, videos of humans or robots may convey a lot of implicit information about rewarding action sequences, but a DRL machine that wants to profit from watching such videos must first learn by itself to identify and recognize relevant states/actions/rewards. Without relying on ground-truth annotations, our new method called Deep State Identifier learns to predict returns from episodes encoded as videos. Then it uses a kind of mask-based sensitivity analysis to extract/identify important critical states. Extensive experiments showcase our method's potential for understanding and improving agent behavior. The source code and the generated datasets are available at https://github.com/AI-Initiative-KAUST/VideoRLCS.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-15T14:21:24Z</published>
+    <arxiv:comment>This paper was accepted to ICCV23</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Bernard Ghanem</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00352v7</id>
+    <title>MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework</title>
+    <updated>2024-11-01T14:36:52Z</updated>
+    <link href="https://arxiv.org/abs/2308.00352v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00352v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at https://github.com/geekan/MetaGPT</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-01T07:49:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sirui Hong</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jiaqi Chen</name>
+    </author>
+    <author>
+      <name>Xiawu Zheng</name>
+    </author>
+    <author>
+      <name>Yuheng Cheng</name>
+    </author>
+    <author>
+      <name>Ceyao Zhang</name>
+    </author>
+    <author>
+      <name>Jinlin Wang</name>
+    </author>
+    <author>
+      <name>Zili Wang</name>
+    </author>
+    <author>
+      <name>Steven Ka Shing Yau</name>
+    </author>
+    <author>
+      <name>Zijuan Lin</name>
+    </author>
+    <author>
+      <name>Liyang Zhou</name>
+    </author>
+    <author>
+      <name>Chenyu Ran</name>
+    </author>
+    <author>
+      <name>Lingfeng Xiao</name>
+    </author>
+    <author>
+      <name>Chenglin Wu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.19044v3</id>
+    <title>Exploring the Promise and Limits of Real-Time Recurrent Learning</title>
+    <updated>2024-02-28T16:40:38Z</updated>
+    <link href="https://arxiv.org/abs/2305.19044v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.19044v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-time recurrent learning (RTRL) for sequence-processing recurrent neural networks (RNNs) offers certain conceptual advantages over backpropagation through time (BPTT). RTRL requires neither caching past activations nor truncating context, and enables online learning. However, RTRL's time and space complexity make it impractical. To overcome this problem, most recent work on RTRL focuses on approximation theories, while experiments are often limited to diagnostic settings. Here we explore the practical promise of RTRL in more realistic settings. We study actor-critic methods that combine RTRL and policy gradients, and test them in several subsets of DMLab-30, ProcGen, and Atari-2600 environments. On DMLab memory tasks, our system trained on fewer than 1.2 B environmental frames is competitive with or outperforms well-known IMPALA and R2D2 baselines trained on 10 B frames. To scale to such challenging tasks, we focus on certain well-known neural architectures with element-wise recurrence, allowing for tractable RTRL without approximation. Importantly, we also discuss rarely addressed limitations of RTRL in real-world applications, such as its complexity in the multi-layer case.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-30T13:59:21Z</published>
+    <arxiv:comment>Accepted to ICLR 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17066v1</id>
+    <title>Mindstorms in Natural Language-Based Societies of Mind</title>
+    <updated>2023-05-26T16:21:25Z</updated>
+    <link href="https://arxiv.org/abs/2305.17066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Both Minsky's "society of mind" and Schmidhuber's "learning to think" inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a "mindstorm." Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents -- all communicating through the same universal symbolic language -- are easily added in a modular fashion. To demonstrate the power of NLSOMs, we assemble and experiment with several of them (having up to 129 members), leveraging mindstorms in them to solve some practical AI tasks: visual question answering, image captioning, text-to-image synthesis, 3D generation, egocentric retrieval, embodied AI, and general language-based task solving. We view this as a starting point towards much larger NLSOMs with billions of agents-some of which may be humans. And with this emergence of great societies of heterogeneous minds, many new research questions have suddenly become paramount to the future of artificial intelligence. What should be the social structure of an NLSOM? What would be the (dis)advantages of having a monarchical rather than a democratic structure? How can principles of NN economies be used to maximize the total reward of a reinforcement learning NLSOM? In this work, we identify, discuss, and try to answer some of these questions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T16:21:25Z</published>
+    <arxiv:comment>9 pages in main text + 7 pages of references + 38 pages of appendices, 14 figures in main text + 13 in appendices, 7 tables in appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>(2025). Computational Visual Media, 11(1), 29-81</arxiv:journal_ref>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Haozhe Liu</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Abdullah Hamdi</name>
+    </author>
+    <author>
+      <name>Hasan Abed Al Kader Hammoud</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Guohao Li</name>
+    </author>
+    <author>
+      <name>Shuming Liu</name>
+    </author>
+    <author>
+      <name>Jinjie Mai</name>
+    </author>
+    <author>
+      <name>Piotr Piękos</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Weimin Shi</name>
+    </author>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Mengmeng Xu</name>
+    </author>
+    <author>
+      <name>Deng-Ping Fan</name>
+    </author>
+    <author>
+      <name>Bernard Ghanem</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.26599/CVM.2025.9450460</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.26599/CVM.2025.9450460" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15001v3</id>
+    <title>Contrastive Training of Complex-Valued Autoencoders for Object Discovery</title>
+    <updated>2023-11-09T13:48:26Z</updated>
+    <link href="https://arxiv.org/abs/2305.15001v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15001v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current state-of-the-art object-centric models use slots and attention-based routing for binding. However, this class of models has several conceptual limitations: the number of slots is hardwired; all slots have equal capacity; training has high computational cost; there are no object-level relational factors within slots. Synchrony-based models in principle can address these limitations by using complex-valued activations which store binding information in their phase components. However, working examples of such synchrony-based models have been developed only very recently, and are still limited to toy grayscale datasets and simultaneous storage of less than three objects in practice. Here we introduce architectural modifications and a novel contrastive learning method that greatly improve the state-of-the-art synchrony-based model. For the first time, we obtain a class of synchrony-based models capable of discovering objects in an unsupervised manner in multi-object color datasets and simultaneously representing more than three objects.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T10:37:43Z</published>
+    <arxiv:comment>accepted to NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+</feed>

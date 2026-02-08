@@ -1,0 +1,1260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//gJBG/FayfX9r9SpeWXAWrHgmc4</id>
+  <title>arXiv Query: search_query=au:"Ruslan Salakhutdinov"&amp;id_list=&amp;start=200&amp;max_results=50</title>
+  <updated>2026-02-07T20:26:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ruslan+Salakhutdinov%22&amp;start=200&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>259</opensearch:totalResults>
+  <opensearch:startIndex>200</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1705.09783v3</id>
+    <title>Good Semi-supervised Learning that Requires a Bad GAN</title>
+    <updated>2017-11-03T17:18:43Z</updated>
+    <link href="https://arxiv.org/abs/1705.09783v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.09783v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Semi-supervised learning methods based on generative adversarial networks (GANs) obtained strong empirical results, but it is not clear 1) how the discriminator benefits from joint training with a generator, and 2) why good semi-supervised classification performance and a good generator cannot be obtained at the same time. Theoretically, we show that given the discriminator objective, good semisupervised learning indeed requires a bad generator, and propose the definition of a preferred generator. Empirically, we derive a novel formulation based on our analysis that substantially improves over feature matching GANs, obtaining state-of-the-art results on multiple benchmark datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-27T07:53:53Z</published>
+    <arxiv:comment>NIPS 2017 camera ready</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zihang Dai</name>
+    </author>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Fan Yang</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03071v1</id>
+    <title>Geometry of Optimization and Implicit Regularization in Deep Learning</title>
+    <updated>2017-05-08T20:12:08Z</updated>
+    <link href="https://arxiv.org/abs/1705.03071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.03071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that the optimization plays a crucial role in generalization of deep learning models through implicit regularization. We do this by demonstrating that generalization ability is not controlled by network size but rather by some other implicit control. We then demonstrate how changing the empirical optimization procedure can improve generalization, even if actual optimization quality is not affected. We do so by studying the geometry of the parameter space of deep networks, and devising an optimization algorithm attuned to this geometry.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-08T20:12:08Z</published>
+    <arxiv:comment>This survey chapter was done as a part of Intel Collaborative Research institute for Computational Intelligence (ICRI-CI) "Why &amp; When Deep Learning works -- looking inside Deep Learning" compendium with the generous support of ICRI-CI. arXiv admin note: substantial text overlap with arXiv:1506.02617</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Behnam Neyshabur</name>
+    </author>
+    <author>
+      <name>Ryota Tomioka</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.08885v1</id>
+    <title>Question Answering from Unstructured Text by Retrieval and Comprehension</title>
+    <updated>2017-03-26T23:48:06Z</updated>
+    <link href="https://arxiv.org/abs/1703.08885v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.08885v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open domain Question Answering (QA) systems must interact with external knowledge sources, such as web pages, to find relevant information. Information sources like Wikipedia, however, are not well structured and difficult to utilize in comparison with Knowledge Bases (KBs). In this work we present a two-step approach to question answering from unstructured text, consisting of a retrieval step and a comprehension step. For comprehension, we present an RNN based attention model with a novel mixture mechanism for selecting answers from either retrieved articles or a fixed vocabulary. For retrieval we introduce a hand-crafted model and a neural model for ranking relevant articles. We achieve state-of-the-art performance on W IKI M OVIES dataset, reducing the error by 40%. Our experimental results further demonstrate the importance of each of the introduced components.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-26T23:48:06Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yusuke Watanabe</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.06345v1</id>
+    <title>Transfer Learning for Sequence Tagging with Hierarchical Recurrent Networks</title>
+    <updated>2017-03-18T20:21:44Z</updated>
+    <link href="https://arxiv.org/abs/1703.06345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.06345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent papers have shown that neural networks obtain state-of-the-art performance on several different sequence tagging tasks. One appealing property of such systems is their generality, as excellent performance can be achieved with a unified architecture and without task-specific feature engineering. However, it is unclear if such systems can be used for tasks without large amounts of training data. In this paper we explore the problem of transfer learning for neural sequence taggers, where a source task with plentiful annotations (e.g., POS tagging on Penn Treebank) is used to improve performance on a target task with fewer available annotations (e.g., POS tagging for microblogs). We examine the effects of transfer learning for deep hierarchical recurrent networks across domains, applications, and languages, and show that significant improvement can often be obtained. These improvements lead to improvements over the current state-of-the-art on several well-studied tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-18T20:21:44Z</published>
+    <arxiv:comment>Accepted as a conference paper at ICLR 2017. This is an extended version of the original paper (https://arxiv.org/abs/1603.06270). The original paper proposes a new architecture, while this version focuses on transfer learning for a general model class</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05908v2</id>
+    <title>Learning Robust Visual-Semantic Embeddings</title>
+    <updated>2017-03-20T00:28:07Z</updated>
+    <link href="https://arxiv.org/abs/1703.05908v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05908v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many of the existing methods for learning joint embedding of images and text use only supervised information from paired images and its textual attributes. Taking advantage of the recent success of unsupervised learning in deep neural networks, we propose an end-to-end learning framework that is able to extract more robust multi-modal representations across domains. The proposed method combines representation learning models (i.e., auto-encoders) together with cross-domain learning criteria (i.e., Maximum Mean Discrepancy loss) to learn joint embeddings for semantic and visual features. A novel technique of unsupervised-data adaptation inference is introduced to construct more comprehensive embeddings for both labeled and unlabeled data. We evaluate our method on Animals with Attributes and Caltech-UCSD Birds 200-2011 dataset with a wide range of applications, including zero and few-shot image recognition and retrieval, from inductive to transductive settings. Empirically, we show that our framework improves over the current state of the art on many of the considered tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-17T06:59:51Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Liang-Kang Huang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.06114v3</id>
+    <title>Deep Sets</title>
+    <updated>2018-04-14T18:54:19Z</updated>
+    <link href="https://arxiv.org/abs/1703.06114v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.06114v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of designing models for machine learning tasks defined on \emph{sets}. In contrast to traditional approach of operating on fixed dimensional vectors, we consider objective functions defined on sets that are invariant to permutations. Such problems are widespread, ranging from estimation of population statistics \cite{poczos13aistats}, to anomaly detection in piezometer data of embankment dams \cite{Jung15Exploration}, to cosmology \cite{Ntampaka16Dynamical,Ravanbakhsh16ICML1}. Our main theorem characterizes the permutation invariant functions and provides a family of functions to which any permutation invariant objective function must belong. This family of functions has a special structure which enables us to design a deep network architecture that can operate on sets and which can be deployed on a variety of scenarios including both unsupervised and supervised learning tasks. We also derive the necessary and sufficient conditions for permutation equivariance in deep models. We demonstrate the applicability of our method on population statistic estimation, point cloud classification, set expansion, and outlier detection.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-10T21:02:53Z</published>
+    <arxiv:comment>NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Satwik Kottur</name>
+    </author>
+    <author>
+      <name>Siamak Ravanbakhsh</name>
+    </author>
+    <author>
+      <name>Barnabas Poczos</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alexander Smola</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02620v1</id>
+    <title>Linguistic Knowledge as Memory for Recurrent Neural Networks</title>
+    <updated>2017-03-07T22:13:17Z</updated>
+    <link href="https://arxiv.org/abs/1703.02620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.02620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training recurrent neural networks to model long term dependencies is difficult. Hence, we propose to use external linguistic knowledge as an explicit signal to inform the model which memories it should utilize. Specifically, external knowledge is used to augment a sequence with typed edges between arbitrarily distant elements, and the resulting graph is decomposed into directed acyclic subgraphs. We introduce a model that encodes such graphs as explicit memory in recurrent neural networks, and use it to model coreference relations in text. We apply our model to several text comprehension tasks and achieve new state-of-the-art results on all considered benchmarks, including CNN, bAbi, and LAMBADA. On the bAbi QA tasks, our model solves 15 out of the 20 tasks with only 1000 training examples per task. Analysis of the learned representations further demonstrates the ability of our model to encode fine-grained entity information across a document.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-07T22:13:17Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.00993v1</id>
+    <title>A Comparative Study of Word Embeddings for Reading Comprehension</title>
+    <updated>2017-03-02T23:58:54Z</updated>
+    <link href="https://arxiv.org/abs/1703.00993v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.00993v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The focus of past machine learning research for Reading Comprehension tasks has been primarily on the design of novel deep learning architectures. Here we show that seemingly minor choices made on (1) the use of pre-trained word embeddings, and (2) the representation of out-of-vocabulary tokens at test time, can turn out to have a larger impact than architectural choices on the final performance. We systematically explore several options for these choices, and provide recommendations to researchers working in this area.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-02T23:58:54Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Hanxiao Liu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.00955v4</id>
+    <title>Toward Controlled Generation of Text</title>
+    <updated>2018-09-13T02:16:40Z</updated>
+    <link href="https://arxiv.org/abs/1703.00955v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.00955v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generic generation and manipulation of text is challenging and has limited success compared to recent deep generative modeling in visual domain. This paper aims at generating plausible natural language sentences, whose attributes are dynamically controlled by learning disentangled latent representations with designated semantics. We propose a new neural generative model which combines variational auto-encoders and holistic attribute discriminators for effective imposition of semantic structures. With differentiable approximation to discrete text samples, explicit constraints on independent attribute controls, and efficient collaborative learning of generator and discriminators, our model learns highly interpretable representations from even only word annotations, and produces realistic sentences with desired attributes. Quantitative evaluation validates the accuracy of sentence and attribute generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-02T21:23:47Z</published>
+    <arxiv:comment>Code adapted for text style transfer is released at: https://github.com/asyml/texar/tree/master/examples/text_style_transfer</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Zichao Yang</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.08360v1</id>
+    <title>Neural Map: Structured Memory for Deep Reinforcement Learning</title>
+    <updated>2017-02-27T16:32:27Z</updated>
+    <link href="https://arxiv.org/abs/1702.08360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.08360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A critical component to enabling intelligent reasoning in partially observable environments is memory. Despite this importance, Deep Reinforcement Learning (DRL) agents have so far used relatively simple memory architectures, with the main methods to overcome partial observability being either a temporal convolution over the past k frames or an LSTM layer. More recent work (Oh et al., 2016) has went beyond these architectures by using memory networks which can allow more sophisticated addressing schemes over the past k frames. But even these architectures are unsatisfactory due to the reason that they are limited to only remembering information from the last k frames. In this paper, we develop a memory system with an adaptable write operator that is customized to the sorts of 3D environments that DRL agents typically interact with. This architecture, called the Neural Map, uses a spatially structured 2D memory image to learn to store arbitrary information about the environment over long time lags. We demonstrate empirically that the Neural Map surpasses previous DRL memories on a set of challenging 2D and 3D maze environments and show that it is capable of generalizing to environments that were not seen during training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-27T16:32:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.08139v2</id>
+    <title>Improved Variational Autoencoders for Text Modeling using Dilated Convolutions</title>
+    <updated>2017-06-18T00:31:34Z</updated>
+    <link href="https://arxiv.org/abs/1702.08139v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.08139v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work on generative modeling of text has found that variational auto-encoders (VAE) incorporating LSTM decoders perform worse than simpler LSTM language models (Bowman et al., 2015). This negative result is so far poorly understood, but has been attributed to the propensity of LSTM decoders to ignore conditioning information from the encoder. In this paper, we experiment with a new type of decoder for VAE: a dilated CNN. By changing the decoder's dilation architecture, we control the effective context from previously generated words. In experiments, we find that there is a trade off between the contextual capacity of the decoder and the amount of encoding information used. We show that with the right decoder, VAE can outperform LSTM language models. We demonstrate perplexity gains on two datasets, representing the first positive experimental result on the use VAE for generative modeling of text. Further, we conduct an in-depth investigation of the use of VAE (with our new decoding architecture) for semi-supervised and unsupervised labeling tasks, demonstrating gains over several strong baselines.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-27T04:16:01Z</published>
+    <arxiv:comment>camera ready</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Zichao Yang</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Taylor Berg-Kirkpatrick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.02206v2</id>
+    <title>Semi-Supervised QA with Generative Domain-Adaptive Nets</title>
+    <updated>2017-04-22T20:31:01Z</updated>
+    <link href="https://arxiv.org/abs/1702.02206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.02206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of semi-supervised question answering----utilizing unlabeled text to boost the performance of question answering models. We propose a novel training framework, the Generative Domain-Adaptive Nets. In this framework, we train a generative model to generate questions based on the unlabeled text, and combine model-generated questions with human-generated questions for training question answering models. We develop novel domain adaptation algorithms, based on reinforcement learning, to alleviate the discrepancy between the model-generated data distribution and the human-generated data distribution. Experiments show that our proposed framework obtains substantial improvement from unlabeled text.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-07T21:23:01Z</published>
+    <arxiv:comment>Accepted as a long paper at ACL2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Junjie Hu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.04844v2</id>
+    <title>The More You Know: Using Knowledge Graphs for Image Classification</title>
+    <updated>2017-04-22T00:43:18Z</updated>
+    <link href="https://arxiv.org/abs/1612.04844v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.04844v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One characteristic that sets humans apart from modern learning-based computer vision algorithms is the ability to acquire knowledge about the world and use that knowledge to reason about the visual world. Humans can learn about the characteristics of objects and the relationships that occur between them to learn a large variety of visual concepts, often with few examples. This paper investigates the use of structured prior knowledge in the form of knowledge graphs and shows that using this knowledge improves performance on image classification. We build on recent work on end-to-end learning on graphs, introducing the Graph Search Neural Network as a way of efficiently incorporating large knowledge graphs into a vision classification pipeline. We show in a number of experiments that our method outperforms standard neural network baselines for multi-label classification.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-14T21:18:30Z</published>
+    <arxiv:comment>CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kenneth Marino</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.02297v2</id>
+    <title>Spatially Adaptive Computation Time for Residual Networks</title>
+    <updated>2017-07-02T17:49:27Z</updated>
+    <link href="https://arxiv.org/abs/1612.02297v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.02297v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a deep learning architecture based on Residual Network that dynamically adjusts the number of executed layers for the regions of the image. This architecture is end-to-end trainable, deterministic and problem-agnostic. It is therefore applicable without any modifications to a wide range of computer vision problems such as image classification, object detection and image segmentation. We present experimental results showing that this model improves the computational efficiency of Residual Networks on the challenging ImageNet classification and COCO object detection datasets. Additionally, we evaluate the computation time maps on the visual saliency dataset cat2000 and find that they correlate surprisingly well with human eye fixation positions.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-07T15:37:57Z</published>
+    <arxiv:comment>CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michael Figurnov</name>
+    </author>
+    <author>
+      <name>Maxwell D. Collins</name>
+    </author>
+    <author>
+      <name>Yukun Zhu</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Jonathan Huang</name>
+    </author>
+    <author>
+      <name>Dmitry Vetrov</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.04273v2</id>
+    <title>On the Quantitative Analysis of Decoder-Based Generative Models</title>
+    <updated>2017-06-06T22:36:35Z</updated>
+    <link href="https://arxiv.org/abs/1611.04273v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.04273v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The past several years have seen remarkable progress in generative models which produce convincing samples of images and other modalities. A shared component of many powerful generative models is a decoder network, a parametric deep neural net that defines a generative distribution. Examples include variational autoencoders, generative adversarial networks, and generative moment matching networks. Unfortunately, it can be difficult to quantify the performance of these models because of the intractability of log-likelihood estimation, and inspecting samples can be misleading. We propose to use Annealed Importance Sampling for evaluating log-likelihoods for decoder-based models and validate its accuracy using bidirectional Monte Carlo. The evaluation code is provided at https://github.com/tonywu95/eval_gen. Using this technique, we analyze the performance of decoder-based models, the effectiveness of existing log-likelihood estimators, the degree of overfitting, and the degree to which these models miss important modes of the data distribution.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-14T07:36:22Z</published>
+    <arxiv:comment>Accepted to ICLR2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Yuri Burda</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.01724v2</id>
+    <title>Words or Characters? Fine-grained Gating for Reading Comprehension</title>
+    <updated>2017-09-11T21:00:30Z</updated>
+    <link href="https://arxiv.org/abs/1611.01724v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.01724v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previous work combines word-level and character-level representations using concatenation or scalar weighting, which is suboptimal for high-level tasks like reading comprehension. We present a fine-grained gating mechanism to dynamically combine word-level and character-level representations based on properties of the words. We also extend the idea of fine-grained gating to modeling the interaction between questions and paragraphs for reading comprehension. Experiments show that our approach can improve the performance on reading comprehension tasks, achieving new state-of-the-art results on the Children's Book Test dataset. To demonstrate the generality of our gating mechanism, we also show improved results on a social media tag prediction task.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-06T03:17:42Z</published>
+    <arxiv:comment>Accepted as a conference paper at ICLR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Ye Yuan</name>
+    </author>
+    <author>
+      <name>Junjie Hu</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.00336v2</id>
+    <title>Stochastic Variational Deep Kernel Learning</title>
+    <updated>2016-11-02T18:06:16Z</updated>
+    <link href="https://arxiv.org/abs/1611.00336v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.00336v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep kernel learning combines the non-parametric flexibility of kernel methods with the inductive biases of deep learning architectures. We propose a novel deep kernel learning model and stochastic variational inference procedure which generalizes deep kernel learning approaches to enable classification, multi-task learning, additive covariance structures, and stochastic gradient training. Specifically, we apply additive base kernels to subsets of output features from deep neural architectures, and jointly learn the parameters of the base kernels and deep network through a Gaussian process marginal likelihood objective. Within this framework, we derive an efficient form of stochastic variational inference which leverages local kernel interpolation, inducing points, and structure exploiting algebra. We show improved performance over stand alone deep networks, SVMs, and state of the art scalable Gaussian processes on several classification benchmarks, including an airline delay dataset containing 6 million training points, CIFAR, and ImageNet.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-01T19:04:47Z</published>
+    <arxiv:comment>13 pages, 6 tables, 3 figures. Appearing in NIPS 2016</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Andrew Gordon Wilson</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.06630v2</id>
+    <title>On Multiplicative Integration with Recurrent Neural Networks</title>
+    <updated>2016-11-12T19:47:10Z</updated>
+    <link href="https://arxiv.org/abs/1606.06630v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.06630v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a general and simple structural design called Multiplicative Integration (MI) to improve recurrent neural networks (RNNs). MI changes the way in which information from difference sources flows and is integrated in the computational building block of an RNN, while introducing almost no extra parameters. The new structure can be easily embedded into many popular RNN models, including LSTMs and GRUs. We empirically analyze its learning behaviour and conduct evaluations on several tasks using different RNN models. Our experimental results demonstrate that Multiplicative Integration can provide a substantial performance boost over many of the existing RNN models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-21T15:55:29Z</published>
+    <arxiv:comment>10 pages, 2 figures; To appear in NIPS2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Saizheng Zhang</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.01549v3</id>
+    <title>Gated-Attention Readers for Text Comprehension</title>
+    <updated>2017-04-21T18:50:05Z</updated>
+    <link href="https://arxiv.org/abs/1606.01549v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.01549v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the problem of answering cloze-style questions over documents. Our model, the Gated-Attention (GA) Reader, integrates a multi-hop architecture with a novel attention mechanism, which is based on multiplicative interactions between the query embedding and the intermediate states of a recurrent neural network document reader. This enables the reader to build query-specific representations of tokens in the document for accurate answer selection. The GA Reader obtains state-of-the-art results on three benchmarks for this task--the CNN \&amp; Daily Mail news stories and the Who Did What dataset. The effectiveness of multiplicative interaction is demonstrated by an ablation study, and by comparing to alternative compositional operators for implementing the gated-attention. The code is available at https://github.com/bdhingra/ga-reader.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-05T19:30:39Z</published>
+    <arxiv:comment>Accepted at ACL 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Hanxiao Liu</name>
+    </author>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07912v4</id>
+    <title>Review Networks for Caption Generation</title>
+    <updated>2016-10-27T17:50:27Z</updated>
+    <link href="https://arxiv.org/abs/1605.07912v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.07912v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel extension of the encoder-decoder framework, called a review network. The review network is generic and can enhance any existing encoder- decoder model: in this paper, we consider RNN decoders with both CNN and RNN encoders. The review network performs a number of review steps with attention mechanism on the encoder hidden states, and outputs a thought vector after each review step; the thought vectors are used as the input of the attention mechanism in the decoder. We show that conventional encoder-decoders are a special case of our framework. Empirically, we show that our framework improves over state-of- the-art encoder-decoder systems on the tasks of image captioning and source code captioning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-25T14:49:58Z</published>
+    <arxiv:comment>NIPS 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Ye Yuan</name>
+    </author>
+    <author>
+      <name>Yuexin Wu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07154v1</id>
+    <title>Path-Normalized Optimization of Recurrent Neural Networks with ReLU Activations</title>
+    <updated>2016-05-23T19:40:50Z</updated>
+    <link href="https://arxiv.org/abs/1605.07154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.07154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the parameter-space geometry of recurrent neural networks (RNNs), and develop an adaptation of path-SGD optimization method, attuned to this geometry, that can learn plain RNNs with ReLU activations. On several datasets that require capturing long-term dependency structure, we show that path-SGD can significantly improve trainability of ReLU RNNs compared to RNNs trained with SGD, even with various recently suggested initialization schemes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-23T19:40:50Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Behnam Neyshabur</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.08861v2</id>
+    <title>Revisiting Semi-Supervised Learning with Graph Embeddings</title>
+    <updated>2016-05-26T23:57:09Z</updated>
+    <link href="https://arxiv.org/abs/1603.08861v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.08861v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a semi-supervised learning framework based on graph embeddings. Given a graph between instances, we train an embedding for each instance to jointly predict the class label and the neighborhood context in the graph. We develop both transductive and inductive variants of our method. In the transductive variant of our method, the class labels are determined by both the learned embeddings and input feature vectors, while in the inductive variant, the embeddings are defined as a parametric function of the feature vectors, so predictions can be made on instances not seen during training. On a large and diverse set of benchmark tasks, including text classification, distantly supervised entity extraction, and entity classification, we show improved performance over many of the existing models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-29T17:46:16Z</published>
+    <arxiv:comment>ICML 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.06270v2</id>
+    <title>Multi-Task Cross-Lingual Sequence Tagging from Scratch</title>
+    <updated>2016-08-09T15:07:39Z</updated>
+    <link href="https://arxiv.org/abs/1603.06270v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.06270v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a deep hierarchical recurrent neural network for sequence tagging. Given a sequence of words, our model employs deep gated recurrent units on both character and word levels to encode morphology and context information, and applies a conditional random field layer to predict the tags. Our model is task independent, language independent, and feature engineering free. We further extend our model to multi-task and cross-lingual joint training by sharing the architecture and parameters. Our model achieves state-of-the-art results in multiple languages on several benchmark tasks including POS tagging, chunking, and NER. We also demonstrate that multi-task and cross-lingual joint training can improve the performance in various cases.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-20T21:15:56Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.08210v3</id>
+    <title>Architectural Complexity Measures of Recurrent Neural Networks</title>
+    <updated>2016-11-12T19:38:43Z</updated>
+    <link href="https://arxiv.org/abs/1602.08210v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.08210v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we systematically analyze the connecting architectures of recurrent neural networks (RNNs). Our main contribution is twofold: first, we present a rigorous graph-theoretic framework describing the connecting architectures of RNNs in general. Second, we propose three architecture complexity measures of RNNs: (a) the recurrent depth, which captures the RNN's over-time nonlinear complexity, (b) the feedforward depth, which captures the local input-output nonlinearity (similar to the "depth" in feedforward neural networks (FNNs)), and (c) the recurrent skip coefficient which captures how rapidly the information propagates over time. We rigorously prove each measure's existence and computability. Our experimental results show that RNNs might benefit from larger recurrent depth and feedforward depth. We further demonstrate that increasing recurrent skip coefficient offers performance boosts on long term dependency problems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-26T06:16:27Z</published>
+    <arxiv:comment>17 pages, 8 figures; To appear in NIPS2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Saizheng Zhang</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Tong Che</name>
+    </author>
+    <author>
+      <name>Zhouhan Lin</name>
+    </author>
+    <author>
+      <name>Roland Memisevic</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06747v4</id>
+    <title>Data-Dependent Path Normalization in Neural Networks</title>
+    <updated>2016-01-19T20:57:47Z</updated>
+    <link href="https://arxiv.org/abs/1511.06747v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06747v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a unified framework for neural net normalization, regularization and optimization, which includes Path-SGD and Batch-Normalization and interpolates between them across two different dimensions. Through this framework we investigate issue of invariance of the optimization, data dependence and the connection with natural gradients.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-20T20:27:45Z</published>
+    <arxiv:comment>17 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Behnam Neyshabur</name>
+    </author>
+    <author>
+      <name>Ryota Tomioka</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06342v4</id>
+    <title>Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning</title>
+    <updated>2016-02-22T19:59:40Z</updated>
+    <link href="https://arxiv.org/abs/1511.06342v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06342v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to act in multiple environments and transfer previous knowledge to new situations can be considered a critical aspect of any intelligent agent. Towards this goal, we define a novel method of multitask and transfer learning that enables an autonomous agent to learn how to behave in multiple tasks simultaneously, and then generalize its knowledge to new domains. This method, termed "Actor-Mimic", exploits the use of deep reinforcement learning and model compression techniques to train a single policy network that learns how to act in a set of distinct tasks by using the guidance of several expert teachers. We then show that the representations learnt by the deep policy network are capable of generalizing to new tasks with no prior expert guidance, speeding up learning in novel environments. Although our method can in general be applied to a wide range of problems, we use Atari games as a testing environment to demonstrate these methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-19T20:17:27Z</published>
+    <arxiv:comment>Accepted as a conference paper at ICLR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Jimmy Lei Ba</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.04119v3</id>
+    <title>Action Recognition using Visual Attention</title>
+    <updated>2016-02-14T17:20:19Z</updated>
+    <link href="https://arxiv.org/abs/1511.04119v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.04119v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a soft attention based model for the task of action recognition in videos. We use multi-layered Recurrent Neural Networks (RNNs) with Long Short-Term Memory (LSTM) units which are deep both spatially and temporally. Our model learns to focus selectively on parts of the video frames and classifies videos after taking a few glimpses. The model essentially learns which parts in the frames are relevant for the task at hand and attaches higher importance to them. We evaluate the model on UCF-11 (YouTube Action), HMDB-51 and Hollywood2 datasets and analyze how the model focuses its attention depending on the scene and the action being performed.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-12T23:06:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shikhar Sharma</name>
+    </author>
+    <author>
+      <name>Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.02793v2</id>
+    <title>Generating Images from Captions with Attention</title>
+    <updated>2016-02-29T17:56:29Z</updated>
+    <link href="https://arxiv.org/abs/1511.02793v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.02793v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the recent progress in generative models, we introduce a model that generates images from natural language descriptions. The proposed model iteratively draws patches on a canvas, while attending to the relevant words in the description. After training on Microsoft COCO, we compare our model with several baseline generative models on image generation and retrieval tasks. We demonstrate that our model produces higher quality samples than other approaches and generates images with novel scene compositions corresponding to previously unseen captions in the dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-09T18:18:53Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Elman Mansimov</name>
+    </author>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Jimmy Lei Ba</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.02222v1</id>
+    <title>Deep Kernel Learning</title>
+    <updated>2015-11-06T20:38:08Z</updated>
+    <link href="https://arxiv.org/abs/1511.02222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.02222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce scalable deep kernels, which combine the structural properties of deep learning architectures with the non-parametric flexibility of kernel methods. Specifically, we transform the inputs of a spectral mixture base kernel with a deep architecture, using local kernel interpolation, inducing points, and structure exploiting (Kronecker and Toeplitz) algebra for a scalable kernel representation. These closed-form kernels can be used as drop-in replacements for standard kernels, with benefits in expressive power and scalability. We jointly learn the properties of these kernels through the marginal likelihood of a Gaussian process. Inference and learning cost $O(n)$ for $n$ training points, and predictions cost $O(1)$ per test point. On a large and diverse collection of applications, including a dataset with 2 million examples, we show improved performance over scalable Gaussian processes with flexible kernel learning models, and stand-alone deep architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-06T20:38:08Z</published>
+    <arxiv:comment>19 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andrew Gordon Wilson</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.06812v1</id>
+    <title>Learning Wake-Sleep Recurrent Attention Models</title>
+    <updated>2015-09-22T23:52:30Z</updated>
+    <link href="https://arxiv.org/abs/1509.06812v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.06812v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite their success, convolutional neural networks are computationally expensive because they must examine all image locations. Stochastic attention-based models have been shown to improve computational efficiency at test time, but they remain difficult to train because of intractable posterior inference and high variance in the stochastic gradient estimates. Borrowing techniques from the literature on training deep generative models, we present the Wake-Sleep Recurrent Attention Model, a method for training stochastic attention networks which improves posterior inference and which reduces the variability in the stochastic gradients. We show that our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-22T23:52:30Z</published>
+    <arxiv:comment>To appear in NIPS 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Brendan Frey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.00519v4</id>
+    <title>Importance Weighted Autoencoders</title>
+    <updated>2016-11-07T17:29:24Z</updated>
+    <link href="https://arxiv.org/abs/1509.00519v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.00519v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The variational autoencoder (VAE; Kingma, Welling (2014)) is a recently proposed generative model pairing a top-down generative network with a bottom-up recognition network which approximates posterior inference. It typically makes strong assumptions about posterior inference, for instance that the posterior distribution is approximately factorial, and that its parameters can be approximated with nonlinear regression from the observations. As we show empirically, the VAE objective can lead to overly simplified representations which fail to use the network's entire modeling capacity. We present the importance weighted autoencoder (IWAE), a generative model with the same architecture as the VAE, but which uses a strictly tighter log-likelihood lower bound derived from importance weighting. In the IWAE, the recognition network uses multiple samples to approximate the posterior, giving it increased flexibility to model complex posteriors which do not fit the VAE modeling assumptions. We show empirically that IWAEs learn richer latent space representations than VAEs, leading to improved test log-likelihood on density estimation benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-01T22:33:13Z</published>
+    <arxiv:comment>Submitted to ICLR 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuri Burda</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.06726v1</id>
+    <title>Skip-Thought Vectors</title>
+    <updated>2015-06-22T19:33:40Z</updated>
+    <link href="https://arxiv.org/abs/1506.06726v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.06726v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe an approach for unsupervised learning of a generic, distributed sentence encoder. Using the continuity of text from books, we train an encoder-decoder model that tries to reconstruct the surrounding sentences of an encoded passage. Sentences that share semantic and syntactic properties are thus mapped to similar vector representations. We next introduce a simple vocabulary expansion method to encode words that were not seen as part of training, allowing us to expand our vocabulary to a million words. After training our model, we extract and evaluate our vectors with linear models on 8 tasks: semantic relatedness, paraphrase detection, image-sentence ranking, question-type classification and 4 benchmark sentiment and subjectivity datasets. The end result is an off-the-shelf encoder that can produce highly generic sentence representations that are robust and perform well in practice. We will make our encoder publicly available.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-22T19:33:40Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Yukun Zhu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Richard S. Zemel</name>
+    </author>
+    <author>
+      <name>Antonio Torralba</name>
+    </author>
+    <author>
+      <name>Raquel Urtasun</name>
+    </author>
+    <author>
+      <name>Sanja Fidler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.06724v1</id>
+    <title>Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books</title>
+    <updated>2015-06-22T19:26:56Z</updated>
+    <link href="https://arxiv.org/abs/1506.06724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.06724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Books are a rich source of both fine-grained information, how a character, an object or a scene looks like, as well as high-level semantics, what someone is thinking, feeling and how these states evolve through a story. This paper aims to align books to their movie releases in order to provide rich descriptive explanations for visual content that go semantically far beyond the captions available in current datasets. To align movies and books we exploit a neural sentence embedding that is trained in an unsupervised way from a large corpus of books, as well as a video-text neural embedding for computing similarities between movie clips and sentences in the book. We propose a context-aware CNN to combine information from multiple sources. We demonstrate good quantitative performance for movie/book alignment and show several qualitative examples that showcase the diversity of tasks our model can be used for.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-22T19:26:56Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yukun Zhu</name>
+    </author>
+    <author>
+      <name>Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Richard Zemel</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Raquel Urtasun</name>
+    </author>
+    <author>
+      <name>Antonio Torralba</name>
+    </author>
+    <author>
+      <name>Sanja Fidler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02617v1</id>
+    <title>Path-SGD: Path-Normalized Optimization in Deep Neural Networks</title>
+    <updated>2015-06-08T19:01:33Z</updated>
+    <link href="https://arxiv.org/abs/1506.02617v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02617v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit the choice of SGD for training deep neural networks by reconsidering the appropriate geometry in which to optimize the weights. We argue for a geometry invariant to rescaling of weights that does not affect the output of the network, and suggest Path-SGD, which is an approximate steepest descent method with respect to a path-wise regularizer related to max-norm regularization. Path-SGD is easy and efficient to implement and leads to empirical gains over SGD and AdaGrad.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-08T19:01:33Z</published>
+    <arxiv:comment>12 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Behnam Neyshabur</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.00511v2</id>
+    <title>Predicting Deep Zero-Shot Convolutional Neural Networks using Textual Descriptions</title>
+    <updated>2015-09-25T16:20:44Z</updated>
+    <link href="https://arxiv.org/abs/1506.00511v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.00511v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the main challenges in Zero-Shot Learning of visual categories is gathering semantic attributes to accompany images. Recent work has shown that learning from textual descriptions, such as Wikipedia articles, avoids the problem of having to explicitly define these attributes. We present a new model that can classify unseen categories from their textual description. Specifically, we use text features to predict the output weights of both the convolutional and the fully connected layers in a deep convolutional neural network (CNN). We take advantage of the architecture of CNNs and learn features at different layers, rather than just learning an embedding space for both modalities, as is common with existing approaches. The proposed model also allows us to automatically generate a list of pseudo- attributes for each visual category consisting of words from Wikipedia articles. We train our models end-to-end us- ing the Caltech-UCSD bird and flower datasets and evaluate both ROC and Precision-Recall curves. Our empirical results show that the proposed model significantly outperforms previous methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-01T14:37:06Z</published>
+    <arxiv:comment>Correct the typos in table 1 regarding [5]. To appear in ICCV 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+    <author>
+      <name>Kevin Swersky</name>
+    </author>
+    <author>
+      <name>Sanja Fidler</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.07274v1</id>
+    <title>Initialization Strategies of Spatio-Temporal Convolutional Neural Networks</title>
+    <updated>2015-03-25T03:41:47Z</updated>
+    <link href="https://arxiv.org/abs/1503.07274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.07274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new way of incorporating temporal information present in videos into Spatial Convolutional Neural Networks (ConvNets) trained on images, that avoids training Spatio-Temporal ConvNets from scratch. We describe several initializations of weights in 3D Convolutional Layers of Spatio-Temporal ConvNet using 2D Convolutional Weights learned from ImageNet. We show that it is important to initialize 3D Convolutional Weights judiciously in order to learn temporal representations of videos. We evaluate our methods on the UCF-101 dataset and demonstrate improvement over Spatial ConvNets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-25T03:41:47Z</published>
+    <arxiv:comment>Technical Report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Elman Mansimov</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.04144v3</id>
+    <title>Exploiting Image-trained CNN Architectures for Unconstrained Video Classification</title>
+    <updated>2015-05-08T01:54:08Z</updated>
+    <link href="https://arxiv.org/abs/1503.04144v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.04144v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We conduct an in-depth exploration of different strategies for doing event detection in videos using convolutional neural networks (CNNs) trained for image classification. We study different ways of performing spatial and temporal pooling, feature normalization, choice of CNN layers as well as choice of classifiers. Making judicious choices along these dimensions led to a very significant increase in performance over more naive approaches that have been used till now. We evaluate our approach on the challenging TRECVID MED'14 dataset with two popular CNN architectures pretrained on ImageNet. On this MED'14 dataset, our methods, based entirely on image-trained CNN features, can outperform several state-of-the-art non-CNN models. Our proposed late fusion of CNN- and motion-based features can further increase the mean average precision (mAP) on MED'14 from 34.95% to 38.74%. The fusion approach achieves the state-of-the-art classification performance on the challenging UCF-101 dataset.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-13T17:00:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shengxin Zha</name>
+    </author>
+    <author>
+      <name>Florian Luisier</name>
+    </author>
+    <author>
+      <name>Walter Andrews</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.04681v3</id>
+    <title>Unsupervised Learning of Video Representations using LSTMs</title>
+    <updated>2016-01-04T00:42:07Z</updated>
+    <link href="https://arxiv.org/abs/1502.04681v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.04681v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use multilayer Long Short Term Memory (LSTM) networks to learn representations of video sequences. Our model uses an encoder LSTM to map an input sequence into a fixed length representation. This representation is decoded using single or multiple decoder LSTMs to perform different tasks, such as reconstructing the input sequence, or predicting the future sequence. We experiment with two kinds of input sequences - patches of image pixels and high-level representations ("percepts") of video frames extracted using a pretrained convolutional net. We explore different design choices such as whether the decoder LSTMs should condition on the generated output. We analyze the outputs of the model qualitatively to see how well the model can extrapolate the learned video representation into the future and into the past. We try to visualize and interpret the learned features. We stress test the model by running it on longer time scales and on out-of-domain data. We further evaluate the representations by finetuning them for a supervised learning problem - human action recognition on the UCF-101 and HMDB-51 datasets. We show that the representations help improve classification accuracy, especially when there are only a few training examples. Even models pretrained on unrelated datasets (300 hours of YouTube videos) can help action recognition performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-16T20:00:07Z</published>
+    <arxiv:comment>Added link to code on github</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Elman Mansimov</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.04275v1</id>
+    <title>segDeepM: Exploiting Segmentation and Context in Deep Neural Networks for Object Detection</title>
+    <updated>2015-02-15T02:53:56Z</updated>
+    <link href="https://arxiv.org/abs/1502.04275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.04275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose an approach that exploits object segmentation in order to improve the accuracy of object detection. We frame the problem as inference in a Markov Random Field, in which each detection hypothesis scores object appearance as well as contextual information using Convolutional Neural Networks, and allows the hypothesis to choose and score a segment out of a large pool of accurate object segmentation proposals. This enables the detector to incorporate additional evidence when it is available and thus results in more accurate detections. Our experiments show an improvement of 4.1% in mAP over the R-CNN baseline on PASCAL VOC 2010, and 3.4% over the current state-of-the-art, demonstrating the power of our approach.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-15T02:53:56Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yukun Zhu</name>
+    </author>
+    <author>
+      <name>Raquel Urtasun</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sanja Fidler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03044v3</id>
+    <title>Show, Attend and Tell: Neural Image Caption Generation with Visual Attention</title>
+    <updated>2016-04-19T16:43:09Z</updated>
+    <link href="https://arxiv.org/abs/1502.03044v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.03044v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by recent work in machine translation and object detection, we introduce an attention based model that automatically learns to describe the content of images. We describe how we can train this model in a deterministic manner using standard backpropagation techniques and stochastically by maximizing a variational lower bound. We also show through visualization how the model is able to automatically learn to fix its gaze on salient objects while generating the corresponding words in the output sequence. We validate the use of attention with state-of-the-art performance on three benchmark datasets: Flickr8k, Flickr30k and MS COCO.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-10T19:18:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kelvin Xu</name>
+    </author>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+    <author>
+      <name>Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Richard Zemel</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.8566v1</id>
+    <title>Accurate and Conservative Estimates of MRF Log-likelihood using Reverse Annealing</title>
+    <updated>2014-12-30T06:13:10Z</updated>
+    <link href="https://arxiv.org/abs/1412.8566v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.8566v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Markov random fields (MRFs) are difficult to evaluate as generative models because computing the test log-probabilities requires the intractable partition function. Annealed importance sampling (AIS) is widely used to estimate MRF partition functions, and often yields quite accurate results. However, AIS is prone to overestimate the log-likelihood with little indication that anything is wrong. We present the Reverse AIS Estimator (RAISE), a stochastic lower bound on the log-likelihood of an approximation to the original MRF model. RAISE requires only the same MCMC transition operators as standard AIS. Experimental results indicate that RAISE agrees closely with AIS log-probability estimates for RBMs, DBMs, and DBNs, but typically errs on the side of underestimating, rather than overestimating, the log-likelihood.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-30T06:13:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuri Burda</name>
+    </author>
+    <author>
+      <name>Roger B. Grosse</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.2539v1</id>
+    <title>Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models</title>
+    <updated>2014-11-10T19:09:41Z</updated>
+    <link href="https://arxiv.org/abs/1411.2539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.2539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by recent advances in multimodal learning and machine translation, we introduce an encoder-decoder pipeline that learns (a): a multimodal joint embedding space with images and text and (b): a novel language model for decoding distributed representations from our space. Our pipeline effectively unifies joint image-text embedding models with multimodal neural language models. We introduce the structure-content neural language model that disentangles the structure of a sentence to its content, conditioned on representations produced by the encoder. The encoder allows one to rank images and sentences while the decoder can generate novel descriptions from scratch. Using LSTM to encode sentences, we match the state-of-the-art performance on Flickr8K and Flickr30K without using object detections. We also set new best results when using the 19-layer Oxford convolutional network. Furthermore we show that with linear encoders, the learned embedding space captures multimodal regularities in terms of vector space arithmetic e.g. *image of a blue car* - "blue" + "red" is near images of red cars. Sample captions generated for 800 images are made available for comparison.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-10T19:09:41Z</published>
+    <arxiv:comment>13 pages. NIPS 2014 deep learning workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Richard S. Zemel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.7840v1</id>
+    <title>Bayesian Probabilistic Matrix Factorization: A User Frequency Analysis</title>
+    <updated>2014-07-29T19:38:32Z</updated>
+    <link href="https://arxiv.org/abs/1407.7840v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.7840v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Matrix factorization (MF) has become a common approach to collaborative filtering, due to ease of implementation and scalability to large data sets. Two existing drawbacks of the basic model is that it does not incorporate side information on either users or items, and assumes a common variance for all users. We extend the work of constrained probabilistic matrix factorization by deriving the Gibbs updates for the side feature vectors for items (Salakhutdinov and Minh, 2008). We show that this Bayesian treatment to the constrained PMF model outperforms simple MAP estimation. We also consider extensions to heteroskedastic precision introduced in the literature (Lakshminarayanan, Bouchard, and Archambeau, 2011). We show that this tends result in overfitting for deterministic approximation algorithms (ex: Variational inference) when the observed entries in the user / item matrix are distributed in an non-uniform manner. In light of this, we propose a truncated precision model. Our experimental results suggest that this model tends to delay overfitting.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-29T19:38:32Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Cody Severinski</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.2710v1</id>
+    <title>A Multiplicative Model for Learning Distributed Text-Based Attribute Representations</title>
+    <updated>2014-06-10T20:29:10Z</updated>
+    <link href="https://arxiv.org/abs/1406.2710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.2710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we propose a general framework for learning distributed representations of attributes: characteristics of text whose representations can be jointly learned with word embeddings. Attributes can correspond to document indicators (to learn sentence vectors), language indicators (to learn distributed language representations), meta-data and side information (such as the age, gender and industry of a blogger) or representations of authors. We describe a third-order model where word context and attribute vectors interact multiplicatively to predict the next word in a sequence. This leads to the notion of conditional word similarity: how meanings of words change when conditioned on different attributes. We perform several experimental tasks including sentiment classification, cross-lingual document classification, and blog authorship attribution. We also qualitatively evaluate conditional word neighbours and attribute-conditioned text generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-10T20:29:10Z</published>
+    <arxiv:comment>11 pages. An earlier version was accepted to the ICML-2014 Workshop on Knowledge-Powered Deep Learning for Text Mining</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ryan Kiros</name>
+    </author>
+    <author>
+      <name>Richard S. Zemel</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1231v1</id>
+    <title>Multi-task Neural Networks for QSAR Predictions</title>
+    <updated>2014-06-04T23:00:05Z</updated>
+    <link href="https://arxiv.org/abs/1406.1231v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1231v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although artificial neural networks have occasionally been used for Quantitative Structure-Activity/Property Relationship (QSAR/QSPR) studies in the past, the literature has of late been dominated by other machine learning techniques such as random forests. However, a variety of new neural net techniques along with successful applications in other domains have renewed interest in network approaches. In this work, inspired by the winning team's use of neural networks in a recent QSAR competition, we used an artificial neural network to learn a function that predicts activities of compounds for multiple assays at the same time. We conducted experiments leveraging recent methods for dealing with overfitting in neural networks as well as other tricks from the neural networks literature. We compared our methods to alternative methods reported to perform well on these tasks and found that our neural net methods provided superior performance.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-04T23:00:05Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>George E. Dahl</name>
+    </author>
+    <author>
+      <name>Navdeep Jaitly</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6110v3</id>
+    <title>Learning Generative Models with Visual Attention</title>
+    <updated>2015-02-21T22:21:15Z</updated>
+    <link href="https://arxiv.org/abs/1312.6110v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6110v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Attention has long been proposed by psychologists as important for effectively dealing with the enormous sensory stimulus available in the neocortex. Inspired by the visual attention models in computational neuroscience and the need of object-centric data for generative models, we describe for generative learning framework using attentional mechanisms. Attentional mechanisms can propagate signals from region of interest in a scene to an aligned canonical representation, where generative modeling takes place. By ignoring background clutter, generative models can concentrate their resources on the object of interest. Our model is a proper graphical model where the 2D Similarity transformation is a part of the top-down process. A ConvNet is employed to provide good initializations during posterior inference which is based on Hamiltonian Monte Carlo. Upon learning images of faces, our model can robustly attend to face regions of novel test subjects. More importantly, our model can learn generative models of new faces from a novel dataset of large images where the face locations are not known.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T20:50:43Z</published>
+    <arxiv:comment>In the proceedings of Neural Information Processing Systems, 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yichuan Tang</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5847v3</id>
+    <title>Deep learning for neuroimaging: a validation study</title>
+    <updated>2014-02-19T16:00:08Z</updated>
+    <link href="https://arxiv.org/abs/1312.5847v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5847v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning methods have recently made notable advances in the tasks of classification and representation learning. These tasks are important for brain imaging and neuroscience discovery, making the methods attractive for porting to a neuroimager's toolbox. Success of these methods is, in part, explained by the flexibility of deep learning models. However, this flexibility makes the process of porting to new areas a difficult parameter optimization problem. In this work we demonstrate our results (and feasible parameter ranges) in application of deep learning methods to structural and functional brain imaging data. We also describe a novel constraint-based approach to visualizing high dimensional data. We use it to analyze the effect of parameter choices on data transformations. Our results show that deep learning methods are able to learn physiologically important representations and detect latent relations in neuroimaging data.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T08:30:55Z</published>
+    <arxiv:comment>ICLR 2014 revisions</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Sergey M. Plis</name>
+    </author>
+    <author>
+      <name>Devon R. Hjelm</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Vince D. Calhoun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.7662v1</id>
+    <title>The Power of Asymmetry in Binary Hashing</title>
+    <updated>2013-11-29T18:53:32Z</updated>
+    <link href="https://arxiv.org/abs/1311.7662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.7662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When approximating binary similarity using the hamming distance between short binary hashes, we show that even if the similarity is symmetric, we can have shorter and more accurate hashes by using two distinct code maps. I.e. by approximating the similarity between $x$ and $x'$ as the hamming distance between $f(x)$ and $g(x')$, for two distinct binary codes $f,g$, rather than as the hamming distance between $f(x)$ and $f(x')$.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-29T18:53:32Z</published>
+    <arxiv:comment>Accepted to NIPS 2013, 9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Behnam Neyshabur</name>
+    </author>
+    <author>
+      <name>Payman Yadollahpour</name>
+    </author>
+    <author>
+      <name>Yury Makarychev</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.6865v1</id>
+    <title>Modeling Documents with Deep Boltzmann Machines</title>
+    <updated>2013-09-26T12:50:54Z</updated>
+    <link href="https://arxiv.org/abs/1309.6865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.6865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a Deep Boltzmann Machine model suitable for modeling and extracting latent semantic representations from a large unstructured collection of documents. We overcome the apparent difficulty of training a DBM with judicious parameter tying. This parameter tying enables an efficient pretraining algorithm and a state initialization scheme that aids inference. The model can be trained just as efficiently as a standard Restricted Boltzmann Machine. Our experiments show that the model assigns better log probability to unseen data than the Replicated Softmax model. Features extracted from our model outperform LDA, Replicated Softmax, and DocNADE models on document retrieval and document classification tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-26T12:50:54Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Ninth Conference on Uncertainty in Artificial Intelligence (UAI2013)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Ruslan R Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2490v1</id>
+    <title>On the Convergence of Bound Optimization Algorithms</title>
+    <updated>2012-10-19T15:07:56Z</updated>
+    <link href="https://arxiv.org/abs/1212.2490v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.2490v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many practitioners who use the EM algorithm complain that it is sometimes     slow. When does this happen, and what can be done about it? In this paper, we     study the general class of bound optimization algorithms - including Expectation-Maximization, Iterative Scaling and CCCP - and their relationship to direct optimization algorithms such as gradient-based methods for parameter learning. We derive a general relationship between the updates performed by bound optimization methods and those of gradient and second-order methods and identify analytic conditions under which bound optimization algorithms exhibit quasi-Newton behavior, and conditions under which they possess poor, first-order convergence. Based on this analysis, we consider several specific algorithms, interpret and analyze their convergence properties and provide some recipes for preprocessing input to these algorithms to yield faster convergence     behavior. We report empirical results supporting our analysis and showing that simple data preprocessing can result in dramatically improved performance of bound optimizers in practice.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-19T15:07:56Z</published>
+    <arxiv:comment>Appears in Proceedings of the Nineteenth Conference on Uncertainty in Artificial Intelligence (UAI2003)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruslan R Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sam T Roweis</name>
+    </author>
+    <author>
+      <name>Zoubin Ghahramani</name>
+    </author>
+  </entry>
+</feed>

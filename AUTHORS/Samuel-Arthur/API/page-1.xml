@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rIsk/QnNf8lGUeL2EgpGOjGNncc</id>
+  <title>arXiv Query: search_query=au:"Arthur Samuel"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-07T20:32:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Arthur+Samuel%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.11983v2</id>
+    <title>Generative AI as a Learning Buddy and Teaching Assistant: Pre-service Teachers' Uses and Attitudes</title>
+    <updated>2025-11-20T20:40:29Z</updated>
+    <link href="https://arxiv.org/abs/2407.11983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.11983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This cross-sectional study investigates how preservice teachers in the Global South engage with Generative Artificial Intelligence across academic and instructional tasks while navigating infrastructural barriers such as limited internet access and high data costs. The study surveyed 167 preservice teachers from four teacher education institutions in Ghana. Descriptive statistics and inferential analyses, including multiple and ordinal logistic regressions, were used to examine patterns of GenAI use.
+  Findings show that preservice teachers rely on GenAI as a learning companion for locating reading materials, accessing detailed content explanations, and identifying practical examples. They also use GenAI as a teaching assistant for tasks related to lesson preparation, including generating instructional resources, identifying assessment strategies, and developing lesson objectives. Usage patterns indicate that students in their third and fourth years have significantly higher frequencies of GenAI use compared to those in earlier years. Gender was not a significant predictor of GenAI adoption, in contrast to class level and age.
+  Participants reported positive attitudes toward GenAI, noting that it supports autonomous learning and reduces dependence on peers and instructors for routine academic and teaching activities. However, challenges such as high data costs, occasional inaccuracies in GenAI outputs, and concerns about academic dishonesty were identified as factors that limit more frequent use.
+  The study recommends the integration of GenAI literacy in teacher education programs, with a focus on ethical and responsible AI use to support equitable adoption in the Global South.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-03T20:38:29Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Matthew Nyaaba</name>
+    </author>
+    <author>
+      <name>Lehong Shi</name>
+    </author>
+    <author>
+      <name>Macharious Nabang</name>
+    </author>
+    <author>
+      <name>Xiaoming Zhai</name>
+    </author>
+    <author>
+      <name>Patrick Kyeremeh</name>
+    </author>
+    <author>
+      <name>Samuel Arthur Ayoberd</name>
+    </author>
+    <author>
+      <name>Bismark Nyaaba Akanzire</name>
+    </author>
+  </entry>
+</feed>

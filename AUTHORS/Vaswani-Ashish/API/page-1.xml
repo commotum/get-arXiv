@@ -1,0 +1,1010 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/669YYwwI/r0eOToQBmQP78ajdD4</id>
+  <title>arXiv Query: search_query=au:"Ashish Vaswani"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-07T20:46:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ashish+Vaswani%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.14111v2</id>
+    <title>Essential-Web v1.0: 24T tokens of organized web data</title>
+    <updated>2025-06-19T19:02:41Z</updated>
+    <link href="https://arxiv.org/abs/2506.14111v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.14111v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data plays the most prominent role in how language models acquire skills and knowledge. The lack of massive, well-organized pre-training datasets results in costly and inaccessible data pipelines. We present Essential-Web v1.0, a 24-trillion-token dataset in which every document is annotated with a twelve-category taxonomy covering topic, format, content complexity, and quality. Taxonomy labels are produced by EAI-Distill-0.5b, a fine-tuned 0.5b-parameter model that achieves an annotator agreement within 3% of Qwen2.5-32B-Instruct. With nothing more than SQL-style filters, we obtain competitive web-curated datasets in math (-8.0% relative to SOTA), web code (+14.3%), STEM (+24.5%) and medical (+8.6%). Essential-Web v1.0 is available on HuggingFace: https://huggingface.co/datasets/EssentialAI/essential-web-v1.0</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-17T02:03:36Z</published>
+    <arxiv:comment>include MegaMath-Web-Pro</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Essential AI</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Andrew Hojel</name>
+    </author>
+    <author>
+      <name>Michael Pust</name>
+    </author>
+    <author>
+      <name>Tim Romanski</name>
+    </author>
+    <author>
+      <name>Yash Vanjani</name>
+    </author>
+    <author>
+      <name>Ritvik Kapila</name>
+    </author>
+    <author>
+      <name>Mohit Parmar</name>
+    </author>
+    <author>
+      <name>Adarsh Chaluvaraju</name>
+    </author>
+    <author>
+      <name>Alok Tripathy</name>
+    </author>
+    <author>
+      <name>Anil Thomas</name>
+    </author>
+    <author>
+      <name>Ashish Tanwer</name>
+    </author>
+    <author>
+      <name>Darsh J Shah</name>
+    </author>
+    <author>
+      <name>Ishaan Shah</name>
+    </author>
+    <author>
+      <name>Karl Stratos</name>
+    </author>
+    <author>
+      <name>Khoi Nguyen</name>
+    </author>
+    <author>
+      <name>Kurt Smith</name>
+    </author>
+    <author>
+      <name>Michael Callahan</name>
+    </author>
+    <author>
+      <name>Peter Rushton</name>
+    </author>
+    <author>
+      <name>Philip Monk</name>
+    </author>
+    <author>
+      <name>Platon Mazarakis</name>
+    </author>
+    <author>
+      <name>Saad Jamal</name>
+    </author>
+    <author>
+      <name>Saurabh Srivastava</name>
+    </author>
+    <author>
+      <name>Somanshu Singla</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.02222v4</id>
+    <title>Practical Efficiency of Muon for Pretraining</title>
+    <updated>2025-05-20T01:04:35Z</updated>
+    <link href="https://arxiv.org/abs/2505.02222v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.02222v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that Muon, the simplest instantiation of a second-order optimizer, explicitly expands the Pareto frontier over AdamW on the compute-time tradeoff. We find that Muon is more effective than AdamW in retaining data efficiency at large batch sizes, far beyond the so-called critical batch size, while remaining computationally efficient, thus enabling more economical training. We study the combination of Muon and the maximal update parameterization (muP) for efficient hyperparameter transfer and present a simple telescoping algorithm that accounts for all sources of error in muP while introducing only a modest overhead in resources. We validate our findings through extensive experiments with model sizes up to four billion parameters and ablations on the data distribution and architecture.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-04T19:14:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Essential AI</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Ishaan Shah</name>
+    </author>
+    <author>
+      <name>Anthony M. Polloreno</name>
+    </author>
+    <author>
+      <name>Karl Stratos</name>
+    </author>
+    <author>
+      <name>Philip Monk</name>
+    </author>
+    <author>
+      <name>Adarsh Chaluvaraju</name>
+    </author>
+    <author>
+      <name>Andrew Hojel</name>
+    </author>
+    <author>
+      <name>Andrew Ma</name>
+    </author>
+    <author>
+      <name>Anil Thomas</name>
+    </author>
+    <author>
+      <name>Ashish Tanwer</name>
+    </author>
+    <author>
+      <name>Darsh J Shah</name>
+    </author>
+    <author>
+      <name>Khoi Nguyen</name>
+    </author>
+    <author>
+      <name>Kurt Smith</name>
+    </author>
+    <author>
+      <name>Michael Callahan</name>
+    </author>
+    <author>
+      <name>Michael Pust</name>
+    </author>
+    <author>
+      <name>Mohit Parmar</name>
+    </author>
+    <author>
+      <name>Peter Rushton</name>
+    </author>
+    <author>
+      <name>Platon Mazarakis</name>
+    </author>
+    <author>
+      <name>Ritvik Kapila</name>
+    </author>
+    <author>
+      <name>Saurabh Srivastava</name>
+    </author>
+    <author>
+      <name>Somanshu Singla</name>
+    </author>
+    <author>
+      <name>Tim Romanski</name>
+    </author>
+    <author>
+      <name>Yash Vanjani</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.04022v1</id>
+    <title>Rethinking Reflection in Pre-Training</title>
+    <updated>2025-04-05T02:24:07Z</updated>
+    <link href="https://arxiv.org/abs/2504.04022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.04022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A language model's ability to reflect on its own reasoning provides a key advantage for solving complex problems. While most recent research has focused on how this ability develops during reinforcement learning, we show that it actually begins to emerge much earlier - during the model's pre-training. To study this, we introduce deliberate errors into chains-of-thought and test whether the model can still arrive at the correct answer by recognizing and correcting these mistakes. By tracking performance across different stages of pre-training, we observe that this self-correcting ability appears early and improves steadily over time. For instance, an OLMo2-7B model pre-trained on 4 trillion tokens displays self-correction on our six self-reflection tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-05T02:24:07Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Essential AI</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Darsh J Shah</name>
+    </author>
+    <author>
+      <name>Peter Rushton</name>
+    </author>
+    <author>
+      <name>Somanshu Singla</name>
+    </author>
+    <author>
+      <name>Mohit Parmar</name>
+    </author>
+    <author>
+      <name>Kurt Smith</name>
+    </author>
+    <author>
+      <name>Yash Vanjani</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Adarsh Chaluvaraju</name>
+    </author>
+    <author>
+      <name>Andrew Hojel</name>
+    </author>
+    <author>
+      <name>Andrew Ma</name>
+    </author>
+    <author>
+      <name>Anil Thomas</name>
+    </author>
+    <author>
+      <name>Anthony Polloreno</name>
+    </author>
+    <author>
+      <name>Ashish Tanwer</name>
+    </author>
+    <author>
+      <name>Burhan Drak Sibai</name>
+    </author>
+    <author>
+      <name>Divya S Mansingka</name>
+    </author>
+    <author>
+      <name>Divya Shivaprasad</name>
+    </author>
+    <author>
+      <name>Ishaan Shah</name>
+    </author>
+    <author>
+      <name>Karl Stratos</name>
+    </author>
+    <author>
+      <name>Khoi Nguyen</name>
+    </author>
+    <author>
+      <name>Michael Callahan</name>
+    </author>
+    <author>
+      <name>Michael Pust</name>
+    </author>
+    <author>
+      <name>Mrinal Iyer</name>
+    </author>
+    <author>
+      <name>Philip Monk</name>
+    </author>
+    <author>
+      <name>Platon Mazarakis</name>
+    </author>
+    <author>
+      <name>Ritvik Kapila</name>
+    </author>
+    <author>
+      <name>Saurabh Srivastava</name>
+    </author>
+    <author>
+      <name>Tim Romanski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.12894v2</id>
+    <title>The Efficiency Misnomer</title>
+    <updated>2022-03-16T13:27:44Z</updated>
+    <link href="https://arxiv.org/abs/2110.12894v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.12894v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model efficiency is a critical aspect of developing and deploying machine learning models. Inference time and latency directly affect the user experience, and some applications have hard requirements. In addition to inference costs, model training also have direct financial and environmental impacts. Although there are numerous well-established metrics (cost indicators) for measuring model efficiency, researchers and practitioners often assume that these metrics are correlated with each other and report only few of them. In this paper, we thoroughly discuss common cost indicators, their advantages and disadvantages, and how they can contradict each other. We demonstrate how incomplete reporting of cost indicators can lead to partial conclusions and a blurred or incomplete picture of the practical considerations of different models. We further present suggestions to improve reporting of efficiency metrics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-25T12:48:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mostafa Dehghani</name>
+    </author>
+    <author>
+      <name>Anurag Arnab</name>
+    </author>
+    <author>
+      <name>Lucas Beyer</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Yi Tay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.10686v2</id>
+    <title>Scale Efficiently: Insights from Pre-training and Fine-tuning Transformers</title>
+    <updated>2022-01-30T16:42:46Z</updated>
+    <link href="https://arxiv.org/abs/2109.10686v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.10686v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There remain many open questions pertaining to the scaling behaviour of Transformer architectures. These scaling decisions and findings can be critical, as training runs often come with an associated computational cost which have both financial and/or environmental impact. The goal of this paper is to present scaling insights from pretraining and finetuning Transformers. While Kaplan et al. presents a comprehensive study of the scaling behaviour of Transformer language models, the scope is only on the upstream (pretraining) loss. Therefore, it is still unclear if these set of findings transfer to downstream task within the context of the pretrain-finetune paradigm. The key findings of this paper are as follows: (1) we show that aside from only the model size, model shape matters for downstream fine-tuning, (2) scaling protocols operate differently at different compute regions, (3) widely adopted T5-base and T5-large sizes are Pareto-inefficient. To this end, we present improved scaling protocols whereby our redesigned models achieve similar downstream fine-tuning quality while having 50\% fewer parameters and training 40\% faster compared to the widely adopted T5-base model. We publicly release over 100 pretrained checkpoints of different T5 configurations to facilitate future research and analysis.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-22T12:29:15Z</published>
+    <arxiv:comment>ICLR 2022 + Updated Checkpoint Release</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yi Tay</name>
+    </author>
+    <author>
+      <name>Mostafa Dehghani</name>
+    </author>
+    <author>
+      <name>Jinfeng Rao</name>
+    </author>
+    <author>
+      <name>William Fedus</name>
+    </author>
+    <author>
+      <name>Samira Abnar</name>
+    </author>
+    <author>
+      <name>Hyung Won Chung</name>
+    </author>
+    <author>
+      <name>Sharan Narang</name>
+    </author>
+    <author>
+      <name>Dani Yogatama</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Donald Metzler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.08710v1</id>
+    <title>Simple and Efficient ways to Improve REALM</title>
+    <updated>2021-04-18T04:32:33Z</updated>
+    <link href="https://arxiv.org/abs/2104.08710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.08710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense retrieval has been shown to be effective for retrieving relevant documents for Open Domain QA, surpassing popular sparse retrieval methods like BM25. REALM (Guu et al., 2020) is an end-to-end dense retrieval system that relies on MLM based pretraining for improved downstream QA efficiency across multiple datasets. We study the finetuning of REALM on various QA tasks and explore the limits of various hyperparameter and supervision choices. We find that REALM was significantly undertrained when finetuning and simple improvements in the training, supervision, and inference setups can significantly benefit QA results and exceed the performance of other models published post it. Our best model, REALM++, incorporates all the best working findings and achieves significant QA accuracy improvements over baselines (~5.5% absolute accuracy) without any model design changes. Additionally, REALM++ matches the performance of large Open Domain QA models which have 3x more parameters demonstrating the efficiency of the setup.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-18T04:32:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Vidhisha Balachandran</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Yulia Tsvetkov</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.12731v3</id>
+    <title>Scaling Local Self-Attention for Parameter Efficient Visual Backbones</title>
+    <updated>2021-06-07T05:42:10Z</updated>
+    <link href="https://arxiv.org/abs/2103.12731v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.12731v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-attention has the promise of improving computer vision systems due to parameter-independent scaling of receptive fields and content-dependent interactions, in contrast to parameter-dependent scaling and content-independent interactions of convolutions. Self-attention models have recently been shown to have encouraging improvements on accuracy-parameter trade-offs compared to baseline convolutional models such as ResNet-50. In this work, we aim to develop self-attention models that can outperform not just the canonical baseline models, but even the high-performing convolutional models. We propose two extensions to self-attention that, in conjunction with a more efficient implementation of self-attention, improve the speed, memory usage, and accuracy of these models. We leverage these improvements to develop a new self-attention model family, HaloNets, which reach state-of-the-art accuracies on the parameter-limited setting of the ImageNet classification benchmark. In preliminary transfer learning experiments, we find that HaloNet models outperform much larger models and have better inference performance. On harder tasks such as object detection and instance segmentation, our simple local self-attention and convolutional hybrids show improvements over very strong baselines. These results mark another step in demonstrating the efficacy of self-attention models on settings traditionally dominated by convolutional models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-23T17:56:06Z</published>
+    <arxiv:comment>CVPR 2021 Oral</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Prajit Ramachandran</name>
+    </author>
+    <author>
+      <name>Aravind Srinivas</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Blake Hechtman</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.11605v2</id>
+    <title>Bottleneck Transformers for Visual Recognition</title>
+    <updated>2021-08-02T18:24:31Z</updated>
+    <link href="https://arxiv.org/abs/2101.11605v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.11605v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present BoTNet, a conceptually simple yet powerful backbone architecture that incorporates self-attention for multiple computer vision tasks including image classification, object detection and instance segmentation. By just replacing the spatial convolutions with global self-attention in the final three bottleneck blocks of a ResNet and no other changes, our approach improves upon the baselines significantly on instance segmentation and object detection while also reducing the parameters, with minimal overhead in latency. Through the design of BoTNet, we also point out how ResNet bottleneck blocks with self-attention can be viewed as Transformer blocks. Without any bells and whistles, BoTNet achieves 44.4% Mask AP and 49.7% Box AP on the COCO Instance Segmentation benchmark using the Mask R-CNN framework; surpassing the previous best published single model and single scale results of ResNeSt evaluated on the COCO validation set. Finally, we present a simple adaptation of the BoTNet design for image classification, resulting in models that achieve a strong performance of 84.7% top-1 accuracy on the ImageNet benchmark while being up to 1.64x faster in compute time than the popular EfficientNet models on TPU-v3 hardware. We hope our simple and effective approach will serve as a strong baseline for future research in self-attention models for vision</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-27T18:55:27Z</published>
+    <arxiv:comment>Technical Report, 20 pages, 13 figures, 19 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aravind Srinivas</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Lin</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.05997v5</id>
+    <title>Efficient Content-Based Sparse Attention with Routing Transformers</title>
+    <updated>2020-10-24T19:41:17Z</updated>
+    <link href="https://arxiv.org/abs/2003.05997v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.05997v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-attention has recently been adopted for a wide range of sequence modeling problems. Despite its effectiveness, self-attention suffers from quadratic compute and memory requirements with respect to sequence length. Successful approaches to reduce this complexity focused on attending to local sliding windows or a small set of locations independent of content. Our work proposes to learn dynamic sparse attention patterns that avoid allocating computation and memory to attend to content unrelated to the query of interest. This work builds upon two lines of research: it combines the modeling flexibility of prior work on content-based sparse attention with the efficiency gains from approaches based on local, temporal sparse attention. Our model, the Routing Transformer, endows self-attention with a sparse routing module based on online k-means while reducing the overall complexity of attention to $O\left(n^{1.5}d\right)$ from $O\left(n^2d\right)$ for sequence length $n$ and hidden dimension $d$. We show that our model outperforms comparable sparse attention models on language modeling on Wikitext-103 (15.8 vs 18.3 perplexity) as well as on image generation on ImageNet-64 (3.43 vs 3.44 bits/dim) while using fewer self-attention layers. Additionally, we set a new state-of-the-art on the newly released PG-19 data-set, obtaining a test perplexity of 33.2 with a 22 layer Routing Transformer model trained on sequences of length 8192.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-12T19:50:14Z</published>
+    <arxiv:comment>TACL 2020; pre-MIT Press publication version; v5 has a random attention baseline</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Mohammad Saffar</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>David Grangier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05909v1</id>
+    <title>Stand-Alone Self-Attention in Vision Models</title>
+    <updated>2019-06-13T19:43:01Z</updated>
+    <link href="https://arxiv.org/abs/1906.05909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.05909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Convolutions are a fundamental building block of modern computer vision systems. Recent approaches have argued for going beyond convolutions in order to capture long-range dependencies. These efforts focus on augmenting convolutional models with content-based interactions, such as self-attention and non-local means, to achieve gains on a number of vision tasks. The natural question that arises is whether attention can be a stand-alone primitive for vision models instead of serving as just an augmentation on top of convolutions. In developing and testing a pure self-attention vision model, we verify that self-attention can indeed be an effective stand-alone layer. A simple procedure of replacing all instances of spatial convolutions with a form of self-attention applied to ResNet model produces a fully self-attentional model that outperforms the baseline on ImageNet classification with 12% fewer FLOPS and 29% fewer parameters. On COCO object detection, a pure self-attention model matches the mAP of a baseline RetinaNet while having 39% fewer FLOPS and 34% fewer parameters. Detailed ablation studies demonstrate that self-attention is especially impactful when used in later layers. These results establish that stand-alone self-attention is an important addition to the vision practitioner's toolbox.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-13T19:43:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Prajit Ramachandran</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Irwan Bello</name>
+    </author>
+    <author>
+      <name>Anselm Levskaya</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.12255v3</id>
+    <title>Stay on the Path: Instruction Fidelity in Vision-and-Language Navigation</title>
+    <updated>2019-06-21T16:55:06Z</updated>
+    <link href="https://arxiv.org/abs/1905.12255v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.12255v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in learning and representations have reinvigorated work that connects language to other modalities. A particularly exciting direction is Vision-and-Language Navigation(VLN), in which agents interpret natural language instructions and visual scenes to move through environments and reach goals. Despite recent progress, current research leaves unclear how much of a role language understanding plays in this task, especially because dominant evaluation metrics have focused on goal completion rather than the sequence of actions corresponding to the instructions. Here, we highlight shortcomings of current metrics for the Room-to-Room dataset (Anderson et al.,2018b) and propose a new metric, Coverage weighted by Length Score (CLS). We also show that the existing paths in the dataset are not ideal for evaluating instruction following because they are direct-to-goal shortest paths. We join existing short paths to form more challenging extended paths to create a new data set, Room-for-Room (R4R). Using R4R and CLS, we show that agents that receive rewards for instruction fidelity outperform agents that focus on goal completion.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-29T07:40:38Z</published>
+    <arxiv:comment>Accepted at ACL 2019 as long paper</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Vihan Jain</name>
+    </author>
+    <author>
+      <name>Gabriel Magalhaes</name>
+    </author>
+    <author>
+      <name>Alexander Ku</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Eugene Ie</name>
+    </author>
+    <author>
+      <name>Jason Baldridge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.09925v5</id>
+    <title>Attention Augmented Convolutional Networks</title>
+    <updated>2020-09-09T18:52:40Z</updated>
+    <link href="https://arxiv.org/abs/1904.09925v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.09925v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Convolutional networks have been the paradigm of choice in many computer vision applications. The convolution operation however has a significant weakness in that it only operates on a local neighborhood, thus missing global information. Self-attention, on the other hand, has emerged as a recent advance to capture long range interactions, but has mostly been applied to sequence modeling and generative modeling tasks. In this paper, we consider the use of self-attention for discriminative visual tasks as an alternative to convolutions. We introduce a novel two-dimensional relative self-attention mechanism that proves competitive in replacing convolutions as a stand-alone computational primitive for image classification. We find in control experiments that the best results are obtained when combining both convolutions and self-attention. We therefore propose to augment convolutional operators with this self-attention mechanism by concatenating convolutional feature maps with a set of feature maps produced via self-attention. Extensive experiments show that Attention Augmentation leads to consistent improvements in image classification on ImageNet and object detection on COCO across many different models and scales, including ResNets and a state-of-the art mobile constrained network, while keeping the number of parameters similar. In particular, our method achieves a $1.3\%$ top-1 accuracy improvement on ImageNet classification over a ResNet50 baseline and outperforms other attention mechanisms for images such as Squeeze-and-Excitation. It also achieves an improvement of 1.4 mAP in COCO Object Detection on top of a RetinaNet baseline.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-22T15:31:15Z</published>
+    <arxiv:comment>ICCV 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Irwan Bello</name>
+    </author>
+    <author>
+      <name>Barret Zoph</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Quoc V. Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.02084v1</id>
+    <title>Mesh-TensorFlow: Deep Learning for Supercomputers</title>
+    <updated>2018-11-05T23:25:02Z</updated>
+    <link href="https://arxiv.org/abs/1811.02084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.02084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Batch-splitting (data-parallelism) is the dominant distributed Deep Neural Network (DNN) training strategy, due to its universal applicability and its amenability to Single-Program-Multiple-Data (SPMD) programming. However, batch-splitting suffers from problems including the inability to train very large models (due to memory constraints), high latency, and inefficiency at small batch sizes. All of these can be solved by more general distribution strategies (model-parallelism). Unfortunately, efficient model-parallel algorithms tend to be complicated to discover, describe, and to implement, particularly on large clusters. We introduce Mesh-TensorFlow, a language for specifying a general class of distributed tensor computations. Where data-parallelism can be viewed as splitting tensors and operations along the "batch" dimension, in Mesh-TensorFlow, the user can specify any tensor-dimensions to be split across any dimensions of a multi-dimensional mesh of processors. A Mesh-TensorFlow graph compiles into a SPMD program consisting of parallel operations coupled with collective communication primitives such as Allreduce. We use Mesh-TensorFlow to implement an efficient data-parallel, model-parallel version of the Transformer sequence-to-sequence model. Using TPU meshes of up to 512 cores, we train Transformer models with up to 5 billion parameters, surpassing state of the art results on WMT'14 English-to-French translation task and the one-billion-word language modeling benchmark. Mesh-Tensorflow is available at https://github.com/tensorflow/mesh .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-05T23:25:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Youlong Cheng</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Dustin Tran</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Penporn Koanantakool</name>
+    </author>
+    <author>
+      <name>Peter Hawkins</name>
+    </author>
+    <author>
+      <name>HyoukJoong Lee</name>
+    </author>
+    <author>
+      <name>Mingsheng Hong</name>
+    </author>
+    <author>
+      <name>Cliff Young</name>
+    </author>
+    <author>
+      <name>Ryan Sepassi</name>
+    </author>
+    <author>
+      <name>Blake Hechtman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.04281v3</id>
+    <title>Music Transformer</title>
+    <updated>2018-12-12T07:42:08Z</updated>
+    <link href="https://arxiv.org/abs/1809.04281v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.04281v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Music relies heavily on repetition to build structure and meaning. Self-reference occurs on multiple timescales, from motifs to phrases to reusing of entire sections of music, such as in pieces with ABA structure. The Transformer (Vaswani et al., 2017), a sequence model based on self-attention, has achieved compelling results in many generation tasks that require maintaining long-range coherence. This suggests that self-attention might also be well-suited to modeling music. In musical composition and performance, however, relative timing is critically important. Existing approaches for representing relative positional information in the Transformer modulate attention based on pairwise distance (Shaw et al., 2018). This is impractical for long sequences such as musical compositions since their memory complexity for intermediate relative information is quadratic in the sequence length. We propose an algorithm that reduces their intermediate memory requirement to linear in the sequence length. This enables us to demonstrate that a Transformer with our modified relative attention mechanism can generate minute-long compositions (thousands of steps, four times the length modeled in Oore et al., 2018) with compelling structure, generate continuations that coherently elaborate on a given motif, and in a seq2seq setup generate accompaniments conditioned on melodies. We evaluate the Transformer with our relative attention mechanism on two datasets, JSB Chorales and Piano-e-Competition, and obtain state-of-the-art results on the latter.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-12T07:15:26Z</published>
+    <arxiv:comment>Improved skewing section and accompanying figures. Previous titles are "An Improved Relative Self-Attention Mechanism for Transformer with Application to Music Generation" and "Music Transformer"</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cheng-Zhi Anna Huang</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Ian Simon</name>
+    </author>
+    <author>
+      <name>Curtis Hawthorne</name>
+    </author>
+    <author>
+      <name>Andrew M. Dai</name>
+    </author>
+    <author>
+      <name>Matthew D. Hoffman</name>
+    </author>
+    <author>
+      <name>Monica Dinculescu</name>
+    </author>
+    <author>
+      <name>Douglas Eck</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01261v3</id>
+    <title>Relational inductive biases, deep learning, and graph networks</title>
+    <updated>2018-10-17T17:51:36Z</updated>
+    <link href="https://arxiv.org/abs/1806.01261v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01261v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence (AI) has undergone a renaissance recently, making major progress in key domains such as vision, language, control, and decision-making. This has been due, in part, to cheap data and cheap compute resources, which have fit the natural strengths of deep learning. However, many defining characteristics of human intelligence, which developed under much different pressures, remain out of reach for current approaches. In particular, generalizing beyond one's experiences--a hallmark of human intelligence from infancy--remains a formidable challenge for modern AI.
+  The following is part position paper, part review, and part unification. We argue that combinatorial generalization must be a top priority for AI to achieve human-like abilities, and that structured representations and computations are key to realizing this objective. Just as biology uses nature and nurture cooperatively, we reject the false choice between "hand-engineering" and "end-to-end" learning, and instead advocate for an approach which benefits from their complementary strengths. We explore how using relational inductive biases within deep learning architectures can facilitate learning about entities, relations, and rules for composing them. We present a new building block for the AI toolkit with a strong relational inductive bias--the graph network--which generalizes and extends various approaches for neural networks that operate on graphs, and provides a straightforward interface for manipulating structured knowledge and producing structured behaviors. We discuss how graph networks can support relational reasoning and combinatorial generalization, laying the foundation for more sophisticated, interpretable, and flexible patterns of reasoning. As a companion to this paper, we have released an open-source software library for building graph networks, with demonstrations of how to use them in practice.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-04T17:58:18Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Peter W. Battaglia</name>
+    </author>
+    <author>
+      <name>Jessica B. Hamrick</name>
+    </author>
+    <author>
+      <name>Victor Bapst</name>
+    </author>
+    <author>
+      <name>Alvaro Sanchez-Gonzalez</name>
+    </author>
+    <author>
+      <name>Vinicius Zambaldi</name>
+    </author>
+    <author>
+      <name>Mateusz Malinowski</name>
+    </author>
+    <author>
+      <name>Andrea Tacchetti</name>
+    </author>
+    <author>
+      <name>David Raposo</name>
+    </author>
+    <author>
+      <name>Adam Santoro</name>
+    </author>
+    <author>
+      <name>Ryan Faulkner</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Francis Song</name>
+    </author>
+    <author>
+      <name>Andrew Ballard</name>
+    </author>
+    <author>
+      <name>Justin Gilmer</name>
+    </author>
+    <author>
+      <name>George Dahl</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Kelsey Allen</name>
+    </author>
+    <author>
+      <name>Charles Nash</name>
+    </author>
+    <author>
+      <name>Victoria Langston</name>
+    </author>
+    <author>
+      <name>Chris Dyer</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+    <author>
+      <name>Pushmeet Kohli</name>
+    </author>
+    <author>
+      <name>Matt Botvinick</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Yujia Li</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.11063v2</id>
+    <title>Theory and Experiments on Vector Quantized Autoencoders</title>
+    <updated>2018-07-20T06:55:09Z</updated>
+    <link href="https://arxiv.org/abs/1805.11063v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.11063v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks with discrete latent variables offer the promise of better symbolic reasoning, and learning abstractions that are more useful to new tasks. There has been a surge in interest in discrete latent variable models, however, despite several recent improvements, the training of discrete latent variable models has remained challenging and their performance has mostly failed to match their continuous counterparts. Recent work on vector quantized autoencoders (VQ-VAE) has made substantial progress in this direction, with its perplexity almost matching that of a VAE on datasets such as CIFAR-10. In this work, we investigate an alternate training technique for VQ-VAE, inspired by its connection to the Expectation Maximization (EM) algorithm. Training the discrete bottleneck with EM helps us achieve better image generation results on CIFAR-10, and together with knowledge distillation, allows us to develop a non-autoregressive machine translation model whose accuracy almost matches a strong greedy autoregressive baseline Transformer, while being 3.3 times faster at inference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-28T17:16:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Arvind Neelakantan</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.07416v1</id>
+    <title>Tensor2Tensor for Neural Machine Translation</title>
+    <updated>2018-03-16T18:49:22Z</updated>
+    <link href="https://arxiv.org/abs/1803.07416v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.07416v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tensor2Tensor is a library for deep learning models that is well-suited for neural machine translation and includes the reference implementation of the state-of-the-art Transformer model.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-16T18:49:22Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1706.03762</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Samy Bengio</name>
+    </author>
+    <author>
+      <name>Eugene Brevdo</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Aidan N. Gomez</name>
+    </author>
+    <author>
+      <name>Stephan Gouws</name>
+    </author>
+    <author>
+      <name>Llion Jones</name>
+    </author>
+    <author>
+      <name>Łukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Nal Kalchbrenner</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Ryan Sepassi</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.03382v6</id>
+    <title>Fast Decoding in Sequence Models using Discrete Latent Variables</title>
+    <updated>2018-06-07T21:48:19Z</updated>
+    <link href="https://arxiv.org/abs/1803.03382v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.03382v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autoregressive sequence models based on deep neural networks, such as RNNs, Wavenet and the Transformer attain state-of-the-art results on many tasks. However, they are difficult to parallelize and are thus slow at processing long sequences. RNNs lack parallelism both during training and decoding, while architectures like WaveNet and Transformer are much more parallelizable during training, yet still operate sequentially during decoding.
+  Inspired by [arxiv:1711.00937], we present a method to extend sequence models using discrete latent variables that makes decoding much more parallelizable. We first auto-encode the target sequence into a shorter sequence of discrete latent variables, which at inference time is generated autoregressively, and finally decode the output sequence from this shorter latent sequence in parallel. To this end, we introduce a novel method for constructing a sequence of discrete latent variables and compare it with previously introduced methods. Finally, we evaluate our model end-to-end on the task of neural machine translation, where it is an order of magnitude faster at decoding than comparable autoregressive models. While lower in BLEU than purely autoregressive models, our model achieves higher scores than previously proposed non-autoregressive translation models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-09T04:39:35Z</published>
+    <arxiv:comment>ICML 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Łukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Aurko Roy</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Samy Bengio</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02155v2</id>
+    <title>Self-Attention with Relative Position Representations</title>
+    <updated>2018-04-12T18:51:33Z</updated>
+    <link href="https://arxiv.org/abs/1803.02155v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.02155v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Relying entirely on an attention mechanism, the Transformer introduced by Vaswani et al. (2017) achieves state-of-the-art results for machine translation. In contrast to recurrent and convolutional neural networks, it does not explicitly model relative or absolute position information in its structure. Instead, it requires adding representations of absolute positions to its inputs. In this work we present an alternative approach, extending the self-attention mechanism to efficiently consider representations of the relative positions, or distances between sequence elements. On the WMT 2014 English-to-German and English-to-French translation tasks, this approach yields improvements of 1.3 BLEU and 0.3 BLEU over absolute position representations, respectively. Notably, we observe that combining relative and absolute position representations yields no further improvement in translation quality. We describe an efficient implementation of our method and cast it as an instance of relation-aware self-attention mechanisms that can generalize to arbitrary graph-labeled inputs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-06T13:13:11Z</published>
+    <arxiv:comment>NAACL 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Peter Shaw</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05751v3</id>
+    <title>Image Transformer</title>
+    <updated>2018-06-15T23:27:07Z</updated>
+    <link href="https://arxiv.org/abs/1802.05751v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05751v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Image generation has been successfully cast as an autoregressive sequence generation or transformation problem. Recent work has shown that self-attention is an effective way of modeling textual sequences. In this work, we generalize a recently proposed model architecture based on self-attention, the Transformer, to a sequence modeling formulation of image generation with a tractable likelihood. By restricting the self-attention mechanism to attend to local neighborhoods we significantly increase the size of images the model can process in practice, despite maintaining significantly larger receptive fields per layer than typical convolutional neural networks. While conceptually simple, our generative models significantly outperform the current state of the art in image generation on ImageNet, improving the best published negative log-likelihood on ImageNet from 3.83 to 3.77. We also present results on image super-resolution with a large magnification ratio, applying an encoder-decoder configuration of our architecture. In a human evaluation study, we find that images generated by our super-resolution model fool human observers three times more often than the previous state of the art.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-15T20:37:15Z</published>
+    <arxiv:comment>Appears in International Conference on Machine Learning, 2018. Code available at https://github.com/tensorflow/tensor2tensor</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+    <author>
+      <name>Łukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Alexander Ku</name>
+    </author>
+    <author>
+      <name>Dustin Tran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.05137v1</id>
+    <title>One Model To Learn Them All</title>
+    <updated>2017-06-16T03:10:03Z</updated>
+    <link href="https://arxiv.org/abs/1706.05137v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.05137v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning yields great results across many fields, from speech recognition, image classification, to translation. But for each problem, getting a deep model to work well involves research into the architecture and a long period of tuning. We present a single model that yields good results on a number of problems spanning multiple domains. In particular, this single model is trained concurrently on ImageNet, multiple translation tasks, image captioning (COCO dataset), a speech recognition corpus, and an English parsing task. Our model architecture incorporates building blocks from multiple domains. It contains convolutional layers, an attention mechanism, and sparsely-gated layers. Each of these computational blocks is crucial for a subset of the tasks we train on. Interestingly, even if a block is not crucial for a task, we observe that adding it never hurts performance and in most cases improves it on all tasks. We also show that tasks with less data benefit largely from joint training with other tasks, while performance on large tasks degrades only slightly if at all.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-16T03:10:03Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Aidan N. Gomez</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Llion Jones</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03762v7</id>
+    <title>Attention Is All You Need</title>
+    <updated>2023-08-02T00:41:18Z</updated>
+    <link href="https://arxiv.org/abs/1706.03762v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03762v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-12T17:57:34Z</published>
+    <arxiv:comment>15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Noam Shazeer</name>
+    </author>
+    <author>
+      <name>Niki Parmar</name>
+    </author>
+    <author>
+      <name>Jakob Uszkoreit</name>
+    </author>
+    <author>
+      <name>Llion Jones</name>
+    </author>
+    <author>
+      <name>Aidan N. Gomez</name>
+    </author>
+    <author>
+      <name>Lukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Illia Polosukhin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.09007v1</id>
+    <title>Unsupervised Neural Hidden Markov Models</title>
+    <updated>2016-09-28T16:55:52Z</updated>
+    <link href="https://arxiv.org/abs/1609.09007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.09007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we present the first results for neuralizing an Unsupervised Hidden Markov Model. We evaluate our approach on tag in- duction. Our approach outperforms existing generative models and is competitive with the state-of-the-art though with a simpler model easily extended to include additional context.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-28T16:55:52Z</published>
+    <arxiv:comment>accepted at EMNLP 2016, Workshop on Structured Prediction for NLP. Oral presentation</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ke Tran</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Ashish Vaswani</name>
+    </author>
+    <author>
+      <name>Daniel Marcu</name>
+    </author>
+    <author>
+      <name>Kevin Knight</name>
+    </author>
+  </entry>
+</feed>

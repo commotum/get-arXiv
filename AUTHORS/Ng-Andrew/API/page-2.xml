@@ -1,0 +1,1330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/foHqstCuOeJkDXtrrseL1re4tWw</id>
+  <title>arXiv Query: search_query=au:"Andrew Ng"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-07T20:01:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Andrew+Ng%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>84</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2002.02917v2</id>
+    <title>Data augmentation with Mobius transformations</title>
+    <updated>2020-06-07T08:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2002.02917v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.02917v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data augmentation has led to substantial improvements in the performance and generalization of deep models, and remain a highly adaptable method to evolving model architectures and varying amounts of data---in particular, extremely scarce amounts of available training data. In this paper, we present a novel method of applying Mobius transformations to augment input images during training. Mobius transformations are bijective conformal maps that generalize image translation to operate over complex inversion in pixel space. As a result, Mobius transformations can operate on the sample level and preserve data labels. We show that the inclusion of Mobius transformations during training enables improved generalization over prior sample-level data augmentation techniques such as cutout and standard crop-and-flip transformations, most notably in low data regimes.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-07T17:45:39Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Jiequan Zhang</name>
+    </author>
+    <author>
+      <name>Hang Jiang</name>
+    </author>
+    <author>
+      <name>Torbjorn Lundh</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.07372v1</id>
+    <title>Deep Learning for the Digital Pathologic Diagnosis of Cholangiocarcinoma and Hepatocellular Carcinoma: Evaluating the Impact of a Web-based Diagnostic Assistant</title>
+    <updated>2019-11-18T00:14:54Z</updated>
+    <link href="https://arxiv.org/abs/1911.07372v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.07372v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While artificial intelligence (AI) algorithms continue to rival human performance on a variety of clinical tasks, the question of how best to incorporate these algorithms into clinical workflows remains relatively unexplored. We investigated how AI can affect pathologist performance on the task of differentiating between two subtypes of primary liver cancer, hepatocellular carcinoma (HCC) and cholangiocarcinoma (CC). We developed an AI diagnostic assistant using a deep learning model and evaluated its effect on the diagnostic performance of eleven pathologists with varying levels of expertise. Our deep learning model achieved an accuracy of 0.885 on an internal validation set of 26 slides and an accuracy of 0.842 on an independent test set of 80 slides. Despite having high accuracy on a hold out test set, the diagnostic assistant did not significantly improve performance across pathologists (p-value: 0.184, OR: 1.287 (95% CI 0.886, 1.871)). Model correctness was observed to significantly bias the pathologist decisions. When the model was correct, assistance significantly improved accuracy across all pathologist experience levels and for all case difficulty levels (p-value: &lt; 0.001, OR: 4.289 (95% CI 2.360, 7.794)). When the model was incorrect, assistance significantly decreased accuracy across all 11 pathologists and for all case difficulty levels (p-value &lt; 0.001, OR: 0.253 (95% CI 0.126, 0.507)). Our results highlight the challenges of translating AI models to the clinical setting, especially for difficult subspecialty tasks such as tumor classification. In particular, they suggest that incorrect model predictions could strongly bias an expert's diagnosis, an important factor to consider when designing medical AI-assistance systems.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-18T00:14:54Z</published>
+    <arxiv:comment>Machine Learning for Health (ML4H) at NeurIPS 2019 - Extended Abstract</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Bora Uyumazturk</name>
+    </author>
+    <author>
+      <name>Amirhossein Kiani</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Alex Wang</name>
+    </author>
+    <author>
+      <name>Robyn L. Ball</name>
+    </author>
+    <author>
+      <name>Rebecca Gao</name>
+    </author>
+    <author>
+      <name>Yifan Yu</name>
+    </author>
+    <author>
+      <name>Erik Jones</name>
+    </author>
+    <author>
+      <name>Curtis P. Langlotz</name>
+    </author>
+    <author>
+      <name>Brock Martin</name>
+    </author>
+    <author>
+      <name>Gerald J. Berry</name>
+    </author>
+    <author>
+      <name>Michael G. Ozawa</name>
+    </author>
+    <author>
+      <name>Florette K. Hazard</name>
+    </author>
+    <author>
+      <name>Ryanne A. Brown</name>
+    </author>
+    <author>
+      <name>Simon B. Chen</name>
+    </author>
+    <author>
+      <name>Mona Wood</name>
+    </author>
+    <author>
+      <name>Libby S. Allard</name>
+    </author>
+    <author>
+      <name>Lourdes Ylagan</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Jeanne Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.03225v4</id>
+    <title>NGBoost: Natural Gradient Boosting for Probabilistic Prediction</title>
+    <updated>2020-06-09T17:25:09Z</updated>
+    <link href="https://arxiv.org/abs/1910.03225v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.03225v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Natural Gradient Boosting (NGBoost), an algorithm for generic probabilistic prediction via gradient boosting. Typical regression models return a point estimate, conditional on covariates, but probabilistic regression models output a full probability distribution over the outcome space, conditional on the covariates. This allows for predictive uncertainty estimation -- crucial in applications like healthcare and weather forecasting. NGBoost generalizes gradient boosting to probabilistic regression by treating the parameters of the conditional distribution as targets for a multiparameter boosting algorithm. Furthermore, we show how the Natural Gradient is required to correct the training dynamics of our multiparameter boosting approach. NGBoost can be used with any base learner, any family of distributions with continuous parameters, and any scoring rule. NGBoost matches or exceeds the performance of existing methods for probabilistic prediction while offering additional benefits in flexibility, scalability, and usability. An open-source implementation is available at github.com/stanfordmlgroup/ngboost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-08T06:07:13Z</published>
+    <arxiv:comment>Accepted for ICML 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tony Duan</name>
+    </author>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Daisy Yi Ding</name>
+    </author>
+    <author>
+      <name>Khanh K. Thai</name>
+    </author>
+    <author>
+      <name>Sanjay Basu</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Alejandro Schuler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05433v2</id>
+    <title>Tackling Climate Change with Machine Learning</title>
+    <updated>2019-11-05T17:37:20Z</updated>
+    <link href="https://arxiv.org/abs/1906.05433v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.05433v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids to disaster management, we identify high impact problems where existing gaps can be filled by machine learning, in collaboration with other fields. Our recommendations encompass exciting research questions as well as promising business opportunities. We call on the machine learning community to join the global effort against climate change.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-10T17:51:47Z</published>
+    <arxiv:comment>For additional resources, please visit the website that accompanies this paper: https://www.climatechange.ai/</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>David Rolnick</name>
+    </author>
+    <author>
+      <name>Priya L. Donti</name>
+    </author>
+    <author>
+      <name>Lynn H. Kaack</name>
+    </author>
+    <author>
+      <name>Kelly Kochanski</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+    <author>
+      <name>Kris Sankaran</name>
+    </author>
+    <author>
+      <name>Andrew Slavin Ross</name>
+    </author>
+    <author>
+      <name>Nikola Milojevic-Dupont</name>
+    </author>
+    <author>
+      <name>Natasha Jaques</name>
+    </author>
+    <author>
+      <name>Anna Waldman-Brown</name>
+    </author>
+    <author>
+      <name>Alexandra Luccioni</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Evan D. Sherwin</name>
+    </author>
+    <author>
+      <name>S. Karthik Mukkavilli</name>
+    </author>
+    <author>
+      <name>Konrad P. Kording</name>
+    </author>
+    <author>
+      <name>Carla Gomes</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Demis Hassabis</name>
+    </author>
+    <author>
+      <name>John C. Platt</name>
+    </author>
+    <author>
+      <name>Felix Creutzig</name>
+    </author>
+    <author>
+      <name>Jennifer Chayes</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.07031v1</id>
+    <title>CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison</title>
+    <updated>2019-01-21T18:41:59Z</updated>
+    <link href="https://arxiv.org/abs/1901.07031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.07031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large, labeled datasets have driven deep learning methods to achieve expert-level performance on a variety of medical imaging tasks. We present CheXpert, a large dataset that contains 224,316 chest radiographs of 65,240 patients. We design a labeler to automatically detect the presence of 14 observations in radiology reports, capturing uncertainties inherent in radiograph interpretation. We investigate different approaches to using the uncertainty labels for training convolutional neural networks that output the probability of these observations given the available frontal and lateral radiographs. On a validation set of 200 chest radiographic studies which were manually annotated by 3 board-certified radiologists, we find that different uncertainty approaches are useful for different pathologies. We then evaluate our best model on a test set composed of 500 chest radiographic studies annotated by a consensus of 5 board-certified radiologists, and compare the performance of our model to that of 3 additional radiologists in the detection of 5 selected pathologies. On Cardiomegaly, Edema, and Pleural Effusion, the model ROC and PR curves lie above all 3 radiologist operating points. We release the dataset to the public as a standard benchmark to evaluate performance of chest radiograph interpretation models.
+  The dataset is freely available at https://stanfordmlgroup.github.io/competitions/chexpert .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-21T18:41:59Z</published>
+    <arxiv:comment>Published in AAAI 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Michael Ko</name>
+    </author>
+    <author>
+      <name>Yifan Yu</name>
+    </author>
+    <author>
+      <name>Silviana Ciurea-Ilcus</name>
+    </author>
+    <author>
+      <name>Chris Chute</name>
+    </author>
+    <author>
+      <name>Henrik Marklund</name>
+    </author>
+    <author>
+      <name>Behzad Haghgoo</name>
+    </author>
+    <author>
+      <name>Robyn Ball</name>
+    </author>
+    <author>
+      <name>Katie Shpanskaya</name>
+    </author>
+    <author>
+      <name>Jayne Seekins</name>
+    </author>
+    <author>
+      <name>David A. Mong</name>
+    </author>
+    <author>
+      <name>Safwan S. Halabi</name>
+    </author>
+    <author>
+      <name>Jesse K. Sandberg</name>
+    </author>
+    <author>
+      <name>Ricky Jones</name>
+    </author>
+    <author>
+      <name>David B. Larson</name>
+    </author>
+    <author>
+      <name>Curtis P. Langlotz</name>
+    </author>
+    <author>
+      <name>Bhavik N. Patel</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.00371v1</id>
+    <title>Predicting Inpatient Discharge Prioritization With Electronic Health Records</title>
+    <updated>2018-12-02T11:31:50Z</updated>
+    <link href="https://arxiv.org/abs/1812.00371v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.00371v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Identifying patients who will be discharged within 24 hours can improve hospital resource management and quality of care. We studied this problem using eight years of Electronic Health Records (EHR) data from Stanford Hospital. We fit models to predict 24 hour discharge across the entire inpatient population. The best performing models achieved an area under the receiver-operator characteristic curve (AUROC) of 0.85 and an AUPRC of 0.53 on a held out test set. This model was also well calibrated. Finally, we analyzed the utility of this model in a decision theoretic framework to identify regions of ROC space in which using the model increases expected utility compared to the trivial always negative or always positive classifiers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-02T11:31:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Stephen Pfohl</name>
+    </author>
+    <author>
+      <name>Chris Lin</name>
+    </author>
+    <author>
+      <name>Thao Nguyen</name>
+    </author>
+    <author>
+      <name>Meng Zhang</name>
+    </author>
+    <author>
+      <name>Philip Hwang</name>
+    </author>
+    <author>
+      <name>Jessica Wetstone</name>
+    </author>
+    <author>
+      <name>Kenneth Jung</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Nigam H. Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.07774v2</id>
+    <title>Ambulatory Atrial Fibrillation Monitoring Using Wearable Photoplethysmography with Deep Learning</title>
+    <updated>2018-11-27T21:50:45Z</updated>
+    <link href="https://arxiv.org/abs/1811.07774v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.07774v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop an algorithm that accurately detects Atrial Fibrillation (AF) episodes from photoplethysmograms (PPG) recorded in ambulatory free-living conditions. We collect and annotate a dataset containing more than 4000 hours of PPG recorded from a wrist-worn device. Using a 50-layer convolutional neural network, we achieve a test AUC of 95% and show robustness to motion artifacts inherent to PPG signals. Continuous and accurate detection of AF from PPG has the potential to transform consumer wearable devices into clinically useful medical monitoring tools.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-12T06:47:23Z</published>
+    <arxiv:comment>Equal contribution by Maxime Voisin and Yichen Shen</arxiv:comment>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <author>
+      <name>Maxime Voisin</name>
+    </author>
+    <author>
+      <name>Yichen Shen</name>
+    </author>
+    <author>
+      <name>Alireza Aliamiri</name>
+    </author>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Awni Hannun</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.08324v2</id>
+    <title>Countdown Regression: Sharp and Calibrated Survival Predictions</title>
+    <updated>2019-06-18T23:12:23Z</updated>
+    <link href="https://arxiv.org/abs/1806.08324v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.08324v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Probabilistic survival predictions from models trained with Maximum Likelihood Estimation (MLE) can have high, and sometimes unacceptably high variance. The field of meteorology, where the paradigm of maximizing sharpness subject to calibration is popular, has addressed this problem by using scoring rules beyond MLE, such as the Continuous Ranked Probability Score (CRPS). In this paper we present the \emph{Survival-CRPS}, a generalization of the CRPS to the survival prediction setting, with right-censored and interval-censored variants. We evaluate our ideas on the mortality prediction task using two different Electronic Health Record (EHR) data sets (STARR and MIMIC-III) covering millions of patients, with suitable deep neural network architectures: a Recurrent Neural Network (RNN) for STARR and a Fully Connected Network (FCN) for MIMIC-III. We compare results between the two scoring rules while keeping the network architecture and data fixed, and show that models trained with Survival-CRPS result in sharper predictive distributions compared to those trained by MLE, while still maintaining calibration.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-21T17:12:10Z</published>
+    <arxiv:comment>UAI 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Tony Duan</name>
+    </author>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Kenneth Jung</name>
+    </author>
+    <author>
+      <name>Nigam H. Shah</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04336v1</id>
+    <title>Ab initio model of optical properties of two-temperature warm dense matter</title>
+    <updated>2018-02-12T20:06:16Z</updated>
+    <link href="https://arxiv.org/abs/1802.04336v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.04336v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a model to describe thermophysical and optical properties of two-temperature systems consisted of heated electrons and cold ions in a solid lattice that occur during ultrafast heating experiments. Our model is based on ab initio simulations within the framework of density functional theory. The optical properties are obtained by evaluating the Kubo-Greenwood formula. By applying the material parameters of our ab initio model to a two-temperature model we are able to describe the temperature relaxation process of femtosecond-laser-heated gold and its optical properties within the same theoretical framework. Recent time-resolved measurements of optical properties of ultrafast heated gold revealed the dynamics of the interaction between femtosecond laser pulses and solid state matter. Different scenarios obtained from simulations of our study are compared with experimental data [Chen, Holst, Kirkwood, Sametoglu, Reid, Tsui, Recoules, and Ng, Phys. Rev. Lett. 110, 135001 (2013)].</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-12T20:06:16Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Physical Review B 90, 035121 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Bastian Holst</name>
+    </author>
+    <author>
+      <name>Vanina Recoules</name>
+    </author>
+    <author>
+      <name>Stephane Mazevet</name>
+    </author>
+    <author>
+      <name>Marc Torrent</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Zhijiang Chen</name>
+    </author>
+    <author>
+      <name>Sean E. Kirkwood</name>
+    </author>
+    <author>
+      <name>V. Sametoglu</name>
+    </author>
+    <author>
+      <name>M. Reid</name>
+    </author>
+    <author>
+      <name>Ying Y. Tsui</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.90.035121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.90.035121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.06957v4</id>
+    <title>MURA: Large Dataset for Abnormality Detection in Musculoskeletal Radiographs</title>
+    <updated>2018-05-22T09:19:07Z</updated>
+    <link href="https://arxiv.org/abs/1712.06957v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.06957v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MURA, a large dataset of musculoskeletal radiographs containing 40,561 images from 14,863 studies, where each study is manually labeled by radiologists as either normal or abnormal. To evaluate models robustly and to get an estimate of radiologist performance, we collect additional labels from six board-certified Stanford radiologists on the test set, consisting of 207 musculoskeletal studies. On this test set, the majority vote of a group of three radiologists serves as gold standard. We train a 169-layer DenseNet baseline model to detect and localize abnormalities. Our model achieves an AUROC of 0.929, with an operating point of 0.815 sensitivity and 0.887 specificity. We compare our model and radiologists on the Cohen's kappa statistic, which expresses the agreement of our model and of each radiologist with the gold standard. Model performance is comparable to the best radiologist performance in detecting abnormalities on finger and wrist studies. However, model performance is lower than best radiologist performance in detecting abnormalities on elbow, forearm, hand, humerus, and shoulder studies. We believe that the task is a good challenge for future research. To encourage advances, we have made our dataset freely available at https://stanfordmlgroup.github.io/competitions/mura .</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-11T17:46:55Z</published>
+    <arxiv:comment>1st Conference on Medical Imaging with Deep Learning (MIDL 2018)</arxiv:comment>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Aarti Bagul</name>
+    </author>
+    <author>
+      <name>Daisy Ding</name>
+    </author>
+    <author>
+      <name>Tony Duan</name>
+    </author>
+    <author>
+      <name>Hershel Mehta</name>
+    </author>
+    <author>
+      <name>Brandon Yang</name>
+    </author>
+    <author>
+      <name>Kaylie Zhu</name>
+    </author>
+    <author>
+      <name>Dillon Laird</name>
+    </author>
+    <author>
+      <name>Robyn L. Ball</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+    <author>
+      <name>Katie Shpanskaya</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06402v1</id>
+    <title>Improving Palliative Care with Deep Learning</title>
+    <updated>2017-11-17T04:46:17Z</updated>
+    <link href="https://arxiv.org/abs/1711.06402v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06402v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Improving the quality of end-of-life care for hospitalized patients is a priority for healthcare organizations. Studies have shown that physicians tend to over-estimate prognoses, which in combination with treatment inertia results in a mismatch between patients wishes and actual care at the end of life. We describe a method to address this problem using Deep Learning and Electronic Health Record (EHR) data, which is currently being piloted, with Institutional Review Board approval, at an academic medical center. The EHR data of admitted patients are automatically evaluated by an algorithm, which brings patients who are likely to benefit from palliative care services to the attention of the Palliative Care team. The algorithm is a Deep Neural Network trained on the EHR data from previous years, to predict all-cause 3-12 month mortality of patients as a proxy for patients that could benefit from palliative care. Our predictions enable the Palliative Care team to take a proactive approach in reaching out to such patients, rather than relying on referrals from treating physicians, or conduct time consuming chart reviews of all patients. We also present a novel interpretation technique which we use to provide explanations of the model's predictions.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T04:46:17Z</published>
+    <arxiv:comment>IEEE International Conference on Bioinformatics and Biomedicine 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Kenneth Jung</name>
+    </author>
+    <author>
+      <name>Stephanie Harman</name>
+    </author>
+    <author>
+      <name>Lance Downing</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Nigam H. Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.05225v3</id>
+    <title>CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning</title>
+    <updated>2017-12-25T11:09:06Z</updated>
+    <link href="https://arxiv.org/abs/1711.05225v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.05225v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop an algorithm that can detect pneumonia from chest X-rays at a level exceeding practicing radiologists. Our algorithm, CheXNet, is a 121-layer convolutional neural network trained on ChestX-ray14, currently the largest publicly available chest X-ray dataset, containing over 100,000 frontal-view X-ray images with 14 diseases. Four practicing academic radiologists annotate a test set, on which we compare the performance of CheXNet to that of radiologists. We find that CheXNet exceeds average radiologist performance on the F1 metric. We extend CheXNet to detect all 14 diseases in ChestX-ray14 and achieve state of the art results on all 14 diseases.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-14T17:58:50Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Jeremy Irvin</name>
+    </author>
+    <author>
+      <name>Kaylie Zhu</name>
+    </author>
+    <author>
+      <name>Brandon Yang</name>
+    </author>
+    <author>
+      <name>Hershel Mehta</name>
+    </author>
+    <author>
+      <name>Tony Duan</name>
+    </author>
+    <author>
+      <name>Daisy Ding</name>
+    </author>
+    <author>
+      <name>Aarti Bagul</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+    <author>
+      <name>Katie Shpanskaya</name>
+    </author>
+    <author>
+      <name>Matthew P. Lungren</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.01836v1</id>
+    <title>Cardiologist-Level Arrhythmia Detection with Convolutional Neural Networks</title>
+    <updated>2017-07-06T15:42:46Z</updated>
+    <link href="https://arxiv.org/abs/1707.01836v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.01836v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop an algorithm which exceeds the performance of board certified cardiologists in detecting a wide range of heart arrhythmias from electrocardiograms recorded with a single-lead wearable monitor. We build a dataset with more than 500 times the number of unique patients than previously studied corpora. On this dataset, we train a 34-layer convolutional neural network which maps a sequence of ECG samples to a sequence of rhythm classes. Committees of board-certified cardiologists annotate a gold standard test set on which we compare the performance of our model to that of 6 other individual cardiologists. We exceed the average cardiologist performance in both recall (sensitivity) and precision (positive predictive value).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-06T15:42:46Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Awni Y. Hannun</name>
+    </author>
+    <author>
+      <name>Masoumeh Haghpanahi</name>
+    </author>
+    <author>
+      <name>Codie Bourn</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02573v1</id>
+    <title>Data Noising as Smoothing in Neural Network Language Models</title>
+    <updated>2017-03-07T19:56:26Z</updated>
+    <link href="https://arxiv.org/abs/1703.02573v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.02573v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data noising is an effective technique for regularizing neural network models. While noising is widely adopted in application domains such as vision and speech, commonly used noising primitives have not been developed for discrete sequence-level settings such as language modeling. In this paper, we derive a connection between input noising in neural network language models and smoothing in $n$-gram models. Using this connection, we draw upon ideas from smoothing to develop effective noising schemes. We demonstrate performance gains when applying the proposed schemes to language modeling and machine translation. Finally, we provide empirical analysis validating the relationship between noising and smoothing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-07T19:56:26Z</published>
+    <arxiv:comment>ICLR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziang Xie</name>
+    </author>
+    <author>
+      <name>Sida I. Wang</name>
+    </author>
+    <author>
+      <name>Jiwei Li</name>
+    </author>
+    <author>
+      <name>Daniel Lévy</name>
+    </author>
+    <author>
+      <name>Aiming Nie</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.07825v2</id>
+    <title>Deep Voice: Real-time Neural Text-to-Speech</title>
+    <updated>2017-03-07T23:09:23Z</updated>
+    <link href="https://arxiv.org/abs/1702.07825v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.07825v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Deep Voice, a production-quality text-to-speech system constructed entirely from deep neural networks. Deep Voice lays the groundwork for truly end-to-end neural speech synthesis. The system comprises five major building blocks: a segmentation model for locating phoneme boundaries, a grapheme-to-phoneme conversion model, a phoneme duration prediction model, a fundamental frequency prediction model, and an audio synthesis model. For the segmentation model, we propose a novel way of performing phoneme boundary detection with deep neural networks using connectionist temporal classification (CTC) loss. For the audio synthesis model, we implement a variant of WaveNet that requires fewer parameters and trains faster than the original. By using a neural network for each component, our system is simpler and more flexible than traditional text-to-speech systems, where each component requires laborious feature engineering and extensive domain expertise. Finally, we show that inference with our system can be performed faster than real time and describe optimized WaveNet inference kernels on both CPU and GPU that achieve up to 400x speedups over existing implementations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-25T03:11:04Z</published>
+    <arxiv:comment>Submitted to ICML 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sercan O. Arik</name>
+    </author>
+    <author>
+      <name>Mike Chrzanowski</name>
+    </author>
+    <author>
+      <name>Adam Coates</name>
+    </author>
+    <author>
+      <name>Gregory Diamos</name>
+    </author>
+    <author>
+      <name>Andrew Gibiansky</name>
+    </author>
+    <author>
+      <name>Yongguo Kang</name>
+    </author>
+    <author>
+      <name>Xian Li</name>
+    </author>
+    <author>
+      <name>John Miller</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Jonathan Raiman</name>
+    </author>
+    <author>
+      <name>Shubho Sengupta</name>
+    </author>
+    <author>
+      <name>Mohammad Shoeybi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.07323v2</id>
+    <title>Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones</title>
+    <updated>2018-01-17T02:14:37Z</updated>
+    <link href="https://arxiv.org/abs/1608.07323v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.07323v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the ubiquity of mobile touchscreen devices like smartphones, two widely used text entry methods have emerged: small touch-based keyboards and speech recognition. Although speech recognition has been available on desktop computers for years, it has continued to improve at a rapid pace, and it is currently unknown how today's modern speech recognizers compare to state-of-the-art mobile touch keyboards, which also have improved considerably since their inception. To discover both methods' "upper-bound performance," we evaluated them in English and Mandarin Chinese on an Apple iPhone 6 Plus in a laboratory setting. Our experiment was carried out using Baidu's Deep Speech 2, a deep learning-based speech recognition system, and the built-in Qwerty (English) or Pinyin (Mandarin) Apple iOS keyboards. We found that with speech recognition, the English input rate was 2.93 times faster (153 vs. 52 WPM), and the Mandarin Chinese input rate was 2.87 times faster (123 vs. 43 WPM) than the keyboard for short message transcription under laboratory conditions for both methods. Furthermore, although speech made fewer errors during entry (5.30% vs. 11.22% corrected error rate), it left slightly more errors in the final transcribed text (1.30% vs. 0.79% uncorrected error rate). Our results show that comparatively, under ideal conditions for both methods, upper-bound speech recognition performance has greatly improved compared to prior systems, and might see greater uptake in the future, although further study is required to quantify performance in non-laboratory settings for both methods.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-25T22:09:02Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <arxiv:journal_ref>Journal Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies archive Volume 1 Issue 4, December 2017</arxiv:journal_ref>
+    <author>
+      <name>Sherry Ruan</name>
+    </author>
+    <author>
+      <name>Jacob O. Wobbrock</name>
+    </author>
+    <author>
+      <name>Kenny Liou</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>James Landay</name>
+    </author>
+    <arxiv:doi>10.1145/3161187</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3161187" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.09727v1</id>
+    <title>Neural Language Correction with Character-Based Attention</title>
+    <updated>2016-03-31T19:16:54Z</updated>
+    <link href="https://arxiv.org/abs/1603.09727v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.09727v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Natural language correction has the potential to help language learners improve their writing skills. While approaches with separate classifiers for different error types have high precision, they do not flexibly handle errors such as redundancy or non-idiomatic phrasing. On the other hand, word and phrase-based machine translation methods are not designed to cope with orthographic errors, and have recently been outpaced by neural models. Motivated by these issues, we present a neural network-based approach to language correction. The core component of our method is an encoder-decoder recurrent neural network with an attention mechanism. By operating at the character level, the network avoids the problem of out-of-vocabulary words. We illustrate the flexibility of our approach on dataset of noisy, user-generated text collected from an English learner forum. When combined with a language model, our method achieves a state-of-the-art $F_{0.5}$-score on the CoNLL 2014 Shared Task. We further demonstrate that training the network on additional data with synthesized errors can improve performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-31T19:16:54Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ziang Xie</name>
+    </author>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+    <author>
+      <name>Naveen Arivazhagan</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.02595v1</id>
+    <title>Deep Speech 2: End-to-End Speech Recognition in English and Mandarin</title>
+    <updated>2015-12-08T19:13:50Z</updated>
+    <link href="https://arxiv.org/abs/1512.02595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.02595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that an end-to-end deep learning approach can be used to recognize either English or Mandarin Chinese speech--two vastly different languages. Because it replaces entire pipelines of hand-engineered components with neural networks, end-to-end learning allows us to handle a diverse variety of speech including noisy environments, accents and different languages. Key to our approach is our application of HPC techniques, resulting in a 7x speedup over our previous system. Because of this efficiency, experiments that previously took weeks now run in days. This enables us to iterate more quickly to identify superior architectures and algorithms. As a result, in several cases, our system is competitive with the transcription of human workers when benchmarked on standard datasets. Finally, using a technique called Batch Dispatch with GPUs in the data center, we show that our system can be inexpensively deployed in an online setting, delivering low latency when serving users at scale.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-08T19:13:50Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Rishita Anubhai</name>
+    </author>
+    <author>
+      <name>Eric Battenberg</name>
+    </author>
+    <author>
+      <name>Carl Case</name>
+    </author>
+    <author>
+      <name>Jared Casper</name>
+    </author>
+    <author>
+      <name>Bryan Catanzaro</name>
+    </author>
+    <author>
+      <name>Jingdong Chen</name>
+    </author>
+    <author>
+      <name>Mike Chrzanowski</name>
+    </author>
+    <author>
+      <name>Adam Coates</name>
+    </author>
+    <author>
+      <name>Greg Diamos</name>
+    </author>
+    <author>
+      <name>Erich Elsen</name>
+    </author>
+    <author>
+      <name>Jesse Engel</name>
+    </author>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Christopher Fougner</name>
+    </author>
+    <author>
+      <name>Tony Han</name>
+    </author>
+    <author>
+      <name>Awni Hannun</name>
+    </author>
+    <author>
+      <name>Billy Jun</name>
+    </author>
+    <author>
+      <name>Patrick LeGresley</name>
+    </author>
+    <author>
+      <name>Libby Lin</name>
+    </author>
+    <author>
+      <name>Sharan Narang</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Sherjil Ozair</name>
+    </author>
+    <author>
+      <name>Ryan Prenger</name>
+    </author>
+    <author>
+      <name>Jonathan Raiman</name>
+    </author>
+    <author>
+      <name>Sanjeev Satheesh</name>
+    </author>
+    <author>
+      <name>David Seetapun</name>
+    </author>
+    <author>
+      <name>Shubho Sengupta</name>
+    </author>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Zhiqian Wang</name>
+    </author>
+    <author>
+      <name>Chong Wang</name>
+    </author>
+    <author>
+      <name>Bo Xiao</name>
+    </author>
+    <author>
+      <name>Dani Yogatama</name>
+    </author>
+    <author>
+      <name>Jun Zhan</name>
+    </author>
+    <author>
+      <name>Zhenyao Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.01872v1</id>
+    <title>Driverseat: Crowdstrapping Learning Tasks for Autonomous Driving</title>
+    <updated>2015-12-07T01:34:23Z</updated>
+    <link href="https://arxiv.org/abs/1512.01872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.01872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While emerging deep-learning systems have outclassed knowledge-based approaches in many tasks, their application to detection tasks for autonomous technologies remains an open field for scientific exploration. Broadly, there are two major developmental bottlenecks: the unavailability of comprehensively labeled datasets and of expressive evaluation strategies. Approaches for labeling datasets have relied on intensive hand-engineering, and strategies for evaluating learning systems have been unable to identify failure-case scenarios. Human intelligence offers an untapped approach for breaking through these bottlenecks. This paper introduces Driverseat, a technology for embedding crowds around learning systems for autonomous driving. Driverseat utilizes crowd contributions for (a) collecting complex 3D labels and (b) tagging diverse scenarios for ready evaluation of learning systems. We demonstrate how Driverseat can crowdstrap a convolutional neural network on the lane-detection task. More generally, crowdstrapping introduces a valuable paradigm for any technology that can benefit from leveraging the powerful combination of human and computer intelligence.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-07T01:34:23Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Toki Migimatsu</name>
+    </author>
+    <author>
+      <name>Jeff Kiske</name>
+    </author>
+    <author>
+      <name>Royce Cheng-Yue</name>
+    </author>
+    <author>
+      <name>Sameep Tandon</name>
+    </author>
+    <author>
+      <name>Tao Wang</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.01716v3</id>
+    <title>An Empirical Evaluation of Deep Learning on Highway Driving</title>
+    <updated>2015-04-17T01:27:14Z</updated>
+    <link href="https://arxiv.org/abs/1504.01716v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.01716v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerous groups have applied a variety of deep learning techniques to computer vision problems in highway perception scenarios. In this paper, we presented a number of empirical evaluations of recent deep learning advances. Computer vision, combined with deep learning, has the potential to bring about a relatively inexpensive, robust solution to autonomous driving. To prepare deep learning for industry uptake and practical applications, neural networks will require large data sets that represent all possible driving environments and scenarios. We collect a large data set of highway data and apply deep learning and computer vision algorithms to problems such as car and lane detection. We show how existing convolutional neural networks (CNNs) can be used to perform lane and vehicle detection while running at frame rates required for a real-time system. Our results lend credence to the hypothesis that deep learning holds promise for autonomous driving.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-07T19:41:59Z</published>
+    <arxiv:comment>Added a video for lane detection</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Brody Huval</name>
+    </author>
+    <author>
+      <name>Tao Wang</name>
+    </author>
+    <author>
+      <name>Sameep Tandon</name>
+    </author>
+    <author>
+      <name>Jeff Kiske</name>
+    </author>
+    <author>
+      <name>Will Song</name>
+    </author>
+    <author>
+      <name>Joel Pazhayampallil</name>
+    </author>
+    <author>
+      <name>Mykhaylo Andriluka</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+    <author>
+      <name>Toki Migimatsu</name>
+    </author>
+    <author>
+      <name>Royce Cheng-Yue</name>
+    </author>
+    <author>
+      <name>Fernando Mujica</name>
+    </author>
+    <author>
+      <name>Adam Coates</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.5567v2</id>
+    <title>Deep Speech: Scaling up end-to-end speech recognition</title>
+    <updated>2014-12-19T21:36:13Z</updated>
+    <link href="https://arxiv.org/abs/1412.5567v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.5567v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a "phoneme." Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-17T20:39:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Awni Hannun</name>
+    </author>
+    <author>
+      <name>Carl Case</name>
+    </author>
+    <author>
+      <name>Jared Casper</name>
+    </author>
+    <author>
+      <name>Bryan Catanzaro</name>
+    </author>
+    <author>
+      <name>Greg Diamos</name>
+    </author>
+    <author>
+      <name>Erich Elsen</name>
+    </author>
+    <author>
+      <name>Ryan Prenger</name>
+    </author>
+    <author>
+      <name>Sanjeev Satheesh</name>
+    </author>
+    <author>
+      <name>Shubho Sengupta</name>
+    </author>
+    <author>
+      <name>Adam Coates</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.2873v2</id>
+    <title>First-Pass Large Vocabulary Continuous Speech Recognition using Bi-Directional Recurrent DNNs</title>
+    <updated>2014-12-08T20:21:52Z</updated>
+    <link href="https://arxiv.org/abs/1408.2873v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.2873v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a method to perform first-pass large vocabulary continuous speech recognition using only a neural network and language model. Deep neural network acoustic models are now commonplace in HMM-based speech recognition systems, but building such systems is a complex, domain-specific task. Recent work demonstrated the feasibility of discarding the HMM sequence modeling framework by directly predicting transcript text from audio. This paper extends this approach in two ways. First, we demonstrate that a straightforward recurrent neural network architecture can achieve a high level of accuracy. Second, we propose and evaluate a modified prefix-search decoding algorithm. This approach to decoding enables first-pass speech recognition with a language model, completely unaided by the cumbersome infrastructure of HMM-based systems. Experiments on the Wall Street Journal corpus demonstrate fairly competitive word error rates, and the importance of bi-directional network recurrence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-12T22:40:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Awni Y. Hannun</name>
+    </author>
+    <author>
+      <name>Andrew L. Maas</name>
+    </author>
+    <author>
+      <name>Daniel Jurafsky</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7806v2</id>
+    <title>Building DNN Acoustic Models for Large Vocabulary Speech Recognition</title>
+    <updated>2015-01-20T07:44:15Z</updated>
+    <link href="https://arxiv.org/abs/1406.7806v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.7806v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks (DNNs) are now a central component of nearly all state-of-the-art speech recognition systems. Building neural network acoustic models requires several design decisions including network architecture, size, and training loss function. This paper offers an empirical investigation on which aspects of DNN acoustic model design are most important for speech recognition system performance. We report DNN classifier performance and final speech recognizer word error rates, and compare DNNs using several metrics to quantify factors influencing differences in task performance. Our first set of experiments use the standard Switchboard benchmark corpus, which contains approximately 300 hours of conversational telephone speech. We compare standard DNNs to convolutional networks, and present the first experiments using locally-connected, untied neural networks for acoustic modeling. We additionally build systems on a corpus of 2,100 hours of training data by combining the Switchboard and Fisher corpora. This larger corpus allows us to more thoroughly examine performance of large DNN models -- with up to ten times more parameters than those typically used in speech recognition systems. Our results suggest that a relatively simple DNN architecture and optimization technique produces strong results. These findings, along with previous work, help establish a set of best practices for building DNN hybrid speech recognition systems with maximum likelihood training. Our experiments in DNN optimization additionally serve as a case study for training DNNs with discriminative loss functions for speech tasks, as well as DNN classifiers more generally.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-30T16:42:25Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Andrew L. Maas</name>
+    </author>
+    <author>
+      <name>Peng Qi</name>
+    </author>
+    <author>
+      <name>Ziang Xie</name>
+    </author>
+    <author>
+      <name>Awni Y. Hannun</name>
+    </author>
+    <author>
+      <name>Christopher T. Lengerich</name>
+    </author>
+    <author>
+      <name>Daniel Jurafsky</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6885v1</id>
+    <title>Deep learning for class-generic object detection</title>
+    <updated>2013-12-24T20:38:18Z</updated>
+    <link href="https://arxiv.org/abs/1312.6885v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6885v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the use of deep neural networks for the novel task of class generic object detection. We show that neural networks originally designed for image recognition can be trained to detect objects within images, regardless of their class, including objects for which no bounding box labels have been provided. In addition, we show that bounding box labels yield a 1% performance increase on the ImageNet recognition challenge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-24T20:38:18Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Brody Huval</name>
+    </author>
+    <author>
+      <name>Adam Coates</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.2579v1</id>
+    <title>Tuned Models of Peer Assessment in MOOCs</title>
+    <updated>2013-07-09T20:03:51Z</updated>
+    <link href="https://arxiv.org/abs/1307.2579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.2579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In massive open online courses (MOOCs), peer grading serves as a critical tool for scaling the grading of complex, open-ended assignments to courses with tens or hundreds of thousands of students. But despite promising initial trials, it does not always deliver accurate results compared to human experts. In this paper, we develop algorithms for estimating and correcting for grader biases and reliabilities, showing significant improvement in peer grading accuracy on real data with 63,199 peer grades from Coursera's HCI course offerings --- the largest peer grading networks analysed to date. We relate grader biases and reliabilities to other student factors such as student engagement, performance as well as commenting style. We also show that our model can lead to more intelligent assignment of graders to gradees.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-09T20:03:51Z</published>
+    <arxiv:comment>Proceedings of The 6th International Conference on Educational Data Mining (EDM 2013)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chris Piech</name>
+    </author>
+    <author>
+      <name>Jonathan Huang</name>
+    </author>
+    <author>
+      <name>Zhenghao Chen</name>
+    </author>
+    <author>
+      <name>Chuong Do</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+    <author>
+      <name>Daphne Koller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.1552v1</id>
+    <title>An Information-Theoretic Analysis of Hard and Soft Assignment Methods for Clustering</title>
+    <updated>2013-02-06T15:57:20Z</updated>
+    <link href="https://arxiv.org/abs/1302.1552v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.1552v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assignment methods are at the heart of many algorithms for unsupervised learning and clustering - in particular, the well-known K-means and Expectation-Maximization (EM) algorithms.  In this work, we study several different methods of assignment, including the "hard" assignments used by K-means and the ?soft' assignments used by EM. While it is known that K-means minimizes the distortion on the data and EM maximizes the likelihood, little is known about the systematic differences of behavior between the two algorithms. Here we shed light on these differences via an information-theoretic analysis.  The cornerstone of our results is a simple decomposition of the expected distortion, showing that K-means (and its extension for inferring general parametric densities from unlabeled sample data) must implicitly manage a trade-off between how similar the data assigned to each cluster are, and how the data are balanced among the clusters.  How well the data are balanced is measured by the entropy of the partition defined by the hard assignments.  In addition to letting us predict and verify systematic differences between K-means and EM on specific examples, the decomposition allows us to give a rather general argument showing that K ?means will consistently find densities with less "overlap" than EM.  We also study a third natural assignment method that we call posterior assignment, that is close in spirit to the soft assignments of EM, but leads to a surprisingly different algorithm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-06T15:57:20Z</published>
+    <arxiv:comment>Appears in Proceedings of the Thirteenth Conference on Uncertainty in Artificial Intelligence (UAI1997)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Kearns</name>
+    </author>
+    <author>
+      <name>Yishay Mansour</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3878v1</id>
+    <title>PEGASUS: A Policy Search Method for Large MDPs and POMDPs</title>
+    <updated>2013-01-16T15:51:42Z</updated>
+    <link href="https://arxiv.org/abs/1301.3878v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3878v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new approach to the problem of searching a space of policies for a Markov decision process (MDP) or a partially observable Markov decision process (POMDP), given a model.  Our approach is based on the following observation: Any (PO)MDP can be transformed into an "equivalent" POMDP in which all state transitions (given the current state and action) are deterministic.  This reduces the general problem of policy search to one in which we need only consider POMDPs with deterministic transitions.  We give a natural way of estimating the value of all policies in these transformed POMDPs.  Policy search is then simply performed by searching for a policy with high estimated value.  We also establish conditions under which our value estimates will be good, recovering theoretical results similar to those of Kearns, Mansour and Ng (1999), but with "sample complexity" bounds that have only a polynomial rather than exponential dependence on the horizon time.  Our method applies to arbitrary POMDPs, including ones with infinite state and action spaces.  We also present empirical results for our approach on a small discrete problem, and on a complex continuous state/continuous action problem involving learning to ride a bicycle. </summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T15:51:42Z</published>
+    <arxiv:comment>Appears in Proceedings of the Sixteenth Conference on Uncertainty in Artificial Intelligence (UAI2000)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+    <author>
+      <name>Michael I. Jordan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3666v2</id>
+    <title>Zero-Shot Learning Through Cross-Modal Transfer</title>
+    <updated>2013-03-20T00:44:08Z</updated>
+    <link href="https://arxiv.org/abs/1301.3666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work introduces a model that can recognize objects in images even if no training data is available for the objects. The only necessary knowledge about the unseen categories comes from unsupervised large text corpora. In our zero-shot framework distributional information in language can be seen as spanning a semantic basis for understanding what objects look like. Most previous zero-shot learning models can only differentiate between unseen classes. In contrast, our model can both obtain state of the art performance on classes that have thousands of training images and obtain reasonable performance on unseen classes. This is achieved by first using outlier detection in the semantic space and then two separate recognition models. Furthermore, our model does not require any manually defined semantic features for either words or images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T12:01:34Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Richard Socher</name>
+    </author>
+    <author>
+      <name>Milind Ganjoo</name>
+    </author>
+    <author>
+      <name>Hamsa Sridhar</name>
+    </author>
+    <author>
+      <name>Osbert Bastani</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3618v2</id>
+    <title>Learning New Facts From Knowledge Bases With Neural Tensor Networks and Semantic Word Vectors</title>
+    <updated>2013-03-16T03:23:26Z</updated>
+    <link href="https://arxiv.org/abs/1301.3618v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3618v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge bases provide applications with the benefit of easily accessible, systematic relational knowledge but often suffer in practice from their incompleteness and lack of knowledge of new entities and relations. Much work has focused on building or extending them by finding patterns in large unannotated text corpora. In contrast, here we mainly aim to complete a knowledge base by predicting additional true relationships between entities, based on generalizations that can be discerned in the given knowledgebase. We introduce a neural tensor network (NTN) model which predicts new relationship entries that can be added to the database. This model can be improved by initializing entity representations with word vectors learned in an unsupervised fashion from text, and when doing this, existing relations can even be queried for entities that were not present in the database. Our model generalizes and outperforms existing models for this problem, and can classify unseen relationships in WordNet with an accuracy of 75.8%.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-16T08:05:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Danqi Chen</name>
+    </author>
+    <author>
+      <name>Richard Socher</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.1366v1</id>
+    <title>Learning Factor Graphs in Polynomial Time &amp; Sample Complexity</title>
+    <updated>2012-07-04T16:03:31Z</updated>
+    <link href="https://arxiv.org/abs/1207.1366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.1366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study computational and sample complexity of parameter and structure learning in graphical models. Our main result shows that the class of factor graphs with bounded factor size and bounded connectivity can be learned in polynomial time and polynomial number of samples, assuming that the data is generated by a network in this class. This result covers both parameter estimation for a known network structure and structure learning. It implies as a corollary that we can learn factor graphs for both Bayesian networks and Markov networks of bounded degree, in polynomial time and sample complexity. Unlike maximum likelihood estimation, our method does not require inference in the underlying network, and so applies to networks where inference is intractable. We also show that the error of our learned model degrades gracefully when the generating distribution is not a member of the target class of networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-04T16:03:31Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-First Conference on Uncertainty in Artificial Intelligence (UAI2005)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Daphne Koller</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.5241v1</id>
+    <title>Shift-Invariance Sparse Coding for Audio Classification</title>
+    <updated>2012-06-20T14:52:49Z</updated>
+    <link href="https://arxiv.org/abs/1206.5241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.5241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse coding is an unsupervised learning algorithm that learns a succinct high-level representation of the inputs given only unlabeled data; it represents each input as a sparse linear combination of a set of basis functions. Originally applied to modeling the human visual cortex, sparse coding has also been shown to be useful for self-taught learning, in which the goal is to solve a supervised classification task given access to additional unlabeled data drawn from different classes than that in the supervised learning problem. Shift-invariant sparse coding (SISC) is an extension of sparse coding which reconstructs a (usually time-series) input using all of the basis functions in all possible shifts. In this paper, we present an efficient algorithm for learning SISC bases. Our method is based on iteratively solving two large convex optimization problems: The first, which computes the linear coefficients, is an L1-regularized linear least squares problem with potentially hundreds of thousands of variables. Existing methods typically use a heuristic to select a small subset of the variables to optimize, but we present a way to efficiently compute the exact solution. The second, which solves for bases, is a constrained linear least squares problem. By optimizing over complex-valued variables in the Fourier domain, we reduce the coupling between the different variables, allowing the problem to be solved efficiently. We show that SISC's learned high-level representations of speech and music provide useful features for classification tasks within those domains. When applied to classification, under certain conditions the learned features outperform state of the art spectral and cepstral features.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-20T14:52:49Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Third Conference on Uncertainty in Artificial Intelligence (UAI2007)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Rajat Raina</name>
+    </author>
+    <author>
+      <name>Helen Kwong</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.3959v2</id>
+    <title>Proceedings of the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence (2009)</title>
+    <updated>2014-08-28T04:27:28Z</updated>
+    <link href="https://arxiv.org/abs/1206.3959v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.3959v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the Proceedings of the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence, which was held in Montreal, QC, Canada, June 18 - 21 2009.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-13T16:43:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jeff Bilmes</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.6209v5</id>
+    <title>Building high-level features using large scale unsupervised learning</title>
+    <updated>2012-07-12T04:32:50Z</updated>
+    <link href="https://arxiv.org/abs/1112.6209v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.6209v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of building high-level, class-specific feature detectors from only unlabeled data. For example, is it possible to learn a face detector using only unlabeled images? To answer this, we train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. Contrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-29T00:26:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Quoc V. Le</name>
+    </author>
+    <author>
+      <name>Marc'Aurelio Ranzato</name>
+    </author>
+    <author>
+      <name>Rajat Monga</name>
+    </author>
+    <author>
+      <name>Matthieu Devin</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Greg S. Corrado</name>
+    </author>
+    <author>
+      <name>Jeff Dean</name>
+    </author>
+    <author>
+      <name>Andrew Y. Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.3117v2</id>
+    <title>Optimal investment with inside information and parameter uncertainty</title>
+    <updated>2010-02-09T18:15:56Z</updated>
+    <link href="https://arxiv.org/abs/0911.3117v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.3117v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper has been withdrawn by the authors pending corrections.</summary>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-16T19:07:41Z</published>
+    <arxiv:comment>This paper has been withdrawn</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PM"/>
+    <author>
+      <name>Albina Danilova</name>
+    </author>
+    <author>
+      <name>Michael Monoyios</name>
+    </author>
+    <author>
+      <name>Andrew Ng</name>
+    </author>
+  </entry>
+</feed>

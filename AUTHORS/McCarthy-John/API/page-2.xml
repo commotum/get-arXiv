@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9PcmGXYTIKJbGrkPm+aGzeAfZHc</id>
+  <title>arXiv Query: search_query=au:"John McCarthy"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-07T19:53:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22John+McCarthy%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>87</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1404.6032v1</id>
+    <title>The implicit function theorem and free algebraic sets</title>
+    <updated>2014-04-24T05:52:20Z</updated>
+    <link href="https://arxiv.org/abs/1404.6032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.6032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove an implicit function theorem for non-commutative functions. We use this to show that if $p(X,Y)$ is a generic non-commuting polynomial in two variables, and $X$ is a generic matrix, then all solutions $Y$ of $p(X,Y)=0$ will commute with $X$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-24T05:52:20Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.3088v2</id>
+    <title>Thin sequences and the Gram matrix</title>
+    <updated>2014-07-05T01:30:52Z</updated>
+    <link href="https://arxiv.org/abs/1404.3088v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.3088v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a new proof of Volberg's Theorem characterizing thin interpolating sequences as those for which the Gram matrix associated to the normalized reproducing kernels is a compact perturbation of the identity. In the same paper, Volberg characterized sequences for which the Gram matrix is a compact perturbation of a unitary as well as those for which the Gram matrix is a Schatten-$2$ class perturbation of a unitary operator. We extend this characterization from $2$ to $p$, where $2 \le p \le \infty$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-11T12:14:03Z</published>
+    <arxiv:comment>v1: 6 pages. v2: 6 pages, referee comments incorporated</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Arch. Math. (Basel) 103 (2014), no. 1, 93-99</arxiv:journal_ref>
+    <author>
+      <name>Pamela Gorkin</name>
+    </author>
+    <author>
+      <name>Sandra Pott</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Brett D. Wick</name>
+    </author>
+    <arxiv:doi>10.1007/s00013-014-0667-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00013-014-0667-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.3730v1</id>
+    <title>Pick Interpolation for free holomorphic functions</title>
+    <updated>2013-08-16T21:59:27Z</updated>
+    <link href="https://arxiv.org/abs/1308.3730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.3730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove an interpolation theorem for bounded free holomorphic functions.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-16T21:59:27Z</published>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.1636v2</id>
+    <title>Global holomorphic functions in several non-commuting variables</title>
+    <updated>2013-07-02T19:01:11Z</updated>
+    <link href="https://arxiv.org/abs/1305.1636v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.1636v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a free holomorphic function to be a function that is locally a bounded nc-function. We prove that free holomorphic functions are the functions that are locally uniformly approximable by free polynomials. We prove a realization formula and an Oka-Weil theorem for free analytic functions.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-07T20:12:00Z</published>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.7315v2</id>
+    <title>Unions of Lebesgue spaces and $A_1$ majorants</title>
+    <updated>2014-08-28T15:16:00Z</updated>
+    <link href="https://arxiv.org/abs/1302.7315v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.7315v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study two questions. When does a function belong to the union of Lebesgue spaces and when does a function have an $A_1$ majorant? We show these questions are fundamentally related. For functions restricted to a fixed cube we prove that the following are equivalent: a function belongs to $L^p$ for some $p&gt;1$; the function has an $A_1$ majorant; for any $p&gt;1$ the function belongs to $L^p_w$ for some $A_p$ weight $w$. We also examine the case of functions defined on ${\mathbb R}^n$ and give characterizations of the union of $L^p_w$ over $w$ in $A_p$ and when a function has an $A_1$ majorant on all of ${\mathbb R}^n$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-28T20:52:40Z</published>
+    <arxiv:comment>v2: typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Greg Knese</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Kabe Moen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.5282v1</id>
+    <title>Operator theory and the Oka extension theorem</title>
+    <updated>2012-12-20T22:10:59Z</updated>
+    <link href="https://arxiv.org/abs/1212.5282v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.5282v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For $δ$ an $m$-tuple of analytic functions, we define an algebra $\hidg$, contained in the bounded analytic functions on the analytic polyhedron $ {|δ^l(z)| &lt; 1, \ 1 \leq l \leq m}$, and prove a representation formula for it. We give conditions whereby every function that is analytic on a neighborhood of $ {|δ^l(z)| \leq 1, \ 1 \leq l \leq m}$ is actually in $\hidg$. We use this to give a proof of the Oka extension theorem with bounds. We define an $\hidg$ functional calculus for operators.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-20T22:10:59Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.1116v2</id>
+    <title>On the isomorphism question for complete Pick multiplier algebras</title>
+    <updated>2013-02-18T20:45:09Z</updated>
+    <link href="https://arxiv.org/abs/1211.1116v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.1116v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Every multiplier algebra of an irreducible complete Pick kernel arises as the restriction algebra $\mv = \{f\big|_V : f \in \cM_d\}$, where $d$ is some integer or $\infty$, $\cM_d$ is the multiplier algebra of the Drury-Arveson space $H^2_d$, and $V$ is a subvariety of the unit ball. For finite $d$ it is known that, under mild assumptions, every isomorphism between two such algebras $\mv$ and $\mw$ is induced by a biholomorphism between $W$ and $V$. In this paper we consider the converse, and obtain positive results in two directions. The first deals with the case where $V$ is the proper image of a finite Riemann surface. The second deals with the case where $V$ is a disjoint union of varieties.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-06T05:54:10Z</published>
+    <arxiv:comment>17 pages. Final version, to appear in Integral Equations and Operator Theory</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Integral Equations Operator Theory 76 (2013), no. 1, 39-53</arxiv:journal_ref>
+    <author>
+      <name>Matt Kerr</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Orr Shalit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.2704v1</id>
+    <title>The Takagi problem on the disk and bidisk</title>
+    <updated>2012-08-13T20:29:55Z</updated>
+    <link href="https://arxiv.org/abs/1208.2704v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.2704v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a new proof on the disk that a Pick problem can be solved by a rational function that is unimodular on the unit circle and for which the number of poles inside the disk is no more than the number of non-positive eigenvalues of the Pick matrix. We use this method to find rational solutions to Pick problems on the bidisk.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-13T20:29:55Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>Joseph A. Ball</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3122v1</id>
+    <title>Topological pullback, covering spaces, and a triad of Quillen</title>
+    <updated>2012-05-14T17:59:07Z</updated>
+    <link href="https://arxiv.org/abs/1205.3122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study pullback from a topological viewpoint with emphasis on pullback of covering maps. We generalize a triad of Quillen on properties of the pullback functor.</summary>
+    <category term="math.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T17:59:07Z</published>
+    <arxiv:comment>23 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GN"/>
+    <author>
+      <name>Jack S. Calcut</name>
+    </author>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3121v1</id>
+    <title>Topological and algebraic pullback functors</title>
+    <updated>2012-05-14T17:58:38Z</updated>
+    <link href="https://arxiv.org/abs/1205.3121v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3121v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give algebraic equivalents for certain desirable properties of pullback functors on categories of coverings and group sets, namely nullity zero, essential injectivity, and essential surjectivity. Nullity zero turns out to be equivalent to the notion of a contranormal subgroup. We observe a Tannakian-like phenomenon with essential injectivity. Essential surjectivity is intimately related to Zappa-Sz{é}p products. We include several examples, and some open questions.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T17:58:38Z</published>
+    <arxiv:comment>27 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Jack S. Calcut</name>
+    </author>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+    <author>
+      <name>Jeremy J. Walthers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.2075v2</id>
+    <title>Hankel vector moment sequences and the non-tangential regularity at infinity of two variable Pick functions</title>
+    <updated>2012-03-14T16:51:13Z</updated>
+    <link href="https://arxiv.org/abs/1111.2075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.2075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Pick function of $d$ variables is a holomorphic map from $Π^d$ to $Π$, where $Π$ is the upper halfplane. Some Pick functions of one variable have an asymptotic expansion at infinity, a power series $\sum_{n=1}^\infty ρ_n z^{-n}$ with real numbers $ρ_n$ that gives an asymptotic expansion on non-tangential approach regions to infinity. H. Hamburger in 1921 characterized which sequences $\{ρ_n\} $ can occur. We give an extension of Hamburger's results to Pick functions of two variables.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-08T22:58:50Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0661v2</id>
+    <title>On the Representation of Holomorphic Functions on Polyhedra</title>
+    <updated>2013-03-12T20:37:22Z</updated>
+    <link href="https://arxiv.org/abs/1111.0661v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0661v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We generalize the Oka extension theorem, and obtain bounds on the norm of the extension, by using operator theory.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-02T20:55:49Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Nicholas J. Young</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.2020v1</id>
+    <title>Unitary N-dilations for tuples of commuting matrices</title>
+    <updated>2011-05-10T18:55:49Z</updated>
+    <link href="https://arxiv.org/abs/1105.2020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.2020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that whenever a contractive $k$-tuple $T$ on a finite dimensional space $H$ has a unitary dilation, then for any fixed degree $N$ there is a unitary $k$-tuple $U$ on a finite dimensional space so that $q(T) = P_H q(U) |_H$ for all polynomials $q$ of degree at most $N$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-10T18:55:49Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Proc. Amer. Math. Soc. 141 (2013), no. 2, 563--571</arxiv:journal_ref>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Orr Shalit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.3921v3</id>
+    <title>Operator monotone functions and Löwner functions of several variables</title>
+    <updated>2013-12-18T21:59:55Z</updated>
+    <link href="https://arxiv.org/abs/1009.3921v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.3921v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove generalizations of Löwner's results on matrix monotone functions to several variables. We give a characterization of when a function of $d$ variables is locally monotone on $d$-tuples of commuting self-adjoint $n$-by-$n$ matrices. We prove a generalization to several variables of Nevanlinna's theorem describing analytic functions that map the upper half-plane to itself and satisfy a growth condition. We use this to characterize all rational functions of two variables that are operator monotone.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-20T19:38:40Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Annals of Mathematics (2) 176 [2012] no. 3, 1783-1826</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Nicholas J. Young</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.2157v1</id>
+    <title>Polynomial inequalities for non-commuting operators</title>
+    <updated>2010-04-13T12:06:52Z</updated>
+    <link href="https://arxiv.org/abs/1004.2157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.2157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove an inequality for polynomials applied in a symmetric way to non-commuting operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-13T12:06:52Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Electronic Journal of Linear Algebra, Vol. 20, 2010 pp 506-518</arxiv:journal_ref>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Richard Timoney</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.3400v2</id>
+    <title>Facial behaviour of analytic functions on the bidisk</title>
+    <updated>2010-11-12T19:24:20Z</updated>
+    <link href="https://arxiv.org/abs/1003.3400v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.3400v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that if $φ$ is an analytic function bounded by 1 on the bidisk and $τ$ is a point in a face of the bidisk at which $φ$ satisfies Caratheodory's condition then both $φ$ and the angular gradient $\nablaφ$ exist and are constant on the face. Moreover, the class of all $φ$ with prescribed $φ(τ)$ and $\nablaφ(τ)$ can be parametrized in terms of a function in the two-variable Pick class. As an application we solve an interpolation problem with nodes that lie on faces of the bidisk.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-17T16:03:59Z</published>
+    <arxiv:comment>18 pages. We have replaced an erroneous proof of Theorem 5.4(1) by a valid proof</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>N. J. Young</name>
+    </author>
+    <arxiv:doi>10.1112/blms/bdq115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/blms/bdq115" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3727v1</id>
+    <title>A Caratheodory theorem for the bidisk via Hilbert space methods</title>
+    <updated>2010-02-19T12:27:23Z</updated>
+    <link href="https://arxiv.org/abs/1002.3727v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.3727v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  If $\ph$ is an analytic function bounded by 1 on the bidisk $\D^2$ and $τ\in\tb$ is a point at which $\ph$ has an angular gradient $\nabla\ph(τ)$ then $\nabla\ph(\la) \to \nabla\ph(τ)$ as $\la\toτ$ nontangentially in $\D^2$. This is an analog for the bidisk of a classical theorem of Carathéodory for the disk.
+  For $\ph$ as above, if $τ\in\tb$ is such that the $\liminf$ of $(1-|\ph(\la)|)/(1-\|\la\|)$ as $\la\toτ$ is finite then the directional derivative $D_{-\de}\ph(τ)$ exists for all appropriate directions $\de\in\C^2$. Moreover, one can associate with $\ph$ and $τ$ an analytic function $h$ in the Pick class such that the value of the directional derivative can be expressed in terms of $h$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-19T12:27:23Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Nicholas J. Young</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.4739v1</id>
+    <title>Discreteness and Homogeneity of the Topological Fundamental Group</title>
+    <updated>2009-04-30T04:35:22Z</updated>
+    <link href="https://arxiv.org/abs/0904.4739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.4739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For a locally path connected topological space, the topological fundamental group is discrete if and only if the space is semilocally simply-connected. While functoriality of the topological fundamental group for arbitrary topological spaces remains an open question, the topological fundamental group is always a homogeneous space.</summary>
+    <category term="math.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-30T04:35:22Z</published>
+    <arxiv:comment>8 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GN"/>
+    <author>
+      <name>Jack S. Calcut</name>
+    </author>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.4465v3</id>
+    <title>On fundamental groups of quotient spaces</title>
+    <updated>2011-09-22T03:07:02Z</updated>
+    <link href="https://arxiv.org/abs/0904.4465v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.4465v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In classical covering space theory, a covering map induces an injection of fundamental groups. This paper reveals a dual property for certain quotient maps having connected fibers, with applications to orbit spaces of vector fields and leaf spaces in general.</summary>
+    <category term="math.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-28T19:16:19Z</published>
+    <arxiv:comment>12 pages, 4 figures; added references, keywords, and Remark 1.2; accepted at Topology and its Applications</arxiv:comment>
+    <arxiv:primary_category term="math.GN"/>
+    <arxiv:journal_ref>Topol. Appl. 159 (2012), 322-330</arxiv:journal_ref>
+    <author>
+      <name>Jack S. Calcut</name>
+    </author>
+    <author>
+      <name>Robert E. Gompf</name>
+    </author>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.3130v1</id>
+    <title>Algebraic pairs of isometries</title>
+    <updated>2009-04-20T22:21:30Z</updated>
+    <link href="https://arxiv.org/abs/0904.3130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.3130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider pairs of commuting isometries that are annihilated by a polynomial. We show that the polynomial must be inner toral, which is a geometric condition on its zero set. We show that cyclic pairs of commuting isometries are nearly unitarily equivalent if they are annihilated by the same minimal polynomial.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-20T22:21:30Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+    <author>
+      <name>Greg Knese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.0907v1</id>
+    <title>What Hilbert spaces can tell us about bounded functions on the bidisk</title>
+    <updated>2009-01-07T19:46:01Z</updated>
+    <link href="https://arxiv.org/abs/0901.0907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.0907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss various theorems about bounded analytic functions on the bidisk that were proved using operator theory.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-07T19:46:01Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.1171v1</id>
+    <title>Cusp Algebras</title>
+    <updated>2007-05-08T20:41:54Z</updated>
+    <link href="https://arxiv.org/abs/0705.1171v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.1171v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider simple cusp algebras, that is certain subalgebras of the algebra of holomorphic functions on a disk that are annihilated by some distributions living on a singleton. We determine when these algebras can be holized in two dimensions, and when these holizations are globally biholomorphic.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-08T20:41:54Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0611206v1</id>
+    <title>Hyperbolic algebraic and analytic curves</title>
+    <updated>2006-11-07T23:33:50Z</updated>
+    <link href="https://arxiv.org/abs/math/0611206v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0611206v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A hyperbolic algebraic curve is a bounded subset of an algebraic set. We study the function theory and functional analytic aspects of these sets. We show that their function theory can be described by finite codimensional subalgebras of the holomorphic functions on the desingularization. We show that classical analytic techniques, such as interpolation, can be used to answer geometric questions about the existence of biholomorphic maps. Conversely, we show that the algebraic-geometric viewpoint leads to interesting questions in classical analysis.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-07T23:33:50Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0606612v2</id>
+    <title>Injective Simplicial Maps of the Arc Complex</title>
+    <updated>2008-12-04T20:51:21Z</updated>
+    <link href="https://arxiv.org/abs/math/0606612v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0606612v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we prove that each injective simplicial map of the arc complex of a compact, connected, orientable surface with nonempty boundary is induced by a homeomorphism of the surface. We deduce, from this result, that the group of automorphisms of the arc complex is naturally isomorphic to the extended mapping class group of the surface, provided the surface is not a disc, an annulus, a pair of pants, or a torus with one hole. We also show, for each of these special exceptions, that the group of automorphisms of the arc complex is naturally isomorphic to the quotient of the extended mapping class group of the surface by its center.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-24T06:29:49Z</published>
+    <arxiv:comment>15 pages, 8 figures (reorganized, shortened)</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Elmas Irmak</name>
+    </author>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0606592v1</id>
+    <title>Automorphisms of the complex of domains</title>
+    <updated>2006-06-23T12:59:27Z</updated>
+    <link href="https://arxiv.org/abs/math/0606592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0606592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we study a flag complex which is naturally associated to the Thurston theory of surface diffeomorphisms for compact connected orientable surfaces with boundary. The various pieces of the Thurston decomposition of a surface diffeomorphism, thick domains and annular or thin domains, fit into this flag complex, which we call the complex of domains. The main result of this paper is a computation of the group of automorphisms of this complex. Unlike the complex of curves, introduced by Harvey, for which, for all but a finite number of exceptional surfaces, by the works of Ivanov, Korkmaz, and Luo, all automorphisms are geometric (i.e. induced by homeomorphisms), the complex of domains has nongeometric automorphisms, provided the surface in question has at least two boundary components. These nongeometric automorphisms of the complex of domains are associated to certain edges of the complex which are naturally associated to biperipheral pairs of pants on the surface in question. We project the complex of domains to a natural subcomplex of the complex of domains by collapsing each biperipheral edge onto the unique vertex of that edge which is represented by a regular neighborhood of a biperipheral curve and, thereby, reduce the computation in question to computing the group of automorphisms of this subcomplex, which we call the truncated complex of domains. Finally, we prove that the group of automorphisms of the truncated complex of domains is the extended mapping class group of the surface in question and, obtain, thereby, a complete description of the group of automorphisms of the complex of domains.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-23T12:59:27Z</published>
+    <arxiv:comment>58 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+    <author>
+      <name>Athanase Papadopoulos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508331v1</id>
+    <title>Toral Algebraic Sets and Function Theory on Polydisks</title>
+    <updated>2005-08-17T17:29:02Z</updated>
+    <link href="https://arxiv.org/abs/math/0508331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0508331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A toral algebraic set $A$ is an algebraic set in $\C^n$ whose intersection with $\T^n$ is sufficiently large to determine the holomorphic functions on $A$. We develop the theory of these sets, and give a number of applications to function theory in several variables and operator theoretic model theory. In particular, we show that the uniqueness set for an extremal Pick problem on the bidisk is a toral algebraic set, that rational inner functions have zero sets whose irreducible components are not toral, and that the model theory for a commuting pair of contractions with finite defect lives naturally on a toral algebraic set.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-08-17T17:29:02Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+    <author>
+      <name>Mark Stankus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0504374v1</id>
+    <title>Parametrizing distinguished varieties</title>
+    <updated>2005-04-19T02:51:45Z</updated>
+    <link href="https://arxiv.org/abs/math/0504374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0504374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A distinguished variety is a variety that exits the bidisk through the distinguished boundary. We look at the moduli space for distinguished varieties of rank (2,2).</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-19T02:51:45Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>JOhn E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0504084v1</id>
+    <title>Distinguished Varieties</title>
+    <updated>2005-04-05T20:01:07Z</updated>
+    <link href="https://arxiv.org/abs/math/0504084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0504084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A distinguished variety is a variety that exits the bidisk through the distinguished boundary. We show that Ando's inequality for commuting matrix contractions can be sharpened to looking at the maximum modulus on a distinguished variety, not the whole bidisk. We show that uniqueness sets for extremal Pick problems on the bidisk always contain a distinguished variety.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-05T20:01:07Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0404518v1</id>
+    <title>Positivity aspects of the Fantappie transform</title>
+    <updated>2004-04-28T18:27:45Z</updated>
+    <link href="https://arxiv.org/abs/math/0404518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0404518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A Hilbert space approach to the classical Fantappie transform, based on the concept of Gel'fand triples of locally convex spaces, leads to a novel proof of Martineau-Aizenberg duality theorem. A study of Fantappie transforms of positive measures on the unit ball in $\C^n$ relates ideas of realization theory of multivariate linear systems, locally convex duality and pluripotential theory. This is applied to obtain von Neumann type estimates on the joint numerical range of tuples of Hilbert space operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-28T18:27:45Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>J. E. McCarthy</name>
+    </author>
+    <author>
+      <name>Mihai Putinar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402161v1</id>
+    <title>Norm preserving extensions of holomorphic functions from subvarieties of the bidisk</title>
+    <updated>2004-02-10T18:00:32Z</updated>
+    <link href="https://arxiv.org/abs/math/0402161v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402161v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A basic result in the theory of holomorphic functions of several complex variables is the following special case of the work of H. Cartan on the sheaf cohomology on Stein domains ([10], or see [14] or [16] for more modern treatments).</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-10T18:00:32Z</published>
+    <arxiv:comment>24 pages, published version</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Ann. of Math. (2), Vol. 157 (2003), no. 1, 289--312</arxiv:journal_ref>
+    <author>
+      <name>Jim Agler</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0311250v1</id>
+    <title>Automorphisms of Torelli groups</title>
+    <updated>2003-11-14T22:34:21Z</updated>
+    <link href="https://arxiv.org/abs/math/0311250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0311250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we prove that each automorphism of the Torelli group of a surface is induced by a diffeomorphism of the surface, provided that the surface is a closed, connected, orientable surface of genus at least 3. This result was previously announced by Benson Farb for genus at least 4 and has recently been announced by Benson Farb and Nikolai Ivanov for subgroups of finite index in the Torelli group for surfaces of genus at least 5. This result is also directly analogous to previous results established for classical braid groups, mapping class groups, and surface braid groups.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-11-14T22:34:21Z</published>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+    <author>
+      <name>William R. Vautaw</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0306069v1</id>
+    <title>Automorphisms of surface braid groups</title>
+    <updated>2003-06-03T19:21:14Z</updated>
+    <link href="https://arxiv.org/abs/math/0306069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0306069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we prove that each automorphism of a surface braid group is induced by a homeomorphism of the underlying surface, provided that this surface is a closed, connected, orientable surface of genus at least 2, and the number of strings is at least three. This result generalizes previous results for classical braid groups, mapping class groups, and Torelli groups.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-03T19:21:14Z</published>
+    <arxiv:comment>21 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Elmas Irmak</name>
+    </author>
+    <author>
+      <name>Nikolai V. Ivanov</name>
+    </author>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210314v1</id>
+    <title>Hilbert spaces of Dirichlet series</title>
+    <updated>2002-10-21T19:51:58Z</updated>
+    <link href="https://arxiv.org/abs/math/0210314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0210314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider various Hilbert spaces of Dirichlet series whose norms are given by weighted $\ell^2$ norms of the Dirichlet coefficients. We characterize the multiplier algebras for some of these spaces.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-21T19:51:58Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9908154v1</id>
+    <title>Best approximation in the mean by analytic and harmonic functions</title>
+    <updated>1999-08-28T16:20:22Z</updated>
+    <link href="https://arxiv.org/abs/math/9908154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9908154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the problem of finding the best harmonic or analytic approximant to a given function. We discuss when the best approximant is unique, and what regularity properties the best approximant inherits from the original function. All our approximations are done in the mean with respect to Lebesgue measure in the plane or higher dimensions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-28T16:20:22Z</published>
+    <arxiv:comment>Plain TeX, 39 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Dmitry Khavinson</name>
+    </author>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+    <author>
+      <name>Harold S. Shapiro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9807088v4</id>
+    <title>On the asphericity of a symplectic M3 x S1</title>
+    <updated>1999-07-09T20:24:19Z</updated>
+    <link href="https://arxiv.org/abs/math/9807088v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9807088v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An interesting question in symplectic topology, which was posed by C. H. Taubes, concerns the topology of closed (i.e. compact and without boundary) connected oriented three dimensional manifolds whose product with a circle admits a symplectic structure. The only known examples of such manifolds are those which fiber over a circle. Taubes asked whether these examples are the only examples of such manifolds. An affirmative answer to Taubes' question would have the following consequence: any such manifold either is diffeomorphic to the product of a two-sphere with a circle or is irreducible and aspherical. In this paper, we prove that this implication holds up to connect sum with a manifold which admits no proper covering spaces with finite index. It is pointed out that Thurston's geometrization conjecture and known results in the theory of three dimensional manifolds imply that such a manifold is a three-dimensional sphere. Hence, modulo the present conjectural picture of three-dimensional manifolds, we have shown that the stated consequence of an affirmative answer to Taubes' question holds.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-07-16T20:53:50Z</published>
+    <arxiv:comment>LaTeX, 11 pages, sixth version of this paper, prepared for publication in the Proceedings of the AMS with the PAMS style file proc-l.cls</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>Proc. Amer. Math. Soc. 129 (2001), 257-264</arxiv:journal_ref>
+    <author>
+      <name>John D. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9603212v1</id>
+    <title>On Pisier's Construction</title>
+    <updated>1996-03-12T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9603212v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9603212v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A classical proof of Pisier's construction of a polynomially bounded operator not similar to a contraction is given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-03-12T00:00:00Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>John E. McCarthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9309202v1</id>
+    <title>Moduli of bounded holomorphic functions in the ball</title>
+    <updated>1993-09-30T20:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9309202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9309202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that there is a continuous non-negative function $g$ on the unit sphere in $\cd$, $d \geq 2$, whose logarithm is integrable with respect to Lebesgue measure, and which vanishes at only one point, but such that no non-zero bounded analytic function $m$ in the unit ball, with boundary values $m^\star$, has $|m^\star| \leq g$ almost everywhere. The proof analyzes the common range of co-analytic Toeplitz operators in the Hardy space of the ball.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-09-30T20:00:00Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>B. Korenblum</name>
+    </author>
+    <author>
+      <name>J. McCarthy</name>
+    </author>
+  </entry>
+</feed>

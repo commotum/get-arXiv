@@ -1,0 +1,1192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nj2u+nvetjeacOnLDtFboWkNduw</id>
+  <title>arXiv Query: search_query=au:"Jurgen Schmidhuber"&amp;id_list=&amp;start=50&amp;max_results=50</title>
+  <updated>2026-02-07T20:36:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Jurgen+Schmidhuber%22&amp;start=50&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>175</opensearch:totalResults>
+  <opensearch:startIndex>50</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.05364v1</id>
+    <title>Large Language Model Programs</title>
+    <updated>2023-05-09T11:55:36Z</updated>
+    <link href="https://arxiv.org/abs/2305.05364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.05364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, large pre-trained language models (LLMs) have demonstrated the ability to follow instructions and perform novel tasks from a few examples. The possibility to parameterise an LLM through such in-context examples widens their capability at a much lower cost than finetuning. We extend this line of reasoning and present a method which further expands the capabilities of an LLM by embedding it within an algorithm or program. To demonstrate the benefits of this approach, we present an illustrative example of evidence-supported question-answering. We obtain a 6.4\% improvement over the chain of thought baseline through a more algorithmic approach without any finetuning. Furthermore, we highlight recent work from this perspective and discuss the advantages and disadvantages in comparison to the standard approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-09T11:55:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Sainbayar Sukhbaatar</name>
+    </author>
+    <author>
+      <name>Asli Celikyilmaz</name>
+    </author>
+    <author>
+      <name>Wen-tau Yih</name>
+    </author>
+    <author>
+      <name>Jason Weston</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Xian Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.01547v1</id>
+    <title>Accelerating Neural Self-Improvement via Bootstrapping</title>
+    <updated>2023-05-02T15:52:34Z</updated>
+    <link href="https://arxiv.org/abs/2305.01547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.01547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Few-shot learning with sequence-processing neural networks (NNs) has recently attracted a new wave of attention in the context of large language models. In the standard N-way K-shot learning setting, an NN is explicitly optimised to learn to classify unlabelled inputs by observing a sequence of NK labelled examples. This pressures the NN to learn a learning algorithm that achieves optimal performance, given the limited number of training examples. Here we study an auxiliary loss that encourages further acceleration of few-shot learning, by applying recently proposed bootstrapped meta-learning to NN few-shot learners: we optimise the K-shot learner to match its own performance achievable by observing more than NK examples, using only NK examples. Promising results are obtained on the standard Mini-ImageNet dataset. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-02T15:52:34Z</published>
+    <arxiv:comment>Presented at ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models, https://openreview.net/forum?id=SDwUYcyOCyP</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.07950v2</id>
+    <title>Self-Organising Neural Discrete Representation Learning à la Kohonen</title>
+    <updated>2024-07-08T19:47:40Z</updated>
+    <link href="https://arxiv.org/abs/2302.07950v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.07950v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised learning of discrete representations in neural networks (NNs) from continuous ones is essential for many modern applications. Vector Quantisation (VQ) has become popular for this, in particular in the context of generative models, such as Variational Auto-Encoders (VAEs), where the exponential moving average-based VQ (EMA-VQ) algorithm is often used. Here, we study an alternative VQ algorithm based on Kohonen's learning rule for the Self-Organising Map (KSOM; 1982). EMA-VQ is a special case of KSOM. KSOM is known to offer two potential benefits: empirically, it converges faster than EMA-VQ, and KSOM-generated discrete representations form a topological structure on the grid whose nodes are the discrete symbols, resulting in an artificial version of the brain's topographic map. We revisit these properties by using KSOM in VQ-VAEs for image processing. In our experiments, the speed-up compared to well-configured EMA-VQ is only observable at the beginning of training, but KSOM is generally much more robust, e.g., w.r.t. the choice of initialisation schemes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-15T21:04:04Z</published>
+    <arxiv:comment>Two first authors. Accepted to ICANN 2024. The Version of Record of this contribution is published by Springer. An earlier version was presented at ICML 2023 Workshop on Sampling and Optimization in Discrete Space (SODS)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.12876v2</id>
+    <title>Guiding Online Reinforcement Learning with Action-Free Offline Pretraining</title>
+    <updated>2023-03-22T09:52:25Z</updated>
+    <link href="https://arxiv.org/abs/2301.12876v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.12876v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Offline RL methods have been shown to reduce the need for environment interaction by training agents using offline collected episodes. However, these methods typically require action information to be logged during data collection, which can be difficult or even impossible in some practical cases. In this paper, we investigate the potential of using action-free offline datasets to improve online reinforcement learning, name this problem Reinforcement Learning with Action-Free Offline Pretraining (AFP-RL). We introduce Action-Free Guide (AF-Guide), a method that guides online training by extracting knowledge from action-free offline datasets. AF-Guide consists of an Action-Free Decision Transformer (AFDT) implementing a variant of Upside-Down Reinforcement Learning. It learns to plan the next states from the offline dataset, and a Guided Soft Actor-Critic (Guided SAC) that learns online with guidance from AFDT. Experimental results show that AF-Guide can improve sample efficiency and performance in online training thanks to the knowledge from the action-free offline dataset. Code is available at https://github.com/Vision-CAIR/AF-Guide.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-30T13:30:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Deyao Zhu</name>
+    </author>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Mohamed Elhoseiny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14392v1</id>
+    <title>Eliminating Meta Optimization Through Self-Referential Meta Learning</title>
+    <updated>2022-12-29T17:53:40Z</updated>
+    <link href="https://arxiv.org/abs/2212.14392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Meta Learning automates the search for learning algorithms. At the same time, it creates a dependency on human engineering on the meta-level, where meta learning algorithms need to be designed. In this paper, we investigate self-referential meta learning systems that modify themselves without the need for explicit meta optimization. We discuss the relationship of such systems to in-context and memory-based meta learning and show that self-referential neural networks require functionality to be reused in the form of parameter sharing. Finally, we propose fitness monotonic execution (FME), a simple approach to avoid explicit meta optimization. A neural network self-modifies to solve bandit and classic control tasks, improves its self-modifications, and learns how to learn, purely by assigning more computational resources to better performing solutions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-29T17:53:40Z</published>
+    <arxiv:comment>The first version appeared at ICML 2022, DARL Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14374v1</id>
+    <title>Learning One Abstract Bit at a Time Through Self-Invented Experiments Encoded as Neural Networks</title>
+    <updated>2022-12-29T17:11:49Z</updated>
+    <link href="https://arxiv.org/abs/2212.14374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are two important things in science: (A) Finding answers to given questions, and (B) Coming up with good questions. Our artificial scientists not only learn to answer given questions, but also continually invent new questions, by proposing hypotheses to be verified or falsified through potentially complex and time-consuming experiments, including thought experiments akin to those of mathematicians. While an artificial scientist expands its knowledge, it remains biased towards the simplest, least costly experiments that still have surprising outcomes, until they become boring. We present an empirical analysis of the automatic generation of interesting experiments. In the first setting, we investigate self-invented experiments in a reinforcement-providing environment and show that they lead to effective exploration. In the second setting, pure thought experiments are implemented as the weights of recurrent neural networks generated by a neural experiment generator. Initially interesting thought experiments may become boring over time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-29T17:11:49Z</published>
+    <arxiv:comment>20 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.11279v3</id>
+    <title>Annotated History of Modern AI and Deep Learning</title>
+    <updated>2025-12-29T11:53:33Z</updated>
+    <link href="https://arxiv.org/abs/2212.11279v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.11279v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning (ML) is the science of credit assignment. It seeks to find patterns in observations that explain and predict the consequences of events and actions. This then helps to improve future performance. Minsky's so-called "fundamental credit assignment problem" (1963) surfaces in all sciences including physics (why is the world the way it is?) and history (which persons/ideas/actions have shaped society and civilisation?). Here I focus on the history of ML itself. Modern artificial intelligence (AI) is dominated by artificial neural networks (NNs) and deep learning, both of which are conceptually closer to the old field of cybernetics than what was traditionally called AI (e.g., expert systems and logic programming). A modern history of AI &amp; ML must emphasize breakthroughs outside the scope of shallow AI text books. In particular, it must cover the mathematical foundations of today's NNs such as the chain rule (1676), the first NNs (circa 1800), the first practical AI (1914), the theory of AI and its limitations (1931-34), and the first working deep learning algorithms (1965-). From the perspective of 2025, I provide a timeline of the most significant events in the history of NNs, ML, deep learning, AI, computer science, and mathematics in general, crediting the individuals who laid the field's foundations. The text contains numerous hyperlinks to relevant overview sites. With a ten-year delay, it supplements my 2015 award-winning deep learning survey which provides hundreds of additional references. Finally, I will put things in a broader historical context, spanning from the Big Bang to when the universe will be many times older than it is now.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-21T16:46:24Z</published>
+    <arxiv:comment>97 pages, over 600 references. 2022 arXiv admin note: substantial text overlap with arXiv:2005.05744</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.12423v2</id>
+    <title>On Narrative Information and the Distillation of Stories</title>
+    <updated>2023-02-13T13:54:47Z</updated>
+    <link href="https://arxiv.org/abs/2211.12423v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.12423v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The act of telling stories is a fundamental part of what it means to be human. This work introduces the concept of narrative information, which we define to be the overlap in information space between a story and the items that compose the story. Using contrastive learning methods, we show how modern artificial neural networks can be leveraged to distill stories and extract a representation of the narrative information. We then demonstrate how evolutionary algorithms can leverage this to extract a set of narrative templates and how these templates -- in tandem with a novel curve-fitting algorithm we introduce -- can reorder music albums to automatically induce stories in them. In the process of doing so, we give strong statistical evidence that these narrative information templates are present in existing albums. While we experiment only with music albums here, the premises of our work extend to any form of (largely) independent media.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-22T17:30:36Z</published>
+    <arxiv:comment>presented in the Information-Theoretic Principles in Cognitive Systems Workshop at the 36th Conference on Neural Information Processing Systems; 4 pages in main text + 2 pages of references + 8 pages of appendices, 2 figures in main text + 3 in appendices, 1 table in main text, 2 algorithms in appendices; source code available at https://github.com/dylanashley/story-distiller</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Zachary Friggstad</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.10282v1</id>
+    <title>Exploring through Random Curiosity with General Value Functions</title>
+    <updated>2022-11-18T15:14:43Z</updated>
+    <link href="https://arxiv.org/abs/2211.10282v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.10282v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient exploration in reinforcement learning is a challenging problem commonly addressed through intrinsic rewards. Recent prominent approaches are based on state novelty or variants of artificial curiosity. However, directly applying them to partially observable environments can be ineffective and lead to premature dissipation of intrinsic rewards. Here we propose random curiosity with general value functions (RC-GVF), a novel intrinsic reward function that draws upon connections between these distinct approaches. Instead of using only the current observation's novelty or a curiosity bonus for failing to predict precise environment dynamics, RC-GVF derives intrinsic rewards through predicting temporally extended general value functions. We demonstrate that this improves exploration in a hard-exploration diabolical lock problem. Furthermore, RC-GVF significantly outperforms previous methods in the absence of ground-truth episodic counts in the partially observable MiniGrid environments. Panoramic observations on MiniGrid further boost RC-GVF's performance such that it is competitive to baselines exploiting privileged information in form of episodic counts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-18T15:14:43Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.09440v1</id>
+    <title>Learning to Control Rapidly Changing Synaptic Connections: An Alternative Type of Memory in Sequence Processing Artificial Neural Networks</title>
+    <updated>2022-11-17T10:03:54Z</updated>
+    <link href="https://arxiv.org/abs/2211.09440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.09440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Short-term memory in standard, general-purpose, sequence-processing recurrent neural networks (RNNs) is stored as activations of nodes or "neurons." Generalising feedforward NNs to such RNNs is mathematically straightforward and natural, and even historical: already in 1943, McCulloch and Pitts proposed this as a surrogate to "synaptic modifications" (in effect, generalising the Lenz-Ising model, the first non-sequence processing RNN architecture of the 1920s). A lesser known alternative approach to storing short-term memory in "synaptic connections" -- by parameterising and controlling the dynamics of a context-sensitive time-varying weight matrix through another NN -- yields another "natural" type of short-term memory in sequence processing NNs: the Fast Weight Programmers (FWPs) of the early 1990s. FWPs have seen a recent revival as generic sequence processors, achieving competitive performance across various tasks. They are formally closely related to the now popular Transformers. Here we present them in the context of artificial NNs as an abstraction of biological NNs -- a perspective that has not been stressed enough in previous FWP work. We first review aspects of FWPs for pedagogical purposes, then discuss connections to related works motivated by insights from neuroscience.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-17T10:03:54Z</published>
+    <arxiv:comment>Presented at NeurIPS 2022 Workshop on Memory in Artificial and Real Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.02222v3</id>
+    <title>The Benefits of Model-Based Generalization in Reinforcement Learning</title>
+    <updated>2023-07-10T16:07:17Z</updated>
+    <link href="https://arxiv.org/abs/2211.02222v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.02222v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model-Based Reinforcement Learning (RL) is widely believed to have the potential to improve sample efficiency by allowing an agent to synthesize large amounts of imagined experience. Experience Replay (ER) can be considered a simple kind of model, which has proved effective at improving the stability and efficiency of deep RL. In principle, a learned parametric model could improve on ER by generalizing from real experience to augment the dataset with additional plausible experience. However, given that learned value functions can also generalize, it is not immediately obvious why model generalization should be better. Here, we provide theoretical and empirical insight into when, and how, we can expect data generated by a learned model to be useful. First, we provide a simple theorem motivating how learning a model as an intermediate step can narrow down the set of possible value functions more than learning a value function directly from data using the Bellman equation. Second, we provide an illustrative example showing empirically how a similar effect occurs in a more concrete setting with neural network function approximation. Finally, we provide extensive experiments showing the benefit of model-based learning for online RL in environments with combinatorial complexity, but factored structure that allows a learned model to generalize. In these experiments, we take care to control for other factors in order to isolate, insofar as possible, the benefit of using experience generated by a learned model relative to ER alone.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-04T02:10:35Z</published>
+    <arxiv:comment>Update to ICML version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kenny Young</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06350v1</id>
+    <title>CTL++: Evaluating Generalization on Never-Seen Compositional Patterns of Known Functions, and Compatibility of Neural Representations</title>
+    <updated>2022-10-12T16:01:57Z</updated>
+    <link href="https://arxiv.org/abs/2210.06350v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06350v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Well-designed diagnostic tasks have played a key role in studying the failure of neural nets (NNs) to generalize systematically. Famous examples include SCAN and Compositional Table Lookup (CTL). Here we introduce CTL++, a new diagnostic dataset based on compositions of unary symbolic functions. While the original CTL is used to test length generalization or productivity, CTL++ is designed to test systematicity of NNs, that is, their capability to generalize to unseen compositions of known functions. CTL++ splits functions into groups and tests performance on group elements composed in a way not seen during training. We show that recent CTL-solving Transformer variants fail on CTL++. The simplicity of the task design allows for fine-grained control of task difficulty, as well as many insightful analyses. For example, we measure how much overlap between groups is needed by tested NNs for learning to compose. We also visualize how learned symbol representations in outputs of functions from different groups are compatible in case of success but not in case of failure. These results provide insights into failure cases reported on more complex compositions in the natural language domain. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-12T16:01:57Z</published>
+    <arxiv:comment>Accepted to EMNLP 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06184v2</id>
+    <title>Images as Weight Matrices: Sequential Image Generation Through Synaptic Learning Rules</title>
+    <updated>2023-02-28T18:40:52Z</updated>
+    <link href="https://arxiv.org/abs/2210.06184v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06184v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Work on fast weight programmers has demonstrated the effectiveness of key/value outer product-based learning rules for sequentially generating a weight matrix (WM) of a neural net (NN) by another NN or itself. However, the weight generation steps are typically not visually interpretable by humans, because the contents stored in the WM of an NN are not. Here we apply the same principle to generate natural images. The resulting fast weight painters (FPAs) learn to execute sequences of delta learning rules to sequentially generate images as sums of outer products of self-invented keys and values, one rank at a time, as if each image was a WM of an NN. We train our FPAs in the generative adversarial networks framework, and evaluate on various image datasets. We show how these generic learning rules can generate images with respectable visual quality without any explicit inductive bias for images. While the performance largely lags behind the one of specialised state-of-the-art image generators, our approach allows for visualising how synaptic learning rules iteratively produce complex connection patterns, yielding human-interpretable meaningful images. Finally, we also show that an additional convolutional U-Net (now popular in diffusion models) at the output of an FPA can learn one-step "denoising" of FPA-generated images to enhance their quality. Our code is public.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-07T17:27:50Z</published>
+    <arxiv:comment>Accepted to ICLR 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.03374v1</id>
+    <title>Learning to Generalize with Object-centric Agents in the Open World Survival Game Crafter</title>
+    <updated>2022-08-05T20:05:46Z</updated>
+    <link href="https://arxiv.org/abs/2208.03374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.03374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning agents must generalize beyond their training experience. Prior work has focused mostly on identical training and evaluation environments. Starting from the recently introduced Crafter benchmark, a 2D open world survival game, we introduce a new set of environments suitable for evaluating some agent's ability to generalize on previously unseen (numbers of) objects and to adapt quickly (meta-learning). In Crafter, the agents are evaluated by the number of unlocked achievements (such as collecting resources) when trained for 1M steps. We show that current agents struggle to generalize, and introduce novel object-centric agents that improve over strong baselines. We also provide critical insights of general interest for future work on Crafter through several experiments. We show that careful hyper-parameter tuning improves the PPO baseline agent by a large margin and that even feedforward agents can unlock almost all achievements by relying on the inventory display. We achieve new state-of-the-art performance on the original Crafter environment. Additionally, when trained beyond 1M steps, our tuned agents can unlock almost all achievements. We show that the recurrent PPO agents improve over feedforward ones, even with the inventory information removed. We introduce CrafterOOD, a set of 15 new environments that evaluate OOD generalization. On CrafterOOD, we show that the current agents fail to generalize, whereas our novel object-centric agents achieve state-of-the-art OOD generalization while also being interpretable. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-05T20:05:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Yujin Tang</name>
+    </author>
+    <author>
+      <name>David Ha</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.01570v1</id>
+    <title>Goal-Conditioned Generators of Deep Policies</title>
+    <updated>2022-07-04T16:41:48Z</updated>
+    <link href="https://arxiv.org/abs/2207.01570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.01570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Goal-conditioned Reinforcement Learning (RL) aims at learning optimal policies, given goals encoded in special command inputs. Here we study goal-conditioned neural nets (NNs) that learn to generate deep NN policies in form of context-specific weight matrices, similar to Fast Weight Programmers and other methods from the 1990s. Using context commands of the form "generate a policy that achieves a desired expected return," our NN generators combine powerful exploration of parameter space with generalization across commands to iteratively find better and better policies. A form of weight-sharing HyperNetworks and policy embeddings scales our method to generate deep NNs. Experiments show how a single learned policy generator can produce policies that achieve any return seen during training. Finally, we evaluate our algorithm on a set of continuous control tasks where it exhibits competitive performance. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-04T16:41:48Z</published>
+    <arxiv:comment>Preprint. Under Review</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.01566v1</id>
+    <title>General Policy Evaluation and Improvement by Learning to Identify Few But Crucial States</title>
+    <updated>2022-07-04T16:34:53Z</updated>
+    <link href="https://arxiv.org/abs/2207.01566v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.01566v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning to evaluate and improve policies is a core problem of Reinforcement Learning (RL). Traditional RL algorithms learn a value function defined for a single policy. A recently explored competitive alternative is to learn a single value function for many policies. Here we combine the actor-critic architecture of Parameter-Based Value Functions and the policy embedding of Policy Evaluation Networks to learn a single value function for evaluating (and thus helping to improve) any policy represented by a deep neural network (NN). The method yields competitive experimental results. In continuous control problems with infinitely many states, our value function minimizes its prediction error by simultaneously learning a small set of `probing states' and a mapping from actions produced in probing states to the policy's return. The method extracts crucial abstract knowledge about the environment in form of very few states sufficient to fully specify the behavior of many policies. A policy improves solely by changing actions in probing states, following the gradient of the value function's predictions. Surprisingly, it is possible to clone the behavior of a near-optimal policy in Swimmer-v3 and Hopper-v3 environments only by knowing how to act in 3 and 5 such learned states, respectively. Remarkably, our value function trained to evaluate NN policies is also invariant to changes of the policy architecture: we show that it allows for zero-shot learning of linear policies competitive with the best policy seen during training. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-04T16:34:53Z</published>
+    <arxiv:comment>Preprint. Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Jean Harb</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01649v2</id>
+    <title>Neural Differential Equations for Learning to Program Neural Nets Through Continuous Learning Rules</title>
+    <updated>2022-10-14T14:01:59Z</updated>
+    <link href="https://arxiv.org/abs/2206.01649v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01649v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural ordinary differential equations (ODEs) have attracted much attention as continuous-time counterparts of deep residual neural networks (NNs), and numerous extensions for recurrent NNs have been proposed. Since the 1980s, ODEs have also been used to derive theoretical results for NN learning rules, e.g., the famous connection between Oja's rule and principal component analysis. Such rules are typically expressed as additive iterative update processes which have straightforward ODE counterparts. Here we introduce a novel combination of learning rules and Neural ODEs to build continuous-time sequence processing nets that learn to manipulate short-term memory in rapidly changing synaptic connections of other nets. This yields continuous-time counterparts of Fast Weight Programmers and linear Transformers. Our novel models outperform the best existing Neural Controlled Differential Equation based models on various time series classification tasks, while also addressing their fundamental scalability limitations. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-03T15:48:53Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.06595v1</id>
+    <title>Upside-Down Reinforcement Learning Can Diverge in Stochastic Environments With Episodic Resets</title>
+    <updated>2022-05-13T12:43:25Z</updated>
+    <link href="https://arxiv.org/abs/2205.06595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.06595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Upside-Down Reinforcement Learning (UDRL) is an approach for solving RL problems that does not require value functions and uses only supervised learning, where the targets for given inputs in a dataset do not change over time. Ghosh et al. proved that Goal-Conditional Supervised Learning (GCSL) -- which can be viewed as a simplified version of UDRL -- optimizes a lower bound on goal-reaching performance. This raises expectations that such algorithms may enjoy guaranteed convergence to the optimal policy in arbitrary environments, similar to certain well-known traditional RL algorithms. Here we show that for a specific episodic UDRL algorithm (eUDRL, including GCSL), this is not the case, and give the causes of this limitation. To do so, we first introduce a helpful rewrite of eUDRL as a recursive policy update. This formulation helps to disprove its convergence to the optimal policy for a wide class of stochastic environments. Finally, we provide a concrete example of a very simple environment where eUDRL diverges. Since the primary aim of this paper is to present a negative result, and the best counterexamples are the simplest ones, we restrict all discussions to finite (discrete) environments, ignoring issues of function approximation and limited sample size.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-13T12:43:25Z</published>
+    <arxiv:comment>presented at the 5th Multidisciplinary Conference on Reinforcement Learning and Decision Making; 5 pages in main text + 1 page of references + 3 pages of appendices, 1 figure in main text; source code available at https://github.com/struplm/UDRL-GCSL-counterexample.git</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Miroslav Štrupl</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.13573v2</id>
+    <title>Unsupervised Learning of Temporal Abstractions with Slot-based Transformers</title>
+    <updated>2022-11-22T11:03:40Z</updated>
+    <link href="https://arxiv.org/abs/2203.13573v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.13573v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discovery of reusable sub-routines simplifies decision-making and planning in complex reinforcement learning problems. Previous approaches propose to learn such temporal abstractions in a purely unsupervised fashion through observing state-action trajectories gathered from executing a policy. However, a current limitation is that they process each trajectory in an entirely sequential manner, which prevents them from revising earlier decisions about sub-routine boundary points in light of new incoming information. In this work we propose SloTTAr, a fully parallel approach that integrates sequence processing Transformers with a Slot Attention module and adaptive computation for learning about the number of such sub-routines in an unsupervised fashion. We demonstrate how SloTTAr is capable of outperforming strong baselines in terms of boundary point discovery, even for sequences containing variable amounts of sub-routines, while being up to 7x faster to train on existing benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-25T10:59:46Z</published>
+    <arxiv:comment>accepted to Neural Computation journal</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.11960v1</id>
+    <title>All You Need Is Supervised Learning: From Imitation Learning to Meta-RL With Upside Down RL</title>
+    <updated>2022-02-24T08:44:11Z</updated>
+    <link href="https://arxiv.org/abs/2202.11960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.11960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Upside down reinforcement learning (UDRL) flips the conventional use of the return in the objective function in RL upside down, by taking returns as input and predicting actions. UDRL is based purely on supervised learning, and bypasses some prominent issues in RL: bootstrapping, off-policy corrections, and discount factors. While previous work with UDRL demonstrated it in a traditional online RL setting, here we show that this single algorithm can also work in the imitation learning and offline RL settings, be extended to the goal-conditioned RL setting, and even the meta-RL setting. With a general agent architecture, a single UDRL agent can learn across all paradigms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-24T08:44:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kai Arulkumaran</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Rupesh K. Srivastava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.12742v2</id>
+    <title>Learning Relative Return Policies With Upside-Down Reinforcement Learning</title>
+    <updated>2022-05-10T13:05:58Z</updated>
+    <link href="https://arxiv.org/abs/2202.12742v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.12742v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lately, there has been a resurgence of interest in using supervised learning to solve reinforcement learning problems. Recent work in this area has largely focused on learning command-conditioned policies. We investigate the potential of one such method -- upside-down reinforcement learning -- to work with commands that specify a desired relationship between some scalar value and the observed return. We show that upside-down reinforcement learning can learn to carry out such commands online in a tabular bandit setting and in CartPole with non-linear function approximation. By doing so, we demonstrate the power of this family of methods and open the way for their practical use under more complicated command structures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-23T07:21:44Z</published>
+    <arxiv:comment>presented at the 5th Multidisciplinary Conference on Reinforcement Learning and Decision Making; 5 pages in main text, 2 figures in main text</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Kai Arulkumaran</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.05798v2</id>
+    <title>The Dual Form of Neural Networks Revisited: Connecting Test Time Predictions to Training Patterns via Spotlights of Attention</title>
+    <updated>2022-06-17T13:22:42Z</updated>
+    <link href="https://arxiv.org/abs/2202.05798v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.05798v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Linear layers in neural networks (NNs) trained by gradient descent can be expressed as a key-value memory system which stores all training datapoints and the initial weights, and produces outputs using unnormalised dot attention over the entire training experience. While this has been technically known since the 1960s, no prior work has effectively studied the operations of NNs in such a form, presumably due to prohibitive time and space complexities and impractical model sizes, all of them growing linearly with the number of training patterns which may get very large. However, this dual formulation offers a possibility of directly visualising how an NN makes use of training patterns at test time, by examining the corresponding attention weights. We conduct experiments on small scale supervised image classification tasks in single-task, multi-task, and continual learning settings, as well as language modelling, and discuss potentials and limits of this view for better understanding and interpreting how NNs exploit training patterns. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-11T17:49:22Z</published>
+    <arxiv:comment>Two first authors. Accepted to ICML 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.05780v2</id>
+    <title>A Modern Self-Referential Weight Matrix That Learns to Modify Itself</title>
+    <updated>2022-06-17T12:54:20Z</updated>
+    <link href="https://arxiv.org/abs/2202.05780v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.05780v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The weight matrix (WM) of a neural network (NN) is its program. The programs of many traditional NNs are learned through gradient descent in some error function, then remain fixed. The WM of a self-referential NN, however, can keep rapidly modifying all of itself during runtime. In principle, such NNs can meta-learn to learn, and meta-meta-learn to meta-learn to learn, and so on, in the sense of recursive self-improvement. While NN architectures potentially capable of implementing such behaviour have been proposed since the '90s, there have been few if any practical studies. Here we revisit such NNs, building upon recent successes of fast weight programmers and closely related linear Transformers. We propose a scalable self-referential WM (SRWM) that learns to use outer products and the delta update rule to modify itself. We evaluate our SRWM in supervised few-shot learning and in multi-task reinforcement learning with procedurally generated game environments. Our experiments demonstrate both practical applicability and competitive performance of the proposed SRWM. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-11T17:24:31Z</published>
+    <arxiv:comment>Accepted to ICML 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.15550v1</id>
+    <title>Improving Baselines in the Wild</title>
+    <updated>2021-12-31T16:59:03Z</updated>
+    <link href="https://arxiv.org/abs/2112.15550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.15550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We share our experience with the recently released WILDS benchmark, a collection of ten datasets dedicated to developing models and training strategies which are robust to domain shifts. Several experiments yield a couple of critical observations which we believe are of general interest for any future work on WILDS. Our study focuses on two datasets: iWildCam and FMoW. We show that (1) Conducting separate cross-validation for each evaluation metric is crucial for both datasets, (2) A weak correlation between validation and test performance might make model development difficult for iWildCam, (3) Minor changes in the training of hyper-parameters improve the baseline by a relatively large margin (mainly on FMoW), (4) There is a strong correlation between certain domains and certain target labels (mainly on iWildCam). To the best of our knowledge, no prior work on these datasets has reported these observations despite their obvious importance. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-31T16:59:03Z</published>
+    <arxiv:comment>Presented at NeurIPS 2021 Workshop on Distribution Shifts, https://openreview.net/forum?id=9vxOrkNTs1x</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.15545v1</id>
+    <title>Training and Generating Neural Networks in Compressed Weight Space</title>
+    <updated>2021-12-31T16:50:31Z</updated>
+    <link href="https://arxiv.org/abs/2112.15545v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.15545v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The inputs and/or outputs of some neural nets are weight matrices of other neural nets. Indirect encodings or end-to-end compression of weight matrices could help to scale such approaches. Our goal is to open a discussion on this topic, starting with recurrent neural networks for character-level language modelling whose weight matrices are encoded by the discrete cosine transform. Our fast weight version thereof uses a recurrent neural network to parameterise the compressed weights. We present experimental results on the enwik8 dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-31T16:50:31Z</published>
+    <arxiv:comment>Presented at ICLR 2021 Workshop on Neural Compression, https://openreview.net/forum?id=qU1EUxdVd_D</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.02216v1</id>
+    <title>Automatic Embedding of Stories Into Collections of Independent Media</title>
+    <updated>2021-11-03T13:36:47Z</updated>
+    <link href="https://arxiv.org/abs/2111.02216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.02216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We look at how machine learning techniques that derive properties of items in a collection of independent media can be used to automatically embed stories into such collections. To do so, we use models that extract the tempo of songs to make a music playlist follow a narrative arc. Our work specifies an open-source tool that uses pre-trained neural network models to extract the global tempo of a set of raw audio files and applies these measures to create a narrative-following playlist. This tool is available at https://github.com/dylanashley/playlist-story-builder/releases/tag/v1.0.0</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-03T13:36:47Z</published>
+    <arxiv:comment>2 pages in main text + 1 page of references + 6 pages of appendices, 2 figures in main text + 3 figures in appendices, 1 algorithm in appendices; source code available at https://gist.github.com/dylanashley/1387a99deb85bfc0bce11286810cd98b</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Vincent Herrmann</name>
+    </author>
+    <author>
+      <name>Zachary Friggstad</name>
+    </author>
+    <author>
+      <name>Kory W. Mathewson</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.07732v4</id>
+    <title>The Neural Data Router: Adaptive Control Flow in Transformers Improves Systematic Generalization</title>
+    <updated>2022-05-05T10:01:16Z</updated>
+    <link href="https://arxiv.org/abs/2110.07732v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.07732v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite progress across a broad range of applications, Transformers have limited success in systematic generalization. The situation is especially frustrating in the case of algorithmic tasks, where they often fail to find intuitive solutions that route relevant information to the right node/operation at the right time in the grid represented by Transformer columns. To facilitate the learning of useful control flow, we propose two modifications to the Transformer architecture, copy gate and geometric attention. Our novel Neural Data Router (NDR) achieves 100% length generalization accuracy on the classic compositional table lookup task, as well as near-perfect accuracy on the simple arithmetic task and a new variant of ListOps testing for generalization across computational depths. NDR's attention and gating patterns tend to be interpretable as an intuitive form of neural routing. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-14T21:24:27Z</published>
+    <arxiv:comment>Accepted to ICLR 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.12284v4</id>
+    <title>The Devil is in the Detail: Simple Tricks Improve Systematic Generalization of Transformers</title>
+    <updated>2022-02-14T10:16:49Z</updated>
+    <link href="https://arxiv.org/abs/2108.12284v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.12284v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, many datasets have been proposed to test the systematic generalization ability of neural networks. The companion baseline Transformers, typically trained with default hyper-parameters from standard tasks, are shown to fail dramatically. Here we demonstrate that by revisiting model configurations as basic as scaling of embeddings, early stopping, relative positional embedding, and Universal Transformer variants, we can drastically improve the performance of Transformers on systematic generalization. We report improvements on five popular datasets: SCAN, CFQ, PCFG, COGS, and Mathematics dataset. Our models improve accuracy from 50% to 85% on the PCFG productivity split, and from 35% to 81% on COGS. On SCAN, relative positional embedding largely mitigates the EOS decision problem (Newman et al., 2020), yielding 100% accuracy on the length split with a cutoff at 26. Importantly, performance differences between these models are typically invisible on the IID data split. This calls for proper generalization validation sets for developing neural networks that generalize systematically. We publicly release the code to reproduce our results.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-26T17:26:56Z</published>
+    <arxiv:comment>Accepted to EMNLP 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.09088v3</id>
+    <title>Reward-Weighted Regression Converges to a Global Optimum</title>
+    <updated>2022-02-23T18:37:55Z</updated>
+    <link href="https://arxiv.org/abs/2107.09088v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.09088v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward-Weighted Regression (RWR) belongs to a family of widely known iterative Reinforcement Learning algorithms based on the Expectation-Maximization framework. In this family, learning at each iteration consists of sampling a batch of trajectories using the current policy and fitting a new policy to maximize a return-weighted log-likelihood of actions. Although RWR is known to yield monotonic improvement of the policy under certain circumstances, whether and under which conditions RWR converges to the optimal policy have remained open questions. In this paper, we provide for the first time a proof that RWR converges to a global optimum when no function approximation is used, in a general compact setting. Furthermore, for the simpler case with finite state and action spaces we prove R-linear convergence of the state-value function to the optimum.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-19T18:01:04Z</published>
+    <arxiv:comment>7 pages in main text + 2 pages of references + 6 pages of appendices, 1 figure in main text + 1 figure in appendices; source code available at https://github.com/dylanashley/reward-weighted-regression</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Miroslav Štrupl</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.05438v1</id>
+    <title>Bayesian brains and the Rényi divergence</title>
+    <updated>2021-07-12T14:14:36Z</updated>
+    <link href="https://arxiv.org/abs/2107.05438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.05438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Under the Bayesian brain hypothesis, behavioural variations can be attributed to different priors over generative model parameters. This provides a formal explanation for why individuals exhibit inconsistent behavioural preferences when confronted with similar choices. For example, greedy preferences are a consequence of confident (or precise) beliefs over certain outcomes. Here, we offer an alternative account of behavioural variability using Rényi divergences and their associated variational bounds. Rényi bounds are analogous to the variational free energy (or evidence lower bound) and can be derived under the same assumptions. Importantly, these bounds provide a formal way to establish behavioural differences through an $α$ parameter, given fixed priors. This rests on changes in $α$ that alter the bound (on a continuous scale), inducing different posterior estimates and consequent variations in behaviour. Thus, it looks as if individuals have different priors, and have reached different conclusions. More specifically, $α\to 0^{+}$ optimisation leads to mass-covering variational estimates and increased variability in choice behaviour. Furthermore, $α\to + \infty$ optimisation leads to mass-seeking variational posteriors and greedy preferences. We exemplify this formulation through simulations of the multi-armed bandit task. We note that these $α$ parameterisations may be especially relevant, i.e., shape preferences, when the true posterior is not in the same family of distributions as the assumed (simpler) approximate density, which may be the case in many real-world scenarios. The ensuing departure from vanilla variational inference provides a potentially useful explanation for differences in behavioural preferences of biological (or artificial) agents under the assumption that the brain performs variational Bayesian inference.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-12T14:14:36Z</published>
+    <arxiv:comment>23 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Noor Sajid</name>
+    </author>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Lancelot Da Costa</name>
+    </author>
+    <author>
+      <name>Thomas Parr</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Karl Friston</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06295v2</id>
+    <title>Going Beyond Linear Transformers with Recurrent Fast Weight Programmers</title>
+    <updated>2021-10-26T19:41:12Z</updated>
+    <link href="https://arxiv.org/abs/2106.06295v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.06295v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers with linearised attention (''linear Transformers'') have demonstrated the practical scalability and effectiveness of outer product-based Fast Weight Programmers (FWPs) from the '90s. However, the original FWP formulation is more general than the one of linear Transformers: a slow neural network (NN) continually reprograms the weights of a fast NN with arbitrary architecture. In existing linear Transformers, both NNs are feedforward and consist of a single layer. Here we explore new variations by adding recurrence to the slow and fast nets. We evaluate our novel recurrent FWPs (RFWPs) on two synthetic algorithmic tasks (code execution and sequential ListOps), Wikitext-103 language models, and on the Atari 2600 2D game environment. Our models exhibit properties of Transformers and RNNs. In the reinforcement learning setting, we report large improvements over LSTM in several Atari games. Our code is public.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-11T10:32:11Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.09108v4</id>
+    <title>Is it enough to optimize CNN architectures on ImageNet?</title>
+    <updated>2023-03-06T14:50:44Z</updated>
+    <link href="https://arxiv.org/abs/2103.09108v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.09108v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classification performance based on ImageNet is the de-facto standard metric for CNN development. In this work we challenge the notion that CNN architecture design solely based on ImageNet leads to generally effective convolutional neural network (CNN) architectures that perform well on a diverse set of datasets and application domains. To this end, we investigate and ultimately improve ImageNet as a basis for deriving such architectures. We conduct an extensive empirical study for which we train $500$ CNN architectures, sampled from the broad AnyNetX design space, on ImageNet as well as $8$ additional well known image classification benchmark datasets from a diverse array of application domains. We observe that the performances of the architectures are highly dataset dependent. Some datasets even exhibit a negative error correlation with ImageNet across all architectures. We show how to significantly increase these correlations by utilizing ImageNet subsets restricted to fewer classes. These contributions can have a profound impact on the way we design future CNN architectures and help alleviate the tilt we see currently in our community with respect to over-reliance on one dataset.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-16T14:42:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>Frontiers in Computer Science, Volume 4, 2022</arxiv:journal_ref>
+    <author>
+      <name>Lukas Tuggener</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Thilo Stadelmann</name>
+    </author>
+    <arxiv:doi>10.3389/fcomp.2022.1041703</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fcomp.2022.1041703" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08877v1</id>
+    <title>Spatial Dependency Networks: Neural Layers for Improved Generative Image Modeling</title>
+    <updated>2021-03-16T07:01:08Z</updated>
+    <link href="https://arxiv.org/abs/2103.08877v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.08877v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How to improve generative modeling by better exploiting spatial regularities and coherence in images? We introduce a novel neural network for building image generators (decoders) and apply it to variational autoencoders (VAEs). In our spatial dependency networks (SDNs), feature maps at each level of a deep neural net are computed in a spatially coherent way, using a sequential gating-based mechanism that distributes contextual information across 2-D space. We show that augmenting the decoder of a hierarchical VAE by spatial dependency layers considerably improves density estimation over baseline convolutional architectures and the state-of-the-art among the models within the same class. Furthermore, we demonstrate that SDN can be applied to large images by synthesizing samples of high quality and coherence. In a vanilla VAE setting, we find that a powerful SDN decoder also improves learning disentangled representations, indicating that neural architectures play an important role in this task. Our results suggest favoring spatial dependency over convolutional layers in various VAE settings. The accompanying source code is given at https://github.com/djordjemila/sdn.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-16T07:01:08Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>International Conference on Learning Representations (2021);</arxiv:journal_ref>
+    <author>
+      <name>Đorđe Miladinović</name>
+    </author>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Stefan Bauer</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Joachim M. Buhmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.11174v3</id>
+    <title>Linear Transformers Are Secretly Fast Weight Programmers</title>
+    <updated>2021-06-09T14:47:46Z</updated>
+    <link href="https://arxiv.org/abs/2102.11174v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.11174v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early '90s, where a ``slow" neural net learns by gradient descent to program the ``fast weights" of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-22T16:51:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Kazuki Irie</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14905v4</id>
+    <title>Meta Learning Backpropagation And Improving It</title>
+    <updated>2022-03-13T11:41:05Z</updated>
+    <link href="https://arxiv.org/abs/2012.14905v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.14905v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many concepts have been proposed for meta learning with neural networks (NNs), e.g., NNs that learn to reprogram fast weights, Hebbian plasticity, learned learning rules, and meta recurrent NNs. Our Variable Shared Meta Learning (VSML) unifies the above and demonstrates that simple weight-sharing and sparsity in an NN is sufficient to express powerful learning algorithms (LAs) in a reusable fashion. A simple implementation of VSML where the weights of a neural network are replaced by tiny LSTMs allows for implementing the backpropagation LA solely by running in forward-mode. It can even meta learn new LAs that differ from online backpropagation and generalize to datasets outside of the meta training distribution without explicit gradient calculation. Introspection reveals that our meta learned LAs learn through fast association in a way that is qualitatively different from gradient descent.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-29T18:56:10Z</published>
+    <arxiv:comment>Updated to the NeurIPS 2021 camera ready; fixed typo in eq 4</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>35th Conference on Neural Information Processing Systems (NeurIPS 2021)</arxiv:journal_ref>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.05208v1</id>
+    <title>On the Binding Problem in Artificial Neural Networks</title>
+    <updated>2020-12-09T18:02:49Z</updated>
+    <link href="https://arxiv.org/abs/2012.05208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.05208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contemporary neural networks still fall short of human-level generalization, which extends far beyond our direct experiences. In this paper, we argue that the underlying cause for this shortcoming is their inability to dynamically and flexibly bind information that is distributed throughout the network. This binding problem affects their capacity to acquire a compositional understanding of the world in terms of symbol-like entities (like objects), which is crucial for generalizing in predictable and systematic ways. To address this issue, we propose a unifying framework that revolves around forming meaningful entities from unstructured sensory inputs (segregation), maintaining this separation of information at a representational level (representation), and using these entities to construct new inferences, predictions, and behaviors (composition). Our analysis draws inspiration from a wealth of research in neuroscience and cognitive psychology, and surveys relevant mechanisms from the machine learning literature, to help identify a combination of inductive biases that allow symbolic information processing to emerge naturally in neural networks. We believe that a compositional approach to AI, in terms of grounded symbol-like representations, is of fundamental importance for realizing human-level generalization, and we hope that this paper may contribute towards that goal as a reference and inspiration.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-09T18:02:49Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12930v2</id>
+    <title>Unsupervised Object Keypoint Learning using Local Spatial Predictability</title>
+    <updated>2021-03-08T15:10:29Z</updated>
+    <link href="https://arxiv.org/abs/2011.12930v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.12930v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose PermaKey, a novel approach to representation learning based on object keypoints. It leverages the predictability of local image regions from spatial neighborhoods to identify salient regions that correspond to object parts, which are then converted to keypoints. Unlike prior approaches, it utilizes predictability to discover object keypoints, an intrinsic property of objects. This ensures that it does not overly bias keypoints to focus on characteristics that are not unique to objects, such as movement, shape, colour etc. We demonstrate the efficacy of PermaKey on Atari where it learns keypoints corresponding to the most salient object parts and is robust to certain visual distractors. Further, on downstream RL tasks in the Atari domain we demonstrate how agents equipped with our keypoints outperform those using competing alternatives, even on challenging environments with moving backgrounds or distractor objects.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-25T18:27:05Z</published>
+    <arxiv:comment>Accepted to ICLR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Anand Gopalakrishnan</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.07831v2</id>
+    <title>Learning Associative Inference Using Fast Weight Memory</title>
+    <updated>2021-02-23T17:00:19Z</updated>
+    <link href="https://arxiv.org/abs/2011.07831v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.07831v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans can quickly associate stimuli to solve problems in novel contexts. Our novel neural network model learns state representations of facts that can be composed to perform such associative inference. To this end, we augment the LSTM model with an associative memory, dubbed Fast Weight Memory (FWM). Through differentiable operations at every step of a given input sequence, the LSTM updates and maintains compositional associations stored in the rapidly changing FWM weights. Our model is trained end-to-end by gradient descent and yields excellent performance on compositional language reasoning problems, meta-reinforcement-learning for POMDPs, and small-scale word-level language modelling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-16T10:01:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Tsendsuren Munkhdalai</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.03635v2</id>
+    <title>Hierarchical Relational Inference</title>
+    <updated>2020-12-14T22:14:23Z</updated>
+    <link href="https://arxiv.org/abs/2010.03635v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.03635v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Common-sense physical reasoning in the real world requires learning about the interactions of objects and their dynamics. The notion of an abstract object, however, encompasses a wide variety of physical objects that differ greatly in terms of the complex behaviors they support. To address this, we propose a novel approach to physical reasoning that models objects as hierarchies of parts that may locally behave separately, but also act more globally as a single whole. Unlike prior approaches, our method learns in an unsupervised fashion directly from raw visual images to discover objects, parts, and their relations. It explicitly distinguishes multiple levels of abstraction and improves over a strong baseline at modeling synthetic and real-world videos.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-07T20:19:10Z</published>
+    <arxiv:comment>Accepted to AAAI 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.02066v3</id>
+    <title>Are Neural Nets Modular? Inspecting Functional Modularity Through Differentiable Weight Masks</title>
+    <updated>2021-03-06T17:35:13Z</updated>
+    <link href="https://arxiv.org/abs/2010.02066v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.02066v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks (NNs) whose subnetworks implement reusable functions are expected to offer numerous advantages, including compositionality through efficient recombination of functional building blocks, interpretability, preventing catastrophic interference, etc. Understanding if and how NNs are modular could provide insights into how to improve them. Current inspection methods, however, fail to link modules to their functionality. In this paper, we present a novel method based on learning binary weight masks to identify individual weights and subnets responsible for specific functions. Using this powerful tool, we contribute an extensive study of emerging modularity in NNs that covers several standard architectures and datasets. We demonstrate how common NNs fail to reuse submodules and offer new insights into the related issue of systematic generalization on language tasks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-05T15:04:11Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.04750v2</id>
+    <title>Recurrent Neural-Linear Posterior Sampling for Nonstationary Contextual Bandits</title>
+    <updated>2023-11-03T11:12:12Z</updated>
+    <link href="https://arxiv.org/abs/2007.04750v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.04750v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An agent in a nonstationary contextual bandit problem should balance between exploration and the exploitation of (periodic or structured) patterns present in its previous experiences. Handcrafting an appropriate historical context is an attractive alternative to transform a nonstationary problem into a stationary problem that can be solved efficiently. However, even a carefully designed historical context may introduce spurious relationships or lack a convenient representation of crucial information. In order to address these issues, we propose an approach that learns to represent the relevant context for a decision based solely on the raw history of interactions between the agent and the environment. This approach relies on a combination of features extracted by recurrent neural networks with a contextual linear bandit algorithm based on posterior sampling. Our experiments on a diverse selection of contextual and noncontextual nonstationary problems show that our recurrent approach consistently outperforms its feedforward counterpart, which requires handcrafted historical contexts, while being more widely applicable than conventional nonstationary bandit algorithms. Although it is very difficult to provide theoretical performance guarantees for our new approach, we also prove a novel regret bound for linear posterior sampling with measurement error that may serve as a foundation for future theoretical work.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-09T12:46:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Neural Computation. 2022 Oct 7;34(11):2232-72</arxiv:journal_ref>
+    <author>
+      <name>Aditya Ramesh</name>
+    </author>
+    <author>
+      <name>Paulo Rauber</name>
+    </author>
+    <author>
+      <name>Michelangelo Conserva</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.1162/neco_a_01539</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1162/neco_a_01539" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.09226v4</id>
+    <title>Parameter-Based Value Functions</title>
+    <updated>2021-08-13T14:33:27Z</updated>
+    <link href="https://arxiv.org/abs/2006.09226v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.09226v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional off-policy actor-critic Reinforcement Learning (RL) algorithms learn value functions of a single target policy. However, when value functions are updated to track the learned policy, they forget potentially useful information about old policies. We introduce a class of value functions called Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. They can generalize across different policies. PBVFs can evaluate the performance of any policy given a state, a state-action pair, or a distribution over the RL agent's initial states. First we show how PBVFs yield novel off-policy policy gradient theorems. Then we derive off-policy actor-critic algorithms based on PBVFs trained by Monte Carlo or Temporal Difference methods. We show how learned PBVFs can zero-shot learn new policies that outperform any policy seen during training. Finally our algorithms are evaluated on a selection of discrete and continuous control tasks using shallow policies and deep neural networks. Their performance is comparable to state-of-the-art methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-16T15:04:49Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Francesco Faccio</name>
+    </author>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05744v4</id>
+    <title>Deep Learning: Our Miraculous Year 1990-1991</title>
+    <updated>2025-07-28T10:17:46Z</updated>
+    <link href="https://arxiv.org/abs/2005.05744v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05744v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2020-2021, we celebrated that many of the basic ideas behind the deep learning revolution were published three decades ago within fewer than 12 months in our "Annus Mirabilis" or "Miraculous Year" 1990-1991 at TU Munich. Back then, few people were interested, but a quarter century later, neural networks based on these ideas were on over 3 billion devices such as smartphones, and used many billions of times per day, consuming a significant fraction of the world's compute.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-12T13:16:30Z</published>
+    <arxiv:comment>48 pages, about 300 references, 36 illustrations, updating v1 of 4 Oct 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02877v2</id>
+    <title>Training Agents using Upside-Down Reinforcement Learning</title>
+    <updated>2021-09-03T22:15:10Z</updated>
+    <link href="https://arxiv.org/abs/1912.02877v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.02877v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop Upside-Down Reinforcement Learning (UDRL), a method for learning to act using only supervised learning techniques. Unlike traditional algorithms, UDRL does not use reward prediction or search for an optimal policy. Instead, it trains agents to follow commands such as "obtain so much total reward in so much time." Many of its general principles are outlined in a companion report; the goal of this paper is to develop a practical learning algorithm and show that this conceptually simple perspective on agent training can produce a range of rewarding behaviors for multiple episodic environments. Experiments show that on some tasks UDRL's performance can be surprisingly competitive with, and even exceed that of some traditional baseline algorithms developed over decades of research. Based on these results, we suggest that alternative approaches to expected reward maximization have an important role to play in training useful autonomous agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-05T21:13:36Z</published>
+    <arxiv:comment>Extends NeurIPS 2019 Deep Reinforcement Learning workshop presentation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Pranav Shyam</name>
+    </author>
+    <author>
+      <name>Filipe Mutz</name>
+    </author>
+    <author>
+      <name>Wojciech Jaśkowski</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02875v2</id>
+    <title>Reinforcement Learning Upside Down: Don't Predict Rewards -- Just Map Them to Actions</title>
+    <updated>2020-06-23T15:55:05Z</updated>
+    <link href="https://arxiv.org/abs/1912.02875v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.02875v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We transform reinforcement learning (RL) into a form of supervised learning (SL) by turning traditional RL on its head, calling this Upside Down RL (UDRL). Standard RL predicts rewards, while UDRL instead uses rewards as task-defining inputs, together with representations of time horizons and other computable functions of historic and desired future data. UDRL learns to interpret these input observations as commands, mapping them to actions (or action probabilities) through SL on past (possibly accidental) experience. UDRL generalizes to achieve high rewards or other goals, through input commands such as: get lots of reward within at most so much time! A separate paper [63] on first experiments with UDRL shows that even a pilot version of UDRL can outperform traditional baseline algorithms on certain challenging RL problems. We also also conceptually simplify an approach [60] for teaching a robot to imitate humans. First videotape humans imitating the robot's current behaviors, then let the robot learn through SL to map the videos (as input commands) to these behaviors, then let it generalize and imitate videos of humans executing previously unknown behavior. This Imitate-Imitator concept may actually explain why biological evolution has resulted in parents who imitate the babbling of their babies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-05T21:10:08Z</published>
+    <arxiv:comment>22 pages, 81 references</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.06611v2</id>
+    <title>Enhancing the Transformer with Explicit Relational Encoding for Math Problem Solving</title>
+    <updated>2020-11-04T15:28:24Z</updated>
+    <link href="https://arxiv.org/abs/1910.06611v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.06611v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We incorporate Tensor-Product Representations within the Transformer in order to better support the explicit representation of relation structure. Our Tensor-Product Transformer (TP-Transformer) sets a new state of the art on the recently-introduced Mathematics Dataset containing 56 categories of free-form math word-problems. The essential component of the model is a novel attention mechanism, called TP-Attention, which explicitly encodes the relations between each Transformer cell and the other cells from which values have been retrieved by attention. TP-Attention goes beyond linear combination of retrieved values, strengthening representation-building and resolving ambiguities introduced by multiple layers of standard attention. The TP-Transformer's attention maps give better insights into how it is capable of solving the Mathematics Dataset's challenging problems. Pretrained models and code will be made available after publication.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-15T09:19:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Paul Smolensky</name>
+    </author>
+    <author>
+      <name>Roland Fernandez</name>
+    </author>
+    <author>
+      <name>Nebojsa Jojic</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.05231v1</id>
+    <title>R-SQAIR: Relational Sequential Attend, Infer, Repeat</title>
+    <updated>2019-10-11T15:02:34Z</updated>
+    <link href="https://arxiv.org/abs/1910.05231v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.05231v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional sequential multi-object attention models rely on a recurrent mechanism to infer object relations. We propose a relational extension (R-SQAIR) of one such attention model (SQAIR) by endowing it with a module with strong relational inductive bias that computes in parallel pairwise interactions between inferred objects. Two recently proposed relational modules are studied on tasks of unsupervised learning from videos. We demonstrate gains over sequential relational mechanisms, also in terms of combinatorial generalization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-11T15:02:34Z</published>
+    <arxiv:comment>4 page workshop paper accepted at the NeurIPS 2019 Workshop on Perception as Generative Reasoning: Structure, Causality, Probability</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aleksandar Stanić</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.04098v2</id>
+    <title>Improving Generalization in Meta Reinforcement Learning using Learned Objectives</title>
+    <updated>2020-02-14T16:56:33Z</updated>
+    <link href="https://arxiv.org/abs/1910.04098v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.04098v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Biological evolution has distilled the experiences of many learners into the general learning algorithms of humans. Our novel meta reinforcement learning algorithm MetaGenRL is inspired by this process. MetaGenRL distills the experiences of many complex agents to meta-learn a low-complexity neural objective function that decides how future individuals will learn. Unlike recent meta-RL algorithms, MetaGenRL can generalize to new environments that are entirely different from those used for meta-training. In some cases, it even outperforms human-engineered RL algorithms. MetaGenRL uses off-policy second-order gradients during meta-training that greatly increase its sample efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-09T16:20:48Z</published>
+    <arxiv:comment>Accepted to ICLR 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Louis Kirsch</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05915v2</id>
+    <title>Recurrent Neural Processes</title>
+    <updated>2019-11-05T20:37:37Z</updated>
+    <link href="https://arxiv.org/abs/1906.05915v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.05915v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend Neural Processes (NPs) to sequential data through Recurrent NPs or RNPs, a family of conditional state space models. RNPs model the state space with Neural Processes. Given time series observed on fast real-world time scales but containing slow long-term variabilities, RNPs may derive appropriate slow latent time scales. They do so in an efficient manner by establishing conditional independence among subsequences of the time series. Our theoretically grounded framework for stochastic processes expands the applicability of NPs while retaining their benefits of flexibility, uncertainty estimation, and favorable runtime with respect to Gaussian Processes (GPs). We demonstrate that state spaces learned by RNPs benefit predictive performance on real-world time-series data and nonlinear system identification, even in the case of limited data availability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-13T20:12:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Timon Willi</name>
+    </author>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Christian Osendorfer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.04493v3</id>
+    <title>Generative Adversarial Networks are Special Cases of Artificial Curiosity (1990) and also Closely Related to Predictability Minimization (1991)</title>
+    <updated>2020-04-22T17:36:05Z</updated>
+    <link href="https://arxiv.org/abs/1906.04493v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.04493v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I review unsupervised or self-supervised neural networks playing minimax games in game-theoretic settings: (i) Artificial Curiosity (AC, 1990) is based on two such networks. One network learns to generate a probability distribution over outputs, the other learns to predict effects of the outputs. Each network minimizes the objective function maximized by the other. (ii) Generative Adversarial Networks (GANs, 2010-2014) are an application of AC where the effect of an output is 1 if the output is in a given set, and 0 otherwise. (iii) Predictability Minimization (PM, 1990s) models data distributions through a neural encoder that maximizes the objective function minimized by a neural predictor of the code components. I correct a previously published claim that PM is not based on a minimax game.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-11T10:53:22Z</published>
+    <arxiv:comment>15 pages, 1 figure, 104 references</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>Neural Networks, Volume 127, July 2020, Pages 58-66</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+</feed>

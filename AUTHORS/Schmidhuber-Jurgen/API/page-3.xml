@@ -1,0 +1,1233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SLtUij7epnI3smQHSc0XaP2t+wI</id>
+  <title>arXiv Query: search_query=au:"Jurgen Schmidhuber"&amp;id_list=&amp;start=100&amp;max_results=50</title>
+  <updated>2026-02-07T20:40:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Jurgen+Schmidhuber%22&amp;start=100&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>175</opensearch:totalResults>
+  <opensearch:startIndex>100</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1906.01035v1</id>
+    <title>A Perspective on Objects and Systematic Generalization in Model-Based RL</title>
+    <updated>2019-06-03T19:29:12Z</updated>
+    <link href="https://arxiv.org/abs/1906.01035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.01035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to meet the diverse challenges in solving many real-world problems, an intelligent agent has to be able to dynamically construct a model of its environment. Objects facilitate the modular reuse of prior knowledge and the combinatorial construction of such models. In this work, we argue that dynamically bound features (objects) do not simply emerge in connectionist models of the world. We identify several requirements that need to be fulfilled in overcoming this limitation and highlight corresponding inductive biases.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-03T19:29:12Z</published>
+    <arxiv:comment>Accepted to the ICML 2019 workshop on Workshop on Generative Modeling and Model-Based Reasoning for Robotics and AI</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.12506v3</id>
+    <title>Are Disentangled Representations Helpful for Abstract Visual Reasoning?</title>
+    <updated>2020-01-07T14:36:07Z</updated>
+    <link href="https://arxiv.org/abs/1905.12506v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.12506v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A disentangled representation encodes information about the salient factors of variation in the data independently. Although it is often argued that this representational format is useful in learning to solve many real-world down-stream tasks, there is little empirical evidence that supports this claim. In this paper, we conduct a large-scale study that investigates whether disentangled representations are more suitable for abstract reasoning tasks. Using two new tasks similar to Raven's Progressive Matrices, we evaluate the usefulness of the representations learned by 360 state-of-the-art unsupervised disentanglement models. Based on these representations, we train 3600 abstract reasoning models and observe that disentangled representations do in fact lead to better down-stream performance. In particular, they enable quicker learning using fewer samples.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-29T14:52:32Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Francesco Locatello</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Olivier Bachem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10278v2</id>
+    <title>Improving Differentiable Neural Computers Through Memory Masking, De-allocation, and Link Distribution Sharpness Control</title>
+    <updated>2022-04-21T09:23:13Z</updated>
+    <link href="https://arxiv.org/abs/1904.10278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.10278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Differentiable Neural Computer (DNC) can learn algorithmic and question answering tasks. An analysis of its internal activation patterns reveals three problems: Most importantly, the lack of key-value separation makes the address distribution resulting from content-based look-up noisy and flat, since the value influences the score calculation, although only the key should. Second, DNC's de-allocation of memory results in aliasing, which is a problem for content-based look-up. Thirdly, chaining memory reads with the temporal linkage matrix exponentially degrades the quality of the address distribution. Our proposed fixes of these problems yield improved performance on arithmetic tasks, and also improve the mean error rate on the bAbI question answering dataset by 43%.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-23T12:32:54Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Róbert Csordás</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.12143v2</id>
+    <title>Learning to Reason with Third-Order Tensor Products</title>
+    <updated>2019-01-08T10:36:24Z</updated>
+    <link href="https://arxiv.org/abs/1811.12143v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.12143v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We combine Recurrent Neural Networks with Tensor Product Representations to learn combinatorial representations of sequential data. This improves symbolic interpretation and systematic generalisation. Our architecture is trained end-to-end through gradient descent on a variety of simple natural language reasoning tasks, significantly outperforming the latest state-of-the-art models in single-task and all-tasks settings. We also augment a subset of the data such that training and test data exhibit large systematic differences and show that our approach generalises better than the previous state-of-the-art.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-29T13:50:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Imanol Schlag</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10340v3</id>
+    <title>Investigating Object Compositionality in Generative Adversarial Networks</title>
+    <updated>2020-07-24T13:10:53Z</updated>
+    <link href="https://arxiv.org/abs/1810.10340v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10340v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep generative models seek to recover the process with which the observed data was generated. They may be used to synthesize new samples or to subsequently extract representations. Successful approaches in the domain of images are driven by several core inductive biases. However, a bias to account for the compositional way in which humans structure a visual scene in terms of objects has frequently been overlooked. In this work, we investigate object compositionality as an inductive bias for Generative Adversarial Networks (GANs). We present a minimal modification of a standard generator to incorporate this inductive bias and find that it reliably learns to generate images as compositions of objects. Using this general design as a backbone, we then propose two useful extensions to incorporate dependencies among objects and background. We extensively evaluate our approach on several multi-object image datasets and highlight the merits of incorporating structure for representation learning purposes. In particular, we find that our structured GANs are better at generating multi-object images that are more faithful to the reference distribution. More so, we demonstrate how, by leveraging the structure of the learned generative process, one can `invert' the learned generative model to perform unsupervised instance segmentation. On the challenging CLEVR dataset, it is shown how our approach is able to improve over other recent purely unsupervised object-centric approaches to image generation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-17T20:17:11Z</published>
+    <arxiv:comment>A preliminary version of this work (arXiv v1) appeared under the title "A Case for Object Compositionality in Deep Generative Models of Images" as a workshop paper at the NeurIPS2018 workshop on "Modeling the Physical World: Perception, Learning, and Control", and at the NeurIPS2018 workshop on "Relational Representation Learning"</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Karol Kurach</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Sylvain Gelly</name>
+    </author>
+    <arxiv:doi>10.1016/j.neunet.2020.07.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.neunet.2020.07.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.01999v1</id>
+    <title>Recurrent World Models Facilitate Policy Evolution</title>
+    <updated>2018-09-04T22:25:12Z</updated>
+    <link href="https://arxiv.org/abs/1809.01999v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.01999v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A generative recurrent neural network is quickly trained in an unsupervised manner to model popular reinforcement learning environments through compressed spatio-temporal representations. The world model's extracted features are fed into compact and simple policies trained by evolution, achieving state of the art results in various environments. We also train our agent entirely inside of an environment generated by its own internal world model, and transfer this policy back into the actual environment. Interactive version of paper at https://worldmodels.github.io</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T22:25:12Z</published>
+    <arxiv:comment>To appear at NIPS 2018, selected for an oral presentation. arXiv admin note: substantial text overlap with arXiv:1803.10122</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Ha</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.10548v1</id>
+    <title>Deep Watershed Detector for Music Object Recognition</title>
+    <updated>2018-05-26T22:13:16Z</updated>
+    <link href="https://arxiv.org/abs/1805.10548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.10548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical Music Recognition (OMR) is an important and challenging area within music information retrieval, the accurate detection of music symbols in digital images is a core functionality of any OMR pipeline. In this paper, we introduce a novel object detection method, based on synthetic energy maps and the watershed transform, called Deep Watershed Detector (DWD). Our method is specifically tailored to deal with high resolution images that contain a large number of very small objects and is therefore able to process full pages of written music. We present state-of-the-art detection results of common music symbols and show DWD's ability to work with synthetic scores equally well as on handwritten music.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-26T22:13:16Z</published>
+    <arxiv:comment>Accepted on The 19th International Society for Music Information Retrieval Conference 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lukas Tuggener</name>
+    </author>
+    <author>
+      <name>Ismail Elezi</name>
+    </author>
+    <author>
+      <name>Jurgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Thilo Stadelmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.11127v1</id>
+    <title>Investigations on End-to-End Audiovisual Fusion</title>
+    <updated>2018-04-30T11:27:26Z</updated>
+    <link href="https://arxiv.org/abs/1804.11127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.11127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Audiovisual speech recognition (AVSR) is a method to alleviate the adverse effect of noise in the acoustic signal. Leveraging recent developments in deep neural network-based speech recognition, we present an AVSR neural network architecture which is trained end-to-end, without the need to separately model the process of decision fusion as in conventional (e.g. HMM-based) systems. The fusion system outperforms single-modality recognition under all noise conditions. Investigation of the saliency of the input features shows that the neural network automatically adapts to different noise levels in the acoustic signal.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-30T11:27:26Z</published>
+    <arxiv:comment>Published at ICASSP 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>Proceedings of the 2018 IEEE International Conference on Acoustics, Speech and Signal Processing, pages 3041 - 3045</arxiv:journal_ref>
+    <author>
+      <name>Michael Wand</name>
+    </author>
+    <author>
+      <name>Ngoc Thang Vu</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.10122v4</id>
+    <title>World Models</title>
+    <updated>2018-05-09T09:06:27Z</updated>
+    <link href="https://arxiv.org/abs/1803.10122v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.10122v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore building generative neural network models of popular reinforcement learning environments. Our world model can be trained quickly in an unsupervised manner to learn a compressed spatial and temporal representation of the environment. By using features extracted from the world model as inputs to an agent, we can train a very compact and simple policy that can solve the required task. We can even train our agent entirely inside of its own hallucinated dream generated by its world model, and transfer this policy back into the actual environment.
+  An interactive version of this paper is available at https://worldmodels.github.io/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-27T15:08:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Ha</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.5281/zenodo.1207631</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5281/zenodo.1207631" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00525v2</id>
+    <title>DeepScores -- A Dataset for Segmentation, Detection and Classification of Tiny Objects</title>
+    <updated>2018-05-26T21:12:59Z</updated>
+    <link href="https://arxiv.org/abs/1804.00525v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00525v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the DeepScores dataset with the goal of advancing the state-of-the-art in small objects recognition, and by placing the question of object recognition in the context of scene understanding. DeepScores contains high quality images of musical scores, partitioned into 300,000 sheets of written music that contain symbols of different shapes and sizes. With close to a hundred millions of small objects, this makes our dataset not only unique, but also the largest public dataset. DeepScores comes with ground truth for object classification, detection and semantic segmentation. DeepScores thus poses a relevant challenge for computer vision in general, beyond the scope of optical music recognition (OMR) research. We present a detailed statistical analysis of the dataset, comparing it with other computer vision datasets like Caltech101/256, PASCAL VOC, SUN, SVHN, ImageNet, MS-COCO, smaller computer vision datasets, as well as with other OMR datasets. Finally, we provide baseline performances for object classification and give pointers to future research based on this dataset.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-27T14:44:45Z</published>
+    <arxiv:comment>6 pages, accepted on IEEE International Conference on Pattern Recognition 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lukas Tuggener</name>
+    </author>
+    <author>
+      <name>Ismail Elezi</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Marcello Pelillo</name>
+    </author>
+    <author>
+      <name>Thilo Stadelmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.10353v1</id>
+    <title>Relational Neural Expectation Maximization: Unsupervised Discovery of Objects and their Interactions</title>
+    <updated>2018-02-28T10:55:36Z</updated>
+    <link href="https://arxiv.org/abs/1802.10353v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.10353v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Common-sense physical reasoning is an essential ingredient for any intelligent agent operating in the real-world. For example, it can be used to simulate the environment, or to infer the state of parts of the world that are currently unobserved. In order to match real-world conditions this causal knowledge must be learned without access to supervised data. To address this problem we present a novel method that learns to discover objects and model their physical interactions from raw visual images in a purely \emph{unsupervised} fashion. It incorporates prior knowledge about the compositional nature of human perception to factor interactions between object-pairs and learn efficiently. On videos of bouncing balls we show the superior modelling capabilities of our method compared to other unsupervised neural approaches that do not incorporate such prior knowledge. We demonstrate its ability to handle occlusion and show that it can extrapolate learned knowledge to scenes with different numbers of objects.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-28T10:55:36Z</published>
+    <arxiv:comment>Accepted to ICLR 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Michael Chang</name>
+    </author>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08864v1</id>
+    <title>One Big Net For Everything</title>
+    <updated>2018-02-24T15:23:46Z</updated>
+    <link href="https://arxiv.org/abs/1802.08864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I apply recent work on "learning to think" (2015) and on PowerPlay (2011) to the incremental training of an increasingly general problem solver, continually learning to solve new tasks without forgetting previous skills. The problem solver is a single recurrent neural network (or similar general purpose computer) called ONE. ONE is unusual in the sense that it is trained in various ways, e.g., by black box optimization / reinforcement learning / artificial evolution as well as supervised / unsupervised learning. For example, ONE may learn through neuroevolution to control a robot through environment-changing actions, and learn through unsupervised gradient descent to predict future inputs and vector-valued reward signals as suggested in 1990. User-given tasks can be defined through extra goal-defining input patterns, also proposed in 1990. Suppose ONE has already learned many skills. Now a copy of ONE can be re-trained to learn a new skill, e.g., through neuroevolution without a teacher. Here it may profit from re-using previously learned subroutines, but it may also forget previous skills. Then ONE is retrained in PowerPlay style (2011) on stored input/output traces of (a) ONE's copy executing the new skill and (b) previous instances of ONE whose skills are still considered worth memorizing. Simultaneously, ONE is retrained on old traces (even those of unsuccessful trials) to become a better predictor, without additional expensive interaction with the enviroment. More and more control and prediction skills are thus collapsed into ONE, like in the chunker-automatizer system of the neural history compressor (1991). This forces ONE to relate partially analogous skills (with shared algorithmic information) to each other, creating common subroutines in form of shared subnetworks of ONE, to greatly speed up subsequent learning of additional, novel but algorithmically related skills.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-24T15:23:46Z</published>
+    <arxiv:comment>17 pages, 107 references</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06006v3</id>
+    <title>Hindsight policy gradients</title>
+    <updated>2019-02-20T10:46:44Z</updated>
+    <link href="https://arxiv.org/abs/1711.06006v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06006v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A reinforcement learning agent that needs to pursue different goals across episodes requires a goal-conditional policy. In addition to their potential to generalize desirable behavior to unseen goals, such policies may also enable higher-level planning based on subgoals. In sparse-reward environments, the capacity to exploit information about the degree to which an arbitrary goal has been achieved while another goal was intended appears crucial to enable sample efficient learning. However, reinforcement learning agents have only recently been endowed with such capacity for hindsight. In this paper, we demonstrate how hindsight can be introduced to policy gradient methods, generalizing this idea to a broad class of successful algorithms. Our experiments on a diverse selection of sparse-reward environments show that hindsight leads to a remarkable increase in sample efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-16T10:05:31Z</published>
+    <arxiv:comment>Accepted to ICLR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paulo Rauber</name>
+    </author>
+    <author>
+      <name>Avinash Ummadisingu</name>
+    </author>
+    <author>
+      <name>Filipe Mutz</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.03498v2</id>
+    <title>Neural Expectation Maximization</title>
+    <updated>2017-11-04T15:14:47Z</updated>
+    <link href="https://arxiv.org/abs/1708.03498v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.03498v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many real world tasks such as reasoning and physical interaction require identification and manipulation of conceptual entities. A first step towards solving these tasks is the automated discovery of distributed symbol-like representations. In this paper, we explicitly formalize this problem as inference in a spatial mixture model where each component is parametrized by a neural network. Based on the Expectation Maximization framework we then derive a differentiable clustering method that simultaneously learns how to group and represent individual entities. We evaluate our method on the (sequential) perceptual grouping task and find that it is able to accurately recover the constituent objects. We demonstrate that the learned representations are useful for next-step prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-11T10:17:23Z</published>
+    <arxiv:comment>Accepted to NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Sjoerd van Steenkiste</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.01565v1</id>
+    <title>Improving Speaker-Independent Lipreading with Domain-Adversarial Training</title>
+    <updated>2017-08-04T15:57:38Z</updated>
+    <link href="https://arxiv.org/abs/1708.01565v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.01565v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a Lipreading system, i.e. a speech recognition system using only visual features, which uses domain-adversarial training for speaker independence. Domain-adversarial training is integrated into the optimization of a lipreader based on a stack of feedforward and LSTM (Long Short-Term Memory) recurrent neural networks, yielding an end-to-end trainable system which only requires a very small number of frames of untranscribed target data to substantially improve the recognition accuracy on the target speaker. On pairs of different source and target speakers, we achieve a relative accuracy improvement of around 40% with only 15 to 20 seconds of untranscribed target speech data. On multi-speaker training setups, the accuracy improvements are smaller but still substantial.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-04T15:57:38Z</published>
+    <arxiv:comment>Accepted at Interspeech 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michael Wand</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.07771v3</id>
+    <title>Highway and Residual Networks learn Unrolled Iterative Estimation</title>
+    <updated>2017-03-14T21:27:03Z</updated>
+    <link href="https://arxiv.org/abs/1612.07771v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.07771v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The past year saw the introduction of new architectures such as Highway networks and Residual networks which, for the first time, enabled the training of feedforward networks with dozens to hundreds of layers using simple gradient descent. While depth of representation has been posited as a primary reason for their success, there are indications that these architectures defy a popular view of deep learning as a hierarchical computation of increasingly abstract features at each layer.
+  In this report, we argue that this view is incomplete and does not adequately explain several recent findings. We propose an alternative viewpoint based on unrolled iterative estimation -- a group of successive layers iteratively refine their estimates of the same features instead of computing an entirely new representation. We demonstrate that this viewpoint directly leads to the construction of Highway and Residual networks. Finally we provide preliminary experiments to discuss the similarities and differences between the two architectures.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-22T19:57:35Z</published>
+    <arxiv:comment>10 + 4 pages, accepted for ICLR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Rupesh K. Srivastava</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.03474v5</id>
+    <title>Recurrent Highway Networks</title>
+    <updated>2017-07-04T19:29:23Z</updated>
+    <link href="https://arxiv.org/abs/1607.03474v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.03474v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many sequential processing tasks require complex nonlinear transition functions from one step to the next. However, recurrent neural networks with 'deep' transition functions remain difficult to train, even when using Long Short-Term Memory (LSTM) networks. We introduce a novel theoretical analysis of recurrent networks based on Gersgorin's circle theorem that illuminates several modeling and optimization issues and improves our understanding of the LSTM cell. Based on this analysis we propose Recurrent Highway Networks, which extend the LSTM architecture to allow step-to-step transition depths larger than one. Several language modeling experiments demonstrate that the proposed architecture results in powerful and efficient models. On the Penn Treebank corpus, solely increasing the transition depth from 1 to 10 improves word-level perplexity from 90.6 to 65.4 using the same number of parameters. On the larger Wikipedia datasets for character prediction (text8 and enwik8), RHNs outperform all previous results and achieve an entropy of 1.27 bits per character.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-12T19:36:50Z</published>
+    <arxiv:comment>12 pages, 6 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Julian Georg Zilly</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Jan Koutník</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.02168v1</id>
+    <title>Discovering Boolean Gates in Slime Mould</title>
+    <updated>2016-07-07T20:47:05Z</updated>
+    <link href="https://arxiv.org/abs/1607.02168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.02168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Slime mould of Physarum polycephalum is a large cell exhibiting rich spatial non-linear electrical characteristics. We exploit the electrical properties of the slime mould to implement logic gates using a flexible hardware platform designed for investigating the electrical properties of a substrate (MECOBO). We apply arbitrary electrical signals to `configure' the slime mould, i.e. change shape of its body and, measure the slime mould's electrical response. We show that it is possible to find configurations that allow the Physarum to act as any 2-input Boolean gate. The occurrence frequency of the gates discovered in the slime was analysed and compared to complexity hierarchies of logical gates obtained in other unconventional materials. The search for gates was performed by both sweeping across configurations in the real material as well as training a neural network-based model and searching the gates therein using gradient descent.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-07T20:47:05Z</published>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Simon Harding</name>
+    </author>
+    <author>
+      <name>Jan Koutnik</name>
+    </author>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Jurgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Andy Adamatzky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.06724v2</id>
+    <title>Tagger: Deep Unsupervised Perceptual Grouping</title>
+    <updated>2016-11-28T18:59:28Z</updated>
+    <link href="https://arxiv.org/abs/1606.06724v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.06724v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a framework for efficient perceptual inference that explicitly reasons about the segmentation of its inputs and features. Rather than being trained for any specific segmentation, our framework learns the grouping process in an unsupervised manner or alongside any supervised task. By enriching the representations of a neural network, we enable it to group the representations of different objects in an iterative manner. By allowing the system to amortize the iterative inference of the groupings, we achieve very fast convergence. In contrast to many other recently proposed methods for addressing multi-object scenes, our system does not assume the inputs to be images and can therefore directly handle other modalities. For multi-digit classification of very cluttered images that require texture segmentation, our method offers improved classification performance over convolutional networks despite being fully connected. Furthermore, we observe that our system greatly improves on the semi-supervised result of a baseline Ladder network on our dataset, indicating that segmentation can also improve sample efficiency.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-21T19:55:32Z</published>
+    <arxiv:comment>14 pages + 5 pages supplementary, accepted at NIPS 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Antti Rasmus</name>
+    </author>
+    <author>
+      <name>Mathias Berglund</name>
+    </author>
+    <author>
+      <name>Tele Hotloo Hao</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Harri Valpola</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.08188v1</id>
+    <title>Lipreading with Long Short-Term Memory</title>
+    <updated>2016-01-29T16:48:07Z</updated>
+    <link href="https://arxiv.org/abs/1601.08188v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.08188v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lipreading, i.e. speech recognition from visual-only recordings of a speaker's face, can be achieved with a processing pipeline based solely on neural networks, yielding significantly better accuracy than conventional methods. Feed-forward and recurrent neural network layers (namely Long Short-Term Memory; LSTM) are stacked to form a single structure which is trained by back-propagating error gradients through all the layers. The performance of such a stacked network was experimentally evaluated and compared to a standard Support Vector Machine classifier using conventional computer vision features (Eigenlips and Histograms of Oriented Gradients). The evaluation was performed on data from 19 speakers of the publicly available GRID corpus. With 51 different words to classify, we report a best word accuracy on held-out evaluation speakers of 79.6% using the end-to-end neural network-based solution (11.6% improvement over the best feature-based solution evaluated).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-29T16:48:07Z</published>
+    <arxiv:comment>Accepted for publication at ICASSP 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michael Wand</name>
+    </author>
+    <author>
+      <name>Jan Koutník</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.09249v1</id>
+    <title>On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models</title>
+    <updated>2015-11-30T11:35:26Z</updated>
+    <link href="https://arxiv.org/abs/1511.09249v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.09249v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the general problem of reinforcement learning (RL) in partially observable environments. In 2013, our large RL recurrent neural networks (RNNs) learned from scratch to drive simulated cars from high-dimensional video input. However, real brains are more powerful in many ways. In particular, they learn a predictive model of their initially unknown environment, and somehow use it for abstract (e.g., hierarchical) planning and reasoning. Guided by algorithmic information theory, we describe RNN-based AIs (RNNAIs) designed to do the same. Such an RNNAI can be trained on never-ending sequences of tasks, some of them provided by the user, others invented by the RNNAI itself in a curious, playful fashion, to improve its RNN-based world model. Unlike our previous model-building RNN-based RL machines dating back to 1990, the RNNAI learns to actively query its model for abstract reasoning and planning and decision making, essentially "learning to think." The basic ideas of this report can be applied to many other cases where one RNN-like system exploits the algorithmic information content of another. They are taken from a grant proposal submitted in Fall 2014, and also explain concepts such as "mirror neurons." Experimental results will be described in separate papers.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-30T11:35:26Z</published>
+    <arxiv:comment>36 pages, 1 figure. arXiv admin note: substantial text overlap with arXiv:1404.7828</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06418v4</id>
+    <title>Binding via Reconstruction Clustering</title>
+    <updated>2016-01-20T19:31:17Z</updated>
+    <link href="https://arxiv.org/abs/1511.06418v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06418v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Disentangled distributed representations of data are desirable for machine learning, since they are more expressive and can generalize from fewer examples. However, for complex data, the distributed representations of multiple objects present in the same input can interfere and lead to ambiguities, which is commonly referred to as the binding problem. We argue for the importance of the binding problem to the field of representation learning, and develop a probabilistic framework that explicitly models inputs as a composition of multiple objects. We propose an unsupervised algorithm that uses denoising autoencoders to dynamically bind features together in multi-object inputs through an Expectation-Maximization-like clustering process. The effectiveness of this method is demonstrated on artificially generated datasets of binary images, showing that it can even generalize to bind together new objects never seen by the autoencoder during training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-19T22:13:11Z</published>
+    <arxiv:comment>12 pages, plus 12 pages Appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.06228v2</id>
+    <title>Training Very Deep Networks</title>
+    <updated>2015-11-23T16:25:30Z</updated>
+    <link href="https://arxiv.org/abs/1507.06228v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.06228v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theoretical and empirical evidence indicates that the depth of neural networks is crucial for their success. However, training becomes more difficult as depth increases, and training of very deep networks remains an open problem. Here we introduce a new architecture designed to overcome this. Our so-called highway networks allow unimpeded information flow across many layers on information highways. They are inspired by Long Short-Term Memory recurrent networks and use adaptive gating units to regulate the information flow. Even with hundreds of layers, highway networks can be trained directly through simple gradient descent. This enables the study of extremely deep and efficient architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-22T15:29:14Z</published>
+    <arxiv:comment>11 pages. Extends arXiv:1505.00387. Project webpage is at http://people.idsia.ch/~rupesh/very_deep_learning/. in Advances in Neural Information Processing Systems 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.07452v1</id>
+    <title>Parallel Multi-Dimensional LSTM, With Application to Fast Biomedical Volumetric Image Segmentation</title>
+    <updated>2015-06-24T16:26:51Z</updated>
+    <link href="https://arxiv.org/abs/1506.07452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.07452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Convolutional Neural Networks (CNNs) can be shifted across 2D images or 3D videos to segment them. They have a fixed input size and typically perceive only small local contexts of the pixels to be classified as foreground or background. In contrast, Multi-Dimensional Recurrent NNs (MD-RNNs) can perceive the entire spatio-temporal context of each pixel in a few sweeps through all pixels, especially when the RNN is a Long Short-Term Memory (LSTM). Despite these theoretical advantages, however, unlike CNNs, previous MD-LSTM variants were hard to parallelize on GPUs. Here we re-arrange the traditional cuboid order of computations in MD-LSTM in pyramidal fashion. The resulting PyraMiD-LSTM is easy to parallelize, especially for 3D data such as stacks of brain slice images. PyraMiD-LSTM achieved best known pixel-wise brain image segmentation results on MRBrainS13 (and competitive results on EM-ISBI12).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-24T16:26:51Z</published>
+    <arxiv:comment>Marijn F. Stollenga and Wonmin Byeon are the shared first authors, both authors contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Marijn F. Stollenga</name>
+    </author>
+    <author>
+      <name>Wonmin Byeon</name>
+    </author>
+    <author>
+      <name>Marcus Liwicki</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.00387v2</id>
+    <title>Highway Networks</title>
+    <updated>2015-11-03T18:15:15Z</updated>
+    <link href="https://arxiv.org/abs/1505.00387v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.00387v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is plenty of theoretical and empirical evidence that depth of neural networks is a crucial ingredient for their success. However, network training becomes more difficult with increasing depth and training of very deep networks remains an open problem. In this extended abstract, we introduce a new architecture designed to ease gradient-based training of very deep networks. We refer to networks with this architecture as highway networks, since they allow unimpeded information flow across several layers on "information highways". The architecture is characterized by the use of gating units which learn to regulate the flow of information through a network. Highway networks with hundreds of layers can be trained directly using stochastic gradient descent and with a variety of activation functions, opening up the possibility of studying extremely deep and efficient architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-03T01:56:57Z</published>
+    <arxiv:comment>6 pages, 2 figures. Presented at ICML 2015 Deep Learning workshop. Full paper is at arXiv:1507.06228</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.04069v2</id>
+    <title>LSTM: A Search Space Odyssey</title>
+    <updated>2017-10-04T11:40:31Z</updated>
+    <link href="https://arxiv.org/abs/1503.04069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.04069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several variants of the Long Short-Term Memory (LSTM) architecture for recurrent neural networks have been proposed since its inception in 1995. In recent years, these networks have become the state-of-the-art models for a variety of machine learning problems. This has led to a renewed interest in understanding the role and utility of various computational components of typical LSTM variants. In this paper, we present the first large-scale analysis of eight LSTM variants on three representative tasks: speech recognition, handwriting recognition, and polyphonic music modeling. The hyperparameters of all LSTM variants for each task were optimized separately using random search, and their importance was assessed using the powerful fANOVA framework. In total, we summarize the results of 5400 experimental runs ($\approx 15$ years of CPU time), which makes our study the largest of its kind on LSTM networks. Our results show that none of the variants can improve upon the standard LSTM architecture significantly, and demonstrate the forget gate and the output activation function to be its most critical components. We further observe that the studied hyperparameters are virtually independent and derive guidelines for their efficient adjustment.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-13T14:01:38Z</published>
+    <arxiv:comment>12 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>IEEE Transactions on Neural Networks and Learning Systems ( Volume: 28, Issue: 10, Oct. 2017 ) Pages: 2222 - 2232</arxiv:journal_ref>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Jan Koutník</name>
+    </author>
+    <author>
+      <name>Bas R. Steunebrink</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.1109/TNNLS.2016.2582924</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TNNLS.2016.2582924" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5825v1</id>
+    <title>Assessment of algorithms for mitosis detection in breast cancer histopathology images</title>
+    <updated>2014-11-21T11:00:38Z</updated>
+    <link href="https://arxiv.org/abs/1411.5825v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.5825v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferative activity of breast tumors, which is routinely estimated by counting of mitotic figures in hematoxylin and eosin stained histology sections, is considered to be one of the most important prognostic markers. However, mitosis counting is laborious, subjective and may suffer from low inter-observer agreement. With the wider acceptance of whole slide images in pathology labs, automatic image analysis has been proposed as a potential solution for these issues. In this paper, the results from the Assessment of Mitosis Detection Algorithms 2013 (AMIDA13) challenge are described. The challenge was based on a data set consisting of 12 training and 11 testing subjects, with more than one thousand annotated mitotic figures by multiple observers. Short descriptions and results from the evaluation of eleven methods are presented. The top performing method has an error rate that is comparable to the inter-observer agreement among pathologists.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-21T11:00:38Z</published>
+    <arxiv:comment>23 pages, 5 figures, accepted for publication in the journal Medical Image Analysis</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mitko Veta</name>
+    </author>
+    <author>
+      <name>Paul J. van Diest</name>
+    </author>
+    <author>
+      <name>Stefan M. Willems</name>
+    </author>
+    <author>
+      <name>Haibo Wang</name>
+    </author>
+    <author>
+      <name>Anant Madabhushi</name>
+    </author>
+    <author>
+      <name>Angel Cruz-Roa</name>
+    </author>
+    <author>
+      <name>Fabio Gonzalez</name>
+    </author>
+    <author>
+      <name>Anders B. L. Larsen</name>
+    </author>
+    <author>
+      <name>Jacob S. Vestergaard</name>
+    </author>
+    <author>
+      <name>Anders B. Dahl</name>
+    </author>
+    <author>
+      <name>Dan C. Cireşan</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Alessandro Giusti</name>
+    </author>
+    <author>
+      <name>Luca M. Gambardella</name>
+    </author>
+    <author>
+      <name>F. Boray Tek</name>
+    </author>
+    <author>
+      <name>Thomas Walter</name>
+    </author>
+    <author>
+      <name>Ching-Wei Wang</name>
+    </author>
+    <author>
+      <name>Satoshi Kondo</name>
+    </author>
+    <author>
+      <name>Bogdan J. Matuszewski</name>
+    </author>
+    <author>
+      <name>Frederic Precioso</name>
+    </author>
+    <author>
+      <name>Violet Snell</name>
+    </author>
+    <author>
+      <name>Josef Kittler</name>
+    </author>
+    <author>
+      <name>Teofilo E. de Campos</name>
+    </author>
+    <author>
+      <name>Adnan M. Khan</name>
+    </author>
+    <author>
+      <name>Nasir M. Rajpoot</name>
+    </author>
+    <author>
+      <name>Evdokia Arkoumani</name>
+    </author>
+    <author>
+      <name>Miangela M. Lacle</name>
+    </author>
+    <author>
+      <name>Max A. Viergever</name>
+    </author>
+    <author>
+      <name>Josien P. W. Pluim</name>
+    </author>
+    <arxiv:doi>10.1016/j.media.2014.11.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.media.2014.11.010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.1165v3</id>
+    <title>Understanding Locally Competitive Networks</title>
+    <updated>2015-04-09T01:22:49Z</updated>
+    <link href="https://arxiv.org/abs/1410.1165v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.1165v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently proposed neural network activation functions such as rectified linear, maxout, and local winner-take-all have allowed for faster and more effective training of deep neural architectures on large and complex datasets. The common trait among these functions is that they implement local competition between small groups of computational units within a layer, so that only part of the network is activated for any given input pattern. In this paper, we attempt to visualize and understand this self-modularization, and suggest a unified explanation for the beneficial properties of such networks. We also show how our insights can be directly useful for efficiently performing retrieval over large datasets using neural networks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-05T14:46:47Z</published>
+    <arxiv:comment>9 pages + 2 supplementary, Accepted to ICLR 2015 Conference track</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.3068v2</id>
+    <title>Deep Networks with Internal Selective Attention through Feedback Connections</title>
+    <updated>2014-07-28T08:22:50Z</updated>
+    <link href="https://arxiv.org/abs/1407.3068v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.3068v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional convolutional neural networks (CNN) are stationary and feedforward. They neither change their parameters during evaluation nor use feedback from higher to lower layers. Real brains, however, do. So does our Deep Attention Selective Network (dasNet) architecture. DasNets feedback structure can dynamically alter its convolutional filter sensitivities during classification. It harnesses the power of sequential processing to improve classification performance, by allowing the network to iteratively focus its internal attention on some of its convolutional filters. Feedback is trained through direct policy search in a huge million-dimensional parameter space, through scalable natural evolution strategies (SNES). On the CIFAR-10 and CIFAR-100 datasets, dasNet outperforms the previous state-of-the-art model.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-11T08:56:54Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Marijn Stollenga</name>
+    </author>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.7828v4</id>
+    <title>Deep Learning in Neural Networks: An Overview</title>
+    <updated>2014-10-08T10:00:38Z</updated>
+    <link href="https://arxiv.org/abs/1404.7828v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.7828v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning. This historical survey compactly summarises relevant work, much of it from the previous millennium. Shallow and deep learners are distinguished by the depth of their credit assignment paths, which are chains of possibly learnable, causal links between actions and effects. I review deep supervised learning (also recapitulating the history of backpropagation), unsupervised learning, reinforcement learning &amp; evolutionary computation, and indirect search for short programs encoding deep and large networks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-30T18:39:00Z</published>
+    <arxiv:comment>88 pages, 888 references</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>Neural Networks, Vol 61, pp 85-117, Jan 2015</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.1016/j.neunet.2014.09.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.neunet.2014.09.003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.3511v1</id>
+    <title>A Clockwork RNN</title>
+    <updated>2014-02-14T16:05:12Z</updated>
+    <link href="https://arxiv.org/abs/1402.3511v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.3511v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequence prediction and classification are ubiquitous and challenging problems in machine learning that can require identifying complex dependencies between temporally distant inputs. Recurrent Neural Networks (RNNs) have the ability, in theory, to cope with these temporal dependencies by virtue of the short-term memory implemented by their recurrent (feedback) connections. However, in practice they are difficult to train successfully when the long-term memory is required. This paper introduces a simple, yet powerful modification to the standard RNN architecture, the Clockwork RNN (CW-RNN), in which the hidden layer is partitioned into separate modules, each processing inputs at its own temporal granularity, making computations only at its prescribed clock rate. Rather than making the standard RNN models more complex, CW-RNN reduces the number of RNN parameters, improves the performance significantly in the tasks tested, and speeds up the network evaluation. The network is demonstrated in preliminary experiments involving two tasks: audio signal generation and TIMIT spoken word classification, where it outperforms both RNN and LSTM networks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-14T16:05:12Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Jan Koutník</name>
+    </author>
+    <author>
+      <name>Klaus Greff</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5548v1</id>
+    <title>My First Deep Learning System of 1991 + Deep Learning Timeline 1962-2013</title>
+    <updated>2013-12-19T13:45:45Z</updated>
+    <link href="https://arxiv.org/abs/1312.5548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning has attracted significant attention in recent years. Here I present a brief overview of my first Deep Learner of 1991, and its historic context, with a timeline of Deep Learning highlights.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-19T13:45:45Z</published>
+    <arxiv:comment>11 pages. As a machine learning researcher I am obsessed with proper credit assignment. This draft is the result of an experiment in rapid massive open online peer review. Since 20 September 2013, subsequent revisions published under http://www.deeplearning.me have absorbed many suggestions for improvements by experts</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.0261v1</id>
+    <title>Multi-Column Deep Neural Networks for Offline Handwritten Chinese Character Classification</title>
+    <updated>2013-09-01T20:35:17Z</updated>
+    <link href="https://arxiv.org/abs/1309.0261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.0261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our Multi-Column Deep Neural Networks achieve best known recognition rates on Chinese characters from the ICDAR 2011 and 2013 offline handwriting competitions, approaching human performance.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-01T20:35:17Z</published>
+    <arxiv:comment>5 pages, 1 figure, IDSIA tech report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Dan Cireşan</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.0423v1</id>
+    <title>Testing Hypotheses by Regularized Maximum Mean Discrepancy</title>
+    <updated>2013-05-02T13:03:53Z</updated>
+    <link href="https://arxiv.org/abs/1305.0423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.0423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Do two data samples come from different distributions? Recent studies of this fundamental problem focused on embedding probability distributions into sufficiently rich characteristic Reproducing Kernel Hilbert Spaces (RKHSs), to compare distributions by the distance between their embeddings. We show that Regularized Maximum Mean Discrepancy (RMMD), our novel measure for kernel-based hypothesis testing, yields substantial improvements even when sample sizes are small, and excels at hypothesis tests involving multiple comparisons with power control. We derive asymptotic distributions under the null and alternative hypotheses, and assess power control. Outstanding results are obtained on: challenging EEG data, MNIST, the Berkley Covertype, and the Flare-Solar dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-02T13:03:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Somayeh Danafar</name>
+    </author>
+    <author>
+      <name>Paola M. V. Rancoita</name>
+    </author>
+    <author>
+      <name>Tobias Glasmachers</name>
+    </author>
+    <author>
+      <name>Kevin Whittingstall</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.1700v1</id>
+    <title>Fast Image Scanning with Deep Max-Pooling Convolutional Neural Networks</title>
+    <updated>2013-02-07T10:33:47Z</updated>
+    <link href="https://arxiv.org/abs/1302.1700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.1700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Neural Networks now excel at image classification, detection and segmentation. When used to scan images by means of a sliding window, however, their high computational complexity can bring even the most powerful hardware to its knees. We show how dynamic programming can speedup the process by orders of magnitude, even when max-pooling layers are present.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-07T10:33:47Z</published>
+    <arxiv:comment>11 pages, 2 figures, 3 tables, 21 references, submitted to ICIP 2013</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>International Conference on Image Processing (ICIP) 2013, Melbourne</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Giusti</name>
+    </author>
+    <author>
+      <name>Dan C. Cireşan</name>
+    </author>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Luca M. Gambardella</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.1690v1</id>
+    <title>A Fast Learning Algorithm for Image Segmentation with Max-Pooling Convolutional Networks</title>
+    <updated>2013-02-07T10:17:07Z</updated>
+    <link href="https://arxiv.org/abs/1302.1690v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.1690v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a fast algorithm for training MaxPooling Convolutional Networks to segment images. This type of network yields record-breaking performance in a variety of tasks, but is normally trained on a computationally expensive patch-by-patch basis. Our new method processes each training image in a single pass, which is vastly more efficient.
+  We validate the approach in different scenarios and report a 1500-fold speed-up. In an application to automated steel defect detection and segmentation, we obtain excellent performance with short training times.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-07T10:17:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Alessandro Giusti</name>
+    </author>
+    <author>
+      <name>Dan Cireşan</name>
+    </author>
+    <author>
+      <name>Gabriel Fricout</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6521v1</id>
+    <title>A Frequency-Domain Encoding for Neuroevolution</title>
+    <updated>2012-12-28T14:23:02Z</updated>
+    <link href="https://arxiv.org/abs/1212.6521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.6521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neuroevolution has yet to scale up to complex reinforcement learning tasks that require large networks. Networks with many inputs (e.g. raw video) imply a very high dimensional search space if encoded directly. Indirect methods use a more compact genotype representation that is transformed into networks of potentially arbitrary size. In this paper, we present an indirect method where networks are encoded by a set of Fourier coefficients which are transformed into network weight matrices via an inverse Fourier-type transform. Because there often exist network solutions whose weight matrices contain regularity (i.e. adjacent weights are correlated), the number of coefficients required to represent these networks in the frequency domain is much smaller than the number of weights (in the same way that natural images can be compressed by ignore high-frequency components). This "compressed" encoding is compared to the direct approach where search is conducted in the weight space on the high-dimensional octopus arm task. The results show that representing networks in the frequency domain can reduce the search-space dimensionality by as much as two orders of magnitude, both accelerating convergence and yielding more general solutions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-28T14:23:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jan Koutník</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2546v1</id>
+    <title>A Learning Framework for Morphological Operators using Counter-Harmonic Mean</title>
+    <updated>2012-12-11T17:29:04Z</updated>
+    <link href="https://arxiv.org/abs/1212.2546v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.2546v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel framework for learning morphological operators using counter-harmonic mean. It combines concepts from morphology and convolutional neural networks. A thorough experimental validation analyzes basic morphological operators dilation and erosion, opening and closing, as well as the much more complex top-hat transform, for which we report a real-world application from the steel industry. Using online learning and stochastic gradient descent, our system learns both the structuring element and the composition of operators. It scales well to large datasets and online settings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-11T17:29:04Z</published>
+    <arxiv:comment>Submitted to ISMM'13</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Jesús Angulo</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.8385v1</id>
+    <title>First Experiments with PowerPlay</title>
+    <updated>2012-10-31T16:41:37Z</updated>
+    <link href="https://arxiv.org/abs/1210.8385v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.8385v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Like a scientist or a playing child, PowerPlay not only learns new skills to solve given problems, but also invents new interesting problems by itself. By design, it continually comes up with the fastest to find, initially novel, but eventually solvable tasks. It also continually simplifies or compresses or speeds up solutions to previous tasks. Here we describe first experiments with PowerPlay. A self-delimiting recurrent neural network SLIM RNN is used as a general computational problem solving architecture. Its connection weights can encode arbitrary, self-delimiting, halting or non-halting programs affecting both environment (through effectors) and internal states encoding abstractions of event sequences. Our PowerPlay-driven SLIM RNN learns to become an increasingly general solver of self-invented problems, continually adding new problem solving procedures to its growing skill repertoire. Extending a recent conference paper, we identify interesting, emerging, developmental stages of our open-ended system. We also show how it automatically self-modularizes, frequently re-using code for previously invented skills, always trying to invent novel tasks that can be quickly validated because they do not require too many weight changes affecting too many previous tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-31T16:41:37Z</published>
+    <arxiv:comment>13 pages, 6 figures. Extends preliminary work presented at ICDL-EpiRob 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Rupesh Kumar Srivastava</name>
+    </author>
+    <author>
+      <name>Bas R. Steunebrink</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0118v1</id>
+    <title>Self-Delimiting Neural Networks</title>
+    <updated>2012-09-29T15:38:53Z</updated>
+    <link href="https://arxiv.org/abs/1210.0118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.0118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-delimiting (SLIM) programs are a central concept of theoretical computer science, particularly algorithmic information &amp; probability theory, and asymptotically optimal program search (AOPS). To apply AOPS to (possibly recurrent) neural networks (NNs), I introduce SLIM NNs. Neurons of a typical SLIM NN have threshold activation functions. During a computational episode, activations are spreading from input neurons through the SLIM NN until the computation activates a special halt neuron. Weights of the NN's used connections define its program. Halting programs form a prefix code. The reset of the initial NN state does not cost more than the latest program execution. Since prefixes of SLIM programs influence their suffixes (weight changes occurring early in an episode influence which weights are considered later), SLIM NN learning algorithms (LAs) should execute weight changes online during activation spreading. This can be achieved by applying AOPS to growing SLIM NNs. To efficiently teach a SLIM NN to solve many tasks, such as correctly classifying many different patterns, or solving many different robot control tasks, each connection keeps a list of tasks it is used for. The lists may be efficiently updated during training. To evaluate the overall effect of currently tested weight changes, a SLIM NN LA needs to re-test performance only on the efficiently computable union of tasks potentially affected by the current weight changes. Future SLIM NNs will be implemented on 3-dimensional brain-like multi-processor hardware. Their LAs will minimize task-specific total wire length of used connections, to encourage efficient solutions of subtasks by subsets of neurons that are physically close. The novel class of SLIM NN LAs is currently being probed in ongoing experiments to be reported in separate papers.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-29T15:38:53Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.6048v1</id>
+    <title>Improving the Asymptotic Performance of Markov Chain Monte-Carlo by Inserting Vortices</title>
+    <updated>2012-09-26T19:53:45Z</updated>
+    <link href="https://arxiv.org/abs/1209.6048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.6048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new way of converting a reversible finite Markov chain into a non-reversible one, with a theoretical guarantee that the asymptotic variance of the MCMC estimator based on the non-reversible chain is reduced. The method is applicable to any reversible chain whose states are not connected through a tree, and can be interpreted graphically as inserting vortices into the state transition graph. Our result confirms that non-reversible chains are fundamentally better than reversible ones in terms of asymptotic performance, and suggests interesting directions for further improving MCMC.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-26T19:53:45Z</published>
+    <arxiv:comment>Published in NIPS 2010</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.5853v1</id>
+    <title>Efficient Natural Evolution Strategies</title>
+    <updated>2012-09-26T07:42:06Z</updated>
+    <link href="https://arxiv.org/abs/1209.5853v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.5853v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient Natural Evolution Strategies (eNES) is a novel alternative to conventional evolutionary algorithms, using the natural gradient to adapt the mutation distribution. Unlike previous methods based on natural gradients, eNES uses a fast algorithm to calculate the inverse of the exact Fisher information matrix, thus increasing both robustness and performance of its evolution gradient estimation, even in higher dimensions. Additional novel aspects of eNES include optimal fitness baselines and importance mixing (a procedure for updating the population with very few fitness evaluations). The algorithm yields competitive results on both unimodal and multimodal benchmarks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-26T07:42:06Z</published>
+    <arxiv:comment>Puslished in GECCO'2009</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.1765v1</id>
+    <title>Object Recognition with Multi-Scale Pyramidal Pooling Networks</title>
+    <updated>2012-07-07T06:27:52Z</updated>
+    <link href="https://arxiv.org/abs/1207.1765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.1765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a Multi-Scale Pyramidal Pooling Network, featuring a novel pyramidal pooling layer at multiple scales and a novel encoding layer. Thanks to the former the network does not require all images of a given classification task to be of equal size. The encoding layer improves generalisation performance in comparison to similar neural network architectures, especially when training data is scarce. We evaluate and compare our system to convolutional neural networks and state-of-the-art computer vision methods on various benchmark datasets. We also present results on industrial steel defect classification, where existing architectures are not applicable because of the constraint on equally sized input images. The proposed architecture can be seen as a fully supervised hierarchical bag-of-features extension that is trained online and can be fine-tuned for any given task.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-07T06:27:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Ueli Meier</name>
+    </author>
+    <author>
+      <name>Gabriel Fricout</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.1522v1</id>
+    <title>Multimodal similarity-preserving hashing</title>
+    <updated>2012-07-06T04:58:52Z</updated>
+    <link href="https://arxiv.org/abs/1207.1522v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.1522v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an efficient computational framework for hashing data belonging to multiple modalities into a single representation space where they become mutually comparable. The proposed approach is based on a novel coupled siamese neural network architecture and allows unified treatment of intra- and inter-modality similarity learning. Unlike existing cross-modality similarity learning approaches, our hashing functions are not limited to binarized linear projections and can assume arbitrarily complex forms. We show experimentally that our method significantly outperforms state-of-the-art hashing approaches on multimedia retrieval tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-06T04:58:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Michael M. Bronstein</name>
+    </author>
+    <author>
+      <name>Alexander A. Bronstein</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.4623v1</id>
+    <title>On the Size of the Online Kernel Sparsification Dictionary</title>
+    <updated>2012-06-18T15:06:34Z</updated>
+    <link href="https://arxiv.org/abs/1206.4623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.4623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the size of the dictionary constructed from online kernel sparsification, using a novel formula that expresses the expected determinant of the kernel Gram matrix in terms of the eigenvalues of the covariance operator. Using this formula, we are able to connect the cardinality of the dictionary with the eigen-decay of the covariance operator. In particular, we show that under certain technical conditions, the size of the dictionary will always grow sub-linearly in the number of data points, and, as a consequence, the kernel linear regressor constructed from the resulting dictionary is consistent.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-18T15:06:34Z</published>
+    <arxiv:comment>ICML2012</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Sun</name>
+      <arxiv:affiliation>IDSIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+      <arxiv:affiliation>IDSIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+      <arxiv:affiliation>IDSIA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.2745v1</id>
+    <title>Multi-column Deep Neural Networks for Image Classification</title>
+    <updated>2012-02-13T14:35:41Z</updated>
+    <link href="https://arxiv.org/abs/1202.2745v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.2745v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional methods of computer vision and machine learning cannot match human performance on tasks such as the recognition of handwritten digits or traffic signs. Our biologically plausible deep artificial neural network architectures can. Small (often minimal) receptive fields of convolutional winner-take-all neurons yield large network depth, resulting in roughly as many sparsely connected neural layers as found in mammals between retina and visual cortex. Only winner neurons are trained. Several deep neural columns become experts on inputs preprocessed in different ways; their predictions are averaged. Graphics cards allow for fast training. On the very competitive MNIST handwriting benchmark, our method is the first to achieve near-human performance. On a traffic sign recognition benchmark it outperforms humans by a factor of two. We also improve the state-of-the-art on a plethora of common image classification benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-13T14:35:41Z</published>
+    <arxiv:comment>20 pages, 14 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>CVPR 2012, p. 3642-3649</arxiv:journal_ref>
+    <author>
+      <name>Dan Cireşan</name>
+    </author>
+    <author>
+      <name>Ueli Meier</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0292v1</id>
+    <title>T-Learning</title>
+    <updated>2011-12-31T17:29:08Z</updated>
+    <link href="https://arxiv.org/abs/1201.0292v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.0292v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional Reinforcement Learning (RL) has focused on problems involving many states and few actions, such as simple grid worlds. Most real world problems, however, are of the opposite type, Involving Few relevant states and many actions. For example, to return home from a conference, humans identify only few subgoal states such as lobby, taxi, airport etc. Each valid behavior connecting two such states can be viewed as an action, and there are trillions of them. Assuming the subgoal identification problem is already solved, the quality of any RL method---in real-world settings---depends less on how well it scales with the number of states than on how well it scales with the number of actions. This is where our new method T-Learning excels, by evaluating the relatively few possible transits from one state to another in a policy-independent way, rather than a huge number of state-action pairs, or states in traditional policy-dependent ways. Illustrative experiments demonstrate that performance improvements of T-Learning over Q-learning can be arbitrarily large.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-31T17:29:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vincent Graziano</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Mark Ring</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.6291v1</id>
+    <title>Descriptor learning for omnidirectional image matching</title>
+    <updated>2011-12-29T12:34:43Z</updated>
+    <link href="https://arxiv.org/abs/1112.6291v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.6291v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feature matching in omnidirectional vision systems is a challenging problem, mainly because complicated optical systems make the theoretical modelling of invariance and construction of invariant feature descriptors hard or even impossible. In this paper, we propose learning invariant descriptors using a training set of similar and dissimilar descriptor pairs. We use the similarity-preserving hashing framework, in which we are trying to map the descriptor data to the Hamming space preserving the descriptor similarity on the training set. A neural network is used to solve the underlying optimization problem. Our approach outperforms not only straightforward descriptor matching, but also state-of-the-art similarity-preserving hashing methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-29T12:34:43Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Davide Migliore</name>
+    </author>
+    <author>
+      <name>Michael M. Bronstein</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.5309v2</id>
+    <title>POWERPLAY: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem</title>
+    <updated>2012-11-04T17:22:46Z</updated>
+    <link href="https://arxiv.org/abs/1112.5309v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.5309v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most of computer science focuses on automatically solving given computational problems. I focus on automatically inventing or discovering problems in a way inspired by the playful behavior of animals and humans, to train a more and more general problem solver from scratch in an unsupervised fashion. Consider the infinite set of all computable descriptions of tasks with possibly computable solutions. The novel algorithmic framework POWERPLAY (2011) continually searches the space of possible pairs of new tasks and modifications of the current problem solver, until it finds a more powerful problem solver that provably solves all previously learned tasks plus the new one, while the unmodified predecessor does not. Wow-effects are achieved by continually making previously learned skills more efficient such that they require less time and space. New skills may (partially) re-use previously learned skills. POWERPLAY's search orders candidate pairs of tasks and solver modifications by their conditional computational (time &amp; space) complexity, given the stored experience so far. The new task and its corresponding task-solving skill are those first found and validated. The computational costs of validating new tasks need not grow with task repertoire size. POWERPLAY's ongoing search for novelty keeps breaking the generalization abilities of its present solver. This is related to Goedel's sequence of increasingly powerful formal theories based on adding formerly unprovable statements to the axioms without affecting previously provable theorems. The continually increasing repertoire of problem solving procedures can be exploited by a parallel search for solutions to additional externally posed tasks. POWERPLAY may be viewed as a greedy but practical implementation of basic principles of creativity. A first experimental analysis can be found in separate papers [53,54].</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-22T13:50:46Z</published>
+    <arxiv:comment>21 pages, additional connections to previous work, references to first experiments with POWERPLAY</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.2113v1</id>
+    <title>Incremental Slow Feature Analysis: Adaptive and Episodic Learning from High-Dimensional Input Streams</title>
+    <updated>2011-12-09T15:01:25Z</updated>
+    <link href="https://arxiv.org/abs/1112.2113v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.2113v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Slow Feature Analysis (SFA) extracts features representing the underlying causes of changes within a temporally coherent high-dimensional raw sensory input signal. Our novel incremental version of SFA (IncSFA) combines incremental Principal Components Analysis and Minor Components Analysis. Unlike standard batch-based SFA, IncSFA adapts along with non-stationary environments, is amenable to episodic training, is not corrupted by outliers, and is covariance-free. These properties make IncSFA a generally useful unsupervised preprocessor for autonomous learning agents and robots. In IncSFA, the CCIPCA and MCA updates take the form of Hebbian and anti-Hebbian updating, extending the biological plausibility of SFA. In both single node and deep network versions, IncSFA learns to encode its input streams (such as high-dimensional video) by informative slow features representing meaningful abstract environmental properties. It can handle cases where batch SFA fails.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-09T15:01:25Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Neural Computation, 2012, Vol. 24, No. 11, Pages 2994-3024</arxiv:journal_ref>
+    <author>
+      <name>Varun Raj Kompella</name>
+    </author>
+    <author>
+      <name>Matthew Luciw</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+</feed>

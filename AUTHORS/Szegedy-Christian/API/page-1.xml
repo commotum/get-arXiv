@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nz3/1tP7/n/385/4AM/27QbwxHc</id>
+  <title>arXiv Query: search_query=au:"Christian Szegedy"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-07T20:44:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Christian+Szegedy%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>29</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18212v3</id>
+    <title>A Definition of AGI</title>
+    <updated>2025-12-03T00:35:56Z</updated>
+    <link href="https://arxiv.org/abs/2510.18212v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18212v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The lack of a concrete definition for Artificial General Intelligence (AGI) obscures the gap between today's specialized AI and human-level cognition. This paper introduces a quantifiable framework to address this, defining AGI as matching the cognitive versatility and proficiency of a well-educated adult. To operationalize this, we ground our methodology in Cattell-Horn-Carroll theory, the most empirically validated model of human cognition. The framework dissects general intelligence into ten core cognitive domains-including reasoning, memory, and perception-and adapts established human psychometric batteries to evaluate AI systems. Application of this framework reveals a highly "jagged" cognitive profile in contemporary models. While proficient in knowledge-intensive domains, current AI systems have critical deficits in foundational cognitive machinery, particularly long-term memory storage. The resulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 57%) concretely quantify both rapid progress and the substantial gap remaining before AGI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T01:28:35Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Honglak Lee</name>
+    </author>
+    <author>
+      <name>Yarin Gal</name>
+    </author>
+    <author>
+      <name>Erik Brynjolfsson</name>
+    </author>
+    <author>
+      <name>Sharon Li</name>
+    </author>
+    <author>
+      <name>Andy Zou</name>
+    </author>
+    <author>
+      <name>Lionel Levine</name>
+    </author>
+    <author>
+      <name>Bo Han</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Ziwei Liu</name>
+    </author>
+    <author>
+      <name>Jinwoo Shin</name>
+    </author>
+    <author>
+      <name>Kimin Lee</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Long Phan</name>
+    </author>
+    <author>
+      <name>George Ingebretsen</name>
+    </author>
+    <author>
+      <name>Adam Khoja</name>
+    </author>
+    <author>
+      <name>Cihang Xie</name>
+    </author>
+    <author>
+      <name>Olawale Salaudeen</name>
+    </author>
+    <author>
+      <name>Matthias Hein</name>
+    </author>
+    <author>
+      <name>Kevin Zhao</name>
+    </author>
+    <author>
+      <name>Alexander Pan</name>
+    </author>
+    <author>
+      <name>David Duvenaud</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>Steve Omohundro</name>
+    </author>
+    <author>
+      <name>Gabriel Alfour</name>
+    </author>
+    <author>
+      <name>Max Tegmark</name>
+    </author>
+    <author>
+      <name>Kevin McGrew</name>
+    </author>
+    <author>
+      <name>Gary Marcus</name>
+    </author>
+    <author>
+      <name>Jaan Tallinn</name>
+    </author>
+    <author>
+      <name>Eric Schmidt</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.06624v3</id>
+    <title>Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems</title>
+    <updated>2024-07-08T13:35:00Z</updated>
+    <link href="https://arxiv.org/abs/2405.06624v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.06624v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensuring that AI systems reliably and robustly avoid harmful or dangerous behaviours is a crucial challenge, especially for AI systems with a high degree of autonomy and general intelligence, or systems used in safety-critical contexts. In this paper, we will introduce and define a family of approaches to AI safety, which we will refer to as guaranteed safe (GS) AI. The core feature of these approaches is that they aim to produce AI systems which are equipped with high-assurance quantitative safety guarantees. This is achieved by the interplay of three core components: a world model (which provides a mathematical description of how the AI system affects the outside world), a safety specification (which is a mathematical description of what effects are acceptable), and a verifier (which provides an auditable proof certificate that the AI satisfies the safety specification relative to the world model). We outline a number of approaches for creating each of these three core components, describe the main technical challenges, and suggest a number of potential solutions to them. We also argue for the necessity of this approach to AI safety, and for the inadequacy of the main alternative approaches.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-10T17:38:32Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>David "davidad" Dalrymple</name>
+    </author>
+    <author>
+      <name>Joar Skalse</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Stuart Russell</name>
+    </author>
+    <author>
+      <name>Max Tegmark</name>
+    </author>
+    <author>
+      <name>Sanjit Seshia</name>
+    </author>
+    <author>
+      <name>Steve Omohundro</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Ben Goldhaber</name>
+    </author>
+    <author>
+      <name>Nora Ammann</name>
+    </author>
+    <author>
+      <name>Alessandro Abate</name>
+    </author>
+    <author>
+      <name>Joe Halpern</name>
+    </author>
+    <author>
+      <name>Clark Barrett</name>
+    </author>
+    <author>
+      <name>Ding Zhao</name>
+    </author>
+    <author>
+      <name>Tan Zhi-Xuan</name>
+    </author>
+    <author>
+      <name>Jeannette Wing</name>
+    </author>
+    <author>
+      <name>Joshua Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.18120v1</id>
+    <title>Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization</title>
+    <updated>2024-03-26T22:01:13Z</updated>
+    <link href="https://arxiv.org/abs/2403.18120v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.18120v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLM), such as Google's Minerva and OpenAI's GPT families, are becoming increasingly capable of solving mathematical quantitative reasoning problems. However, they still make unjustified logical and computational errors in their reasoning steps and answers. In this paper, we leverage the fact that if the training corpus of LLMs contained sufficiently many examples of formal mathematics (e.g. in Isabelle, a formal theorem proving environment), they can be prompted to translate i.e. autoformalize informal mathematical statements into formal Isabelle code -- which can be verified automatically for internal consistency. This provides a mechanism to automatically reject solutions whose formalized versions are inconsistent within themselves or with the formalized problem statement. We evaluate our method on GSM8K, MATH and MultiArith datasets and demonstrate that our approach provides a consistently better heuristic than vanilla majority voting -- the previously best method to identify correct answers, by more than 12% on GSM8K. In our experiments it improves results consistently across all datasets and LLM model sizes. The code can be found at https://github.com/jinpz/dtv.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-26T22:01:13Z</published>
+    <arxiv:comment>ICLR 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jin Peng Zhou</name>
+    </author>
+    <author>
+      <name>Charles Staats</name>
+    </author>
+    <author>
+      <name>Wenda Li</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Kilian Q. Weinberger</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04488v3</id>
+    <title>Magnushammer: A Transformer-Based Approach to Premise Selection</title>
+    <updated>2024-03-18T14:16:22Z</updated>
+    <link href="https://arxiv.org/abs/2303.04488v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04488v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel approach to premise selection, a crucial reasoning task in automated theorem proving. Traditionally, symbolic methods that rely on extensive domain knowledge and engineering effort are applied to this task. In contrast, this work demonstrates that contrastive training with the transformer architecture can achieve higher-quality retrieval of relevant premises, without the engineering overhead. Our method, Magnushammer, outperforms the most advanced and widely used automation tool in interactive theorem proving called Sledgehammer. On the PISA and miniF2F benchmarks Magnushammer achieves $59.5\%$ (against $38.3\%$) and $34.0\%$ (against $20.9\%$) success rates, respectively. By combining \method with a language-model-based automated theorem prover, we further improve the state-of-the-art proof success rate from $57.0\%$ to $71.0\%$ on the PISA benchmark using $4$x fewer parameters. Moreover, we develop and open source a novel dataset for premise selection, containing textual representations of (proof state, relevant premise) pairs. To the best of our knowledge, this is the largest available premise selection dataset, and the first one for the Isabelle proof assistant.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-08T10:22:00Z</published>
+    <arxiv:comment>ICLR 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maciej Mikuła</name>
+    </author>
+    <author>
+      <name>Szymon Tworkowski</name>
+    </author>
+    <author>
+      <name>Szymon Antoniak</name>
+    </author>
+    <author>
+      <name>Bartosz Piotrowski</name>
+    </author>
+    <author>
+      <name>Albert Qiaochu Jiang</name>
+    </author>
+    <author>
+      <name>Jin Peng Zhou</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Łukasz Kuciński</name>
+    </author>
+    <author>
+      <name>Piotr Miłoś</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.12615v1</id>
+    <title>Autoformalization with Large Language Models</title>
+    <updated>2022-05-25T09:53:30Z</updated>
+    <link href="https://arxiv.org/abs/2205.12615v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.12615v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autoformalization is the process of automatically translating from natural language mathematics to formal specifications and proofs. A successful autoformalization system could advance the fields of formal verification, program synthesis, and artificial intelligence. While the long-term goal of autoformalization seemed elusive for a long time, we show large language models provide new prospects towards this goal. We make the surprising observation that LLMs can correctly translate a significant portion ($25.3\%$) of mathematical competition problems perfectly to formal specifications in Isabelle/HOL. We demonstrate the usefulness of this process by improving a previously introduced neural theorem prover via training on these autoformalized theorems. Our methodology results in a new state-of-the-art result on the MiniF2F theorem proving benchmark, improving the proof rate from $29.6\%$ to $35.2\%$.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-25T09:53:30Z</published>
+    <arxiv:comment>44 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Albert Q. Jiang</name>
+    </author>
+    <author>
+      <name>Wenda Li</name>
+    </author>
+    <author>
+      <name>Markus N. Rabe</name>
+    </author>
+    <author>
+      <name>Charles Staats</name>
+    </author>
+    <author>
+      <name>Mateja Jamnik</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08913v1</id>
+    <title>Memorizing Transformers</title>
+    <updated>2022-03-16T19:54:35Z</updated>
+    <link href="https://arxiv.org/abs/2203.08913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models typically need to be trained or finetuned in order to acquire new knowledge, which involves updating their weights. We instead envision language models that can simply read and memorize new data at inference time, thus acquiring new knowledge immediately. In this work, we extend language models with the ability to memorize the internal representations of past inputs. We demonstrate that an approximate kNN lookup into a non-differentiable memory of recent (key, value) pairs improves language modeling across various benchmarks and tasks, including generic webtext (C4), math papers (arXiv), books (PG-19), code (Github), as well as formal theorems (Isabelle). We show that the performance steadily improves when we increase the size of memory up to 262K tokens. On benchmarks including code and mathematics, we find that the model is capable of making use of newly defined functions and theorems during test time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-16T19:54:35Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2022 (spotlight)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Markus N. Rabe</name>
+    </author>
+    <author>
+      <name>DeLesley Hutchins</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13711v2</id>
+    <title>Hierarchical Transformers Are More Efficient Language Models</title>
+    <updated>2022-04-16T20:47:45Z</updated>
+    <link href="https://arxiv.org/abs/2110.13711v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13711v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer models yield impressive results on many NLP and sequence modeling tasks. Remarkably, Transformers can handle long sequences which allows them to produce long coherent outputs: full paragraphs produced by GPT-3 or well-structured images produced by DALL-E. These large language models are impressive but also very inefficient and costly, which limits their applications and accessibility. We postulate that having an explicit hierarchical architecture is the key to Transformers that efficiently handle long sequences. To verify this claim, we first study different ways to downsample and upsample activations in Transformers so as to make them hierarchical. We use the best performing upsampling and downsampling layers to create Hourglass - a hierarchical Transformer language model. Hourglass improves upon the Transformer baseline given the same amount of computation and can yield the same results as Transformers more efficiently. In particular, Hourglass sets new state-of-the-art for Transformer models on the ImageNet32 generation task and improves language modeling efficiency on the widely studied enwik8 benchmark.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-26T14:00:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Piotr Nawrot</name>
+    </author>
+    <author>
+      <name>Szymon Tworkowski</name>
+    </author>
+    <author>
+      <name>Michał Tyrolski</name>
+    </author>
+    <author>
+      <name>Łukasz Kaiser</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Henryk Michalewski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.06223v2</id>
+    <title>LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning</title>
+    <updated>2022-03-16T02:25:40Z</updated>
+    <link href="https://arxiv.org/abs/2101.06223v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.06223v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While designing inductive bias in neural architectures has been widely studied, we hypothesize that transformer networks are flexible enough to learn inductive bias from suitable generic tasks. Here, we replace architecture engineering by encoding inductive bias in the form of datasets. Inspired by Peirce's view that deduction, induction, and abduction are the primitives of reasoning, we design three synthetic tasks that are intended to require the model to have these three abilities. We specifically design these tasks to be synthetic and devoid of mathematical knowledge to ensure that only the fundamental reasoning biases can be learned from these tasks. This defines a new pre-training methodology called "LIME" (Learning Inductive bias for Mathematical rEasoning). Models trained with LIME significantly outperform vanilla transformers on four very different large mathematical reasoning benchmarks. Unlike dominating the computation cost as traditional pre-training approaches, LIME requires only a small fraction of the computation cost of the typical downstream task. The code for generating LIME tasks is available at https://github.com/tonywu95/LIME.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-15T17:15:24Z</published>
+    <arxiv:comment>Published as a conference paper at ICML 2021 (16 pages)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Markus Rabe</name>
+    </author>
+    <author>
+      <name>Wenda Li</name>
+    </author>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.04757v3</id>
+    <title>Mathematical Reasoning via Self-supervised Skip-tree Training</title>
+    <updated>2020-08-12T07:48:41Z</updated>
+    <link href="https://arxiv.org/abs/2006.04757v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.04757v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine whether self-supervised language modeling applied to mathematical formulas enables logical reasoning. We suggest several logical reasoning tasks that can be used to evaluate language models trained on formal mathematical statements, such as type inference, suggesting missing assumptions and completing equalities. To train language models for formal mathematics, we propose a novel skip-tree task. We find that models trained on the skip-tree task show surprisingly strong mathematical reasoning abilities, and outperform models trained on standard skip-sequence tasks. We also analyze the models' ability to formulate new conjectures by measuring how often the predictions are provable and useful in other proofs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-08T17:12:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Markus N. Rabe</name>
+    </author>
+    <author>
+      <name>Dennis Lee</name>
+    </author>
+    <author>
+      <name>Kshitij Bansal</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.11851v1</id>
+    <title>Mathematical Reasoning in Latent Space</title>
+    <updated>2019-09-26T02:33:07Z</updated>
+    <link href="https://arxiv.org/abs/1909.11851v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.11851v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We design and conduct a simple experiment to study whether neural networks can perform several steps of approximate reasoning in a fixed dimensional latent space. The set of rewrites (i.e. transformations) that can be successfully performed on a statement represents essential semantic features of the statement. We can compress this information by embedding the formula in a vector space, such that the vector associated with a statement can be used to predict whether a statement can be rewritten by other theorems. Predicting the embedding of a formula generated by some rewrite rule is naturally viewed as approximate reasoning in the latent space. In order to measure the effectiveness of this reasoning, we perform approximate deduction sequences in the latent space and use the resulting embedding to inform the semantic features of the corresponding formal statement (which is obtained by performing the corresponding rewrite sequence using real formulas). Our experiments show that graph neural networks can make non-trivial predictions about the rewrite-success of statements, even when they propagate predicted latent representations for several steps. Since our corpus of mathematical formulas includes a wide variety of mathematical disciplines, this experiment is a strong indicator for the feasibility of deduction in latent space in general.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-26T02:33:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dennis Lee</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Markus N. Rabe</name>
+    </author>
+    <author>
+      <name>Sarah M. Loos</name>
+    </author>
+    <author>
+      <name>Kshitij Bansal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.10501v3</id>
+    <title>Learning to Reason in Large Theories without Imitation</title>
+    <updated>2020-06-11T23:20:59Z</updated>
+    <link href="https://arxiv.org/abs/1905.10501v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.10501v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we demonstrate how to do automated theorem proving in the presence of a large knowledge base of potential premises without learning from human proofs. We suggest an exploration mechanism that mixes in additional premises selected by a tf-idf (term frequency-inverse document frequency) based lookup in a deep reinforcement learning scenario. This helps with exploring and learning which premises are relevant for proving a new theorem. Our experiments show that the theorem prover trained with this exploration mechanism outperforms provers that are trained only on human proofs. It approaches the performance of a prover trained by a combination of imitation and reinforcement learning. We perform multiple experiments to understand the importance of the underlying assumptions that make our exploration approach work, thus explaining our design choices.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-25T02:36:25Z</published>
+    <arxiv:comment>Major revision</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kshitij Bansal</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Markus N. Rabe</name>
+    </author>
+    <author>
+      <name>Sarah M. Loos</name>
+    </author>
+    <author>
+      <name>Viktor Toman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.10006v2</id>
+    <title>Graph Representations for Higher-Order Logic and Theorem Proving</title>
+    <updated>2019-09-13T00:06:34Z</updated>
+    <link href="https://arxiv.org/abs/1905.10006v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.10006v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the first use of graph neural networks (GNNs) for higher-order proof search and demonstrates that GNNs can improve upon state-of-the-art results in this domain. Interactive, higher-order theorem provers allow for the formalization of most mathematical theories and have been shown to pose a significant challenge for deep learning. Higher-order logic is highly expressive and, even though it is well-structured with a clearly defined grammar and semantics, there still remains no well-established method to convert formulas into graph-based representations. In this paper, we consider several graphical representations of higher-order logic and evaluate them against the HOList benchmark for higher-order theorem proving.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-24T02:42:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aditya Paliwal</name>
+    </author>
+    <author>
+      <name>Sarah Loos</name>
+    </author>
+    <author>
+      <name>Markus Rabe</name>
+    </author>
+    <author>
+      <name>Kshitij Bansal</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03241v3</id>
+    <title>HOList: An Environment for Machine Learning of Higher-Order Theorem Proving</title>
+    <updated>2019-11-01T20:16:27Z</updated>
+    <link href="https://arxiv.org/abs/1904.03241v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.03241v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an environment, benchmark, and deep learning driven automated theorem prover for higher-order logic. Higher-order interactive theorem provers enable the formalization of arbitrary mathematical theories and thereby present an interesting, open-ended challenge for deep learning. We provide an open-source framework based on the HOL Light theorem prover that can be used as a reinforcement learning environment. HOL Light comes with a broad coverage of basic mathematical theorems on calculus and the formal proof of the Kepler conjecture, from which we derive a challenging benchmark for automated reasoning. We also present a deep reinforcement learning driven automated theorem prover, DeepHOL, with strong initial results on this benchmark.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-05T19:04:33Z</published>
+    <arxiv:comment>Accepted at ICML 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Kshitij Bansal</name>
+    </author>
+    <author>
+      <name>Sarah M. Loos</name>
+    </author>
+    <author>
+      <name>Markus N. Rabe</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Stewart Wilcox</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10176v2</id>
+    <title>Text Embeddings for Retrieval From a Large Knowledge Base</title>
+    <updated>2019-05-02T17:19:08Z</updated>
+    <link href="https://arxiv.org/abs/1810.10176v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10176v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text embedding representing natural language documents in a semantic vector space can be used for document retrieval using nearest neighbor lookup. In order to study the feasibility of neural models specialized for retrieval in a semantically meaningful way, we suggest the use of the Stanford Question Answering Dataset (SQuAD) in an open-domain question answering context, where the first task is to find paragraphs useful for answering a given question. First, we compare the quality of various text-embedding methods on the performance of retrieval and give an extensive empirical comparison on the performance of various non-augmented base embedding with, and without IDF weighting. Our main results are that by training deep residual neural models, specifically for retrieval purposes, can yield significant gains when it is used to augment existing embeddings. We also establish that deeper models are superior to this task. The best base baseline embeddings augmented by our learned neural approach improves the top-1 paragraph recall of the system by 14%.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-24T03:57:11Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Tolgahan Cakaloglu</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Xiaowei Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.00426v1</id>
+    <title>HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving</title>
+    <updated>2017-03-01T18:20:19Z</updated>
+    <link href="https://arxiv.org/abs/1703.00426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.00426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large computer-understandable proofs consist of millions of intermediate logical steps. The vast majority of such steps originate from manually selected and manually guided heuristics applied to intermediate goals. So far, machine learning has generally not been used to filter or generate these steps. In this paper, we introduce a new dataset based on Higher-Order Logic (HOL) proofs, for the purpose of developing new machine learning-based theorem-proving strategies. We make this dataset publicly available under the BSD license. We propose various machine learning tasks that can be performed on this dataset, and discuss their significance for theorem proving. We also benchmark a set of simple baseline machine learning models suited for the tasks (including logistic regression, convolutional neural networks and recurrent neural networks). The results of our baseline models show the promise of applying machine learning to HOL theorem proving.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-01T18:20:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Cezary Kaliszyk</name>
+    </author>
+    <author>
+      <name>François Chollet</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.06972v1</id>
+    <title>Deep Network Guided Proof Search</title>
+    <updated>2017-01-24T16:39:05Z</updated>
+    <link href="https://arxiv.org/abs/1701.06972v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.06972v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning techniques lie at the heart of several significant AI advances in recent years including object recognition and detection, image captioning, machine translation, speech recognition and synthesis, and playing the game of Go. Automated first-order theorem provers can aid in the formalization and verification of mathematical theorems and play a crucial role in program analysis, theory reasoning, security, interpolation, and system verification. Here we suggest deep learning based guidance in the proof search of the theorem prover E. We train and compare several deep neural network models on the traces of existing ATP proofs of Mizar statements and use them to select processed clauses during proof search. We give experimental evidence that with a hybrid, two-phase approach, deep learning based guidance can significantly reduce the average number of proof search steps while increasing the number of theorems proved. Using a few proof guidance strategies that leverage deep neural networks, we have found first-order proofs of 7.36% of the first-order logic translations of the Mizar Mathematical Library theorems that did not previously have ATP generated proofs. This increases the ratio of statements in the corpus with ATP generated proofs from 56% to 59%.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-24T16:39:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>In Thomas Eiter and David Sands, editors, 21st International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR-21). EPiC Series in Computing, vol. 46, pages 85-105, EasyChair, 2017. ISSN 2398-7340</arxiv:journal_ref>
+    <author>
+      <name>Sarah Loos</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Cezary Kaliszyk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.04442v2</id>
+    <title>DeepMath - Deep Sequence Models for Premise Selection</title>
+    <updated>2017-01-26T19:35:16Z</updated>
+    <link href="https://arxiv.org/abs/1606.04442v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.04442v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the effectiveness of neural sequence models for premise selection in automated theorem proving, one of the main bottlenecks in the formalization of mathematics. We propose a two stage approach for this task that yields good results for the premise selection task on the Mizar corpus while avoiding the hand-engineered features of existing state-of-the-art models. To our knowledge, this is the first time deep learning has been applied to theorem proving on a large scale.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-14T16:27:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Alex A. Alemi</name>
+    </author>
+    <author>
+      <name>Francois Chollet</name>
+    </author>
+    <author>
+      <name>Niklas Een</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Josef Urban</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07261v2</id>
+    <title>Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning</title>
+    <updated>2016-08-23T16:42:29Z</updated>
+    <link href="https://arxiv.org/abs/1602.07261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.07261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Very deep convolutional networks have been central to the largest advances in image recognition performance in recent years. One example is the Inception architecture that has been shown to achieve very good performance at relatively low computational cost. Recently, the introduction of residual connections in conjunction with a more traditional architecture has yielded state-of-the-art performance in the 2015 ILSVRC challenge; its performance was similar to the latest generation Inception-v3 network. This raises the question of whether there are any benefit in combining the Inception architecture with residual connections. Here we give clear empirical evidence that training with residual connections accelerates the training of Inception networks significantly. There is also some evidence of residual Inception networks outperforming similarly expensive Inception networks without residual connections by a thin margin. We also present several new streamlined architectures for both residual and non-residual Inception networks. These variations improve the single-frame recognition performance on the ILSVRC 2012 classification task significantly. We further demonstrate how proper activation scaling stabilizes the training of very wide residual Inception networks. With an ensemble of three residual and one Inception-v4, we achieve 3.08 percent top-5 error on the test set of the ImageNet classification (CLS) challenge</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-23T18:44:39Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Sergey Ioffe</name>
+    </author>
+    <author>
+      <name>Vincent Vanhoucke</name>
+    </author>
+    <author>
+      <name>Alex Alemi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.05430v2</id>
+    <title>Large Scale Business Discovery from Street Level Imagery</title>
+    <updated>2016-02-02T07:24:29Z</updated>
+    <link href="https://arxiv.org/abs/1512.05430v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.05430v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Search with local intent is becoming increasingly useful due to the popularity of the mobile device. The creation and maintenance of accurate listings of local businesses worldwide is time consuming and expensive. In this paper, we propose an approach to automatically discover businesses that are visible on street level imagery. Precise business store front detection enables accurate geo-location of businesses, and further provides input for business categorization, listing generation, etc. The large variety of business categories in different countries makes this a very challenging problem. Moreover, manual annotation is prohibitive due to the scale of this problem. We propose the use of a MultiBox based approach that takes input image pixels and directly outputs store front bounding boxes. This end-to-end learning approach instead preempts the need for hand modeling either the proposal generation phase or the post-processing phase, leveraging large labelled training datasets. We demonstrate our approach outperforms the state of the art detection techniques with a large margin in terms of performance and run-time efficiency. In the evaluation, we show this approach achieves human accuracy in the low-recall settings. We also provide an end-to-end evaluation of business discovery in the real world.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-17T01:15:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qian Yu</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Martin C. Stumpe</name>
+    </author>
+    <author>
+      <name>Liron Yatziv</name>
+    </author>
+    <author>
+      <name>Vinay Shet</name>
+    </author>
+    <author>
+      <name>Julian Ibarz</name>
+    </author>
+    <author>
+      <name>Sacha Arnoud</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.02325v5</id>
+    <title>SSD: Single Shot MultiBox Detector</title>
+    <updated>2016-12-29T19:05:11Z</updated>
+    <link href="https://arxiv.org/abs/1512.02325v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.02325v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. Our SSD model is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stage and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, MS COCO, and ILSVRC datasets confirm that SSD has comparable accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. Compared to other single stage methods, SSD has much better accuracy, even with a smaller input image size. For $300\times 300$ input, SSD achieves 72.1% mAP on VOC2007 test at 58 FPS on a Nvidia Titan X and for $500\times 500$ input, SSD achieves 75.1% mAP, outperforming a comparable state of the art Faster R-CNN model. Code is available at https://github.com/weiliu89/caffe/tree/ssd .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-08T04:46:38Z</published>
+    <arxiv:comment>ECCV 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Dragomir Anguelov</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Scott Reed</name>
+    </author>
+    <author>
+      <name>Cheng-Yang Fu</name>
+    </author>
+    <author>
+      <name>Alexander C. Berg</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-319-46448-0_2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-319-46448-0_2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.00567v3</id>
+    <title>Rethinking the Inception Architecture for Computer Vision</title>
+    <updated>2015-12-11T20:27:50Z</updated>
+    <link href="https://arxiv.org/abs/1512.00567v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.00567v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Convolutional networks are at the core of most state-of-the-art computer vision solutions for a wide variety of tasks. Since 2014 very deep convolutional networks started to become mainstream, yielding substantial gains in various benchmarks. Although increased model size and computational cost tend to translate to immediate quality gains for most tasks (as long as enough labeled data is provided for training), computational efficiency and low parameter count are still enabling factors for various use cases such as mobile vision and big-data scenarios. Here we explore ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization. We benchmark our methods on the ILSVRC 2012 classification challenge validation set demonstrate substantial gains over the state of the art: 21.2% top-1 and 5.6% top-5 error for single frame evaluation using a network with a computational cost of 5 billion multiply-adds per inference and with using less than 25 million parameters. With an ensemble of 4 models and multi-crop evaluation, we report 3.5% top-5 error on the validation set (3.6% error on the test set) and 17.3% top-1 error on the validation set.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-02T03:44:38Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Vincent Vanhoucke</name>
+    </author>
+    <author>
+      <name>Sergey Ioffe</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Zbigniew Wojna</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03167v3</id>
+    <title>Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</title>
+    <updated>2015-03-02T20:44:12Z</updated>
+    <link href="https://arxiv.org/abs/1502.03167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.03167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization. It also acts as a regularizer, in some cases eliminating the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.9% top-5 validation error (and 4.8% test error), exceeding the accuracy of human raters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-11T01:44:18Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sergey Ioffe</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6596v3</id>
+    <title>Training Deep Neural Networks on Noisy Labels with Bootstrapping</title>
+    <updated>2015-04-15T19:48:37Z</updated>
+    <link href="https://arxiv.org/abs/1412.6596v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6596v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current state-of-the-art deep learning systems for visual object recognition and detection use purely supervised training with regularization such as dropout to avoid overfitting. The performance depends critically on the amount of labeled examples, and in current practice the labels are assumed to be unambiguous and accurate. However, this assumption often does not hold; e.g. in recognition, class labels may be missing; in detection, objects in the image may not be localized; and in general, the labeling may be subjective. In this work we propose a generic way to handle noisy and incomplete labeling by augmenting the prediction objective with a notion of consistency. We consider a prediction consistent if the same prediction is made given similar percepts, where the notion of similarity is between deep network features computed from the input data. In experiments we demonstrate that our approach yields substantial robustness to label noise on several datasets. On MNIST handwritten digits, we show that our model is robust to label corruption. On the Toronto Face Database, we show that our model handles well the case of subjective labels in emotion recognition, achieving state-of-the- art results, and can also benefit from unlabeled face images with no modification to our method. On the ILSVRC2014 detection challenge data, we show that our approach extends to very deep networks, high resolution images and structured outputs, and results in improved scalable detection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-20T04:11:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Scott Reed</name>
+    </author>
+    <author>
+      <name>Honglak Lee</name>
+    </author>
+    <author>
+      <name>Dragomir Anguelov</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Andrew Rabinovich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6572v3</id>
+    <title>Explaining and Harnessing Adversarial Examples</title>
+    <updated>2015-03-20T20:19:16Z</updated>
+    <link href="https://arxiv.org/abs/1412.6572v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6572v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several machine learning models, including neural networks, consistently misclassify adversarial examples---inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence. Early attempts at explaining this phenomenon focused on nonlinearity and overfitting. We argue instead that the primary cause of neural networks' vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-20T01:17:12Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ian J. Goodfellow</name>
+    </author>
+    <author>
+      <name>Jonathon Shlens</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1441v3</id>
+    <title>Scalable, High-Quality Object Detection</title>
+    <updated>2015-12-09T03:41:42Z</updated>
+    <link href="https://arxiv.org/abs/1412.1441v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1441v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current high-quality object detection approaches use the scheme of salience-based object proposal methods followed by post-classification using deep convolutional features. This spurred recent research in improving object proposal methods. However, domain agnostic proposal generation has the principal drawback that the proposals come unranked or with very weak ranking, making it hard to trade-off quality for running time. This raises the more fundamental question of whether high-quality proposal generation requires careful engineering or can be derived just from data alone. We demonstrate that learning-based proposal methods can effectively match the performance of hand-engineered methods while allowing for very efficient runtime-quality trade-offs. Using the multi-scale convolutional MultiBox (MSC-MultiBox) approach, we substantially advance the state-of-the-art on the ILSVRC 2014 detection challenge data set, with $0.5$ mAP for a single model and $0.52$ mAP for an ensemble of two models. MSC-Multibox significantly improves the proposal quality over its predecessor MultiBox~method: AP increases from $0.42$ to $0.53$ for the ILSVRC detection challenge. Finally, we demonstrate improved bounding-box recall compared to Multiscale Combinatorial Grouping with less proposals on the Microsoft-COCO data set.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-03T19:03:55Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Scott Reed</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Dragomir Anguelov</name>
+    </author>
+    <author>
+      <name>Sergey Ioffe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4842v1</id>
+    <title>Going Deeper with Convolutions</title>
+    <updated>2014-09-17T01:03:11Z</updated>
+    <link href="https://arxiv.org/abs/1409.4842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.4842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a deep convolutional neural network architecture codenamed "Inception", which was responsible for setting the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC 2014). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. This was achieved by a carefully crafted design that allows for increasing the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC 2014 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-17T01:03:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Yangqing Jia</name>
+    </author>
+    <author>
+      <name>Pierre Sermanet</name>
+    </author>
+    <author>
+      <name>Scott Reed</name>
+    </author>
+    <author>
+      <name>Dragomir Anguelov</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Vincent Vanhoucke</name>
+    </author>
+    <author>
+      <name>Andrew Rabinovich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6199v4</id>
+    <title>Intriguing properties of neural networks</title>
+    <updated>2014-02-19T16:33:14Z</updated>
+    <link href="https://arxiv.org/abs/1312.6199v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6199v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks are highly expressive models that have recently achieved state of the art performance on speech and visual recognition tasks. While their expressiveness is the reason they succeed, it also causes them to learn uninterpretable solutions that could have counter-intuitive properties. In this paper we report two such properties.
+  First, we find that there is no distinction between individual high level units and random linear combinations of high level units, according to various methods of unit analysis. It suggests that it is the space, rather than the individual units, that contains of the semantic information in the high layers of neural networks.
+  Second, we find that deep neural networks learn input-output mappings that are fairly discontinuous to a significant extend. We can cause the network to misclassify an image by applying a certain imperceptible perturbation, which is found by maximizing the network's prediction error. In addition, the specific nature of these perturbations is not a random artifact of learning: the same perturbation can cause a different network, that was trained on a different subset of the dataset, to misclassify the same input.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-21T03:36:08Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Wojciech Zaremba</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Joan Bruna</name>
+    </author>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Ian Goodfellow</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.4659v3</id>
+    <title>DeepPose: Human Pose Estimation via Deep Neural Networks</title>
+    <updated>2014-08-20T17:42:45Z</updated>
+    <link href="https://arxiv.org/abs/1312.4659v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.4659v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method for human pose estimation based on Deep Neural Networks (DNNs). The pose estimation is formulated as a DNN-based regression problem towards body joints. We present a cascade of such DNN regressors which results in high precision pose estimates. The approach has the advantage of reasoning about pose in a holistic fashion and has a simple but yet powerful formulation which capitalizes on recent advances in Deep Learning. We present a detailed empirical analysis with state-of-art or better performance on four academic benchmarks of diverse real-world images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-17T06:36:10Z</published>
+    <arxiv:comment>IEEE Conference on Computer Vision and Pattern Recognition, 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <arxiv:doi>10.1109/CVPR.2014.214</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CVPR.2014.214" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.2249v1</id>
+    <title>Scalable Object Detection using Deep Neural Networks</title>
+    <updated>2013-12-08T19:40:51Z</updated>
+    <link href="https://arxiv.org/abs/1312.2249v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.2249v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep convolutional neural networks have recently achieved state-of-the-art performance on a number of image recognition benchmarks, including the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC-2012). The winning model on the localization sub-task was a network that predicts a single bounding box and a confidence score for each object category in the image. Such a model captures the whole-image context around the objects but cannot handle multiple instances of the same object in the image without naively replicating the number of outputs for each instance. In this work, we propose a saliency-inspired neural network model for detection, which predicts a set of class-agnostic bounding boxes along with a single score for each box, corresponding to its likelihood of containing any object of interest. The model naturally handles a variable number of instances for each class and allows for cross-class generalization at the highest levels of the network. We are able to obtain competitive recognition performance on VOC2007 and ILSVRC2012, while using only the top few predicted locations in each image and a small number of neural network evaluations.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-08T19:40:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Dumitru Erhan</name>
+    </author>
+    <author>
+      <name>Christian Szegedy</name>
+    </author>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+    <author>
+      <name>Dragomir Anguelov</name>
+    </author>
+  </entry>
+</feed>

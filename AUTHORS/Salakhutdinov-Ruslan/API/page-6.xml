@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J/z8Oh36+np5MHngOBuClCtFsOE</id>
+  <title>arXiv Query: search_query=au:"Ruslan Salakhutdinov"&amp;id_list=&amp;start=250&amp;max_results=50</title>
+  <updated>2026-02-07T20:31:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ruslan+Salakhutdinov%22&amp;start=250&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>259</opensearch:totalResults>
+  <opensearch:startIndex>250</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1210.5196v1</id>
+    <title>Matrix reconstruction with the local max norm</title>
+    <updated>2012-10-18T17:30:43Z</updated>
+    <link href="https://arxiv.org/abs/1210.5196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.5196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new family of matrix norms, the "local max" norms, generalizing existing methods such as the max norm, the trace norm (nuclear norm), and the weighted or smoothed weighted trace norms, which have been extensively used in the literature as regularizers for matrix reconstruction problems. We show that this new family can be used to interpolate between the (weighted or unweighted) trace norm and the more conservative max norm. We test this interpolation on simulated data and on the large-scale Netflix and MovieLens ratings data, and find improved accuracy relative to the existing matrix norms. We also provide theoretical results showing learning guarantees for some of the new norms.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-18T17:30:43Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Rina Foygel</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4856v1</id>
+    <title>Exploiting compositionality to explore a large space of model structures</title>
+    <updated>2012-10-16T17:37:41Z</updated>
+    <link href="https://arxiv.org/abs/1210.4856v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4856v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent proliferation of richly structured probabilistic models raises the question of how to automatically determine an appropriate model for a dataset. We investigate this question for a space of matrix decomposition models which can express a variety of widely used models from unsupervised learning. To enable model selection, we organize these models into a context-free grammar which generates a wide variety of structures through the compositional application of a few simple rules. We use our grammar to generically and efficiently infer latent components and estimate predictive likelihood for nearly 2500 structures using a small toolbox of reusable algorithms. Using a greedy search over our grammar, we automatically choose the decomposition structure from raw data by evaluating only a small fraction of all models. The proposed method typically finds the correct structure for synthetic data and backs off gracefully to simpler models under heavy noise. It learns sensible structures for datasets as diverse as image patches, motion capture, 20 Questions, and U.S. Senate votes, all using exactly the same code.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-16T17:37:41Z</published>
+    <arxiv:comment>Appears in Proceedings of the Twenty-Eighth Conference on Uncertainty in Artificial Intelligence (UAI2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Ruslan R Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William T. Freeman</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.0580v1</id>
+    <title>Improving neural networks by preventing co-adaptation of feature detectors</title>
+    <updated>2012-07-03T06:35:15Z</updated>
+    <link href="https://arxiv.org/abs/1207.0580v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.0580v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This "overfitting" is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random "dropout" gives big improvements on many benchmark tasks and sets new records for speech and object recognition.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-03T06:35:15Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Geoffrey E. Hinton</name>
+    </author>
+    <author>
+      <name>Nitish Srivastava</name>
+    </author>
+    <author>
+      <name>Alex Krizhevsky</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Ruslan R. Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6445v1</id>
+    <title>Deep Lambertian Networks</title>
+    <updated>2012-06-27T19:59:59Z</updated>
+    <link href="https://arxiv.org/abs/1206.6445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual perception is a challenging problem in part due to illumination variations. A possible solution is to first estimate an illumination invariant representation before using it for recognition. The object albedo and surface normals are examples of such representations. In this paper, we introduce a multilayer generative model where the latent variables include the albedo, surface normals, and the light source. Combining Deep Belief Nets with the Lambertian reflectance assumption, our model can learn good priors over the albedo from 2D images. Illumination variations can be explained by changing only the lighting latent variable in our model. By transferring learned knowledge from similar objects, albedo and surface normals estimation from a single image is possible in our model. Experiments demonstrate that our model is able to generalize as well as improve over standard baselines in one-shot face recognition.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-27T19:59:59Z</published>
+    <arxiv:comment>Appears in Proceedings of the 29th International Conference on Machine Learning (ICML 2012)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yichuan Tang</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.4635v1</id>
+    <title>Deep Mixtures of Factor Analysers</title>
+    <updated>2012-06-18T15:14:57Z</updated>
+    <link href="https://arxiv.org/abs/1206.4635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.4635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An efficient way to learn deep density models that have many layers of latent variables is to learn one layer at a time using a model that has only one layer of latent variables. After learning each layer, samples from the posterior distributions for that layer are used as training data for learning the next layer. This approach is commonly used with Restricted Boltzmann Machines, which are undirected graphical models with a single hidden layer, but it can also be used with Mixtures of Factor Analysers (MFAs) which are directed graphical models. In this paper, we present a greedy layer-wise learning algorithm for Deep Mixtures of Factor Analysers (DMFAs). Even though a DMFA can be converted to an equivalent shallow MFA by multiplying together the factor loading matrices at different levels, learning and inference are much more efficient in a DMFA and the sharing of each lower-level factor loading matrix by many different higher level MFAs prevents overfitting. We demonstrate empirically that DMFAs learn better density models than both MFAs and two types of Restricted Boltzmann Machine on a wide variety of datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-18T15:14:57Z</published>
+    <arxiv:comment>ICML2012</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yichuan Tang</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Geoffrey Hinton</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.4251v1</id>
+    <title>Learning with the Weighted Trace-norm under Arbitrary Sampling Distributions</title>
+    <updated>2011-06-21T16:16:24Z</updated>
+    <link href="https://arxiv.org/abs/1106.4251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.4251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide rigorous guarantees on learning with the weighted trace-norm under arbitrary sampling distributions. We show that the standard weighted trace-norm might fail when the sampling distribution is not a product distribution (i.e. when row and column indexes are not selected independently), present a corrected variant for which we establish strong learning guarantees, and demonstrate that it works better in practice. We provide guarantees when weighting by either the true or empirical sampling distribution, and suggest that even if the true distribution is known (or is uniform), weighting by the empirical distribution may be beneficial.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-21T16:16:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rina Foygel</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ohad Shamir</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0857v1</id>
+    <title>Domain Adaptation: Overfitting and Small Sample Statistics</title>
+    <updated>2011-05-04T15:50:44Z</updated>
+    <link href="https://arxiv.org/abs/1105.0857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the prevalent problem when a test distribution differs from the training distribution. We consider a setting where our training set consists of a small number of sample domains, but where we have many samples in each domain. Our goal is to generalize to a new domain. For example, we may want to learn a similarity function using only certain classes of objects, but we desire that this similarity function be applicable to object classes not present in our training sample (e.g. we might seek to learn that "dogs are similar to dogs" even though images of dogs were absent from our training set). Our theoretical analysis shows that we can select many more features than domains while avoiding overfitting by utilizing data-dependent variance properties. We present a greedy feature selection algorithm based on using T-statistics. Our experiments validate this theory showing that our T-statistic based greedy feature selection is more robust at avoiding overfitting than the classical greedy procedure.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-04T15:50:44Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dean Foster</name>
+    </author>
+    <author>
+      <name>Sham Kakade</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.2780v1</id>
+    <title>Collaborative Filtering in a Non-Uniform World: Learning with the Weighted Trace Norm</title>
+    <updated>2010-02-14T16:37:04Z</updated>
+    <link href="https://arxiv.org/abs/1002.2780v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.2780v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that matrix completion with trace-norm regularization can be significantly hurt when entries of the matrix are sampled non-uniformly. We introduce a weighted version of the trace-norm regularizer that works well also with non-uniform sampling. Our experimental results demonstrate that the weighted trace-norm regularization indeed yields significant gains on the (highly non-uniformly sampled) Netflix dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-14T16:37:04Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.3369v2</id>
+    <title>Learning Nonlinear Dynamic Models</title>
+    <updated>2009-06-03T20:29:16Z</updated>
+    <link href="https://arxiv.org/abs/0905.3369v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.3369v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a novel approach for learning nonlinear dynamic models, which leads to a new set of tools capable of solving problems that are otherwise difficult. We provide theory showing this new approach is consistent for models with long range structure, and apply the approach to motion capture and high-dimensional video data, yielding results superior to standard alternatives.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-20T18:08:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>John Langford</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+  </entry>
+</feed>

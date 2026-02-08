@@ -1,0 +1,1436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gqWPv8fvYkA6TqqzuwXTUJnZTf8</id>
+  <title>arXiv Query: search_query=au:"Ruslan Salakhutdinov"&amp;id_list=&amp;start=150&amp;max_results=50</title>
+  <updated>2026-02-07T20:22:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ruslan+Salakhutdinov%22&amp;start=150&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>259</opensearch:totalResults>
+  <opensearch:startIndex>150</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1907.01011v1</id>
+    <title>Learning Representations from Imperfect Time Series Data via Tensor Rank Regularization</title>
+    <updated>2019-07-01T18:40:52Z</updated>
+    <link href="https://arxiv.org/abs/1907.01011v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.01011v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There has been an increased interest in multimodal language processing including multimodal dialog, question answering, sentiment analysis, and speech recognition. However, naturally occurring multimodal data is often imperfect as a result of imperfect modalities, missing entries or noise corruption. To address these concerns, we present a regularization method based on tensor rank minimization. Our method is based on the observation that high-dimensional multimodal time series data often exhibit correlations across time and modalities which leads to low-rank tensor representations. However, the presence of noise or incomplete values breaks these correlations and results in tensor representations of higher rank. We design a model to learn such tensor representations and effectively regularize their rank. Experiments on multimodal language data show that our model achieves good results across various levels of imperfection.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-01T18:40:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Zhun Liu</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Qibin Zhao</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.00208v2</id>
+    <title>Deep Gamblers: Learning to Abstain with Portfolio Theory</title>
+    <updated>2019-10-01T08:57:03Z</updated>
+    <link href="https://arxiv.org/abs/1907.00208v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.00208v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We deal with the \textit{selective classification} problem (supervised-learning problem with a rejection option), where we want to achieve the best performance at a certain level of coverage of the data. We transform the original $m$-class classification problem to $(m+1)$-class where the $(m+1)$-th class represents the model abstaining from making a prediction due to disconfidence. Inspired by portfolio theory, we propose a loss function for the selective classification problem based on the doubling rate of gambling. Minimizing this loss function corresponds naturally to maximizing the return of a \textit{horse race}, where a player aims to balance between betting on an outcome (making a prediction) when confident and reserving one's winnings (abstaining) when not confident. This loss function allows us to train neural networks and characterize the disconfidence of prediction in an end-to-end fashion. In comparison with previous methods, our method requires almost no modification to the model inference algorithm or model architecture. Experiments show that our method can identify uncertainty in data points, and achieves strong results on SVHN and CIFAR10 at various coverages of the data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-29T14:04:36Z</published>
+    <arxiv:comment>Camera-Ready version for NeurIPS2019. Link to our code updated</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Liu Ziyin</name>
+    </author>
+    <author>
+      <name>Zhikang Wang</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Masahito Ueda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.08237v2</id>
+    <title>XLNet: Generalized Autoregressive Pretraining for Language Understanding</title>
+    <updated>2020-01-02T12:48:08Z</updated>
+    <link href="https://arxiv.org/abs/1906.08237v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.08237v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, under comparable experiment settings, XLNet outperforms BERT on 20 tasks, often by a large margin, including question answering, natural language inference, sentiment analysis, and document ranking.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-19T17:35:48Z</published>
+    <arxiv:comment>Pretrained models and code are available at https://github.com/zihangdai/xlnet</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Zihang Dai</name>
+    </author>
+    <author>
+      <name>Yiming Yang</name>
+    </author>
+    <author>
+      <name>Jaime Carbonell</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Quoc V. Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06401v1</id>
+    <title>"My Way of Telling a Story": Persona based Grounded Story Generation</title>
+    <updated>2019-06-14T21:00:20Z</updated>
+    <link href="https://arxiv.org/abs/1906.06401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual storytelling is the task of generating stories based on a sequence of images. Inspired by the recent works in neural generation focusing on controlling the form of text, this paper explores the idea of generating these stories in different personas. However, one of the main challenges of performing this task is the lack of a dataset of visual stories in different personas. Having said that, there are independent datasets for both visual storytelling and annotated sentences for various persona. In this paper we describe an approach to overcome this by getting labelled persona data from a different task and leveraging those annotations to perform persona based story generation. We inspect various ways of incorporating personality in both the encoder and the decoder representations to steer the generation in the target direction. To this end, we propose five models which are incremental extensions to the baseline model to perform the task at hand. In our experiments we use five different personas to guide the generation process. We find that the models based on our hypotheses perform better at capturing words while generating stories in the target persona.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-14T21:00:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Storytelling Workshop at ACL 2019</arxiv:journal_ref>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Khyathi Raghavi Chandu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05274v3</id>
+    <title>Efficient Exploration via State Marginal Matching</title>
+    <updated>2020-02-28T16:02:59Z</updated>
+    <link href="https://arxiv.org/abs/1906.05274v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.05274v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exploration is critical to a reinforcement learning agent's performance in its given environment. Prior exploration methods are often based on using heuristic auxiliary predictions to guide policy behavior, lacking a mathematically-grounded objective with clear properties. In contrast, we recast exploration as a problem of State Marginal Matching (SMM), where we aim to learn a policy for which the state marginal distribution matches a given target state distribution. The target distribution is a uniform distribution in most cases, but can incorporate prior knowledge if available. In effect, SMM amortizes the cost of learning to explore in a given environment. The SMM objective can be viewed as a two-player, zero-sum game between a state density model and a parametric policy, an idea that we use to build an algorithm for optimizing the SMM objective. Using this formalism, we further demonstrate that prior work approximately maximizes the SMM objective, offering an explanation for the success of these methods. On both simulated and real-world tasks, we demonstrate that agents that directly optimize the SMM objective explore faster and adapt more quickly to new tasks as compared to prior exploration methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-12T17:57:02Z</published>
+    <arxiv:comment>Videos and code: https://sites.google.com/view/state-marginal-matching</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lisa Lee</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05253v1</id>
+    <title>Search on the Replay Buffer: Bridging Planning and Reinforcement Learning</title>
+    <updated>2019-06-12T17:24:03Z</updated>
+    <link href="https://arxiv.org/abs/1906.05253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.05253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The history of learning for control has been an exciting back and forth between two broad classes of algorithms: planning and reinforcement learning. Planning algorithms effectively reason over long horizons, but assume access to a local policy and distance metric over collision-free paths. Reinforcement learning excels at learning policies and the relative values of states, but fails to plan over long horizons. Despite the successes of each method in various domains, tasks that require reasoning over long horizons with limited feedback and high-dimensional observations remain exceedingly challenging for both planning and reinforcement learning algorithms. Frustratingly, these sorts of tasks are potentially the most useful, as they are simple to design (a human only need to provide an example goal state) and avoid reward shaping, which can bias the agent towards finding a sub-optimal solution. We introduce a general control algorithm that combines the strengths of planning and reinforcement learning to effectively solve these tasks. Our aim is to decompose the task of reaching a distant goal state into a sequence of easier tasks, each of which corresponds to reaching a subgoal. Planning algorithms can automatically find these waypoints, but only if provided with suitable abstractions of the environment -- namely, a graph consisting of nodes and edges. Our main insight is that this graph can be constructed via reinforcement learning, where a goal-conditioned value function provides edge weights, and nodes are taken to be previously seen observations in a replay buffer. Using graph search over our replay buffer, we can automatically generate this sequence of subgoals, even in image-based environments. Our algorithm, search on the replay buffer (SoRB), enables agents to solve sparse reward tasks over one hundred steps, and generalizes substantially better than standard RL algorithms.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-12T17:24:03Z</published>
+    <arxiv:comment>Run our algorithm in your browser: http://bit.ly/rl_search</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.00295v1</id>
+    <title>Multimodal Transformer for Unaligned Multimodal Language Sequences</title>
+    <updated>2019-06-01T21:29:20Z</updated>
+    <link href="https://arxiv.org/abs/1906.00295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.00295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human language is often multimodal, which comprehends a mixture of natural language, facial gestures, and acoustic behaviors. However, two major challenges in modeling such multimodal human language time-series data exist: 1) inherent data non-alignment due to variable sampling rates for the sequences from each modality; and 2) long-range dependencies between elements across modalities. In this paper, we introduce the Multimodal Transformer (MulT) to generically address the above issues in an end-to-end manner without explicitly aligning the data. At the heart of our model is the directional pairwise crossmodal attention, which attends to interactions between multimodal sequences across distinct time steps and latently adapt streams from one modality to another. Comprehensive experiments on both aligned and non-aligned multimodal time-series show that our model outperforms state-of-the-art methods by a large margin. In addition, empirical analysis suggests that correlated crossmodal signals are able to be captured by the proposed crossmodal attention mechanism in MulT.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-01T21:29:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Shaojie Bai</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.13192v2</id>
+    <title>Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Kernels</title>
+    <updated>2019-11-04T15:30:12Z</updated>
+    <link href="https://arxiv.org/abs/1905.13192v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.13192v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While graph kernels (GKs) are easy to train and enjoy provable theoretical guarantees, their practical performances are limited by their expressive power, as the kernel function often depends on hand-crafted combinatorial features of graphs. Compared to graph kernels, graph neural networks (GNNs) usually achieve better practical performance, as GNNs use multi-layer architectures and non-linear activation functions to extract high-order information of graphs as features. However, due to the large number of hyper-parameters and the non-convex nature of the training procedure, GNNs are harder to train. Theoretical guarantees of GNNs are also not well-understood. Furthermore, the expressive power of GNNs scales with the number of parameters, and thus it is hard to exploit the full power of GNNs when computing resources are limited. The current paper presents a new class of graph kernels, Graph Neural Tangent Kernels (GNTKs), which correspond to infinitely wide multi-layer GNNs trained by gradient descent. GNTKs enjoy the full expressive power of GNNs and inherit advantages of GKs. Theoretically, we show GNTKs provably learn a class of smooth functions on graphs. Empirically, we test GNTKs on graph classification datasets and show they achieve strong performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-30T17:23:23Z</published>
+    <arxiv:comment>In NeurIPS 2019. Code available: https://github.com/KangchengHou/gntk</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Kangcheng Hou</name>
+    </author>
+    <author>
+      <name>Barnabás Póczos</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+    <author>
+      <name>Keyulu Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.02125v2</id>
+    <title>Strong and Simple Baselines for Multimodal Utterance Embeddings</title>
+    <updated>2020-02-28T07:01:32Z</updated>
+    <link href="https://arxiv.org/abs/1906.02125v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.02125v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human language is a rich multimodal signal consisting of spoken words, facial expressions, body gestures, and vocal intonations. Learning representations for these spoken utterances is a complex research problem due to the presence of multiple heterogeneous sources of information. Recent advances in multimodal learning have followed the general trend of building more complex models that utilize various attention, memory and recurrent components. In this paper, we propose two simple but strong baselines to learn embeddings of multimodal utterances. The first baseline assumes a conditional factorization of the utterance into unimodal factors. Each unimodal factor is modeled using the simple form of a likelihood function obtained via a linear transformation of the embedding. We show that the optimal embedding can be derived in closed form by taking a weighted average of the unimodal features. In order to capture richer representations, our second baseline extends the first by factorizing into unimodal, bimodal, and trimodal factors, while retaining simplicity and efficiency during learning and inference. From a set of experiments across two tasks, we show strong performance on both supervised and semi-supervised multimodal prediction, as well as significant (10 times) speedups over neural models during inference. Overall, we believe that our strong baseline models offer new benchmarking options for future research in multimodal learning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-14T13:44:37Z</published>
+    <arxiv:comment>NAACL 2019 oral presentation</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Yao Chong Lim</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.11955v2</id>
+    <title>On Exact Computation with an Infinitely Wide Neural Net</title>
+    <updated>2019-11-04T15:10:47Z</updated>
+    <link href="https://arxiv.org/abs/1904.11955v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.11955v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How well does a classic deep net architecture like AlexNet or VGG19 classify on a standard dataset such as CIFAR-10 when its width --- namely, number of channels in convolutional layers, and number of nodes in fully-connected internal layers --- is allowed to increase to infinity? Such questions have come to the forefront in the quest to theoretically understand deep learning and its mysteries about optimization and generalization. They also connect deep learning to notions such as Gaussian processes and kernels. A recent paper [Jacot et al., 2018] introduced the Neural Tangent Kernel (NTK) which captures the behavior of fully-connected deep nets in the infinite width limit trained by gradient descent; this object was implicit in some other recent papers. An attraction of such ideas is that a pure kernel-based method is used to capture the power of a fully-trained deep net of infinite width.
+  The current paper gives the first efficient exact algorithm for computing the extension of NTK to convolutional neural nets, which we call Convolutional NTK (CNTK), as well as an efficient GPU implementation of this algorithm. This results in a significant new benchmark for the performance of a pure kernel-based method on CIFAR-10, being $10\%$ higher than the methods reported in [Novak et al., 2019], and only $6\%$ lower than the performance of the corresponding finite deep net architecture (once batch normalization, etc. are turned off). Theoretically, we also give the first non-asymptotic proof showing that a fully-trained sufficiently wide net is indeed equivalent to the kernel regression predictor using NTK.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-26T17:29:37Z</published>
+    <arxiv:comment>In NeurIPS 2019. Code available: https://github.com/ruosongwang/cntk</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Wei Hu</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ruosong Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10079v3</id>
+    <title>The MineRL 2019 Competition on Sample Efficient Reinforcement Learning using Human Priors</title>
+    <updated>2021-01-19T07:47:28Z</updated>
+    <link href="https://arxiv.org/abs/1904.10079v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.10079v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Though deep reinforcement learning has led to breakthroughs in many difficult domains, these successes have required an ever-increasing number of samples. As state-of-the-art reinforcement learning (RL) systems require an exponentially increasing number of samples, their development is restricted to a continually shrinking segment of the AI community. Likewise, many of these systems cannot be applied to real-world problems, where environment samples are expensive. Resolution of these limitations requires new, sample-efficient methods. To facilitate research in this direction, we introduce the MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors.
+  The primary goal of the competition is to foster the development of algorithms which can efficiently leverage human demonstrations to drastically reduce the number of samples needed to solve complex, hierarchical, and sparse environments. To that end, we introduce: (1) the Minecraft ObtainDiamond task, a sequential decision making environment requiring long-term planning, hierarchical control, and efficient exploration methods; and (2) the MineRL-v0 dataset, a large-scale collection of over 60 million state-action pairs of human demonstrations that can be resimulated into embodied trajectories with arbitrary modifications to game state and visuals.
+  Participants will compete to develop systems which solve the ObtainDiamond task with a limited number of samples from the environment simulator, Malmo. The competition is structured into two rounds in which competitors are provided several paired versions of the dataset and environment with different game textures. At the end of each round, competitors will submit containerized versions of their learning algorithms and they will then be trained/evaluated from scratch on a hold-out dataset-environment pair for a total of 4-days on a prespecified hardware platform.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-22T22:18:37Z</published>
+    <arxiv:comment>accepted at NeurIPS 2019, 28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William H. Guss</name>
+    </author>
+    <author>
+      <name>Cayden Codel</name>
+    </author>
+    <author>
+      <name>Katja Hofmann</name>
+    </author>
+    <author>
+      <name>Brandon Houghton</name>
+    </author>
+    <author>
+      <name>Noboru Kuno</name>
+    </author>
+    <author>
+      <name>Stephanie Milani</name>
+    </author>
+    <author>
+      <name>Sharada Mohanty</name>
+    </author>
+    <author>
+      <name>Diego Perez Liebana</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nicholay Topin</name>
+    </author>
+    <author>
+      <name>Manuela Veloso</name>
+    </author>
+    <author>
+      <name>Phillip Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.10547v2</id>
+    <title>Video Relationship Reasoning using Gated Spatio-Temporal Energy Graph</title>
+    <updated>2019-03-27T15:01:34Z</updated>
+    <link href="https://arxiv.org/abs/1903.10547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.10547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual relationship reasoning is a crucial yet challenging task for understanding rich interactions across visual concepts. For example, a relationship 'man, open, door' involves a complex relation 'open' between concrete entities 'man, door'. While much of the existing work has studied this problem in the context of still images, understanding visual relationships in videos has received limited attention. Due to their temporal nature, videos enable us to model and reason about a more comprehensive set of visual relationships, such as those requiring multiple (temporal) observations (e.g., 'man, lift up, box' vs. 'man, put down, box'), as well as relationships that are often correlated through time (e.g., 'woman, pay, money' followed by 'woman, buy, coffee'). In this paper, we construct a Conditional Random Field on a fully-connected spatio-temporal graph that exploits the statistical dependency between relational entities spatially and temporally. We introduce a novel gated energy function parametrization that learns adaptive relations conditioned on visual observations. Our model optimization is computationally efficient, and its space computation complexity is significantly amortized through our proposed parameterization. Experimental results on benchmark video datasets (ImageNet Video and Charades) demonstrate state-of-the-art performance across three standard relationship reasoning tasks: Detection, Tagging, and Recognition.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-25T18:41:06Z</published>
+    <arxiv:comment>CVPR 2019. Supplementary included. Fixing a small typo</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Santosh Divvala</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ali Farhadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.02710v1</id>
+    <title>Concurrent Meta Reinforcement Learning</title>
+    <updated>2019-03-07T03:28:41Z</updated>
+    <link href="https://arxiv.org/abs/1903.02710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.02710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art meta reinforcement learning algorithms typically assume the setting of a single agent interacting with its environment in a sequential manner. A negative side-effect of this sequential execution paradigm is that, as the environment becomes more and more challenging, and thus requiring more interaction episodes for the meta-learner, it needs the agent to reason over longer and longer time-scales. To combat the difficulty of long time-scale credit assignment, we propose an alternative parallel framework, which we name "Concurrent Meta-Reinforcement Learning" (CMRL), that transforms the temporal credit assignment problem into a multi-agent reinforcement learning one. In this multi-agent setting, a set of parallel agents are executed in the same environment and each of these "rollout" agents are given the means to communicate with each other. The goal of the communication is to coordinate, in a collaborative manner, the most efficient exploration of the shared task the agents are currently assigned. This coordination therefore represents the meta-learning aspect of the framework, as each agent can be assigned or assign itself a particular section of the current task's state space. This framework is in contrast to standard RL methods that assume that each parallel rollout occurs independently, which can potentially waste computation if many of the rollouts end up sampling the same part of the state space. Furthermore, the parallel setting enables us to define several reward sharing functions and auxiliary losses that are non-trivial to apply in the sequential setting. We demonstrate the effectiveness of our proposed CMRL at improving over sequential methods in a variety of challenging tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-07T03:28:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Soham Ghosh</name>
+    </author>
+    <author>
+      <name>Sai Bhargav Yalamanchi</name>
+    </author>
+    <author>
+      <name>Varsha Chinnaobireddy</name>
+    </author>
+    <author>
+      <name>Yuhuai Wu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.03477v2</id>
+    <title>The Omniglot challenge: a 3-year progress report</title>
+    <updated>2019-05-31T20:01:27Z</updated>
+    <link href="https://arxiv.org/abs/1902.03477v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.03477v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Three years ago, we released the Omniglot dataset for one-shot learning, along with five challenge tasks and a computational model that addresses these tasks. The model was not meant to be the final word on Omniglot; we hoped that the community would build on our work and develop new approaches. In the time since, we have been pleased to see wide adoption of the dataset. There has been notable progress on one-shot classification, but researchers have adopted new splits and procedures that make the task easier. There has been less progress on the other four tasks. We conclude that recent approaches are still far from human-like concept learning on Omniglot, a challenge that requires performing many tasks with a single model.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-09T19:13:31Z</published>
+    <arxiv:comment>In press at Current Opinion in Behavioral Sciences</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Brenden M. Lake</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01385v1</id>
+    <title>Embodied Multimodal Multitask Learning</title>
+    <updated>2019-02-04T18:53:14Z</updated>
+    <link href="https://arxiv.org/abs/1902.01385v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01385v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent efforts on training visual navigation agents conditioned on language using deep reinforcement learning have been successful in learning policies for different multimodal tasks, such as semantic goal navigation and embodied question answering. In this paper, we propose a multitask model capable of jointly learning these multimodal tasks, and transferring knowledge of words and their grounding in visual objects across the tasks. The proposed model uses a novel Dual-Attention unit to disentangle the knowledge of words in the textual representations and visual concepts in the visual representations, and align them with each other. This disentangled task-invariant alignment of representations facilitates grounding and knowledge transfer across both tasks. We show that the proposed model outperforms a range of baselines on both tasks in simulated 3D environments. We also show that this disentanglement of representations makes our model modular, interpretable, and allows for transfer to instructions containing new words by leveraging object detectors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-04T18:53:14Z</published>
+    <arxiv:comment>See https://devendrachaplot.github.io/projects/EMML for demo videos</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Lisa Lee</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Devi Parikh</name>
+    </author>
+    <author>
+      <name>Dhruv Batra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.02860v3</id>
+    <title>Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context</title>
+    <updated>2019-06-02T21:21:48Z</updated>
+    <link href="https://arxiv.org/abs/1901.02860v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.02860v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, Transformer-XL learns dependency that is 80% longer than RNNs and 450% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-of-the-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without finetuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensorflow and PyTorch.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-09T18:28:19Z</published>
+    <arxiv:comment>ACL 2019 long paper. Code and pretrained models are available at https://github.com/kimiyoung/transformer-xl</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zihang Dai</name>
+    </author>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Yiming Yang</name>
+    </author>
+    <author>
+      <name>Jaime Carbonell</name>
+    </author>
+    <author>
+      <name>Quoc V. Le</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09740v2</id>
+    <title>Connecting the Dots Between MLE and RL for Sequence Prediction</title>
+    <updated>2019-06-29T19:44:06Z</updated>
+    <link href="https://arxiv.org/abs/1811.09740v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09740v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequence prediction models can be learned from example sequences with a variety of training algorithms. Maximum likelihood learning is simple and efficient, yet can suffer from compounding error at test time. Reinforcement learning such as policy gradient addresses the issue but can have prohibitively poor exploration efficiency. A rich set of other algorithms such as RAML, SPG, and data noising, have also been developed from different perspectives. This paper establishes a formal connection between these algorithms. We present a generalized entropy regularized policy optimization formulation, and show that the apparently distinct algorithms can all be reformulated as special instances of the framework, with the only difference being the configurations of a reward function and a couple of hyperparameters. The unified interpretation offers a systematic view of the varying properties of exploration and learning efficiency. Besides, inspired from the framework, we present a new algorithm that dynamically interpolates among the family of algorithms for scheduled sequence model learning. Experiments on machine translation, text summarization, and game imitation learning demonstrate the superiority of the proposed algorithm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-24T01:33:39Z</published>
+    <arxiv:comment>Major revision. The first two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bowen Tan</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Zichao Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.08010v1</id>
+    <title>Stackelberg GAN: Towards Provable Minimax Equilibrium via Multi-Generator Architectures</title>
+    <updated>2018-11-19T22:38:36Z</updated>
+    <link href="https://arxiv.org/abs/1811.08010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.08010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of alleviating the instability issue in the GAN training procedure via new architecture design. The discrepancy between the minimax and maximin objective values could serve as a proxy for the difficulties that the alternating gradient descent encounters in the optimization of GANs. In this work, we give new results on the benefits of multi-generator architecture of GANs. We show that the minimax gap shrinks to $ε$ as the number of generators increases with rate $\widetilde{O}(1/ε)$. This improves over the best-known result of $\widetilde{O}(1/ε^2)$. At the core of our techniques is a novel application of Shapley-Folkman lemma to the generic minimax problem, where in the literature the technique was only known to work when the objective function is restricted to the Lagrangian function of a constraint optimization problem. Our proposed Stackelberg GAN performs well experimentally in both synthetic and real-world datasets, improving Fréchet Inception Distance by $14.61\%$ over the previous multi-generator GANs on the benchmark datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-19T22:38:36Z</published>
+    <arxiv:comment>27 pages, 13 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hongyang Zhang</name>
+    </author>
+    <author>
+      <name>Susu Xu</name>
+    </author>
+    <author>
+      <name>Jiantao Jiao</name>
+    </author>
+    <author>
+      <name>Pengtao Xie</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.06889v1</id>
+    <title>On the Complexity of Exploration in Goal-Driven Navigation</title>
+    <updated>2018-11-16T16:17:27Z</updated>
+    <link href="https://arxiv.org/abs/1811.06889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.06889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building agents that can explore their environments intelligently is a challenging open problem. In this paper, we make a step towards understanding how a hierarchical design of the agent's policy can affect its exploration capabilities. First, we design EscapeRoom environments, where the agent must figure out how to navigate to the exit by accomplishing a number of intermediate tasks (\emph{subgoals}), such as finding keys or opening doors. Our environments are procedurally generated and vary in complexity, which can be controlled by the number of subgoals and relationships between them. Next, we propose to measure the complexity of each environment by constructing dependency graphs between the goals and analytically computing \emph{hitting times} of a random walk in the graph. We empirically evaluate Proximal Policy Optimization (PPO) with sparse and shaped rewards, a variation of policy sketches, and a hierarchical version of PPO (called HiPPO) akin to h-DQN. We show that analytically estimated \emph{hitting time} in goal dependency graphs is an informative metric of the environment complexity. We conjecture that the result should hold for environments other than navigation. Finally, we show that solving environments beyond certain level of complexity requires hierarchical approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-16T16:17:27Z</published>
+    <arxiv:comment>Relational Representation Learning Workshop (NIPS 2018)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maruan Al-Shedivat</name>
+    </author>
+    <author>
+      <name>Lisa Lee</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.05795v1</id>
+    <title>Point Cloud GAN</title>
+    <updated>2018-10-13T04:14:14Z</updated>
+    <link href="https://arxiv.org/abs/1810.05795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.05795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Adversarial Networks (GAN) can achieve promising performance on learning complex data distributions on different types of data. In this paper, we first show a straightforward extension of existing GAN algorithm is not applicable to point clouds, because the constraint required for discriminators is undefined for set data. We propose a two fold modification to GAN algorithm for learning to generate point clouds (PC-GAN). First, we combine ideas from hierarchical Bayesian modeling and implicit generative models by learning a hierarchical and interpretable sampling process. A key component of our method is that we train a posterior inference network for the hidden variables. Second, instead of using only state-of-the-art Wasserstein GAN objective, we propose a sandwiching objective, which results in a tighter Wasserstein distance estimate than the commonly used dual form. Thereby, PC-GAN defines a generic framework that can incorporate many existing GAN algorithms. We validate our claims on ModelNet40 benchmark dataset. Using the distance between generated point clouds and true meshes as metric, we find that PC-GAN trained by the sandwiching objective achieves better results on test data than the existing methods. Moreover, as a byproduct, PC- GAN learns versatile latent representations of point clouds, which can achieve competitive performance with other unsupervised learning algorithms on object recognition task. Lastly, we also provide studies on generating unseen classes of objects and transforming image to point cloud, which demonstrates the compelling generalization capability and potentials of PC-GAN.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-13T04:14:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chun-Liang Li</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Barnabas Poczos</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.02442v1</id>
+    <title>AutoLoss: Learning Discrete Schedules for Alternate Optimization</title>
+    <updated>2018-10-04T22:21:55Z</updated>
+    <link href="https://arxiv.org/abs/1810.02442v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.02442v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many machine learning problems involve iteratively and alternately optimizing different task objectives with respect to different sets of parameters. Appropriately scheduling the optimization of a task objective or a set of parameters is usually crucial to the quality of convergence. In this paper, we present AutoLoss, a meta-learning framework that automatically learns and determines the optimization schedule. AutoLoss provides a generic way to represent and learn the discrete optimization schedule from metadata, allows for a dynamic and data-driven schedule in ML problems that involve alternating updates of different parameters or from different loss objectives. We apply AutoLoss on four ML tasks: d-ary quadratic regression, classification using a multi-layer perceptron (MLP), image generation using GANs, and multi-task neural machine translation (NMT). We show that the AutoLoss controller is able to capture the distribution of better optimization schedules that result in higher quality of convergence on all four tasks. The trained AutoLoss controller is generalizable -- it can guide and improve the learning of a new task model with different specifications, or on different datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-04T22:21:55Z</published>
+    <arxiv:comment>19-pages manuscripts. The first two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haowen Xu</name>
+    </author>
+    <author>
+      <name>Hao Zhang</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.09600v1</id>
+    <title>HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering</title>
+    <updated>2018-09-25T17:28:20Z</updated>
+    <link href="https://arxiv.org/abs/1809.09600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.09600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions; (4) we offer a new type of factoid comparison questions to test QA systems' ability to extract relevant facts and perform necessary comparison. We show that HotpotQA is challenging for the latest QA systems, and the supporting facts enable models to improve performance and make explainable predictions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-25T17:28:20Z</published>
+    <arxiv:comment>EMNLP 2018 long paper. The first three authors contribute equally. Data, code, and blog posts available at https://hotpotqa.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Peng Qi</name>
+    </author>
+    <author>
+      <name>Saizheng Zhang</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Christopher D. Manning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.06284v1</id>
+    <title>Style Transfer Through Multilingual and Feedback-Based Back-Translation</title>
+    <updated>2018-09-17T15:47:06Z</updated>
+    <link href="https://arxiv.org/abs/1809.06284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.06284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Style transfer is the task of transferring an attribute of a sentence (e.g., formality) while maintaining its semantic content. The key challenge in style transfer is to strike a balance between the competing goals, one to preserve meaning and the other to improve the style transfer accuracy. Prior research has identified that the task of meaning preservation is generally harder to attain and evaluate. This paper proposes two extensions of the state-of-the-art style transfer models aiming at improving the meaning preservation in style transfer. Our evaluation shows that these extensions help to ground meaning better while improving the transfer accuracy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-17T15:47:06Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Yulia Tsvetkov</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00782v1</id>
+    <title>Open Domain Question Answering Using Early Fusion of Knowledge Bases and Text</title>
+    <updated>2018-09-04T03:15:56Z</updated>
+    <link href="https://arxiv.org/abs/1809.00782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open Domain Question Answering (QA) is evolving from complex pipelined systems to end-to-end deep neural networks. Specialized neural models have been developed for extracting answers from either text alone or Knowledge Bases (KBs) alone. In this paper we look at a more practical setting, namely QA over the combination of a KB and entity-linked text, which is appropriate when an incomplete KB is available with a large text corpus. Building on recent advances in graph representation learning we propose a novel model, GRAFT-Net, for extracting answers from a question-specific subgraph containing text and KB entities and relations. We construct a suite of benchmark tasks for this problem, varying the difficulty of questions, the amount of training data, and KB completeness. We show that GRAFT-Net is competitive with the state-of-the-art when tested using either KBs or text alone, and vastly outperforms existing methods in the combined setting. Source code is available at https://github.com/OceanskySun/GraftNet .</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T03:15:56Z</published>
+    <arxiv:comment>EMNLP 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haitian Sun</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Kathryn Mazaitis</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09764v2</id>
+    <title>Deep Generative Models with Learnable Knowledge Constraints</title>
+    <updated>2018-11-20T02:10:48Z</updated>
+    <link href="https://arxiv.org/abs/1806.09764v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09764v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The broad set of deep generative models (DGMs) has achieved remarkable advances. However, it is often difficult to incorporate rich structured domain knowledge with the end-to-end DGMs. Posterior regularization (PR) offers a principled framework to impose structured constraints on probabilistic models, but has limited applicability to the diverse DGMs that can lack a Bayesian formulation or even explicit density evaluation. PR also requires constraints to be fully specified a priori, which is impractical or suboptimal for complex knowledge with learnable uncertain parts. In this paper, we establish mathematical correspondence between PR and reinforcement learning (RL), and, based on the connection, expand PR to learn constraints as the extrinsic reward in RL. The resulting algorithm is model-agnostic to apply to any DGMs, and is flexible to adapt arbitrary constraints with the model jointly. Experiments on human image generation and templated sentence generation show models with learned knowledge constraints by our algorithm greatly improve over base generative models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-26T02:31:35Z</published>
+    <arxiv:comment>Neural Information Processing Systems (NeurIPS) 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Zichao Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+    <author>
+      <name>Lianhui Qin</name>
+    </author>
+    <author>
+      <name>Haoye Dong</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.08065v1</id>
+    <title>Learning Cognitive Models using Neural Networks</title>
+    <updated>2018-06-21T04:43:35Z</updated>
+    <link href="https://arxiv.org/abs/1806.08065v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.08065v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A cognitive model of human learning provides information about skills a learner must acquire to perform accurately in a task domain. Cognitive models of learning are not only of scientific interest, but are also valuable in adaptive online tutoring systems. A more accurate model yields more effective tutoring through better instructional decisions. Prior methods of automated cognitive model discovery have typically focused on well-structured domains, relied on student performance data or involved substantial human knowledge engineering. In this paper, we propose Cognitive Representation Learner (CogRL), a novel framework to learn accurate cognitive models in ill-structured domains with no data and little to no human knowledge engineering. Our contribution is two-fold: firstly, we show that representations learnt using CogRL can be used for accurate automatic cognitive model discovery without using any student performance data in several ill-structured domains: Rumble Blocks, Chinese Character, and Article Selection. This is especially effective and useful in domains where an accurate human-authored cognitive model is unavailable or authoring a cognitive model is difficult. Secondly, for domains where a cognitive model is available, we show that representations learned through CogRL can be used to get accurate estimates of skill difficulty and learning rate parameters without using any student performance data. These estimates are shown to highly correlate with estimates using student performance data on an Article Selection dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-21T04:43:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Christopher MacLellan</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Kenneth Koedinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06408v1</id>
+    <title>Gated Path Planning Networks</title>
+    <updated>2018-06-17T16:32:52Z</updated>
+    <link href="https://arxiv.org/abs/1806.06408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.06408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Value Iteration Networks (VINs) are effective differentiable path planning modules that can be used by agents to perform navigation while still maintaining end-to-end differentiability of the entire architecture. Despite their effectiveness, they suffer from several disadvantages including training instability, random seed sensitivity, and other optimization problems. In this work, we reframe VINs as recurrent-convolutional networks which demonstrates that VINs couple recurrent convolutions with an unconventional max-pooling activation. From this perspective, we argue that standard gated recurrent update equations could potentially alleviate the optimization issues plaguing VIN. The resulting architecture, which we call the Gated Path Planning Network, is shown to empirically outperform VIN on a variety of metrics such as learning speed, hyperparameter sensitivity, iteration count, and even generalization. Furthermore, we show that this performance gap is consistent across different maze transition types, maze sizes and even show success on a challenging 3D environment, where the planner is only provided with first-person RGB images.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-17T16:32:52Z</published>
+    <arxiv:comment>ICML 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lisa Lee</name>
+    </author>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06176v3</id>
+    <title>Learning Factorized Multimodal Representations</title>
+    <updated>2019-05-14T14:16:40Z</updated>
+    <link href="https://arxiv.org/abs/1806.06176v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.06176v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning multimodal representations is a fundamentally complex research problem due to the presence of multiple heterogeneous sources of information. Although the presence of multiple modalities provides additional valuable information, there are two key challenges to address when learning from multimodal data: 1) models must learn the complex intra-modal and cross-modal interactions for prediction and 2) models must be robust to unexpected missing or noisy modalities during testing. In this paper, we propose to optimize for a joint generative-discriminative objective across multimodal data and labels. We introduce a model that factorizes representations into two sets of independent factors: multimodal discriminative and modality-specific generative factors. Multimodal discriminative factors are shared across all modalities and contain joint multimodal features required for discriminative tasks such as sentiment prediction. Modality-specific generative factors are unique for each modality and contain the information required for generating data. Experimental results show that our model is able to learn meaningful multimodal representations that achieve state-of-the-art or competitive performance on six multimodal datasets. Our model demonstrates flexible generative capabilities by conditioning on independent factors and can reconstruct missing modalities without significantly impacting performance. Lastly, we interpret our factorized representations to understand the interactions that influence multimodal learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-16T03:48:50Z</published>
+    <arxiv:comment>ICLR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Amir Zadeh</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05662v3</id>
+    <title>GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations</title>
+    <updated>2018-07-02T20:24:33Z</updated>
+    <link href="https://arxiv.org/abs/1806.05662v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05662v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern deep transfer learning approaches have mainly focused on learning generic feature vectors from one task that are transferable to other tasks, such as word embeddings in language and pretrained convolutional features in vision. However, these approaches usually transfer unary features and largely ignore more structured graphical representations. This work explores the possibility of learning generic latent relational graphs that capture dependencies between pairs of data units (e.g., words or pixels) from large-scale unlabeled data and transferring the graphs to downstream tasks. Our proposed transfer learning framework improves performance on various tasks including question answering, natural language inference, sentiment analysis, and image classification. We also show that the learned graphs are generic enough to be transferred to different embeddings on which the graphs have not been trained (including GloVe embeddings, ELMo embeddings, and task-specific RNN hidden unit), or embedding-free units such as image pixels.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-14T17:41:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Jake Zhao</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Kaiming He</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01845v2</id>
+    <title>Deep Neural Networks with Multi-Branch Architectures Are Less Non-Convex</title>
+    <updated>2018-06-21T15:51:46Z</updated>
+    <link href="https://arxiv.org/abs/1806.01845v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01845v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several recently proposed architectures of neural networks such as ResNeXt, Inception, Xception, SqueezeNet and Wide ResNet are based on the designing idea of having multiple branches and have demonstrated improved performance in many applications. We show that one cause for such success is due to the fact that the multi-branch architecture is less non-convex in terms of duality gap. The duality gap measures the degree of intrinsic non-convexity of an optimization problem: smaller gap in relative value implies lower degree of intrinsic non-convexity. The challenge is to quantitatively measure the duality gap of highly non-convex problems such as deep neural networks. In this work, we provide strong guarantees of this quantity for two classes of network architectures. For the neural networks with arbitrary activation functions, multi-branch architecture and a variant of hinge loss, we show that the duality gap of both population and empirical risks shrinks to zero as the number of branches increases. This result sheds light on better understanding the power of over-parametrization where increasing the network width tends to make the loss surface less non-convex. For the neural networks with linear activation function and $\ell_2$ loss, we show that the duality gap of empirical risk is zero. Our two results work for arbitrary depths and adversarial data, while the analytical techniques might be of independent interest to non-convex optimization more broadly. Experiments on both synthetic and real-world datasets validate our results.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-06T14:16:36Z</published>
+    <arxiv:comment>26 pages, 6 figures, 3 tables; v2 fixes some typos. arXiv admin note: text overlap with arXiv:1712.08559 by other authors</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hongyang Zhang</name>
+    </author>
+    <author>
+      <name>Junru Shao</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.07883v3</id>
+    <title>How Many Samples are Needed to Estimate a Convolutional or Recurrent Neural Network?</title>
+    <updated>2019-06-30T00:24:50Z</updated>
+    <link href="https://arxiv.org/abs/1805.07883v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.07883v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is widely believed that the practical success of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) owes to the fact that CNNs and RNNs use a more compact parametric representation than their Fully-Connected Neural Network (FNN) counterparts, and consequently require fewer training examples to accurately estimate their parameters. We initiate the study of rigorously characterizing the sample-complexity of estimating CNNs and RNNs. We show that the sample-complexity to learn CNNs and RNNs scales linearly with their intrinsic dimension and this sample-complexity is much smaller than for their FNN counterparts. For both CNNs and RNNs, we also present lower bounds showing our sample complexities are tight up to logarithmic factors. Our main technical tools for deriving these results are a localized empirical process analysis and a new technical lemma characterizing the convolutional and recurrent structure. We believe that these tools may inspire further developments in understanding CNNs and RNNs.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-21T03:56:17Z</published>
+    <arxiv:comment>Revised version, with new results on recurrent neural networks. Preliminary version in NeurIPS 2018</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Yining Wang</name>
+    </author>
+    <author>
+      <name>Xiyu Zhai</name>
+    </author>
+    <author>
+      <name>Sivaraman Balakrishnan</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Aarti Singh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.09000v3</id>
+    <title>Style Transfer Through Back-Translation</title>
+    <updated>2018-05-24T17:12:43Z</updated>
+    <link href="https://arxiv.org/abs/1804.09000v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.09000v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Style transfer is the task of rephrasing the text to contain specific stylistic properties without changing the intent or affect within the context. This paper introduces a new method for automatic style transfer. We first learn a latent representation of the input sentence which is grounded in a language translation model in order to better preserve the meaning of the sentence while reducing stylistic properties. Then adversarial generation techniques are used to make the output match the desired style. We evaluate this technique on three different style transformations: sentiment, gender and political slant. Compared to two state-of-the-art style transfer modeling techniques we show improvements both in automatic evaluation of style transfer and in manual evaluation of meaning preservation and fluency.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-24T12:58:45Z</published>
+    <arxiv:comment>Accepted at ACL 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Yulia Tsvetkov</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alan W Black</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05922v1</id>
+    <title>Neural Models for Reasoning over Multiple Mentions using Coreference</title>
+    <updated>2018-04-16T20:07:44Z</updated>
+    <link href="https://arxiv.org/abs/1804.05922v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.05922v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many problems in NLP require aggregating information from multiple mentions of the same entity which may be far apart in the text. Existing Recurrent Neural Network (RNN) layers are biased towards short-term dependencies and hence not suited to such tasks. We present a recurrent layer which is instead biased towards coreferent dependencies. The layer uses coreference annotations extracted from an external system to connect entity mentions belonging to the same cluster. Incorporating this layer into a state-of-the-art reading comprehension model improves performance on three datasets -- Wikihop, LAMBADA and the bAbi AI tasks -- with large gains when training data is scarce.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-16T20:07:44Z</published>
+    <arxiv:comment>NAACL 2018 (Short Paper)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>Qiao Jin</name>
+    </author>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08311v1</id>
+    <title>Structured Control Nets for Deep Reinforcement Learning</title>
+    <updated>2018-02-22T21:31:34Z</updated>
+    <link href="https://arxiv.org/abs/1802.08311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Deep Reinforcement Learning has made impressive advances in solving several important benchmark problems for sequential decision making. Many control applications use a generic multilayer perceptron (MLP) for non-vision parts of the policy network. In this work, we propose a new neural network architecture for the policy network representation that is simple yet effective. The proposed Structured Control Net (SCN) splits the generic MLP into two separate sub-modules: a nonlinear control module and a linear control module. Intuitively, the nonlinear control is for forward-looking and global control, while the linear control stabilizes the local dynamics around the residual of global control. We hypothesize that this will bring together the benefits of both linear and nonlinear policies: improve training sample efficiency, final episodic reward, and generalization of learned policy, while requiring a smaller network and being generally applicable to different training methods. We validated our hypothesis with competitive results on simulations from OpenAI MuJoCo, Roboschool, Atari, and a custom 2D urban driving environment, with various ablation and generalization tests, trained with multiple black-box and policy gradient training methods. The proposed architecture has the potential to improve upon broader control tasks by incorporating problem specific priors into the architecture. As a case study, we demonstrate much improved performance for locomotion tasks by emulating the biological central pattern generators (CPGs) as the nonlinear part of the architecture.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-22T21:31:34Z</published>
+    <arxiv:comment>First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>PMLR 80:4742-4751, 2018</arxiv:journal_ref>
+    <author>
+      <name>Mario Srouji</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06857v1</id>
+    <title>Global Pose Estimation with an Attention-based Recurrent Network</title>
+    <updated>2018-02-19T21:17:10Z</updated>
+    <link href="https://arxiv.org/abs/1802.06857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.06857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability for an agent to localize itself within an environment is crucial for many real-world applications. For unknown environments, Simultaneous Localization and Mapping (SLAM) enables incremental and concurrent building of and localizing within a map. We present a new, differentiable architecture, Neural Graph Optimizer, progressing towards a complete neural network solution for SLAM by designing a system composed of a local pose estimation model, a novel pose selection module, and a novel graph optimization process. The entire architecture is trained in an end-to-end fashion, enabling the network to automatically learn domain-specific features relevant to the visual odometry and avoid the involved process of feature engineering. We demonstrate the effectiveness of our system on a simulated 2D maze and the 3D ViZ-Doom environment.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-19T21:17:10Z</published>
+    <arxiv:comment>First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06226v1</id>
+    <title>Post Selection Inference with Incomplete Maximum Mean Discrepancy Estimator</title>
+    <updated>2018-02-17T11:48:02Z</updated>
+    <link href="https://arxiv.org/abs/1802.06226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.06226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring divergence between two distributions is essential in machine learning and statistics and has various applications including binary classification, change point detection, and two-sample test. Furthermore, in the era of big data, designing divergence measure that is interpretable and can handle high-dimensional and complex data becomes extremely important. In the paper, we propose a post selection inference (PSI) framework for divergence measure, which can select a set of statistically significant features that discriminate two distributions. Specifically, we employ an additive variant of maximum mean discrepancy (MMD) for features and introduce a general hypothesis test for PSI. A novel MMD estimator using the incomplete U-statistics, which has an asymptotically Normal distribution (under mild assumptions) and gives high detection power in PSI, is also proposed and analyzed theoretically. Through synthetic and real-world feature selection experiments, we show that the proposed framework can successfully detect statistically significant features. Last, we propose a sample selection framework for analyzing different members in the Generative Adversarial Networks (GANs) family.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-17T11:48:02Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+    <author>
+      <name>Denny Wu</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Ichiro Takeuchi</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Kenji Fukumizu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05411v2</id>
+    <title>Selecting the Best in GANs Family: a Post Selection Inference Framework</title>
+    <updated>2018-06-23T21:03:59Z</updated>
+    <link href="https://arxiv.org/abs/1802.05411v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05411v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>"Which Generative Adversarial Networks (GANs) generates the most plausible images?" has been a frequently asked question among researchers. To address this problem, we first propose an \emph{incomplete} U-statistics estimate of maximum mean discrepancy $\mathrm{MMD}_{inc}$ to measure the distribution discrepancy between generated and real images. $\mathrm{MMD}_{inc}$ enjoys the advantages of asymptotic normality, computation efficiency, and model agnosticity. We then propose a GANs analysis framework to select and test the "best" member in GANs family using the Post Selection Inference (PSI) with $\mathrm{MMD}_{inc}$. In the experiments, we adopt the proposed framework on 7 GANs variants and compare their $\mathrm{MMD}_{inc}$ scores.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-15T05:27:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+    <author>
+      <name>Denny Wu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ichiro Takeuchi</name>
+    </author>
+    <author>
+      <name>Kenji Fukumizu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05408v1</id>
+    <title>"Dependency Bottleneck" in Auto-encoding Architectures: an Empirical Study</title>
+    <updated>2018-02-15T05:22:19Z</updated>
+    <link href="https://arxiv.org/abs/1802.05408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent works investigated the generalization properties in deep neural networks (DNNs) by studying the Information Bottleneck in DNNs. However, the mea- surement of the mutual information (MI) is often inaccurate due to the density estimation. To address this issue, we propose to measure the dependency instead of MI between layers in DNNs. Specifically, we propose to use Hilbert-Schmidt Independence Criterion (HSIC) as the dependency measure, which can measure the dependence of two random variables without estimating probability densities. Moreover, HSIC is a special case of the Squared-loss Mutual Information (SMI). In the experiment, we empirically evaluate the generalization property using HSIC in both the reconstruction and prediction auto-encoding (AE) architectures.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-15T05:22:19Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Denny Wu</name>
+    </author>
+    <author>
+      <name>Yixiu Zhao</name>
+    </author>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Makoto Yamada</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04443v1</id>
+    <title>On Characterizing the Capacity of Neural Networks using Algebraic Topology</title>
+    <updated>2018-02-13T02:32:10Z</updated>
+    <link href="https://arxiv.org/abs/1802.04443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.04443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The learnability of different neural architectures can be characterized directly by computable measures of data complexity. In this paper, we reframe the problem of architecture selection as understanding how data determines the most expressive and generalizable architectures suited to that data, beyond inductive bias. After suggesting algebraic topology as a measure for data complexity, we show that the power of a network to express the topological complexity of a dataset in its decision region is a strictly limiting factor in its ability to generalize. We then provide the first empirical characterization of the topological capacity of neural networks. Our empirical analysis shows that at every level of dataset complexity, neural networks exhibit topological phase transitions. This observation allowed us to connect existing theory to empirically driven conjectures on the choice of architectures for fully-connected neural networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-13T02:32:10Z</published>
+    <arxiv:comment>13 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William H. Guss</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.09819v5</id>
+    <title>Transformation Autoregressive Networks</title>
+    <updated>2018-10-23T14:30:22Z</updated>
+    <link href="https://arxiv.org/abs/1801.09819v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.09819v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fundamental task of general density estimation $p(x)$ has been of keen interest to machine learning. In this work, we attempt to systematically characterize methods for density estimation. Broadly speaking, most of the existing methods can be categorized into either using: \textit{a}) autoregressive models to estimate the conditional factors of the chain rule, $p(x_{i}\, |\, x_{i-1}, \ldots)$; or \textit{b}) non-linear transformations of variables of a simple base distribution. Based on the study of the characteristics of these categories, we propose multiple novel methods for each category. For example we proposed RNN based transformations to model non-Markovian dependencies. Further, through a comprehensive study over both real world and synthetic data, we show for that jointly leveraging transformations of variables and autoregressive conditional models, results in a considerable improvement in performance. We illustrate the use of our models in outlier detection and image modeling. Finally we introduce a novel data driven framework for learning a family of distributions.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-30T01:39:38Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>ICML 2018</arxiv:journal_ref>
+    <author>
+      <name>Junier B. Oliva</name>
+    </author>
+    <author>
+      <name>Avinava Dubey</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Barnabás Póczos</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.08214v1</id>
+    <title>Active Neural Localization</title>
+    <updated>2018-01-24T22:06:55Z</updated>
+    <link href="https://arxiv.org/abs/1801.08214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.08214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Localization is the problem of estimating the location of an autonomous agent from an observation and a map of the environment. Traditional methods of localization, which filter the belief based on the observations, are sub-optimal in the number of steps required, as they do not decide the actions taken by the agent. We propose "Active Neural Localizer", a fully differentiable neural network that learns to localize accurately and efficiently. The proposed model incorporates ideas of traditional filtering-based localization methods, by using a structured belief of the state with multiplicative interactions to propagate belief, and combines it with a policy model to localize accurately while minimizing the number of steps required for localization. Active Neural Localizer is trained end-to-end with reinforcement learning. We use a variety of simulation environments for our experiments which include random 2D mazes, random mazes in the Doom game engine and a photo-realistic environment in the Unreal game engine. The results on the 2D environments show the effectiveness of the learned policy in an idealistic setting while results on the 3D environments demonstrate the model's capability of learning the policy and perceptual model jointly from raw-pixel based RGB observations. We also show that a model trained on random textures in the Doom environment generalizes well to a photo-realistic office space environment in the Unreal engine.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-24T22:06:55Z</published>
+    <arxiv:comment>Under Review at ICLR-18, 15 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Emilio Parisotto</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.06261v2</id>
+    <title>Investigating the Working of Text Classifiers</title>
+    <updated>2018-08-05T16:08:59Z</updated>
+    <link href="https://arxiv.org/abs/1801.06261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.06261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text classification is one of the most widely studied tasks in natural language processing. Motivated by the principle of compositionality, large multilayer neural network models have been employed for this task in an attempt to effectively utilize the constituent expressions. Almost all of the reported work train large networks using discriminative approaches, which come with a caveat of no proper capacity control, as they tend to latch on to any signal that may not generalize. Using various recent state-of-the-art approaches for text classification, we explore whether these models actually learn to compose the meaning of the sentences or still just focus on some keywords or lexicons for classifying the document. To test our hypothesis, we carefully construct datasets where the training and test splits have no direct overlap of such lexicons, but overall language structure would be similar. We study various text classifiers and observe that there is a big performance drop on these datasets. Finally, we show that even simple models with our proposed regularization techniques, which disincentivize focusing on key lexicons, can substantially improve classification accuracy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-19T00:29:55Z</published>
+    <arxiv:comment>Proceedings of COLING 2018, the 27th International Conference on Computational Linguistics: Technical Papers (COLING 2018), NIPS 2017 Workshop on Deep Learning: Bridging Theory and Practice</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Devendra Singh Sachan</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01900v1</id>
+    <title>Knowledge-based Word Sense Disambiguation using Topic Models</title>
+    <updated>2018-01-05T19:20:24Z</updated>
+    <link href="https://arxiv.org/abs/1801.01900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.01900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Word Sense Disambiguation is an open problem in Natural Language Processing which is particularly challenging and useful in the unsupervised setting where all the words in any given text need to be disambiguated without using any labeled data. Typically WSD systems use the sentence or a small window of words around the target word as the context for disambiguation because their computational complexity scales exponentially with the size of the context. In this paper, we leverage the formalism of topic model to design a WSD system that scales linearly with the number of words in the context. As a result, our system is able to utilize the whole document as the context for a word to be disambiguated. The proposed method is a variant of Latent Dirichlet Allocation in which the topic proportions for a document are replaced by synset proportions. We further utilize the information in the WordNet by assigning a non-uniform prior to synset distribution over words and a logistic-normal prior for document distribution over synsets. We evaluate the proposed method on Senseval-2, Senseval-3, SemEval-2007, SemEval-2013 and SemEval-2015 English All-Word WSD datasets and show that it outperforms the state-of-the-art unsupervised knowledge-based WSD system by a significant margin.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-05T19:20:24Z</published>
+    <arxiv:comment>To appear in AAAI-18</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.03953v4</id>
+    <title>Breaking the Softmax Bottleneck: A High-Rank RNN Language Model</title>
+    <updated>2018-03-02T20:20:52Z</updated>
+    <link href="https://arxiv.org/abs/1711.03953v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.03953v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We formulate language modeling as a matrix factorization problem, and show that the expressiveness of Softmax-based models (including the majority of neural language models) is limited by a Softmax bottleneck. Given that natural language is highly context-dependent, this further implies that in practice Softmax with distributed word embeddings does not have enough capacity to model natural language. We propose a simple and effective method to address this issue, and improve the state-of-the-art perplexities on Penn Treebank and WikiText-2 to 47.69 and 40.68 respectively. The proposed method also excels on the large-scale 1B Word dataset, outperforming the baseline by over 5.6 points in perplexity.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-10T18:29:00Z</published>
+    <arxiv:comment>ICLR Oral 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Zihang Dai</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.03167v3</id>
+    <title>Learning Markov Chain in Unordered Dataset</title>
+    <updated>2019-03-05T06:38:12Z</updated>
+    <link href="https://arxiv.org/abs/1711.03167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.03167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The assumption that data samples are independently identically distributed is the backbone of many learning algorithms. Nevertheless, datasets often exhibit rich structure in practice, and we argue that there exist some unknown order within the data instances. In this technical report, we introduce OrderNet that can be used to extract the order of data instances in an unsupervised way. By assuming that the instances are sampled from a Markov chain, our goal is to learn the transitional operator of the underlying Markov chain, as well as the order by maximizing the generation probability under all possible data permutations. Specifically, we use neural network as a compact and soft lookup table to approximate the possibly huge, but discrete transition matrix. This strategy allows us to amortize the space complexity with a single model. Furthermore, this simple and compact representation also provides a short description to the dataset and generalizes to unseen instances as well. To ensure that the learned Markov chain is ergodic, we propose a greedy batch-wise permutation scheme that allows fast training. Empirically, we show that OrderNet is able to discover an order among data instances. We also extend the proposed OrderNet to one-shot recognition task and demonstrate favorable results.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-08T21:11:26Z</published>
+    <arxiv:comment>This would be the final update for this technical report on learning Markov Chain in the unordered dataset</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nebojsa Jojic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.08347v2</id>
+    <title>Improving One-Shot Learning through Fusing Side Information</title>
+    <updated>2018-01-23T04:27:47Z</updated>
+    <link href="https://arxiv.org/abs/1710.08347v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.08347v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Neural Networks (DNNs) often struggle with one-shot learning where we have only one or a few labeled training examples per category. In this paper, we argue that by using side information, we may compensate the missing information across classes. We introduce two statistical approaches for fusing side information into data representation learning to improve one-shot learning. First, we propose to enforce the statistical dependency between data representations and multiple types of side information. Second, we introduce an attention mechanism to efficiently treat examples belonging to the 'lots-of-examples' classes as quasi-samples (additional training samples) for 'one-example' classes. We empirically show that our learning architecture improves over traditional softmax regression networks as well as state-of-the-art attentional regression networks on one-shot recognition tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-23T15:50:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yao-Hung Hubert Tsai</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.01434v1</id>
+    <title>A Generic Approach for Escaping Saddle points</title>
+    <updated>2017-09-05T14:58:15Z</updated>
+    <link href="https://arxiv.org/abs/1709.01434v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.01434v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A central challenge to using first-order methods for optimizing nonconvex problems is the presence of saddle points. First-order methods often get stuck at saddle points, greatly deteriorating their performance. Typically, to escape from saddles one has to use second-order methods. However, most works on second-order methods rely extensively on expensive Hessian-based computations, making them impractical in large-scale settings. To tackle this challenge, we introduce a generic framework that minimizes Hessian based computations while at the same time provably converging to second-order critical points. Our framework carefully alternates between a first-order and a second-order subroutine, using the latter only close to saddle points, and yields convergence results competitive to the state-of-the-art. Empirical results suggest that our strategy also enjoys a good practical performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-05T14:58:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sashank J Reddi</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Suvrit Sra</name>
+    </author>
+    <author>
+      <name>Barnabas Poczos</name>
+    </author>
+    <author>
+      <name>Francis Bach</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Alexander J Smola</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.04822v2</id>
+    <title>Block-Normalized Gradient Method: An Empirical Study for Training Deep Neural Network</title>
+    <updated>2018-04-23T09:45:02Z</updated>
+    <link href="https://arxiv.org/abs/1707.04822v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.04822v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a generic and simple strategy for utilizing stochastic gradient information in optimization. The technique essentially contains two consecutive steps in each iteration: 1) computing and normalizing each block (layer) of the mini-batch stochastic gradient; 2) selecting appropriate step size to update the decision variable (parameter) towards the negative of the block-normalized gradient. We conduct extensive empirical studies on various non-convex neural network optimization problems, including multi-layer perceptron, convolution neural networks and recurrent neural networks. The results indicate the block-normalized gradient can help accelerate the training of neural networks. In particular, we observe that the normalized gradient methods having constant step size with occasionally decay, such as SGD with momentum, have better performance in the deep convolution neural networks, while those with adaptive step sizes, such as Adam, perform better in recurrent neural networks. Besides, we also observe this line of methods can lead to solutions with better generalization properties, which is confirmed by the performance improvement over strong baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-16T04:47:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adams Wei Yu</name>
+    </author>
+    <author>
+      <name>Lei Huang</name>
+    </author>
+    <author>
+      <name>Qihang Lin</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Jaime Carbonell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.07230v2</id>
+    <title>Gated-Attention Architectures for Task-Oriented Language Grounding</title>
+    <updated>2018-01-09T03:24:06Z</updated>
+    <link href="https://arxiv.org/abs/1706.07230v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.07230v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To perform tasks specified by natural language instructions, autonomous agents need to extract semantically meaningful representations of language and map it to visual elements and actions in the environment. This problem is called task-oriented language grounding. We propose an end-to-end trainable neural architecture for task-oriented language grounding in 3D environments which assumes no prior linguistic or perceptual knowledge and requires only raw pixels from the environment and the natural language instruction as input. The proposed model combines the image and text representations using a Gated-Attention mechanism and learns a policy to execute the natural language instruction using standard reinforcement and imitation learning methods. We show the effectiveness of the proposed model on unseen instructions as well as unseen maps, both quantitatively and qualitatively. We also introduce a novel environment based on a 3D game engine to simulate the challenges of task-oriented language grounding over a rich set of instructions and environment states.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-22T09:39:17Z</published>
+    <arxiv:comment>To appear in AAAI-18</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Kanthashree Mysore Sathyendra</name>
+    </author>
+    <author>
+      <name>Rama Kumar Pasumarthi</name>
+    </author>
+    <author>
+      <name>Dheeraj Rajagopal</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.00550v5</id>
+    <title>On Unifying Deep Generative Models</title>
+    <updated>2018-07-11T15:01:24Z</updated>
+    <link href="https://arxiv.org/abs/1706.00550v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.00550v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep generative models have achieved impressive success in recent years. Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs), as emerging families for generative model learning, have largely been considered as two distinct paradigms and received extensive independent studies respectively. This paper aims to establish formal connections between GANs and VAEs through a new formulation of them. We interpret sample generation in GANs as performing posterior inference, and show that GANs and VAEs involve minimizing KL divergences of respective posterior and inference distributions with opposite directions, extending the two learning phases of classic wake-sleep algorithm, respectively. The unified view provides a powerful tool to analyze a diverse set of existing model variants, and enables to transfer techniques across research lines in a principled way. For example, we apply the importance weighting method in VAE literatures for improved GAN learning, and enhance VAEs with an adversarial mechanism that leverages generated samples. Experiments show generality and effectiveness of the transferred techniques.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-02T04:15:44Z</published>
+    <arxiv:comment>Polished and extended content over the ICLR conference version: https://openreview.net/pdf?id=rylSzl-R-</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Zichao Yang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+</feed>

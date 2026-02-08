@@ -1,0 +1,1677 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CVZIwXY6bfVzrQweD249oPRRt74</id>
+  <title>arXiv Query: search_query=au:"Ruslan Salakhutdinov"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-02-07T20:09:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ruslan+Salakhutdinov%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>259</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02710v1</id>
+    <title>Maximum Likelihood Reinforcement Learning</title>
+    <updated>2026-02-02T19:23:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.02710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning is the method of choice to train models in sampling-based setups with binary outcome feedback, such as navigation, code generation, and mathematical problem solving. In such settings, models implicitly induce a likelihood over correct rollouts. However, we observe that reinforcement learning does not maximize this likelihood, and instead optimizes only a lower-order approximation. Inspired by this observation, we introduce Maximum Likelihood Reinforcement Learning (MaxRL), a sampling-based framework to approximate maximum likelihood using reinforcement learning techniques. MaxRL addresses the challenges of non-differentiable sampling by defining a compute-indexed family of sample-based objectives that interpolate between standard reinforcement learning and exact maximum likelihood as additional sampling compute is allocated. The resulting objectives admit a simple, unbiased policy-gradient estimator and converge to maximum likelihood optimization in the infinite-compute limit. Empirically, we show that MaxRL Pareto-dominates existing methods in all models and tasks we tested, achieving up to 20x test-time scaling efficiency gains compared to its GRPO-trained counterpart. We also observe MaxRL to scale better with additional data and compute. Our results suggest MaxRL is a promising framework for scaling RL training in correctness based settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T19:23:42Z</published>
+    <arxiv:comment>Project website and code: https://zanette-labs.github.io/MaxRL/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Guanning Zeng</name>
+    </author>
+    <author>
+      <name>Yueer Zhou</name>
+    </author>
+    <author>
+      <name>Yuda Song</name>
+    </author>
+    <author>
+      <name>Daman Arora</name>
+    </author>
+    <author>
+      <name>Yiding Jiang</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Haiwen Feng</name>
+    </author>
+    <author>
+      <name>Andrea Zanette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18779v1</id>
+    <title>POPE: Learning to Reason on Hard Problems via Privileged On-Policy Exploration</title>
+    <updated>2026-01-26T18:47:21Z</updated>
+    <link href="https://arxiv.org/abs/2601.18779v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18779v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has improved the reasoning abilities of large language models (LLMs), yet state-of-the-art methods still fail to learn on many training problems. On hard problems, on-policy RL rarely explores even a single correct rollout, yielding zero reward and no learning signal for driving improvement. We find that natural solutions to remedy this exploration problem from classical RL, such as entropy bonuses, more permissive clipping of the importance ratio, or direct optimization of pass@k objectives, do not resolve this issue and often destabilize optimization without improving solvability. A natural alternative is to leverage transfer from easier problems. However, we show that mixing easy and hard problems during RL training is counterproductive due to ray interference, where optimization focuses on already-solvable problems in a way that actively inhibits progress on harder ones. To address this challenge, we introduce Privileged On-Policy Exploration (POPE), an approach that leverages human- or other oracle solutions as privileged information to guide exploration on hard problems, unlike methods that use oracle solutions as training targets (e.g., off-policy RL methods or warmstarting from SFT). POPE augments hard problems with prefixes of oracle solutions, enabling RL to obtain non-zero rewards during guided rollouts. Crucially, the resulting behaviors transfer back to the original, unguided problems through a synergy between instruction-following and reasoning. Empirically, POPE expands the set of solvable problems and substantially improves performance on challenging reasoning benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T18:47:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuxiao Qu</name>
+    </author>
+    <author>
+      <name>Amrith Setlur</name>
+    </author>
+    <author>
+      <name>Virginia Smith</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07833v3</id>
+    <title>Tuning-free Visual Effect Transfer across Videos</title>
+    <updated>2026-01-14T04:31:07Z</updated>
+    <link href="https://arxiv.org/abs/2601.07833v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07833v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present RefVFX, a new framework that transfers complex temporal effects from a reference video onto a target video or image in a feed-forward manner. While existing methods excel at prompt-based or keyframe-conditioned editing, they struggle with dynamic temporal effects such as dynamic lighting changes or character transformations, which are difficult to describe via text or static conditions. Transferring a video effect is challenging, as the model must integrate the new temporal dynamics with the input video's existing motion and appearance. % To address this, we introduce a large-scale dataset of triplets, where each triplet consists of a reference effect video, an input image or video, and a corresponding output video depicting the transferred effect. Creating this data is non-trivial, especially the video-to-video effect triplets, which do not exist naturally. To generate these, we propose a scalable automated pipeline that creates high-quality paired videos designed to preserve the input's motion and structure while transforming it based on some fixed, repeatable effect. We then augment this data with image-to-video effects derived from LoRA adapters and code-based temporal effects generated through programmatic composition. Building on our new dataset, we train our reference-conditioned model using recent text-to-video backbones. Experimental results demonstrate that RefVFX produces visually consistent and temporally coherent edits, generalizes across unseen effect categories, and outperforms prompt-only baselines in both quantitative metrics and human preference. See our website at https://tuningfreevisualeffects-maker.github.io/Tuning-free-Visual-Effect-Transfer-across-Videos-Project-Page/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T18:59:32Z</published>
+    <arxiv:comment>Project Page: https://tuningfreevisualeffects-maker.github.io/Tuning-free-Visual-Effect-Transfer-across-Videos-Project-Page/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Maxwell Jones</name>
+    </author>
+    <author>
+      <name>Rameen Abdal</name>
+    </author>
+    <author>
+      <name>Or Patashnik</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sergey Tulyakov</name>
+    </author>
+    <author>
+      <name>Jun-Yan Zhu</name>
+    </author>
+    <author>
+      <name>Kuan-Chieh Jackson Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.02636v2</id>
+    <title>Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models</title>
+    <updated>2026-01-04T19:13:04Z</updated>
+    <link href="https://arxiv.org/abs/2512.02636v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.02636v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log-likelihood evaluation enables important capabilities in generative models, including model comparison, certain fine-tuning objectives, and many downstream applications. Yet paradoxically, some of today's best generative models -- diffusion and flow-based models -- still require hundreds to thousands of neural function evaluations (NFEs) to compute a single likelihood. While recent distillation methods have successfully accelerated sampling to just a few steps, they achieve this at the cost of likelihood tractability: existing approaches either abandon likelihood computation entirely or still require expensive integration over full trajectories. We present fast flow joint distillation (F2D2), a framework that simultaneously reduces the number of NFEs required for both sampling and likelihood evaluation by two orders of magnitude. Our key insight is that in continuous normalizing flows, the coupled ODEs for sampling and likelihood are computed from a shared underlying velocity field, allowing us to jointly distill both the sampling trajectory and cumulative divergence using a single model. F2D2 is modular, compatible with existing flow-based few-step sampling models, and requires only an additional divergence prediction head. Experiments demonstrate F2D2's capability of achieving accurate log-likelihood with few-step evaluations while maintaining high sample quality, solving a long-standing computational bottleneck in flow-based generative models. As an application of our approach, we propose a lightweight self-guidance method that enables a 2-step MeanFlow to outperform a 1024 step flow matching model with only a single additional backward NFE.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-02T10:48:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xinyue Ai</name>
+    </author>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Albert Gu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>J Zico Kolter</name>
+    </author>
+    <author>
+      <name>Nicholas Matthew Boffi</name>
+    </author>
+    <author>
+      <name>Max Simchowitz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02263v1</id>
+    <title>RLAD: Training LLMs to Discover Abstractions for Solving Reasoning Problems</title>
+    <updated>2025-10-02T17:44:23Z</updated>
+    <link href="https://arxiv.org/abs/2510.02263v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02263v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning requires going beyond pattern matching or memorization of solutions to identify and implement "algorithmic procedures" that can be used to deduce answers to hard problems. Doing so requires realizing the most relevant primitives, intermediate results, or shared procedures, and building upon them. While RL post-training on long chains of thought ultimately aims to uncover this kind of algorithmic behavior, most reasoning traces learned by large models fail to consistently capture or reuse procedures, instead drifting into verbose and degenerate exploration. To address more effective reasoning, we introduce reasoning abstractions: concise natural language descriptions of procedural and factual knowledge that guide the model toward learning successful reasoning. We train models to be capable of proposing multiple abstractions given a problem, followed by RL that incentivizes building a solution while using the information provided by these abstractions. This results in a two-player RL training paradigm, abbreviated as RLAD, that jointly trains an abstraction generator and a solution generator. This setup effectively enables structured exploration, decouples learning signals of abstraction proposal and solution generation, and improves generalization to harder problems. We also show that allocating more test-time compute to generating abstractions is more beneficial for performance than generating more solutions at large test budgets, illustrating the role of abstractions in guiding meaningful exploration.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T17:44:23Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuxiao Qu</name>
+    </author>
+    <author>
+      <name>Anikait Singh</name>
+    </author>
+    <author>
+      <name>Yoonho Lee</name>
+    </author>
+    <author>
+      <name>Amrith Setlur</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.01123v1</id>
+    <title>Rethinking Thinking Tokens: LLMs as Improvement Operators</title>
+    <updated>2025-10-01T17:08:59Z</updated>
+    <link href="https://arxiv.org/abs/2510.01123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.01123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning training incentivizes LLMs to produce long chains of thought (long CoT), which among other things, allows them to explore solution strategies with self-checking. This results in higher accuracy, but inflates context length, token/compute cost, and answer latency. We ask: Can current models leverage their metacognition to provide other combinations on this Pareto frontier, e.g., better accuracy with lower context length and/or latency? Abstractly, we view the model as an improvement operator on its own "thoughts" with a continuum of possible strategies. We identify an interesting inference family Parallel-Distill-Refine (PDR), which performs the following: (i) generate diverse drafts in parallel; (ii) distill them into a bounded, textual workspace; and (iii) refine conditioned on this workspace, producing an output that seeds the next round. Importantly, context length (hence compute cost) is controllable via degree of parallelism, and is no longer conflated with the total number of generated tokens. We report PDR instantiations of current models that give better accuracy than long CoT while incurring lower latency. Setting degree of parallelism to 1 yields an interesting subcase, Sequential Refinement (SR) (iteratively improve a single candidate answer) which provides performance superior to long CoT. Success of such model orchestrations raises the question whether further training could shift the Pareto frontier. To this end, we train an 8B thinking model with Reinforcement Learning (RL) to make it consistent with PDR as the inference method. On math tasks with verifiable answers, iterative pipelines surpass single-pass baselines at matched sequential budgets, with PDR delivering the largest gains (e.g., +11% on AIME 2024 and +9% on AIME 2025).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T17:08:59Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lovish Madaan</name>
+    </author>
+    <author>
+      <name>Aniket Didolkar</name>
+    </author>
+    <author>
+      <name>Suchin Gururangan</name>
+    </author>
+    <author>
+      <name>John Quan</name>
+    </author>
+    <author>
+      <name>Ruan Silva</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.21228v1</id>
+    <title>Response to Promises and Pitfalls of Deep Kernel Learning</title>
+    <updated>2025-09-25T14:31:42Z</updated>
+    <link href="https://arxiv.org/abs/2509.21228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.21228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note responds to "Promises and Pitfalls of Deep Kernel Learning" (Ober et al., 2021). The marginal likelihood of a Gaussian process can be compartmentalized into a data fit term and a complexity penalty. Ober et al. (2021) shows that if a kernel can be multiplied by a signal variance coefficient, then reparametrizing and substituting in the maximized value of this parameter sets a reparametrized data fit term to a fixed value. They use this finding to argue that the complexity penalty, a log determinant of the kernel matrix, then dominates in determining the other values of kernel hyperparameters, which can lead to data overcorrelation. By contrast, we show that the reparametrization in fact introduces another data-fit term which influences all other kernel hyperparameters. Thus, a balance between data fit and complexity still plays a significant role in determining kernel hyperparameters.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-25T14:31:42Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Andrew Gordon Wilson</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.07822v2</id>
+    <title>Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation</title>
+    <updated>2025-12-26T17:50:58Z</updated>
+    <link href="https://arxiv.org/abs/2506.07822v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.07822v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although diffusion models have achieved strong results in decision-making tasks, their slow inference speed remains a key limitation. While consistency models offer a potential solution, existing applications to decision-making either struggle with suboptimal demonstrations under behavior cloning or rely on complex concurrent training of multiple networks under the actor-critic framework. In this work, we propose a novel approach to consistency distillation for offline reinforcement learning that directly incorporates reward optimization into the distillation process. Our method achieves single-step sampling while generating higher-reward action trajectories through decoupled training and noise-free reward signals. Empirical evaluations on the Gym MuJoCo, FrankaKitchen, and long horizon planning benchmarks demonstrate that our approach can achieve a 9.7% improvement over previous state-of-the-art while offering up to 142x speedup over diffusion counterparts in inference time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-09T14:48:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xintong Duan</name>
+    </author>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.21444v2</id>
+    <title>Can Large Reasoning Models Self-Train?</title>
+    <updated>2025-10-08T22:32:56Z</updated>
+    <link href="https://arxiv.org/abs/2505.21444v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.21444v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent successes of reinforcement learning (RL) in training large reasoning models motivate the question of whether self-training - the process where a model learns from its own judgments - can be sustained within RL. In this work, we study this question using majority voting as a simple self-feedback mechanism. On a comprehensive set of experiments on both synthetic and real reasoning tasks, we find that this basic approach improves not only the model's reasoning performance, but also its capability of generating better quality feedback for the next RL iteration, driving further model improvement. Yet our analysis also reveals a critical limitation of such a self-training paradigm - prolonged RL with self-reward leads to reward hacking where models learn to maximize training (pseudo-)reward, resulting in sudden and complete performance collapse. Together, these results highlight feedback design as the central challenge and call for future research on mechanisms to enable prolonged self-improvement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-27T17:16:00Z</published>
+    <arxiv:comment>Project website: https://self-rewarding-llm-training.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sheikh Shafayat</name>
+    </author>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+    <author>
+      <name>Andrea Zanette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09780v3</id>
+    <title>AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents</title>
+    <updated>2025-10-01T23:55:58Z</updated>
+    <link href="https://arxiv.org/abs/2503.09780v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09780v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous AI agents that can follow instructions and perform complex multi-step tasks have tremendous potential to boost human productivity. However, to perform many of these tasks, the agents need access to personal information from their users, raising the question of whether they are capable of using it appropriately. In this work, we introduce a new benchmark AgentDAM that measures if AI web-navigation agents follow the privacy principle of ``data minimization''. For the purposes of our benchmark, data minimization means that the agent uses a piece of potentially sensitive information only if it is ``necessary'' to complete a particular task. Our benchmark simulates realistic web interaction scenarios end-to-end and is adaptable to all existing web navigation agents. We use AgentDAM to evaluate how well AI agents built on top of GPT-4, Llama-3 and Claude can limit processing of potentially private information, and show that they are prone to inadvertent use of unnecessary sensitive information. We also propose a prompting-based defense that reduces information leakage, and demonstrate that our end-to-end benchmarking provides a more realistic measure than probing LLMs about privacy. Our results highlight that further research is needed to develop AI agents that can prioritize data minimization at inference time.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T19:30:31Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2025 (D&amp;B track), project page: https://github.com/facebookresearch/ai-agent-privacy</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Arman Zharmagambetov</name>
+    </author>
+    <author>
+      <name>Chuan Guo</name>
+    </author>
+    <author>
+      <name>Ivan Evtimov</name>
+    </author>
+    <author>
+      <name>Maya Pavlova</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Kamalika Chaudhuri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.07572v1</id>
+    <title>Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning</title>
+    <updated>2025-03-10T17:40:43Z</updated>
+    <link href="https://arxiv.org/abs/2503.07572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.07572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training models to effectively use test-time compute is crucial for improving the reasoning performance of LLMs. Current methods mostly do so via fine-tuning on search traces or running RL with 0/1 outcome reward, but do these approaches efficiently utilize test-time compute? Would these approaches continue to scale as the budget improves? In this paper, we try to answer these questions. We formalize the problem of optimizing test-time compute as a meta-reinforcement learning (RL) problem, which provides a principled perspective on spending test-time compute. This perspective enables us to view the long output stream from the LLM as consisting of several episodes run at test time and leads us to use a notion of cumulative regret over output tokens as a way to measure the efficacy of test-time compute. Akin to how RL algorithms can best tradeoff exploration and exploitation over training, minimizing cumulative regret would also provide the best balance between exploration and exploitation in the token stream. While we show that state-of-the-art models do not minimize regret, one can do so by maximizing a dense reward bonus in conjunction with the outcome 0/1 reward RL. This bonus is the ''progress'' made by each subsequent block in the output stream, quantified by the change in the likelihood of eventual success. Using these insights, we develop Meta Reinforcement Fine-Tuning, or MRT, a new class of fine-tuning methods for optimizing test-time compute. MRT leads to a 2-3x relative gain in performance and roughly a 1.5x gain in token efficiency for math reasoning compared to outcome-reward RL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-10T17:40:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuxiao Qu</name>
+    </author>
+    <author>
+      <name>Matthew Y. R. Yang</name>
+    </author>
+    <author>
+      <name>Amrith Setlur</name>
+    </author>
+    <author>
+      <name>Lewis Tunstall</name>
+    </author>
+    <author>
+      <name>Edward Emanuel Beeching</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17432v2</id>
+    <title>FACTR: Force-Attending Curriculum Training for Contact-Rich Policy Learning</title>
+    <updated>2025-04-24T18:26:19Z</updated>
+    <link href="https://arxiv.org/abs/2502.17432v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17432v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many contact-rich tasks humans perform, such as box pickup or rolling dough, rely on force feedback for reliable execution. However, this force information, which is readily available in most robot arms, is not commonly used in teleoperation and policy learning. Consequently, robot behavior is often limited to quasi-static kinematic tasks that do not require intricate force-feedback. In this paper, we first present a low-cost, intuitive, bilateral teleoperation setup that relays external forces of the follower arm back to the teacher arm, facilitating data collection for complex, contact-rich tasks. We then introduce FACTR, a policy learning method that employs a curriculum which corrupts the visual input with decreasing intensity throughout training. The curriculum prevents our transformer-based policy from over-fitting to the visual input and guides the policy to properly attend to the force modality. We demonstrate that by fully utilizing the force information, our method significantly improves generalization to unseen objects by 43\% compared to baseline approaches without a curriculum. Video results, codebases, and instructions at https://jasonjzliu.com/factr/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-24T18:59:07Z</published>
+    <arxiv:comment>Video results, codebases, and instructions: https://jasonjzliu.com/factr/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jason Jingzhou Liu</name>
+    </author>
+    <author>
+      <name>Yulong Li</name>
+    </author>
+    <author>
+      <name>Kenneth Shaw</name>
+    </author>
+    <author>
+      <name>Tony Tao</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17543v4</id>
+    <title>Training a Generally Curious Agent</title>
+    <updated>2025-10-31T04:02:01Z</updated>
+    <link href="https://arxiv.org/abs/2502.17543v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17543v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient exploration is essential for intelligent systems interacting with their environment, but existing language models often fall short in scenarios that require strategic information gathering. In this paper, we present Paprika, a fine-tuning approach that enables language models to develop general decision-making capabilities that are not confined to particular environments. By training on synthetic interaction data from different tasks that require diverse strategies, Paprika teaches models to explore and adapt their behavior on a new task based on environment feedback in-context without more gradient updates. Experimental results show that models fine-tuned with Paprika can effectively transfer their learned decision-making capabilities to entirely unseen tasks without additional training. Unlike traditional training, our approach's primary bottleneck lies in sampling useful interaction data instead of model updates. To improve sample efficiency, we propose a curriculum learning strategy that prioritizes sampling trajectories from tasks with high learning potential. These results suggest a promising path towards AI systems that can autonomously solve novel sequential decision-making problems that require interactions with the external world.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-24T18:56:58Z</published>
+    <arxiv:comment>ICML 2025. Project Website: https://paprika-llm.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Yiding Jiang</name>
+    </author>
+    <author>
+      <name>Abitha Thankaraj</name>
+    </author>
+    <author>
+      <name>Sumaita Sadia Rahman</name>
+    </author>
+    <author>
+      <name>J Zico Kolter</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06776v2</id>
+    <title>InSTA: Towards Internet-Scale Training For Agents</title>
+    <updated>2025-05-22T17:59:11Z</updated>
+    <link href="https://arxiv.org/abs/2502.06776v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06776v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The predominant approach for training web navigation agents is to gather human demonstrations for a set of popular websites and hand-written tasks, but it is becoming clear that human data is an inefficient resource. We develop a pipeline to facilitate internet-scale training for agents without laborious human annotations. In the first stage, an LLM annotates 150k sites with agentic tasks. In the next stage, LLM agents complete tasks and produce trajectories. In the final stage, an LLM filters trajectories by judging their success. Language models are powerful data curation tools, identifying harmful content with an accuracy of 97%, judging successful trajectories with an accuracy of 82.6%, and producing effective data. We train agents based on Qwen 3 1.7B that are competitive with frontier LLMs as web agents, while being smaller and faster. Our top agent reaches a success rate of 56.9%, outperforming the data collection policy Qwen 3 235B, a 235 times larger Llama 4 Maverick, and reaching 94.7% of the performance of Gemini 2.5 Flash. We are releasing code, models and data at: https://data-for-agents.github.io.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-10T18:54:05Z</published>
+    <arxiv:comment>Improved results, zero-shot transfer to Web Voyager</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Brandon Trabucco</name>
+    </author>
+    <author>
+      <name>Gunnar Sigurdsson</name>
+    </author>
+    <author>
+      <name>Robinson Piramuthu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.04576v1</id>
+    <title>Self-Regulation and Requesting Interventions</title>
+    <updated>2025-02-07T00:06:17Z</updated>
+    <link href="https://arxiv.org/abs/2502.04576v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.04576v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human intelligence involves metacognitive abilities like self-regulation, recognizing limitations, and seeking assistance only when needed. While LLM Agents excel in many domains, they often lack this awareness. Overconfident agents risk catastrophic failures, while those that seek help excessively hinder efficiency. A key challenge is enabling agents with a limited intervention budget $C$ is to decide when to request assistance. In this paper, we propose an offline framework that trains a "helper" policy to request interventions, such as more powerful models or test-time compute, by combining LLM-based process reward models (PRMs) with tabular reinforcement learning. Using state transitions collected offline, we score optimal intervention timing with PRMs and train the helper model on these labeled trajectories. This offline approach significantly reduces costly intervention calls during training. Furthermore, the integration of PRMs with tabular RL enhances robustness to off-policy data while avoiding the inefficiencies of deep RL. We empirically find that our method delivers optimal helper behavior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-07T00:06:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>So Yeon Min</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Jimin Sun</name>
+    </author>
+    <author>
+      <name>Max Kaufmann</name>
+    </author>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.13241v2</id>
+    <title>State Combinatorial Generalization In Decision Making With Conditional Diffusion Models</title>
+    <updated>2025-12-14T19:08:40Z</updated>
+    <link href="https://arxiv.org/abs/2501.13241v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.13241v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many real-world decision-making problems are combinatorial in nature, where states (e.g., surrounding traffic of a self-driving car) can be seen as a combination of basic elements (e.g., pedestrians, trees, and other cars). Due to combinatorial complexity, observing all combinations of basic elements in the training set is infeasible, which leads to an essential yet understudied problem of zero-shot generalization to states that are unseen combinations of previously seen elements. In this work, we first formalize this problem and then demonstrate how existing value-based reinforcement learning (RL) algorithms struggle due to unreliable value predictions in unseen states. We argue that this problem cannot be addressed with exploration alone, but requires more expressive and generalizable models. We demonstrate that behavior cloning with a conditioned diffusion model trained on successful trajectory generalizes better to states formed by new combinations of seen elements than traditional RL methods. Through experiments in maze, driving, and multiagent environments, we show that conditioned diffusion models outperform traditional RL techniques and highlight the broad applicability of our problem formulation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-22T21:48:40Z</published>
+    <arxiv:comment>Accepted to Transactions on Machine Learning Research (TMLR), 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xintong Duan</name>
+    </author>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Wen-Tse Chen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05467v4</id>
+    <title>The BrowserGym Ecosystem for Web Agent Research</title>
+    <updated>2025-02-28T16:02:27Z</updated>
+    <link href="https://arxiv.org/abs/2412.05467v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05467v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The BrowserGym ecosystem addresses the growing need for efficient evaluation and benchmarking of web agents, particularly those leveraging automation and Large Language Models (LLMs). Many existing benchmarks suffer from fragmentation and inconsistent evaluation methodologies, making it challenging to achieve reliable comparisons and reproducible results. In an earlier work, Drouin et al. (2024) introduced BrowserGym which aims to solve this by providing a unified, gym-like environment with well-defined observation and action spaces, facilitating standardized evaluation across diverse benchmarks. We propose an extended BrowserGym-based ecosystem for web agent research, which unifies existing benchmarks from the literature and includes AgentLab, a complementary framework that aids in agent creation, testing, and analysis. Our proposed ecosystem offers flexibility for integrating new benchmarks while ensuring consistent evaluation and comprehensive experiment management. As a supporting evidence, we conduct the first large-scale, multi-benchmark web agent experiment and compare the performance of 6 state-of-the-art LLMs across 6 popular web agent benchmarks made available in BrowserGym. Among other findings, our results highlight a large discrepancy between OpenAI and Anthropic's latests models, with Claude-3.5-Sonnet leading the way on almost all benchmarks, except on vision-related tasks where GPT-4o is superior. Despite these advancements, our results emphasize that building robust and efficient web agents remains a significant challenge, due to the inherent complexity of real-world web environments and the limitations of current models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-06T23:43:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thibault Le Sellier De Chezelles</name>
+    </author>
+    <author>
+      <name>Maxime Gasse</name>
+    </author>
+    <author>
+      <name>Alexandre Drouin</name>
+    </author>
+    <author>
+      <name>Massimo Caccia</name>
+    </author>
+    <author>
+      <name>Léo Boisvert</name>
+    </author>
+    <author>
+      <name>Megh Thakkar</name>
+    </author>
+    <author>
+      <name>Tom Marty</name>
+    </author>
+    <author>
+      <name>Rim Assouel</name>
+    </author>
+    <author>
+      <name>Sahar Omidi Shayegan</name>
+    </author>
+    <author>
+      <name>Lawrence Keunho Jang</name>
+    </author>
+    <author>
+      <name>Xing Han Lù</name>
+    </author>
+    <author>
+      <name>Ori Yoran</name>
+    </author>
+    <author>
+      <name>Dehan Kong</name>
+    </author>
+    <author>
+      <name>Frank F. Xu</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+    <author>
+      <name>Quentin Cappart</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nicolas Chapados</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.00557v2</id>
+    <title>Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion</title>
+    <updated>2025-11-30T20:09:09Z</updated>
+    <link href="https://arxiv.org/abs/2412.00557v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.00557v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers blind inverse image restoration, the task of predicting a target image from a degraded source when the degradation (i.e. the forward operator) is unknown. Existing solutions typically rely on restrictive assumptions such as operator linearity, curated training data or narrow image distributions limiting their practicality. We introduce LADiBI, a training-free method leveraging large-scale text-to-image diffusion to solve diverse blind inverse problems with minimal assumptions. Within a Bayesian framework, LADiBI uses text prompts to jointly encode priors for both target images and operators, unlocking unprecedented flexibility compared to existing methods. Additionally, we propose a novel diffusion posterior sampling algorithm that combines strategic operator initialization with iterative refinement of image and operator parameters, eliminating the need for highly constrained operator forms. Experiments show that LADiBI effectively handles both linear and challenging nonlinear image restoration problems across various image distributions, all without task-specific assumptions or retraining.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-30T18:55:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michail Dontas</name>
+    </author>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Naoki Murata</name>
+    </author>
+    <author>
+      <name>Yuki Mitsufuji</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22332v2</id>
+    <title>Local Policies Enable Zero-shot Long-horizon Manipulation</title>
+    <updated>2025-03-10T00:54:50Z</updated>
+    <link href="https://arxiv.org/abs/2410.22332v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22332v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sim2real for robotic manipulation is difficult due to the challenges of simulating complex contacts and generating realistic task distributions. To tackle the latter problem, we introduce ManipGen, which leverages a new class of policies for sim2real transfer: local policies. Locality enables a variety of appealing properties including invariances to absolute robot and object pose, skill ordering, and global scene configuration. We combine these policies with foundation models for vision, language and motion planning and demonstrate SOTA zero-shot performance of our method to Robosuite benchmark tasks in simulation (97%). We transfer our local policies from simulation to reality and observe they can solve unseen long-horizon manipulation tasks with up to 8 stages with significant pose, object and scene configuration variation. ManipGen outperforms SOTA approaches such as SayCan, OpenVLA, LLMTrajGen and VoxPoser across 50 real-world manipulation tasks by 36%, 76%, 62% and 60% respectively. Video results at https://mihdalal.github.io/manipgen/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T17:59:55Z</published>
+    <arxiv:comment>ICRA 2025 accepted paper. Main Paper 7 pages, 3 tables, 3 figures. Appendix 6 pages, 2 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Murtaza Dalal</name>
+    </author>
+    <author>
+      <name>Min Liu</name>
+    </author>
+    <author>
+      <name>Walter Talbott</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.18313v5</id>
+    <title>Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation</title>
+    <updated>2025-01-21T02:38:32Z</updated>
+    <link href="https://arxiv.org/abs/2409.18313v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.18313v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is no limit to how much a robot might explore and learn, but all of that knowledge needs to be searchable and actionable. Within language research, retrieval augmented generation (RAG) has become the workhorse of large-scale non-parametric knowledge; however, existing techniques do not directly transfer to the embodied domain, which is multimodal, where data is highly correlated, and perception requires abstraction. To address these challenges, we introduce Embodied-RAG, a framework that enhances the foundational model of an embodied agent with a non-parametric memory system capable of autonomously constructing hierarchical knowledge for both navigation and language generation. Embodied-RAG handles a full range of spatial and semantic resolutions across diverse environments and query types, whether for a specific object or a holistic description of ambiance. At its core, Embodied-RAG's memory is structured as a semantic forest, storing language descriptions at varying levels of detail. This hierarchical organization allows the system to efficiently generate context-sensitive outputs across different robotic platforms. We demonstrate that Embodied-RAG effectively bridges RAG to the robotics domain, successfully handling over 250 explanation and navigation queries across kilometer-level environments, highlighting its promise as a general-purpose non-parametric system for embodied agents.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-26T21:44:11Z</published>
+    <arxiv:comment>Web: https://quanting-xie.github.io/Embodied-RAG-web/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Quanting Xie</name>
+    </author>
+    <author>
+      <name>So Yeon Min</name>
+    </author>
+    <author>
+      <name>Pengliang Ji</name>
+    </author>
+    <author>
+      <name>Yue Yang</name>
+    </author>
+    <author>
+      <name>Tianyi Zhang</name>
+    </author>
+    <author>
+      <name>Kedi Xu</name>
+    </author>
+    <author>
+      <name>Aarav Bajaj</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Matthew Johnson-Roberson</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.05864v1</id>
+    <title>Neural MP: A Generalist Neural Motion Planner</title>
+    <updated>2024-09-09T17:59:45Z</updated>
+    <link href="https://arxiv.org/abs/2409.05864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.05864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The current paradigm for motion planning generates solutions from scratch for every new problem, which consumes significant amounts of time and computational resources. For complex, cluttered scenes, motion planning approaches can often take minutes to produce a solution, while humans are able to accurately and safely reach any goal in seconds by leveraging their prior experience. We seek to do the same by applying data-driven learning at scale to the problem of motion planning. Our approach builds a large number of complex scenes in simulation, collects expert data from a motion planner, then distills it into a reactive generalist policy. We then combine this with lightweight optimization to obtain a safe path for real world deployment. We perform a thorough evaluation of our method on 64 motion planning tasks across four diverse environments with randomized poses, scenes and obstacles, in the real world, demonstrating an improvement of 23%, 17% and 79% motion planning success rate over state of the art sampling, optimization and learning based planning methods. Video results available at mihdalal.github.io/neuralmotionplanner</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-09T17:59:45Z</published>
+    <arxiv:comment>Website at mihdalal.github.io/neuralmotionplanner. Main paper: 7 pages, 4 figures, 2 tables. Appendix: 9 pages, 5 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Murtaza Dalal</name>
+    </author>
+    <author>
+      <name>Jiahui Yang</name>
+    </author>
+    <author>
+      <name>Russell Mendonca</name>
+    </author>
+    <author>
+      <name>Youssef Khaky</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.12061v1</id>
+    <title>Situated Instruction Following</title>
+    <updated>2024-07-15T19:32:30Z</updated>
+    <link href="https://arxiv.org/abs/2407.12061v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.12061v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language is never spoken in a vacuum. It is expressed, comprehended, and contextualized within the holistic backdrop of the speaker's history, actions, and environment. Since humans are used to communicating efficiently with situated language, the practicality of robotic assistants hinge on their ability to understand and act upon implicit and situated instructions. In traditional instruction following paradigms, the agent acts alone in an empty house, leading to language use that is both simplified and artificially "complete." In contrast, we propose situated instruction following, which embraces the inherent underspecification and ambiguity of real-world communication with the physical presence of a human speaker. The meaning of situated instructions naturally unfold through the past actions and the expected future behaviors of the human involved. Specifically, within our settings we have instructions that (1) are ambiguously specified, (2) have temporally evolving intent, (3) can be interpreted more precisely with the agent's dynamic actions. Our experiments indicate that state-of-the-art Embodied Instruction Following (EIF) models lack holistic understanding of situated human intention.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-15T19:32:30Z</published>
+    <arxiv:comment>European Conference on Computer Vision 2024 (ECCV 2024)</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>So Yeon Min</name>
+    </author>
+    <author>
+      <name>Xavi Puig</name>
+    </author>
+    <author>
+      <name>Devendra Singh Chaplot</name>
+    </author>
+    <author>
+      <name>Tsung-Yen Yang</name>
+    </author>
+    <author>
+      <name>Akshara Rai</name>
+    </author>
+    <author>
+      <name>Priyam Parashar</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Roozbeh Mottaghi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.03418v1</id>
+    <title>HEMM: Holistic Evaluation of Multimodal Foundation Models</title>
+    <updated>2024-07-03T18:00:48Z</updated>
+    <link href="https://arxiv.org/abs/2407.03418v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.03418v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal foundation models that can holistically process text alongside images, video, audio, and other sensory modalities are increasingly used in a variety of real-world applications. However, it is challenging to characterize and study progress in multimodal foundation models, given the range of possible modeling decisions, tasks, and domains. In this paper, we introduce Holistic Evaluation of Multimodal Models (HEMM) to systematically evaluate the capabilities of multimodal foundation models across a set of 3 dimensions: basic skills, information flow, and real-world use cases. Basic multimodal skills are internal abilities required to solve problems, such as learning interactions across modalities, fine-grained alignment, multi-step reasoning, and the ability to handle external knowledge. Information flow studies how multimodal content changes during a task through querying, translation, editing, and fusion. Use cases span domain-specific challenges introduced in real-world multimedia, affective computing, natural sciences, healthcare, and human-computer interaction applications. Through comprehensive experiments across the 30 tasks in HEMM, we (1) identify key dataset dimensions (e.g., basic skills, information flows, and use cases) that pose challenges to today's models, and (2) distill performance trends regarding how different modeling dimensions (e.g., scale, pre-training data, multimodal alignment, pre-training, and instruction tuning objectives) influence performance. Our conclusions regarding challenging multimodal interactions, use cases, and tasks requiring reasoning and external knowledge, the benefits of data and model scale, and the impacts of instruction tuning yield actionable insights for future work in multimodal foundation models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-03T18:00:48Z</published>
+    <arxiv:comment>Code available at https://github.com/pliang279/HEMM</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Akshay Goindani</name>
+    </author>
+    <author>
+      <name>Talha Chafekar</name>
+    </author>
+    <author>
+      <name>Leena Mathur</name>
+    </author>
+    <author>
+      <name>Haofei Yu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.01476v3</id>
+    <title>Tree Search for Language Model Agents</title>
+    <updated>2025-09-24T05:46:23Z</updated>
+    <link href="https://arxiv.org/abs/2407.01476v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.01476v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents powered by language models (LMs) have demonstrated promise in their ability to perform decision-making tasks such as web automation. However, a key limitation remains: LMs, primarily optimized for natural language understanding and generation, struggle with multi-step reasoning, planning, and using environmental feedback when attempting to solve realistic computer tasks. Towards addressing this, we propose an inference-time search algorithm for LM agents to explicitly perform exploration and multi-step planning in interactive web environments. Our approach is a form of best-first tree search that operates within the actual environment space, and is complementary with most existing state-of-the-art agents. It is the first tree search algorithm for LM agents that shows effectiveness on realistic web tasks. On the challenging VisualWebArena benchmark, applying our search algorithm on top of a GPT-4o agent yields a 39.7% relative increase in success rate compared to the same baseline without search, setting a state-of-the-art success rate of 26.4%. On WebArena, search also yields a 28.0% relative improvement over a baseline agent, setting a competitive success rate of 19.2%. Our experiments highlight the effectiveness of search for web agents, and we demonstrate that performance scales with increased test-time compute. We conduct a thorough analysis of our results to highlight improvements from search, limitations, and promising directions for future work. Our code and models are publicly released at https://jykoh.com/search-agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-01T17:07:55Z</published>
+    <arxiv:comment>13 pages. Models and code available at https://jykoh.com/search-agents</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jing Yu Koh</name>
+    </author>
+    <author>
+      <name>Stephen McAleer</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.12814v3</id>
+    <title>Dissecting Adversarial Robustness of Multimodal LM Agents</title>
+    <updated>2025-02-04T20:02:17Z</updated>
+    <link href="https://arxiv.org/abs/2406.12814v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.12814v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models (LMs) are used to build autonomous agents in real environments, ensuring their adversarial robustness becomes a critical challenge. Unlike chatbots, agents are compound systems with multiple components taking actions, which existing LMs safety evaluations do not adequately address. To bridge this gap, we manually create 200 targeted adversarial tasks and evaluation scripts in a realistic threat model on top of VisualWebArena, a real environment for web agents. To systematically examine the robustness of agents, we propose the Agent Robustness Evaluation (ARE) framework. ARE views the agent as a graph showing the flow of intermediate outputs between components and decomposes robustness as the flow of adversarial information on the graph. We find that we can successfully break latest agents that use black-box frontier LMs, including those that perform reflection and tree search. With imperceptible perturbations to a single image (less than 5% of total web page pixels), an attacker can hijack these agents to execute targeted adversarial goals with success rates up to 67%. We also use ARE to rigorously evaluate how the robustness changes as new components are added. We find that inference-time compute that typically improves benign performance can open up new vulnerabilities and harm robustness. An attacker can compromise the evaluator used by the reflexion agent and the value function of the tree search agent, which increases the attack success relatively by 15% and 20%. Our data and code for attacks, defenses, and evaluation are at https://github.com/ChenWu98/agent-attack</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-18T17:32:48Z</published>
+    <arxiv:comment>ICLR 2025. Also oral at NeurIPS 2024 Open-World Agents Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chen Henry Wu</name>
+    </author>
+    <author>
+      <name>Rishi Shah</name>
+    </author>
+    <author>
+      <name>Jing Yu Koh</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07506v1</id>
+    <title>Understanding Visual Concepts Across Models</title>
+    <updated>2024-06-11T17:40:31Z</updated>
+    <link href="https://arxiv.org/abs/2406.07506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large multimodal models such as Stable Diffusion can generate, detect, and classify new visual concepts after fine-tuning just a single word embedding. Do models learn similar words for the same concepts (i.e. &lt;orange-cat&gt; = orange + cat)? We conduct a large-scale analysis on three state-of-the-art models in text-to-image generation, open-set object detection, and zero-shot classification, and find that new word embeddings are model-specific and non-transferable. Across 4,800 new embeddings trained for 40 diverse visual concepts on four standard datasets, we find perturbations within an $ε$-ball to any prior embedding that generate, detect, and classify an arbitrary concept. When these new embeddings are spliced into new models, fine-tuning that targets the original model is lost. We show popular soft prompt-tuning approaches find these perturbative solutions when applied to visual concept learning tasks, and embeddings for visual concepts are not transferable. Code for reproducing our work is available at: https://visual-words.github.io.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T17:40:31Z</published>
+    <arxiv:comment>Official code at: https://github.com/visual-words/visual-words</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Brandon Trabucco</name>
+    </author>
+    <author>
+      <name>Max Gurinas</name>
+    </author>
+    <author>
+      <name>Kyle Doherty</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.03702v2</id>
+    <title>Leafy Spurge Dataset: Real-world Weed Classification Within Aerial Drone Imagery</title>
+    <updated>2024-05-08T16:59:05Z</updated>
+    <link href="https://arxiv.org/abs/2405.03702v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.03702v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Invasive plant species are detrimental to the ecology of both agricultural and wildland areas. Euphorbia esula, or leafy spurge, is one such plant that has spread through much of North America from Eastern Europe. When paired with contemporary computer vision systems, unmanned aerial vehicles, or drones, offer the means to track expansion of problem plants, such as leafy spurge, and improve chances of controlling these weeds. We gathered a dataset of leafy spurge presence and absence in grasslands of western Montana, USA, then surveyed these areas with a commercial drone. We trained image classifiers on these data, and our best performing model, a pre-trained DINOv2 vision transformer, identified leafy spurge with 0.84 accuracy (test set). This result indicates that classification of leafy spurge is tractable, but not solved. We release this unique dataset of labelled and unlabelled, aerial drone imagery for the machine learning community to explore. Improving classification performance of leafy spurge would benefit the fields of ecology, conservation, and remote sensing alike. Code and data are available at our website: leafy-spurge-dataset.github.io.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T23:53:29Z</published>
+    <arxiv:comment>Official Dataset Technical Report. Used in DA-Fusion (arXiv:2302.07944)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kyle Doherty</name>
+    </author>
+    <author>
+      <name>Max Gurinas</name>
+    </author>
+    <author>
+      <name>Erik Samsoe</name>
+    </author>
+    <author>
+      <name>Charles Casper</name>
+    </author>
+    <author>
+      <name>Beau Larkin</name>
+    </author>
+    <author>
+      <name>Philip Ramsey</name>
+    </author>
+    <author>
+      <name>Brandon Trabucco</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01534v1</id>
+    <title>Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks</title>
+    <updated>2024-05-02T17:59:31Z</updated>
+    <link href="https://arxiv.org/abs/2405.01534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have been shown to be capable of performing high-level planning for long-horizon robotics tasks, yet existing methods require access to a pre-defined skill library (e.g. picking, placing, pulling, pushing, navigating). However, LLM planning does not address how to design or learn those behaviors, which remains challenging particularly in long-horizon settings. Furthermore, for many tasks of interest, the robot needs to be able to adjust its behavior in a fine-grained manner, requiring the agent to be capable of modifying low-level control actions. Can we instead use the internet-scale knowledge from LLMs for high-level policies, guiding reinforcement learning (RL) policies to efficiently solve robotic control tasks online without requiring a pre-determined set of skills? In this paper, we propose Plan-Seq-Learn (PSL): a modular approach that uses motion planning to bridge the gap between abstract language and learned low-level control for solving long-horizon robotics tasks from scratch. We demonstrate that PSL achieves state-of-the-art results on over 25 challenging robotics tasks with up to 10 stages. PSL solves long-horizon tasks from raw visual input spanning four benchmarks at success rates of over 85%, out-performing language-based, classical, and end-to-end approaches. Video results and code at https://mihdalal.github.io/planseqlearn/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T17:59:31Z</published>
+    <arxiv:comment>Published at ICLR 2024. Website at https://mihdalal.github.io/planseqlearn/ 9 pages, 3 figures, 3 tables; 14 pages appendix (7 additional figures)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Murtaza Dalal</name>
+    </author>
+    <author>
+      <name>Tarun Chiruvolu</name>
+    </author>
+    <author>
+      <name>Devendra Chaplot</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.18928v1</id>
+    <title>Stylus: Automatic Adapter Selection for Diffusion Models</title>
+    <updated>2024-04-29T17:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2404.18928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.18928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Beyond scaling base models with more data or parameters, fine-tuned adapters provide an alternative way to generate high fidelity, custom images at reduced costs. As such, adapters have been widely adopted by open-source communities, accumulating a database of over 100K adapters-most of which are highly customized with insufficient descriptions. This paper explores the problem of matching the prompt to a set of relevant adapters, built on recent work that highlight the performance gains of composing adapters. We introduce Stylus, which efficiently selects and automatically composes task-specific adapters based on a prompt's keywords. Stylus outlines a three-stage approach that first summarizes adapters with improved descriptions and embeddings, retrieves relevant adapters, and then further assembles adapters based on prompts' keywords by checking how well they fit the prompt. To evaluate Stylus, we developed StylusDocs, a curated dataset featuring 75K adapters with pre-computed adapter embeddings. In our evaluation on popular Stable Diffusion checkpoints, Stylus achieves greater CLIP-FID Pareto efficiency and is twice as preferred, with humans and multimodal models as evaluators, over the base model. See stylus-diffusion.github.io for more.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-29T17:59:16Z</published>
+    <arxiv:comment>Project Website: https://stylus-diffusion.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Michael Luo</name>
+    </author>
+    <author>
+      <name>Justin Wong</name>
+    </author>
+    <author>
+      <name>Brandon Trabucco</name>
+    </author>
+    <author>
+      <name>Yanping Huang</name>
+    </author>
+    <author>
+      <name>Joseph E. Gonzalez</name>
+    </author>
+    <author>
+      <name>Zhifeng Chen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Ion Stoica</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.11483v2</id>
+    <title>AgentKit: Structured LLM Reasoning with Dynamic Graphs</title>
+    <updated>2024-07-24T20:53:10Z</updated>
+    <link href="https://arxiv.org/abs/2404.11483v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.11483v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose an intuitive LLM prompting framework (AgentKit) for multifunctional agents. AgentKit offers a unified framework for explicitly constructing a complex "thought process" from simple natural language prompts. The basic building block in AgentKit is a node, containing a natural language prompt for a specific subtask. The user then puts together chains of nodes, like stacking LEGO pieces. The chains of nodes can be designed to explicitly enforce a naturally structured "thought process". For example, for the task of writing a paper, one may start with the thought process of 1) identify a core message, 2) identify prior research gaps, etc. The nodes in AgentKit can be designed and combined in different ways to implement multiple advanced capabilities including on-the-fly hierarchical planning, reflection, and learning from interactions. In addition, due to the modular nature and the intuitive design to simulate explicit human thought process, a basic agent could be implemented as simple as a list of prompts for the subtasks and therefore could be designed and tuned by someone without any programming experience. Quantitatively, we show that agents designed through AgentKit achieve SOTA performance on WebShop and Crafter. These advances underscore AgentKit's potential in making LLM agents effective and accessible for a wider range of applications. https://github.com/holmeswww/AgentKit</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-17T15:40:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Yewen Fan</name>
+    </author>
+    <author>
+      <name>So Yeon Min</name>
+    </author>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Stephen McAleer</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Yuanzhi Li</name>
+    </author>
+    <author>
+      <name>Tom Mitchell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.19103v4</id>
+    <title>Automated Black-box Prompt Engineering for Personalized Text-to-Image Generation</title>
+    <updated>2025-08-16T03:22:02Z</updated>
+    <link href="https://arxiv.org/abs/2403.19103v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.19103v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt engineering is an effective but labor-intensive way to control text-to-image (T2I) generative models. Its time-intensive nature and complexity have spurred the development of algorithms for automated prompt generation. However, these methods often struggle with transferability across T2I models, require white-box access to the underlying model, or produce non-intuitive prompts. In this work, we introduce PRISM, an algorithm that automatically produces human-interpretable and transferable prompts that can effectively generate desired concepts given only black-box access to T2I models. Inspired by large language model (LLM) jailbreaking, PRISM leverages the in-context learning ability of LLMs to iteratively refine the candidate prompt distribution built upon the reference images. Our experiments demonstrate the versatility and effectiveness of PRISM in generating accurate prompts for objects, styles, and images across multiple T2I models, including Stable Diffusion, DALL-E, and Midjourney.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-28T02:35:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>Transactions on Machine Learning Research (TMLR), 2025. ISSN 2835-8856</arxiv:journal_ref>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Alexander Robey</name>
+    </author>
+    <author>
+      <name>Naoki Murata</name>
+    </author>
+    <author>
+      <name>Yiding Jiang</name>
+    </author>
+    <author>
+      <name>Joshua Nathaniel Williams</name>
+    </author>
+    <author>
+      <name>George J. Pappas</name>
+    </author>
+    <author>
+      <name>Hamed Hassani</name>
+    </author>
+    <author>
+      <name>Yuki Mitsufuji</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04082v4</id>
+    <title>Inference via Interpolation: Contrastive Representations Provably Enable Planning and Inference</title>
+    <updated>2025-05-21T04:05:51Z</updated>
+    <link href="https://arxiv.org/abs/2403.04082v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04082v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given time series data, how can we answer questions like "what will happen in the future?" and "how did we get here?" These sorts of probabilistic inference questions are challenging when observations are high-dimensional. In this paper, we show how these questions can have compact, closed form solutions in terms of learned representations. The key idea is to apply a variant of contrastive learning to time series data. Prior work already shows that the representations learned by contrastive learning encode a probability ratio. By extending prior work to show that the marginal distribution over representations is Gaussian, we can then prove that joint distribution of representations is also Gaussian. Taken together, these results show that representations learned via temporal contrastive learning follow a Gauss-Markov chain, a graphical model where inference (e.g., prediction, planning) over representations corresponds to inverting a low-dimensional matrix. In one special case, inferring intermediate representations will be equivalent to interpolating between the learned representations. We validate our theory using numerical simulations on tasks up to 46-dimensions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T22:27:30Z</published>
+    <arxiv:comment>Code: https://github.com/vivekmyers/contrastive_planning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Neural information processing systems (2024)</arxiv:journal_ref>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Vivek Myers</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.01382v1</id>
+    <title>Automatic Question-Answer Generation for Long-Tail Knowledge</title>
+    <updated>2024-03-03T03:06:31Z</updated>
+    <link href="https://arxiv.org/abs/2403.01382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.01382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pretrained Large Language Models (LLMs) have gained significant attention for addressing open-domain Question Answering (QA). While they exhibit high accuracy in answering questions related to common knowledge, LLMs encounter difficulties in learning about uncommon long-tail knowledge (tail entities). Since manually constructing QA datasets demands substantial human resources, the types of existing QA datasets are limited, leaving us with a scarcity of datasets to study the performance of LLMs on tail entities. In this paper, we propose an automatic approach to generate specialized QA datasets for tail entities and present the associated research challenges. We conduct extensive experiments by employing pretrained LLMs on our newly generated long-tail QA datasets, comparing their performance with and without external resources including Wikipedia and Wikidata knowledge graphs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-03T03:06:31Z</published>
+    <arxiv:comment>Accepted at KDD 2023 KnowledgeNLP</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rohan Kumar</name>
+    </author>
+    <author>
+      <name>Youngmin Kim</name>
+    </author>
+    <author>
+      <name>Sunitha Ravi</name>
+    </author>
+    <author>
+      <name>Haitian Sun</name>
+    </author>
+    <author>
+      <name>Christos Faloutsos</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Minji Yoon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17553v3</id>
+    <title>OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web</title>
+    <updated>2024-07-21T23:16:13Z</updated>
+    <link href="https://arxiv.org/abs/2402.17553v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.17553v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For decades, human-computer interaction has fundamentally been manual. Even today, almost all productive work done on the computer necessitates human input at every step. Autonomous virtual agents represent an exciting step in automating many of these menial tasks. Virtual agents would empower users with limited technical proficiency to harness the full possibilities of computer systems. They could also enable the efficient streamlining of numerous computer tasks, ranging from calendar management to complex travel bookings, with minimal human intervention. In this paper, we introduce OmniACT, the first-of-a-kind dataset and benchmark for assessing an agent's capability to generate executable programs to accomplish computer tasks. Our scope extends beyond traditional web automation, covering a diverse range of desktop applications. The dataset consists of fundamental tasks such as "Play the next song", as well as longer horizon tasks such as "Send an email to John Doe mentioning the time and place to meet". Specifically, given a pair of screen image and a visually-grounded natural language task, the goal is to generate a script capable of fully executing the task. We run several strong baseline language model agents on our benchmark. The strongest baseline, GPT-4, performs the best on our benchmark However, its performance level still reaches only 15% of the human proficiency in generating executable scripts capable of completing the task, demonstrating the challenge of our task for conventional web agents. Our benchmark provides a platform to measure and evaluate the progress of language model agents in automating computer tasks and motivates future work towards building multimodal models that bridge large language models and the visual grounding of computer screens.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-27T14:47:53Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Raghav Kapoor</name>
+    </author>
+    <author>
+      <name>Yash Parag Butala</name>
+    </author>
+    <author>
+      <name>Melisa Russak</name>
+    </author>
+    <author>
+      <name>Jing Yu Koh</name>
+    </author>
+    <author>
+      <name>Kiran Kamble</name>
+    </author>
+    <author>
+      <name>Waseem Alshikh</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13649v2</id>
+    <title>VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks</title>
+    <updated>2024-06-06T02:01:09Z</updated>
+    <link href="https://arxiv.org/abs/2401.13649v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13649v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents capable of planning, reasoning, and executing actions on the web offer a promising avenue for automating computer tasks. However, the majority of existing benchmarks primarily focus on text-based agents, neglecting many natural tasks that require visual information to effectively solve. Given that most computer interfaces cater to human perception, visual information often augments textual data in ways that text-only models struggle to harness effectively. To bridge this gap, we introduce VisualWebArena, a benchmark designed to assess the performance of multimodal web agents on realistic \textit{visually grounded tasks}. VisualWebArena comprises of a set of diverse and complex web-based tasks that evaluate various capabilities of autonomous multimodal agents. To perform on this benchmark, agents need to accurately process image-text inputs, interpret natural language instructions, and execute actions on websites to accomplish user-defined objectives. We conduct an extensive evaluation of state-of-the-art LLM-based autonomous agents, including several multimodal models. Through extensive quantitative and qualitative analysis, we identify several limitations of text-only LLM agents, and reveal gaps in the capabilities of state-of-the-art multimodal language agents. VisualWebArena provides a framework for evaluating multimodal autonomous language agents, and offers insights towards building stronger autonomous agents for the web. Our code, baseline models, and data is publicly available at https://jykoh.com/vwa.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-24T18:35:21Z</published>
+    <arxiv:comment>Accepted to ACL 2024. 24 pages. Project page: https://jykoh.com/vwa</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jing Yu Koh</name>
+    </author>
+    <author>
+      <name>Robert Lo</name>
+    </author>
+    <author>
+      <name>Lawrence Jang</name>
+    </author>
+    <author>
+      <name>Vikram Duvvur</name>
+    </author>
+    <author>
+      <name>Ming Chong Lim</name>
+    </author>
+    <author>
+      <name>Po-Yu Huang</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Shuyan Zhou</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16424v1</id>
+    <title>Manifold Preserving Guided Diffusion</title>
+    <updated>2023-11-28T02:08:06Z</updated>
+    <link href="https://arxiv.org/abs/2311.16424v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16424v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the recent advancements, conditional image generation still faces challenges of cost, generalizability, and the need for task-specific training. In this paper, we propose Manifold Preserving Guided Diffusion (MPGD), a training-free conditional generation framework that leverages pretrained diffusion models and off-the-shelf neural networks with minimal additional inference cost for a broad range of tasks. Specifically, we leverage the manifold hypothesis to refine the guided diffusion steps and introduce a shortcut algorithm in the process. We then propose two methods for on-manifold training-free guidance using pre-trained autoencoders and demonstrate that our shortcut inherently preserves the manifolds when applied to latent diffusion models. Our experiments show that MPGD is efficient and effective for solving a variety of conditional generation applications in low-compute settings, and can consistently offer up to 3.8x speed-ups with the same number of diffusion steps while maintaining high sample quality compared to the baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-28T02:08:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Naoki Murata</name>
+    </author>
+    <author>
+      <name>Chieh-Hsin Lai</name>
+    </author>
+    <author>
+      <name>Yuhta Takida</name>
+    </author>
+    <author>
+      <name>Toshimitsu Uesaka</name>
+    </author>
+    <author>
+      <name>Dongjun Kim</name>
+    </author>
+    <author>
+      <name>Wei-Hsiang Liao</name>
+    </author>
+    <author>
+      <name>Yuki Mitsufuji</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.09580v3</id>
+    <title>MMoE: Enhancing Multimodal Models with Mixtures of Multimodal Interaction Experts</title>
+    <updated>2024-09-25T18:30:28Z</updated>
+    <link href="https://arxiv.org/abs/2311.09580v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.09580v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in multimodal models have greatly improved how interactions relevant to various tasks are modeled. Today's multimodal models mainly focus on the correspondence between images and text, using this for tasks like image-text matching. However, this covers only a subset of real-world interactions. Novel interactions, such as sarcasm expressed through opposing spoken words and gestures or humor expressed through utterances and tone of voice, remain challenging. In this paper, we introduce an approach to enhance multimodal models, which we call Multimodal Mixtures of Experts (MMoE). The key idea in MMoE is to train separate expert models for each type of multimodal interaction, such as redundancy present in both modalities, uniqueness in one modality, or synergy that emerges when both modalities are fused. On a sarcasm detection task (MUStARD) and a humor detection task (URFUNNY), we obtain new state-of-the-art results. MMoE is also able to be applied to various types of models to gain improvement.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T05:31:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haofei Yu</name>
+    </author>
+    <author>
+      <name>Zhengyang Qi</name>
+    </author>
+    <author>
+      <name>Lawrence Jang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.20141v3</id>
+    <title>Contrastive Difference Predictive Coding</title>
+    <updated>2025-10-08T22:56:45Z</updated>
+    <link href="https://arxiv.org/abs/2310.20141v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.20141v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting and reasoning about the future lie at the heart of many time-series questions. For example, goal-conditioned reinforcement learning can be viewed as learning representations to predict which states are likely to be visited in the future. While prior methods have used contrastive predictive coding to model time series data, learning representations that encode long-term dependencies usually requires large amounts of data. In this paper, we introduce a temporal difference version of contrastive predictive coding that stitches together pieces of different time series data to decrease the amount of data required to learn predictions of future events. We apply this representation learning method to derive an off-policy algorithm for goal-conditioned RL. Experiments demonstrate that, compared with prior RL methods, ours achieves $2 \times$ median improvement in success rates and can better cope with stochastic environments. In tabular settings, we show that our method is about $20 \times$ more sample efficient than the successor representation and $1500 \times$ more sample efficient than the standard (Monte Carlo) version of contrastive predictive coding.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-31T03:16:32Z</published>
+    <arxiv:comment>ICLR 2024. Website (https://chongyi-zheng.github.io/td_infonce) and code (https://github.com/chongyi-zheng/td_infonce)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chongyi Zheng</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07478v2</id>
+    <title>Multimodal Graph Learning for Generative Tasks</title>
+    <updated>2023-10-12T17:07:24Z</updated>
+    <link href="https://arxiv.org/abs/2310.07478v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07478v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal learning combines multiple data modalities, broadening the types and complexity of data our models can utilize: for example, from plain text to image-caption pairs. Most multimodal learning algorithms focus on modeling simple one-to-one pairs of data from two modalities, such as image-caption pairs, or audio-text pairs. However, in most real-world settings, entities of different modalities interact with each other in more complex and multifaceted ways, going beyond one-to-one mappings. We propose to represent these complex relationships as graphs, allowing us to capture data with any number of modalities, and with complex relationships between modalities that can flexibly vary from one sample to another. Toward this goal, we propose Multimodal Graph Learning (MMGL), a general and systematic framework for capturing information from multiple multimodal neighbors with relational structures among them. In particular, we focus on MMGL for generative tasks, building upon pretrained Language Models (LMs), aiming to augment their text generation with multimodal neighbor contexts. We study three research questions raised by MMGL: (1) how can we infuse multiple neighbor information into the pretrained LMs, while avoiding scalability issues? (2) how can we infuse the graph structure information among multimodal neighbors into the LMs? and (3) how can we finetune the pretrained LMs to learn from the neighbor context in a parameter-efficient manner? We conduct extensive experiments to answer these three questions on MMGL and analyze the empirical results to pave the way for future MMGL research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T13:25:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Minji Yoon</name>
+    </author>
+    <author>
+      <name>Jing Yu Koh</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.04373v2</id>
+    <title>Confronting Reward Model Overoptimization with Constrained RLHF</title>
+    <updated>2023-10-10T15:01:11Z</updated>
+    <link href="https://arxiv.org/abs/2310.04373v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.04373v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are typically aligned with human preferences by optimizing $\textit{reward models}$ (RMs) fitted to human feedback. However, human preferences are multi-faceted, and it is increasingly common to derive reward from a composition of simpler reward models which each capture a different aspect of language quality. This itself presents a challenge, as it is difficult to appropriately weight these component RMs when combining them. Compounding this difficulty, because any RM is only a proxy for human evaluation, this process is vulnerable to $\textit{overoptimization}$, wherein past a certain point, accumulating higher reward is associated with worse human ratings. In this paper, we perform, to our knowledge, the first study on overoptimization in composite RMs, showing that correlation between component RMs has a significant effect on the locations of these points. We then introduce an approach to solve this issue using constrained reinforcement learning as a means of preventing the agent from exceeding each RM's threshold of usefulness. Our method addresses the problem of weighting component RMs by learning dynamic weights, naturally expressed by Lagrange multipliers. As a result, each RM stays within the range at which it is an effective proxy, improving evaluation performance. Finally, we introduce an adaptive method using gradient-free optimization to identify and optimize towards these points during a single run.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-06T16:59:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ted Moskovitz</name>
+    </author>
+    <author>
+      <name>Aaditya K. Singh</name>
+    </author>
+    <author>
+      <name>DJ Strouse</name>
+    </author>
+    <author>
+      <name>Tuomas Sandholm</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Anca D. Dragan</name>
+    </author>
+    <author>
+      <name>Stephen McAleer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.08661v1</id>
+    <title>Answering Ambiguous Questions with a Database of Questions, Answers, and Revisions</title>
+    <updated>2023-08-16T20:23:16Z</updated>
+    <link href="https://arxiv.org/abs/2308.08661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.08661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many open-domain questions are under-specified and thus have multiple possible answers, each of which is correct under a different interpretation of the question. Answering such ambiguous questions is challenging, as it requires retrieving and then reasoning about diverse information from multiple passages. We present a new state-of-the-art for answering ambiguous questions that exploits a database of unambiguous questions generated from Wikipedia. On the challenging ASQA benchmark, which requires generating long-form answers that summarize the multiple answers to an ambiguous question, our method improves performance by 15% (relative improvement) on recall measures and 10% on measures which evaluate disambiguating questions from predicted outputs. Retrieving from the database of generated questions also gives large improvements in diverse passage retrieval (by matching user questions q to passages p indirectly, via questions q' generated from p).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-16T20:23:16Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haitian Sun</name>
+    </author>
+    <author>
+      <name>William W. Cohen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.13101v1</id>
+    <title>Contrastive Example-Based Control</title>
+    <updated>2023-07-24T19:43:22Z</updated>
+    <link href="https://arxiv.org/abs/2307.13101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.13101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While many real-world problems that might benefit from reinforcement learning, these problems rarely fit into the MDP mold: interacting with the environment is often expensive and specifying reward functions is challenging. Motivated by these challenges, prior work has developed data-driven approaches that learn entirely from samples from the transition dynamics and examples of high-return states. These methods typically learn a reward function from high-return states, use that reward function to label the transitions, and then apply an offline RL algorithm to these transitions. While these methods can achieve good results on many tasks, they can be complex, often requiring regularization and temporal difference updates. In this paper, we propose a method for offline, example-based control that learns an implicit model of multi-step transitions, rather than a reward function. We show that this implicit model can represent the Q-values for the example-based control problem. Across a range of state-based and image-based offline control tasks, our method outperforms baselines that use learned reward functions; additional experiments demonstrate improved robustness and scaling with dataset size.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-24T19:43:22Z</published>
+    <arxiv:comment>This is an updated version of a manuscript that originally appeared at L4DC 2023. The project website is here https://sites.google.com/view/laeo-rl</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings of The 5th Annual Learning for Dynamics and Control Conference, PMLR 211:155-169, 2023</arxiv:journal_ref>
+    <author>
+      <name>Kyle Hatch</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Rafael Rafailov</name>
+    </author>
+    <author>
+      <name>Tianhe Yu</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.12968v1</id>
+    <title>A Connection between One-Step Regularization and Critic Regularization in Reinforcement Learning</title>
+    <updated>2023-07-24T17:46:32Z</updated>
+    <link href="https://arxiv.org/abs/2307.12968v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.12968v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As with any machine learning problem with limited data, effective offline RL algorithms require careful regularization to avoid overfitting. One-step methods perform regularization by doing just a single step of policy improvement, while critic regularization methods do many steps of policy improvement with a regularized objective. These methods appear distinct. One-step methods, such as advantage-weighted regression and conditional behavioral cloning, truncate policy iteration after just one step. This ``early stopping'' makes one-step RL simple and stable, but can limit its asymptotic performance. Critic regularization typically requires more compute but has appealing lower-bound guarantees. In this paper, we draw a close connection between these methods: applying a multi-step critic regularization method with a regularization coefficient of 1 yields the same policy as one-step RL. While practical implementations violate our assumptions and critic regularization is typically applied with smaller regularization coefficients, our experiments nevertheless show that our analysis makes accurate, testable predictions about practical offline RL methods (CQL and one-step RL) with commonly-used hyperparameters. Our results that every problem can be solved with a single step of policy improvement, but rather that one-step RL might be competitive with critic regularization on RL problems that demand strong regularization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-24T17:46:32Z</published>
+    <arxiv:comment>Accepted to ICML 2023. Video (https://www.youtube.com/watch?v=1xlixIHZ0R4) and code (https://github.com/ben-eysenbach/ac-connection)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Matthieu Geist</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.16413v1</id>
+    <title>MultiZoo &amp; MultiBench: A Standardized Toolkit for Multimodal Deep Learning</title>
+    <updated>2023-06-28T17:59:10Z</updated>
+    <link href="https://arxiv.org/abs/2306.16413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.16413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning multimodal representations involves integrating information from multiple heterogeneous sources of data. In order to accelerate progress towards understudied modalities and tasks while ensuring real-world robustness, we release MultiZoo, a public toolkit consisting of standardized implementations of &gt; 20 core multimodal algorithms and MultiBench, a large-scale benchmark spanning 15 datasets, 10 modalities, 20 prediction tasks, and 6 research areas. Together, these provide an automated end-to-end machine learning pipeline that simplifies and standardizes data loading, experimental setup, and model evaluation. To enable holistic evaluation, we offer a comprehensive methodology to assess (1) generalization, (2) time and space complexity, and (3) modality robustness. MultiBench paves the way towards a better understanding of the capabilities and limitations of multimodal models, while ensuring ease of use, accessibility, and reproducibility. Our toolkits are publicly available, will be regularly updated, and welcome inputs from the community.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-28T17:59:10Z</published>
+    <arxiv:comment>JMLR Open Source Software 2023, Code available at https://github.com/pliang279/MultiBench</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Yiwei Lyu</name>
+    </author>
+    <author>
+      <name>Xiang Fan</name>
+    </author>
+    <author>
+      <name>Arav Agarwal</name>
+    </author>
+    <author>
+      <name>Yun Cheng</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.14636v1</id>
+    <title>Localized Text-to-Image Generation for Free via Cross Attention Control</title>
+    <updated>2023-06-26T12:15:06Z</updated>
+    <link href="https://arxiv.org/abs/2306.14636v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.14636v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the tremendous success in text-to-image generative models, localized text-to-image generation (that is, generating objects or features at specific locations in an image while maintaining a consistent overall generation) still requires either explicit training or substantial additional inference time. In this work, we show that localized generation can be achieved by simply controlling cross attention maps during inference. With no additional training, model architecture modification or inference time, our proposed cross attention control (CAC) provides new open-vocabulary localization abilities to standard text-to-image models. CAC also enhances models that are already trained for localized generation when deployed at inference time. Furthermore, to assess localized text-to-image generation performance automatically, we develop a standardized suite of evaluations using large pretrained recognition models. Our experiments show that CAC improves localized generation performance with various types of location information ranging from bounding boxes to semantic segmentation maps, and enhances the compositional capability of state-of-the-art text-to-image generative models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-26T12:15:06Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yutong He</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.05268v2</id>
+    <title>Factorized Contrastive Learning: Going Beyond Multi-view Redundancy</title>
+    <updated>2023-10-30T05:31:05Z</updated>
+    <link href="https://arxiv.org/abs/2306.05268v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.05268v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a wide range of multimodal tasks, contrastive learning has become a particularly appealing approach since it can successfully learn representations from abundant unlabeled data with only pairing information (e.g., image-caption or video-audio pairs). Underpinning these approaches is the assumption of multi-view redundancy - that shared information between modalities is necessary and sufficient for downstream tasks. However, in many real-world settings, task-relevant information is also contained in modality-unique regions: information that is only present in one modality but still relevant to the task. How can we learn self-supervised multimodal representations to capture both shared and unique information relevant to downstream tasks? This paper proposes FactorCL, a new multimodal representation learning method to go beyond multi-view redundancy. FactorCL is built from three new contributions: (1) factorizing task-relevant information into shared and unique representations, (2) capturing task-relevant information via maximizing MI lower bounds and removing task-irrelevant information via minimizing MI upper bounds, and (3) multimodal data augmentations to approximate task relevance without labels. On large-scale real-world datasets, FactorCL captures both shared and unique information and achieves state-of-the-art results on six benchmarks</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-08T15:17:04Z</published>
+    <arxiv:comment>NeurIPS 2023. Code available at: https://github.com/pliang279/FactorCL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Zihao Deng</name>
+    </author>
+    <author>
+      <name>Martin Ma</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04539v2</id>
+    <title>Multimodal Learning Without Labeled Multimodal Data: Guarantees and Applications</title>
+    <updated>2024-06-13T17:05:54Z</updated>
+    <link href="https://arxiv.org/abs/2306.04539v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04539v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many machine learning systems that jointly learn from multiple modalities, a core research question is to understand the nature of multimodal interactions: how modalities combine to provide new task-relevant information that was not present in either alone. We study this challenge of interaction quantification in a semi-supervised setting with only labeled unimodal data and naturally co-occurring multimodal data (e.g., unlabeled images and captions, video and corresponding audio) but when labeling them is time-consuming. Using a precise information-theoretic definition of interactions, our key contribution is the derivation of lower and upper bounds to quantify the amount of multimodal interactions in this semi-supervised setting. We propose two lower bounds: one based on the shared information between modalities and the other based on disagreement between separately trained unimodal classifiers, and derive an upper bound through connections to approximate algorithms for min-entropy couplings. We validate these estimated bounds and show how they accurately track true interactions. Finally, we show how these theoretical results can be used to estimate multimodal model performance, guide data collection, and select appropriate multimodal models for various tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-07T15:44:53Z</published>
+    <arxiv:comment>ICLR 2024, Code available at: https://github.com/pliang279/PID</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Chun Kai Ling</name>
+    </author>
+    <author>
+      <name>Yun Cheng</name>
+    </author>
+    <author>
+      <name>Alex Obolenskiy</name>
+    </author>
+    <author>
+      <name>Yudong Liu</name>
+    </author>
+    <author>
+      <name>Rohan Pandey</name>
+    </author>
+    <author>
+      <name>Alex Wilf</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04125v2</id>
+    <title>Multimodal Fusion Interactions: A Study of Human and Automatic Quantification</title>
+    <updated>2023-10-30T18:06:46Z</updated>
+    <link href="https://arxiv.org/abs/2306.04125v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04125v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to perform multimodal fusion of heterogeneous signals, we need to understand their interactions: how each modality individually provides information useful for a task and how this information changes in the presence of other modalities. In this paper, we perform a comparative study of how humans annotate two categorizations of multimodal interactions: (1) partial labels, where different annotators annotate the label given the first, second, and both modalities, and (2) counterfactual labels, where the same annotator annotates the label given the first modality before asking them to explicitly reason about how their answer changes when given the second. We further propose an alternative taxonomy based on (3) information decomposition, where annotators annotate the degrees of redundancy: the extent to which modalities individually and together give the same predictions, uniqueness: the extent to which one modality enables a prediction that the other does not, and synergy: the extent to which both modalities enable one to make a prediction that one would not otherwise make using individual modalities. Through experiments and annotations, we highlight several opportunities and limitations of each approach and propose a method to automatically convert annotations of partial and counterfactual labels to information decomposition, yielding an accurate and efficient method for quantifying multimodal interactions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-07T03:44:50Z</published>
+    <arxiv:comment>International Conference on Multimodal Interaction (ICMI '23), Code available at: https://github.com/pliang279/PID. arXiv admin note: text overlap with arXiv:2302.12247</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Yun Cheng</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03346v3</id>
+    <title>Stabilizing Contrastive RL: Techniques for Robotic Goal Reaching from Offline Data</title>
+    <updated>2025-06-10T04:54:06Z</updated>
+    <link href="https://arxiv.org/abs/2306.03346v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03346v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic systems that rely primarily on self-supervised learning have the potential to decrease the amount of human annotation and engineering effort required to learn control strategies. In the same way that prior robotic systems have leveraged self-supervised techniques from computer vision (CV) and natural language processing (NLP), our work builds on prior work showing that the reinforcement learning (RL) itself can be cast as a self-supervised problem: learning to reach any goal without human-specified rewards or labels. Despite the seeming appeal, little (if any) prior work has demonstrated how self-supervised RL methods can be practically deployed on robotic systems. By first studying a challenging simulated version of this task, we discover design decisions about architectures and hyperparameters that increase the success rate by $2 \times$. These findings lay the groundwork for our main result: we demonstrate that a self-supervised RL algorithm based on contrastive learning can solve real-world, image-based robotic manipulation tasks, with tasks being specified by a single goal image provided after training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-06T01:36:56Z</published>
+    <arxiv:comment>ICLR 2024 Spotlight (&lt; 5%). Website (https://chongyi-zheng.github.io/stable_contrastive_rl) and code (https://github.com/chongyi-zheng/stable_contrastive_rl)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chongyi Zheng</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Homer Walke</name>
+    </author>
+    <author>
+      <name>Patrick Yin</name>
+    </author>
+    <author>
+      <name>Kuan Fang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17216v3</id>
+    <title>Generating Images with Multimodal Language Models</title>
+    <updated>2023-10-13T15:35:42Z</updated>
+    <link href="https://arxiv.org/abs/2305.17216v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17216v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method to fuse frozen text-only large language models (LLMs) with pre-trained image encoder and decoder models, by mapping between their embedding spaces. Our model demonstrates a wide suite of multimodal capabilities: image retrieval, novel image generation, and multimodal dialogue. Ours is the first approach capable of conditioning on arbitrarily interleaved image and text inputs to generate coherent image (and text) outputs. To achieve strong performance on image generation, we propose an efficient mapping network to ground the LLM to an off-the-shelf text-to-image generation model. This mapping network translates hidden representations of text into the embedding space of the visual models, enabling us to leverage the strong text representations of the LLM for visual outputs. Our approach outperforms baseline generation models on tasks with longer and more complex language. In addition to novel image generation, our model is also capable of image retrieval from a prespecified dataset, and decides whether to retrieve or generate at inference time. This is done with a learnt decision module which conditions on the hidden representations of the LLM. Our model exhibits a wider range of capabilities compared to prior multimodal language models. It can process image-and-text inputs, and produce retrieved images, generated images, and generated text -- outperforming non-LLM based generation models across several text-to-image tasks that measure context dependence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T19:22:03Z</published>
+    <arxiv:comment>NeurIPS 2023. Project page: http://jykoh.com/gill</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jing Yu Koh</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+</feed>

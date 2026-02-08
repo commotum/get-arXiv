@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R2C+XZwtN5AL11PGvf9lsMmCUPI</id>
+  <title>arXiv Query: search_query=au:"Jurgen Schmidhuber"&amp;id_list=&amp;start=150&amp;max_results=50</title>
+  <updated>2026-02-07T20:43:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Jurgen+Schmidhuber%22&amp;start=150&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>175</opensearch:totalResults>
+  <opensearch:startIndex>150</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1109.1314v1</id>
+    <title>Measuring Intelligence through Games</title>
+    <updated>2011-09-06T22:13:30Z</updated>
+    <link href="https://arxiv.org/abs/1109.1314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.1314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial general intelligence (AGI) refers to research aimed at tackling the full problem of artificial intelligence, that is, create truly intelligent agents. This sets it apart from most AI research which aims at solving relatively narrow domains, such as character recognition, motion planning, or increasing player satisfaction in games. But how do we know when an agent is truly intelligent? A common point of reference in the AGI community is Legg and Hutter's formal definition of universal intelligence, which has the appeal of simplicity and generality but is unfortunately incomputable. Games of various kinds are commonly used as benchmarks for "narrow" AI research, as they are considered to have many important properties. We argue that many of these properties carry over to the testing of general intelligence as well. We then sketch how such testing could practically be carried out. The central part of this sketch is an extension of universal intelligence to deal with finite time, and the use of sampling of the space of games expressed in a suitably biased game description language.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-06T22:13:30Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>Julian Togelius</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.4487v1</id>
+    <title>Natural Evolution Strategies</title>
+    <updated>2011-06-22T15:55:52Z</updated>
+    <link href="https://arxiv.org/abs/1106.4487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.4487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents Natural Evolution Strategies (NES), a recent family of algorithms that constitute a more principled approach to black-box optimization than established evolutionary algorithms. NES maintains a parameterized distribution on the set of solution candidates, and the natural gradient is used to update the distribution's parameters in the direction of higher expected fitness. We introduce a collection of techniques that address issues of convergence, robustness, sample complexity, computational complexity and sensitivity to hyperparameters. This paper explores a number of implementations of the NES family, ranging from general-purpose multi-variate normal distributions to heavy-tailed and separable distributions tailored towards global optimization and search in high dimensional spaces, respectively. Experimental results show best published performance on various standard benchmarks, as well as competitive performance on others.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-22T15:55:52Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>Tobias Glasmachers</name>
+    </author>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.1998v2</id>
+    <title>A Linear Time Natural Evolution Strategy for Non-Separable Functions</title>
+    <updated>2011-06-13T09:57:57Z</updated>
+    <link href="https://arxiv.org/abs/1106.1998v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.1998v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel Natural Evolution Strategy (NES) variant, the Rank-One NES (R1-NES), which uses a low rank approximation of the search distribution covariance matrix. The algorithm allows computation of the natural gradient with cost linear in the dimensionality of the parameter space, and excels in solving high-dimensional non-separable problems, including the best result to date on the Rosenbrock function (512 dimensions).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-10T09:56:00Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Tom Schaul</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.5708v1</id>
+    <title>Planning to Be Surprised: Optimal Bayesian Exploration in Dynamic Environments</title>
+    <updated>2011-03-29T17:02:35Z</updated>
+    <link href="https://arxiv.org/abs/1103.5708v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.5708v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To maximize its success, an AGI typically needs to explore its initially unknown world. Is there an optimal way of doing so? Here we derive an affirmative answer for a broad class of environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-29T17:02:35Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.4487v1</id>
+    <title>Handwritten Digit Recognition with a Committee of Deep Neural Nets on GPUs</title>
+    <updated>2011-03-23T10:38:50Z</updated>
+    <link href="https://arxiv.org/abs/1103.4487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.4487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The competitive MNIST handwritten digit recognition benchmark has a long history of broken records since 1998. The most recent substantial improvement by others dates back 7 years (error rate 0.4%) . Recently we were able to significantly improve this result, using graphics cards to greatly speed up training of simple but deep MLPs, which achieved 0.35%, outperforming all the previous more complex methods. Here we report another substantial improvement: 0.31% obtained using a committee of MLPs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-23T10:38:50Z</published>
+    <arxiv:comment>9 pages, 4 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dan C. Cireşan</name>
+    </author>
+    <author>
+      <name>Ueli Meier</name>
+    </author>
+    <author>
+      <name>Luca M. Gambardella</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.0183v1</id>
+    <title>High-Performance Neural Networks for Visual Object Classification</title>
+    <updated>2011-02-01T15:34:43Z</updated>
+    <link href="https://arxiv.org/abs/1102.0183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.0183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a fast, fully parameterizable GPU implementation of Convolutional Neural Network variants. Our feature extractors are neither carefully designed nor pre-wired, but rather learned in a supervised way. Our deep hierarchical architectures achieve the best published results on benchmarks for object classification (NORB, CIFAR10) and handwritten digit recognition (MNIST), with error rates of 2.53%, 19.51%, 0.35%, respectively. Deep nets trained by simple back-propagation perform better than more shallow ones. Learning is surprisingly rapid. NORB is completely trained within five epochs. Test error rates on MNIST drop to 2.42%, 0.97% and 0.48% after 1, 3 and 17 epochs, respectively.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-01T15:34:43Z</published>
+    <arxiv:comment>12 pages, 2 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dan C. Cireşan</name>
+    </author>
+    <author>
+      <name>Ueli Meier</name>
+    </author>
+    <author>
+      <name>Jonathan Masci</name>
+    </author>
+    <author>
+      <name>Luca M. Gambardella</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.2634v1</id>
+    <title>Evolution of National Nobel Prize Shares in the 20th Century</title>
+    <updated>2010-09-14T12:24:58Z</updated>
+    <link href="https://arxiv.org/abs/1009.2634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.2634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the evolution of cumulative national shares of Nobel Prizes since 1901, properly taking into account that most prizes were divided among several laureates. We rank by citizenship at the moment of the award, and by country of birth. Surprisingly, graphs of this type have not been published before, even though they powerfully illustrate the century's migration patterns (brain drains and gains) in the sciences and other fields.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-14T12:24:58Z</published>
+    <arxiv:comment>19 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.0358v1</id>
+    <title>Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition</title>
+    <updated>2010-03-01T14:32:11Z</updated>
+    <link href="https://arxiv.org/abs/1003.0358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.0358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Good old on-line back-propagation for plain multi-layer perceptrons yields a very low 0.35% error rate on the famous MNIST handwritten digits benchmark. All we need to achieve this best result so far are many hidden layers, many neurons per layer, numerous deformed training images, and graphics cards to greatly speed up learning.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-01T14:32:11Z</published>
+    <arxiv:comment>14 pages, 2 figures, 4 listings</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>Neural Computation, Volume 22, Number 12, December 2010</arxiv:journal_ref>
+    <author>
+      <name>Dan Claudiu Ciresan</name>
+    </author>
+    <author>
+      <name>Ueli Meier</name>
+    </author>
+    <author>
+      <name>Luca Maria Gambardella</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.1162/NECO_a_00052</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1162/NECO_a_00052" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4360v2</id>
+    <title>Driven by Compression Progress: A Simple Principle Explains Essential Aspects of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes</title>
+    <updated>2009-04-15T17:35:06Z</updated>
+    <link href="https://arxiv.org/abs/0812.4360v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4360v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I argue that data becomes temporarily interesting by itself to some self-improving, but computationally limited, subjective observer once he learns to predict or compress the data in a better way, thus making it subjectively simpler and more beautiful. Curiosity is the desire to create or discover more non-random, non-arbitrary, regular data that is novel and surprising not in the traditional sense of Boltzmann and Shannon but in the sense that it allows for compression progress because its regularity was not yet known. This drive maximizes interestingness, the first derivative of subjective beauty or compressibility, that is, the steepness of the learning curve. It motivates exploring infants, pure mathematicians, composers, artists, dancers, comedians, yourself, and (since 1990) artificial systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-23T10:14:18Z</published>
+    <arxiv:comment>35 pages, 3 figures, based on KES 2008 keynote and ALT 2007 / DS 2007 joint invited lecture</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Short version: J. Schmidhuber. Simple Algorithmic Theory of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes. Journal of SICE 48(1), 21-32, 2009</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.1494v1</id>
+    <title>Algorithm Selection as a Bandit Problem with Unbounded Losses</title>
+    <updated>2008-07-09T16:47:36Z</updated>
+    <link href="https://arxiv.org/abs/0807.1494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.1494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Algorithm selection is typically based on models of algorithm performance, learned during a separate offline training sequence, which can be prohibitively expensive. In recent work, we adopted an online approach, in which a performance model is iteratively updated and used to guide selection on a sequence of problem instances. The resulting exploration-exploitation trade-off was represented as a bandit problem with expert advice, using an existing solver for this game, but this required the setting of an arbitrary bound on algorithm runtimes, thus invalidating the optimal regret of the solver. In this paper, we propose a simpler framework for representing algorithm selection as a bandit problem, with partial information, and an unknown bound on losses. We adapt an existing solver to this game, proving a bound on its expected regret, which holds also for the resulting algorithm selection technique. We present preliminary experiments with a set of SAT solvers on a mixed SAT-UNSAT benchmark.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-09T16:47:36Z</published>
+    <arxiv:comment>15 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Matteo Gagliolo</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-642-13800-3_7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-642-13800-3_7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.3269v1</id>
+    <title>Phoneme recognition in TIMIT with BLSTM-CTC</title>
+    <updated>2008-04-21T15:38:45Z</updated>
+    <link href="https://arxiv.org/abs/0804.3269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.3269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compare the performance of a recurrent neural network with the best results published so far on phoneme recognition in the TIMIT database. These published results have been obtained with a combination of classifiers. However, in this paper we apply a single recurrent neural network to the same task. Our recurrent neural network attains an error rate of 24.6%. This result is not significantly different from that obtained by the other best methods, but they rely on a combination of classifiers for achieving comparable performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-21T15:38:45Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Santiago Fernández</name>
+    </author>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.0674v1</id>
+    <title>Simple Algorithmic Principles of Discovery, Subjective Beauty, Selective Attention, Curiosity &amp; Creativity</title>
+    <updated>2007-09-05T15:20:59Z</updated>
+    <link href="https://arxiv.org/abs/0709.0674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.0674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I postulate that human or other intelligent agents function or should function as follows. They store all sensory observations as they come - the data is holy. At any time, given some agent's current coding capabilities, part of the data is compressible by a short and hopefully fast program / description / explanation / world model. In the agent's subjective eyes, such data is more regular and more "beautiful" than other data. It is well-known that knowledge of regularity and repeatability may improve the agent's ability to plan actions leading to external rewards. In absence of such rewards, however, known beauty is boring. Then "interestingness" becomes the first derivative of subjective beauty: as the learning agent improves its compression algorithm, formerly apparently random data parts become subjectively more regular and beautiful. Such progress in compressibility is measured and maximized by the curiosity drive: create action sequences that extend the observation history and yield previously unknown / unpredictable but quickly learnable algorithmic regularity. We discuss how all of the above can be naturally implemented on computers, through an extension of passive unsupervised learning to the case of active data selection: we reward a general reinforcement learner (with access to the adaptive compressor) for actions that improve the subjective compressibility of the growing data. An unusually large breakthrough in compressibility deserves the name "discovery". The "creativity" of artists, dancers, musicians, pure mathematicians can be viewed as a by-product of this principle. Several qualitative examples support this hypothesis.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-05T15:20:59Z</published>
+    <arxiv:comment>15 pages, 3 highly compressible low-complexity drawings. Joint Invited Lecture for Algorithmic Learning Theory (ALT 2007) and Discovery Science (DS 2007), Sendai, Japan, 2007</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.0670v1</id>
+    <title>Using Data Compressors to Construct Rank Tests</title>
+    <updated>2007-09-05T15:06:04Z</updated>
+    <link href="https://arxiv.org/abs/0709.0670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.0670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Nonparametric rank tests for homogeneity and component independence are proposed, which are based on data compressors. For homogeneity testing the idea is to compress the binary string obtained by ordering the two joint samples and writing 0 if the element is from the first sample and 1 if it is from the second sample and breaking ties by randomization (extension to the case of multiple samples is straightforward). $H_0$ should be rejected if the string is compressed (to a certain degree) and accepted otherwise. We show that such a test obtained from an ideal data compressor is valid against all alternatives. Component independence is reduced to homogeneity testing by constructing two samples, one of which is the first half of the original and the other is the second half with one of the components randomly permuted.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-05T15:06:04Z</published>
+    <arxiv:primary_category term="cs.DS"/>
+    <arxiv:journal_ref>Applied Mathematics Letters, 22:7, 1029-1032, 2009</arxiv:journal_ref>
+    <author>
+      <name>Daniil Ryabko</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.4311v1</id>
+    <title>2006: Celebrating 75 years of AI - History and Outlook: the Next 25 Years</title>
+    <updated>2007-08-31T11:12:26Z</updated>
+    <link href="https://arxiv.org/abs/0708.4311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.4311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  When Kurt Goedel layed the foundations of theoretical computer science in 1931, he also introduced essential concepts of the theory of Artificial Intelligence (AI). Although much of subsequent AI research has focused on heuristics, which still play a major role in many practical AI applications, in the new millennium AI theory has finally become a full-fledged formal science, with important optimality results for embodied agents living in unknown environments, obtained through a combination of theory a la Goedel and probability theory. Here we look back at important milestones of AI history, mention essential recent results, and speculate about what we may expect from the next 25 years, emphasizing the significance of the ongoing dramatic hardware speedups, and discussing Goedel-inspired, self-referential, self-improving universal problem solvers.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-31T11:12:26Z</published>
+    <arxiv:comment>14 pages; preprint of invited contribution to the Proceedings of the ``50th Anniversary Summit of Artificial Intelligence'' at Monte Verita, Ascona, Switzerland, 9-14 July 2006</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.2011v1</id>
+    <title>Multi-Dimensional Recurrent Neural Networks</title>
+    <updated>2007-05-14T19:49:56Z</updated>
+    <link href="https://arxiv.org/abs/0705.2011v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.2011v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-14T19:49:56Z</published>
+    <arxiv:comment>10 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Santiago Fernandez</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0606081v3</id>
+    <title>New Millennium AI and the Convergence of History</title>
+    <updated>2006-06-29T10:05:19Z</updated>
+    <link href="https://arxiv.org/abs/cs/0606081v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0606081v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Artificial Intelligence (AI) has recently become a real formal science: the new millennium brought the first mathematically sound, asymptotically optimal, universal problem solvers, providing a new, rigorous foundation for the previously largely heuristic field of General AI and embedded agents. At the same time there has been rapid progress in practical methods for learning true sequence-processing programs, as opposed to traditional methods limited to stationary pattern association. Here we will briefly review some of the new results, and speculate about future developments, pointing out that the time intervals between the most notable events in over 40,000 years or 2^9 lifetimes of human history have sped up exponentially, apparently converging to zero within the next few decades. Or is this impression just a by-product of the way humans allocate memory space to past events?</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-19T09:13:43Z</published>
+    <arxiv:comment>Speed Prior: clarification / 15 pages, to appear in "Challenges to Computational Intelligence"</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0603023v1</id>
+    <title>Metric State Space Reinforcement Learning for a Vision-Capable Mobile Robot</title>
+    <updated>2006-03-07T08:44:29Z</updated>
+    <link href="https://arxiv.org/abs/cs/0603023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0603023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We address the problem of autonomously learning controllers for vision-capable mobile robots. We extend McCallum's (1995) Nearest-Sequence Memory algorithm to allow for general metrics over state-action trajectories. We demonstrate the feasibility of our approach by successfully running our algorithm on a real mobile robot. The algorithm is novel and unique in that it (a) explores the environment and learns directly on a mobile robot without using a hand-made computer model as an intermediate step, (b) does not require manual discretization of the sensor input space, (c) works in piecewise continuous perceptual spaces, and (d) copes with partial observability. Together this allows learning from much less experience compared to previous methods.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-03-07T08:44:29Z</published>
+    <arxiv:comment>14 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>Proc. 9th International Conf. on Intelligent Autonomous Systems (IAS 2006) pages 272-281</arxiv:journal_ref>
+    <author>
+      <name>Viktor Zhumatiy</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0512062v1</id>
+    <title>Evolino for recurrent support vector machines</title>
+    <updated>2005-12-15T15:05:22Z</updated>
+    <link href="https://arxiv.org/abs/cs/0512062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0512062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Traditional Support Vector Machines (SVMs) need pre-wired finite time windows to predict and classify time series. They do not have an internal state necessary to deal with sequences involving arbitrary long-term dependencies. Here we introduce a new class of recurrent, truly sequential SVM-like devices with internal adaptive states, trained by a novel method called EVOlution of systems with KErnel-based outputs (Evoke), an instance of the recent Evolino class of methods. Evoke evolves recurrent neural networks to detect and represent temporal dependencies while using quadratic programming/support vector regression to produce precise outputs. Evoke is the first SVM-based mechanism learning to classify a context-sensitive language. It also outperforms recent state-of-the-art gradient-based recurrent neural networks (RNNs) on various time series prediction tasks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-15T15:05:22Z</published>
+    <arxiv:comment>10 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+    <author>
+      <name>Matteo Gagliolo</name>
+    </author>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+    <author>
+      <name>Faustino Gomez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0309048v5</id>
+    <title>Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements</title>
+    <updated>2006-12-17T23:01:13Z</updated>
+    <link href="https://arxiv.org/abs/cs/0309048v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0309048v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present the first class of mathematically rigorous, general, fully self-referential, self-improving, optimally efficient problem solvers. Inspired by Kurt Goedel's celebrated self-referential formulas (1931), such a problem solver rewrites any part of its own code as soon as it has found a proof that the rewrite is useful, where the problem-dependent utility function and the hardware and the entire initial code are described by axioms encoded in an initial proof searcher which is also part of the initial code. The searcher systematically and efficiently tests computable proof techniques (programs whose outputs are proofs) until it finds a provably useful, computable self-rewrite. We show that such a self-rewrite is globally optimal - no local maxima! - since the code first had to prove that it is not useful to continue the proof search for alternative self-rewrites. Unlike previous non-self-referential methods based on hardwired proof searchers, ours not only boasts an optimal order of complexity but can optimally reduce any slowdowns hidden by the O()-notation, provided the utility of such speed-ups is provable at all.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-09-25T15:59:46Z</published>
+    <arxiv:comment>29 pages, 1 figure, minor improvements, updated references</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <arxiv:journal_ref>Variants published in "Adaptive Agents and Multi-Agent Systems II", LNCS 3394, p. 1-23, Springer, 2005: ISBN 978-3-540-25260-3; as well as in Proc. ICANN 2005, LNCS 3697, p. 223-233, Springer, 2005 (plenary talk); as well as in "Artificial General Intelligence", Series: Cognitive Technologies, Springer, 2006: ISBN-13: 978-3-540-23733-4</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0302012v2</id>
+    <title>The New AI: General &amp; Sound &amp; Relevant for Physics</title>
+    <updated>2003-11-27T10:01:42Z</updated>
+    <link href="https://arxiv.org/abs/cs/0302012v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0302012v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Most traditional artificial intelligence (AI) systems of the past 50 years are either very limited, or based on heuristics, or both. The new millennium, however, has brought substantial progress in the field of theoretically optimal and practically feasible algorithms for prediction, search, inductive inference based on Occam's razor, problem solving, decision making, and reinforcement learning in environments of a very general type. Since inductive inference is at the heart of all inductive sciences, some of the results are relevant not only for AI and computer science but also for physics, provoking nontraditional predictions based on Zuse's thesis of the computer-generated universe.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-02-10T14:17:33Z</published>
+    <arxiv:comment>23 pages, updated refs, added Goedel machine overview, corrected computing history timeline. To appear in B. Goertzel and C. Pennachin, eds.: Artificial General Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0207097v2</id>
+    <title>Optimal Ordered Problem Solver</title>
+    <updated>2002-12-23T14:11:16Z</updated>
+    <link href="https://arxiv.org/abs/cs/0207097v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0207097v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a novel, general, optimally fast, incremental way of searching for a universal algorithm that solves each task in a sequence of tasks. The Optimal Ordered Problem Solver (OOPS) continually organizes and exploits previously found solutions to earlier tasks, efficiently searching not only the space of domain-specific algorithms, but also the space of search algorithms. Essentially we extend the principles of optimal nonincremental universal search to build an incremental universal learner that is able to improve itself through experience. In illustrative experiments, our self-improver becomes the first general system that learns to solve all n disk Towers of Hanoi tasks (solution size 2^n-1) for n up to 30, profiting from previously solved, simpler tasks involving samples of a simple context free language.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-31T14:33:11Z</published>
+    <arxiv:comment>43 pages, 2 figures, short version at NIPS 2002 (added 1 figure and references; streamlined presentation)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Machine Learning, 54, 211-254, 2004.</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0111060v1</id>
+    <title>Gradient-based Reinforcement Planning in Policy-Search Methods</title>
+    <updated>2001-11-28T13:43:13Z</updated>
+    <link href="https://arxiv.org/abs/cs/0111060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0111060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce a learning method called ``gradient-based reinforcement planning'' (GREP). Unlike traditional DP methods that improve their policy backwards in time, GREP is a gradient-based method that plans ahead and improves its policy before it actually acts in the environment. We derive formulas for the exact policy gradient that maximizes the expected future reward and confirm our ideas with numerical experiments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-28T13:43:13Z</published>
+    <arxiv:comment>This is an extended version of the paper presented at the EWRL 2001 in Utrecht (The Netherlands)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ivo Kwee</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0105025v1</id>
+    <title>Market-Based Reinforcement Learning in Partially Observable Worlds</title>
+    <updated>2001-05-15T19:07:28Z</updated>
+    <link href="https://arxiv.org/abs/cs/0105025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0105025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Unlike traditional reinforcement learning (RL), market-based RL is in principle applicable to worlds described by partially observable Markov Decision Processes (POMDPs), where an agent needs to learn short-term memories of relevant previous events in order to execute optimal actions. Most previous work, however, has focused on reactive settings (MDPs) instead of POMDPs. Here we reimplement a recent approach to market-based RL and for the first time evaluate it in a toy POMDP setting.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-05-15T19:07:28Z</published>
+    <arxiv:comment>8 LaTeX pages, 2 postscript figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Lecture Notes in Computer Science (LNCS 2130), Proceeding of the International Conference on Artificial Neural Networks ICANN (2001) 865-873</arxiv:journal_ref>
+    <author>
+      <name>Ivo Kwee</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0011122v2</id>
+    <title>Algorithmic Theories of Everything</title>
+    <updated>2000-12-20T14:54:39Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0011122v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0011122v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The probability distribution P from which the history of our universe is sampled represents a theory of everything or TOE. We assume P is formally describable. Since most (uncountably many) distributions are not, this imposes a strong inductive bias. We show that P(x) is small for any universe x lacking a short description, and study the spectrum of TOEs spanned by two Ps, one reflecting the most compact constructive descriptions, the other the fastest way of computing everything. The former derives from generalizations of traditional computability, Solomonoff's algorithmic probability, Kolmogorov complexity, and objects more random than Chaitin's Omega, the latter from Levin's universal search and a natural resource-oriented postulate: the cumulative prior probability of all x incomputable within time t by this optimal algorithm should be 1/t. Between both Ps we find a universal cumulatively enumerable measure that dominates traditional enumerable measures; any such CEM must assign low probability to any universe lacking a short enumerating program. We derive P-specific consequences for evolving observers, inductive reasoning, quantum physics, philosophy, and the expected duration of our universe.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-30T14:23:55Z</published>
+    <arxiv:comment>10 theorems, 50 pages, 100 refs, 20000 words. Minor revisions: added references; improved readability</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Sections 1-5 in: Hierarchies of generalized Kolmogorov complexities and nonenumerable universal measures computable in the limit. International Journal of Foundations of Computer Science 13(4):587-612 (2002). Section 6 in: The Speed Prior: A New Simplicity Measure Yielding Near-Optimal Computable Predictions. In J. Kivinen and R. H. Sloan, editors, Proceedings of the 15th Annual Conference on Computational Learning Theory (COLT 2002), Sydney, Australia, Lecture Notes in Artificial Intelligence, pages 216--228. Springer, 2002.</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9904050v1</id>
+    <title>A Computer Scientist's View of Life, the Universe, and Everything</title>
+    <updated>1999-04-13T13:36:03Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9904050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9904050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Is the universe computable? If so, it may be much cheaper in terms of information requirements to compute all computable universes instead of just ours. I apply basic concepts of Kolmogorov complexity theory to the set of possible universes, and chat about perceived and true randomness, life, generalization, and learning in a given universe.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-04-13T13:36:03Z</published>
+    <arxiv:comment>9 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>In C. Freksa, ed., Foundations of Computer Science: Potential - Theory - Cognition, Lecture Notes in Computer Science, pp. 201-208, Springer, 1997</arxiv:journal_ref>
+    <author>
+      <name>Juergen Schmidhuber</name>
+    </author>
+  </entry>
+</feed>
