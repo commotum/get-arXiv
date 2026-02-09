@@ -1,0 +1,75 @@
+year,title,url
+2025,Average-reward reinforcement learning in semi-Markov decision processes via relative value iteration,https://arxiv.org/pdf/2512.06218.pdf
+2025,Swift-Sarsa: Fast and Robust Linear Control,https://arxiv.org/pdf/2507.19539.pdf
+2024,An Idiosyncrasy of Time-discretization in Reinforcement Learning,https://arxiv.org/pdf/2406.14951.pdf
+2024,Asynchronous Stochastic Approximation with Applications to Average-Reward Reinforcement Learning,https://arxiv.org/pdf/2409.03915.pdf
+2024,MetaOptimize: A Framework for Optimizing Step Sizes and Other Meta-parameters,https://arxiv.org/pdf/2402.02342.pdf
+2024,On Convergence of Average-Reward Q-Learning in Weakly Communicating Markov Decision Processes,https://arxiv.org/pdf/2408.16262.pdf
+2024,Reward Centering,https://arxiv.org/pdf/2405.09999.pdf
+2024,Step-size Optimization for Continual Learning,https://arxiv.org/pdf/2401.17401.pdf
+2023,A Note on Stability in Asynchronous Stochastic Approximation without Communication Delays,https://arxiv.org/pdf/2312.15091.pdf
+2023,"Iterative Option Discovery for Planning, by Planning",https://arxiv.org/pdf/2310.01569.pdf
+2023,Maintaining Plasticity in Deep Continual Learning,https://arxiv.org/pdf/2306.13812.pdf
+2023,Toward Efficient Gradient-Based Value Estimation,https://arxiv.org/pdf/2301.13757.pdf
+2023,Value-aware Importance Weighting for Off-policy Reinforcement Learning,https://arxiv.org/pdf/2306.15625.pdf
+2022,A History of Meta-gradient: Gradient Methods for Meta-learning,https://arxiv.org/pdf/2202.09701.pdf
+2022,Auxiliary task discovery through generate-and-test,https://arxiv.org/pdf/2210.14361.pdf
+2022,Doubly-Asynchronous Value Iteration: Making Value Iteration Asynchronous in Actions,https://arxiv.org/pdf/2207.01613.pdf
+2022,On Convergence of Average-Reward Off-Policy Control Algorithms in Weakly Communicating MDPs,https://arxiv.org/pdf/2209.15141.pdf
+2022,Reward-Respecting Subtasks for Model-Based Reinforcement Learning,https://arxiv.org/pdf/2202.03466.pdf
+2022,The Alberta Plan for AI Research,https://arxiv.org/pdf/2208.11173.pdf
+2022,The Quest for a Common Model of the Intelligent Decision Maker,https://arxiv.org/pdf/2202.13252.pdf
+2022,Toward Discovering Options that Achieve Faster Planning,https://arxiv.org/pdf/2205.12515.pdf
+2021,An Empirical Comparison of Off-policy Prediction Learning Algorithms in the Four Rooms Environment,https://arxiv.org/pdf/2109.05110.pdf
+2021,An Empirical Comparison of Off-policy Prediction Learning Algorithms on the Collision Task,https://arxiv.org/pdf/2106.00922.pdf
+2021,Average-Reward Learning and Planning with Options,https://arxiv.org/pdf/2110.13855.pdf
+2021,Average-Reward Off-Policy Policy Evaluation with Function Approximation,https://arxiv.org/pdf/2101.02808.pdf
+2021,Continual Backprop: Stochastic Gradient Descent with Persistent Randomness,https://arxiv.org/pdf/2108.06325.pdf
+2021,Does the Adam Optimizer Exacerbate Catastrophic Forgetting?,https://arxiv.org/pdf/2102.07686.pdf
+2021,Learning Agent State Online with Recurrent Generate-and-Test,https://arxiv.org/pdf/2112.15236.pdf
+2021,Planning with Expectation Models for Control,https://arxiv.org/pdf/2104.08543.pdf
+2020,Document-editing Assistants and Model-based Reinforcement Learning as a Path to Conversational AI,https://arxiv.org/pdf/2008.12095.pdf
+2020,From Eye-blinks to State Construction: Diagnostic Benchmarks for Online Representation Learning,https://arxiv.org/pdf/2011.04590.pdf
+2020,Inverse Policy Evaluation for Value-based Sequential Decision-making,https://arxiv.org/pdf/2008.11329.pdf
+2020,Learning and Planning in Average-Reward Markov Decision Processes,https://arxiv.org/pdf/2006.16318.pdf
+2020,Understanding the Pathologies of Approximate Policy Evaluation when Combined with Greedification in Reinforcement Learning,https://arxiv.org/pdf/2010.15268.pdf
+2019,Behaviour Suite for Reinforcement Learning,https://arxiv.org/pdf/1908.03568.pdf
+2019,Discounted Reinforcement Learning Is Not an Optimization Problem,https://arxiv.org/pdf/1910.02140.pdf
+2019,Fixed-Horizon Temporal Difference Methods for Stable Reinforcement Learning,https://arxiv.org/pdf/1909.03906.pdf
+2019,Learning Feature Relevance Through Step Size Adaptation in Temporal-Difference Learning,https://arxiv.org/pdf/1903.03252.pdf
+2019,Learning Sparse Representations Incrementally in Deep Reinforcement Learning,https://arxiv.org/pdf/1912.04002.pdf
+2019,Planning with Expectation Models,https://arxiv.org/pdf/1904.01191.pdf
+2019,Should All Temporal Difference Learning Use Emphasis?,https://arxiv.org/pdf/1903.00194.pdf
+2019,Understanding Multi-Step Deep Reinforcement Learning: A Systematic Study of the DQN Target,https://arxiv.org/pdf/1901.07510.pdf
+2018,Directly Estimating the Variance of the λ-Return Using Temporal-Difference Methods,https://arxiv.org/pdf/1801.08287.pdf
+2018,Integrating Episodic Memory into a Reinforcement Learning Agent using Reservoir Sampling,https://arxiv.org/pdf/1806.00540.pdf
+2018,Online Off-policy Prediction,https://arxiv.org/pdf/1811.02597.pdf
+2018,Per-decision Multi-step Temporal Difference Learning with Control Variates,https://arxiv.org/pdf/1807.01830.pdf
+2018,Predicting Periodicity with Temporal Difference Learning,https://arxiv.org/pdf/1809.07435.pdf
+2018,Reactive Reinforcement Learning in Asynchronous Environments,https://arxiv.org/pdf/1802.06139.pdf
+2018,TIDBD: Adapting Temporal-difference Step-sizes Through Stochastic Meta-descent,https://arxiv.org/pdf/1804.03334.pdf
+2018,Two geometric input transformation methods for fast online reinforcement learning with neural nets,https://arxiv.org/pdf/1805.07476.pdf
+2017,A Deeper Look at Experience Replay,https://arxiv.org/pdf/1712.01275.pdf
+2017,A First Empirical Study of Emphatic Temporal Difference Learning,https://arxiv.org/pdf/1705.04185.pdf
+2017,Communicative Capital for Prosthetic Agents,https://arxiv.org/pdf/1711.03676.pdf
+2017,GQ($λ$) Quick Reference and Implementation Guide,https://arxiv.org/pdf/1705.03967.pdf
+2017,Multi-step Off-policy Learning Without Importance Sampling Ratios,https://arxiv.org/pdf/1702.03006.pdf
+2017,Multi-step Reinforcement Learning: A Unifying Algorithm,https://arxiv.org/pdf/1703.01327.pdf
+2017,On Generalized Bellman Equations and Temporal-Difference Learning,https://arxiv.org/pdf/1704.04463.pdf
+2017,Policy Iterations for Reinforcement Learning Problems in Continuous Time and Space -- Fundamental Theory and Methods,https://arxiv.org/pdf/1705.03520.pdf
+2016,"A Batch, Off-Policy, Actor-Critic Algorithm for Optimizing the Average Reward",https://arxiv.org/pdf/1607.05047.pdf
+2016,Face valuing: Training user interfaces with facial expressions and reinforcement learning,https://arxiv.org/pdf/1606.02807.pdf
+2016,Learning Representations by Stochastic Meta-Gradient Descent in Neural Networks,https://arxiv.org/pdf/1612.02879.pdf
+2015,An Emphatic Approach to the Problem of Off-policy Temporal-Difference Learning,https://arxiv.org/pdf/1503.04269.pdf
+2015,An Empirical Evaluation of True Online TD(λ),https://arxiv.org/pdf/1507.00353.pdf
+2015,Emphatic Temporal-Difference Learning,https://arxiv.org/pdf/1507.01569.pdf
+2015,Learning to Predict Independent of Span,https://arxiv.org/pdf/1508.04582.pdf
+2015,Temporal-Difference Networks,https://arxiv.org/pdf/1504.05539.pdf
+2015,True Online Emphatic TD($λ$): Quick Reference and Implementation Guide,https://arxiv.org/pdf/1507.07147.pdf
+2015,True Online Temporal-Difference Learning,https://arxiv.org/pdf/1512.04087.pdf
+2013,Planning by Prioritized Sweeping with Small Backups,https://arxiv.org/pdf/1301.2343.pdf
+2013,Temporal-Difference Learning to Assist Human Decision Making during the Control of an Artificial Limb,https://arxiv.org/pdf/1309.4714.pdf
+2012,Dyna-Style Planning with Linear Function Approximation and Prioritized Sweeping,https://arxiv.org/pdf/1206.3285.pdf
+2012,Off-Policy Actor-Critic,https://arxiv.org/pdf/1205.4839.pdf
+2012,Scaling Life-long Off-policy Learning,https://arxiv.org/pdf/1206.6262.pdf
+2011,Multi-timescale Nexting in a Reinforcement Learning Robot,https://arxiv.org/pdf/1112.1133.pdf
